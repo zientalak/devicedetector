@@ -1,0 +1,24 @@
+{
+    "name": "zientalak/devicedetector",
+    "description": "Device Detector for PHP",
+    "type": "library",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Damian Zientalak",
+            "email": "damian.zientalak@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*"
+    },
+    "autoload": {
+        "psr-0" : {
+            "Zie\\DeviceDetector" : "src"
+        }
+    }
+}
