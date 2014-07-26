@@ -10,7 +10,7 @@ use Zie\DeviceDetector\Capabilities;
  * Class RobotVisitor
  * @package Zie\DeviceDetector\Visitor
  */
-class RobotVisitor extends AbstractPatternMatchVisitor
+class RobotVisitor extends AbstractDictionaryPatternsVisitor
 {
     /**
      * @var array

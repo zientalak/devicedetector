@@ -10,7 +10,7 @@ use Zie\DeviceDetector\Token\TokenInterface;
  * Class AndroidVisitor
  * @package Zie\DeviceDetector\Visitor
  */
-class AndroidVisitor extends AbstractRegexVisitor
+class AndroidVisitor extends AbstractPatternVisitor
 {
     /**
      * @var array

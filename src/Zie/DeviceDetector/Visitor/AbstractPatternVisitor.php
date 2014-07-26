@@ -9,30 +9,22 @@ use Zie\DeviceDetector\Token\TokenInterface;
 use Zie\DeviceDetector\Token\UserAgentToken;
 
 /**
- * Class AbstractPatternMatchVisitor
+ * Class AbstractPatternVisitor
  * @package Zie\DeviceDetector\Visitor
  */
-abstract class AbstractPatternMatchVisitor implements VisitorInterface
+abstract class AbstractPatternVisitor implements VisitorInterface
 {
     /**
-     * @var array
+     * @var string
      */
-    protected $patterns = array();
+    protected $pattern;
 
     /**
      * {@inheritdoc}
      */
     public function visit(TokenInterface $token, ContextInterface $context)
     {
-        $patterns = array_map(
-            function ($segment) {
-                return preg_quote($segment);
-            },
-            $this->patterns
-        );
-        $pattern = sprintf('#%s#is', implode('|', $patterns));
-        $matches = array();
-        $match = (boolean)preg_match($pattern, $token->getData(), $matches);
+        $match = (boolean)preg_match($this->pattern, $token->getData(), $matches);
         $doVisit = (int)$this->doVisit(
             $token,
             $context,

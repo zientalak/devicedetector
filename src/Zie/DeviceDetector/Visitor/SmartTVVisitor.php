@@ -10,7 +10,7 @@ use Zie\DeviceDetector\Capabilities;
  * Class SmartTVVisitor
  * @package Zie\DeviceDetector\Visitor
  */
-class SmartTVVisitor extends AbstractPatternMatchVisitor
+class SmartTVVisitor extends AbstractDictionaryPatternsVisitor
 {
     /**
      * @var array

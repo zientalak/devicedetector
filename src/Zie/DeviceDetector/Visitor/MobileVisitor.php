@@ -10,7 +10,7 @@ use Zie\DeviceDetector\Token\TokenInterface;
  * Class MobileVisitor
  * @package Zie\DeviceDetector\Visitor
  */
-class MobileVisitor extends AbstractPatternMatchVisitor
+class MobileVisitor extends AbstractDictionaryPatternsVisitor
 {
     /**
      * @var array
