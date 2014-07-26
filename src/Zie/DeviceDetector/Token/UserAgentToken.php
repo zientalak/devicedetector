@@ -28,20 +28,4 @@ class UserAgentToken implements TokenInterface
     {
         return $this->userAgent;
     }
-
-    /**
-     * {@inheritdoc}
-     */
-    public function serialize()
-    {
-        return serialize($this->userAgent);
-    }
-
-    /**
-     * {@inheritdoc}
-     */
-    public function unserialize($serialized)
-    {
-        $this->userAgent = unserialize($serialized);
-    }
 } 

@@ -29,6 +29,7 @@ atlassian-ide-plugin.xml
 com_crashlytics_export_strings.xml
 
 vendor/
+report/
 phpunit.xml
 composer.lock
 composer.phar

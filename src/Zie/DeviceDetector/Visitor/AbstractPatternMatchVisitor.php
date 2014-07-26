@@ -18,25 +18,12 @@ abstract class AbstractPatternMatchVisitor implements VisitorInterface
      * @var array
      */
     protected $patterns = array();
-    /**
-     * @var array
-     */
-    private $knownStates = array(
-        VisitorInterface::STATE_SEEKING,
-        VisitorInterface::STATE_FOUND,
-    );
 
     /**
      * {@inheritdoc}
      */
     public function visit(TokenInterface $token, ContextInterface $context)
     {
-        if (!$this->accept($token, $context)) {
-            throw new VisitorNotAcceptableException(sprintf(
-                'Cannot visit not acceptable visitor. Check whether visitor accept token before visiting.'
-            ));
-        }
-
         $patterns = array_map(
             function ($segment) {
                 return preg_quote($segment);
@@ -52,11 +39,6 @@ abstract class AbstractPatternMatchVisitor implements VisitorInterface
             $match,
             $matches
         );
-
-        if (!isset($this->knownStates[$doVisit])) {
-            throw new UnknownStateException('"doVisit" method return unknown state "%s".',
-                $doVisit);
-        }
 
         if (VisitorInterface::STATE_FOUND === $doVisit) {
             return $doVisit;

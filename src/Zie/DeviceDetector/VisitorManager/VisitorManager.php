@@ -19,6 +19,14 @@ class VisitorManager implements VisitorManagerInterface
      */
     private $priority;
 
+    /**
+     * @var array
+     */
+    private $knownStates = array(
+        VisitorInterface::STATE_FOUND,
+        VisitorInterface::STATE_SEEKING
+    );
+
     public function __construct()
     {
         $this->clear();
@@ -95,6 +103,11 @@ class VisitorManager implements VisitorManagerInterface
             foreach ($tokens as $token) {
                 if ($visitor->accept($token, $context)) {
                     $visitResult = $visitor->visit($token, $context);
+                    if (!in_array($visitResult, $this->knownStates)) {
+                        throw new VisitorNotAcceptableException(sprintf(
+                            'Cannot visit not acceptable visitor. Check whether visitor accept token before visiting.'
+                        ));
+                    }
                     if (VisitorInterface::STATE_FOUND === $visitResult) {
                         return $this;
                     }
