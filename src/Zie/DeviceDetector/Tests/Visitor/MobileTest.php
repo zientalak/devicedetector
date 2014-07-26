@@ -7,12 +7,12 @@ use Zie\DeviceDetector\Context\ContextInterface;
 use Zie\DeviceDetector\Tests\TestCase\VisitorTestCase;
 
 /**
- * Class SmartTVTest
+ * Class MobileTest
  * @package Zie\DeviceDetector\Tests\Visitor
  */
-class SmartTVTest extends VisitorTestCase
+class MobileTest extends VisitorTestCase
 {
-    protected $visitor = 'Zie\DeviceDetector\Visitor\SmartTVVisitor';
+    protected $visitor = 'Zie\DeviceDetector\Visitor\MobileVisitor';
 
     /**
      * @return array
@@ -21,7 +21,7 @@ class SmartTVTest extends VisitorTestCase
     {
         return array(
             array(
-                'Mozilla/5.0 (X11; U: Linux i686; en-US) AppleWebKit/533.4 (KHTML, like Gecko) Chrome/5.0.375.127 Large Screen Safari/533.4 GoogleTV/b39389',
+                'Mozilla/5.0 (Linux; U; Android 2.3; en-us) AppleWebKit/999+ (KHTML, like Gecko) Safari/999.9',
                 array()
             )
         );
@@ -34,7 +34,7 @@ class SmartTVTest extends VisitorTestCase
     {
         return array(
             array(
-                'Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/533.4 (KHTML, like Gecko) Chrome/5.0.375.127 Safari/533.4',
+                'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36',
                 array()
             )
         );
@@ -45,8 +45,8 @@ class SmartTVTest extends VisitorTestCase
      */
     public function postContextSuccess(ContextInterface $context)
     {
-        $this->assertTrue($context->hasCapability(Capabilities::IS_SMART_TV));
-        $this->assertTrue($context->getCapability(Capabilities::IS_SMART_TV));
+        $this->assertTrue($context->hasCapability(Capabilities::IS_MOBILE));
+        $this->assertTrue($context->getCapability(Capabilities::IS_MOBILE));
     }
 
     /**
@@ -54,7 +54,7 @@ class SmartTVTest extends VisitorTestCase
      */
     public function postContextFailure(ContextInterface $context)
     {
-        $this->assertTrue($context->hasCapability(Capabilities::IS_SMART_TV));
-        $this->assertFalse($context->getCapability(Capabilities::IS_SMART_TV));
+        $this->assertTrue($context->hasCapability(Capabilities::IS_MOBILE));
+        $this->assertFalse($context->getCapability(Capabilities::IS_MOBILE));
     }
 }

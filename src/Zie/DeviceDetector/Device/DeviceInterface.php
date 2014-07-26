@@ -34,4 +34,24 @@ interface DeviceInterface
      * @return boolean
      */
     public function isRobot();
+
+    /**
+     * @return boolean
+     */
+    public function isAndroid();
+
+    /**
+     * @return string
+     */
+    public function getOS();
+
+    /**
+     * @return string
+     */
+    public function getOSVersion();
+
+    /**
+     * @return string
+     */
+    public function getOSVendor();
 } 

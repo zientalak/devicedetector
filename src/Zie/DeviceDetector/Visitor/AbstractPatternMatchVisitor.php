@@ -9,10 +9,10 @@ use Zie\DeviceDetector\Token\TokenInterface;
 use Zie\DeviceDetector\Token\UserAgentToken;
 
 /**
- * Class AbstractUserAgentVisitor
+ * Class AbstractPatternMatchVisitor
  * @package Zie\DeviceDetector\Visitor
  */
-abstract class AbstractUserAgentVisitor implements VisitorInterface
+abstract class AbstractPatternMatchVisitor implements VisitorInterface
 {
     /**
      * @var array
@@ -37,16 +37,29 @@ abstract class AbstractUserAgentVisitor implements VisitorInterface
             ));
         }
 
-        if (preg_match(sprintf('#%s#', implode('|', $this->patterns)), $token->getData())) {
-            $doVisit = (int)$this->doVisit($token, $context);
-            if (!isset($this->knownStates[$doVisit])) {
-                throw new UnknownStateException('"doVisit" method return unknown state "%s".',
-                    $doVisit);
-            }
+        $patterns = array_map(
+            function ($segment) {
+                return preg_quote($segment);
+            },
+            $this->patterns
+        );
+        $pattern = sprintf('#%s#is', implode('|', $patterns));
+        $matches = array();
+        $match = (boolean)preg_match($pattern, $token->getData(), $matches);
+        $doVisit = (int)$this->doVisit(
+            $token,
+            $context,
+            $match,
+            $matches
+        );
 
-            if (VisitorInterface::STATE_FOUND === $doVisit) {
-                return $doVisit;
-            }
+        if (!isset($this->knownStates[$doVisit])) {
+            throw new UnknownStateException('"doVisit" method return unknown state "%s".',
+                $doVisit);
+        }
+
+        if (VisitorInterface::STATE_FOUND === $doVisit) {
+            return $doVisit;
         }
 
         return VisitorInterface::STATE_SEEKING;
@@ -63,7 +76,9 @@ abstract class AbstractUserAgentVisitor implements VisitorInterface
     /**
      * @param TokenInterface $token
      * @param ContextInterface $context
+     * @param boolean $match
+     * @param array $matches
      * @return integer
      */
-    abstract protected function doVisit(TokenInterface $token, ContextInterface $context);
+    abstract protected function doVisit(TokenInterface $token, ContextInterface $context, $match, array $matches);
 } 

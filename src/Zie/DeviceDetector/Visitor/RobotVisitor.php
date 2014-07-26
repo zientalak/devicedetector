@@ -6,7 +6,11 @@ use Zie\DeviceDetector\Context\ContextInterface;
 use Zie\DeviceDetector\Token\TokenInterface;
 use Zie\DeviceDetector\Capabilities;
 
-class RobotVisitor extends AbstractUserAgentVisitor
+/**
+ * Class RobotVisitor
+ * @package Zie\DeviceDetector\Visitor
+ */
+class RobotVisitor extends AbstractPatternMatchVisitor
 {
     /**
      * @var array
@@ -28,9 +32,9 @@ class RobotVisitor extends AbstractUserAgentVisitor
     /**
      * {@inheritdoc}
      */
-    protected function doVisit(TokenInterface $token, ContextInterface $context)
+    protected function doVisit(TokenInterface $token, ContextInterface $context, $match, array $matches)
     {
-        $context->setCapability(Capabilities::IS_ROBOT, true);
+        $context->setCapability(Capabilities::IS_ROBOT, $match);
 
         return VisitorInterface::STATE_FOUND;
     }

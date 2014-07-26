@@ -40,4 +40,9 @@ interface TokenPoolInterface extends \Countable
      * @return TokenPoolInterface
      */
     public function clear();
+
+    /**
+     * @return string|boolean
+     */
+    public function getFingerprint();
 } 

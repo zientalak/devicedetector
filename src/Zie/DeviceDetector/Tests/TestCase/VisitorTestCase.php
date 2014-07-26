@@ -2,7 +2,9 @@
 namespace Zie\DeviceDetector\Tests\TestCase;
 
 use Zie\DeviceDetector\Context\Context;
+use Zie\DeviceDetector\Context\ContextInterface;
 use Zie\DeviceDetector\Token\UserAgentToken;
+use Zie\DeviceDetector\Visitor\VisitorInterface;
 
 /**
  * Class VisitorTestCase
@@ -11,33 +13,97 @@ use Zie\DeviceDetector\Token\UserAgentToken;
 abstract class VisitorTestCase extends \PHPUnit_Framework_TestCase
 {
     /**
-     * @return string
+     * @var string
      */
-    abstract function getUserAgentSuccess();
+    protected $visitor;
 
     /**
-     * @return array
+     * @dataProvider providerSuccess
+     * @param $userAgent
+     * @param array $capabilities
      */
-    abstract function getCapabilitiesSuccess();
-
-    /**
-     * @param string $userAgent
-     * @return UserAgentToken
-     */
-    protected function getUserAgentToken($userAgent)
+    public function testSuccess($userAgent, array $capabilities)
     {
-        return new UserAgentToken($userAgent);
+        $visitor = $this->createVisitor();
+        $context = $this->createContext($capabilities);
+        $token = $this->createUserAgentToken($userAgent);
+
+        $this->assertTrue($visitor->accept($token, $context));
+        $this->assertContains(
+            $visitor->visit($token, $context),
+            array(VisitorInterface::STATE_SEEKING, VisitorInterface::STATE_FOUND)
+        );
+
+        $this->postContextSuccess($context);
+    }
+
+    /**
+     * @dataProvider providerFailure
+     * @param $userAgent
+     * @param array $capabilities
+     */
+    public function testFailure($userAgent, array $capabilities)
+    {
+        $visitor = $this->createVisitor();
+        $context = $this->createContext($capabilities);
+
+        $token = $this->createUserAgentToken($userAgent);
+
+        $this->assertTrue($visitor->accept($token, $context));
+        $this->assertContains(
+            $visitor->visit($token, $context),
+            array(VisitorInterface::STATE_SEEKING, VisitorInterface::STATE_FOUND)
+        );
+
+        $this->postContextFailure($context);
+    }
+
+    /**
+     * @return VisitorInterface
+     */
+    public function createVisitor()
+    {
+        return new $this->visitor;
     }
 
     /**
      * @param array $capabilities
      * @return Context
      */
-    protected function getContext(array $capabilities = array())
+    public function createContext(array $capabilities)
     {
         $context = new Context();
         $context->setCapabilities($capabilities);
 
         return $context;
     }
+
+    /**
+     * @param $userAgent
+     * @return UserAgentToken
+     */
+    protected function createUserAgentToken($userAgent)
+    {
+        return new UserAgentToken($userAgent);
+    }
+
+    /**
+     * @param ContextInterface $context
+     */
+    public abstract function postContextSuccess(ContextInterface $context);
+
+    /**
+     * @param ContextInterface $context
+     */
+    public abstract function postContextFailure(ContextInterface $context);
+
+    /**
+     * @return array
+     */
+    public abstract function providerSuccess();
+
+    /**
+     * @return array
+     */
+    public abstract function providerFailure();
 } 

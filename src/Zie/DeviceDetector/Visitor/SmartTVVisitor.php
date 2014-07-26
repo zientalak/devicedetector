@@ -6,7 +6,11 @@ use Zie\DeviceDetector\Context\ContextInterface;
 use Zie\DeviceDetector\Token\TokenInterface;
 use Zie\DeviceDetector\Capabilities;
 
-class SmartTVVisitor extends AbstractUserAgentVisitor
+/**
+ * Class SmartTVVisitor
+ * @package Zie\DeviceDetector\Visitor
+ */
+class SmartTVVisitor extends AbstractPatternMatchVisitor
 {
     /**
      * @var array
@@ -16,6 +20,7 @@ class SmartTVVisitor extends AbstractUserAgentVisitor
         'boxee',
         'sonydtv',
         'appletv',
+        'philipstv',
         'smarttv',
         'smart-tv',
         'dlna',
@@ -26,14 +31,17 @@ class SmartTVVisitor extends AbstractUserAgentVisitor
         'viera',
         'konfabulator',
         'sony bravia',
+        'hbbtv'
     );
 
     /**
      * {@inheritdoc}
      */
-    protected function doVisit(TokenInterface $token, ContextInterface $context)
+    protected function doVisit(TokenInterface $token, ContextInterface $context, $match, array $matches)
     {
-        $context->setCapability(Capabilities::IS_SMART_TV, true);
+        $context->setCapability(Capabilities::IS_SMART_TV, $match);
+        $context->setCapability(Capabilities::IS_MOBILE, !$match);
+        $context->setCapability(Capabilities::IS_DESKTOP, !$match);
 
         return VisitorInterface::STATE_SEEKING;
     }

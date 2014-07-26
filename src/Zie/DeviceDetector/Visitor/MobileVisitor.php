@@ -6,7 +6,11 @@ use Zie\DeviceDetector\Capabilities;
 use Zie\DeviceDetector\Context\ContextInterface;
 use Zie\DeviceDetector\Token\TokenInterface;
 
-class MobileVisitor extends AbstractUserAgentVisitor
+/**
+ * Class MobileVisitor
+ * @package Zie\DeviceDetector\Visitor
+ */
+class MobileVisitor extends AbstractPatternMatchVisitor
 {
     /**
      * @var array
@@ -59,18 +63,9 @@ class MobileVisitor extends AbstractUserAgentVisitor
     /**
      * {@inheritdoc}
      */
-    public function accept(TokenInterface $token, ContextInterface $context)
+    protected function doVisit(TokenInterface $token, ContextInterface $context, $match, array $matches)
     {
-        return parent::accept($token, $context) &&
-            !$context->hasCapability(Capabilities::IS_ROBOT) || !$context->hasCapability(Capabilities::IS_SMART_TV);
-    }
-
-    /**
-     * {@inheritdoc}
-     */
-    protected function doVisit(TokenInterface $token, ContextInterface $context)
-    {
-        $context->setCapability(Capabilities::IS_MOBILE, true);
+        $context->setCapability(Capabilities::IS_MOBILE, $match);
 
         return VisitorInterface::STATE_SEEKING;
     }
