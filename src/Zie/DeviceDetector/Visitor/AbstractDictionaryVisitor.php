@@ -9,10 +9,10 @@ use Zie\DeviceDetector\Token\TokenInterface;
 use Zie\DeviceDetector\Token\UserAgentToken;
 
 /**
- * Class AbstractDictionaryPatternsVisitor
+ * Class AbstractDictionaryVisitor
  * @package Zie\DeviceDetector\Visitor
  */
-abstract class AbstractDictionaryPatternsVisitor implements VisitorInterface
+abstract class AbstractDictionaryVisitor extends AbstractUserAgentVisitor
 {
     /**
      * @var array
@@ -45,14 +45,6 @@ abstract class AbstractDictionaryPatternsVisitor implements VisitorInterface
         }
 
         return VisitorInterface::STATE_SEEKING;
-    }
-
-    /**
-     * {@inheritdoc}
-     */
-    public function accept(TokenInterface $token, ContextInterface $context)
-    {
-        return $token instanceof UserAgentToken;
     }
 
     /**

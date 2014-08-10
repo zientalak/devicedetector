@@ -2,6 +2,8 @@
 
 namespace Zie\DeviceDetector\Device;
 
+use Zie\DeviceDetector\Capabilities;
+
 /**
  * Class Device
  * @package Zie\DeviceDetector\Device
@@ -50,7 +52,7 @@ class Device implements DeviceInterface
      */
     public function isMobile()
     {
-        return $this->getCapability('isMobile');
+        return $this->getCapability(Capabilities::IS_MOBILE);
     }
 
     /**
@@ -58,8 +60,54 @@ class Device implements DeviceInterface
      */
     public function isRobot()
     {
-        return $this->getCapability('isRobot');
+        return $this->getCapability(Capabilities::IS_ROBOT);
     }
 
+    /**
+     * {@inheritdoc}
+     */
+    public function isOSX()
+    {
+        return $this->getCapability(Capabilities::IS_OSX);
+    }
 
+    /**
+     * @return boolean
+     */
+    public function isIOS()
+    {
+        return $this->getCapability(Capabilities::IS_IOS);
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function isAndroid()
+    {
+        return $this->getCapability(Capabilities::IS_ANDROID);
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function getOS()
+    {
+        return $this->getCapability(Capabilities::OS);
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function getOSVersion()
+    {
+        return $this->getCapability(Capabilities::OS_VERSION);
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function getOSVendor()
+    {
+        return $this->getCapability(Capabilities::OS_VENDOR);
+    }
 } 

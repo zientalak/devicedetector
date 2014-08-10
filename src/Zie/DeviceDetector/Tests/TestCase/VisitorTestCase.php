@@ -18,44 +18,23 @@ abstract class VisitorTestCase extends \PHPUnit_Framework_TestCase
     protected $visitor;
 
     /**
-     * @dataProvider providerSuccess
      * @param $userAgent
      * @param array $capabilities
+     * @return Context
      */
-    public function testSuccess($userAgent, array $capabilities)
+    public function initTestSuccess($userAgent, array $capabilities)
     {
-        $visitor = $this->createVisitor();
-        $context = $this->createContext($capabilities);
-        $token = $this->createUserAgentToken($userAgent);
-
-        $this->assertTrue($visitor->accept($token, $context));
-        $this->assertContains(
-            $visitor->visit($token, $context),
-            array(VisitorInterface::STATE_SEEKING, VisitorInterface::STATE_FOUND)
-        );
-
-        $this->postContextSuccess($context);
+        return $this->initTest($userAgent, $capabilities);
     }
 
     /**
-     * @dataProvider providerFailure
      * @param $userAgent
      * @param array $capabilities
+     * @return Context
      */
-    public function testFailure($userAgent, array $capabilities)
+    public function initTestFailure($userAgent, array $capabilities)
     {
-        $visitor = $this->createVisitor();
-        $context = $this->createContext($capabilities);
-
-        $token = $this->createUserAgentToken($userAgent);
-
-        $this->assertTrue($visitor->accept($token, $context));
-        $this->assertContains(
-            $visitor->visit($token, $context),
-            array(VisitorInterface::STATE_SEEKING, VisitorInterface::STATE_FOUND)
-        );
-
-        $this->postContextFailure($context);
+        return $this->initTest($userAgent, $capabilities);
     }
 
     /**
@@ -88,22 +67,25 @@ abstract class VisitorTestCase extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @param ContextInterface $context
+     * @param $userAgent
+     * @param array $capabilities
+     * @return Context
      */
-    public abstract function postContextSuccess(ContextInterface $context);
+    protected function initTest($userAgent, array $capabilities)
+    {
+        $visitor = $this->createVisitor();
+        $context = $this->createContext($capabilities);
+        $token = $this->createUserAgentToken($userAgent);
 
-    /**
-     * @param ContextInterface $context
-     */
-    public abstract function postContextFailure(ContextInterface $context);
+        $this->assertTrue($visitor->accept($token, $context));
+        $this->assertContains(
+            $visitor->visit($token, $context),
+            array(VisitorInterface::STATE_SEEKING, VisitorInterface::STATE_FOUND)
+        );
 
-    /**
-     * @return array
-     */
-    public abstract function providerSuccess();
+        return $context;
+    }
 
-    /**
-     * @return array
-     */
-    public abstract function providerFailure();
+    public abstract function testSuccess();
+    public abstract function testFailure();
 } 

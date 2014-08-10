@@ -3,16 +3,14 @@
 namespace Zie\DeviceDetector\Visitor;
 
 use Zie\DeviceDetector\Context\ContextInterface;
-use Zie\DeviceDetector\Exception\UnknownStateException;
 use Zie\DeviceDetector\Exception\VisitorNotAcceptableException;
 use Zie\DeviceDetector\Token\TokenInterface;
-use Zie\DeviceDetector\Token\UserAgentToken;
 
 /**
  * Class AbstractPatternVisitor
  * @package Zie\DeviceDetector\Visitor
  */
-abstract class AbstractPatternVisitor implements VisitorInterface
+abstract class AbstractPatternVisitor extends AbstractUserAgentVisitor
 {
     /**
      * @var string
@@ -37,14 +35,6 @@ abstract class AbstractPatternVisitor implements VisitorInterface
         }
 
         return VisitorInterface::STATE_SEEKING;
-    }
-
-    /**
-     * {@inheritdoc}
-     */
-    public function accept(TokenInterface $token, ContextInterface $context)
-    {
-        return $token instanceof UserAgentToken;
     }
 
     /**

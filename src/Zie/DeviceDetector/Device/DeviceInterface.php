@@ -41,6 +41,16 @@ interface DeviceInterface
     public function isAndroid();
 
     /**
+     * @return boolean
+     */
+    public function isOSX();
+
+    /**
+     * @return boolean
+     */
+    public function isIOS();
+
+    /**
      * @return string
      */
     public function getOS();
