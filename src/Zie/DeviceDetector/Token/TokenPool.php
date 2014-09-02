@@ -91,13 +91,13 @@ class TokenPool implements TokenPoolInterface
      */
     public function getFingerprint()
     {
-        if(!$this->count()){
+        if (!$this->count()) {
             return false;
         }
 
         $serializedTokens = '';
         /** @var $token TokenInterface */
-        foreach($this->pool as $token){
+        foreach ($this->pool as $token) {
             $serializedTokens .= serialize($token);
         }
 

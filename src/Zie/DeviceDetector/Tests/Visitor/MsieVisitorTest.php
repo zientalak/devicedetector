@@ -38,7 +38,7 @@ class MsieVisitorTest extends VisitorTestCase
         $this->assertEquals('10', $context->getCapability(Capabilities::BROWSER_VERSION));
         $this->assertEquals('10.6', $context->getCapability(Capabilities::BROWSER_VERSION_FULL));
         $this->assertEquals(
-            Capabilities::BROWSER_VENDOR_MICROSOFT,
+            Capabilities::VENDOR_MICROSOFT,
             $context->getCapability(Capabilities::BROWSER_VENDOR)
         );
     }
@@ -52,7 +52,7 @@ class MsieVisitorTest extends VisitorTestCase
         $this->assertEquals('6', $context->getCapability(Capabilities::BROWSER_VERSION));
         $this->assertEquals('6.0', $context->getCapability(Capabilities::BROWSER_VERSION_FULL));
         $this->assertEquals(
-            Capabilities::BROWSER_VENDOR_MICROSOFT,
+            Capabilities::VENDOR_MICROSOFT,
             $context->getCapability(Capabilities::BROWSER_VENDOR)
         );
     }
@@ -60,7 +60,7 @@ class MsieVisitorTest extends VisitorTestCase
     private function notIEFailure()
     {
         $userAgent = 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:25.0) Gecko/20100101 Firefox/25.0';
-        $context = $this->initTestSuccess($userAgent, array());
+        $context = $this->initTestFailure($userAgent, array());
 
         $this->assertFalse($context->getCapability(Capabilities::BROWSER_IE));
         $this->assertFalse($context->getCapability(Capabilities::BROWSER_VERSION));
@@ -71,7 +71,7 @@ class MsieVisitorTest extends VisitorTestCase
     private function operaLikeIEFailure()
     {
         $userAgent = 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; de) Opera 11.01';
-        $context = $this->initTestSuccess($userAgent, array());
+        $context = $this->initTestFailure($userAgent, array());
 
         $this->assertFalse($context->getCapability(Capabilities::BROWSER_IE));
         $this->assertFalse($context->getCapability(Capabilities::BROWSER_VERSION));

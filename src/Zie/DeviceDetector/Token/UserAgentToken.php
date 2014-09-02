@@ -14,9 +14,9 @@ class UserAgentToken implements TokenInterface
     private $userAgent;
 
     /**
-     * @param strings $userAgent
+     * @param string $userAgent
      */
-    function __construct($userAgent)
+    public function __construct($userAgent)
     {
         $this->userAgent = (string)$userAgent;
     }

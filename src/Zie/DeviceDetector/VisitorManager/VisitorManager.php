@@ -104,9 +104,11 @@ class VisitorManager implements VisitorManagerInterface
                 if ($visitor->accept($token, $context)) {
                     $visitResult = $visitor->visit($token, $context);
                     if (!in_array($visitResult, $this->knownStates)) {
-                        throw new VisitorNotAcceptableException(sprintf(
-                            'Cannot visit not acceptable visitor. Check whether visitor accept token before visiting.'
-                        ));
+                        throw new VisitorNotAcceptableException(
+                            sprintf(
+                                'Cannot visit not acceptable visitor. Check whether visitor accept token before visiting.'
+                            )
+                        );
                     }
                     if (VisitorInterface::STATE_FOUND === $visitResult) {
                         return $this;

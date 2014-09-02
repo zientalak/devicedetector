@@ -29,7 +29,7 @@ class LinuxVisitorTest extends VisitorTestCase
     public function testFailure()
     {
         $userAgent = 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:25.0) Gecko/20100101 Firefox/25.0';
-        $context = $this->initTestSuccess($userAgent, array());
+        $context = $this->initTestFailure($userAgent, array());
 
         $this->assertFalse($context->getCapability(Capabilities::OS));
         $this->assertFalse($context->getCapability(Capabilities::OS_FAMILY));

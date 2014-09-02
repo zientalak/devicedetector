@@ -19,7 +19,7 @@ class TokenPoolTest extends \PHPUnit_Framework_TestCase
         $tokenPool->addToken($token1);
         $tokenPool->addToken($token2);
 
-        $this->assertEquals(sha1(serialize($token1).serialize($token2)), $tokenPool->getFingerprint());
+        $this->assertEquals(sha1(serialize($token1) . serialize($token2)), $tokenPool->getFingerprint());
         $tokenPool->clear();
 
         $this->assertFalse($tokenPool->getFingerprint());
@@ -58,9 +58,11 @@ class TokenPoolTest extends \PHPUnit_Framework_TestCase
         $tokenPool->clear();
         $this->assertCount(0, $tokenPool);
 
-        $tokenPool->setTokens(array(
-            $token2
-        ));
+        $tokenPool->setTokens(
+            array(
+                $token2
+            )
+        );
 
         $this->assertTrue($tokenPool->hasToken($token2));
         $this->assertCount(1, $tokenPool);

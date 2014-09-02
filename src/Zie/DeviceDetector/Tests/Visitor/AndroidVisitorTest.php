@@ -24,7 +24,7 @@ class AndroidVisitorTest extends VisitorTestCase
 
         $this->assertTrue($context->getCapability(Capabilities::IS_ANDROID));
         $this->assertEquals(Capabilities::OS_ANDROID, $context->getCapability(Capabilities::OS));
-        $this->assertEquals(Capabilities::OS_VENDOR_GOOGLE, $context->getCapability(Capabilities::OS_VENDOR));
+        $this->assertEquals(Capabilities::VENDOR_GOOGLE, $context->getCapability(Capabilities::OS_VENDOR));
         $this->assertEquals('2.3', $context->getCapability(Capabilities::OS_VERSION));
         $this->assertEquals('Gingerbread', $context->getCapability(Capabilities::OS_RELEASE));
     }

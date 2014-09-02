@@ -29,7 +29,7 @@ class MsieVisitor extends AbstractUserAgentVisitor
             $context->setCapability(Capabilities::BROWSER, Capabilities::BROWSER_IE)
                 ->setCapability(Capabilities::BROWSER_VERSION, current(explode(".", $matches['version'])))
                 ->setCapability(Capabilities::BROWSER_VERSION_FULL, $matches['version'])
-                ->setCapability(Capabilities::BROWSER_VENDOR, Capabilities::BROWSER_VENDOR_MICROSOFT);
+                ->setCapability(Capabilities::BROWSER_VENDOR, Capabilities::VENDOR_MICROSOFT);
         }
 
         // IE 11
@@ -38,7 +38,7 @@ class MsieVisitor extends AbstractUserAgentVisitor
                 $context->setCapability(Capabilities::BROWSER, Capabilities::BROWSER_IE)
                     ->setCapability(Capabilities::BROWSER_VERSION, current(explode(".", $matches['version'])))
                     ->setCapability(Capabilities::BROWSER_VERSION_FULL, $matches['version'])
-                    ->setCapability(Capabilities::BROWSER_VENDOR, Capabilities::BROWSER_VENDOR_MICROSOFT);
+                    ->setCapability(Capabilities::BROWSER_VENDOR, Capabilities::VENDOR_MICROSOFT);
             }
         }
     }

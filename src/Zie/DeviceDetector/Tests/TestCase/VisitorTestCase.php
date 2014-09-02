@@ -87,5 +87,6 @@ abstract class VisitorTestCase extends \PHPUnit_Framework_TestCase
     }
 
     public abstract function testSuccess();
+
     public abstract function testFailure();
 } 

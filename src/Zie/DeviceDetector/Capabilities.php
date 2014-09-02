@@ -29,17 +29,22 @@ final class Capabilities
     const OS_ANDROID = 'Android';
     const OS_OSX = 'OSX';
     const OS_IOS = 'iOS';
-    const OS_VENDOR_GOOGLE = 'Google';
-    const OS_VENDOR_APPLE = 'Apple';
+    const OS_WINDOWS = 'Windows';
+    const OS_WINDOWS_PHONE = 'Windows Phone';
     const OS_FAMILY_LINUX = 'Linux';
     const OS_FAMILY_UNIX = 'Unix';
+    const OS_FAMILY_WINDOWS = 'Windows';
     const BROWSER_CHROME = 'Chrome';
     const BROWSER_FIREFOX = 'Firefox';
     const BROWSER_FENNEC = 'Fennec';
+    const BROWSER_SAFARI = 'Safari';
     const BROWSER_IE = 'IE';
     const BROWSER_OPERA = 'Opera';
-    const BROWSER_VENDOR_GOOGLE = 'Google';
-    const BROWSER_VENDOR_MOZILLA = 'Mozilla';
-    const BROWSER_VENDOR_MICROSOFT = 'Microsoft';
-    const BROWSER_VENDOR_OPERA = 'Opera';
+    const BROWSER_OPERA_MINI = 'Opera Mini';
+
+    const VENDOR_GOOGLE = 'Google';
+    const VENDOR_MOZILLA = 'Mozilla';
+    const VENDOR_MICROSOFT = 'Microsoft';
+    const VENDOR_OPERA = 'Opera';
+    const VENDOR_APPLE = 'Apple';
 } 

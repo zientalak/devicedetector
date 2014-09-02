@@ -31,7 +31,7 @@ class DeviceDetector implements DeviceDetectorInterface
 
     /**
      * @param VisitorManagerInterface $visitorManager
-     * @param TokenInterface $token
+     * @param TokenPoolInterface $tokenPool
      * @param ContextInterface $context
      */
     public function __constructor(

@@ -72,7 +72,7 @@ class Context implements ContextInterface
      */
     public function removeCapability($name)
     {
-        if($this->hasCapability($name)){
+        if ($this->hasCapability($name)) {
             unset($this->capabilities[$name]);
         }
 

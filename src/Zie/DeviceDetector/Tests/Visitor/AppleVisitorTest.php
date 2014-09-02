@@ -43,7 +43,7 @@ class AppleVisitorTest extends VisitorTestCase
         $this->assertTrue($context->getCapability(Capabilities::IS_IOS));
         $this->assertEquals('iPad', $context->getCapability(Capabilities::BRAND_NAME));
         $this->assertEquals('6.0', $context->getCapability(Capabilities::OS_VERSION));
-        $this->assertEquals(Capabilities::OS_VENDOR_APPLE, $context->getCapability(Capabilities::OS_VENDOR));
+        $this->assertEquals(Capabilities::VENDOR_APPLE, $context->getCapability(Capabilities::OS_VENDOR));
         $this->assertEquals(Capabilities::OS_FAMILY_UNIX, $context->getCapability(Capabilities::OS_FAMILY));
     }
 
@@ -56,7 +56,7 @@ class AppleVisitorTest extends VisitorTestCase
         $this->assertTrue($context->getCapability(Capabilities::IS_IOS));
         $this->assertEquals('iPod', $context->getCapability(Capabilities::BRAND_NAME));
         $this->assertEquals('4.3.3', $context->getCapability(Capabilities::OS_VERSION));
-        $this->assertEquals(Capabilities::OS_VENDOR_APPLE, $context->getCapability(Capabilities::OS_VENDOR));
+        $this->assertEquals(Capabilities::VENDOR_APPLE, $context->getCapability(Capabilities::OS_VENDOR));
         $this->assertEquals(Capabilities::OS_FAMILY_UNIX, $context->getCapability(Capabilities::OS_FAMILY));
     }
 
@@ -69,7 +69,7 @@ class AppleVisitorTest extends VisitorTestCase
         $this->assertTrue($context->getCapability(Capabilities::IS_IOS));
         $this->assertEquals('iPhone', $context->getCapability(Capabilities::BRAND_NAME));
         $this->assertEquals('4.2.1', $context->getCapability(Capabilities::OS_VERSION));
-        $this->assertEquals(Capabilities::OS_VENDOR_APPLE, $context->getCapability(Capabilities::OS_VENDOR));
+        $this->assertEquals(Capabilities::VENDOR_APPLE, $context->getCapability(Capabilities::OS_VENDOR));
         $this->assertEquals(Capabilities::OS_FAMILY_UNIX, $context->getCapability(Capabilities::OS_FAMILY));
     }
 
@@ -81,7 +81,7 @@ class AppleVisitorTest extends VisitorTestCase
         $this->assertTrue($context->getCapability(Capabilities::IS_OSX));
         $this->assertFalse($context->getCapability(Capabilities::IS_IOS));
         $this->assertEquals('10.7.3', $context->getCapability(Capabilities::OS_VERSION));
-        $this->assertEquals(Capabilities::OS_VENDOR_APPLE, $context->getCapability(Capabilities::OS_VENDOR));
+        $this->assertEquals(Capabilities::VENDOR_APPLE, $context->getCapability(Capabilities::OS_VENDOR));
         $this->assertEquals(Capabilities::OS_FAMILY_UNIX, $context->getCapability(Capabilities::OS_FAMILY));
     }
 }

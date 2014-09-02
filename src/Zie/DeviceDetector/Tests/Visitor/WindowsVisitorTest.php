@@ -7,30 +7,29 @@ use Zie\DeviceDetector\Context\ContextInterface;
 use Zie\DeviceDetector\Tests\TestCase\VisitorTestCase;
 
 /**
- * Class ChromeVisitorTest
+ * Class WindowsVisitorTest
  * @package Zie\DeviceDetector\Tests\Visitor
  */
-class ChromeVisitorTest extends VisitorTestCase
+class WindowsVisitorTest extends VisitorTestCase
 {
     /**
      * @var string
      */
-    protected $visitor = 'Zie\DeviceDetector\Visitor\ChromeVisitor';
+    protected $visitor = 'Zie\DeviceDetector\Visitor\WindowsVisitor';
 
     public function testSuccess()
     {
-        $userAgent = 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1667.0 Safari/537.36';
+        $userAgent = 'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0)';
         $context = $this->initTestSuccess($userAgent, array());
 
-        $this->assertEquals(Capabilities::BROWSER_CHROME, $context->getCapability(Capabilities::BROWSER));
-        $this->assertEquals('32', $context->getCapability(Capabilities::BROWSER_VERSION));
-        $this->assertEquals('32.0.1667.0', $context->getCapability(Capabilities::BROWSER_VERSION_FULL));
-        $this->assertEquals(Capabilities::VENDOR_GOOGLE, $context->getCapability(Capabilities::BROWSER_VENDOR));
+        $this->assertEquals(Capabilities::OS_WINDOWS, $context->getCapability(Capabilities::OS));
+        $this->assertEquals('8', $context->getCapability(Capabilities::OS_VERSION));
+        $this->assertEquals(Capabilities::VENDOR_MICROSOFT, $context->getCapability(Capabilities::OS_VENDOR));
     }
 
     public function testFailure()
     {
-        $userAgent = 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:25.0) Gecko/20100101 Firefox/25.0';
+        $userAgent = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_3) AppleWebKit/534.55.3 (KHTML, like Gecko) Version/5.1.3 Safari/534.53.10';
         $context = $this->initTestFailure($userAgent, array());
 
         $this->assertFalse($context->getCapability(Capabilities::BROWSER));

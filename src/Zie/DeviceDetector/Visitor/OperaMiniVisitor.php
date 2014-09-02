@@ -7,15 +7,15 @@ use Zie\DeviceDetector\Context\ContextInterface;
 use Zie\DeviceDetector\Token\TokenInterface;
 
 /**
- * Class OperaVisitor
+ * Class OperaMiniVisitor
  * @package Zie\DeviceDetector\Visitor
  */
-class OperaVisitor extends AbstractPatternVisitor
+class OperaMiniVisitor extends AbstractPatternVisitor
 {
     /**
      * @var string
      */
-    protected $pattern = '#Opera[ /]?(?P<version>\d+\.\d+)#is';
+    protected $pattern = '#Opera Mini[ /]?(?P<version>[^\s/]+)#is';
 
     /**
      * {@inheritdoc}
@@ -23,7 +23,7 @@ class OperaVisitor extends AbstractPatternVisitor
     protected function doVisit(TokenInterface $token, ContextInterface $context, $match, array $matches)
     {
         if ($match) {
-            $context->setCapability(Capabilities::BROWSER, Capabilities::BROWSER_OPERA)
+            $context->setCapability(Capabilities::BROWSER, Capabilities::BROWSER_OPERA_MINI)
                 ->setCapability(Capabilities::BROWSER_VENDOR, Capabilities::VENDOR_OPERA)
                 ->setCapability(Capabilities::BROWSER_VERSION, current(explode(".", $matches['version'])))
                 ->setCapability(Capabilities::BROWSER_VERSION_FULL, $matches['version']);

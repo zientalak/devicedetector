@@ -22,9 +22,9 @@ class FirefoxVisitor extends AbstractPatternVisitor
      */
     protected function doVisit(TokenInterface $token, ContextInterface $context, $match, array $matches)
     {
-        if($match){
+        if ($match) {
             $context->setCapability(Capabilities::BROWSER, Capabilities::BROWSER_FIREFOX)
-                ->setCapability(Capabilities::BROWSER_VENDOR, Capabilities::BROWSER_VENDOR_MOZILLA)
+                ->setCapability(Capabilities::BROWSER_VENDOR, Capabilities::VENDOR_MOZILLA)
                 ->setCapability(Capabilities::BROWSER_VERSION, current(explode(".", $matches['version'])))
                 ->setCapability(Capabilities::BROWSER_VERSION_FULL, $matches['version']);
         }

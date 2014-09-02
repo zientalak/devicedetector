@@ -14,7 +14,8 @@ interface TokenPoolInterface extends \Countable
     public function getTokens();
 
     /**
-     * @return array
+     * @param array $tokens
+     * @return TokenPoolInterface
      */
     public function setTokens(array $tokens);
 

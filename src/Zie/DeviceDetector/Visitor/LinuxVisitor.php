@@ -24,7 +24,7 @@ class LinuxVisitor extends AbstractUserAgentVisitor
 
         if ($x11 || $linux) {
             $context->setCapability(Capabilities::OS_FAMILY, Capabilities::OS_FAMILY_LINUX);
-            if(!$context->hasCapability(Capabilities::OS)){
+            if (!$context->hasCapability(Capabilities::OS)) {
                 $context->setCapability(Capabilities::OS, Capabilities::OS_FAMILY_LINUX);
             }
         }

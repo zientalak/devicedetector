@@ -225,6 +225,7 @@ class VisitorManagerTest extends \PHPUnit_Framework_TestCase
                 $this->returnCallback(
                     function (TokenInterface $token, ContextInterface $context) use ($accept) {
                         $instanceof = get_class($accept);
+
                         return $token instanceof $instanceof;
                     }
                 )

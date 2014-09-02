@@ -68,8 +68,8 @@ class AndroidVisitor extends AbstractPatternVisitor
             $version = $this->getValidVersion($matches['version']);
             $context->setCapability(Capabilities::OS, Capabilities::OS_ANDROID)
                 ->setCapability(Capabilities::OS_VERSION, $version)
-                ->setCapability(Capabilities::OS_VENDOR, Capabilities::OS_VENDOR_GOOGLE);
-            
+                ->setCapability(Capabilities::OS_VENDOR, Capabilities::VENDOR_GOOGLE);
+
             if (isset($this->releasesMap[$version])) {
                 $context->setCapability(Capabilities::OS_RELEASE, $this->releasesMap[$version]);
             }
