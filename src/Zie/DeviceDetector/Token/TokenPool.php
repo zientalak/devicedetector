@@ -85,22 +85,4 @@ class TokenPool implements TokenPoolInterface
     {
         return $this->pool->count();
     }
-
-    /**
-     * {@inheritdoc}
-     */
-    public function getFingerprint()
-    {
-        if (!$this->count()) {
-            return false;
-        }
-
-        $serializedTokens = '';
-        /** @var $token TokenInterface */
-        foreach ($this->pool as $token) {
-            $serializedTokens .= serialize($token);
-        }
-
-        return sha1($serializedTokens);
-    }
-} 
+}

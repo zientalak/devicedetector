@@ -78,5 +78,4 @@ class Context implements ContextInterface
 
         return $this;
     }
-
-} 
+}

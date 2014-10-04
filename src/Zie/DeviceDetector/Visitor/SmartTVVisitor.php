@@ -45,4 +45,4 @@ class SmartTVVisitor extends AbstractDictionaryVisitor
 
         return VisitorInterface::STATE_SEEKING;
     }
-} 
+}

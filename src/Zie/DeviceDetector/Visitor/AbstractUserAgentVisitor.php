@@ -19,4 +19,4 @@ abstract class AbstractUserAgentVisitor implements VisitorInterface
     {
         return $token instanceof UserAgentToken;
     }
-} 
+}

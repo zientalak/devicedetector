@@ -31,4 +31,4 @@ class LinuxVisitor extends AbstractUserAgentVisitor
 
         return VisitorInterface::STATE_SEEKING;
     }
-} 
+}

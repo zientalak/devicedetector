@@ -69,4 +69,4 @@ class MobileVisitor extends AbstractDictionaryVisitor
 
         return VisitorInterface::STATE_SEEKING;
     }
-} 
+}

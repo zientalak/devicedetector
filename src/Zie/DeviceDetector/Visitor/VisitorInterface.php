@@ -29,4 +29,4 @@ interface VisitorInterface
      * @throws VisitorNotAcceptableException
      */
     public function visit(TokenInterface $token, ContextInterface $context);
-} 
+}

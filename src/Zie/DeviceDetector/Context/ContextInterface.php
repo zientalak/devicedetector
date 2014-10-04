@@ -48,4 +48,4 @@ interface ContextInterface
      * @return ContextInterface
      */
     public function removeCapability($name);
-} 
+}

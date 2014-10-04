@@ -12,4 +12,4 @@ interface DeviceDetectorInterface
      * @return \Zie\DeviceDetector\Device\DeviceInterface
      */
     public function detect();
-} 
+}

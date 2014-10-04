@@ -45,4 +45,4 @@ abstract class AbstractPatternVisitor extends AbstractUserAgentVisitor
      * @return integer
      */
     abstract protected function doVisit(TokenInterface $token, ContextInterface $context, $match, array $matches);
-} 
+}

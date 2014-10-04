@@ -27,4 +27,4 @@ class FennecVisitor extends AbstractPatternVisitor
 
         return VisitorInterface::STATE_SEEKING;
     }
-} 
+}

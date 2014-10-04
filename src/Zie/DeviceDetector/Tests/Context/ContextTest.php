@@ -45,4 +45,4 @@ class ContextTest extends \PHPUnit_Framework_TestCase
         $context->clear();
         $this->assertCount(0, $context->getCapabilities());
     }
-} 
+}

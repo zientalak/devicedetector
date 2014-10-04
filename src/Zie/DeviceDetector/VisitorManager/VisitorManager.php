@@ -133,4 +133,4 @@ class VisitorManager implements VisitorManagerInterface
 
         return $visitors;
     }
-} 
+}

@@ -31,4 +31,4 @@ class ChromeVisitor extends AbstractPatternVisitor
 
         return VisitorInterface::STATE_SEEKING;
     }
-} 
+}

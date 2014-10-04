@@ -17,4 +17,4 @@ class UserAgentTokenTest extends \PHPUnit_Framework_TestCase
 
         $this->assertEquals($userAgent, $userAgentToken->getData());
     }
-} 
+}

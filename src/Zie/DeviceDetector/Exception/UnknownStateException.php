@@ -8,4 +8,4 @@ namespace Zie\DeviceDetector\Exception;
  */
 class UnknownStateException extends \LogicException
 {
-} 
+}

@@ -42,5 +42,4 @@ class MsieVisitor extends AbstractUserAgentVisitor
             }
         }
     }
-
-} 
+}

@@ -52,4 +52,4 @@ class WindowsVisitor extends AbstractUserAgentVisitor
 
         return VisitorInterface::STATE_SEEKING;
     }
-} 
+}

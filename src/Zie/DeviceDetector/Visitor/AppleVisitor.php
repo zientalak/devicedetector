@@ -49,7 +49,6 @@ class AppleVisitor extends AbstractUserAgentVisitor
     {
         if (preg_match($this->devicesMacPattern, $token->getData())) {
             $context->setCapability(Capabilities::OS, Capabilities::OS_OSX)
-                ->setCapability(Capabilities::IS_OSX, true)
                 ->setCapability(Capabilities::OS_VENDOR, Capabilities::VENDOR_APPLE)
                 ->setCapability(Capabilities::OS_FAMILY, Capabilities::OS_FAMILY_UNIX);
 
@@ -77,8 +76,7 @@ class AppleVisitor extends AbstractUserAgentVisitor
 
         $matches = array();
         if (preg_match($this->devicesMobilePattern, $token->getData(), $matches)) {
-            $context->setCapability(Capabilities::IS_IOS, true)
-                ->setCapability(Capabilities::OS, Capabilities::OS_IOS)
+            $context->setCapability(Capabilities::OS, Capabilities::OS_IOS)
                 ->setCapability(Capabilities::OS_VENDOR, Capabilities::VENDOR_APPLE)
                 ->setCapability(Capabilities::BRAND_NAME, $matches['brand_name'])
                 ->setCapability(Capabilities::OS_FAMILY, Capabilities::OS_FAMILY_UNIX);

@@ -63,7 +63,6 @@ class AndroidVisitor extends AbstractPatternVisitor
      */
     protected function doVisit(TokenInterface $token, ContextInterface $context, $match, array $matches)
     {
-        $context->setCapability(Capabilities::IS_ANDROID, $match);
         if ($match) {
             $version = $this->getValidVersion($matches['version']);
             $context->setCapability(Capabilities::OS, Capabilities::OS_ANDROID)

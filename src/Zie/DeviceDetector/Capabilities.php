@@ -12,9 +12,6 @@ final class Capabilities
     const IS_ROBOT = 'is_robot';
     const IS_MOBILE = 'is_mobile';
     const IS_DESKTOP = 'is_desktop';
-    const IS_ANDROID = 'is_android';
-    const IS_OSX = 'is_osx';
-    const IS_IOS = 'is_ios';
     const OS = 'os';
     const OS_VERSION = 'os_version';
     const OS_VENDOR = 'os_vendor';
@@ -47,4 +44,4 @@ final class Capabilities
     const VENDOR_MICROSOFT = 'Microsoft';
     const VENDOR_OPERA = 'Opera';
     const VENDOR_APPLE = 'Apple';
-} 
+}

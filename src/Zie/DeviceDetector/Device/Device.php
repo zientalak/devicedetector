@@ -68,7 +68,7 @@ class Device implements DeviceInterface
      */
     public function isOSX()
     {
-        return $this->getCapability(Capabilities::IS_OSX);
+        return Capabilities::OS_OSX === $this->getCapability(Capabilities::OS);
     }
 
     /**
@@ -76,7 +76,7 @@ class Device implements DeviceInterface
      */
     public function isIOS()
     {
-        return $this->getCapability(Capabilities::IS_IOS);
+        return Capabilities::OS_IOS === $this->getCapability(Capabilities::OS);
     }
 
     /**
@@ -84,7 +84,7 @@ class Device implements DeviceInterface
      */
     public function isAndroid()
     {
-        return $this->getCapability(Capabilities::IS_ANDROID);
+        return Capabilities::OS_ANDROID === $this->getCapability(Capabilities::OS);
     }
 
     /**

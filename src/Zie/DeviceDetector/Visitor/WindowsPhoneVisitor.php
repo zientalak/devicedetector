@@ -41,4 +41,4 @@ class WindowsPhoneVisitor extends AbstractUserAgentVisitor
 
         return VisitorInterface::STATE_SEEKING;
     }
-} 
+}

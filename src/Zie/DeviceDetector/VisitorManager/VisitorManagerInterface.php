@@ -43,4 +43,4 @@ interface VisitorManagerInterface
      * @return VisitorManagerInterface
      */
     public function visit(TokenPoolInterface $tokenPool, ContextInterface $context);
-} 
+}

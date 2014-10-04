@@ -55,4 +55,4 @@ class DeviceDetector implements DeviceDetectorInterface
 
         return new Device($this->context->getCapabilities());
     }
-} 
+}

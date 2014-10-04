@@ -69,4 +69,4 @@ class RobotVisitor extends AbstractDictionaryVisitor
 
         return VisitorInterface::STATE_FOUND;
     }
-} 
+}

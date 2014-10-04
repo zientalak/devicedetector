@@ -28,4 +28,4 @@ class UserAgentToken implements TokenInterface
     {
         return $this->userAgent;
     }
-} 
+}

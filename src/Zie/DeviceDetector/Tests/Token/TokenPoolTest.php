@@ -10,21 +10,6 @@ use Zie\DeviceDetector\Token\TokenPool;
  */
 class TokenPoolTest extends \PHPUnit_Framework_TestCase
 {
-    public function testFingerprint()
-    {
-        $token1 = $this->getTokenMock('TokenMock1');
-        $token2 = $this->getTokenMock('TokenMock2');
-
-        $tokenPool = new TokenPool();
-        $tokenPool->addToken($token1);
-        $tokenPool->addToken($token2);
-
-        $this->assertEquals(sha1(serialize($token1) . serialize($token2)), $tokenPool->getFingerprint());
-        $tokenPool->clear();
-
-        $this->assertFalse($tokenPool->getFingerprint());
-    }
-
     public function testTokenPool()
     {
         $token1 = $this->getTokenMock('TokenMock1');
@@ -66,7 +51,6 @@ class TokenPoolTest extends \PHPUnit_Framework_TestCase
 
         $this->assertTrue($tokenPool->hasToken($token2));
         $this->assertCount(1, $tokenPool);
-
     }
 
     /**
@@ -79,4 +63,4 @@ class TokenPoolTest extends \PHPUnit_Framework_TestCase
             ->setMockClassName($mockClassName)
             ->getMock();
     }
-} 
+}

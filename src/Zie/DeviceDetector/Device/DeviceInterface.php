@@ -51,6 +51,11 @@ interface DeviceInterface
     public function isIOS();
 
     /**
+     * @return boolean
+     */
+    public function isWindows();
+
+    /**
      * @return string
      */
     public function getOS();
@@ -63,5 +68,25 @@ interface DeviceInterface
     /**
      * @return string
      */
+    public function getOSVersionFull();
+
+    /**
+     * @return string
+     */
     public function getOSVendor();
+
+    /**
+     * @return boolean
+     */
+    public function getBrowser();
+
+    /**
+     * @return string
+     */
+    public function getBrowserVersion();
+
+    /**
+     * @return string
+     */
+    public function getBrowserVersionFull();
 } 
