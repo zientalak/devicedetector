@@ -104,4 +104,4 @@ class AppleVisitor extends AbstractUserAgentVisitor
     {
         return str_replace('_', '.', $version);
     }
-} 
+}

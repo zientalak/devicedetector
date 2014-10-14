@@ -13,7 +13,7 @@ class Device implements DeviceInterface
     /**
      * @var array
      */
-    private $capabilities = array();
+    protected $capabilities = array();
 
     /**
      * @param array $capabilities
@@ -21,14 +21,6 @@ class Device implements DeviceInterface
     public function __construct(array $capabilities)
     {
         $this->capabilities = $capabilities;
-    }
-
-    /**
-     * {@inheritdoc}
-     */
-    public function getCapability($name)
-    {
-        return isset($this->capabilities[$name]) ? $this->capabilities[$name] : false;
     }
 
     /**
@@ -45,6 +37,14 @@ class Device implements DeviceInterface
     public function getCapabilities()
     {
         return $this->capabilities;
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function getCapability($name)
+    {
+        return isset($this->capabilities[$name]) ? $this->capabilities[$name] : false;
     }
 
     /**
@@ -110,4 +110,70 @@ class Device implements DeviceInterface
     {
         return $this->getCapability(Capabilities::OS_VENDOR);
     }
-} 
+
+    /**
+     * {@inheritdoc}
+     */
+    public function isWindows()
+    {
+        return Capabilities::OS_WINDOWS === $this->getCapability(Capabilities::OS)
+            || Capabilities::OS_WINDOWS_PHONE === $this->getCapability(Capabilities::OS);
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function getOSVersionFull()
+    {
+        return $this->getCapability(Capabilities::OS_VERSION_FULL);
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function getBrowser()
+    {
+        return $this->getCapability(Capabilities::BROWSER);
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function getBrowserVersion()
+    {
+        return $this->getCapability(Capabilities::BROWSER_VERSION);
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function getBrowserVersionFull()
+    {
+        return $this->getCapability(Capabilities::BROWSER_VERSION_FULL);
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function isValid()
+    {
+        return count($this->capabilities) > 0;
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function serialize()
+    {
+        return serialize($this->capabilities);
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function unserialize($serialized)
+    {
+        $this->capabilities = unserialize($serialized);
+    }
+}
+

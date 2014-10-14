@@ -4,7 +4,6 @@ namespace Zie\DeviceDetector\Detector;
 
 use Zie\DeviceDetector\Context\ContextInterface;
 use Zie\DeviceDetector\Device\Device;
-use Zie\DeviceDetector\Token\TokenInterface;
 use Zie\DeviceDetector\Token\TokenPoolInterface;
 use Zie\DeviceDetector\VisitorManager\VisitorManagerInterface;
 
@@ -34,7 +33,7 @@ class DeviceDetector implements DeviceDetectorInterface
      * @param TokenPoolInterface $tokenPool
      * @param ContextInterface $context
      */
-    public function __constructor(
+    public function __construct(
         VisitorManagerInterface $visitorManager,
         TokenPoolInterface $tokenPool,
         ContextInterface $context
@@ -42,6 +41,22 @@ class DeviceDetector implements DeviceDetectorInterface
         $this->visitorManager = $visitorManager;
         $this->tokenPool = $tokenPool;
         $this->context = $context;
+    }
+
+    /**
+     * @return TokenPoolInterface
+     */
+    public function getTokenPool()
+    {
+        return $this->tokenPool;
+    }
+
+    /**
+     * @param TokenPoolInterface $tokenPool
+     */
+    public function setTokenPool($tokenPool)
+    {
+        $this->tokenPool = $tokenPool;
     }
 
     /**

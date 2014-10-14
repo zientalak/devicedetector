@@ -2,7 +2,7 @@
 
 namespace Zie\DeviceDetector\Tests\Fingerprint;
 
-use Zie\DeviceDetector\Fingerprint\FingerprintGenerator;
+use Zie\DeviceDetector\Fingerprint\Sha1Generator;
 use Zie\DeviceDetector\Token\TokenPool;
 
 /**
@@ -20,7 +20,7 @@ class FingerprintGeneratorTest extends \PHPUnit_Framework_TestCase
         $tokenPool->addToken($token1);
         $tokenPool->addToken($token2);
 
-        $fingerprintGenerator = new FingerprintGenerator();
+        $fingerprintGenerator = new Sha1Generator();
 
         $this->assertEquals(sha1(serialize($token1) . serialize($token2)), $fingerprintGenerator->getFingerprint($tokenPool));
         $tokenPool->clear();

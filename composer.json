@@ -11,10 +11,11 @@
         }
     ],
     "require": {
-        "php": ">=5.3.3"
+        "php": ">=5.3.3",
+        "sonata-project/cache" : "@stable"
     },
     "require-dev": {
-        "phpunit/phpunit": "3.7.*"
+        "phpunit/phpunit": "@stable"
     },
     "autoload": {
         "psr-0" : {

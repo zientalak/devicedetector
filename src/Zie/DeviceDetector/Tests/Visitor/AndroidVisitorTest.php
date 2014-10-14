@@ -3,7 +3,6 @@
 namespace Zie\DeviceDetector\Tests\Visitor;
 
 use Zie\DeviceDetector\Capabilities;
-use Zie\DeviceDetector\Context\ContextInterface;
 use Zie\DeviceDetector\Tests\TestCase\VisitorTestCase;
 
 /**

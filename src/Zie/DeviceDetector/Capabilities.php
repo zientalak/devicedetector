@@ -14,6 +14,7 @@ final class Capabilities
     const IS_DESKTOP = 'is_desktop';
     const OS = 'os';
     const OS_VERSION = 'os_version';
+    const OS_VERSION_FULL = 'os_version_full';
     const OS_VENDOR = 'os_vendor';
     const OS_FAMILY = 'os_family';
     const OS_RELEASE = 'os_release';

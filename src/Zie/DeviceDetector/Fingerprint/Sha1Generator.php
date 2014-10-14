@@ -6,10 +6,10 @@ use Zie\DeviceDetector\Token\TokenInterface;
 use Zie\DeviceDetector\Token\TokenPoolInterface;
 
 /**
- * Class FingerprintGenerator
- * @package Zie\DeviceDetector\FingerprintGenerator
+ * Class Sha1Generator
+ * @package Zie\DeviceDetector\Sha1Generator
  */
-class FingerprintGenerator implements FingerprintGeneratorInterface
+class Sha1Generator implements FingerprintGeneratorInterface
 {
     /**
      * {@inheritDoc)

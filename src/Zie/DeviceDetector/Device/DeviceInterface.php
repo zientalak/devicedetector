@@ -6,7 +6,7 @@ namespace Zie\DeviceDetector\Device;
  * Interface DeviceInterface
  * @package Zie\DeviceDetector\Device
  */
-interface DeviceInterface
+interface DeviceInterface extends \Serializable
 {
     /**
      * @param $name
@@ -89,4 +89,11 @@ interface DeviceInterface
      * @return string
      */
     public function getBrowserVersionFull();
-} 
+
+    /**
+     * Return true if any capability was found.
+     *
+     * @return boolean
+     */
+    public function isValid();
+}
