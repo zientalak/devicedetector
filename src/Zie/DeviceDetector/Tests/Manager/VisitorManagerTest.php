@@ -218,6 +218,7 @@ class VisitorManagerTest extends \PHPUnit_Framework_TestCase
         TokenInterface $accept,
         $visitReturn = VisitorInterface::STATE_SEEKING
     ) {
+        $visitCalled = self::VISIT_CALLED;
         $mock = $this->getVisitorMock();
         $mock->expects($this->any())
             ->method('accept')
@@ -234,11 +235,15 @@ class VisitorManagerTest extends \PHPUnit_Framework_TestCase
             ->method('visit')
             ->will(
                 $this->returnCallback(
-                    function (TokenInterface $token, ContextInterface $context) use ($mock, $visitReturn) {
+                    function (TokenInterface $token, ContextInterface $context) use (
+                        $mock,
+                        $visitReturn,
+                        $visitCalled
+                    ) {
 
                         $context->setCapability(
                             sprintf(
-                                self::VISIT_CALLED,
+                                $visitCalled,
                                 spl_object_hash($mock),
                                 spl_object_hash($token)
                             ),
