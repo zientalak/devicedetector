@@ -12,3 +12,7 @@ before_script:
 script:
   - cp phpunit.xml.dist phpunit.xml
   - phpunit -c phpunit.xml
+
+notifications:
+  email:
+    - damian.zientalak@gmail.com
