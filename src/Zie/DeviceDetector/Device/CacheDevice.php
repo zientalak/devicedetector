@@ -177,7 +177,12 @@ final class CacheDevice implements DeviceInterface
      */
     public function serialize()
     {
-        return $this->device->serialize();
+        return serialize(
+            array(
+                'fingerprint' => $this->fingerprint,
+                'device' => $this->device
+            )
+        );
     }
 
     /**
@@ -185,6 +190,9 @@ final class CacheDevice implements DeviceInterface
      */
     public function unserialize($serialized)
     {
-        $this->device->unserialize($serialized);
+        $unserialized = unserialize($serialized);
+
+        $this->fingerprint = $unserialized['fingerprint'];
+        $this->device = $unserialized['device'];
     }
 }

@@ -1,2 +1,2 @@
-devicedetector
+Device Detector for PHP
 ==============

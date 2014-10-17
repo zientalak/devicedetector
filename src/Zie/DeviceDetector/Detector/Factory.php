@@ -2,7 +2,10 @@
 
 namespace Zie\DeviceDetector\Detector;
 
+use Zie\DeviceDetector\CacheProvider\CacheProviderInterface;
+use Zie\DeviceDetector\CacheProvider\InMemoryProvider;
 use Zie\DeviceDetector\Context\Context;
+use Zie\DeviceDetector\Fingerprint\Sha1Generator;
 use Zie\DeviceDetector\Token\TokenPool;
 use Zie\DeviceDetector\Token\UserAgentToken;
 use Zie\DeviceDetector\Visitor\AndroidVisitor;
@@ -42,6 +45,25 @@ class Factory implements FactoryInterface
             $this->createContext()
         );
     }
+
+    /**
+     * @param $userAgent
+     * @param CacheProviderInterface $cacheProvider
+     * @return CacheDetector
+     */
+    public function createCacheDeviceDetectorFromUserAgent(
+        $userAgent,
+        CacheProviderInterface $cacheProvider = null
+    ) {
+        $detector = $this->createDeviceDetectorFromUserAgent($userAgent);
+
+        return new CacheDetector(
+            $detector,
+            $this->resolveCacheProvider($cacheProvider),
+            $this->createFingerprintGenerator()
+        );
+    }
+
 
     /**
      * @return VisitorManager
@@ -92,5 +114,26 @@ class Factory implements FactoryInterface
     private function createContext()
     {
         return new Context();
+    }
+
+    /**
+     * @return Sha1Generator
+     */
+    private function createFingerprintGenerator()
+    {
+        return new Sha1Generator();
+    }
+
+    /**
+     * @param CacheProviderInterface $cacheProvider
+     * @return InMemoryProvider|CacheProviderInterface
+     */
+    private function resolveCacheProvider(CacheProviderInterface $cacheProvider = null)
+    {
+        if (is_null($cacheProvider)) {
+            $cacheProvider = new InMemoryProvider();
+        }
+
+        return $cacheProvider;
     }
 }

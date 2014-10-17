@@ -15,4 +15,14 @@ interface FactoryInterface
      * @return DeviceDetector
      */
     public function createDeviceDetectorFromUserAgent($userAgent);
+
+    /**
+     * @param $userAgent
+     * @param CacheProviderInterface $cacheProvider
+     * @return CacheDetector
+     */
+    public function createCacheDeviceDetectorFromUserAgent(
+        $userAgent,
+        CacheProviderInterface $cacheProvider = null
+    );
 }

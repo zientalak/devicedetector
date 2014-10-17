@@ -11,11 +11,13 @@
         }
     ],
     "require": {
-        "php": ">=5.3.3",
-        "sonata-project/cache" : "@stable"
+        "php": ">=5.3.3"
+    },
+    "suggest": {
+        "sonata-project/cache": "Allows cache device by using SonataProviderBridge"
     },
     "require-dev": {
-        "phpunit/phpunit": "@stable"
+        "phpunit/phpunit": "4.3.*"
     },
     "autoload": {
         "psr-0" : {

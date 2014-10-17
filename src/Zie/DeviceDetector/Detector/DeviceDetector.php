@@ -54,7 +54,7 @@ class DeviceDetector implements DeviceDetectorInterface
     /**
      * @param TokenPoolInterface $tokenPool
      */
-    public function setTokenPool($tokenPool)
+    public function setTokenPool(TokenPoolInterface $tokenPool)
     {
         $this->tokenPool = $tokenPool;
     }
