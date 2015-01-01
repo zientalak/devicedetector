@@ -15,7 +15,7 @@ after_script:
 
 script:
   - cp phpunit.xml.dist phpunit.xml
-  - phpunit -c phpunit.xml
+  - phpunit -c phpunit.xml --coverage-clover=coverage.clover
 
 notifications:
   email:
