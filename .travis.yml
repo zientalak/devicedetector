@@ -9,6 +9,10 @@ php:
 before_script:
   - composer install --prefer-source
 
+after_script:
+  - wget https://scrutinizer-ci.com/ocular.phar
+  - php ocular.phar code-coverage:upload --format=php-clover coverage.clover
+
 script:
   - cp phpunit.xml.dist phpunit.xml
   - phpunit -c phpunit.xml

@@ -33,3 +33,6 @@ report/
 phpunit.xml
 composer.lock
 composer.phar
+
+coverage.clover
+ocular.phar
