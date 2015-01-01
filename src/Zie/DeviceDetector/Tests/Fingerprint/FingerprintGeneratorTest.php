@@ -2,7 +2,7 @@
 
 namespace Zie\DeviceDetector\Tests\Fingerprint;
 
-use Zie\DeviceDetector\Fingerprint\Sha1Generator;
+use Zie\DeviceDetector\Fingerprint\GenericGenerator;
 use Zie\DeviceDetector\Token\TokenPool;
 
 /**
@@ -11,7 +11,10 @@ use Zie\DeviceDetector\Token\TokenPool;
  */
 class FingerprintGeneratorTest extends \PHPUnit_Framework_TestCase
 {
-    public function testFingerprint()
+    /**
+     * @test
+     */
+    public function fingerprintShouldGenerateHashOrReturnFalse()
     {
         $token1 = $this->getTokenMock('TokenMock1');
         $token2 = $this->getTokenMock('TokenMock2');
@@ -20,12 +23,28 @@ class FingerprintGeneratorTest extends \PHPUnit_Framework_TestCase
         $tokenPool->addToken($token1);
         $tokenPool->addToken($token2);
 
-        $fingerprintGenerator = new Sha1Generator();
+        $fingerprintGenerator = new GenericGenerator(GenericGenerator::SHA1_ALGORITHM);
 
-        $this->assertEquals(sha1(serialize($token1) . serialize($token2)), $fingerprintGenerator->getFingerprint($tokenPool));
+        $this->assertEquals(
+            sha1(serialize($token1) . serialize($token2)),
+            $fingerprintGenerator->getFingerprint($tokenPool),
+            'Fingerprint should be expected sha1 hash.'
+        );
         $tokenPool->clear();
 
-        $this->assertFalse($fingerprintGenerator->getFingerprint($tokenPool));
+        $this->assertFalse(
+            $fingerprintGenerator->getFingerprint($tokenPool),
+            'After clearing generator should return false.'
+        );
+    }
+
+    /**
+     * @test
+     * @expectedException \InvalidArgumentException
+     */
+    public function fingerprintThrowExceptionWhenAlgorithmIsInvalid()
+    {
+        new GenericGenerator('sha111');
     }
 
     /**

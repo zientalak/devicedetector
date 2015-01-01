@@ -13,7 +13,7 @@ use Zie\DeviceDetector\Device\Device;
 abstract class CacheProviderTestCase extends \PHPUnit_Framework_TestCase
 {
     /**
-     * @param $fingerprint
+     * @param string $fingerprint
      * @return CacheDevice
      */
     protected function createCacheDevice($fingerprint)
@@ -40,4 +40,9 @@ abstract class CacheProviderTestCase extends \PHPUnit_Framework_TestCase
             Capabilities::OS_VENDOR => Capabilities::VENDOR_MICROSOFT
         );
     }
+
+    abstract public function whetherProviderHasDeviceAfterAdding();
+    abstract public function whetherProviderContainsExpectedDevicesAfterAdding();
+    abstract public function whetherProviderRemoveDeviceAfterRemoving();
+    abstract public function whetherProviderThrowExceptionIfNotContainDevice();
 }

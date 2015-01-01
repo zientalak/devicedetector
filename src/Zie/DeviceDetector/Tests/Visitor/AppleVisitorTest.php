@@ -29,7 +29,7 @@ class AppleVisitorTest extends VisitorTestCase
         $userAgent = 'Mozilla/5.0 (Windows; U; Windows NT 6.1; sv-SE) AppleWebKit/533.19.4 (KHTML, like Gecko) Version/5.0.3 Safari/533.19.4';
         $context = $this->initTestFailure($userAgent, array());
 
-        $this->assertFalse($context->getCapability(Capabilities::BRAND_NAME));
+        $this->assertNull($context->getCapability(Capabilities::BRAND_NAME));
         $this->assertNotEquals(Capabilities::VENDOR_APPLE, $context->getCapability(Capabilities::OS_VENDOR));
         $this->assertNotEquals(Capabilities::OS_FAMILY_UNIX, $context->getCapability(Capabilities::OS_FAMILY));
         $this->assertNotEquals(Capabilities::OS_IOS, $context->getCapability(Capabilities::OS));

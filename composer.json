@@ -13,9 +13,6 @@
     "require": {
         "php": ">=5.3.3"
     },
-    "suggest": {
-        "sonata-project/cache": "Allows cache device by using SonataProviderBridge"
-    },
     "require-dev": {
         "phpunit/phpunit": "4.3.*"
     },

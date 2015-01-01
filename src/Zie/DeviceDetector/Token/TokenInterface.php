@@ -11,5 +11,5 @@ interface TokenInterface
     /**
      * @return mixed
      */
-    public function &getData();
+    public function getData();
 }

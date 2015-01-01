@@ -15,11 +15,6 @@ use Zie\DeviceDetector\Token\UserAgentToken;
 abstract class AbstractDictionaryVisitor extends AbstractUserAgentVisitor
 {
     /**
-     * @var array
-     */
-    protected $patterns = array();
-
-    /**
      * {@inheritdoc}
      */
     public function visit(TokenInterface $token, ContextInterface $context)
@@ -28,7 +23,7 @@ abstract class AbstractDictionaryVisitor extends AbstractUserAgentVisitor
             function ($segment) {
                 return preg_quote($segment);
             },
-            $this->patterns
+            $this->getPatterns()
         );
         $pattern = sprintf('#%s#is', implode('|', $patterns));
         $matches = array();
@@ -55,4 +50,9 @@ abstract class AbstractDictionaryVisitor extends AbstractUserAgentVisitor
      * @return integer
      */
     abstract protected function doVisit(TokenInterface $token, ContextInterface $context, $match, array $matches);
+
+    /**
+     * @return array
+     */
+    abstract protected function getPatterns();
 }

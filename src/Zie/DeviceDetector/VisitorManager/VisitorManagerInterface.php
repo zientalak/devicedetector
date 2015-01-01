@@ -6,6 +6,10 @@ use Zie\DeviceDetector\Context\ContextInterface;
 use Zie\DeviceDetector\Token\TokenPoolInterface;
 use Zie\DeviceDetector\Visitor\VisitorInterface;
 
+/**
+ * Interface VisitorManagerInterface
+ * @package Zie\DeviceDetector\VisitorManager
+ */
 interface VisitorManagerInterface
 {
     /**

@@ -12,55 +12,193 @@ use Zie\DeviceDetector\Device\Device;
  */
 class DeviceTest extends \PHPUnit_Framework_TestCase
 {
-    public function testDevice()
+    /**
+     * @test
+     */
+    public function whetherDeviceReturnExpectedValues()
     {
         $device = new Device($this->getCapabilities());
 
-        $this->assertFalse($device->isMobile());
-        $this->assertFalse($device->isRobot());
-        $this->assertFalse($device->isOSX());
-        $this->assertFalse($device->isIOS());
-        $this->assertFalse($device->isAndroid());
-        $this->assertTrue($device->isWindows());
-        $this->assertTrue($device->isValid());
-        $this->assertEquals(Capabilities::OS_WINDOWS, $device->getOS());
-        $this->assertEquals('8', $device->getOSVersion());
-        $this->assertEquals(Capabilities::VENDOR_MICROSOFT, $device->getOSVendor());
-        $this->assertFalse($device->getOSVersionFull());
-        $this->assertEquals(Capabilities::BROWSER_CHROME, $device->getBrowser());
-        $this->assertEquals('23', $device->getBrowserVersion());
-        $this->assertFalse($device->getBrowserVersionFull());
+        $this->assertTrue(
+            $device->isValid(),
+            'isValid should return true.'
+        );
+        $this->assertFalse(
+            $device->isMobile(),
+            'isMobile should return false.'
+        );
+        $this->assertFalse(
+            $device->isRobot(),
+            'isRobot should return false.'
+        );
+        $this->assertFalse(
+            $device->isOSX(),
+            'isOSX should return false.'
+        );
+        $this->assertFalse(
+            $device->isIOS(),
+            'isIOS should return false.'
+        );
+        $this->assertFalse(
+            $device->isAndroid(),
+            'isAndroid should return false.'
+        );
+        $this->assertTrue(
+            $device->isWindows(),
+            'isWindows should return true.'
+        );
+        $this->assertEquals(
+            Capabilities::OS_WINDOWS,
+            $device->getOS(),
+            'OS should be Windows.'
+        );
+        $this->assertEquals(
+            Capabilities::OS_WINDOWS,
+            $device->getCapability(Capabilities::OS),
+            'OS should be Windows.'
+        );
+        $this->assertNull(
+            $device->getCapability(Capabilities::BROWSER_ENGINE),
+            'Browser engine should be null.'
+        );
+        $this->assertTrue(
+            $device->hasCapability(Capabilities::OS),
+            'Device should contain OS capability.'
+        );
+        $this->assertEquals(
+            '8',
+            $device->getOSVersion(),
+            'OS version should be 8.'
+        );
+        $this->assertEquals(
+            Capabilities::VENDOR_MICROSOFT,
+            $device->getOSVendor(),
+            'OS vendor should be Microsoft.'
+        );
+        $this->assertNull(
+            $device->getOSVersionFull(),
+            'OS full version should be null.'
+        );
+        $this->assertEquals(
+            Capabilities::BROWSER_CHROME,
+            $device->getBrowser(),
+            'Browser should be Chrome.'
+        );
+        $this->assertEquals(
+            '23',
+            $device->getBrowserVersion(),
+            'Browser version should be 23.'
+        );
+        $this->assertNull(
+            $device->getBrowserVersionFull(),
+            'Browser full version should be null.'
+        );
 
         $device = new Device(array());
-        $this->assertFalse($device->isValid());
+        $this->assertFalse(
+            $device->isValid(),
+            'Device should not be valid.'
+        );
     }
 
-    public function testCachedDevice()
+    /**
+     * @test
+     */
+    public function whetherCachedDeviceDetectorReturnExpectedValues()
     {
         $device = new Device($this->getCapabilities());
         $cachedDevice = new CacheDevice($device, sha1('fingerprint'));
 
-        $this->assertFalse($cachedDevice->isMobile());
-        $this->assertFalse($cachedDevice->isRobot());
-        $this->assertFalse($cachedDevice->isOSX());
-        $this->assertFalse($cachedDevice->isIOS());
-        $this->assertFalse($cachedDevice->isAndroid());
-        $this->assertTrue($cachedDevice->isWindows());
-        $this->assertTrue($cachedDevice->isValid());
-        $this->assertEquals(Capabilities::OS_WINDOWS, $cachedDevice->getOS());
-        $this->assertEquals('8', $cachedDevice->getOSVersion());
-        $this->assertEquals(Capabilities::VENDOR_MICROSOFT, $cachedDevice->getOSVendor());
-        $this->assertFalse($cachedDevice->getOSVersionFull());
-        $this->assertEquals(Capabilities::BROWSER_CHROME, $cachedDevice->getBrowser());
-        $this->assertEquals('23', $cachedDevice->getBrowserVersion());
-        $this->assertFalse($cachedDevice->getBrowserVersionFull());
-        $this->assertEquals(sha1('fingerprint'), $cachedDevice->getFingerprint());
+        $this->assertTrue(
+            $cachedDevice->isValid(),
+            'isValid should return true.'
+        );
+        $this->assertFalse(
+            $cachedDevice->isMobile(),
+            'isMobile should return false.'
+        );
+        $this->assertFalse(
+            $cachedDevice->isRobot(),
+            'isRobot should return false.'
+        );
+        $this->assertFalse(
+            $cachedDevice->isOSX(),
+            'isOSX should return false.'
+        );
+        $this->assertFalse(
+            $cachedDevice->isIOS(),
+            'isIOS should return false.'
+        );
+        $this->assertFalse(
+            $cachedDevice->isAndroid(),
+            'isAndroid should return false.'
+        );
+        $this->assertTrue(
+            $cachedDevice->isWindows(),
+            'isWindows should return true.'
+        );
+        $this->assertEquals(
+            Capabilities::OS_WINDOWS,
+            $cachedDevice->getOS(),
+            'OS should be Windows.'
+        );
+        $this->assertEquals(
+            Capabilities::OS_WINDOWS,
+            $device->getCapability(Capabilities::OS),
+            'OS should be Windows.'
+        );
+        $this->assertNull(
+            $cachedDevice->getCapability(Capabilities::BROWSER_ENGINE),
+            'Browser engine should be null.'
+        );
+        $this->assertTrue(
+            $cachedDevice->hasCapability(Capabilities::OS),
+            'Device should contain OS capability.'
+        );
+        $this->assertEquals(
+            '8',
+            $cachedDevice->getOSVersion(),
+            'OS version should be 8.'
+        );
+        $this->assertEquals(
+            Capabilities::VENDOR_MICROSOFT,
+            $cachedDevice->getOSVendor(),
+            'OS vendor should be Microsoft.'
+        );
+        $this->assertNull(
+            $cachedDevice->getOSVersionFull(),
+            'OS full version should be null.'
+        );
+        $this->assertEquals(
+            Capabilities::BROWSER_CHROME,
+            $cachedDevice->getBrowser(),
+            'Browser should be Chrome.'
+        );
+        $this->assertEquals(
+            '23',
+            $cachedDevice->getBrowserVersion(),
+            'Browser version should be 23.'
+        );
+        $this->assertNull(
+            $cachedDevice->getBrowserVersionFull(),
+            'Browser full version should be null.'
+        );
 
-        $cachedDevice = new CacheDevice(new Device(array()), sha1('fingerprint'));
-        $this->assertFalse($cachedDevice->isValid());
+        $cachedDevice = new CacheDevice(
+            new Device(array()),
+            sha1('fingerprint')
+        );
+
+        $this->assertFalse(
+            $cachedDevice->isValid(),
+            'Device should not be valid.'
+        );
     }
 
-    public function testSerializationDevice()
+    /**
+     * @test
+     */
+    public function deviceShouldBeSerializable()
     {
         $device = new Device($this->getCapabilities());
 
@@ -68,11 +206,22 @@ class DeviceTest extends \PHPUnit_Framework_TestCase
         /** @var Device $unserializedDevice */
         $unserializedDevice = unserialize($serializedDevice);
 
-        $this->assertInstanceOf('Zie\DeviceDetector\Device\Device', $unserializedDevice);
-        $this->assertEquals($device->getCapabilities(), $unserializedDevice->getCapabilities());
+        $this->assertInstanceOf(
+            'Zie\DeviceDetector\Device\Device',
+            $unserializedDevice,
+            'Unserialize should return instance of Zie\DeviceDetector\Device\Device.'
+        );
+        $this->assertSame(
+            $device->getCapabilities(),
+            $unserializedDevice->getCapabilities(),
+            'Object should be same before and after serialization.'
+        );
     }
 
-    public function testSerializationCacheDevice()
+    /**
+     * @test
+     */
+    public function cacheDeviceShouldBeSerializable()
     {
         $device = new Device($this->getCapabilities());
         $cachedDevice = new CacheDevice($device, sha1('fingerprint'));
@@ -81,9 +230,21 @@ class DeviceTest extends \PHPUnit_Framework_TestCase
         /** @var CacheDevice $unserializedDevice */
         $unserializedDevice = unserialize($serializedDevice);
 
-        $this->assertInstanceOf('Zie\DeviceDetector\Device\CacheDevice', $unserializedDevice);
-        $this->assertEquals($cachedDevice->getCapabilities(), $unserializedDevice->getCapabilities());
-        $this->assertEquals($cachedDevice->getFingerprint(), $unserializedDevice->getFingerprint());
+        $this->assertInstanceOf(
+            'Zie\DeviceDetector\Device\CacheDevice',
+            $unserializedDevice,
+            'Unserialize should return instance of Zie\DeviceDetector\Device\CacheDevice.'
+        );
+        $this->assertSame(
+            $cachedDevice->getCapabilities(),
+            $unserializedDevice->getCapabilities(),
+            'Object should be same before and after serialization.'
+        );
+        $this->assertSame(
+            $cachedDevice->getFingerprint(),
+            $unserializedDevice->getFingerprint(),
+            'Fingerprints should be identical.'
+        );
     }
 
     /**

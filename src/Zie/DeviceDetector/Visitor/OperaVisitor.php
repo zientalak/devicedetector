@@ -13,11 +13,6 @@ use Zie\DeviceDetector\Token\TokenInterface;
 class OperaVisitor extends AbstractPatternVisitor
 {
     /**
-     * @var string
-     */
-    protected $pattern = '#Opera[ /]?(?P<version>\d+\.\d+)#is';
-
-    /**
      * {@inheritdoc}
      */
     protected function doVisit(TokenInterface $token, ContextInterface $context, $match, array $matches)
@@ -30,5 +25,13 @@ class OperaVisitor extends AbstractPatternVisitor
         }
 
         return VisitorInterface::STATE_SEEKING;
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    protected function getPattern()
+    {
+        return '#Opera[ /]?(?P<version>\d+\.\d+)#is';
     }
 }

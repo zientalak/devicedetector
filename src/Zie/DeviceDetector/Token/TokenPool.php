@@ -13,6 +13,9 @@ class TokenPool implements TokenPoolInterface
      */
     private $pool;
 
+    /**
+     * Constructor
+     */
     public function __construct()
     {
         $this->pool = new \SplObjectStorage();

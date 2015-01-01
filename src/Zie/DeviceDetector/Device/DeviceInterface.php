@@ -10,7 +10,7 @@ interface DeviceInterface extends \Serializable
 {
     /**
      * @param $name
-     * @return mixed
+     * @return mixed|null
      */
     public function getCapability($name);
 

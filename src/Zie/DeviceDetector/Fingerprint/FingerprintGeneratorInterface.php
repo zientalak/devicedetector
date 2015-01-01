@@ -6,7 +6,7 @@ use Zie\DeviceDetector\Token\TokenPoolInterface;
 
 /**
  * Interface FingerprintGeneratorInterface
- * @package Zie\DeviceDetector\Sha1Generator
+ * @package Zie\DeviceDetector\GenericGenerator
  */
 interface FingerprintGeneratorInterface
 {

@@ -12,17 +12,21 @@ final class Capabilities
     const IS_ROBOT = 'is_robot';
     const IS_MOBILE = 'is_mobile';
     const IS_DESKTOP = 'is_desktop';
+
     const OS = 'os';
     const OS_VERSION = 'os_version';
     const OS_VERSION_FULL = 'os_version_full';
     const OS_VENDOR = 'os_vendor';
     const OS_FAMILY = 'os_family';
     const OS_RELEASE = 'os_release';
+
     const BROWSER = 'browser';
     const BROWSER_VENDOR = 'browser_vendor';
-    const BRAND_NAME = 'brand_name';
     const BROWSER_VERSION = 'browser_version';
     const BROWSER_VERSION_FULL = 'browser_version_full';
+    const BROWSER_ENGINE = 'browser_engine';
+
+    const BRAND_NAME = 'brand_name';
 
     const OS_ANDROID = 'Android';
     const OS_OSX = 'OSX';
@@ -32,6 +36,7 @@ final class Capabilities
     const OS_FAMILY_LINUX = 'Linux';
     const OS_FAMILY_UNIX = 'Unix';
     const OS_FAMILY_WINDOWS = 'Windows';
+
     const BROWSER_CHROME = 'Chrome';
     const BROWSER_FIREFOX = 'Firefox';
     const BROWSER_FENNEC = 'Fennec';
@@ -39,6 +44,12 @@ final class Capabilities
     const BROWSER_IE = 'IE';
     const BROWSER_OPERA = 'Opera';
     const BROWSER_OPERA_MINI = 'Opera Mini';
+
+    const BROWSER_ENGINE_GECKO = 'Gecko';
+    const BROWSER_ENGINE_KHTML = 'KHTML';
+    const BROWSER_ENGINE_TRIDENT = 'Trident';
+    const BROWSER_ENGINE_WEBKIT = 'Webkit';
+    const BROWSER_ENGINE_BLINK = 'Blink';
 
     const VENDOR_GOOGLE = 'Google';
     const VENDOR_MOZILLA = 'Mozilla';

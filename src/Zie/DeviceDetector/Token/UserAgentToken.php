@@ -24,7 +24,7 @@ class UserAgentToken implements TokenInterface
     /**
      * {@inheritdoc}
      */
-    public function &getData()
+    public function getData()
     {
         return $this->userAgent;
     }

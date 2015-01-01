@@ -13,11 +13,6 @@ use Zie\DeviceDetector\Token\TokenInterface;
 class ChromeVisitor extends AbstractPatternVisitor
 {
     /**
-     * @var string
-     */
-    protected $pattern = '#chrome\/(?P<version>[^\s]+)#is';
-
-    /**
      * {@inheritdoc}
      */
     protected function doVisit(TokenInterface $token, ContextInterface $context, $match, array $matches)
@@ -30,5 +25,13 @@ class ChromeVisitor extends AbstractPatternVisitor
         }
 
         return VisitorInterface::STATE_SEEKING;
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    protected function getPattern()
+    {
+        return '#chrome\/(?P<version>[^\s]+)#is';
     }
 }

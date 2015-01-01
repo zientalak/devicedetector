@@ -39,11 +39,4 @@ interface CacheProviderInterface
      * @return CacheProviderInterface
      */
     public function removeDevice(CacheDevice $device);
-
-    /**
-     * @param string $prefix
-     * @return CacheProviderInterface
-     */
-    public function setPrefix($prefix);
 }
-

@@ -23,6 +23,6 @@ interface FactoryInterface
      */
     public function createCacheDeviceDetectorFromUserAgent(
         $userAgent,
-        CacheProviderInterface $cacheProvider = null
+        CacheProviderInterface $cacheProvider
     );
 }

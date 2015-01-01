@@ -3,10 +3,15 @@
 namespace Zie\DeviceDetector\VisitorManager;
 
 use Zie\DeviceDetector\Context\ContextInterface;
+use Zie\DeviceDetector\Exception\UnknownStateException;
 use Zie\DeviceDetector\Token\TokenInterface;
 use Zie\DeviceDetector\Token\TokenPoolInterface;
 use Zie\DeviceDetector\Visitor\VisitorInterface;
 
+/**
+ * Class VisitorManager
+ * @package Zie\DeviceDetector\VisitorManager
+ */
 class VisitorManager implements VisitorManagerInterface
 {
     /**
@@ -27,6 +32,9 @@ class VisitorManager implements VisitorManagerInterface
         VisitorInterface::STATE_SEEKING
     );
 
+    /**
+     * Constructor
+     */
     public function __construct()
     {
         $this->clear();
@@ -104,7 +112,7 @@ class VisitorManager implements VisitorManagerInterface
                 if ($visitor->accept($token, $context)) {
                     $visitResult = $visitor->visit($token, $context);
                     if (!in_array($visitResult, $this->knownStates)) {
-                        throw new VisitorNotAcceptableException(
+                        throw new UnknownStateException(
                             sprintf(
                                 'Cannot visit not acceptable visitor. Check whether visitor accept token before visiting.'
                             )

@@ -16,17 +16,17 @@ class DeviceDetector implements DeviceDetectorInterface
     /**
      * @var TokenPoolInterface
      */
-    private $tokenPool;
+    protected $tokenPool;
 
     /**
      * @var ContextInterface
      */
-    private $context;
+    protected $context;
 
     /**
      * @var VisitorManagerInterface
      */
-    private $visitorManager;
+    protected $visitorManager;
 
     /**
      * @param VisitorManagerInterface $visitorManager
@@ -39,24 +39,19 @@ class DeviceDetector implements DeviceDetectorInterface
         ContextInterface $context
     ) {
         $this->visitorManager = $visitorManager;
-        $this->tokenPool = $tokenPool;
         $this->context = $context;
-    }
-
-    /**
-     * @return TokenPoolInterface
-     */
-    public function getTokenPool()
-    {
-        return $this->tokenPool;
+        $this->setTokenPool($tokenPool);
     }
 
     /**
      * @param TokenPoolInterface $tokenPool
+     * @return self
      */
     public function setTokenPool(TokenPoolInterface $tokenPool)
     {
         $this->tokenPool = $tokenPool;
+
+        return $this;
     }
 
     /**

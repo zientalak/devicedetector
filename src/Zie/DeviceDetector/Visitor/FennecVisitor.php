@@ -6,19 +6,18 @@ use Zie\DeviceDetector\Capabilities;
 use Zie\DeviceDetector\Context\ContextInterface;
 use Zie\DeviceDetector\Token\TokenInterface;
 
+/**
+ * Class FennecVisitor
+ * @package Zie\DeviceDetector\Visitor
+ */
 class FennecVisitor extends AbstractPatternVisitor
 {
-    /**
-     * @var string
-     */
-    protected $pattern = '#Fennec\/(?P<version>[^\s]+)#is';
-
     /**
      * {@inheritdoc}
      */
     protected function doVisit(TokenInterface $token, ContextInterface $context, $match, array $matches)
     {
-        if ($match && $context->getCapability(Capabilities::IS_MOBILE)) {
+        if ($match && $context->hasCapability(Capabilities::IS_MOBILE)) {
             $context->setCapability(Capabilities::BROWSER, Capabilities::BROWSER_FENNEC)
                 ->setCapability(Capabilities::BROWSER_VENDOR, Capabilities::VENDOR_MOZILLA)
                 ->setCapability(Capabilities::BROWSER_VERSION, current(explode(".", $matches['version'])))
@@ -26,5 +25,13 @@ class FennecVisitor extends AbstractPatternVisitor
         }
 
         return VisitorInterface::STATE_SEEKING;
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    protected function getPattern()
+    {
+        return '#Fennec\/(?P<version>[^\s]+)#is';
     }
 }

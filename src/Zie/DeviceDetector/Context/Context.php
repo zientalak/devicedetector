@@ -18,7 +18,7 @@ class Context implements ContextInterface
      */
     public function getCapability($name)
     {
-        return isset($this->capabilities[$name]) ? $this->capabilities[$name] : false;
+        return isset($this->capabilities[$name]) ? $this->capabilities[$name] : null;
     }
 
     /**

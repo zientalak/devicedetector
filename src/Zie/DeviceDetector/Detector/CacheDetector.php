@@ -10,13 +10,8 @@ use Zie\DeviceDetector\Fingerprint\FingerprintGeneratorInterface;
  * Class CacheDetector
  * @package Zie\DeviceDetector\Detector
  */
-final class CacheDetector implements DeviceDetectorInterface
+final class CacheDetector extends DeviceDetector
 {
-    /**
-     * @var DeviceDetector
-     */
-    private $detector;
-
     /**
      * @var CacheProviderInterface
      */
@@ -28,18 +23,25 @@ final class CacheDetector implements DeviceDetectorInterface
     private $fingerprintGenerator;
 
     /**
-     * @param DeviceDetector $detector
-     * @param CacheProviderInterface $cacheProvider
      * @param FingerprintGeneratorInterface $fingerprintGenerator
+     * @return self
      */
-    public function __construct(
-        DeviceDetector $detector,
-        CacheProviderInterface $cacheProvider,
-        FingerprintGeneratorInterface $fingerprintGenerator
-    ) {
-        $this->detector = $detector;
-        $this->cacheProvider = $cacheProvider;
+    public function setFingerprintGenerator(FingerprintGeneratorInterface $fingerprintGenerator)
+    {
         $this->fingerprintGenerator = $fingerprintGenerator;
+
+        return $this;
+    }
+
+    /**
+     * @param CacheProviderInterface $cacheProvider
+     * @return self
+     */
+    public function setCacheProvider(CacheProviderInterface $cacheProvider)
+    {
+        $this->cacheProvider = $cacheProvider;
+
+        return $this;
     }
 
     /**
@@ -47,13 +49,13 @@ final class CacheDetector implements DeviceDetectorInterface
      */
     public function detect()
     {
-        $fingerprint = $this->fingerprintGenerator->getFingerprint($this->detector->getTokenPool());
+        $fingerprint = $this->fingerprintGenerator->getFingerprint($this->tokenPool);
 
         if ($this->cacheProvider->hasDevice($fingerprint)) {
             return $this->cacheProvider->getDevice($fingerprint);
         }
 
-        $device = new CacheDevice($this->detector->detect(), $fingerprint);
+        $device = new CacheDevice(parent::detect(), $fingerprint);
         $this->cacheProvider->addDevice($device);
 
         return $device;

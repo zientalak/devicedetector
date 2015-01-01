@@ -10,7 +10,7 @@ interface ContextInterface
 {
     /**
      * @param string $name
-     * @return mixed|false
+     * @return mixed|null
      */
     public function getCapability($name);
 

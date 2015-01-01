@@ -13,16 +13,11 @@ use Zie\DeviceDetector\Token\TokenInterface;
 abstract class AbstractPatternVisitor extends AbstractUserAgentVisitor
 {
     /**
-     * @var string
-     */
-    protected $pattern;
-
-    /**
      * {@inheritdoc}
      */
     public function visit(TokenInterface $token, ContextInterface $context)
     {
-        $match = (boolean)preg_match($this->pattern, $token->getData(), $matches);
+        $match = (boolean)preg_match($this->getPattern(), $token->getData(), $matches);
         $doVisit = (int)$this->doVisit(
             $token,
             $context,
@@ -45,4 +40,9 @@ abstract class AbstractPatternVisitor extends AbstractUserAgentVisitor
      * @return integer
      */
     abstract protected function doVisit(TokenInterface $token, ContextInterface $context, $match, array $matches);
+
+    /**
+     * @return string
+     */
+    abstract protected function getPattern();
 }

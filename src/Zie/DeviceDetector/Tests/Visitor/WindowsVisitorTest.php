@@ -32,9 +32,9 @@ class WindowsVisitorTest extends VisitorTestCase
         $userAgent = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_3) AppleWebKit/534.55.3 (KHTML, like Gecko) Version/5.1.3 Safari/534.53.10';
         $context = $this->initTestFailure($userAgent, array());
 
-        $this->assertFalse($context->getCapability(Capabilities::BROWSER));
-        $this->assertFalse($context->getCapability(Capabilities::BROWSER_VERSION));
-        $this->assertFalse($context->getCapability(Capabilities::BROWSER_VERSION_FULL));
-        $this->assertFalse($context->getCapability(Capabilities::BROWSER_VENDOR));
+        $this->assertNull($context->getCapability(Capabilities::BROWSER));
+        $this->assertNull($context->getCapability(Capabilities::BROWSER_VERSION));
+        $this->assertNull($context->getCapability(Capabilities::BROWSER_VERSION_FULL));
+        $this->assertNull($context->getCapability(Capabilities::BROWSER_VENDOR));
     }
 }

@@ -14,13 +14,11 @@ abstract class AbstractProvider implements CacheProviderInterface
     protected $prefix = self::PREFIX;
 
     /**
-     * {@inheritdoc}
+     * @param string $prefix
      */
-    public function setPrefix($prefix)
+    public function __construct($prefix = self::PREFIX)
     {
         $this->prefix = $prefix;
-
-        return $this;
     }
 
     /**

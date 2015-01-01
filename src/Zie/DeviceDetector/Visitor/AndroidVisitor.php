@@ -15,11 +15,6 @@ class AndroidVisitor extends AbstractPatternVisitor
     const DEFAULT_VERSION = '2.0';
 
     /**
-     * @var string
-     */
-    protected $pattern = '#Android[\s/](?P<version>[^\s;]+)#is';
-
-    /**
      * @var array
      */
     private $validVersions = array(
@@ -78,6 +73,14 @@ class AndroidVisitor extends AbstractPatternVisitor
     }
 
     /**
+     * {@inheritdoc}
+     */
+    protected function getPattern()
+    {
+        return '#Android[\s/](?P<version>[^\s;]+)#is';
+    }
+
+    /**
      * @param $version
      * @return string
      */
@@ -85,4 +88,4 @@ class AndroidVisitor extends AbstractPatternVisitor
     {
         return in_array($version, $this->validVersions) ? $version : self::DEFAULT_VERSION;
     }
-} 
+}

@@ -70,7 +70,7 @@ class AppleVisitor extends AbstractUserAgentVisitor
      */
     private function visitAppleMobile(TokenInterface $token, ContextInterface $context)
     {
-        if ($context->getCapability(Capabilities::OS_OSX)) {
+        if ($context->hasCapability(Capabilities::OS_OSX)) {
             return;
         }
 
