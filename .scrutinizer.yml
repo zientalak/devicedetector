@@ -5,3 +5,7 @@ checks:
 tools:
     external_code_coverage:
         runs: 5
+
+filter:
+    excluded_paths:
+        - src/Zie/DeviceDetector/Tests/*
