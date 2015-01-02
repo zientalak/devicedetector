@@ -30,12 +30,25 @@ class FingerprintGeneratorTest extends \PHPUnit_Framework_TestCase
             $fingerprintGenerator->getFingerprint($tokenPool),
             'Fingerprint should be expected sha1 hash.'
         );
+    }
+
+    /**
+     * @test
+     * @expectedException \LogicException
+     */
+    public function fingerprintShouldThrowExceptionOnEmptyTokenPool()
+    {
+        $token1 = $this->getTokenMock('TokenMock1');
+        $token2 = $this->getTokenMock('TokenMock2');
+
+        $tokenPool = new TokenPool();
+        $tokenPool->addToken($token1);
+        $tokenPool->addToken($token2);
+
         $tokenPool->clear();
 
-        $this->assertFalse(
-            $fingerprintGenerator->getFingerprint($tokenPool),
-            'After clearing generator should return false.'
-        );
+        $fingerprintGenerator = new GenericGenerator(GenericGenerator::SHA1_ALGORITHM);
+        $fingerprintGenerator->getFingerprint($tokenPool);
     }
 
     /**

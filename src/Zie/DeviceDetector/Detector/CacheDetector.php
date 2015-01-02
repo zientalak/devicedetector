@@ -45,7 +45,7 @@ final class CacheDetector extends DeviceDetector
     }
 
     /**
-     * {@inheritdoc}
+     * @return \Zie\DeviceDetector\Device\CacheDevice
      */
     public function detect()
     {

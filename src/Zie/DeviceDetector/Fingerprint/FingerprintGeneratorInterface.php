@@ -13,7 +13,7 @@ interface FingerprintGeneratorInterface
 
     /**
      * @param TokenPoolInterface $tokenPool
-     * @return string|boolean
+     * @return string
      */
     public function getFingerprint(TokenPoolInterface $tokenPool);
 }

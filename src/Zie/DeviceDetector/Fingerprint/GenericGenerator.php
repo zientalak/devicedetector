@@ -36,7 +36,7 @@ class GenericGenerator implements FingerprintGeneratorInterface
     public function getFingerprint(TokenPoolInterface $tokenPool)
     {
         if (!$tokenPool->count()) {
-            return false;
+            throw new \LogicException("Generate fingerprint on empty token pool it's not possible.");
         }
 
         $serializedTokens = '';
