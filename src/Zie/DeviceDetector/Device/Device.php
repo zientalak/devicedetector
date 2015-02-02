@@ -176,4 +176,3 @@ class Device implements DeviceInterface
         $this->capabilities = unserialize($serialized);
     }
 }
-

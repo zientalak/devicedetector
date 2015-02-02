@@ -2,7 +2,7 @@
 
 namespace Zie\DeviceDetector\Tests\Detector;
 
-use Zie\DeviceDetector\Context\ContextInterface;
+use Zie\DeviceDetector\Collector\CollectorInterface;
 use Zie\DeviceDetector\Detector\DeviceDetector;
 use Zie\DeviceDetector\Token\TokenPool;
 use Zie\DeviceDetector\Token\UserAgentToken;
@@ -38,7 +38,7 @@ class DetectorTest extends \PHPUnit_Framework_TestCase
         return new DeviceDetector(
             $this->createVisitorManager(),
             $tokenPool,
-            $this->createContext()
+            $this->createCollector()
         );
     }
 
@@ -57,17 +57,17 @@ class DetectorTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @return ContextInterface
+     * @return CollectorInterface
      */
-    private function createContext()
+    private function createCollector()
     {
-        $mock = $this->getMock('Zie\DeviceDetector\Context\ContextInterface');
+        $mock = $this->getMock('Zie\DeviceDetector\Collector\CollectorInterface');
 
-        $mock->expects($this->once())
+        $mock->expects($this->any())
             ->method('clear')
             ->will($this->returnValue($this->returnSelf()));
 
-        $mock->expects($this->once())
+        $mock->expects($this->any())
             ->method('getCapabilities')
             ->will($this->returnValue(array()));
 

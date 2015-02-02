@@ -2,7 +2,7 @@
 
 namespace Zie\DeviceDetector\VisitorManager;
 
-use Zie\DeviceDetector\Context\ContextInterface;
+use Zie\DeviceDetector\Collector\CollectorInterface;
 use Zie\DeviceDetector\Token\TokenPoolInterface;
 use Zie\DeviceDetector\Visitor\VisitorInterface;
 
@@ -43,8 +43,8 @@ interface VisitorManagerInterface
 
     /**
      * @param TokenPoolInterface $tokenPool
-     * @param ContextInterface $context
+     * @param CollectorInterface $context
      * @return VisitorManagerInterface
      */
-    public function visit(TokenPoolInterface $tokenPool, ContextInterface $context);
+    public function visit(TokenPoolInterface $tokenPool, CollectorInterface $context);
 }

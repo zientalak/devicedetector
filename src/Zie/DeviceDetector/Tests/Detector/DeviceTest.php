@@ -257,7 +257,6 @@ class DeviceTest extends \PHPUnit_Framework_TestCase
             Capabilities::IS_MOBILE => false,
             Capabilities::IS_ROBOT => false,
             Capabilities::IS_SMART_TV => false,
-            Capabilities::IS_DESKTOP => true,
             Capabilities::BROWSER_VERSION => '23',
             Capabilities::OS => Capabilities::OS_WINDOWS,
             Capabilities::OS_VERSION => '8',

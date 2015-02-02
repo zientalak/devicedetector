@@ -3,7 +3,7 @@
 namespace Zie\DeviceDetector\Visitor;
 
 use Zie\DeviceDetector\Capabilities;
-use Zie\DeviceDetector\Context\ContextInterface;
+use Zie\DeviceDetector\Collector\CollectorInterface;
 use Zie\DeviceDetector\Token\TokenInterface;
 
 /**
@@ -15,11 +15,9 @@ class SmartTVVisitor extends AbstractDictionaryVisitor
     /**
      * {@inheritdoc}
      */
-    protected function doVisit(TokenInterface $token, ContextInterface $context, $match, array $matches)
+    protected function doVisit(TokenInterface $token, CollectorInterface $context, $match, array $matches)
     {
         $context->setCapability(Capabilities::IS_SMART_TV, $match);
-        $context->setCapability(Capabilities::IS_MOBILE, !$match);
-        $context->setCapability(Capabilities::IS_DESKTOP, !$match);
 
         return VisitorInterface::STATE_SEEKING;
     }

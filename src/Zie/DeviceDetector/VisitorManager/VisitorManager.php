@@ -2,7 +2,7 @@
 
 namespace Zie\DeviceDetector\VisitorManager;
 
-use Zie\DeviceDetector\Context\ContextInterface;
+use Zie\DeviceDetector\Collector\CollectorInterface;
 use Zie\DeviceDetector\Exception\UnknownStateException;
 use Zie\DeviceDetector\Token\TokenInterface;
 use Zie\DeviceDetector\Token\TokenPoolInterface;
@@ -101,7 +101,7 @@ class VisitorManager implements VisitorManagerInterface
     /**
      * {@inheritdoc}
      */
-    public function visit(TokenPoolInterface $tokenPool, ContextInterface $context)
+    public function visit(TokenPoolInterface $tokenPool, CollectorInterface $context)
     {
         $tokens = $tokenPool->getTokens();
 

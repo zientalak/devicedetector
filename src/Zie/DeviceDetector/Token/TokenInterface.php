@@ -6,7 +6,7 @@ namespace Zie\DeviceDetector\Token;
  * Interface TokenInterface
  * @package Zie\DeviceDetector\Token
  */
-interface TokenInterface
+interface TokenInterface extends \Serializable
 {
     /**
      * @return mixed

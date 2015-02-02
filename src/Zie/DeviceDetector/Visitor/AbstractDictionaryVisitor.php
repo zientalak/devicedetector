@@ -2,7 +2,7 @@
 
 namespace Zie\DeviceDetector\Visitor;
 
-use Zie\DeviceDetector\Context\ContextInterface;
+use Zie\DeviceDetector\Collector\CollectorInterface;
 use Zie\DeviceDetector\Exception\UnknownStateException;
 use Zie\DeviceDetector\Exception\VisitorNotAcceptableException;
 use Zie\DeviceDetector\Token\TokenInterface;
@@ -17,7 +17,7 @@ abstract class AbstractDictionaryVisitor extends AbstractUserAgentVisitor
     /**
      * {@inheritdoc}
      */
-    public function visit(TokenInterface $token, ContextInterface $context)
+    public function visit(TokenInterface $token, CollectorInterface $context)
     {
         $patterns = array_map(
             function ($segment) {
@@ -44,12 +44,12 @@ abstract class AbstractDictionaryVisitor extends AbstractUserAgentVisitor
 
     /**
      * @param TokenInterface $token
-     * @param ContextInterface $context
+     * @param CollectorInterface $context
      * @param boolean $match
      * @param array $matches
      * @return integer
      */
-    abstract protected function doVisit(TokenInterface $token, ContextInterface $context, $match, array $matches);
+    abstract protected function doVisit(TokenInterface $token, CollectorInterface $context, $match, array $matches);
 
     /**
      * @return array

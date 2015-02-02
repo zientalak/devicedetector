@@ -2,7 +2,7 @@
 
 namespace Zie\DeviceDetector\Visitor;
 
-use Zie\DeviceDetector\Context\ContextInterface;
+use Zie\DeviceDetector\Collector\CollectorInterface;
 use Zie\DeviceDetector\Exception\VisitorNotAcceptableException;
 use Zie\DeviceDetector\Token\TokenInterface;
 
@@ -17,16 +17,16 @@ interface VisitorInterface
 
     /**
      * @param TokenInterface $token
-     * @param ContextInterface $context
+     * @param CollectorInterface $context
      * @return boolean
      */
-    public function accept(TokenInterface $token, ContextInterface $context);
+    public function accept(TokenInterface $token, CollectorInterface $context);
 
     /**
      * @param TokenInterface $token
-     * @param ContextInterface $context
+     * @param CollectorInterface $context
      * @return integer
      * @throws VisitorNotAcceptableException
      */
-    public function visit(TokenInterface $token, ContextInterface $context);
+    public function visit(TokenInterface $token, CollectorInterface $context);
 }

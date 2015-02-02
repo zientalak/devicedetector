@@ -3,8 +3,11 @@
 namespace Zie\DeviceDetector\Tests\Visitor;
 
 use Zie\DeviceDetector\Capabilities;
-use Zie\DeviceDetector\Context\ContextInterface;
 use Zie\DeviceDetector\Tests\TestCase\VisitorTestCase;
+use Zie\DeviceDetector\Token\UserAgentToken;
+use Zie\DeviceDetector\Visitor\MobileVisitor;
+use Zie\DeviceDetector\Visitor\RobotVisitor;
+use Zie\DeviceDetector\Visitor\VisitorInterface;
 
 /**
  * Class MobileVisitorTest
@@ -13,25 +16,33 @@ use Zie\DeviceDetector\Tests\TestCase\VisitorTestCase;
 class MobileVisitorTest extends VisitorTestCase
 {
     /**
-     * @var string
+     * @test
      */
-    protected $visitor = 'Zie\DeviceDetector\Visitor\MobileVisitor';
-
-    public function testSuccess()
+    public function recognizeMobile()
     {
-        $userAgent = 'Mozilla/5.0 (Linux; U; Android 2.3; en-us) AppleWebKit/999+ (KHTML, like Gecko) Safari/999.9';
-        $context = $this->initTestSuccess($userAgent, array());
+        $collector = $this->createCollector();
+        $visitor = $this->createVisitor();
+        $token = new UserAgentToken(
+            'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0) BlackBerry8703e/4.1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/104'
+        );
 
-        $this->assertTrue($context->hasCapability(Capabilities::IS_MOBILE));
-        $this->assertTrue($context->getCapability(Capabilities::IS_MOBILE));
+        $this->assertSame(
+            VisitorInterface::STATE_SEEKING,
+            $visitor->visit($token, $collector),
+            'SmartTVVisitorTest should return seeking status.'
+        );
+
+        $this->assertTrue(
+            $collector->getCapability(Capabilities::IS_MOBILE),
+            'SmartTVVisitorTest should recognize that mobile devices.'
+        );
     }
 
-    public function testFailure()
+    /**
+     * {@inheritDoc}
+     */
+    protected function createVisitor()
     {
-        $userAgent = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36';
-        $context = $this->initTestFailure($userAgent, array());
-
-        $this->assertTrue($context->hasCapability(Capabilities::IS_MOBILE));
-        $this->assertFalse($context->getCapability(Capabilities::IS_MOBILE));
+        return new MobileVisitor();
     }
 }

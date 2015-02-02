@@ -3,8 +3,10 @@
 namespace Zie\DeviceDetector\Tests\Visitor;
 
 use Zie\DeviceDetector\Capabilities;
-use Zie\DeviceDetector\Context\ContextInterface;
 use Zie\DeviceDetector\Tests\TestCase\VisitorTestCase;
+use Zie\DeviceDetector\Token\UserAgentToken;
+use Zie\DeviceDetector\Visitor\RobotVisitor;
+use Zie\DeviceDetector\Visitor\VisitorInterface;
 
 /**
  * Class RobotVisitorTest
@@ -13,25 +15,33 @@ use Zie\DeviceDetector\Tests\TestCase\VisitorTestCase;
 class RobotVisitorTest extends VisitorTestCase
 {
     /**
-     * @var string
+     * @test
      */
-    protected $visitor = 'Zie\DeviceDetector\Visitor\RobotVisitor';
-
-    public function testSuccess()
+    public function recognizeRobot()
     {
-        $userAgent = 'Feedly/1.0 (+http://www.feedly.com/fetcher.html; like FeedFetcher-Google)';
-        $context = $this->initTestSuccess($userAgent, array());
+        $collector = $this->createCollector();
+        $visitor = $this->createVisitor();
+        $token = new UserAgentToken(
+            'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)'
+        );
 
-        $this->assertTrue($context->hasCapability(Capabilities::IS_ROBOT));
-        $this->assertTrue($context->getCapability(Capabilities::IS_ROBOT));
+        $this->assertSame(
+            VisitorInterface::STATE_FOUND,
+            $visitor->visit($token, $collector),
+            'SmartTVVisitorTest should return found status.'
+        );
+
+        $this->assertTrue(
+            $collector->getCapability(Capabilities::IS_ROBOT),
+            'SmartTVVisitorTest should recognize that is bot.'
+        );
     }
 
-    public function testFailure()
+    /**
+     * {@inheritDoc}
+     */
+    protected function createVisitor()
     {
-        $userAgent = 'Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/533.4 (KHTML, like Gecko) Chrome/5.0.375.127 Large Screen Safari/533.4';
-        $context = $this->initTestFailure($userAgent, array());
-
-        $this->assertTrue($context->hasCapability(Capabilities::IS_ROBOT));
-        $this->assertFalse($context->getCapability(Capabilities::IS_ROBOT));
+        return new RobotVisitor();
     }
 }

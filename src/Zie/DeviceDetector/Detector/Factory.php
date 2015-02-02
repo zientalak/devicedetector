@@ -4,7 +4,7 @@ namespace Zie\DeviceDetector\Detector;
 
 use Zie\DeviceDetector\CacheProvider\CacheProviderInterface;
 use Zie\DeviceDetector\CacheProvider\InMemoryProvider;
-use Zie\DeviceDetector\Context\Context;
+use Zie\DeviceDetector\Collector\Collector;
 use Zie\DeviceDetector\Fingerprint\GenericGenerator;
 use Zie\DeviceDetector\Token\TokenPool;
 use Zie\DeviceDetector\Token\UserAgentToken;
@@ -77,7 +77,7 @@ class Factory implements FactoryInterface
     private function createVisitorManager()
     {
         $visitorManager = new VisitorManager();
-        $visitorManager->addVisitor(new RobotVisitor());
+/*        $visitorManager->addVisitor(new RobotVisitor());
         $visitorManager->addVisitor(new SmartTVVisitor());
         $visitorManager->addVisitor(new MobileVisitor());
         $visitorManager->addVisitor(new AndroidVisitor());
@@ -86,13 +86,13 @@ class Factory implements FactoryInterface
         $visitorManager->addVisitor(new WindowsVisitor());
         $visitorManager->addVisitor(new LinuxVisitor());
 
-        $visitorManager->addVisitor(new ChromeVisitor());
+        $visitorManager->addVisitor(new ChromiumVisitor());
         $visitorManager->addVisitor(new SafariVisitor());
         $visitorManager->addVisitor(new FennecVisitor());
         $visitorManager->addVisitor(new FirefoxVisitor());
         $visitorManager->addVisitor(new MsieVisitor());
         $visitorManager->addVisitor(new OperaMiniVisitor());
-        $visitorManager->addVisitor(new OperaVisitor());
+        $visitorManager->addVisitor(new OperaVisitor());*/
 
         return $visitorManager;
     }
@@ -115,11 +115,11 @@ class Factory implements FactoryInterface
     }
 
     /**
-     * @return Context
+     * @return Collector
      */
     private function createContext()
     {
-        return new Context();
+        return new Collector();
     }
 
     /**

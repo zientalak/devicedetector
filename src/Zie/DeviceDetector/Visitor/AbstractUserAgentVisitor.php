@@ -2,7 +2,7 @@
 
 namespace Zie\DeviceDetector\Visitor;
 
-use Zie\DeviceDetector\Context\ContextInterface;
+use Zie\DeviceDetector\Collector\CollectorInterface;
 use Zie\DeviceDetector\Token\TokenInterface;
 use Zie\DeviceDetector\Token\UserAgentToken;
 
@@ -15,7 +15,7 @@ abstract class AbstractUserAgentVisitor implements VisitorInterface
     /**
      * {@inheritdoc}
      */
-    public function accept(TokenInterface $token, ContextInterface $context)
+    public function accept(TokenInterface $token, CollectorInterface $context)
     {
         return $token instanceof UserAgentToken;
     }

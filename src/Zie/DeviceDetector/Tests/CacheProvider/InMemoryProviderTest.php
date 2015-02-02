@@ -14,51 +14,39 @@ class InMemoryProviderTest extends CacheProviderTestCase
     /**
      * @test
      */
-    public function whetherProviderHasDeviceAfterAdding()
+    public function whetherProviderHasDevice()
     {
-        $sha1 = sha1('1');
-        $sha2 = sha1('2');
-
-        $device1 = $this->createCacheDevice($sha1);
-        $device2 = $this->createCacheDevice($sha2);
-
+        $fingerprint = hash('sha1', '1');
+        $device1 = $this->createCacheDevice($fingerprint);
         $provider = $this->createCacheProvider();
 
         $this->assertFalse(
-            $provider->hasDevice($sha1),
+            $provider->hasDevice($fingerprint),
             'Provider should not contain device before adding.'
         );
 
         $provider->addDevice($device1);
-        $provider->addDevice($device2);
 
         $this->assertTrue(
-            $provider->hasDevice($sha1),
-            'Provider should contain device 1 after adding.'
-        );
-
-        $this->assertTrue(
-            $provider->hasDevice($sha2),
-            'Provider should contain device 2 after adding.'
+            $provider->hasDevice($fingerprint),
+            'Provider should contain device after adding.'
         );
     }
 
     /**
      * @test
      */
-    public function whetherProviderContainsExpectedDevicesAfterAdding()
+    public function whetherProviderContainsExpectedDevice()
     {
-        $sha1 = sha1('1');
-
-        $device1 = $this->createCacheDevice($sha1);
+        $fingerprint = hash('sha1', '1');
+        $device1 = $this->createCacheDevice($fingerprint);
 
         $provider = $this->createCacheProvider();
-
         $provider->addDevice($device1);
 
         $this->assertEquals(
             $device1,
-            $provider->getDevice($sha1),
+            $provider->getDevice($fingerprint),
             'Provider should contain device 1 after adding.'
         );
     }
@@ -66,38 +54,24 @@ class InMemoryProviderTest extends CacheProviderTestCase
     /**
      * @test
      */
-    public function whetherProviderRemoveDeviceAfterRemoving()
+    public function whetherProviderRemoveDevice()
     {
-        $sha1 = sha1('1');
-        $sha2 = sha1('2');
-
-        $device1 = $this->createCacheDevice($sha1);
-        $device2 = $this->createCacheDevice($sha2);
+        $fingerprint = hash('sha1', '1');
+        $device1 = $this->createCacheDevice($fingerprint);
 
         $provider = $this->createCacheProvider();
-
         $provider->addDevice($device1);
-        $provider->addDevice($device2);
 
         $this->assertTrue(
-            $provider->hasDevice($sha1),
-            'Provider should contain device 1.'
-        );
-        $this->assertTrue(
-            $provider->hasDevice($sha2),
-            'Provider should contain device 2.'
+            $provider->hasDevice($fingerprint),
+            'Provider should contain device 1 after adding.'
         );
 
         $provider->removeDevice($device1);
-        $provider->removeDevice($device2);
 
         $this->assertFalse(
-            $provider->hasDevice($sha1),
+            $provider->hasDevice($fingerprint),
             'Provider should not contain device 1 after removing.'
-        );
-        $this->assertFalse(
-            $provider->hasDevice($sha2),
-            'Provider should not contain device 2 after removing.'
         );
     }
 
@@ -108,7 +82,7 @@ class InMemoryProviderTest extends CacheProviderTestCase
     public function whetherProviderThrowExceptionIfNotContainDevice()
     {
         $provider = $this->createCacheProvider();
-        $provider->getDevice(sha1('1'));
+        $provider->getDevice(hash('sha1', '1'));
     }
 
     /**

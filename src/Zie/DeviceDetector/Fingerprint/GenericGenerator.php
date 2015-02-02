@@ -39,12 +39,13 @@ class GenericGenerator implements FingerprintGeneratorInterface
             throw new \LogicException("Generate fingerprint on empty token pool it's not possible.");
         }
 
-        $serializedTokens = '';
+        $hashContext = hash_init($this->algorithm);
+
         /** @var $token TokenInterface */
         foreach ($tokenPool->getTokens() as $token) {
-            $serializedTokens .= serialize($token);
+            hash_update($hashContext, serialize($token));
         }
 
-        return hash($this->algorithm, $serializedTokens);
+        return hash_final($hashContext);
     }
 }

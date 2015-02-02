@@ -2,7 +2,7 @@
 
 namespace Zie\DeviceDetector\Tests\Manager;
 
-use Zie\DeviceDetector\Context\Context;
+use Zie\DeviceDetector\Collector\Collector;
 use Zie\DeviceDetector\Exception\UnknownStateException;
 use Zie\DeviceDetector\Token\TokenInterface;
 use Zie\DeviceDetector\Token\TokenPool;
@@ -159,7 +159,7 @@ class VisitorManagerTest extends \PHPUnit_Framework_TestCase
      */
     public function visitShouldBeCalledOnVisitorOnAcceptableToken()
     {
-        $context = new Context();
+        $context = new Collector();
 
         $token1 = $this->createToken('TokenMock1');
 
@@ -179,7 +179,7 @@ class VisitorManagerTest extends \PHPUnit_Framework_TestCase
      */
     public function visitShouldNotBeCalledIfOnNotAcceptableToken()
     {
-        $context = new Context();
+        $context = new Collector();
 
         $token1 = $this->createToken('TokenMock1');
         $token2 = $this->createToken('TokenMock1');
@@ -203,7 +203,7 @@ class VisitorManagerTest extends \PHPUnit_Framework_TestCase
      */
     public function visitShouldBeReturnedIfVisitorReturnFound()
     {
-        $context = new Context();
+        $context = new Collector();
 
         $token1 = $this->createToken('TokenMock1');
         $token2 = $this->createToken('TokenMock1');
@@ -228,7 +228,7 @@ class VisitorManagerTest extends \PHPUnit_Framework_TestCase
      */
     public function visitShouldThrowExceptionIfUnknownStateIsReturned()
     {
-        $context = new Context();
+        $context = new Collector();
 
         $token1 = $this->createToken('TokenMock1');
 

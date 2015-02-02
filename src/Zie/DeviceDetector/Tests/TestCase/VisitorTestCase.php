@@ -1,9 +1,7 @@
 <?php
 namespace Zie\DeviceDetector\Tests\TestCase;
 
-use Zie\DeviceDetector\Context\Context;
-use Zie\DeviceDetector\Context\ContextInterface;
-use Zie\DeviceDetector\Token\UserAgentToken;
+use Zie\DeviceDetector\Collector\Collector;
 use Zie\DeviceDetector\Visitor\VisitorInterface;
 
 /**
@@ -13,79 +11,15 @@ use Zie\DeviceDetector\Visitor\VisitorInterface;
 abstract class VisitorTestCase extends \PHPUnit_Framework_TestCase
 {
     /**
-     * @var string
-     */
-    protected $visitor;
-
-    /**
-     * @param $userAgent
-     * @param array $capabilities
-     * @return Context
-     */
-    public function initTestSuccess($userAgent, array $capabilities)
-    {
-        return $this->initTest($userAgent, $capabilities);
-    }
-
-    /**
-     * @param $userAgent
-     * @param array $capabilities
-     * @return Context
-     */
-    public function initTestFailure($userAgent, array $capabilities)
-    {
-        return $this->initTest($userAgent, $capabilities);
-    }
-
-    /**
      * @return VisitorInterface
      */
-    public function createVisitor()
-    {
-        return new $this->visitor;
-    }
+    abstract protected function createVisitor();
 
     /**
-     * @param array $capabilities
-     * @return Context
+     * @return Collector
      */
-    public function createContext(array $capabilities)
+    protected function createCollector()
     {
-        $context = new Context();
-        $context->setCapabilities($capabilities);
-
-        return $context;
+        return new Collector();
     }
-
-    /**
-     * @param $userAgent
-     * @return UserAgentToken
-     */
-    protected function createUserAgentToken($userAgent)
-    {
-        return new UserAgentToken($userAgent);
-    }
-
-    /**
-     * @param $userAgent
-     * @param array $capabilities
-     * @return Context
-     */
-    protected function initTest($userAgent, array $capabilities)
-    {
-        $visitor = $this->createVisitor();
-        $context = $this->createContext($capabilities);
-        $token = $this->createUserAgentToken($userAgent);
-
-        $this->assertTrue($visitor->accept($token, $context));
-        $this->assertContains(
-            $visitor->visit($token, $context),
-            array(VisitorInterface::STATE_SEEKING, VisitorInterface::STATE_FOUND)
-        );
-
-        return $context;
-    }
-
-    abstract public function testSuccess();
-    abstract public function testFailure();
 }

@@ -3,7 +3,7 @@
 namespace Zie\DeviceDetector\Visitor;
 
 use Zie\DeviceDetector\Capabilities;
-use Zie\DeviceDetector\Context\ContextInterface;
+use Zie\DeviceDetector\Collector\CollectorInterface;
 use Zie\DeviceDetector\Token\TokenInterface;
 
 /**
@@ -15,7 +15,7 @@ class MobileVisitor extends AbstractDictionaryVisitor
     /**
      * {@inheritdoc}
      */
-    protected function doVisit(TokenInterface $token, ContextInterface $context, $match, array $matches)
+    protected function doVisit(TokenInterface $token, CollectorInterface $context, $match, array $matches)
     {
         $context->setCapability(Capabilities::IS_MOBILE, $match);
 
@@ -28,16 +28,13 @@ class MobileVisitor extends AbstractDictionaryVisitor
     protected function getPatterns()
     {
         return array(
-            'midp',
             'mobile',
+            'mobi',
             'android',
-            'samsung',
-            'nokia',
             'up.browser',
             'phone',
             'opera mini',
             'opera mobi',
-            'brew',
             'sonyericsson',
             'blackberry',
             'netfront',
@@ -46,12 +43,12 @@ class MobileVisitor extends AbstractDictionaryVisitor
             'j2me',
             'wap2.',
             'up.link',
-            ' arm;',
             'windows ce',
+            'windows me',
             'vodafone',
             'ucweb',
-            'zte-',
-            'ipad;',
+            'ipad',
+            'ipod',
             'docomo',
             'armv',
             'maemo',
@@ -60,9 +57,6 @@ class MobileVisitor extends AbstractDictionaryVisitor
             'fennec',
             'wireless',
             'adr-',
-            'htc',
-            '; xbox',
-            'nintendo',
             'zunewp7',
             'skyfire',
             'silk',
@@ -70,6 +64,9 @@ class MobileVisitor extends AbstractDictionaryVisitor
             'lgtelecom',
             ' gt-',
             'ventana',
+            'tablet',
+            'IEMobile',
+            'tizen'
         );
     }
 }

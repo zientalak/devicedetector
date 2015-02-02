@@ -3,8 +3,10 @@
 namespace Zie\DeviceDetector\Tests\Visitor;
 
 use Zie\DeviceDetector\Capabilities;
-use Zie\DeviceDetector\Context\ContextInterface;
 use Zie\DeviceDetector\Tests\TestCase\VisitorTestCase;
+use Zie\DeviceDetector\Token\UserAgentToken;
+use Zie\DeviceDetector\Visitor\SmartTVVisitor;
+use Zie\DeviceDetector\Visitor\VisitorInterface;
 
 /**
  * Class SmartTVVisitorTest
@@ -13,25 +15,33 @@ use Zie\DeviceDetector\Tests\TestCase\VisitorTestCase;
 class SmartTVVisitorTest extends VisitorTestCase
 {
     /**
-     * @var string
+     * @test
      */
-    protected $visitor = 'Zie\DeviceDetector\Visitor\SmartTVVisitor';
-
-    public function testSuccess()
+    public function recognizeIPad()
     {
-        $userAgent = 'Mozilla/5.0 (X11; U: Linux i686; en-US) AppleWebKit/533.4 (KHTML, like Gecko) Chrome/5.0.375.127 Large Screen Safari/533.4 GoogleTV/b39389';
-        $context = $this->initTestSuccess($userAgent, array());
+        $collector = $this->createCollector();
+        $visitor = $this->createVisitor();
+        $token = new UserAgentToken(
+            'Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/533.4 (KHTML, like Gecko) Chrome/5.0.375.127 Large Screen Safari/533.4 GoogleTV/ 162671'
+        );
 
-        $this->assertTrue($context->hasCapability(Capabilities::IS_SMART_TV));
-        $this->assertTrue($context->getCapability(Capabilities::IS_SMART_TV));
+        $this->assertSame(
+            VisitorInterface::STATE_SEEKING,
+            $visitor->visit($token, $collector),
+            'SmartTVVisitorTest should return seeking status.'
+        );
+
+        $this->assertTrue(
+            $collector->getCapability(Capabilities::IS_SMART_TV),
+            'SmartTVVisitorTest should recognize Smart TV.'
+        );
     }
 
-    public function testFailure()
+    /**
+     * {@inheritDoc}
+     */
+    protected function createVisitor()
     {
-        $userAgent = 'Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/533.4 (KHTML, like Gecko) Chrome/5.0.375.127 Safari/533.4';
-        $context = $this->initTestFailure($userAgent, array());
-
-        $this->assertTrue($context->hasCapability(Capabilities::IS_SMART_TV));
-        $this->assertFalse($context->getCapability(Capabilities::IS_SMART_TV));
+        return new SmartTVVisitor();
     }
 }

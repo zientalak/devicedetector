@@ -3,7 +3,7 @@
 namespace Zie\DeviceDetector\Tests\Detector;
 
 use Zie\DeviceDetector\CacheProvider\CacheProviderInterface;
-use Zie\DeviceDetector\Context\ContextInterface;
+use Zie\DeviceDetector\Collector\CollectorInterface;
 use Zie\DeviceDetector\Detector\CacheDetector;
 use Zie\DeviceDetector\Device\CacheDevice;
 use Zie\DeviceDetector\Fingerprint\FingerprintGeneratorInterface;
@@ -22,7 +22,7 @@ class CacheDetectorTest extends \PHPUnit_Framework_TestCase
 
         $detector = $this->createDeviceDetector($userAgent);
         $detector->setFingerprintGenerator(
-            $this->createFingerprintGenerator(sha1('1'))
+            $this->createFingerprintGenerator(hash('sha1', '1'))
         );
         $detector->setCacheProvider(
             $this->createCacheProvider(false)
@@ -31,7 +31,7 @@ class CacheDetectorTest extends \PHPUnit_Framework_TestCase
         $this->assertInstanceOf(
             'Zie\DeviceDetector\Device\CacheDevice',
             $detector->detect(),
-            'Detector should return Zie\DeviceDetector\Device\DeviceInterface object from cache.'
+            'Detector should return Zie\DeviceDetector\Device\CacheDevice object from cache.'
         );
     }
 
@@ -44,7 +44,7 @@ class CacheDetectorTest extends \PHPUnit_Framework_TestCase
 
         $detector = $this->createDeviceDetector($userAgent);
         $detector->setFingerprintGenerator(
-            $this->createFingerprintGenerator(sha1('1'))
+            $this->createFingerprintGenerator(hash('sha1', '1'))
         );
         $detector->setCacheProvider(
             $this->createCacheProvider(true)
@@ -53,7 +53,7 @@ class CacheDetectorTest extends \PHPUnit_Framework_TestCase
         $this->assertInstanceOf(
             'Zie\DeviceDetector\Device\CacheDevice',
             $detector->detect(),
-            'Detector should return Zie\DeviceDetector\Device\DeviceInterface object and set to cache.'
+            'Detector should return Zie\DeviceDetector\Device\CacheDevice object and set to cache.'
         );
     }
 
@@ -91,7 +91,7 @@ class CacheDetectorTest extends \PHPUnit_Framework_TestCase
 
         return new CacheDevice(
             $mock,
-            sha1('1')
+            hash('sha1', '1')
         );
     }
 
@@ -122,7 +122,7 @@ class CacheDetectorTest extends \PHPUnit_Framework_TestCase
         return new CacheDetector(
             $this->createVisitorManager(),
             $tokenPool,
-            $this->createContext()
+            $this->createCollector()
         );
     }
 
@@ -141,11 +141,11 @@ class CacheDetectorTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @return ContextInterface
+     * @return CollectorInterface
      */
-    private function createContext()
+    private function createCollector()
     {
-        $mock = $this->getMock('Zie\DeviceDetector\Context\ContextInterface');
+        $mock = $this->getMock('Zie\DeviceDetector\Collector\CollectorInterface');
 
         $mock->expects($this->any())
             ->method('clear')

@@ -12,6 +12,9 @@ final class Capabilities
     const IS_ROBOT = 'is_robot';
     const IS_MOBILE = 'is_mobile';
     const IS_DESKTOP = 'is_desktop';
+    const IS_ANDROID = 'is_android';
+    const IS_OSX = 'is_osx';
+    const IS_IOS = 'is_ios';
 
     const OS = 'os';
     const OS_VERSION = 'os_version';
@@ -25,8 +28,10 @@ final class Capabilities
     const BROWSER_VERSION = 'browser_version';
     const BROWSER_VERSION_FULL = 'browser_version_full';
     const BROWSER_ENGINE = 'browser_engine';
+    const BROWSER_FAMILY = 'browser_family';
 
     const BRAND_NAME = 'brand_name';
+    const BRAND_NAME_FULL = 'brand_name_full';
 
     const OS_ANDROID = 'Android';
     const OS_OSX = 'OSX';
@@ -36,14 +41,18 @@ final class Capabilities
     const OS_FAMILY_LINUX = 'Linux';
     const OS_FAMILY_UNIX = 'Unix';
     const OS_FAMILY_WINDOWS = 'Windows';
+    const OS_TIZEN = 'Tizen';
 
     const BROWSER_CHROME = 'Chrome';
+    const BROWSER_CHROMIUM = 'Chromium';
     const BROWSER_FIREFOX = 'Firefox';
     const BROWSER_FENNEC = 'Fennec';
     const BROWSER_SAFARI = 'Safari';
     const BROWSER_IE = 'IE';
     const BROWSER_OPERA = 'Opera';
     const BROWSER_OPERA_MINI = 'Opera Mini';
+    const BROWSER_OPERA_MOBI = 'Opera Mobi';
+    const BROWSER_MOZILLA = 'Mozilla';
 
     const BROWSER_ENGINE_GECKO = 'Gecko';
     const BROWSER_ENGINE_KHTML = 'KHTML';
@@ -56,4 +65,5 @@ final class Capabilities
     const VENDOR_MICROSOFT = 'Microsoft';
     const VENDOR_OPERA = 'Opera';
     const VENDOR_APPLE = 'Apple';
+    const VENDOR_SAMSUNG = 'Samsung';
 }
