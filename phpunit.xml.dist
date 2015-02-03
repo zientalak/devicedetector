@@ -9,6 +9,9 @@
         stopOnIncomplete="false"
         stopOnSkipped="false"
         verbose="true"
+        syntaxCheck="false"
+        backupGlobals="false"
+        backupStaticAttributes="false"
         bootstrap="vendor/autoload.php">
 
     <testsuites>
