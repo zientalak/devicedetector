@@ -8,6 +8,7 @@
         stopOnFailure="false"
         stopOnIncomplete="false"
         stopOnSkipped="false"
+        verbose="true"
         bootstrap="vendor/autoload.php">
 
     <testsuites>

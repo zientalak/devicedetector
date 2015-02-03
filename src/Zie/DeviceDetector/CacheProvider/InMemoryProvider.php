@@ -3,7 +3,6 @@
 namespace Zie\DeviceDetector\CacheProvider;
 
 use Zie\DeviceDetector\Device\CacheDevice;
-use Zie\DeviceDetector\Exception\CachedDeviceNotFoundException;
 
 /**
  * Class InMemoryProvider
@@ -30,7 +29,7 @@ class InMemoryProvider extends AbstractProvider
     public function getDevice($fingerprint)
     {
         if (!$this->hasDevice($fingerprint)) {
-            throw new CachedDeviceNotFoundException(sprintf('Device with fingerprint "%s" not found.', $fingerprint));
+            return false;
         }
 
         return unserialize($this->registry[$this->generateKey($this->prefix, $fingerprint)]);
@@ -42,6 +41,8 @@ class InMemoryProvider extends AbstractProvider
     public function addDevice(CacheDevice $device, $lifetime = self::LIFETIME_DAY)
     {
         $this->registry[$this->generateKey($this->prefix, $device->getFingerprint())] = serialize($device);
+
+        return true;
     }
 
     /**
@@ -53,6 +54,16 @@ class InMemoryProvider extends AbstractProvider
             unset($this->registry[$this->generateKey($this->prefix, $device->getFingerprint())]);
         }
 
-        return $this;
+        return true;
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function clear()
+    {
+        $this->registry = array();
+
+        return true;
     }
 }

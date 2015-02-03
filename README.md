@@ -6,3 +6,13 @@ Device Detector for PHP
 [![Code Coverage](https://scrutinizer-ci.com/g/zientalak/devicedetector/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/zientalak/devicedetector/?branch=master)
 
 Device Detector is PHP library for detecting devices.
+
+TODO
+
+1. Drivery do cachu (Redis, Memcached, APC, xCache, opcache...).
+2. Dodanie buildera.
+3. Refactoring fabryki.
+
+4. Nowi odwiedzajacy:
+- https://udger.com/resources/ua-list
+- https://github.com/piwik/device-detector/blob/master/regexes/oss.yml

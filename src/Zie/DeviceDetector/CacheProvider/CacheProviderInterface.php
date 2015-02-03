@@ -22,21 +22,25 @@ interface CacheProviderInterface
 
     /**
      * @param $fingerprint
-     * @return CacheDevice
-     * @throws CachedDeviceNotFoundException
+     * @return CacheDevice|false
      */
     public function getDevice($fingerprint);
 
     /**
      * @param CacheDevice $device
      * @param integer $lifetime
-     * @return CacheProviderInterface
+     * @return boolean
      */
     public function addDevice(CacheDevice $device, $lifetime = self::LIFETIME_DAY);
 
     /**
      * @param CacheDevice $device
-     * @return CacheProviderInterface
+     * @return boolean
      */
     public function removeDevice(CacheDevice $device);
+
+    /**
+     * @return boolean
+     */
+    public function clear();
 }

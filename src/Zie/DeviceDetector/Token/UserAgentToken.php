@@ -44,6 +44,4 @@ class UserAgentToken implements TokenInterface
     {
         $this->userAgent = unserialize($serialized);
     }
-
-
 }
