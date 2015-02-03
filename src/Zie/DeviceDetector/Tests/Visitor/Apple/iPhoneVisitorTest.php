@@ -11,10 +11,10 @@ use Zie\DeviceDetector\Visitor\Apple\OSXVisitor;
 use Zie\DeviceDetector\Visitor\VisitorInterface;
 
 /**
- * Class iPhoneVisitorTest
+ * Class IPhoneVisitorTest
  * @package Zie\DeviceDetector\Tests\Visitor
  */
-class iPhoneVisitorTest extends VisitorTestCase
+class IPhoneVisitorTest extends VisitorTestCase
 {
     /**
      * @test

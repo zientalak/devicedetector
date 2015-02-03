@@ -12,7 +12,7 @@ use Zie\DeviceDetector\Visitor\VisitorInterface;
  * Class IPodTouchVisitor
  * @package Zie\DeviceDetector\Tests\Visitor
  */
-class iPodTouchVisitorTest extends VisitorTestCase
+class IPodTouchVisitorTest extends VisitorTestCase
 {
     /**
      * @test
