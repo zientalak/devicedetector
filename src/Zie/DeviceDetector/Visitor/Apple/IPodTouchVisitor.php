@@ -9,10 +9,10 @@ use Zie\DeviceDetector\Visitor\AbstractUserAgentVisitor;
 use Zie\DeviceDetector\Visitor\VisitorInterface;
 
 /**
- * Class iPodTouchVisitor
+ * Class IPodTouchVisitor
  * @package Zie\DeviceDetector\Visitor
  */
-class iPodTouchVisitor extends AbstractUserAgentVisitor
+class IPodTouchVisitor extends AbstractUserAgentVisitor
 {
     /**
      * @var string
