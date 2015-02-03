@@ -4,8 +4,6 @@ namespace Zie\DeviceDetector\Tests\CacheProvider;
 
 use Zie\DeviceDetector\CacheProvider\PredisProvider;
 use Zie\DeviceDetector\Tests\TestCase\CacheProviderTestCase;
-use Predis\Redis;
-use Predis\Connection\ConnectionException;
 
 /**
  * Class PredisProviderTest
@@ -23,17 +21,21 @@ class PredisProviderTest extends CacheProviderTestCase
      */
     public function setUp()
     {
-        $this->predis = new Redis();
+        if(!class_exists('\Predis\Redis')) {
+            $this->markTestSkipped('The ' . __CLASS__ .' requires the use of predis/predis component.');
+        }
+
+        $this->predis = new \Predis\Redis();
         try {
             $this->predis->connect();
-        } catch (ConnectionException $e) {
+        } catch (\Predis\Connection\ConnectionException $e) {
             $this->markTestSkipped('The ' . __CLASS__ .' requires the use of redis');
         }
     }
 
     public function tearDown()
     {
-        if ($this->predis instanceof \Redis) {
+        if ($this->predis instanceof \Predis\Redis) {
             $this->predis->flushdb();
         }
     }
