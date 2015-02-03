@@ -22,13 +22,13 @@ before_script:
   - composer install --prefer-source --dev --no-interaction
 
 after_script:
-  - php vendor/bin/coveralls -v
+  - wget https://scrutinizer-ci.com/ocular.phar
+  - php ocular.phar code-coverage:upload --format=php-clover build/logs/clover.xml
 
 script:
   - mkdir -p build/logs
   - cp phpunit.xml.dist phpunit.xml
-  - if [ "$TRAVIS_PHP_VERSION" == "hhvm" ]; then phpunit -c phpunit.xml; fi
-  - if [ "$TRAVIS_PHP_VERSION" != "hhvm" ]; then phpunit -c phpunit.xml --coverage-clover build/logs/clover.xml; fi
+  - phpunit -c phpunit.xml --coverage-clover build/logs/clover.xml
 
 notifications:
   email:
