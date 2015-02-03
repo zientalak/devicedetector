@@ -15,6 +15,7 @@ matrix:
     - php: hhvm
 
 before_script:
+  - chmod +x travis/bin/install-apcu.sh
   - travis/bin/install-apcu.sh
   - if [ $TRAVIS_PHP_VERSION != 'hhvm' ]; then phpenv config-add travis/env/php$TRAVIS_PHP_VERSION.ini; fi
   - composer self-update
