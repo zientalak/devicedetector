@@ -64,7 +64,7 @@ class MemcachedProvider extends AbstractProvider
         return $this->memcached->set(
             $this->generateKey($this->prefix, $device->getFingerprint()),
             serialize($device),
-            $lifetime
+            (int)$lifetime
         );
     }
 

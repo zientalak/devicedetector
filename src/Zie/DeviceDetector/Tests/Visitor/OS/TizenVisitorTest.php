@@ -28,31 +28,31 @@ class TizenVisitorTest extends VisitorTestCase
         $this->assertSame(
             VisitorInterface::STATE_SEEKING,
             $visitor->visit($token, $collector),
-            'TizenVisitorTest should return seeking status.'
+            'TizenVisitor should return seeking status.'
         );
 
         $this->assertEquals(
             Capabilities::OS_TIZEN,
             $collector->getCapability(Capabilities::OS),
-            'TizenVisitorTest should set recognize Tizen.'
+            'TizenVisitor should set recognize Tizen.'
         );
 
         $this->assertEquals(
             '2.3',
             $collector->getCapability(Capabilities::OS_VERSION),
-            'TizenVisitorTest should set recognize Tizen version.'
+            'TizenVisitor should set recognize Tizen version.'
         );
 
         $this->assertEquals(
             '2.3',
             $collector->getCapability(Capabilities::OS_VERSION_FULL),
-            'TizenVisitorTest should set recognize Tizen full version.'
+            'TizenVisitor should set recognize Tizen full version.'
         );
 
         $this->assertEquals(
             Capabilities::OS_FAMILY_LINUX,
             $collector->getCapability(Capabilities::OS_FAMILY),
-            'WindowsPhoneVisitor should set recognize Tizen family.'
+            'WindowsPhone should set recognize Tizen family.'
         );
     }
 

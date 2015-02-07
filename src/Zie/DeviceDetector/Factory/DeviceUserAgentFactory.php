@@ -10,20 +10,11 @@ use Zie\DeviceDetector\Fingerprint\GenericGenerator;
 use Zie\DeviceDetector\Token\TokenPool;
 use Zie\DeviceDetector\Token\TokenPoolInterface;
 use Zie\DeviceDetector\Token\UserAgentToken;
-use Zie\DeviceDetector\Visitor\Browser\ChromeVisitor;
-use Zie\DeviceDetector\Visitor\Browser\ChromiumVisitor;
-use Zie\DeviceDetector\Visitor\Browser\FennecVisitor;
-use Zie\DeviceDetector\Visitor\Browser\FirefoxVisitor;
-use Zie\DeviceDetector\Visitor\Browser\IEVisitor;
-use Zie\DeviceDetector\Visitor\Browser\OperaMiniVisitor;
-use Zie\DeviceDetector\Visitor\Browser\OperaVisitor;
-use Zie\DeviceDetector\Visitor\Browser\SafariVisitor;
+use Zie\DeviceDetector\Visitor\Apple;
+use Zie\DeviceDetector\Visitor\Browser;
 use Zie\DeviceDetector\Visitor\MobileVisitor;
-use Zie\DeviceDetector\Visitor\OS\AndroidVisitor;
-use Zie\DeviceDetector\Visitor\OS\LinuxVisitor;
-use Zie\DeviceDetector\Visitor\OS\TizenVisitor;
-use Zie\DeviceDetector\Visitor\OS\WindowsPhoneVisitor;
-use Zie\DeviceDetector\Visitor\OS\WindowsVisitor;
+use Zie\DeviceDetector\Visitor\OS;
+use Zie\DeviceDetector\Visitor\Robot;
 use Zie\DeviceDetector\Visitor\RobotVisitor;
 use Zie\DeviceDetector\Visitor\SmartTVVisitor;
 use Zie\DeviceDetector\VisitorManager\VisitorManager;
@@ -83,23 +74,94 @@ class DeviceUserAgentFactory implements DeviceUserAgentFactoryInterface
     {
         $visitorManager = new VisitorManager();
 
-        $visitorManager->addVisitor(new RobotVisitor(), 1)
-            ->addVisitor(new SmartTVVisitor())
-            ->addVisitor(new MobileVisitor())
-            ->addVisitor(new AndroidVisitor())
-            ->addVisitor(new LinuxVisitor())
-            ->addVisitor(new TizenVisitor())
-            ->addVisitor(new WindowsPhoneVisitor())
-            ->addVisitor(new WindowsVisitor())
-            ->addVisitor(new ChromeVisitor())
-            ->addVisitor(new ChromiumVisitor())
-            ->addVisitor(new FennecVisitor())
-            ->addVisitor(new FirefoxVisitor())
-            ->addVisitor(new IEVisitor())
-            ->addVisitor(new OperaMiniVisitor())
-            ->addVisitor(new OperaVisitor())
-            ->addVisitor(new SafariVisitor());
+        $this
+            ->applyRobots($visitorManager)
+            ->applySmartTV($visitorManager)
+            ->applyMobile($visitorManager)
+            ->applyOS($visitorManager)
+            ->applyBrowsers($visitorManager);
 
         return $visitorManager;
+    }
+
+    /**
+     * @param VisitorManager $visitorManager
+     * @return self
+     */
+    private function applyRobots(VisitorManager $visitorManager)
+    {
+        $visitorManager
+            ->addVisitor(new RobotVisitor(), 255)
+            ->addVisitor(new Robot\AcoonBotVisitor(), 250)
+            ->addVisitor(new Robot\AboundexVisitor(), 250)
+            ->addVisitor(new Robot\AddThisVisitor(), 250)
+            ->addVisitor(new Robot\AhrefsBotVisitor(), 250)
+            ->addVisitor(new Robot\AlexaCrawlerVisitor(), 250)
+            ->addVisitor(new Robot\Spider360Visitor(), 250);
+
+        return $this;
+    }
+
+    /**
+     * @param VisitorManager $visitorManager
+     * @return self
+     */
+    private function applySmartTV(VisitorManager $visitorManager)
+    {
+        $visitorManager
+            ->addVisitor(new SmartTVVisitor());
+
+        return $this;
+    }
+
+    /**
+     * @param VisitorManager $visitorManager
+     * @return self
+     */
+    private function applyMobile(VisitorManager $visitorManager)
+    {
+        $visitorManager
+            ->addVisitor(new MobileVisitor());
+
+        return $this;
+    }
+
+    /**
+     * @param VisitorManager $visitorManager
+     * @return self
+     */
+    private function applyOS(VisitorManager $visitorManager)
+    {
+        $visitorManager
+            ->addVisitor(new OS\AndroidVisitor())
+            ->addVisitor(new OS\LinuxVisitor())
+            ->addVisitor(new OS\TizenVisitor())
+            ->addVisitor(new OS\WindowsPhoneVisitor())
+            ->addVisitor(new OS\WindowsVisitor())
+            ->addVisitor(new Apple\OSXVisitor())
+            ->addVisitor(new Apple\IPadVisitor())
+            ->addVisitor(new Apple\IPhoneVisitor())
+            ->addVisitor(new Apple\IPodTouchVisitor());
+
+        return $this;
+    }
+
+    /**
+     * @param VisitorManager $visitorManager
+     * @return self
+     */
+    private function applyBrowsers(VisitorManager $visitorManager)
+    {
+        $visitorManager
+            ->addVisitor(new Browser\ChromeVisitor())
+            ->addVisitor(new Browser\ChromiumVisitor())
+            ->addVisitor(new Browser\FennecVisitor())
+            ->addVisitor(new Browser\FirefoxVisitor())
+            ->addVisitor(new Browser\IEVisitor())
+            ->addVisitor(new Browser\OperaMiniVisitor())
+            ->addVisitor(new Browser\OperaVisitor())
+            ->addVisitor(new Browser\SafariVisitor());
+
+        return $this;
     }
 }

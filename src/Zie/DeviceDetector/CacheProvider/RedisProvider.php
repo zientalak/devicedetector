@@ -64,7 +64,7 @@ class RedisProvider extends AbstractProvider
         $id = $this->generateKey($this->prefix, $device->getFingerprint());
         $data = serialize($device);
 
-        return $this->redis->setex($id, $lifetime, $data);
+        return $this->redis->setex($id, (int)$lifetime, $data);
     }
 
     /**

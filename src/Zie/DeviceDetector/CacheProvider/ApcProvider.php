@@ -39,7 +39,7 @@ class ApcProvider extends AbstractProvider
         return (bool) apc_store(
             $this->generateKey($this->prefix, $device->getFingerprint()),
             serialize($device),
-            $lifetime
+            (int)$lifetime
         );
     }
 

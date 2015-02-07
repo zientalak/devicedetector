@@ -19,7 +19,7 @@ class RobotVisitor extends AbstractDictionaryVisitor
     {
         $context->setCapability(Capabilities::IS_ROBOT, $match);
 
-        return VisitorInterface::STATE_FOUND;
+        VisitorInterface::STATE_SEEKING;
     }
 
     /**

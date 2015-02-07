@@ -6,42 +6,19 @@ use Zie\DeviceDetector\Device\CacheDevice;
 use Zie\DeviceDetector\Exception\CachedDeviceNotFoundException;
 
 /**
- * Class MemcacheProvider
+ * Class XcacheProvider
  * @package Zie\DeviceDetector\CacheProvider
+ * @codeCoverageIgnore
+ * @see http://xcache.lighttpd.net/ticket/228
  */
-class MemcacheProvider extends AbstractProvider
+class XcacheProvider extends AbstractProvider
 {
-    /**
-     * @var \Memcache
-     */
-    private $memcache;
-
-    /**
-     * @param \Memcache $memcache
-     */
-    public function __construct(\Memcache $memcache)
-    {
-        $this->setMemcache($memcache);
-    }
-
-    /**
-     * @codeCoverageIgnore
-     * @param \Memcache $memcache
-     * @return self
-     */
-    public function setMemcache(\Memcache $memcache)
-    {
-        $this->memcache = $memcache;
-
-        return $this;
-    }
-
     /**
      * {@inheritdoc}
      */
     public function hasDevice($fingerprint)
     {
-        return (bool)$this->memcache->get($this->generateKey($this->prefix, $fingerprint));
+        return xcache_isset($this->generateKey($this->prefix, $fingerprint));
     }
 
     /**
@@ -53,7 +30,7 @@ class MemcacheProvider extends AbstractProvider
             return false;
         }
 
-        return unserialize($this->memcache->get($this->generateKey($this->prefix, $fingerprint)));
+        return unserialize(xcache_get($this->generateKey($this->prefix, $fingerprint)));
     }
 
     /**
@@ -61,10 +38,9 @@ class MemcacheProvider extends AbstractProvider
      */
     public function addDevice(CacheDevice $device, $lifetime = self::LIFETIME_DAY)
     {
-        return $this->memcache->set(
+        return xcache_set(
             $this->generateKey($this->prefix, $device->getFingerprint()),
             serialize($device),
-            0,
             (int)$lifetime
         );
     }
@@ -74,7 +50,7 @@ class MemcacheProvider extends AbstractProvider
      */
     public function removeDevice(CacheDevice $device)
     {
-        return $this->memcache->delete($this->generateKey($this->prefix, $device->getFingerprint()));
+        return apc_delete($this->generateKey($this->prefix, $device->getFingerprint()));
     }
 
     /**
@@ -82,6 +58,24 @@ class MemcacheProvider extends AbstractProvider
      */
     public function clear()
     {
-        return $this->memcache->flush();
+        $this->checkAuthorization();
+
+        xcache_clear_cache(XC_TYPE_VAR);
+
+        return true;
+    }
+
+    /**
+     * @return void
+     *
+     * @throws \BadMethodCallException When xcache.admin.enable_auth is On.
+     */
+    protected function checkAuthorization()
+    {
+        if (ini_get('xcache.admin.enable_auth')) {
+            throw new \BadMethodCallException(
+                'xcache.admin.enable_auth should be set to Off if you want use XcacheProvider.'
+            );
+        }
     }
 }

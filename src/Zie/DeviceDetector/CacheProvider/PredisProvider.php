@@ -64,7 +64,7 @@ class PredisProvider extends AbstractProvider
         $id = $this->generateKey($this->prefix, $device->getFingerprint());
         $data = serialize($device);
 
-        $response = $this->predis->setex($id, $lifetime, $data);
+        $response = $this->predis->setex($id, (int)$lifetime, $data);
 
         return $response === true || $response == 'OK';
     }

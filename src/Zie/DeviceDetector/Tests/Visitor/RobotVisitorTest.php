@@ -26,9 +26,9 @@ class RobotVisitorTest extends VisitorTestCase
         );
 
         $this->assertSame(
-            VisitorInterface::STATE_FOUND,
+            VisitorInterface::STATE_SEEKING,
             $visitor->visit($token, $collector),
-            'SmartTVVisitorTest should return found status.'
+            'SmartTVVisitorTest should return seeking status.'
         );
 
         $this->assertTrue(

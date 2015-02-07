@@ -7,24 +7,23 @@ use Zie\DeviceDetector\Exception\VisitorNotAcceptableException;
 use Zie\DeviceDetector\Token\TokenInterface;
 
 /**
- * Class AbstractPatternVisitor
+ * Class AbstractMachVisitor
  * @package Zie\DeviceDetector\Visitor
  */
-abstract class AbstractPatternVisitor extends AbstractUserAgentVisitor
+abstract class AbstractMachVisitor extends AbstractUserAgentVisitor
 {
     /**
      * {@inheritdoc}
      */
     public function visit(TokenInterface $token, CollectorInterface $context)
     {
-        $matches = array();
-        $match = (boolean)preg_match($this->getPattern(), $token->getData(), $matches);
+        $strpos = strripos($token->getData(), $this->getPattern());
 
         return (int)$this->doVisit(
             $token,
             $context,
-            $match,
-            $matches
+            $strpos !== false,
+            $strpos
         );
     }
 
@@ -32,10 +31,10 @@ abstract class AbstractPatternVisitor extends AbstractUserAgentVisitor
      * @param TokenInterface $token
      * @param CollectorInterface $context
      * @param boolean $match
-     * @param array $matches
+     * @param integer $position
      * @return integer
      */
-    abstract protected function doVisit(TokenInterface $token, CollectorInterface $context, $match, array $matches);
+    abstract protected function doVisit(TokenInterface $token, CollectorInterface $context, $match, $position);
 
     /**
      * @return string

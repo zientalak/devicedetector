@@ -28,18 +28,13 @@ abstract class AbstractDictionaryVisitor extends AbstractUserAgentVisitor
         $pattern = sprintf('#%s#is', implode('|', $patterns));
         $matches = array();
         $match = (boolean)preg_match($pattern, $token->getData(), $matches);
-        $doVisit = (int)$this->doVisit(
+
+        return (int)$this->doVisit(
             $token,
             $context,
             $match,
             $matches
         );
-
-        if (VisitorInterface::STATE_FOUND === $doVisit) {
-            return $doVisit;
-        }
-
-        return VisitorInterface::STATE_SEEKING;
     }
 
     /**

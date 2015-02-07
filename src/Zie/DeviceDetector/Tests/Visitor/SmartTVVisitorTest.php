@@ -28,12 +28,12 @@ class SmartTVVisitorTest extends VisitorTestCase
         $this->assertSame(
             VisitorInterface::STATE_SEEKING,
             $visitor->visit($token, $collector),
-            'SmartTVVisitorTest should return seeking status.'
+            'SmartTVVisitor should return seeking status.'
         );
 
         $this->assertTrue(
             $collector->getCapability(Capabilities::IS_SMART_TV),
-            'SmartTVVisitorTest should recognize Smart TV.'
+            'SmartTVVisitor should recognize Smart TV.'
         );
     }
 

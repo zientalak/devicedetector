@@ -28,19 +28,19 @@ class LinuxVisitorTest extends VisitorTestCase
         $this->assertSame(
             VisitorInterface::STATE_SEEKING,
             $visitor->visit($token, $collector),
-            'LinuxVisitorTest should return seeking status.'
+            'LinuxVisitor should return seeking status.'
         );
 
         $this->assertEquals(
             Capabilities::OS_FAMILY_LINUX,
             $collector->getCapability(Capabilities::OS),
-            'LinuxVisitorTest should set recognize Linux.'
+            'LinuxVisitor should set recognize Linux.'
         );
 
         $this->assertEquals(
             Capabilities::OS_FAMILY_LINUX,
             $collector->getCapability(Capabilities::OS_FAMILY),
-            'LinuxVisitorTest should set recognize Linux family OS.'
+            'LinuxVisitor should set recognize Linux family OS.'
         );
     }
 
@@ -58,19 +58,19 @@ class LinuxVisitorTest extends VisitorTestCase
         $this->assertSame(
             VisitorInterface::STATE_SEEKING,
             $visitor->visit($token, $collector),
-            'LinuxVisitorTest should return seeking status.'
+            'LinuxVisitor should return seeking status.'
         );
 
         $this->assertEquals(
             Capabilities::OS_FAMILY_LINUX,
             $collector->getCapability(Capabilities::OS),
-            'LinuxVisitorTest should set recognize Linux.'
+            'LinuxVisitor should set recognize Linux.'
         );
 
         $this->assertEquals(
             Capabilities::OS_FAMILY_LINUX,
             $collector->getCapability(Capabilities::OS_FAMILY),
-            'LinuxVisitorTest should set recognize Linux family OS.'
+            'LinuxVisitor should set recognize Linux family OS.'
         );
     }
 

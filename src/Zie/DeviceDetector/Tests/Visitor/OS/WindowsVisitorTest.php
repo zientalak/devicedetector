@@ -28,31 +28,31 @@ class WindowsVisitorTest extends VisitorTestCase
         $this->assertSame(
             VisitorInterface::STATE_SEEKING,
             $visitor->visit($token, $collector),
-            'WindowsVisitorTest should return seeking status.'
+            'WindowsVisitor should return seeking status.'
         );
 
         $this->assertEquals(
             Capabilities::OS_WINDOWS,
             $collector->getCapability(Capabilities::OS),
-            'WindowsVisitorTest should set recognize Windows.'
+            'WindowsVisitor should set recognize Windows.'
         );
 
         $this->assertSame(
             '10',
             $collector->getCapability(Capabilities::OS_VERSION),
-            'WindowsVisitorTest should set recognize Windows version.'
+            'WindowsVisitor should set recognize Windows version.'
         );
 
         $this->assertSame(
             '10',
             $collector->getCapability(Capabilities::OS_VERSION_FULL),
-            'WindowsVisitorTest should set recognize Windows full version.'
+            'WindowsVisitor should set recognize Windows full version.'
         );
 
         $this->assertEquals(
             Capabilities::OS_FAMILY_WINDOWS,
             $collector->getCapability(Capabilities::OS_FAMILY),
-            'WindowsVisitorTest should set recognize Windows family.'
+            'WindowsVisitor should set recognize Windows family.'
         );
     }
 

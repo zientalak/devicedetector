@@ -28,36 +28,36 @@ class OSXVisitorTest extends VisitorTestCase
         $this->assertSame(
             VisitorInterface::STATE_SEEKING,
             $visitor->visit($token, $collector),
-            'OSXVisitorVisitor should return seeking status.'
+            'OSXVisitor should return seeking status.'
         );
         $this->assertTrue(
             $collector->getCapability(Capabilities::IS_OSX),
-            'OSXVisitorVisitor should recognize OSX.'
+            'OSXVisitor should recognize OSX.'
         );
         $this->assertEquals(
             Capabilities::OS_OSX,
             $collector->getCapability(Capabilities::OS),
-            'OSXVisitorVisitor should return OSX.'
+            'OSXVisitor should return OSX.'
         );
         $this->assertEquals(
             Capabilities::VENDOR_APPLE,
             $collector->getCapability(Capabilities::OS_VENDOR),
-            'OSXVisitorVisitor should return Apple vendor.'
+            'OSXVisitor should return Apple vendor.'
         );
         $this->assertEquals(
             Capabilities::OS_FAMILY_UNIX,
             $collector->getCapability(Capabilities::OS_FAMILY),
-            'OSXVisitorVisitor should return Unix family vendor.'
+            'OSXVisitor should return Unix family vendor.'
         );
         $this->assertEquals(
             '10.8.5',
             $collector->getCapability(Capabilities::OS_VERSION),
-            'OSXVisitorVisitor should return expected version.'
+            'OSXVisitor should return expected version.'
         );
         $this->assertEquals(
             '10.8.5',
             $collector->getCapability(Capabilities::OS_VERSION_FULL),
-            'OSXVisitorVisitor should return expected full version.'
+            'OSXVisitor should return expected full version.'
         );
     }
 
