@@ -8,7 +8,7 @@
         stopOnFailure="false"
         stopOnIncomplete="false"
         stopOnSkipped="false"
-        verbose="false"
+        verbose="true"
         syntaxCheck="false"
         backupGlobals="false"
         backupStaticAttributes="false"
