@@ -21,7 +21,7 @@ class PredisProviderTest extends CacheProviderTestCase
      */
     public function setUp()
     {
-        if(!class_exists('\Predis\Redis')) {
+        if(!class_exists('Predis\Redis')) {
             $this->markTestSkipped('The ' . __CLASS__ .' requires the use of predis/predis component.');
         }
 
