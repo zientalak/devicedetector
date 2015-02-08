@@ -31,22 +31,6 @@ class DeviceTest extends \PHPUnit_Framework_TestCase
             $device->isRobot(),
             'isRobot should return false.'
         );
-        $this->assertFalse(
-            $device->isOSX(),
-            'isOSX should return false.'
-        );
-        $this->assertFalse(
-            $device->isIOS(),
-            'isIOS should return false.'
-        );
-        $this->assertFalse(
-            $device->isAndroid(),
-            'isAndroid should return false.'
-        );
-        $this->assertTrue(
-            $device->isWindows(),
-            'isWindows should return true.'
-        );
         $this->assertEquals(
             Capabilities::OS_WINDOWS,
             $device->getOS(),
@@ -120,22 +104,6 @@ class DeviceTest extends \PHPUnit_Framework_TestCase
         $this->assertFalse(
             $cachedDevice->isRobot(),
             'isRobot should return false.'
-        );
-        $this->assertFalse(
-            $cachedDevice->isOSX(),
-            'isOSX should return false.'
-        );
-        $this->assertFalse(
-            $cachedDevice->isIOS(),
-            'isIOS should return false.'
-        );
-        $this->assertFalse(
-            $cachedDevice->isAndroid(),
-            'isAndroid should return false.'
-        );
-        $this->assertTrue(
-            $cachedDevice->isWindows(),
-            'isWindows should return true.'
         );
         $this->assertEquals(
             Capabilities::OS_WINDOWS,

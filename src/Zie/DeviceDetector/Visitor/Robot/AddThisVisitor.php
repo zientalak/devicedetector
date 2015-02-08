@@ -17,10 +17,10 @@ class AddThisVisitor extends AbstractMachVisitor
     /**
      * {@inheritdoc}
      */
-    protected function doVisit(TokenInterface $token, CollectorInterface $context, $match, $position)
+    protected function doVisit(TokenInterface $token, CollectorInterface $collector, $match, $position)
     {
         if ($match) {
-            $context->setCapability(Capabilities::IS_ROBOT, true)
+            $collector->setCapability(Capabilities::IS_ROBOT, true)
                 ->setCapability(Capabilities::ROBOT_NAME, 'AddThis.com')
                 ->setCapability(Capabilities::ROBOT_PRODUCER, 'Clearspring Technologies, Inc.')
                 ->setCapability(Capabilities::ROBOT_PRODUCER_URL, 'http://www.clearspring.com')

@@ -17,16 +17,15 @@ interface VisitorInterface
 
     /**
      * @param TokenInterface $token
-     * @param CollectorInterface $context
+     * @param CollectorInterface $collector
      * @return boolean
      */
-    public function accept(TokenInterface $token, CollectorInterface $context);
+    public function accept(TokenInterface $token, CollectorInterface $collector);
 
     /**
      * @param TokenInterface $token
-     * @param CollectorInterface $context
+     * @param CollectorInterface $collector
      * @return integer
-     * @throws VisitorNotAcceptableException
      */
-    public function visit(TokenInterface $token, CollectorInterface $context);
+    public function visit(TokenInterface $token, CollectorInterface $collector);
 }

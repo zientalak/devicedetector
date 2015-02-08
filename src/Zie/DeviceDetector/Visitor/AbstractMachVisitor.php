@@ -3,7 +3,6 @@
 namespace Zie\DeviceDetector\Visitor;
 
 use Zie\DeviceDetector\Collector\CollectorInterface;
-use Zie\DeviceDetector\Exception\VisitorNotAcceptableException;
 use Zie\DeviceDetector\Token\TokenInterface;
 
 /**
@@ -15,13 +14,13 @@ abstract class AbstractMachVisitor extends AbstractUserAgentVisitor
     /**
      * {@inheritdoc}
      */
-    public function visit(TokenInterface $token, CollectorInterface $context)
+    public function visit(TokenInterface $token, CollectorInterface $collector)
     {
         $strpos = strripos($token->getData(), $this->getPattern());
 
         return (int)$this->doVisit(
             $token,
-            $context,
+            $collector,
             $strpos !== false,
             $strpos
         );
@@ -29,12 +28,12 @@ abstract class AbstractMachVisitor extends AbstractUserAgentVisitor
 
     /**
      * @param TokenInterface $token
-     * @param CollectorInterface $context
+     * @param CollectorInterface $collector
      * @param boolean $match
      * @param integer $position
      * @return integer
      */
-    abstract protected function doVisit(TokenInterface $token, CollectorInterface $context, $match, $position);
+    abstract protected function doVisit(TokenInterface $token, CollectorInterface $collector, $match, $position);
 
     /**
      * @return string

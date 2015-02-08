@@ -1,6 +1,6 @@
 <?php
 
-namespace Zie\DeviceDetector\Visitor\Browser;
+namespace Zie\DeviceDetector\Visitor\OS;
 
 use Zie\DeviceDetector\Capabilities;
 use Zie\DeviceDetector\Collector\CollectorInterface;
@@ -9,10 +9,10 @@ use Zie\DeviceDetector\Visitor\AbstractPatternVisitor;
 use Zie\DeviceDetector\Visitor\VisitorInterface;
 
 /**
- * Class OperaMiniVisitor
+ * Class SailfishJollaVisitor
  * @package Zie\DeviceDetector\Visitor
  */
-class OperaMiniVisitor extends AbstractPatternVisitor
+class SailfishJollaVisitor extends AbstractPatternVisitor
 {
     /**
      * {@inheritdoc}
@@ -20,10 +20,9 @@ class OperaMiniVisitor extends AbstractPatternVisitor
     protected function doVisit(TokenInterface $token, CollectorInterface $collector, $match, array $matches)
     {
         if ($match) {
-            $collector->setCapability(Capabilities::BROWSER, Capabilities::BROWSER_OPERA_MINI)
-                ->setCapability(Capabilities::BROWSER_VENDOR, Capabilities::VENDOR_OPERA)
-                ->setCapability(Capabilities::BROWSER_VERSION, current(explode(".", $matches['version'])))
-                ->setCapability(Capabilities::BROWSER_VERSION_FULL, $matches['version']);
+            $collector->setCapability(Capabilities::OS, Capabilities::OS_SAILFISH)
+                ->setCapability(Capabilities::OS_VENDOR, Capabilities::VENDOR_JOLLA)
+                ->setCapability(Capabilities::OS_FAMILY, Capabilities::OS_FAMILY_LINUX);
         }
 
         return VisitorInterface::STATE_SEEKING;
@@ -34,6 +33,6 @@ class OperaMiniVisitor extends AbstractPatternVisitor
      */
     protected function getPattern()
     {
-        return '#Opera Mini[ /]?(?P<version>[^\s/]+)#is';
+        return '#Sailfish|Jolla#is';
     }
 }

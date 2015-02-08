@@ -15,14 +15,14 @@ abstract class AbstractPatternVisitor extends AbstractUserAgentVisitor
     /**
      * {@inheritdoc}
      */
-    public function visit(TokenInterface $token, CollectorInterface $context)
+    public function visit(TokenInterface $token, CollectorInterface $collector)
     {
         $matches = array();
         $match = (boolean)preg_match($this->getPattern(), $token->getData(), $matches);
 
         return (int)$this->doVisit(
             $token,
-            $context,
+            $collector,
             $match,
             $matches
         );
@@ -30,12 +30,12 @@ abstract class AbstractPatternVisitor extends AbstractUserAgentVisitor
 
     /**
      * @param TokenInterface $token
-     * @param CollectorInterface $context
+     * @param CollectorInterface $collector
      * @param boolean $match
      * @param array $matches
      * @return integer
      */
-    abstract protected function doVisit(TokenInterface $token, CollectorInterface $context, $match, array $matches);
+    abstract protected function doVisit(TokenInterface $token, CollectorInterface $collector, $match, array $matches);
 
     /**
      * @return string

@@ -30,10 +30,6 @@ class OSXVisitorTest extends VisitorTestCase
             $visitor->visit($token, $collector),
             'OSXVisitor should return seeking status.'
         );
-        $this->assertTrue(
-            $collector->getCapability(Capabilities::IS_OSX),
-            'OSXVisitor should recognize OSX.'
-        );
         $this->assertEquals(
             Capabilities::OS_OSX,
             $collector->getCapability(Capabilities::OS),

@@ -17,10 +17,10 @@ class AlexaCrawlerVisitor extends AbstractPatternVisitor
     /**
      * {@inheritdoc}
      */
-    protected function doVisit(TokenInterface $token, CollectorInterface $context, $match, array $matches)
+    protected function doVisit(TokenInterface $token, CollectorInterface $collector, $match, array $matches)
     {
         if ($match) {
-            $context
+            $collector
                 ->setCapability(Capabilities::IS_ROBOT, true)
                 ->setCapability(Capabilities::ROBOT_NAME, 'Alexa Crawler')
                 ->setCapability(Capabilities::ROBOT_PRODUCER, 'Alexa Internet')

@@ -17,10 +17,10 @@ class AhrefsBotVisitor extends AbstractMachVisitor
     /**
      * {@inheritdoc}
      */
-    protected function doVisit(TokenInterface $token, CollectorInterface $context, $match, $position)
+    protected function doVisit(TokenInterface $token, CollectorInterface $collector, $match, $position)
     {
         if ($match) {
-            $context->setCapability(Capabilities::IS_ROBOT, true)
+            $collector->setCapability(Capabilities::IS_ROBOT, true)
                 ->setCapability(Capabilities::ROBOT_NAME, 'aHrefs Bot')
                 ->setCapability(Capabilities::ROBOT_URL, 'http://ahrefs.com/robot')
                 ->setCapability(Capabilities::ROBOT_PRODUCER, 'Ahrefs Pte Ltd')

@@ -32,24 +32,24 @@ class WindowsPhoneVisitor extends AbstractUserAgentVisitor
     /**
      * {@inheritdoc}
      */
-    public function visit(TokenInterface $token, CollectorInterface $context)
+    public function visit(TokenInterface $token, CollectorInterface $collector)
     {
         $userAgent = $token->getData();
 
         if (preg_match($this->patternWindowsPhone, $userAgent)) {
-            $context->setCapability(Capabilities::OS, Capabilities::OS_WINDOWS_PHONE)
+            $collector->setCapability(Capabilities::OS, Capabilities::OS_WINDOWS_PHONE)
                 ->setCapability(Capabilities::OS_VENDOR, Capabilities::VENDOR_MICROSOFT)
                 ->setCapability(Capabilities::OS_FAMILY, Capabilities::OS_WINDOWS);
 
             $matches = array();
             if (preg_match($this->patternWindowsPhoneVersion, $userAgent, $matches)) {
-                $context->setCapability(Capabilities::OS_VERSION, $matches['version'])
+                $collector->setCapability(Capabilities::OS_VERSION, $matches['version'])
                         ->setCapability(Capabilities::OS_VERSION_FULL, $matches['version']);
             }
         }
 
         if (preg_match($this->specificWindowsPhone7, $userAgent, $matches)) {
-            $context->setCapability(Capabilities::OS, Capabilities::OS_WINDOWS_PHONE)
+            $collector->setCapability(Capabilities::OS, Capabilities::OS_WINDOWS_PHONE)
                 ->setCapability(Capabilities::OS_VENDOR, Capabilities::VENDOR_MICROSOFT)
                 ->setCapability(Capabilities::OS_FAMILY, Capabilities::OS_WINDOWS)
                 ->setCapability(Capabilities::OS_VERSION, '7')

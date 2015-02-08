@@ -10,7 +10,7 @@ use Zie\DeviceDetector\Visitor\VisitorInterface;
 
 /**
  * Class WindowsVisitorTest
- * @package Zie\DeviceDetector\Tests\Visitor\Browser
+ * @package Zie\DeviceDetector\Tests\Visitor\OS
  */
 class WindowsVisitorTest extends VisitorTestCase
 {

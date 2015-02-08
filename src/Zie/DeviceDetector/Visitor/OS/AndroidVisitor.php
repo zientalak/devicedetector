@@ -40,10 +40,10 @@ class AndroidVisitor extends AbstractPatternVisitor
     /**
      * {@inheritdoc}
      */
-    protected function doVisit(TokenInterface $token, CollectorInterface $context, $match, array $matches)
+    protected function doVisit(TokenInterface $token, CollectorInterface $collector, $match, array $matches)
     {
         if ($match) {
-            $context->setCapability(Capabilities::IS_ANDROID, true)
+            $collector
                 ->setCapability(Capabilities::OS, Capabilities::OS_ANDROID)
                 ->setCapability(Capabilities::OS_VERSION, $matches['version'])
                 ->setCapability(Capabilities::OS_VERSION_FULL, $matches['version'])
@@ -51,12 +51,12 @@ class AndroidVisitor extends AbstractPatternVisitor
 
             foreach ($this->releasesMap as $releasePattern => $releaseName) {
                 if (preg_match(sprintf('#^%s#is', $releasePattern), $matches['version'])) {
-                    $context->setCapability(Capabilities::OS_RELEASE, $releaseName);
+                    $collector->setCapability(Capabilities::OS_RELEASE, $releaseName);
                     break;
                 }
 
                 if (preg_match(sprintf('#%s#is', $releaseName), $matches['version'])) {
-                    $context->setCapability(Capabilities::OS_RELEASE, $releaseName)
+                    $collector->setCapability(Capabilities::OS_RELEASE, $releaseName)
                         ->setCapability(Capabilities::OS_VERSION, $releasePattern)
                         ->setCapability(Capabilities::OS_VERSION_FULL, $releasePattern);
                     break;

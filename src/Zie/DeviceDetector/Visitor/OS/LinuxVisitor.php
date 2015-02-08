@@ -18,16 +18,16 @@ class LinuxVisitor extends AbstractUserAgentVisitor
     /**
      * {@inheritdoc}
      */
-    public function visit(TokenInterface $token, CollectorInterface $context)
+    public function visit(TokenInterface $token, CollectorInterface $collector)
     {
         $userAgent = $token->getData();
         $x11 = stripos($userAgent, 'x11');
         $linux = stripos($userAgent, 'linux');
 
         if ($x11 || $linux) {
-            $context->setCapability(Capabilities::OS_FAMILY, Capabilities::OS_FAMILY_LINUX);
-            if (!$context->hasCapability(Capabilities::OS)) {
-                $context->setCapability(Capabilities::OS, Capabilities::OS_FAMILY_LINUX);
+            $collector->setCapability(Capabilities::OS_FAMILY, Capabilities::OS_FAMILY_LINUX);
+            if (!$collector->hasCapability(Capabilities::OS)) {
+                $collector->setCapability(Capabilities::OS, Capabilities::OS_FAMILY_LINUX);
             }
         }
 

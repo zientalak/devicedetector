@@ -12,11 +12,12 @@ final class Capabilities
     const IS_ROBOT = 'is_robot';
     const IS_MOBILE = 'is_mobile';
     const IS_DESKTOP = 'is_desktop';
-    const IS_ANDROID = 'is_android';
     const IS_OSX = 'is_osx';
     const IS_IOS = 'is_ios';
 
     const OS = 'os';
+    const OS_ROM = 'os_rom';
+    const OS_ROM_VERSION = 'os_rom_version';
     const OS_VERSION = 'os_version';
     const OS_VERSION_FULL = 'os_version_full';
     const OS_VENDOR = 'os_vendor';
@@ -48,10 +49,14 @@ final class Capabilities
     const OS_IOS = 'iOS';
     const OS_WINDOWS = 'Windows';
     const OS_WINDOWS_PHONE = 'Windows Phone';
+    const OS_WINDOWS_MOBILE = 'Windows Mobile';
+    const OS_WINDOWS_CE = 'Windows CE';
+    const OS_WINDOWS_RT = 'Windows RT';
     const OS_FAMILY_LINUX = 'Linux';
     const OS_FAMILY_UNIX = 'Unix';
     const OS_FAMILY_WINDOWS = 'Windows';
     const OS_TIZEN = 'Tizen';
+    const OS_SAILFISH = 'Sailfish OS';
 
     const BROWSER_CHROME = 'Chrome';
     const BROWSER_CHROMIUM = 'Chromium';
@@ -76,4 +81,5 @@ final class Capabilities
     const VENDOR_OPERA = 'Opera';
     const VENDOR_APPLE = 'Apple';
     const VENDOR_SAMSUNG = 'Samsung';
+    const VENDOR_JOLLA = 'Jolla';
 }

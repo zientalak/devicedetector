@@ -15,7 +15,7 @@ abstract class AbstractUserAgentVisitor implements VisitorInterface
     /**
      * {@inheritdoc}
      */
-    public function accept(TokenInterface $token, CollectorInterface $context)
+    public function accept(TokenInterface $token, CollectorInterface $collector)
     {
         return $token instanceof UserAgentToken;
     }

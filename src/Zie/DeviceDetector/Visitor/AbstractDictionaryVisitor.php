@@ -17,7 +17,7 @@ abstract class AbstractDictionaryVisitor extends AbstractUserAgentVisitor
     /**
      * {@inheritdoc}
      */
-    public function visit(TokenInterface $token, CollectorInterface $context)
+    public function visit(TokenInterface $token, CollectorInterface $collector)
     {
         $patterns = array_map(
             function ($segment) {
@@ -31,7 +31,7 @@ abstract class AbstractDictionaryVisitor extends AbstractUserAgentVisitor
 
         return (int)$this->doVisit(
             $token,
-            $context,
+            $collector,
             $match,
             $matches
         );
@@ -39,12 +39,12 @@ abstract class AbstractDictionaryVisitor extends AbstractUserAgentVisitor
 
     /**
      * @param TokenInterface $token
-     * @param CollectorInterface $context
+     * @param CollectorInterface $collector
      * @param boolean $match
      * @param array $matches
      * @return integer
      */
-    abstract protected function doVisit(TokenInterface $token, CollectorInterface $context, $match, array $matches);
+    abstract protected function doVisit(TokenInterface $token, CollectorInterface $collector, $match, array $matches);
 
     /**
      * @return array

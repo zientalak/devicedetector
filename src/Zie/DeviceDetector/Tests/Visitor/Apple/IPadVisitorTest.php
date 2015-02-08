@@ -30,14 +30,6 @@ class IPadVisitorTest extends VisitorTestCase
             $visitor->visit($token, $collector),
             'IPadVisitor should return seeking status.'
         );
-        $this->assertFalse(
-            $collector->getCapability(Capabilities::IS_OSX),
-            'IPadVisitor should recognize OSX.'
-        );
-        $this->assertTrue(
-            $collector->getCapability(Capabilities::IS_IOS),
-            'IPadVisitor should recognize iOS.'
-        );
         $this->assertEquals(
             Capabilities::OS_IOS,
             $collector->getCapability(Capabilities::OS),

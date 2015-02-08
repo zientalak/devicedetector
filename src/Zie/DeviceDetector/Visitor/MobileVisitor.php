@@ -15,9 +15,9 @@ class MobileVisitor extends AbstractDictionaryVisitor
     /**
      * {@inheritdoc}
      */
-    protected function doVisit(TokenInterface $token, CollectorInterface $context, $match, array $matches)
+    protected function doVisit(TokenInterface $token, CollectorInterface $collector, $match, array $matches)
     {
-        $context->setCapability(Capabilities::IS_MOBILE, $match);
+        $collector->setCapability(Capabilities::IS_MOBILE, $match);
 
         return VisitorInterface::STATE_SEEKING;
     }

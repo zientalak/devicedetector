@@ -17,10 +17,10 @@ class AcoonBotVisitor extends AbstractMachVisitor
     /**
      * {@inheritdoc}
      */
-    protected function doVisit(TokenInterface $token, CollectorInterface $context, $match, $position)
+    protected function doVisit(TokenInterface $token, CollectorInterface $collector, $match, $position)
     {
         if ($match) {
-            $context->setCapability(Capabilities::IS_ROBOT, true)
+            $collector->setCapability(Capabilities::IS_ROBOT, true)
                 ->setCapability(Capabilities::ROBOT_NAME, 'Acoon')
                 ->setCapability(Capabilities::ROBOT_PRODUCER, 'Acoon GmbH')
                 ->setCapability(Capabilities::ROBOT_PRODUCER_URL, 'http://www.acoon.de')

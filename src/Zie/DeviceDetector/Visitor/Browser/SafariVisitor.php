@@ -18,15 +18,15 @@ class SafariVisitor extends AbstractUserAgentVisitor
     /**
      * {@inheritdoc}
      */
-    public function visit(TokenInterface $token, CollectorInterface $context)
+    public function visit(TokenInterface $token, CollectorInterface $collector)
     {
         $userAgent = $token->getData();
         if (stripos($userAgent, 'Safari')) {
-            $context->setCapability(Capabilities::BROWSER, Capabilities::BROWSER_SAFARI)
+            $collector->setCapability(Capabilities::BROWSER, Capabilities::BROWSER_SAFARI)
                 ->setCapability(Capabilities::BROWSER_VENDOR, Capabilities::VENDOR_APPLE);
 
             if (preg_match('#Version\/(?P<version>[\.\d]+)#is', $userAgent, $matches)) {
-                $context->setCapability(Capabilities::BROWSER, Capabilities::BROWSER_SAFARI)
+                $collector->setCapability(Capabilities::BROWSER, Capabilities::BROWSER_SAFARI)
                     ->setCapability(Capabilities::BROWSER_VERSION, current(explode(".", $matches['version'])))
                     ->setCapability(Capabilities::BROWSER_VERSION_FULL, $matches['version']);
             }

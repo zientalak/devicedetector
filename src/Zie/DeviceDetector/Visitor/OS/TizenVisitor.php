@@ -17,10 +17,10 @@ class TizenVisitor extends AbstractPatternVisitor
     /**
      * {@inheritdoc}
      */
-    protected function doVisit(TokenInterface $token, CollectorInterface $context, $match, array $matches)
+    protected function doVisit(TokenInterface $token, CollectorInterface $collector, $match, array $matches)
     {
         if ($match) {
-            $context->setCapability(Capabilities::OS, Capabilities::OS_TIZEN)
+            $collector->setCapability(Capabilities::OS, Capabilities::OS_TIZEN)
                 ->setCapability(Capabilities::OS_VENDOR, Capabilities::VENDOR_SAMSUNG)
                 ->setCapability(Capabilities::OS_VERSION, $matches['version'])
                 ->setCapability(Capabilities::OS_VERSION_FULL, $matches['version'])

@@ -21,7 +21,7 @@ class DeviceDetector implements DeviceDetectorInterface
     /**
      * @var CollectorInterface
      */
-    protected $context;
+    protected $collector;
 
     /**
      * @var VisitorManagerInterface
@@ -39,7 +39,7 @@ class DeviceDetector implements DeviceDetectorInterface
         CollectorInterface $context
     ) {
         $this->visitorManager = $visitorManager;
-        $this->context = $context;
+        $this->collector = $context;
         $this->setTokenPool($tokenPool);
     }
 
@@ -59,10 +59,10 @@ class DeviceDetector implements DeviceDetectorInterface
      */
     public function detect()
     {
-        $this->context->clear();
+        $this->collector->clear();
 
-        $this->visitorManager->visit($this->tokenPool, $this->context);
+        $this->visitorManager->visit($this->tokenPool, $this->collector);
 
-        return new Device($this->context->getCapabilities());
+        return new Device($this->collector->getCapabilities());
     }
 }

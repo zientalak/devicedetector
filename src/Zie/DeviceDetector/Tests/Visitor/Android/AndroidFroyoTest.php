@@ -31,10 +31,6 @@ class AndroidFroyoTest extends AndroidBaseTest
             $visitor->visit($token, $collector),
             'AndroidVisitor should return seeking status.'
         );
-        $this->assertTrue(
-            $collector->getCapability(Capabilities::IS_ANDROID),
-            'AndroidVisitor should recognize Android.'
-        );
         $this->assertSame(
             Capabilities::OS_ANDROID,
             $collector->getCapability(Capabilities::OS),

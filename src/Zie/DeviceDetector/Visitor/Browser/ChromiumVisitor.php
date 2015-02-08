@@ -17,10 +17,10 @@ class ChromiumVisitor extends AbstractPatternVisitor
     /**
      * {@inheritdoc}
      */
-    protected function doVisit(TokenInterface $token, CollectorInterface $context, $match, array $matches)
+    protected function doVisit(TokenInterface $token, CollectorInterface $collector, $match, array $matches)
     {
         if ($match) {
-            $context->setCapability(Capabilities::BROWSER, Capabilities::BROWSER_CHROMIUM)
+            $collector->setCapability(Capabilities::BROWSER, Capabilities::BROWSER_CHROMIUM)
                 ->setCapability(Capabilities::BROWSER_VENDOR, Capabilities::VENDOR_GOOGLE)
                 ->setCapability(Capabilities::BROWSER_VERSION, current(explode(".", $matches['version'])))
                 ->setCapability(Capabilities::BROWSER_VERSION_FULL, $matches['version']);

@@ -26,17 +26,16 @@ class OSXVisitor extends AbstractUserAgentVisitor
     /**
      * {@inheritdoc}
      */
-    public function visit(TokenInterface $token, CollectorInterface $context)
+    public function visit(TokenInterface $token, CollectorInterface $collector)
     {
         if (preg_match($this->macPattern, $token->getData())) {
-            $context->setCapability(Capabilities::OS, Capabilities::OS_OSX)
-                ->setCapability(Capabilities::IS_OSX, true)
+            $collector->setCapability(Capabilities::OS, Capabilities::OS_OSX)
                 ->setCapability(Capabilities::OS_VENDOR, Capabilities::VENDOR_APPLE)
                 ->setCapability(Capabilities::OS_FAMILY, Capabilities::OS_FAMILY_UNIX);
 
             $matches = array();
             if (preg_match($this->osVersionPattern, $token->getData(), $matches)) {
-                $context->setCapability(Capabilities::OS_VERSION, $this->normalizeVersion($matches['version']))
+                $collector->setCapability(Capabilities::OS_VERSION, $this->normalizeVersion($matches['version']))
                     ->setCapability(Capabilities::OS_VERSION_FULL, $this->normalizeVersion($matches['version']));
             }
         }

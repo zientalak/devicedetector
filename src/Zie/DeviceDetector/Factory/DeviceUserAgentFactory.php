@@ -138,6 +138,10 @@ class DeviceUserAgentFactory implements DeviceUserAgentFactoryInterface
             ->addVisitor(new OS\TizenVisitor())
             ->addVisitor(new OS\WindowsPhoneVisitor())
             ->addVisitor(new OS\WindowsVisitor())
+            ->addVisitor(new OS\WindowsCEVisitior())
+            ->addVisitor(new OS\WindowsMobileVisitor())
+            ->addVisitor(new OS\WindowsRTVisitor())
+            ->addVisitor(new OS\SailfishJollaVisitor())
             ->addVisitor(new Apple\OSXVisitor())
             ->addVisitor(new Apple\IPadVisitor())
             ->addVisitor(new Apple\IPhoneVisitor())
@@ -160,7 +164,8 @@ class DeviceUserAgentFactory implements DeviceUserAgentFactoryInterface
             ->addVisitor(new Browser\IEVisitor())
             ->addVisitor(new Browser\OperaMiniVisitor())
             ->addVisitor(new Browser\OperaVisitor())
-            ->addVisitor(new Browser\SafariVisitor());
+            ->addVisitor(new Browser\SafariVisitor())
+            ->addVisitor(new Browser\AmigaBrowserVisitor());
 
         return $this;
     }

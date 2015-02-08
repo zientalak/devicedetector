@@ -17,10 +17,10 @@ class Spider360Visitor extends AbstractMachVisitor
     /**
      * {@inheritdoc}
      */
-    protected function doVisit(TokenInterface $token, CollectorInterface $context, $match, $position)
+    protected function doVisit(TokenInterface $token, CollectorInterface $collector, $match, $position)
     {
         if ($match) {
-            $context->setCapability(Capabilities::IS_ROBOT, true)
+            $collector->setCapability(Capabilities::IS_ROBOT, true)
                 ->setCapability(Capabilities::ROBOT_NAME, '360Spider')
                 ->setCapability(Capabilities::ROBOT_PRODUCER, 'Online Media Group, Inc.')
                 ->setCapability(Capabilities::ROBOT_URL, 'http://www.so.com/help/help_3_2.html')

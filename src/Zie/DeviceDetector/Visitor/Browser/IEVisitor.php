@@ -18,7 +18,7 @@ class IEVisitor extends AbstractUserAgentVisitor
     /**
      * {@inheritdoc}
      */
-    public function visit(TokenInterface $token, CollectorInterface $context)
+    public function visit(TokenInterface $token, CollectorInterface $collector)
     {
         $userAgent = $token->getData();
         $matches = array();
@@ -28,7 +28,7 @@ class IEVisitor extends AbstractUserAgentVisitor
                 $matches
             )
         ) {
-            $context->setCapability(Capabilities::BROWSER, Capabilities::BROWSER_IE)
+            $collector->setCapability(Capabilities::BROWSER, Capabilities::BROWSER_IE)
                 ->setCapability(Capabilities::BROWSER_VERSION, current(explode(".", $matches['version'])))
                 ->setCapability(Capabilities::BROWSER_VERSION_FULL, $matches['version'])
                 ->setCapability(Capabilities::BROWSER_VENDOR, Capabilities::VENDOR_MICROSOFT);
@@ -37,7 +37,7 @@ class IEVisitor extends AbstractUserAgentVisitor
         // IE 11
         if (stripos($userAgent, 'Trident')) {
             if (preg_match('#rv:(?P<version>[\.\d]+)#is', $userAgent, $matches)) {
-                $context->setCapability(Capabilities::BROWSER, Capabilities::BROWSER_IE)
+                $collector->setCapability(Capabilities::BROWSER, Capabilities::BROWSER_IE)
                     ->setCapability(Capabilities::BROWSER_VERSION, current(explode(".", $matches['version'])))
                     ->setCapability(Capabilities::BROWSER_VERSION_FULL, $matches['version'])
                     ->setCapability(Capabilities::BROWSER_VENDOR, Capabilities::VENDOR_MICROSOFT);

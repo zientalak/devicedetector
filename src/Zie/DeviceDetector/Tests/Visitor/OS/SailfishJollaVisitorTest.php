@@ -5,54 +5,42 @@ namespace Zie\DeviceDetector\Tests\Visitor\OS;
 use Zie\DeviceDetector\Capabilities;
 use Zie\DeviceDetector\Tests\TestCase\VisitorTestCase;
 use Zie\DeviceDetector\Token\UserAgentToken;
-use Zie\DeviceDetector\Visitor\OS\TizenVisitor;
+use Zie\DeviceDetector\Visitor\OS\SailfishJollaVisitor;
 use Zie\DeviceDetector\Visitor\VisitorInterface;
 
 /**
- * Class TizenVisitorTest
+ * Class SailfishJollaVisitorTest
  * @package Zie\DeviceDetector\Tests\Visitor\OS
  */
-class TizenVisitorTest extends VisitorTestCase
+class SailfishJollaVisitorTest extends VisitorTestCase
 {
     /**
      * @test
      */
-    public function recognizeTizen()
+    public function recognizeSailfish()
     {
         $collector = $this->createCollector();
         $visitor = $this->createVisitor();
         $token = new UserAgentToken(
-            'Mozilla/5.0 (Linux; Tizen 2.3; SAMSUNG SM-Z130H) AppleWebKit/537.3 (KHTML, like Gecko) Version/2.3 Mobile Safari/537.3'
+            'Mozilla/5.0 (Maemo; Linux; U; Jolla; Sailfish; Mobile; rv:26.0) Gecko/26.0 Firefox/26.0 SailfishBrowser/1.0 like Safari/538.1'
         );
 
         $this->assertSame(
             VisitorInterface::STATE_SEEKING,
             $visitor->visit($token, $collector),
-            'TizenVisitor should return seeking status.'
+            'SailfishJollaVisitor should return seeking status.'
         );
 
         $this->assertEquals(
-            Capabilities::OS_TIZEN,
+            Capabilities::OS_SAILFISH,
             $collector->getCapability(Capabilities::OS),
-            'TizenVisitor should set recognize Tizen.'
-        );
-
-        $this->assertEquals(
-            '2.3',
-            $collector->getCapability(Capabilities::OS_VERSION),
-            'TizenVisitor should set recognize Tizen version.'
-        );
-
-        $this->assertEquals(
-            '2.3',
-            $collector->getCapability(Capabilities::OS_VERSION_FULL),
-            'TizenVisitor should set recognize Tizen full version.'
+            'SailfishJollaVisitor should set recognize Sailfish.'
         );
 
         $this->assertEquals(
             Capabilities::OS_FAMILY_LINUX,
             $collector->getCapability(Capabilities::OS_FAMILY),
-            'TizenVisitor should set recognize Tizen family.'
+            'SailfishJollaVisitor should set recognize Sailfish family.'
         );
     }
 
@@ -61,6 +49,6 @@ class TizenVisitorTest extends VisitorTestCase
      */
     protected function createVisitor()
     {
-        return new TizenVisitor();
+        return new SailfishJollaVisitor();
     }
 }

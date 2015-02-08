@@ -31,10 +31,6 @@ class AndroidGingerbreadTest extends AndroidBaseTest
             $visitor->visit($token, $collector),
             'AndroidVisitor should return seeking status.'
         );
-        $this->assertTrue(
-            $collector->getCapability(Capabilities::IS_ANDROID),
-            'AndroidVisitor should recognize Android.'
-        );
         $this->assertSame(
             Capabilities::VENDOR_GOOGLE,
             $collector->getCapability(Capabilities::OS_VENDOR),

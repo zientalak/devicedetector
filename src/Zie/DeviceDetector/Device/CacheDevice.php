@@ -63,110 +63,6 @@ final class CacheDevice implements DeviceInterface
     /**
      * {@inheritdoc}
      */
-    public function isMobile()
-    {
-        return $this->device->isMobile();
-    }
-
-    /**
-     * {@inheritdoc}
-     */
-    public function isRobot()
-    {
-        return $this->device->isRobot();
-    }
-
-    /**
-     * {@inheritdoc}
-     */
-    public function isAndroid()
-    {
-        return $this->device->isAndroid();
-    }
-
-    /**
-     * {@inheritdoc}
-     */
-    public function isOSX()
-    {
-        return $this->device->isOSX();
-    }
-
-    /**
-     * {@inheritdoc}
-     */
-    public function isIOS()
-    {
-        return $this->device->isOSX();
-    }
-
-    /**
-     * {@inheritdoc}
-     */
-    public function isWindows()
-    {
-        return $this->device->isWindows();
-    }
-
-    /**
-     * {@inheritdoc}
-     */
-    public function getOS()
-    {
-        return $this->device->getOS();
-    }
-
-    /**
-     * {@inheritdoc}
-     */
-    public function getOSVersion()
-    {
-        return $this->device->getOSVersion();
-    }
-
-    /**
-     * {@inheritdoc}
-     */
-    public function getOSVersionFull()
-    {
-        return $this->device->getOSVersionFull();
-    }
-
-    /**
-     * {@inheritdoc}
-     */
-    public function getOSVendor()
-    {
-        return $this->device->getOSVendor();
-    }
-
-    /**
-     * {@inheritdoc}
-     */
-    public function getBrowser()
-    {
-        return $this->device->getBrowser();
-    }
-
-    /**
-     * {@inheritdoc}
-     */
-    public function getBrowserVersion()
-    {
-        return $this->device->getBrowserVersion();
-    }
-
-    /**
-     * {@inheritdoc}
-     */
-    public function getBrowserVersionFull()
-    {
-        return $this->device->getBrowserVersionFull();
-    }
-
-    /**
-     * {@inheritdoc}
-     */
     public function isValid()
     {
         return $this->device->isValid();
@@ -194,5 +90,14 @@ final class CacheDevice implements DeviceInterface
 
         $this->fingerprint = $unserialized['fingerprint'];
         $this->device = $unserialized['device'];
+    }
+
+    /**
+     * @param string $name
+     * @param array $arguments
+     */
+    public function __call($name, array $arguments)
+    {
+        return $this->device->__call($name, $arguments);
     }
 }

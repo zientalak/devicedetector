@@ -43,17 +43,17 @@ class IPhoneVisitor extends AbstractUserAgentVisitor
     /**
      * {@inheritdoc}
      */
-    public function visit(TokenInterface $token, CollectorInterface $context)
+    public function visit(TokenInterface $token, CollectorInterface $collector)
     {
         if (preg_match($this->iPhonePattern, $token->getData())) {
-            $context->setCapability(Capabilities::IS_OSX, false)
+            $collector
                 ->setCapability(Capabilities::IS_IOS, true)
                 ->setCapability(Capabilities::OS, Capabilities::OS_IOS)
                 ->setCapability(Capabilities::BRAND_NAME, 'iPhone');
 
             foreach ($this->iPhoneVersions as $pattern => $name) {
                 if (preg_match(sprintf('#%s#is', $pattern), $token->getData())) {
-                    $context->setCapability(Capabilities::BRAND_NAME_FULL, $name);
+                    $collector->setCapability(Capabilities::BRAND_NAME_FULL, $name);
                     break;
                 }
             }
