@@ -57,6 +57,7 @@ final class Capabilities
     const OS_FAMILY_WINDOWS = 'Windows';
     const OS_TIZEN = 'Tizen';
     const OS_SAILFISH = 'Sailfish OS';
+    const OS_AMIGA = 'Amiga OS';
 
     const BROWSER_CHROME = 'Chrome';
     const BROWSER_CHROMIUM = 'Chromium';

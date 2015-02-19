@@ -15,11 +15,11 @@ class RobotVisitor extends AbstractDictionaryVisitor
     /**
      * {@inheritdoc}
      */
-    protected function doVisit(TokenInterface $token, CollectorInterface $collector, $match, array $matches)
+    protected function doVisit(TokenInterface $token, CollectorInterface $collector, $position)
     {
-        $collector->setCapability(Capabilities::IS_ROBOT, $match);
+        $collector->setCapability(Capabilities::IS_ROBOT, true);
 
-        VisitorInterface::STATE_SEEKING;
+        return VisitorInterface::STATE_SEEKING;
     }
 
     /**

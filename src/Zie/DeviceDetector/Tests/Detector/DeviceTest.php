@@ -216,6 +216,17 @@ class DeviceTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
+     * @test
+     * @expectedException \BadMethodCallException
+     */
+    public function cacheDeviceThrowExceptionIfMethodNotExists()
+    {
+        $device = new Device($this->getCapabilities());
+
+        $device->nonExistingMethod();
+    }
+
+    /**
      * @return array
      */
     protected function getCapabilities()

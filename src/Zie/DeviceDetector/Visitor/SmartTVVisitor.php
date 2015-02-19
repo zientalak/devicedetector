@@ -15,9 +15,9 @@ class SmartTVVisitor extends AbstractDictionaryVisitor
     /**
      * {@inheritdoc}
      */
-    protected function doVisit(TokenInterface $token, CollectorInterface $collector, $match, array $matches)
+    protected function doVisit(TokenInterface $token, CollectorInterface $collector, $position)
     {
-        $collector->setCapability(Capabilities::IS_SMART_TV, $match);
+        $collector->setCapability(Capabilities::IS_SMART_TV, true);
 
         return VisitorInterface::STATE_SEEKING;
     }

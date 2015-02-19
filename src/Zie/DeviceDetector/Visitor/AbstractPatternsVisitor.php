@@ -3,13 +3,14 @@
 namespace Zie\DeviceDetector\Visitor;
 
 use Zie\DeviceDetector\Collector\CollectorInterface;
+use Zie\DeviceDetector\Exception\VisitorNotAcceptableException;
 use Zie\DeviceDetector\Token\TokenInterface;
 
 /**
- * Class AbstractDictionaryVisitor
+ * Class AbstractPatternsVisitor
  * @package Zie\DeviceDetector\Visitor
  */
-abstract class AbstractDictionaryVisitor extends AbstractUserAgentVisitor
+abstract class AbstractPatternsVisitor extends AbstractUserAgentVisitor
 {
     /**
      * {@inheritdoc}
@@ -17,12 +18,13 @@ abstract class AbstractDictionaryVisitor extends AbstractUserAgentVisitor
     public function visit(TokenInterface $token, CollectorInterface $collector)
     {
         foreach ($this->getPatterns() as $pattern) {
-            $position = stripos($token->getData(), $pattern);
-            if (false !== $position) {
+            $matches = array();
+            $match = (boolean)preg_match($pattern, $token->getData(), $matches);
+            if (false !== $match) {
                 return (int)$this->doVisit(
                     $token,
                     $collector,
-                    $position
+                    $matches
                 );
             }
         }
@@ -33,10 +35,10 @@ abstract class AbstractDictionaryVisitor extends AbstractUserAgentVisitor
     /**
      * @param TokenInterface $token
      * @param CollectorInterface $collector
-     * @param integer $position
+     * @param array $matches
      * @return integer
      */
-    abstract protected function doVisit(TokenInterface $token, CollectorInterface $collector, $position);
+    abstract protected function doVisit(TokenInterface $token, CollectorInterface $collector, array $matches);
 
     /**
      * @return array

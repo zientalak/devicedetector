@@ -12,43 +12,35 @@ use Zie\DeviceDetector\Visitor\VisitorInterface;
  * Class IPodTouchVisitor
  * @package Zie\DeviceDetector\Visitor
  */
-class IPodTouchVisitor extends AbstractUserAgentVisitor
+class IPodTouchVisitor extends AppleMobileVisitor
 {
     /**
-     * @var string
+     * @return string
      */
-    private $iPodPattern = '#iPod#is';
-
-    /**
-     * @var array
-     */
-    private $iPodVersions = array(
-        'iPod1,1' => 'iPod touch',
-        'iPod2,1' => 'iPod touch 2G',
-        'iPod3,1' => 'iPod touch 3G',
-        'iPod4,1' => 'iPod touch 4G',
-        'iPod5,1' => 'iPod touch 5G'
-    );
-
-    /**
-     * {@inheritdoc}
-     */
-    public function visit(TokenInterface $token, CollectorInterface $collector)
+    protected function getDevicePattern()
     {
-        if (preg_match($this->iPodPattern, $token->getData())) {
-            $collector
-                ->setCapability(Capabilities::IS_IOS, true)
-                ->setCapability(Capabilities::OS, Capabilities::OS_IOS)
-                ->setCapability(Capabilities::BRAND_NAME, 'iPod');
+        return '#iPod#is';
+    }
 
-            foreach ($this->iPodVersions as $pattern => $name) {
-                if (preg_match(sprintf('#%s#is', $pattern), $token->getData())) {
-                    $collector->setCapability(Capabilities::BRAND_NAME_FULL, $name);
-                    break;
-                }
-            }
-        }
+    /**
+     * @return array
+     */
+    protected function getDeviceVersionsPatterns()
+    {
+        return array(
+            'iPod1,1' => 'iPod touch',
+            'iPod2,1' => 'iPod touch 2G',
+            'iPod3,1' => 'iPod touch 3G',
+            'iPod4,1' => 'iPod touch 4G',
+            'iPod5,1' => 'iPod touch 5G'
+        );
+    }
 
-        return VisitorInterface::STATE_SEEKING;
+    /**
+     * @return string
+     */
+    protected function getBrandName()
+    {
+        return 'iPod';
     }
 }

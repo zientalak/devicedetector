@@ -58,22 +58,20 @@ class CacheDetectorTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @param boolean $device
-     * @return CacheProviderInterface
+     * @param $device
+     * @param bool $get
+     * @param bool $add
+     * @return \PHPUnit_Framework_MockObject_MockObject
      */
-    private function createCacheProvider($device)
+    private function createCacheProvider($device, $get = true, $add = true)
     {
         $mock = $this->getMock('Zie\DeviceDetector\CacheProvider\CacheProviderInterface');
 
-        $mock->expects($this->once())
-            ->method('hasDevice')
-            ->willReturn($device);
-
-        $mock->expects($device ? $this->once() : $this->never())
+        $mock->expects($get ? $this->once() : $this->never())
             ->method('getDevice')
             ->willReturn($this->createDevice());
 
-        $mock->expects($device ? $this->never() : $this->once())
+        $mock->expects($add ? $this->never() : $this->once())
             ->method('addDevice')
             ->will($this->returnSelf());
 

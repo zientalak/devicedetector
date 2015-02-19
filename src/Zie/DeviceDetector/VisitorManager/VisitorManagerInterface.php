@@ -15,7 +15,7 @@ interface VisitorManagerInterface
     /**
      * @param VisitorInterface $visitor
      * @param int $priority
-     * @return VisitorManagerInterface
+     * @return self
      */
     public function addVisitor(VisitorInterface $visitor, $priority = 0);
 
@@ -27,12 +27,12 @@ interface VisitorManagerInterface
 
     /**
      * @param VisitorInterface $visitor
-     * @return VisitorManagerInterface
+     * @return self
      */
     public function removeVisitor(VisitorInterface $visitor);
 
     /**
-     * @return \Iterator
+     * @return \Traversable|array
      */
     public function getVisitors();
 
@@ -44,7 +44,7 @@ interface VisitorManagerInterface
     /**
      * @param TokenPoolInterface $tokenPool
      * @param CollectorInterface $context
-     * @return VisitorManagerInterface
+     * @return self
      */
     public function visit(TokenPoolInterface $tokenPool, CollectorInterface $context);
 }

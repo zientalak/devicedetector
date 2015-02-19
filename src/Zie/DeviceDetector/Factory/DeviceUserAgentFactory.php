@@ -50,7 +50,7 @@ class DeviceUserAgentFactory implements DeviceUserAgentFactoryInterface
             new Collector()
         );
 
-        if ($this->deviceDetector instanceof CacheDetector) {
+        if (!is_null($this->deviceDetector) && $this->deviceDetector instanceof CacheDetector) {
             $this->deviceDetector->setFingerprintGenerator(new GenericGenerator())
                 ->setCacheProvider($cacheProvider);
         }
@@ -142,6 +142,9 @@ class DeviceUserAgentFactory implements DeviceUserAgentFactoryInterface
             ->addVisitor(new OS\WindowsMobileVisitor())
             ->addVisitor(new OS\WindowsRTVisitor())
             ->addVisitor(new OS\SailfishJollaVisitor())
+            ->addVisitor(new OS\TizenVisitor())
+            ->addVisitor(new OS\AndroidRomsVisitor())
+            ->addVisitor(new OS\AmigaOSVisitor())
             ->addVisitor(new Apple\OSXVisitor())
             ->addVisitor(new Apple\IPadVisitor())
             ->addVisitor(new Apple\IPhoneVisitor())

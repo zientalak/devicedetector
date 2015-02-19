@@ -45,14 +45,15 @@ final class CacheDetector extends DeviceDetector
     }
 
     /**
-     * @return \Zie\DeviceDetector\Device\CacheDevice
+     * {@inheritdoc}
      */
     public function detect()
     {
         $fingerprint = $this->fingerprintGenerator->getFingerprint($this->tokenPool);
 
-        if ($this->cacheProvider->hasDevice($fingerprint)) {
-            return $this->cacheProvider->getDevice($fingerprint);
+        $device = $this->cacheProvider->getDevice($fingerprint);
+        if (false !== $device) {
+            return $device;
         }
 
         $device = new CacheDevice(parent::detect(), $fingerprint);

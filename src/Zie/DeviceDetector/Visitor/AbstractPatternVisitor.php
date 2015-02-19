@@ -3,7 +3,6 @@
 namespace Zie\DeviceDetector\Visitor;
 
 use Zie\DeviceDetector\Collector\CollectorInterface;
-use Zie\DeviceDetector\Exception\VisitorNotAcceptableException;
 use Zie\DeviceDetector\Token\TokenInterface;
 
 /**
@@ -24,7 +23,7 @@ abstract class AbstractPatternVisitor extends AbstractUserAgentVisitor
             $token,
             $collector,
             $match,
-            $matches
+            (array)$matches
         );
     }
 

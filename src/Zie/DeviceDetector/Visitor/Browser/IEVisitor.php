@@ -22,7 +22,9 @@ class IEVisitor extends AbstractUserAgentVisitor
     {
         $userAgent = $token->getData();
         $matches = array();
-        if (!preg_match('#Opera|armv|MOTO|BREW#is', $userAgent) && preg_match(
+        $isExcluded = preg_match('#Opera|armv|MOTO|BREW#is', $userAgent);
+        if (!$isExcluded
+            && preg_match(
                 '#msie[ /]?(?P<version>[^\s/;]+)#is',
                 $userAgent,
                 $matches

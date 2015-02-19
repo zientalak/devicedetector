@@ -5,7 +5,6 @@ namespace Zie\DeviceDetector\Visitor\Browser;
 use Zie\DeviceDetector\Capabilities;
 use Zie\DeviceDetector\Collector\CollectorInterface;
 use Zie\DeviceDetector\Token\TokenInterface;
-use Zie\DeviceDetector\Visitor\AbstractDictionaryVisitor;
 use Zie\DeviceDetector\Visitor\AbstractUserAgentVisitor;
 use Zie\DeviceDetector\Visitor\VisitorInterface;
 
