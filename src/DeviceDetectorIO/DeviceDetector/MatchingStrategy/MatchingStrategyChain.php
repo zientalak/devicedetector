@@ -18,7 +18,7 @@ class MatchingStrategyChain implements MatchingStrategyInterface
     /**
      * {@inheritdoc}
      */
-    public function match($rule, TokenInterface $token)
+    public function match(array $rule, TokenInterface $token)
     {
         /** @var MatchingStrategyInterface $strategy */
         foreach ($this->chain as $strategy) {

@@ -8,10 +8,6 @@ use DeviceDetectorIO\DeviceDetector\Device\Device;
 use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
 
-/**
- * Class GenericProviderSpec
- * @package spec\DeviceDetectorIO\DeviceDetector\CacheProvider
- */
 class GenericProviderSpec extends ObjectBehavior
 {
     function let()

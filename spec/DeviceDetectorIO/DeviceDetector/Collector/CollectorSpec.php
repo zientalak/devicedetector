@@ -5,10 +5,6 @@ namespace spec\DeviceDetectorIO\DeviceDetector\Collector;
 use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
 
-/**
- * Class CollectorSpec
- * @package spec\DeviceDetectorIO\DeviceDetector\Collector
- */
 class CollectorSpec extends ObjectBehavior
 {
     function it_is_initializable()
@@ -16,7 +12,7 @@ class CollectorSpec extends ObjectBehavior
         $this->shouldHaveType('DeviceDetectorIO\DeviceDetector\Collector\Collector');
     }
 
-    function it_is_a_collector_interface()
+    function it_implements_collector_interface()
     {
         $this->shouldImplement('DeviceDetectorIO\DeviceDetector\Collector\CollectorInterface');
     }

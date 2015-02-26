@@ -5,10 +5,6 @@ namespace spec\DeviceDetectorIO\DeviceDetector\Cache;
 use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
 
-/**
- * Class ArrayCacheSpec
- * @package spec\DeviceDetectorIO\DeviceDetector\Cache
- */
 class ArrayCacheSpec extends ObjectBehavior
 {
     function it_is_initializable()

@@ -91,12 +91,12 @@ class DeviceUserAgentFactory implements DeviceUserAgentFactoryInterface
     }
 
     /**
-     * @return JsonRepositoryInterface
+     * @return JsonRepository
      */
     private function createRepository()
     {
         $repository = new JsonRepository();
-        $repository->setFilePath(__DIR__ . '/../../../../Resources/cache/rules.json');
+        $repository->setFilePath(__DIR__ . '/../../../../resources/rules/json/basic.json');
 
         return $repository;
     }

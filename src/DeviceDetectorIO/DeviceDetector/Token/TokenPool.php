@@ -49,6 +49,8 @@ class TokenPool implements TokenPoolInterface
     public function clear()
     {
         $this->pool->removeAll($this->pool);
+
+        return $this;
     }
 
     /**

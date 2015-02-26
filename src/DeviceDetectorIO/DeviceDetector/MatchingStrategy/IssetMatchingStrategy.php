@@ -10,7 +10,7 @@ class IssetMatchingStrategy implements MatchingStrategyInterface
     /**
      * {@inheritdoc}
      */
-    public function match($rule, TokenInterface $token)
+    public function match(array $rule, TokenInterface $token)
     {
         if (!$token instanceof UserAgentTokenizedToken) {
             return false;

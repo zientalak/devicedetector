@@ -7,7 +7,7 @@ extensions:
     - PhpSpec\Extension\CodeCoverageExtension
 code_coverage:
   blacklist:
-    - src/DeviceDetectorIO/DeviceDetector/Tests
+    - tests
   format:
     - clover
   output:

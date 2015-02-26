@@ -15,13 +15,13 @@ interface TokenPoolInterface extends \Countable
 
     /**
      * @param array $tokens
-     * @return TokenPoolInterface
+     * @return self
      */
     public function setTokens(array $tokens);
 
     /**
      * @param TokenInterface $token
-     * @return TokenPoolInterface
+     * @return self
      */
     public function addToken(TokenInterface $token);
 
@@ -33,12 +33,12 @@ interface TokenPoolInterface extends \Countable
 
     /**
      * @param TokenInterface $token
-     * @return TokenPoolInterface
+     * @return self
      */
     public function removeToken(TokenInterface $token);
 
     /**
-     * @return TokenPoolInterface
+     * @return self
      */
     public function clear();
 }

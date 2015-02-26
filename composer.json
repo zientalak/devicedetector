@@ -23,7 +23,8 @@
     },
     "autoload": {
         "psr-4" : {
-            "DeviceDetectorIO\\DeviceDetector\\" : "src/DeviceDetectorIO/DeviceDetector"
+            "DeviceDetectorIO\\DeviceDetector\\" : "src/DeviceDetectorIO/DeviceDetector",
+            "DeviceDetectorIO\\DeviceDetector\\Tests\\" : "tests/DeviceDetectorIO/DeviceDetector"
         }
     }
 }

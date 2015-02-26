@@ -7,10 +7,6 @@ use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
 use Doctrine\Common\Cache\ArrayCache;
 
-/**
- * Class DoctrineCacheBridgeSpec
- * @package spec\DeviceDetectorIO\DeviceDetector\Cache
- */
 class DoctrineCacheBridgeSpec extends ObjectBehavior
 {
     function let()

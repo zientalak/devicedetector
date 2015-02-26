@@ -14,7 +14,7 @@ class RegexMatchingStrategy implements MatchingStrategyInterface
     /**
      * {@inheritdoc}
      */
-    public function match($rule, TokenInterface $token)
+    public function match(array $rule, TokenInterface $token)
     {
         if (!$token instanceof UserAgentToken) {
             return false;
