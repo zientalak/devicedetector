@@ -16,4 +16,7 @@ tools:
 
 filter:
     excluded_paths:
-        - src/Zie/DeviceDetector/Tests/*
+        - src/tests/*
+        - spec/*
+        - Resources/*
+        - bin/

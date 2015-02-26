@@ -16,7 +16,7 @@
 
     <testsuites>
         <testsuite name="DeviceDetector Tests">
-            <directory>./src/Zie/DeviceDetector/Tests</directory>
+            <directory>./src/DeviceDetectorIO/DeviceDetector/Tests</directory>
         </testsuite>
     </testsuites>
 
@@ -26,7 +26,7 @@
             <exclude>
                 <directory>vendor</directory>
                 <directory>.composer</directory>
-                <directory>./src/Zie/DeviceDetector/Tests</directory>
+                <directory>./src/DeviceDetectorIO/DeviceDetector/Tests</directory>
             </exclude>
         </whitelist>
     </filter>
