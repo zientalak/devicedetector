@@ -27,13 +27,6 @@ class UserAgentTokenSpec extends ObjectBehavior
         $this->getData()->shouldReturn($this->create_useragent());
     }
 
-    function it_is_serializable()
-    {
-        $serialized = serialize($this->create_useragent());
-        $this->serialize()->shouldReturn($serialized);
-        $this->unserialize($serialized)->shouldReturn($this);
-    }
-
     private function create_useragent()
     {
         return 'Mozilla/5.0 (Linux; U; Android 1.0; en-us; generic) AppleWebKit/525.10 (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2';

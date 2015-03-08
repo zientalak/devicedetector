@@ -36,6 +36,8 @@ composer.lock
 composer.phar
 coverage.clover
 ocular.phar
+bin/phpspec
+bin/phpunit
 
 # Windows image file caches
 Thumbs.db

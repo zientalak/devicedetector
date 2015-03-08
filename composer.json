@@ -10,6 +10,9 @@
             "email": "damian.zientalak@gmail.com"
         }
     ],
+    "config": {
+        "bin-dir": "bin"
+    },
     "require": {
         "php": ">=5.3.3",
         "doctrine/cache" : "1.4.*"

@@ -22,7 +22,8 @@ script:
   - mkdir -p build/logs
   - cp phpspec.yml.dist phpspec.yml
   - cp phpunit.xml.dist phpunit.xml
-  - phpunit -c phpunit.xml
+  - bin/phpspec run -c phpspec.xml
+  - bin/phpunit -c phpunit.xml
 
 notifications:
   email:

@@ -50,6 +50,7 @@ class UserAgentTokenizedToken implements TokenInterface
 
     /**
      * {@inheritdoc}
+     * @codeCoverageIgnore
      */
     public function serialize()
     {
@@ -60,6 +61,7 @@ class UserAgentTokenizedToken implements TokenInterface
 
     /**
      * {@inheritdoc}
+     * @codeCoverageIgnore
      */
     public function unserialize($serialized)
     {
