@@ -82,9 +82,6 @@ class DeviceUserAgentFactory implements DeviceUserAgentFactoryInterface
     private function createVisitorManager()
     {
         $visitorManager = new VisitorManager();
-        $visitorManager->addVisitor(new Visitor\MobileVisitor());
-        $visitorManager->addVisitor(new Visitor\RobotVisitor());
-        $visitorManager->addVisitor(new Visitor\SmartTVVisitor());
         $visitorManager->addVisitor($this->createRepositoryVisitor(), 1);
 
         return $visitorManager;
