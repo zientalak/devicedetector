@@ -1,0 +1,8 @@
+-
+  patterns:
+     -
+        strategy: regex
+        value: "#googletv|boxee|sonydtv|appletv|philipstv|smarttv|smart-tv|dlna|netcast.tv|ce-html|inettvbrowser|opera tv|viera|konfabulator|sony bravia|hbbtv#is"
+  category: robot
+  capabilities:
+      is_smarttv: true

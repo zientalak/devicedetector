@@ -30,13 +30,14 @@ com_crashlytics_export_strings.xml
 
 build/
 vendor/
-report/
 phpunit.xml
+phpspec.yml
 composer.lock
 composer.phar
-
 coverage.clover
 ocular.phar
+bin/phpspec
+bin/phpunit
 
 # Windows image file caches
 Thumbs.db

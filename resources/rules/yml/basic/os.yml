@@ -1,0 +1,362 @@
+-
+  patterns:
+     -
+        strategy: regex
+        value: "#CYGWIN_NT-10.0|CYGWIN_NT-6.4|Windows NT 6.4|Windows NT 10.0|Windows 10#is"
+  category: os
+  capabilities:
+      os: Windows
+      os_version: 10
+      os_vendor: Microsoft
+      os_family: Windows
+
+-
+  patterns:
+     -
+        strategy: regex
+        value: "#CYGWIN_NT-6.3|Windows NT 6.3|Windows 8.1#is"
+  category: os
+  capabilities:
+      os: Windows
+      os_version: 8.1
+      os_vendor: Microsoft
+      os_family: Windows
+
+-
+  patterns:
+     -
+        strategy: regex
+        value: "#CYGWIN_NT-6.2|Windows NT 6.2|Windows 8#is"
+  category: os
+  capabilities:
+      os: Windows
+      os_version: 8
+      os_vendor: Microsoft
+      os_family: Windows
+
+-
+  patterns:
+     -
+        strategy: regex
+        value: "#CYGWIN_NT-6.1|Windows NT 6.1|Windows 7#is"
+  category: os
+  capabilities:
+      os: Windows
+      os_version: 7
+      os_vendor: Microsoft
+      os_family: Windows
+
+-
+  patterns:
+     -
+        strategy: regex
+        value: "#CYGWIN_NT-6.0|Windows NT 6.0|Windows Vista#is"
+  category: os
+  capabilities:
+      os: Windows
+      os_version: Vista
+      os_vendor: Microsoft
+      os_family: Windows
+
+-
+  patterns:
+     -
+        strategy: regex
+        value: "#CYGWIN_NT-5.2|Windows NT 5.2|Windows Server 2003 / XP x64#is"
+  category: os
+  capabilities:
+      os: Windows
+      os_version: Server 2003
+      os_vendor: Microsoft
+      os_family: Windows
+
+-
+  patterns:
+     -
+        strategy: regex
+        value: "#CYGWIN_NT-5.1|Windows NT 5.1|Windows XP#is"
+  category: os
+  capabilities:
+      os: Windows
+      os_version: XP
+      os_vendor: Microsoft
+      os_family: Windows
+
+-
+  patterns:
+     -
+        strategy: regex
+        value: "#CYGWIN_NT-5.0|Windows NT 5.0|Windows 2000#is"
+  category: os
+  capabilities:
+      os: Windows
+      os_version: 2000
+      os_vendor: Microsoft
+      os_family: Windows
+
+-
+  patterns:
+     -
+        strategy: regex
+        value: "#CYGWIN_NT-4.0|Windows NT 4.0|WinNT|Windows NT#is"
+  category: os
+  capabilities:
+      os: Windows
+      os_version: NT 4.0
+      os_vendor: Microsoft
+      os_family: Windows
+
+-
+  patterns:
+     -
+        strategy: regex
+        value: "#CYGWIN_ME-4.90|Win 9x 4.90|Windows ME#is"
+  category: os
+  capabilities:
+      os: Windows
+      os_version: Me
+      os_vendor: Microsoft
+      os_family: Windows
+
+-
+  patterns:
+     -
+        strategy: regex
+        value: "#CYGWIN_98-4.10|Win98|Windows 98#is"
+  category: os
+  capabilities:
+      os: Windows
+      os_version: 98
+      os_vendor: Microsoft
+      os_family: Windows
+
+-
+  patterns:
+     -
+        strategy: regex
+        value: "#CYGWIN_95-4.0|Win32|Win95|Windows 95|Windows_95#is"
+  category: os
+  capabilities:
+      os: Windows
+      os_version: 95
+      os_vendor: Microsoft
+      os_family: Windows
+
+-
+  patterns:
+     -
+        strategy: stripos
+        value: "Windows CE"
+  category: os
+  capabilities:
+      os: Windows
+      os_version: CE
+      os_vendor: Microsoft
+      os_family: Windows
+
+-
+  patterns:
+     -
+        strategy: stripos
+        value: "Windows 3.1"
+  category: os
+  capabilities:
+      os: Windows
+      os_version: 3.1
+      os_vendor: Microsoft
+      os_family: Windows
+
+-
+  patterns:
+     -
+        strategy: stripos
+        value: "Win16"
+  category: os
+  capabilities:
+      os: Windows
+      os_version: 3.11
+      os_vendor: Microsoft
+      os_family: Windows
+
+-
+  patterns:
+     -
+        strategy: stripos
+        value: "Windows NT 6.3; ARM;"
+  category: os
+  capabilities:
+      os: Windows RT
+      os_version: 8.1
+      os_vendor: Microsoft
+      os_family: Windows
+
+-
+  patterns:
+     -
+        strategy: stripos
+        value: "Windows NT 6.2; ARM;"
+  category: os
+  capabilities:
+      os: Windows RT
+      os_version: 8
+      os_vendor: Microsoft
+      os_family: Windows
+
+-
+  patterns:
+     -
+        strategy: regex
+        value: "#XBLWP7|ZuneWP7#is"
+  category: os
+  capabilities:
+      os: Windows Phone
+      os_version: 7
+      os_vendor: Microsoft
+      os_family: Windows
+
+-
+  patterns:
+     -
+        strategy: regex
+        value: "#Windows Phone (?:OS) (?P<os_version>[\d\.]+)#is"
+        matches:
+          os_version: os_version
+  category: os
+  capabilities:
+      os: Windows Phone
+      os_vendor: Microsoft
+      os_family: Windows
+
+-
+  patterns:
+      -
+        strategy: stripos
+        value: "Windows Mobile"
+  category: os
+  capabilities:
+      os: Windows Mobile
+      os_vendor: Microsoft
+      os_family: Windows
+
+-
+  patterns:
+      -
+        strategy: regex
+        value: "#(?P<os>Arch\s?Linux)#is"
+        matches:
+          os: os
+      -
+        strategy: regex
+        value: "#(?P<os>VectorLinux)(?: package)?(?:[ /\-](?P<os_version>[^\s+\)\(]+))#is"
+        matches:
+          os: os
+          os_version: os_version
+      -
+        strategy: regex
+        value: "#Linux; .*((?P<os>Debian|Knoppix|Mint|Ubuntu|Kubuntu|Xubuntu|Lubuntu|Fedora|Red Hat|Mandriva|Gentoo|Sabayon|Slackware|SUSE|CentOS|BackTrack))[ /](?P<os_version>[\d+\.]+)#is"
+        matches:
+          os: os
+          os_version: os_version
+      -
+        strategy: regex
+        value: "#(?P<os>Debian|Knoppix|Mint|Ubuntu|Kubuntu|Xubuntu|Lubuntu|Fedora|Red Hat|Mandriva|Gentoo|Sabayon|Slackware|SUSE|CentOS|BackTrack)(?:(?: Enterprise)? Linux)?(?:[ /\-](?P<os_versions>[\d+\.]+))#is"
+        matches:
+          os: os
+          os_version: os_version
+  category: os
+  capabilities: []
+
+-
+  patterns:
+      -
+        strategy: isset
+        value: "sailfish"
+      -
+        strategy: isset
+        value: "jolla"
+  category: os
+  capabilities:
+      os: Sailfish OS
+      os_vendor: Jolla
+      os_family: Linux
+
+-
+  patterns:
+      -
+        strategy: isset
+        value: "x11"
+      -
+        strategy: isset
+        value: "linux"
+  category: os
+  capabilities:
+      os_family: Linux
+
+-
+  patterns:
+      -
+        strategy: regex
+        value: "#Tizen[\s/](?P<os_version>[^\s-;]+)#is"
+        matches:
+          os_version: os_version
+  category: os
+  capabilities:
+      os: Tizen
+      os_vendor: Samsung
+      os_family: Linux
+
+-
+  patterns:
+      -
+        strategy: regex
+        value: "#amigaos (?P<os_version>[\d+\.]+)|amiga#is"
+        matches:
+          os_version: <os_version>
+  category: os
+  capabilities:
+      os: Amiga OS
+      os_vendor: "Commodore International"
+
+-
+  patterns:
+      -
+        strategy: regex
+        value: "#(?P<os_rom>RazoDroiD) v(?P<os_rom_version>[^\s]*)#is"
+        matches:
+          os_rom: os_rom
+          os_rom_version: os_rom_version
+      -
+        strategy: regex
+        value: "#(?P<os_rom>MildWild)(?: CM-(?P<os_rom_version>\d+[\.\d]*))?#is"
+        matches:
+          os_rom: os_rom
+          os_rom_version: os_rom_version
+      -
+        strategy: regex
+        value: "#(?P<os_rom>CyanogenMod)(?:[-/](?:CM)?(?P<os_rom_version>\d+[\.\d]*))?#is"
+        matches:
+          os_rom: os_rom
+          os_rom_version: os_rom_version
+      -
+        strategy: regex
+        value: "#(?P<os_rom>MocorDroid)(?:(?P<os_rom_version>\d+[\.\d]*))?#is"
+        matches:
+          os_rom: os_rom
+          os_rom_version: os_rom_version
+  category: os
+  capabilities:
+      is_mobile: true
+
+-
+  patterns:
+      -
+        strategy: regex
+        value: "#(?:Android|Adr)[\s/](?P<os_version>[^\s-;]+)#is"
+        matches:
+          os_version: os_version
+  category: os
+  capabilities:
+      os: Android
+      os_vendor: Google
+      os_family: Linux
+      is_mobile: true

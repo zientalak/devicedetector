@@ -1,0 +1,14 @@
+formatter.name: pretty
+suites:
+    devicedetector_suite:
+        namespace: DeviceDetectorIO\DeviceDetector
+
+extensions:
+    - PhpSpec\Extension\CodeCoverageExtension
+code_coverage:
+  blacklist:
+    - tests
+  format:
+    - clover
+  output:
+    clover: build/logs/clover.xml

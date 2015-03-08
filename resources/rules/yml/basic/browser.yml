@@ -1,0 +1,82 @@
+-
+  patterns:
+     -
+        strategy: regex
+        value: "#Firefox\/(?P<browser_version>[^\s]+)#is"
+        matches:
+            browser_version: browser_version
+  category: browser
+  capabilities:
+      browser: Firefox
+      browser_vendor: Mozilla
+
+-
+  patterns:
+     -
+        strategy: regex
+        value: "#chrome\/(?P<browser_version>[^\s]+)#is"
+        matches:
+            browser_version: browser_version
+  category: browser
+  capabilities:
+      browser: Chrome
+      browser_vendor: Google
+
+-
+  patterns:
+     -
+        strategy: regex
+        value: "#chrome\/(?P<browser_version>[^\s]+)#is"
+        matches:
+            browser_version: browser_version
+  category: browser
+  capabilities:
+      browser: Chrome
+      browser_vendor: Google
+
+-
+  patterns:
+     -
+        strategy: regex
+        value: "#chromium\/(?P<browser_version>[^\s]+)#is"
+        matches:
+            browser_version: browser_version
+  category: browser
+  capabilities:
+      browser: Chromium
+      browser_vendor: Google
+
+-
+  patterns:
+     -
+        strategy: regex
+        value: "#fennec\/(?P<browser_version>[^\s]+)#is"
+        matches:
+            browser_version: browser_version
+  category: browser
+  capabilities:
+      browser: Fennec
+      browser_vendor: Mozillan
+
+-
+  patterns:
+     -
+        strategy: regex
+        value: "#Amiga-AWeb[\s/](?P<browser_version>[^\s\()]*)#is"
+        matches:
+            browser_version: browser_version
+  category: browser
+  capabilities:
+      browser: Amiga-AWeb
+
+-
+  patterns:
+     -
+        strategy: regex
+        value: "#AmigaVoyager[\s/](?P<browser_version>[^\s\()]*)#is"
+        matches:
+            browser_version: browser_version
+  category: browser
+  capabilities:
+      browser: AmigaVoyager
+      browser_vendor: VaporWare

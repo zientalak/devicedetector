@@ -10,16 +10,24 @@
             "email": "damian.zientalak@gmail.com"
         }
     ],
+    "config": {
+        "bin-dir": "bin"
+    },
     "require": {
-        "php": ">=5.3.3"
+        "php": ">=5.3.3",
+        "doctrine/cache" : "1.4.*"
     },
     "require-dev": {
         "phpunit/phpunit": "4.3.*",
-        "predis/predis" : "~1.0"
+        "phpspec/phpspec": "2.1.*",
+        "henrikbjorn/phpspec-code-coverage": "1.0.*",
+        "symfony/yaml" : "2.6.*",
+        "symfony/finder" : "2.6.*"
     },
     "autoload": {
-        "psr-0" : {
-            "Zie\\DeviceDetector" : "src"
+        "psr-4" : {
+            "DeviceDetectorIO\\DeviceDetector\\" : "src/DeviceDetectorIO/DeviceDetector",
+            "DeviceDetectorIO\\DeviceDetector\\Tests\\" : "tests/DeviceDetectorIO/DeviceDetector"
         }
     }
 }
