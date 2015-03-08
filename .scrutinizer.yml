@@ -12,7 +12,7 @@ tools:
     php_pdepend: true
     php_analyzer: true
     external_code_coverage:
-        runs: 5
+        runs: 4
 
 filter:
     excluded_paths:
