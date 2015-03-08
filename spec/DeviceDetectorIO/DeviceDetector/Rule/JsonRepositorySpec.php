@@ -37,10 +37,10 @@ class JsonRepositorySpec extends ObjectBehavior
 
     public function getMatchers()
     {
-        return [
+        return array(
             'haveAtLeastOneRule' => function ($subject) {
                 return count($subject) > 0;
             },
-        ];
+        );
     }
 }
