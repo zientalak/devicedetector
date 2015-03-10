@@ -46,6 +46,8 @@ class VisitorManager implements VisitorManagerInterface
     public function clear()
     {
         $this->visitors = $this->priority = array();
+
+        return $this;
     }
 
     /**

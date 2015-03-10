@@ -37,7 +37,7 @@ interface VisitorManagerInterface
     public function getVisitors();
 
     /**
-     * @return VisitorManagerInterface
+     * @return self
      */
     public function clear();
 
