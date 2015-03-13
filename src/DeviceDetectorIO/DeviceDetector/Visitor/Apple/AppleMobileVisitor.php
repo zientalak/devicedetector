@@ -18,12 +18,14 @@ abstract class AppleMobileVisitor extends AbstractUserAgentVisitor
      */
     public function visit(TokenInterface $token, CollectorInterface $collector)
     {
+        $userAgent = $token->getData();
         if (!$collector->hasCapability(Capabilities::OS)
-            && preg_match($this->getDevicePattern(), $token->getData())) {
+            && preg_match($this->getDevicePattern(), $userAgent)) {
 
             $collector
                 ->addCapability(Capabilities::IS_IOS, true)
                 ->addCapability(Capabilities::OS, Capabilities::OS_IOS)
+                ->addCapability(Capabilities::OS_VENDOR, Capabilities::VENDOR_APPLE)
                 ->addCapability(Capabilities::BRAND_NAME, $this->getBrandName());
 
             $versionPattern = sprintf(
@@ -32,7 +34,7 @@ abstract class AppleMobileVisitor extends AbstractUserAgentVisitor
             );
 
             $matches = array();
-            if (preg_match($versionPattern, $token->getData(), $matches)) {
+            if (preg_match($versionPattern, $userAgent, $matches)) {
                 if (isset($matches['version'])) {
                     $matches['version'] = preg_replace('#[^\d+\.]#', '.', $matches['version']);
                     $collector
@@ -41,7 +43,7 @@ abstract class AppleMobileVisitor extends AbstractUserAgentVisitor
             }
 
             foreach ($this->getDeviceVersionsPatterns() as $pattern => $name) {
-                if (preg_match(sprintf('#%s#is', $pattern), $token->getData())) {
+                if (preg_match(sprintf('#%s#is', $pattern), $userAgent)) {
                     $collector->addCapability(Capabilities::BRAND_NAME_FULL, $name);
                     break;
                 }

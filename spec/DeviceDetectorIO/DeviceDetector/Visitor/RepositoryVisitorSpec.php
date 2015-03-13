@@ -22,7 +22,7 @@ class RepositoryVisitorSpec extends ObjectBehavior
         $this->shouldHaveType('DeviceDetectorIO\DeviceDetector\Visitor\RepositoryVisitor');
     }
 
-    function it_implement_repository_interface()
+    function it_implement_visitor_interface()
     {
         $this->shouldImplement('DeviceDetectorIO\DeviceDetector\Visitor\VisitorInterface');
     }

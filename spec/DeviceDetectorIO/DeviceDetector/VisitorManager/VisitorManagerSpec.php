@@ -2,6 +2,9 @@
 
 namespace spec\DeviceDetectorIO\DeviceDetector\VisitorManager;
 
+use DeviceDetectorIO\DeviceDetector\Collector\CollectorInterface;
+use DeviceDetectorIO\DeviceDetector\Token\TokenInterface;
+use DeviceDetectorIO\DeviceDetector\Token\TokenPoolInterface;
 use DeviceDetectorIO\DeviceDetector\Visitor\VisitorInterface;
 use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
@@ -62,5 +65,72 @@ class VisitorManagerSpec extends ObjectBehavior
             $visitor2,
             $visitor1
         ));
+    }
+
+    function it_visit_visitors(VisitorInterface $visitor1, VisitorInterface $visitor2, TokenPoolInterface $tokenPool, TokenInterface $token, CollectorInterface $collector)
+    {
+        $tokenPool->getTokens()
+            ->shouldBeCalledTimes(1)
+            ->willReturn(array($token));
+
+        $visitor1->accept(Argument::exact($token->getWrappedObject()), Argument::exact($collector->getWrappedObject()))
+            ->shouldBeCalledTimes(1)
+            ->willReturn(false);
+
+        $visitor1->visit(Argument::exact($token->getWrappedObject()), Argument::exact($collector->getWrappedObject()))
+            ->shouldNotBeCalled();
+
+        $visitor2->accept(Argument::exact($token->getWrappedObject()), Argument::exact($collector->getWrappedObject()))
+            ->shouldBeCalledTimes(1)
+            ->willReturn(true);
+
+        $visitor2->visit(Argument::exact($token->getWrappedObject()), Argument::exact($collector->getWrappedObject()))
+            ->shouldBeCalledTimes(1)
+            ->willReturn(VisitorInterface::STATE_SEEKING);
+
+        $this->addVisitor($visitor1, -255)->shouldReturn($this);
+        $this->addVisitor($visitor2, 0)->shouldReturn($this);
+
+        $this->visit($tokenPool, $collector)->shouldReturn($this);
+    }
+
+    function it_break_visiting_on_certain_status(VisitorInterface $visitor, TokenPoolInterface $tokenPool, TokenInterface $token, CollectorInterface $collector)
+    {
+        $tokenPool->getTokens()
+            ->shouldBeCalledTimes(1)
+            ->willReturn(array($token));
+
+        $visitor->accept(Argument::exact($token->getWrappedObject()), Argument::exact($collector->getWrappedObject()))
+            ->shouldBeCalledTimes(1)
+            ->willReturn(true);
+
+        $visitor->visit(Argument::exact($token->getWrappedObject()), Argument::exact($collector->getWrappedObject()))
+            ->shouldBeCalledTimes(1)
+            ->willReturn(VisitorInterface::STATE_FOUND);
+
+        $this->addVisitor($visitor, -255)->shouldReturn($this);
+
+        $this->visit($tokenPool, $collector)->shouldReturn($this);
+    }
+
+    function it_throw_exception_on_unknown_status(VisitorInterface $visitor, TokenPoolInterface $tokenPool, TokenInterface $token, CollectorInterface $collector)
+    {
+        $tokenPool->getTokens()
+            ->shouldBeCalledTimes(1)
+            ->willReturn(array($token));
+
+        $visitor->accept(Argument::exact($token->getWrappedObject()), Argument::exact($collector->getWrappedObject()))
+            ->shouldBeCalledTimes(1)
+            ->willReturn(true);
+
+        $visitor->visit(Argument::exact($token->getWrappedObject()), Argument::exact($collector->getWrappedObject()))
+            ->shouldBeCalledTimes(1)
+            ->willReturn(5);
+
+        $this->addVisitor($visitor, -255)->shouldReturn($this);
+
+        $this
+            ->shouldThrow('\DeviceDetectorIO\DeviceDetector\Exception\UnknownStateException')
+            ->during('visit', array($tokenPool, $collector));
     }
 }

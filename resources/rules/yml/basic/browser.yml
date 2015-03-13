@@ -2,6 +2,19 @@
   patterns:
      -
         strategy: regex
+        value: "#Version\/(?P<browser_version>[^\s]+) Safari\/(?P<browser_build_version>[^\s]+)#is"
+        matches:
+            browser_version: browser_version
+            browser_build_version: browser_build_version
+  category: browser
+  capabilities:
+      browser: Safari
+      browser_vendor: Apple
+
+-
+  patterns:
+     -
+        strategy: regex
         value: "#Firefox\/(?P<browser_version>[^\s]+)#is"
         matches:
             browser_version: browser_version
