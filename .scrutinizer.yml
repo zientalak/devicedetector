@@ -16,7 +16,7 @@ tools:
 
 filter:
     excluded_paths:
-        - src/tests/*
+        - tests/*
         - spec/*
-        - Resources/*
+        - resources/*
         - bin/

@@ -1,6 +1,30 @@
 -
   patterns:
      -
+        strategy: stripos
+        value: "Windows NT 6.3; ARM;"
+  category: os
+  capabilities:
+      os: Windows RT
+      os_version: 8.1
+      os_vendor: Microsoft
+      os_family: Windows
+
+-
+  patterns:
+     -
+        strategy: stripos
+        value: "Windows NT 6.2; ARM;"
+  category: os
+  capabilities:
+      os: Windows RT
+      os_version: 8
+      os_vendor: Microsoft
+      os_family: Windows
+
+-
+  patterns:
+     -
         strategy: regex
         value: "#CYGWIN_NT-10.0|CYGWIN_NT-6.4|Windows NT 6.4|Windows NT 10.0|Windows 10#is"
   category: os
@@ -181,30 +205,6 @@
 -
   patterns:
      -
-        strategy: stripos
-        value: "Windows NT 6.3; ARM;"
-  category: os
-  capabilities:
-      os: Windows RT
-      os_version: 8.1
-      os_vendor: Microsoft
-      os_family: Windows
-
--
-  patterns:
-     -
-        strategy: stripos
-        value: "Windows NT 6.2; ARM;"
-  category: os
-  capabilities:
-      os: Windows RT
-      os_version: 8
-      os_vendor: Microsoft
-      os_family: Windows
-
--
-  patterns:
-     -
         strategy: regex
         value: "#XBLWP7|ZuneWP7#is"
   category: os
@@ -242,6 +242,12 @@
   patterns:
       -
         strategy: regex
+        value: "#(?P<os>Debian|Knoppix|Mint|Ubuntu|Kubuntu|Xubuntu|Lubuntu|Fedora|Red Hat|Mandriva|Gentoo|Sabayon|Slackware|SUSE|CentOS|BackTrack)[ /]?(?P<os_version>[^\s+]+)#is"
+        matches:
+          os: os2
+          os_version: os_version
+      -
+        strategy: regex
         value: "#(?P<os>Arch\s?Linux)#is"
         matches:
           os: os
@@ -269,10 +275,10 @@
 -
   patterns:
       -
-        strategy: isset
+        strategy: stripos
         value: "sailfish"
       -
-        strategy: isset
+        strategy: stripos
         value: "jolla"
   category: os
   capabilities:
@@ -360,3 +366,67 @@
       os_vendor: Google
       os_family: Linux
       is_mobile: true
+
+-
+  patterns:
+      -
+        strategy: regex
+        value: "#bada(?:[ /](?P<os_version>\d+[\.\d]+))#is"
+        matches:
+          os_version: os_version
+      -
+        strategy: isset
+        value: "bada"
+  category: os
+  capabilities:
+      os: Bada
+      os_vendor: Samsung
+      os_family: Unix
+      is_mobile: true
+
+-
+  patterns:
+      -
+        strategy: regex
+        value: "#CrOS [a-z0-9_]+ (?P<os_version>\d+[\.\d]+)#is"
+        matches:
+          os_version: os_version
+  category: os
+  capabilities:
+      os: Chrome OS
+      os_vendor: Google
+      os_family: Unix
+
+-
+  patterns:
+      -
+        strategy: regex
+        value: "#(?:BB10;.+Version|Black[Bb]erry[0-9a-z]+|Black[Bb]erry.+Version)/(?P<os_version>\d+[\.\d]+)#is"
+        matches:
+          os_version: os_version
+      -
+        strategy: regex
+        value: "#IM Tablet OS (?P<os_version>\d+[\.\d]+)#is"
+        matches:
+          os_version: os_version
+      -
+        strategy: regex
+        value: "#RIM Tablet OS|QNX|Play[Bb]ook#is"
+      -
+        strategy: stripos
+        value: "BlackBerry"
+  category: os
+  capabilities:
+      os: BlackBerry OS
+      os_vendor: BlackBerry
+      is_mobile: true
+
+-
+  patterns:
+      -
+        strategy: stripos
+        value: BeOS
+  category: os
+  capabilities:
+      os: BeOS
+      os_vendor: Be Inc

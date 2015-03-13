@@ -62,6 +62,31 @@
   patterns:
      -
         strategy: regex
+        value: "#Opera Mini[ /]?(?P<browser_version>[^\s/]+)#is"
+        matches:
+            browser_version: browser_version
+  category: browser
+  capabilities:
+      browser: Opera Mini
+      browser_vendor: Opera
+      is_mobile: true
+
+-
+  patterns:
+     -
+        strategy: regex
+        value: "#Opera[ /]?(?J)(?P<browser_version>\d+\.\d+)|OPR/(?P<browser_version>\d+\.\d+)#is"
+        matches:
+            browser_version: browser_version
+  category: browser
+  capabilities:
+      browser: Opera
+      browser_vendor: Opera
+
+-
+  patterns:
+     -
+        strategy: regex
         value: "#Amiga-AWeb[\s/](?P<browser_version>[^\s\()]*)#is"
         matches:
             browser_version: browser_version
