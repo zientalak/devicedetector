@@ -218,7 +218,7 @@
   patterns:
      -
         strategy: regex
-        value: "#Windows Phone (?:OS) (?P<os_version>[\d\.]+)#is"
+        value: "#Windows Phone (?:OS)?[\s]?(?P<os_version>[\d\.]+)#is"
         matches:
           os_version: os_version
   category: os
