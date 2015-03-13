@@ -38,7 +38,7 @@ class CacheDeviceSpec extends ObjectBehavior
     function it_is_not_robot()
     {
         $this->isRobot()->shouldReturn(false);
-        $this->getCapability(Capabilities::IS_ROBOT)->shouldReturn(null);
+        $this->getCapability(Capabilities::IS_BOT)->shouldReturn(null);
     }
 
     function it_is_windows_os()

@@ -68,7 +68,7 @@ class DeviceTest extends \PHPUnit_Framework_TestCase
         return array(
             Capabilities::BROWSER => Capabilities::BROWSER_CHROME,
             Capabilities::IS_MOBILE => false,
-            Capabilities::IS_ROBOT => false,
+            Capabilities::IS_BOT => false,
             Capabilities::IS_SMART_TV => false,
             Capabilities::BROWSER_VERSION => '23',
             Capabilities::OS => Capabilities::OS_WINDOWS,

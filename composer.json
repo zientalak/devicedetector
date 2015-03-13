@@ -22,7 +22,9 @@
         "phpspec/phpspec": "2.1.*",
         "henrikbjorn/phpspec-code-coverage": "1.0.*",
         "symfony/yaml" : "2.6.*",
-        "symfony/finder" : "2.6.*"
+        "symfony/finder" : "2.6.*",
+        "symfony/var-dumper" : "2.6.*",
+        "symfony/stopwatch" :  "2.6.*"
     },
     "autoload": {
         "psr-4" : {

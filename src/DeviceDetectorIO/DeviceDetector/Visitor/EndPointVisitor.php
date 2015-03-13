@@ -18,18 +18,19 @@ class EndPointVisitor extends AbstractUserAgentVisitor
     public function visit(TokenInterface $token, CollectorInterface $collector)
     {
         $collector->addCapability(
+            Capabilities::IS_BOT,
+            !$this->hasEmptyCapability($collector, Capabilities::IS_BOT)
+        );
+
+        $collector->addCapability(
             Capabilities::IS_DESKTOP,
             $this->hasEmptyCapability($collector, Capabilities::IS_MOBILE)
+            && $this->hasEmptyCapability($collector, Capabilities::IS_BOT)
         );
 
         $collector->addCapability(
             Capabilities::IS_SMART_TV,
             !$this->hasEmptyCapability($collector, Capabilities::IS_SMART_TV)
-        );
-
-        $collector->addCapability(
-            Capabilities::IS_ROBOT,
-            !$this->hasEmptyCapability($collector, Capabilities::IS_ROBOT)
         );
 
         return self::STATE_SEEKING;

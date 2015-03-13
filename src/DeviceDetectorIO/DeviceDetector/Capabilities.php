@@ -9,7 +9,7 @@ namespace DeviceDetectorIO\DeviceDetector;
 final class Capabilities
 {
     const IS_SMART_TV = 'is_smarttv';
-    const IS_ROBOT = 'is_robot';
+    const IS_BOT = 'is_bot';
     const IS_MOBILE = 'is_mobile';
     const IS_DESKTOP = 'is_desktop';
     const IS_OSX = 'is_osx';
@@ -34,11 +34,10 @@ final class Capabilities
     const BRAND_NAME = 'brand_name';
     const BRAND_NAME_FULL = 'brand_name_full';
 
-    const ROBOT_NAME = 'robot_name';
-    const ROBOT_PRODUCER = 'robot_producer';
-    const ROBOT_PRODUCER_URL = 'robot_producer_url';
-    const ROBOT_URL = 'robot_url';
-    const ROBOT_CATEGORY = 'robot_category';
+    const BOT_NAME = 'bot_name';
+    const BOT_VENDOR = 'bot_vendor';
+    const BOT_VENDOR_URL = 'bot_vendor_url';
+    const BOT_URL = 'bot_url';
 
     const ROBOT_CATEGORY_SEARCH_BOT = 'Search bot';
     const ROBOT_CATEGORY_CRAWLER = 'Crawler';
