@@ -1,0 +1,4 @@
+formatter.name: pretty
+suites:
+    devicedetector_suite:
+        namespace: DeviceDetectorIO\DeviceDetector
