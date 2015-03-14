@@ -10,6 +10,7 @@ final class Capabilities
 {
     const IS_SMART_TV = 'is_smarttv';
     const IS_BOT = 'is_bot';
+    const IS_CONSOLE = 'is_console';
     const IS_MOBILE = 'is_mobile';
     const IS_DESKTOP = 'is_desktop';
     const IS_OSX = 'is_osx';

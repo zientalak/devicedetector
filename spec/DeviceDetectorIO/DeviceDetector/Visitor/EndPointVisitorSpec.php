@@ -29,6 +29,15 @@ class EndPointVisitorSpec extends ObjectBehavior
     function it_set_endpoint_capabilities(TokenInterface $token, CollectorInterface $collector)
     {
         $collector
+            ->getCapability(Argument::exact(Capabilities::IS_CONSOLE))
+            ->shouldBeCalledTimes(1)
+            ->willReturn(null);
+
+        $collector
+            ->addCapability(Argument::exact(Capabilities::IS_CONSOLE), Argument::exact(false))
+            ->shouldBeCalledTimes(1);
+
+        $collector
             ->getCapability(Argument::exact(Capabilities::IS_MOBILE))
             ->shouldBeCalledTimes(1)
             ->willReturn(null);

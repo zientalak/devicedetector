@@ -2,6 +2,37 @@
   patterns:
      -
         strategy: regex
+        value: "#Edge[ /](?P<browser_version>\d+[\.\d]+)#is"
+        matches:
+            browser_version: browser_version
+  category: browser
+  capabilities:
+      browser: Internet Explorer
+      browser_vendor: Microsoft
+
+-
+  patterns:
+     -
+        strategy: regex
+        value: "#msie[ /]?(?P<browser_version>[^\s/;]+)#is"
+        matches:
+            browser_version: browser_version
+     -
+        strategy: regex
+        value: "#trident/(?P<browser_engine_version>[^\s/;]+); rv:(?P<browser_version>[^\s/;]+)#is"
+        matches:
+            browser_version: browser_version
+            browser_engine_version: browser_engine_version
+  category: browser
+  capabilities:
+      browser: Internet Explorer
+      browser_vendor: Microsoft
+      browser_engine: Trident
+
+-
+  patterns:
+     -
+        strategy: regex
         value: "#Version\/(?P<browser_version>[^\s]+) Safari\/(?P<browser_build_version>[^\s]+)#is"
         matches:
             browser_version: browser_version

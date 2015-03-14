@@ -67,4 +67,12 @@ class UserAgentTokenizedToken implements TokenInterface
     {
         $this->tokens = unserialize($serialized);
     }
+
+    /**
+     * @return string
+     */
+    public function __toString()
+    {
+        return $this->token->getData();
+    }
 }

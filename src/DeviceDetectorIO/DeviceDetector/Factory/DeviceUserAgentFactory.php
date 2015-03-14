@@ -2,16 +2,17 @@
 
 namespace DeviceDetectorIO\DeviceDetector\Factory;
 
+use DeviceDetectorIO\DeviceDetector\Cache\ArrayCache;
 use DeviceDetectorIO\DeviceDetector\Cache\CacheInterface;
 use DeviceDetectorIO\DeviceDetector\CacheProvider\GenericProvider;
 use DeviceDetectorIO\DeviceDetector\Collector\Collector;
 use DeviceDetectorIO\DeviceDetector\Detector\CacheDetector;
 use DeviceDetectorIO\DeviceDetector\Detector\DeviceDetectorInterface;
 use DeviceDetectorIO\DeviceDetector\Fingerprint\GenericGenerator;
-use DeviceDetectorIO\DeviceDetector\MatchingStrategy\IssetMatchingStrategy;
 use DeviceDetectorIO\DeviceDetector\MatchingStrategy\MatchingStrategyChain;
 use DeviceDetectorIO\DeviceDetector\MatchingStrategy\RegexMatchingStrategy;
-use DeviceDetectorIO\DeviceDetector\MatchingStrategy\StriposMatchingStrategy;
+use DeviceDetectorIO\DeviceDetector\MatchingStrategy\StringMatchingStrategy;
+use DeviceDetectorIO\DeviceDetector\Rule\CacheRepository;
 use DeviceDetectorIO\DeviceDetector\Rule\JsonRepository;
 use DeviceDetectorIO\DeviceDetector\Token\TokenPool;
 use DeviceDetectorIO\DeviceDetector\Token\TokenPoolInterface;
@@ -38,12 +39,18 @@ class DeviceUserAgentFactory implements DeviceUserAgentFactoryInterface
     protected $tokenPool;
 
     /**
+     * @var CacheInterface
+     */
+    protected $cache;
+
+    /**
      * @param CacheInterface $cache
      */
     public function __construct(CacheInterface $cache = null)
     {
+        $this->cache = $cache;
         $this->tokenPool = new TokenPool();
-        $detectorClass = null === $cache
+        $detectorClass = null === $this->cache
             ? '\DeviceDetectorIO\DeviceDetector\Detector\DeviceDetector' : '\DeviceDetectorIO\DeviceDetector\Detector\CacheDetector';
 
         $this->deviceDetector = new $detectorClass(
@@ -54,7 +61,7 @@ class DeviceUserAgentFactory implements DeviceUserAgentFactoryInterface
 
         if (null !== $this->deviceDetector && $this->deviceDetector instanceof CacheDetector) {
             $this->deviceDetector->setFingerprintGenerator(new GenericGenerator())
-                ->setCacheProvider(new GenericProvider($cache));
+                ->setCacheProvider(new GenericProvider(new ArrayCache()));
         }
     }
 
@@ -70,8 +77,8 @@ class DeviceUserAgentFactory implements DeviceUserAgentFactoryInterface
         );
 
         $this->tokenPool->clear();
-        $this->tokenPool->addToken($userAgentToken);
         $this->tokenPool->addToken($userAgentTokenizedToken);
+        $this->tokenPool->addToken($userAgentToken);
 
         return $this->deviceDetector->detect();
     }
@@ -83,12 +90,12 @@ class DeviceUserAgentFactory implements DeviceUserAgentFactoryInterface
     {
         $visitorManager = new VisitorManager();
         $visitorManager->addVisitor($this->createRepositoryVisitor(), 255);
-        $visitorManager->addVisitor(new Visitor\Apple\OSXVisitor(), 1);
-        $visitorManager->addVisitor(new Visitor\Apple\IPadVisitor(), 1);
-        $visitorManager->addVisitor(new Visitor\Apple\IPhoneVisitor(), 1);
-        $visitorManager->addVisitor(new Visitor\Apple\IPodTouchVisitor(), 1);
+        $visitorManager->addVisitor(new Visitor\Apple\OSXVisitor());
+        $visitorManager->addVisitor(new Visitor\Apple\IPadVisitor());
+        $visitorManager->addVisitor(new Visitor\Apple\IPhoneVisitor());
+        $visitorManager->addVisitor(new Visitor\Apple\IPodTouchVisitor());
         $visitorManager->addVisitor(new Visitor\OS\AndroidReleaseVisitor(), 2);
-        $visitorManager->addVisitor(new Visitor\EndPointVisitor(), -1);
+        $visitorManager->addVisitor(new Visitor\EndPointVisitor(), -255);
 
         return $visitorManager;
     }
@@ -101,6 +108,13 @@ class DeviceUserAgentFactory implements DeviceUserAgentFactoryInterface
         $repository = new JsonRepository();
         $repository->setFilePath(__DIR__ . '/../../../../resources/rules/json/basic.json');
 
+        if (null !== $this->cache) {
+            $cacheRepository = new CacheRepository($repository, $this->cache);
+            $cacheRepository->setCacheKey('BasicRules');
+
+            return $cacheRepository;
+        }
+
         return $repository;
     }
 
@@ -110,9 +124,8 @@ class DeviceUserAgentFactory implements DeviceUserAgentFactoryInterface
     private function createMatchingStrategy()
     {
         $strategyChain = new MatchingStrategyChain();
+        $strategyChain->addStrategy(new StringMatchingStrategy());
         $strategyChain->addStrategy(new RegexMatchingStrategy());
-        $strategyChain->addStrategy(new StriposMatchingStrategy());
-        $strategyChain->addStrategy(new IssetMatchingStrategy());
 
         return $strategyChain;
     }

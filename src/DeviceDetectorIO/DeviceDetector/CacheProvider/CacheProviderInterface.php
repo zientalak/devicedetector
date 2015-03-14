@@ -12,7 +12,7 @@ use DeviceDetectorIO\DeviceDetector\Exception\CachedDeviceNotFoundException;
 interface CacheProviderInterface
 {
     const LIFETIME_DAY = 86400;
-    const PREFIX = '@DeviceDetectorIO\CacheProvider@';
+    const PREFIX = 'DeviceDetectorIO\DeviceDetector\CacheProvider\CacheProvider';
 
     /**
      * @param string $fingerprint

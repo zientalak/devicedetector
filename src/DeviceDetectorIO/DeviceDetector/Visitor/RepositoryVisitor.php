@@ -11,7 +11,7 @@ use DeviceDetectorIO\DeviceDetector\Token\TokenInterface;
  * Class RepositoryVisitor
  * @package DeviceDetectorIO\DeviceDetector\Visitor
  */
-class RepositoryVisitor extends AbstractUserAgentVisitor
+class RepositoryVisitor implements VisitorInterface
 {
     /**
      * @var RuleRepositoryInterface
@@ -31,6 +31,20 @@ class RepositoryVisitor extends AbstractUserAgentVisitor
     {
         $this->repository = $repository;
         $this->strategy = $strategy;
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function accept(TokenInterface $token, CollectorInterface $collector)
+    {
+        return in_array(
+            get_class($token),
+            array(
+                'DeviceDetectorIO\DeviceDetector\Token\UserAgentToken',
+                'DeviceDetectorIO\DeviceDetector\Token\UserAgentTokenizedToken'
+            )
+        );
     }
 
     /**

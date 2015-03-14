@@ -1,7 +1,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: '360Spider'
     capabilities:
         bot_name: 360Spider
@@ -10,7 +10,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'Aboundex'
     capabilities:
         bot_name: Aboundexbot
@@ -20,7 +20,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'AcoonBot'
     capabilities:
         bot_name: Acoon
@@ -30,7 +30,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'AddThis.com'
     capabilities:
         bot_name: AddThis.com
@@ -40,7 +40,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'AhrefsBot'
     capabilities:
         bot_name: 'aHrefs Bot'
@@ -60,7 +60,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'AmorankSpider'
     capabilities:
         bot_name: 'Amorank Spider'
@@ -70,7 +70,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'Curious George'
     capabilities:
         bot_name: 'Analytics SEO Crawler'
@@ -90,7 +90,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'Ask Jeeves/Teoma'
     capabilities:
         bot_name: 'Ask Jeeves'
@@ -99,7 +99,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'Backlink-Ceck.de'
     capabilities:
         bot_name: Backlink-Ceck.de
@@ -109,7 +109,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'BacklinkCrawler'
     capabilities:
         bot_name: BacklinkCrawler
@@ -139,7 +139,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'Blekkobot'
     capabilities:
         bot_name: Blekkobot
@@ -149,7 +149,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'BLEXBot'
     capabilities:
         bot_name: 'BLEXBot Crawler'
@@ -159,7 +159,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'Bloglovin'
     capabilities:
         bot_name: Bloglovin
@@ -169,7 +169,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'BountiiBot'
     capabilities:
         bot_name: 'Bountii Bot'
@@ -179,7 +179,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'Browsershots'
     capabilities:
         bot_name: Browsershots
@@ -199,7 +199,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'CareerBot'
     capabilities:
         bot_name: CareerBot
@@ -209,7 +209,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'CCBot'
     capabilities:
         bot_name: 'ccBot crawler'
@@ -219,7 +219,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'Cliqzbot'
     capabilities:
         bot_name: Cliqzbot
@@ -229,7 +229,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'CloudFlare-AlwaysOnline'
     capabilities:
         bot_name: 'CloudFlare Always Online'
@@ -239,7 +239,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'CommaFeed'
     capabilities:
         bot_name: CommaFeed
@@ -249,7 +249,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'Dazoobot'
     capabilities:
         bot_name: Dazoobot
@@ -259,7 +259,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'discobot'
     capabilities:
         bot_name: Discobot
@@ -269,7 +269,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'DotBot'
     capabilities:
         bot_name: DotBot
@@ -279,7 +279,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'EasouSpider'
     capabilities:
         bot_name: 'Easou Spider'
@@ -289,7 +289,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'EMail Exractor'
     capabilities:
         bot_name: 'EMail Exractor'
@@ -299,7 +299,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'exabot'
     capabilities:
         bot_name: ExaBot
@@ -309,7 +309,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'ExactSeek Crawler'
     capabilities:
         bot_name: 'ExactSeek Crawler'
@@ -319,7 +319,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'Ezooms'
     capabilities:
         bot_name: Ezooms
@@ -339,7 +339,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'Feedbin'
     capabilities:
         bot_name: Feedbin
@@ -347,7 +347,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'FeedBurner'
     capabilities:
         bot_name: FeedBurner
@@ -355,7 +355,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'feedly'
     capabilities:
         bot_name: Feedly
@@ -363,7 +363,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'feedspot'
     capabilities:
         bot_name: Feedspot
@@ -371,7 +371,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'fever'
     capabilities:
         bot_name: Fever
@@ -381,7 +381,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'genieo'
     capabilities:
         bot_name: 'Genieo Web filter'
@@ -401,7 +401,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'Google Page Speed Insights'
     capabilities:
         bot_name: 'Google PageSpeed Insights'
@@ -421,7 +421,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'heritrix'
     capabilities:
         bot_name: Heritrix
@@ -431,7 +431,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'HTTPMon'
     capabilities:
         bot_name: HTTPMon
@@ -441,7 +441,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'iisbot'
     capabilities:
         bot_name: 'IIS Site Analysis'
@@ -451,7 +451,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'kouio'
     capabilities:
         bot_name: Kouio
@@ -469,7 +469,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'LinkedInBot'
     capabilities:
         bot_name: 'LinkedIn Bot'
@@ -489,7 +489,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'magpie-crawler'
     capabilities:
         bot_name: Magpie-Crawler
@@ -499,7 +499,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'MagpieRSS'
     capabilities:
         bot_name: MagpieRSS
@@ -507,7 +507,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'meanpathbot'
     capabilities:
         bot_name: 'Meanpath Bot'
@@ -517,7 +517,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'MixrankBot'
     capabilities:
         bot_name: 'Mixrank Bot'
@@ -526,7 +526,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'MJ12bot'
     capabilities:
         bot_name: 'MJ12 Bot'
@@ -536,7 +536,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'MojeekBot'
     capabilities:
         bot_name: MojeekBot
@@ -546,7 +546,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'NalezenCzBot'
     capabilities:
         bot_name: NalezenCzBot
@@ -555,7 +555,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: '#Netcraft Web Server Survey#is'
     capabilities:
         bot_name: 'Netcraft Survey Bot'
@@ -564,7 +564,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: '#netvibes#is'
     capabilities:
         bot_name: Netvibes
@@ -580,7 +580,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'NewsGatorOnline'
     capabilities:
         bot_name: NewsGator
@@ -588,7 +588,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'nlcrawler'
     capabilities:
         bot_name: NLCrawler
@@ -597,7 +597,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'omgilibot'
     capabilities:
         bot_name: 'Omgili bot'
@@ -607,7 +607,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'OpenindexSpider'
     capabilities:
         bot_name: 'Openindex Spider'
@@ -617,7 +617,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'spbot'
     capabilities:
         bot_name: OpenLinkProfiler
@@ -627,7 +627,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'OpenWebSpider'
     capabilities:
         bot_name: OpenWebSpider
@@ -637,7 +637,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'PaperLiBot'
     capabilities:
         bot_name: PaperLiBot
@@ -657,7 +657,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'Pingdom.com'
     capabilities:
         bot_name: 'Pingdom Bot'
@@ -666,7 +666,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'QuerySeekerSpider'
     capabilities:
         bot_name: QuerySeekerSpider
@@ -676,7 +676,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'redditbot'
     capabilities:
         bot_name: 'Reddit Bot'
@@ -686,7 +686,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'rogerbot'
     capabilities:
         bot_name: Rogerbot
@@ -696,7 +696,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'Screaming Frog SEO Spider'
     capabilities:
         bot_name: 'Screaming Frog SEO Spider'
@@ -706,7 +706,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'ScreenerBot'
     capabilities:
         bot_name: ScreenerBot
@@ -714,7 +714,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'SemrushBot'
     capabilities:
         bot_name: 'Semrush Bot'
@@ -724,7 +724,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'SensikaBot'
     capabilities:
         bot_name: 'Sensika Bot'
@@ -733,7 +733,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'SEOENG'
     capabilities:
         bot_name: SEOENGBot
@@ -753,7 +753,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'ShopWiki'
     capabilities:
         bot_name: ShopWiki
@@ -763,7 +763,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'SilverReader'
     capabilities:
         bot_name: SilverReader
@@ -771,7 +771,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'SimplePie'
     capabilities:
         bot_name: SimplePie
@@ -779,7 +779,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'SISTRIX Crawler'
     capabilities:
         bot_name: 'SISTRIX Crawler'
@@ -789,7 +789,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'sogou'
     capabilities:
         bot_name: 'Sogou Spider'
@@ -809,7 +809,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'Superfeedr bot'
     capabilities:
         bot_name: 'Superfeedr Bot'
@@ -818,7 +818,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'Spinn3r'
     capabilities:
         bot_name: Spinn3r
@@ -828,14 +828,14 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: '#sputnik'
     capabilities:
         bot_name: 'Sputnik Bot'
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'SurveyBot'
     capabilities:
         bot_name: 'Survey Bot'
@@ -845,7 +845,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'TinEye-bot'
     capabilities:
         bot_name: 'TinEye Crawler'
@@ -855,7 +855,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'Tiny Tiny RSS'
     capabilities:
         bot_name: 'Tiny Tiny RSS'
@@ -863,7 +863,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'TurnitinBot'
     capabilities:
         bot_name: TurnitinBot
@@ -873,7 +873,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'TweetedTimes Bot'
     capabilities:
         bot_name: 'TweetedTimes Bot'
@@ -883,7 +883,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'TweetmemeBot'
     capabilities:
         bot_name: 'Tweetmeme Bot'
@@ -892,7 +892,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'Twitterbot'
     capabilities:
         bot_name: Twitterbot
@@ -902,7 +902,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'UptimeRobot'
     capabilities:
         bot_name: 'Uptime Robot'
@@ -911,7 +911,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'URLAppendBot'
     capabilities:
         bot_name: URLAppendBot
@@ -921,7 +921,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'VSMCrawler'
     capabilities:
         bot_name: 'Visual Site Mapper Crawler'
@@ -931,7 +931,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'VoilaBot'
     capabilities:
         bot_name: 'Voila Bot'
@@ -939,7 +939,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'Jigsaw'
     capabilities:
         bot_name: 'W3C CSS Validator'
@@ -949,7 +949,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'W3C_I18n-Checker'
     capabilities:
         bot_name: 'W3C I18N Checker'
@@ -959,7 +959,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'W3C-checklink'
     capabilities:
         bot_name: 'W3C Link Checker'
@@ -969,7 +969,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'W3C_Validator'
     capabilities:
         bot_name: 'W3C Markup Validation Service'
@@ -979,7 +979,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'W3C-mobileOK'
     capabilities:
         bot_name: 'W3C MobileOK Checker'
@@ -989,7 +989,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'W3C_Unicorn'
     capabilities:
         bot_name: 'W3C Unified Validator'
@@ -999,7 +999,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'WeSEE'
     capabilities:
         bot_name: 'WeSEE:Search'
@@ -1009,7 +1009,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'WebbCrawler'
     capabilities:
         bot_name: WebbCrawler
@@ -1019,7 +1019,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'Wotbox'
     capabilities:
         bot_name: Wotbox
@@ -1029,7 +1029,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'yacybot'
     capabilities:
         bot_name: YaCy
@@ -1049,7 +1049,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'Yandex'
     capabilities:
         bot_name: 'Yandex Bot'
@@ -1059,7 +1059,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'Yeti'
     capabilities:
         bot_name: Yeti/Naverbot
@@ -1069,7 +1069,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'YoudaoBot'
     capabilities:
         bot_name: 'Youdao Bot'
@@ -1089,7 +1089,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'Zookabot'
     capabilities:
         bot_name: Zookabot
@@ -1099,7 +1099,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'ZumBot'
     capabilities:
         bot_name: ZumBot
@@ -1109,7 +1109,7 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'YottaaMonitor'
     capabilities:
         bot_name: 'Yottaa Site Monitor'
@@ -1119,28 +1119,28 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'lycos'
     capabilities:
         bot_name: Lycos
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'Slurp'
     capabilities:
         bot_name: 'Inktomi Slurp'
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'Speedy Spider'
     capabilities:
         bot_name: Speedy
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'ScoutJet'
     capabilities:
         bot_name: ScoutJet
@@ -1154,77 +1154,77 @@
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'scooter'
     capabilities:
         bot_name: Scooter
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'gigabot'
     capabilities:
         bot_name: Gigabot
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'charlotte'
     capabilities:
         bot_name: Charlotte
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'Pompos'
     capabilities:
         bot_name: Pompos
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'ichiro'
     capabilities:
         bot_name: ichiro
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'PagePeeker'
     capabilities:
         bot_name: PagePeeker
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'WebThumbnail'
     capabilities:
         bot_name: WebThumbnail
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'Willow Internet Crawler'
     capabilities:
         bot_name: 'Willow Internet Crawler'
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'EmailWolf'
     capabilities:
         bot_name: EmailWolf
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'NetLyzer FastProbe'
     capabilities:
         bot_name: 'NetLyzer FastProbe'
 -
     patterns:
         -
-            strategy: stripos
+            strategy: string
             value: 'Nutch'
     capabilities:
         bot_name: 'Nutch-based Bot'

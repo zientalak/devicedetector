@@ -1,7 +1,23 @@
 -
   patterns:
      -
-        strategy: stripos
+        strategy: regex
+        value: "#(?:Android|Adr)[\s/](?P<os_version>[\d+\.]+)#is"
+        matches:
+          os_version: os_version
+     -
+        strategy: regex
+        value: "#Android|Silk-Accelerated=[a-z]{4,5}#is"
+  category: os
+  capabilities:
+      os: Android
+      os_vendor: Google
+      os_family: Linux
+
+-
+  patterns:
+     -
+        strategy: string
         value: "Windows NT 6.3; ARM;"
   category: os
   capabilities:
@@ -13,7 +29,7 @@
 -
   patterns:
      -
-        strategy: stripos
+        strategy: string
         value: "Windows NT 6.2; ARM;"
   category: os
   capabilities:
@@ -169,7 +185,7 @@
 -
   patterns:
      -
-        strategy: stripos
+        strategy: string
         value: "Windows CE"
   category: os
   capabilities:
@@ -181,7 +197,7 @@
 -
   patterns:
      -
-        strategy: stripos
+        strategy: string
         value: "Windows 3.1"
   category: os
   capabilities:
@@ -193,7 +209,7 @@
 -
   patterns:
      -
-        strategy: stripos
+        strategy: string
         value: "Win16"
   category: os
   capabilities:
@@ -230,8 +246,13 @@
 -
   patterns:
       -
-        strategy: stripos
-        value: "Windows Mobile"
+        strategy: regex
+        value: "#(?:IEMobile|Windows Mobile)(?: (?P<os_version>[\d\.]+))?#is"
+        matches:
+          os_version: os_version
+      -
+        strategy: string
+        value: Windows Mobile
   category: os
   capabilities:
       os: Windows Mobile
@@ -242,9 +263,9 @@
   patterns:
       -
         strategy: regex
-        value: "#(?P<os>Debian|Knoppix|Mint|Ubuntu|Kubuntu|Xubuntu|Lubuntu|Fedora|Red Hat|Mandriva|Gentoo|Sabayon|Slackware|SUSE|CentOS|BackTrack)[ /]?(?P<os_version>[^\s+]+)#is"
+        value: "#(?P<os>Debian|Knoppix|Mint|Ubuntu|Kubuntu|Xubuntu|Lubuntu|Fedora|Red Hat|Mandriva|Gentoo|Sabayon|Slackware|SUSE|CentOS|BackTrack)[ /]?(?P<os_version>[^\s+]+)?#is"
         matches:
-          os: os2
+          os: os
           os_version: os_version
       -
         strategy: regex
@@ -275,10 +296,10 @@
 -
   patterns:
       -
-        strategy: stripos
+        strategy: string
         value: "sailfish"
       -
-        strategy: stripos
+        strategy: string
         value: "jolla"
   category: os
   capabilities:
@@ -289,10 +310,10 @@
 -
   patterns:
       -
-        strategy: isset
+        strategy: string
         value: "x11"
       -
-        strategy: isset
+        strategy: string
         value: "linux"
   category: os
   capabilities:
@@ -302,9 +323,12 @@
   patterns:
       -
         strategy: regex
-        value: "#Tizen[\s/](?P<os_version>[^\s-;]+)#is"
+        value: "#Tizen[\s/](?P<os_version>[^\s-;)]+)#is"
         matches:
           os_version: os_version
+      -
+        strategy: string
+        value: tizen
   category: os
   capabilities:
       os: Tizen
@@ -357,25 +381,11 @@
   patterns:
       -
         strategy: regex
-        value: "#(?:Android|Adr)[\s/](?P<os_version>[^\s-;]+)#is"
-        matches:
-          os_version: os_version
-  category: os
-  capabilities:
-      os: Android
-      os_vendor: Google
-      os_family: Linux
-      is_mobile: true
-
--
-  patterns:
-      -
-        strategy: regex
         value: "#bada(?:[ /](?P<os_version>\d+[\.\d]+))#is"
         matches:
           os_version: os_version
       -
-        strategy: isset
+        strategy: string
         value: "bada"
   category: os
   capabilities:
@@ -413,7 +423,7 @@
         strategy: regex
         value: "#RIM Tablet OS|QNX|Play[Bb]ook#is"
       -
-        strategy: stripos
+        strategy: string
         value: "BlackBerry"
   category: os
   capabilities:
@@ -424,9 +434,183 @@
 -
   patterns:
       -
-        strategy: stripos
+        strategy: string
         value: BeOS
   category: os
   capabilities:
       os: BeOS
       os_vendor: Be Inc
+
+-
+  patterns:
+      -
+        strategy: regex
+        value: "#Symbian/3.+NokiaBrowser/7\.3#is"
+  category: os
+  capabilities:
+      os: Symbian
+      os_vendor: Symbian
+      os_version: Anna
+      os_family: Linux
+
+-
+  patterns:
+      -
+        strategy: regex
+        value: "#Symbian/3.+NokiaBrowser/7\.4#is"
+      -
+        strategy: regex
+        value: "#Symbian/3#is"
+  category: os
+  capabilities:
+      os: Symbian
+      os_vendor: Symbian
+      os_version: Belle
+      os_family: Linux
+
+-
+  patterns:
+      -
+        strategy: regex
+        value: "#Symbian/3#is"
+  category: os
+  capabilities:
+      os: Symbian
+      os_vendor: Symbian
+      os_family: Linux
+
+-
+  patterns:
+      -
+        strategy: regex
+        value: "#(?:Series ?60|SymbOS|S60)(?:[ /]?(?P<os_version>\d+[\.\d]+|V\d+))?#is"
+        matches:
+          os_version: os_version
+  category: os
+  capabilities:
+      os: Symbian OS Series 60
+      os_vendor: Symbian
+      os_family: Linux
+
+-
+  patterns:
+      -
+        strategy: string
+        value: Series40
+  category: os
+  capabilities:
+      os: Symbian OS Series 40
+      os_vendor: Symbian
+      os_family: Linux
+
+-
+  patterns:
+      -
+        strategy: regex
+        value: "#SymbianOS/(?P<os_version>\d+[\.\d]+)#is"
+        matches:
+          os_version: os_version
+  category: os
+  capabilities:
+      os: Symbian OS
+      os_vendor: Symbian
+      os_family: Linux
+
+-
+  patterns:
+      -
+        strategy: regex
+        value: "#MeeGo|WeTab#is"
+  category: os
+  capabilities:
+      os: MeeGo
+      os_vendor: MeeGo
+
+-
+  patterns:
+      -
+        strategy: regex
+        value: "#Symbian OS|SymbOS|Nokia#is"
+  category: os
+  capabilities:
+      os: Symbian OS
+      os_vendor: Symbian
+      os_family: Linux
+
+-
+  patterns:
+      -
+        strategy: regex
+        value: "#(?:Mobile|Tablet);.+Firefox/\d+\.\d+#is"
+  category: os
+  capabilities:
+      os: Firefox OS
+      os_vendor: Mozilla
+      os_family: Linux
+
+-
+  patterns:
+      -
+        strategy: regex
+        value: "#RISC OS(?:-NC)?(?:[ /](?P<os_version>\d+[\.\d]+))?#is"
+        matches:
+          os_version: os_version
+  category: os
+  capabilities:
+      os: RISC OS
+      os_vendor: Acorn
+
+-
+  patterns:
+      -
+        strategy: regex
+        value: "#Inferno(?:[ /](?P<os_version>\d+[\.\d]+))?#is"
+        matches:
+          os_version: os_version
+  category: os
+  capabilities:
+      os: Inferno OS
+
+-
+  patterns:
+      -
+        strategy: regex
+        value: "#(?:Brew MP|BREW|BMP)(?:[ /](?P<os_version>[\d+\.]+))?#is"
+        matches:
+          os_version: os_version
+  category: os
+  capabilities:
+      os: Brew
+
+-
+  patterns:
+      -
+        strategy: regex
+        value: "#(?:SunOS|Solaris)(?:[/ ](?P<os_version>\d+[\.\d]+))?#is"
+        matches:
+          os_version: os_version
+  category: os
+  capabilities:
+      os: Solaris
+
+-
+  patterns:
+      -
+        strategy: regex
+        value: "#AIX(?:[/ ]?(?P<os_version>\d+[\.\d]+))?#is"
+        matches:
+          os_version: os_version
+  category: os
+  capabilities:
+      os: AIX
+
+-
+  patterns:
+      -
+        strategy: regex
+        value: "#(?P<os>HP-UX|AIX|FreeBSD|NetBSD|OpenBSD|DragonFly|Syllable|IRIX|OSF1)(?:[/ ]?(?P<os_version>\d+[\.\d]+))?#is"
+        matches:
+          os: os
+          os_version: os_version
+  category: os
+  capabilities: []

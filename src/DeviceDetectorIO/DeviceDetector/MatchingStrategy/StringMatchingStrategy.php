@@ -3,28 +3,33 @@
 namespace DeviceDetectorIO\DeviceDetector\MatchingStrategy;
 
 use DeviceDetectorIO\DeviceDetector\Token\TokenInterface;
-use DeviceDetectorIO\DeviceDetector\Token\UserAgentToken;
+use DeviceDetectorIO\DeviceDetector\Token\UserAgentTokenizedToken;
 
 /**
- * Class StriposMatchingStrategy
+ * Class StringMatchingStrategy
  * @package DeviceDetectorIO\DeviceDetector\MatchingStrategy
  */
-class StriposMatchingStrategy implements MatchingStrategyInterface
+class StringMatchingStrategy implements MatchingStrategyInterface
 {
     /**
      * {@inheritdoc}
      */
     public function match(array $rule, TokenInterface $token)
     {
-        if (!$token instanceof UserAgentToken) {
+        if (!$token instanceof UserAgentTokenizedToken) {
             return false;
         }
 
-        $userAgent = $token->getData();
+        $tokens = $token->getData();
+        $userAgent = (string)$token;
         foreach ($rule['patterns'] as $pattern) {
 
-            if ('stripos' !== $pattern['strategy']) {
+            if ('string' !== $pattern['strategy']) {
                 continue;
+            }
+
+            if (isset($tokens[$pattern['value']])) {
+                return $rule['capabilities'];
             }
 
             if (false !== stripos($userAgent, $pattern['value'])) {

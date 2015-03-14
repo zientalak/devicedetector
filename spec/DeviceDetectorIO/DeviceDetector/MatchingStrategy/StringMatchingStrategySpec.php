@@ -2,17 +2,18 @@
 
 namespace spec\DeviceDetectorIO\DeviceDetector\MatchingStrategy;
 
+use DeviceDetectorIO\DeviceDetector\Token\TokenInterface;
 use DeviceDetectorIO\DeviceDetector\Token\UserAgentToken;
 use DeviceDetectorIO\DeviceDetector\Token\UserAgentTokenizedToken;
 use DeviceDetectorIO\DeviceDetector\UserAgent\UserAgentTokenizer;
 use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
 
-class IssetMatchingStrategySpec extends ObjectBehavior
+class StringMatchingStrategySpec extends ObjectBehavior
 {
     function it_is_initializable()
     {
-        $this->shouldHaveType('DeviceDetectorIO\DeviceDetector\MatchingStrategy\IssetMatchingStrategy');
+        $this->shouldHaveType('DeviceDetectorIO\DeviceDetector\MatchingStrategy\StringMatchingStrategy');
     }
 
     function it_implements_matching_strategy()
@@ -20,10 +21,11 @@ class IssetMatchingStrategySpec extends ObjectBehavior
         $this->shouldImplement('DeviceDetectorIO\DeviceDetector\MatchingStrategy\MatchingStrategyInterface');
     }
 
-    function it_return_false_on_non_expected_token()
+    function it_return_false_on_non_expected_token(TokenInterface $token)
     {
-        $this->match(array(), new UserAgentToken('UserAgent'))->shouldReturn(false);
+        $this->match(array(), $token)->shouldReturn(false);
     }
+
 
     function it_accept_only_isset_rule_strategy()
     {
@@ -68,7 +70,7 @@ class IssetMatchingStrategySpec extends ObjectBehavior
         return array(
             'patterns' => array(
                 array(
-                    'strategy' => 'isset',
+                    'strategy' => 'string',
                     'value' => 'android',
                 )
             ),

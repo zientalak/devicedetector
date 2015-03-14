@@ -1,0 +1,75 @@
+-
+  patterns:
+     -
+        strategy: string
+        value: NetFront
+  category: browser_engine
+  capabilities:
+      browser_engine: NetFront
+
+-
+  patterns:
+     -
+        strategy: regex
+        value: "#Edge(?:[ /]?(?P<browser_engine_version>\d+[\.\d]+))#is"
+        matches:
+            browser_engine_version: browser_engine_version
+  category: browser_engine
+  capabilities:
+      browser_engine: Edge
+
+-
+  patterns:
+     -
+        strategy: regex
+        value: "#Trident(?:[ /]?(?P<browser_engine_version>\d+[\.\d]+))#is"
+        matches:
+            browser_engine_version: browser_engine_version
+  category: browser_engine
+  capabilities:
+      browser_engine: Trident
+
+-
+  patterns:
+     -
+        strategy: string
+        value: Blink
+  category: browser_engine
+  capabilities:
+      browser_engine: Blink
+
+-
+  patterns:
+     -
+        strategy: string
+        value: Presto
+  category: browser_engine
+  capabilities:
+      browser_engine: Presto
+
+-
+  patterns:
+     -
+        strategy: regex
+        value: "#(?<!like )Gecko#is"
+  category: browser_engine
+  capabilities:
+      browser_engine: Gecko
+
+-
+  patterns:
+     -
+        strategy: string
+        value: KHTML
+  category: browser_engine
+  capabilities:
+      browser_engine: KHTML
+
+-
+  patterns:
+     -
+        strategy: regex
+        value: "#(?:Apple)?WebKit#is"
+  category: browser_engine
+  capabilities:
+      browser_engine: WebKit
