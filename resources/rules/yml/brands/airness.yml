@@ -1,0 +1,39 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: Air99
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Airness
+        brand_model: Air99
+        design_weight: 70
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MK99
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Airness
+        brand_model: MK99
+        design_weight: 81
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: slide99
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Airness
+        brand_model: slide99
+        design_weight: 80
+        display_type: TFT

@@ -1,0 +1,241 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Nimbus 101Q'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 1280
+        brand_vendor: Woxter
+        brand_model: 'Nimbus 101Q'
+        design_weight: 998
+        display_size: '10.1'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Nimbus 97q'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 2048
+        display_height: 1536
+        brand_vendor: Woxter
+        brand_model: 'Nimbus 97q'
+        display_size: '9.7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Tablet PC 100 CX'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Woxter
+        brand_model: 'Tablet PC 100 CX'
+        design_weight: 670
+        display_size: '10.1'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Tablet PC 101 CXi'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Woxter
+        brand_model: 'Tablet PC 101 CXi'
+        display_size: '10.1'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Tablet PC 101 IPS Dual'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1200
+        display_height: 800
+        brand_vendor: Woxter
+        brand_model: 'Tablet PC 101 IPS Dual'
+        display_size: '10.1'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Tablet PC 50 BL'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Woxter
+        brand_model: 'Tablet PC 50 BL'
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Tablet PC 65 CXi'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Woxter
+        brand_model: 'Tablet PC 65 CXi'
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Tablet PC 73 CXi'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Woxter
+        brand_model: 'Tablet PC 73 CXi'
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Tablet PC 75 CXi'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Woxter
+        brand_model: 'Tablet PC 75 CXi'
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Tablet PC 76 CXi'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Woxter
+        brand_model: 'Tablet PC 76 CXi'
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Tablet PC 85 CXi'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 600
+        brand_vendor: Woxter
+        brand_model: 'Tablet PC 85 CXi'
+        display_size: '8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Tablet PC 90 BL'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Woxter
+        brand_model: 'Tablet PC 90 BL'
+        display_size: '9'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Tablet PC 97 IPS'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Woxter
+        brand_model: 'Tablet PC 97 IPS'
+        display_size: '9.7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Tablet PC 97 IPS Dual'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Woxter
+        brand_model: 'Tablet PC 97 IPS Dual'
+        display_size: '9.7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Zielo D15'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Woxter
+        brand_model: 'Zielo D15'
+        design_weight: 422
+        display_size: '4.5'
+        display_type: 'IPS QHD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Zielo Q25'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Woxter
+        brand_model: 'Zielo Q25'
+        display_size: '5'
+        display_type: 'IPS QHD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Zielo S11'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Woxter
+        brand_model: 'Zielo S11'
+        design_weight: 126
+        display_size: '5'

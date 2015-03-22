@@ -1,0 +1,63 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'iTAB 704W'
+        -
+            strategy: string
+            value: 'Inovo iTAB 704 Wow'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Inovo
+        brand_model: 'iTAB 704W'
+        brand_marketing_name: 'Inovo iTAB 704 Wow'
+        brand_names: 'Inovo iTAB 704 Wow'
+        design_weight: 650
+        display_size: '7'
+        display_type: WVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: 'iTAB 704A'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Inovo
+        brand_model: 'iTAB 704A'
+        design_weight: 340
+        display_size: '7'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: iTAB704j
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Inovo
+        brand_model: iTAB704j
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: iTab705a
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Inovo
+        brand_model: iTab705a
+        design_weight: 450
+        display_size: '7'
+        display_type: LCD

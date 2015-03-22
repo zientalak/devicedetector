@@ -1,0 +1,55 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: N101
+        -
+            strategy: string
+            value: 'Yuandao Window N101'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1280
+        display_height: 800
+        brand_vendor: Yuandao
+        brand_model: N101
+        brand_marketing_name: 'Yuandao Window N101'
+        brand_names: 'Yuandao Window N101'
+        design_weight: 626
+        display_size: '10.1'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: N70-s
+        -
+            strategy: string
+            value: 'Window N70S'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Yuandao
+        brand_model: N70-s
+        brand_marketing_name: 'Window N70S'
+        brand_names: 'Window N70S'
+        design_weight: 314
+        display_size: '7'
+        display_type: LED
+-
+    patterns:
+        -
+            strategy: string
+            value: 'N90DC S'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 768
+        display_height: 1024
+        brand_vendor: Yuandao
+        brand_model: 'N90DC S'
+        design_weight: 520
+        display_size: '9.7'
+        display_type: LCD

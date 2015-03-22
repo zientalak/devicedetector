@@ -1,0 +1,70 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: AS123
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: ConnSpeed
+        brand_model: AS123
+        design_weight: 102
+        display_size: '3.5'
+        display_type: FWVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: AS131
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: ConnSpeed
+        brand_model: AS131
+        design_weight: 159
+        display_size: '4'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: AS5
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: ConnSpeed
+        brand_model: AS5
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: AS7
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: ConnSpeed
+        brand_model: AS7
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: IP71
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: ConnSpeed
+        brand_model: IP71
+        design_weight: 300
+        display_size: '7'
+        display_type: WVGA

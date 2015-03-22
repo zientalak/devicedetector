@@ -1,0 +1,34 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Niutek 3.5B'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: NIU
+        brand_model: 'Niutek 3.5B'
+        design_weight: 92
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Tek 3G 3.5'
+        -
+            strategy: string
+            value: 'NIU Niutek 3G 3.5 N209'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: NIU
+        brand_model: 'Tek 3G 3.5'
+        brand_marketing_name: 'NIU Niutek 3G 3.5 N209'
+        brand_names: 'NIU Niutek 3G 3.5 N209'
+        design_weight: 71
+        display_size: '3.5'
+        display_type: 'TFT LCD'

@@ -1,0 +1,316 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: MID104C
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        brand_vendor: MPman
+        brand_model: MID104C
+        display_size: '10.1'
+-
+    patterns:
+        -
+            strategy: string
+            value: MID114C
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        brand_vendor: MPman
+        brand_model: MID114C
+        display_size: '10.1'
+-
+    patterns:
+        -
+            strategy: string
+            value: MID72C
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: MPman
+        brand_model: MID72C
+        design_weight: 299
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MID77C
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: MPman
+        brand_model: MID77C
+        design_weight: 297
+        display_size: '7'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: MID7C
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        brand_vendor: MPman
+        brand_model: MID7C
+        design_weight: 350
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MID82C
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 800
+        brand_vendor: MPman
+        brand_model: MID82C
+        design_weight: 496
+        display_size: '8'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: MID84C
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        brand_vendor: MPman
+        brand_model: MID84C
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MP1047
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        brand_vendor: MPman
+        brand_model: MP1047
+        display_size: '10.1'
+-
+    patterns:
+        -
+            strategy: string
+            value: MP434
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 272
+        brand_vendor: MPman
+        brand_model: MP434
+        design_weight: 125
+        display_size: '4.3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MP717
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: MPman
+        brand_model: MP717
+        design_weight: 290
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MP726
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        brand_vendor: MPman
+        brand_model: MP726
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: MP727
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        brand_vendor: MPman
+        brand_model: MP727
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MP747
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        brand_vendor: MPman
+        brand_model: MP747
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MP827
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        brand_vendor: MPman
+        brand_model: MP827
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MP843
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 600
+        brand_vendor: MPman
+        brand_model: MP843
+        design_weight: 403
+        display_size: '8'
+        display_type: S-LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: MP888
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        brand_vendor: MPman
+        brand_model: MP888
+        display_size: '8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MP948
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: MPman
+        brand_model: MP948
+        design_weight: 611
+        display_size: '9.7'
+-
+    patterns:
+        -
+            strategy: string
+            value: MP959
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        brand_vendor: MPman
+        brand_model: MP959
+        design_weight: 611
+        display_size: '9.7'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: MP969
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 768
+        display_height: 1024
+        brand_vendor: MPman
+        brand_model: MP969
+        design_weight: 611
+        display_size: '9.7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'MPDC 110 BT IPS'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1280
+        display_height: 800
+        brand_vendor: MPman
+        brand_model: 'MPDC 110 BT IPS'
+        design_weight: 620
+        display_size: '10.1'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'MPDC100 BT'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: MPman
+        brand_model: 'MPDC100 BT'
+        design_weight: 560
+        display_size: '10.1'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'MPDC8 BT'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 600
+        brand_vendor: MPman
+        brand_model: 'MPDC8 BT'
+        design_weight: 420
+        display_size: '8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'MPDC88 BT IPS'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 768
+        display_height: 1024
+        brand_vendor: MPman
+        brand_model: 'MPDC88 BT IPS'
+        design_weight: 420
+        display_size: '8'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: Mid74c
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        brand_vendor: MPman
+        brand_model: Mid74c
+        display_size: '7'

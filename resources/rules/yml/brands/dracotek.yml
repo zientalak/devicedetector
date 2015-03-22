@@ -1,0 +1,15 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Tablet P27'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 600
+        brand_vendor: DracoTek
+        brand_model: 'Tablet P27'
+        design_weight: 500
+        display_size: '7'
+        display_type: TFT

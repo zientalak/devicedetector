@@ -1,0 +1,35 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 27154B
+        -
+            strategy: string
+            value: 'Ghia Any 27154B'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Ghia
+        brand_model: 27154B
+        brand_marketing_name: 'Ghia Any 27154B'
+        brand_names: 'Ghia Any 27154B'
+        design_weight: 300
+        display_size: '7'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 27154p
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Ghia
+        brand_model: 27154p
+        design_weight: 300
+        display_size: '7'
+        display_type: LCD

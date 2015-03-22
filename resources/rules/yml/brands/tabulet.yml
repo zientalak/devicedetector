@@ -1,0 +1,99 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Beat Duos'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Tabulet
+        brand_model: 'Beat Duos'
+        design_weight: 295
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Octa Q4'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 770
+        display_height: 1024
+        brand_vendor: Tabulet
+        brand_model: 'Octa Q4'
+        design_weight: 450
+        display_size: '8'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Tabulet Sparta'
+    capabilities:
+        is_mobile: true
+        brand_vendor: Tabulet
+        brand_model: 'Tabulet Sparta'
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Troy
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Tabulet
+        brand_model: Troy
+        design_weight: 345
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Troy 2'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Tabulet
+        brand_model: 'Troy 2'
+        design_weight: 360
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Troy Duos 3G'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Tabulet
+        brand_model: 'Troy Duos 3G'
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Troy Duos S'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Tabulet
+        brand_model: 'Troy Duos S'
+        design_weight: 300
+        display_size: '7'
+        display_type: TFT

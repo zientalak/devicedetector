@@ -1,0 +1,30 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 809T
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Mpai
+        brand_model: 809T
+        design_weight: 122
+        display_size: '5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: S720C
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Mpai
+        brand_model: S720C
+        design_weight: 116
+        display_size: '4.5'
+        display_type: 'FWVGA LCD'

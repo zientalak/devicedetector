@@ -1,0 +1,14 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: R710
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Aktion
+        brand_model: R710
+        design_weight: 345
+        display_size: '7'

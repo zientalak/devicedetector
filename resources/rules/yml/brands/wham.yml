@@ -1,0 +1,54 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: WD35
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Wham
+        brand_model: WD35
+        display_size: '3.5'
+        display_type: 'HVGA LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: WG40
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Wham
+        brand_model: WG40
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: WS35
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Wham
+        brand_model: WS35
+        display_size: '3.5'
+        display_type: WVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: WS50
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Wham
+        brand_model: WS50
+        display_size: '5'
+        display_type: IPS

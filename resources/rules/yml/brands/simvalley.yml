@@ -1,0 +1,78 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'SP-40 EDGE'
+        -
+            strategy: string
+            value: 'Simvalley SP-40'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Simvalley
+        brand_model: 'SP-40 EDGE'
+        brand_marketing_name: 'Simvalley SP-40'
+        brand_names: 'Simvalley SP-40'
+        display_size: '3.2'
+-
+    patterns:
+        -
+            strategy: string
+            value: SP-60
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Simvalley
+        brand_model: SP-60
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: SP-80
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Simvalley
+        brand_model: SP-80
+        display_size: '3.5'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'SPX 5'
+        -
+            strategy: string
+            value: 'Simvalley SPX-5 3G, Simvalley SPX5 3g, SPX5'
+        -
+            strategy: string
+            value: 'Simvalley SPX-5 3G'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Simvalley
+        brand_model: 'SPX 5'
+        brand_marketing_name: 'Simvalley SPX-5 3G'
+        brand_names: 'Simvalley SPX-5 3G, Simvalley SPX5 3g, SPX5'
+        display_size: '5.3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'SPX 8'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Simvalley
+        brand_model: 'SPX 8'
+        design_weight: 210
+        display_size: '5.2'
+        display_type: IPS

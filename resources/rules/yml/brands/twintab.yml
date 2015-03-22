@@ -1,0 +1,35 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: T7283gd1
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: TwinTab
+        brand_model: T7283gd1
+        design_weight: 370
+        display_size: '7'
+        display_type: HVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: T7283gd2
+        -
+            strategy: string
+            value: 'TwinMOS TwinTAB-T7283GD2'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 1280
+        brand_vendor: TwinTab
+        brand_model: T7283gd2
+        brand_marketing_name: 'TwinMOS TwinTAB-T7283GD2'
+        brand_names: 'TwinMOS TwinTAB-T7283GD2'
+        design_weight: 342
+        display_size: '7'
+        display_type: 'TFT LCD'

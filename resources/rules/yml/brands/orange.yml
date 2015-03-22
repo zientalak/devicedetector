@@ -1,0 +1,738 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: TB1010
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 1280
+        brand_vendor: Orange
+        brand_model: TB1010
+        design_weight: 287
+        display_size: '10.1'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'San Diego'
+        -
+            strategy: string
+            value: 'Orange AZ210, Orange San Diego AZ210b'
+        -
+            strategy: string
+            value: 'Orange AZ210'
+    capabilities:
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Orange
+        brand_model: 'San Diego'
+        brand_marketing_name: 'Orange AZ210'
+        brand_names: 'Orange AZ210, Orange San Diego AZ210b'
+        design_weight: 117
+        display_size: '4'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: AZ210a
+    capabilities:
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Orange
+        brand_model: AZ210a
+        design_weight: 117
+        display_size: '4'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: Atlanta
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Orange
+        brand_model: Atlanta
+        design_weight: 84
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: C410
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Orange
+        brand_model: C410
+        display_size: '4'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: Dallas
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Orange
+        brand_model: Dallas
+        design_weight: 80
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'SPV M500'
+        -
+            strategy: string
+            value: 'Orange HTC Charmer'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Orange
+        brand_model: 'SPV M500'
+        brand_marketing_name: 'Orange HTC Charmer'
+        brand_names: 'Orange HTC Charmer'
+        design_weight: 155
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Hi 4G'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Orange
+        brand_model: 'Hi 4G'
+        design_weight: 149
+        display_size: '4.5'
+        display_type: 'FWVGA TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: Hiro
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Orange
+        brand_model: Hiro
+        design_weight: 96
+        display_size: '4.3'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Infinity 996'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Orange
+        brand_model: 'Infinity 996'
+        design_weight: 124
+        display_size: '4.3'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'X2 Mini'
+        -
+            strategy: string
+            value: 'Orange Infinity X2 Mini'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Orange
+        brand_model: 'X2 Mini'
+        brand_marketing_name: 'Orange Infinity X2 Mini'
+        brand_names: 'Orange Infinity X2 Mini'
+        design_weight: 140
+        display_size: '4.5'
+        display_type: WVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: KF012
+        -
+            strategy: string
+            value: 'FunTab 7.0'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Orange
+        brand_model: KF012
+        brand_marketing_name: 'FunTab 7.0'
+        brand_names: 'FunTab 7.0'
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Kivo
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Orange
+        brand_model: Kivo
+        design_weight: 137
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Luno
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Orange
+        brand_model: Luno
+        design_weight: 126
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Nivo
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Orange
+        brand_model: Nivo
+        design_weight: 120
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: OR-TB17
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Orange
+        brand_model: OR-TB17
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: Reyo
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Orange
+        brand_model: Reyo
+        design_weight: 166
+        display_size: '5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Rio II'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 240
+        brand_vendor: Orange
+        brand_model: 'Rio II'
+        design_weight: 106
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Rono
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Orange
+        brand_model: Rono
+        design_weight: 131
+        display_size: '5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'SPV C100'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Orange
+        brand_model: 'SPV C100'
+        design_weight: 105
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'SPV C200'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Orange
+        brand_model: 'SPV C200'
+        design_weight: 86
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'SPV C500'
+        -
+            strategy: string
+            value: 'Orange Typhoon'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Orange
+        brand_model: 'SPV C500'
+        brand_marketing_name: 'Orange Typhoon'
+        brand_names: 'Orange Typhoon'
+        design_weight: 100
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'SPV C550'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Orange
+        brand_model: 'SPV C550'
+        design_weight: 107
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'SPV C600'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Orange
+        brand_model: 'SPV C600'
+        design_weight: 105
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'SPV C700'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Orange
+        brand_model: 'SPV C700'
+        design_weight: 115
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'SPV E100'
+        -
+            strategy: string
+            value: 'HTC Tanager, Qtek 7070'
+        -
+            strategy: string
+            value: 'HTC Tanager'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Orange
+        brand_model: 'SPV E100'
+        brand_marketing_name: 'HTC Tanager'
+        brand_names: 'HTC Tanager, Qtek 7070'
+        design_weight: 120
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'SPV E200'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Orange
+        brand_model: 'SPV E200'
+        design_weight: 130
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'SPV E600'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 240
+        brand_vendor: Orange
+        brand_model: 'SPV E600'
+        design_weight: 119
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'SPV E610'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 240
+        brand_vendor: Orange
+        brand_model: 'SPV E610'
+        design_weight: 125
+        display_size: '2.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'SPV E650'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Orange
+        brand_model: 'SPV E650'
+        design_weight: 120
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'SPV M1000'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Orange
+        brand_model: 'SPV M1000'
+        design_weight: 185
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'SPV M1500'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Orange
+        brand_model: 'SPV M1500'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'SPV M2000'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Orange
+        brand_model: 'SPV M2000'
+        design_weight: 210
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'SPV M3100'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Orange
+        brand_model: 'SPV M3100'
+        design_weight: 176
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'SPV M5000'
+    capabilities:
+        is_mobile: true
+        display_width: 640
+        display_height: 480
+        brand_vendor: Orange
+        brand_model: 'SPV M5000'
+        design_weight: 285
+        display_size: '3.6'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'SPV M600'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Orange
+        brand_model: 'SPV M600'
+        design_weight: 148
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'SPV M650'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Orange
+        brand_model: 'SPV M650'
+        design_weight: 127
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'SPV M700'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Orange
+        brand_model: 'SPV M700'
+        design_weight: 143
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Santa Clara'
+    capabilities:
+        is_mobile: true
+        brand_vendor: Orange
+        brand_model: 'Santa Clara'
+        design_weight: 117
+        display_size: '4'
+-
+    patterns:
+        -
+            strategy: string
+            value: Stockholm
+    capabilities:
+        is_mobile: true
+        brand_vendor: Orange
+        brand_model: Stockholm
+        design_weight: 130
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: TB700
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 600
+        brand_vendor: Orange
+        brand_model: TB700
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'TB7020 Plus'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Orange
+        brand_model: 'TB7020 Plus'
+        display_size: '7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: TB7900
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Orange
+        brand_model: TB7900
+        display_size: '7'
+        display_type: 'HD LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: TB7990
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Orange
+        brand_model: TB7990
+        display_size: '7'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: TR1
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Orange
+        brand_model: TR1
+        design_weight: 90
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Tahiti
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1280
+        display_height: 800
+        brand_vendor: Orange
+        brand_model: Tahiti
+        design_weight: 390
+        display_size: '7'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: Tara
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Orange
+        brand_model: Tara
+        design_weight: 90
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Tokyo
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 92
+        brand_vendor: Orange
+        brand_model: Tokyo
+        design_weight: 68
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Yomi
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Orange
+        brand_model: Yomi
+        design_weight: 100
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Zali
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Orange
+        brand_model: Zali
+        design_weight: 120
+        display_size: '3.5'
+        display_type: TFT

@@ -1,0 +1,114 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: J520
+    capabilities:
+        is_mobile: true
+        display_width: 64
+        display_height: 96
+        brand_vendor: Sendo
+        brand_model: J520
+        design_weight: 75
+-
+    patterns:
+        -
+            strategy: string
+            value: J530
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Sendo
+        brand_model: J530
+        design_weight: 75
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: M570
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Sendo
+        brand_model: M570
+        design_weight: 77
+        display_type: UFB
+-
+    patterns:
+        -
+            strategy: string
+            value: S251
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Sendo
+        brand_model: S251
+        design_weight: 98
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: S330
+    capabilities:
+        is_mobile: true
+        display_width: 98
+        display_height: 67
+        brand_vendor: Sendo
+        brand_model: S330
+        design_weight: 81
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: S360
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Sendo
+        brand_model: S360
+        design_weight: 83
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: SV663
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Sendo
+        brand_model: SV663
+        design_weight: 86
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: V663
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Sendo
+        brand_model: V663
+        design_weight: 82
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: W622
+    capabilities:
+        is_mobile: true
+        display_width: 177
+        display_height: 223
+        brand_vendor: Sendo
+        brand_model: W622

@@ -1,0 +1,61 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'EX P7202'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: ExMobile
+        brand_model: 'EX P7202'
+        display_size: '7'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'EX S20i'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: ExMobile
+        brand_model: 'EX S20i'
+        design_weight: 110
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: EX7201
+        -
+            strategy: string
+            value: 'ExMobile EX-PAD P7201'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: ExMobile
+        brand_model: EX7201
+        brand_marketing_name: 'ExMobile EX-PAD P7201'
+        brand_names: 'ExMobile EX-PAD P7201'
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: ExNote
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: ExMobile
+        brand_model: ExNote
+        display_size: '5'
+        display_type: LED

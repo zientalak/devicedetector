@@ -1,0 +1,60 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: F13
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Pulid
+        brand_model: F13
+        design_weight: 110
+        display_size: '5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: F15
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Pulid
+        brand_model: F15
+        design_weight: 104
+        display_size: '4.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: F19
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Pulid
+        brand_model: F19
+        design_weight: 130
+        display_size: '6'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: F23
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Pulid
+        brand_model: F23
+        design_weight: 423
+        display_size: '5'
+        display_type: TFT

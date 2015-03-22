@@ -1,0 +1,14 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: SX-SP5
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Nuclear
+        brand_model: SX-SP5
+        display_size: '5.3'
+        display_type: TFT

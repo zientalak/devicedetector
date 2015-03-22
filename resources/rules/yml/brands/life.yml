@@ -1,0 +1,18 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'SyTab 7002G'
+        -
+            strategy: string
+            value: 'E@syTab 7002 Dual Core'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Life
+        brand_model: 'SyTab 7002G'
+        brand_marketing_name: 'E@syTab 7002 Dual Core'
+        brand_names: 'E@syTab 7002 Dual Core'
+        display_size: '7'

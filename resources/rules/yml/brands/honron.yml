@@ -1,0 +1,15 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: HM07a
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Honron
+        brand_model: HM07a
+        design_weight: 360
+        display_size: '7'
+        display_type: TFT

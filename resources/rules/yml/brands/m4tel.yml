@@ -1,0 +1,185 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: SS220
+        -
+            strategy: string
+            value: 'M4TEL VIBER'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: M4tel
+        brand_model: SS220
+        brand_marketing_name: 'M4TEL VIBER'
+        brand_names: 'M4TEL VIBER'
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: SS990
+        -
+            strategy: string
+            value: 'M4tel E-Motion'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: M4tel
+        brand_model: SS990
+        brand_marketing_name: 'M4tel E-Motion'
+        brand_names: 'M4tel E-Motion'
+        design_weight: 90
+        display_size: '4'
+-
+    patterns:
+        -
+            strategy: string
+            value: SS550
+        -
+            strategy: string
+            value: 'M4tel Genius'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: M4tel
+        brand_model: SS550
+        brand_marketing_name: 'M4tel Genius'
+        brand_names: 'M4tel Genius'
+        design_weight: 130
+        display_size: '3.7'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'M4 SS1090'
+        -
+            strategy: string
+            value: 'M4tel Max Ultra SS1090'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: M4tel
+        brand_model: 'M4 SS1090'
+        brand_marketing_name: 'M4tel Max Ultra SS1090'
+        brand_names: 'M4tel Max Ultra SS1090'
+        design_weight: 196
+        display_size: '5.3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: SS880
+        -
+            strategy: string
+            value: 'M4tel Mirage SS880'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: M4tel
+        brand_model: SS880
+        brand_marketing_name: 'M4tel Mirage SS880'
+        brand_names: 'M4tel Mirage SS880'
+        design_weight: 146
+        display_size: '4.3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: SS1050
+        -
+            strategy: string
+            value: 'M4Joy SS1050'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: M4Tel
+        brand_model: SS1050
+        brand_marketing_name: 'M4Joy SS1050'
+        brand_names: 'M4Joy SS1050'
+        design_weight: 200
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: SS1070
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: M4Tel
+        brand_model: SS1070
+        design_weight: 179
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'M4 SS1080'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: M4tel
+        brand_model: 'M4 SS1080'
+        display_size: '4.7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: SS1010
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: M4tel
+        brand_model: SS1010
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: SS1060
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: M4tel
+        brand_model: SS1060
+        design_weight: 151
+        display_size: '4.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: SS660
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: M4tel
+        brand_model: SS660
+        display_size: '3.5'
+        display_type: TFT

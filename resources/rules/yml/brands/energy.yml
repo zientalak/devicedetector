@@ -1,0 +1,35 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: I8
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Energy
+        brand_model: I8
+        design_weight: 491
+        display_size: '8'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'I8 Dual'
+        -
+            strategy: string
+            value: 'Energy Sistem I8 Dual'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 768
+        display_height: 1024
+        brand_vendor: Energy
+        brand_model: 'I8 Dual'
+        brand_marketing_name: 'Energy Sistem I8 Dual'
+        brand_names: 'Energy Sistem I8 Dual'
+        design_weight: 420
+        display_size: '8'
+        display_type: 'TFT LCD'

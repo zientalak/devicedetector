@@ -1,0 +1,29 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: NB017
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Onix
+        brand_model: NB017
+        design_weight: 380
+        display_size: '7'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: TB512-16G
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Onix
+        brand_model: TB512-16G
+        display_size: '7'
+        display_type: LCD

@@ -1,0 +1,14 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: KTab7
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Kaya
+        brand_model: KTab7
+        display_size: '7'
+        display_type: TFT

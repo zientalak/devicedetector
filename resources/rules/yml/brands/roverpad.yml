@@ -1,0 +1,74 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 3w10.4
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Roverpad
+        brand_model: 3w10.4
+        design_weight: 520
+        display_size: '10.1'
+        display_type: WVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: 3wg70
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Roverpad
+        brand_model: 3wg70
+        design_weight: 360
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: 3wt70
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Roverpad
+        brand_model: 3wt70
+        design_weight: 384
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'AIR 7.85 3G'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 768
+        display_height: 1024
+        brand_vendor: Roverpad
+        brand_model: 'AIR 7.85 3G'
+        design_weight: 400
+        display_size: '7.85'
+        display_type: 'TFT IPS'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Air S70'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Roverpad
+        brand_model: 'Air S70'
+        design_weight: 290
+        display_size: '7'
+        display_type: TFT

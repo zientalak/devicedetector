@@ -1,0 +1,55 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Touch 78'
+        -
+            strategy: string
+            value: 'Blusens Touch 78 F'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Blusens
+        brand_model: 'Touch 78'
+        brand_marketing_name: 'Blusens Touch 78 F'
+        brand_names: 'Blusens Touch 78 F'
+        design_weight: 307
+        display_size: '7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: Touch96
+        -
+            strategy: string
+            value: 'Blusens Touch 96 DCB'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Blusens
+        brand_model: Touch96
+        brand_marketing_name: 'Blusens Touch 96 DCB'
+        brand_names: 'Blusens Touch 96 DCB'
+        design_weight: 677
+        display_size: '9.7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Touch90
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Blusens
+        brand_model: Touch90
+        design_weight: 520
+        display_size: '9'
+        display_type: TFT

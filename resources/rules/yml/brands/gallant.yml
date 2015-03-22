@@ -1,0 +1,14 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'G79 Mini S'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 768
+        display_height: 1024
+        brand_vendor: Gallant
+        brand_model: 'G79 Mini S'
+        display_size: '7.9'
+        display_type: IPS

@@ -1,0 +1,14 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: E61
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Ephone
+        brand_model: E61
+        display_size: '5.08'
+        display_type: 'Super AMOLED'

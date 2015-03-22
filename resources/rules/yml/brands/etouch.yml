@@ -1,0 +1,98 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: D11
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: eTouch
+        brand_model: D11
+        display_size: '1.5'
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: D33
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: eTouch
+        brand_model: D33
+        design_weight: 58
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: D35
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: eTouch
+        brand_model: D35
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MB68
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: eTouch
+        brand_model: MB68
+        design_weight: 80
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: TB33
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: eTouch
+        brand_model: TB33
+        display_size: '7'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: X88
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 640
+        brand_vendor: eTouch
+        brand_model: X88
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: i350
+        -
+            strategy: string
+            value: 'eTouch i360'
+    capabilities:
+        is_mobile: true
+        brand_vendor: eTouch
+        brand_model: i350
+        brand_marketing_name: 'eTouch i360'
+        brand_names: 'eTouch i360'
+        design_weight: 80
+        display_size: '2.8'
+        display_type: TFT

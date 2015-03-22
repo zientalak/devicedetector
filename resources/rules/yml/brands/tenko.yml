@@ -1,0 +1,29 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: T7Q
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Tenko
+        brand_model: T7Q
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: T7X
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Tenko
+        brand_model: T7X
+        design_weight: 280
+        display_size: '7'
+        display_type: TFT

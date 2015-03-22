@@ -1,0 +1,706 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: TAB465EUK
+        -
+            strategy: string
+            value: 'Yarvik GoTab Exxa TAB465EUK'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Yarvik
+        brand_model: TAB465EUK
+        brand_marketing_name: 'Yarvik GoTab Exxa TAB465EUK'
+        brand_names: 'Yarvik GoTab Exxa TAB465EUK'
+        design_weight: 655
+        display_size: '9.7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: TAB360
+        -
+            strategy: string
+            value: 'Yarvik GoTab Gravity TAB360'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 600
+        brand_vendor: Yarvik
+        brand_model: TAB360
+        brand_marketing_name: 'Yarvik GoTab Gravity TAB360'
+        brand_names: 'Yarvik GoTab Gravity TAB360'
+        design_weight: 502
+        display_size: '8'
+-
+    patterns:
+        -
+            strategy: string
+            value: TAB364
+        -
+            strategy: string
+            value: 'Yarvik GoTab Gravity TAB364'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 600
+        brand_vendor: Yarvik
+        brand_model: TAB364
+        brand_marketing_name: 'Yarvik GoTab Gravity TAB364'
+        brand_names: 'Yarvik GoTab Gravity TAB364'
+        design_weight: 502
+        display_size: '8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: TAB411
+        -
+            strategy: string
+            value: 'Yarvik GoTab Slimline TAB411'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Yarvik
+        brand_model: TAB411
+        brand_marketing_name: 'Yarvik GoTab Slimline TAB411'
+        brand_names: 'Yarvik GoTab Slimline TAB411'
+        design_weight: 495
+        display_size: '10'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: TAB450
+        -
+            strategy: string
+            value: 'Yarvik GoTab Slimline TAB450'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Yarvik
+        brand_model: TAB450
+        brand_marketing_name: 'Yarvik GoTab Slimline TAB450'
+        brand_names: 'Yarvik GoTab Slimline TAB450'
+        design_weight: 495
+        display_size: '10'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: TAB220
+        -
+            strategy: string
+            value: 'Yarvik GoTab Velocity TAB220'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Yarvik
+        brand_model: TAB220
+        brand_marketing_name: 'Yarvik GoTab Velocity TAB220'
+        brand_names: 'Yarvik GoTab Velocity TAB220'
+        design_weight: 355
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: TAB224
+        -
+            strategy: string
+            value: 'Yarvik GoTab Velocity TAB224'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Yarvik
+        brand_model: TAB224
+        brand_marketing_name: 'Yarvik GoTab Velocity TAB224'
+        brand_names: 'Yarvik GoTab Velocity TAB224'
+        design_weight: 365
+        display_size: '7'
+        display_type: AMOLED
+-
+    patterns:
+        -
+            strategy: string
+            value: TAB260
+        -
+            strategy: string
+            value: 'Yarvik GoTab Velocity TAB260'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Yarvik
+        brand_model: TAB260
+        brand_marketing_name: 'Yarvik GoTab Velocity TAB260'
+        brand_names: 'Yarvik GoTab Velocity TAB260'
+        design_weight: 365
+        display_size: '7'
+        display_type: AMOLED
+-
+    patterns:
+        -
+            strategy: string
+            value: TAB264
+        -
+            strategy: string
+            value: 'Yarvik GoTab Velocity TAB264'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Yarvik
+        brand_model: TAB264
+        brand_marketing_name: 'Yarvik GoTab Velocity TAB264'
+        brand_names: 'Yarvik GoTab Velocity TAB264'
+        design_weight: 365
+        display_size: '7'
+        display_type: AMOLED
+-
+    patterns:
+        -
+            strategy: string
+            value: TAB420
+        -
+            strategy: string
+            value: 'Yarvik GoTab Xerios TAB420'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Yarvik
+        brand_model: TAB420
+        brand_marketing_name: 'Yarvik GoTab Xerios TAB420'
+        brand_names: 'Yarvik GoTab Xerios TAB420'
+        design_weight: 658
+        display_size: '10'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: TAB424
+        -
+            strategy: string
+            value: 'Yarvik GoTab Xerios TAB424'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Yarvik
+        brand_model: TAB424
+        brand_marketing_name: 'Yarvik GoTab Xerios TAB424'
+        brand_names: 'Yarvik GoTab Xerios TAB424'
+        design_weight: 658
+        display_size: '10'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: TAB460
+        -
+            strategy: string
+            value: 'Yarvik GoTab Xerios TAB460'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Yarvik
+        brand_model: TAB460
+        brand_marketing_name: 'Yarvik GoTab Xerios TAB460'
+        brand_names: 'Yarvik GoTab Xerios TAB460'
+        design_weight: 682
+        display_size: '10'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: TAB461EUK
+        -
+            strategy: string
+            value: 'Yarvik GoTab Xerios TAB461EUK'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Yarvik
+        brand_model: TAB461EUK
+        brand_marketing_name: 'Yarvik GoTab Xerios TAB461EUK'
+        brand_names: 'Yarvik GoTab Xerios TAB461EUK'
+        design_weight: 682
+        display_size: '10'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: TAB464
+        -
+            strategy: string
+            value: 'Yarvik GoTab Xerios TAB464'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Yarvik
+        brand_model: TAB464
+        brand_marketing_name: 'Yarvik GoTab Xerios TAB464'
+        brand_names: 'Yarvik GoTab Xerios TAB464'
+        design_weight: 682
+        display_size: '10'
+-
+    patterns:
+        -
+            strategy: string
+            value: TAB467
+        -
+            strategy: string
+            value: 'Yarvik GoTab Zetta 9.7'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Yarvik
+        brand_model: TAB467
+        brand_marketing_name: 'Yarvik GoTab Zetta 9.7'
+        brand_names: 'Yarvik GoTab Zetta 9.7'
+        design_weight: 655
+        display_size: '9.7'
+-
+    patterns:
+        -
+            strategy: string
+            value: TAB467EUK
+        -
+            strategy: string
+            value: 'Yarvik GoTab Zetta TAB467EUK'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Yarvik
+        brand_model: TAB467EUK
+        brand_marketing_name: 'Yarvik GoTab Zetta TAB467EUK'
+        brand_names: 'Yarvik GoTab Zetta TAB467EUK'
+        design_weight: 655
+        display_size: '9.7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: TAB468EUK
+        -
+            strategy: string
+            value: 'Yarvik GoTab Zetta TAB468EUK'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Yarvik
+        brand_model: TAB468EUK
+        brand_marketing_name: 'Yarvik GoTab Zetta TAB468EUK'
+        brand_names: 'Yarvik GoTab Zetta TAB468EUK'
+        design_weight: 655
+        display_size: '9.7'
+-
+    patterns:
+        -
+            strategy: string
+            value: TAB468UK
+        -
+            strategy: string
+            value: 'Yarvik GoTab Zetta TAB468UK'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Yarvik
+        brand_model: TAB468UK
+        brand_marketing_name: 'Yarvik GoTab Zetta TAB468UK'
+        brand_names: 'Yarvik GoTab Zetta TAB468UK'
+        design_weight: 655
+        display_size: '9.7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: SMP45-210
+        -
+            strategy: string
+            value: 'Yarvik Ingenia Synchro'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Yarvik
+        brand_model: SMP45-210
+        brand_marketing_name: 'Yarvik Ingenia Synchro'
+        brand_names: 'Yarvik Ingenia Synchro'
+        design_weight: 156
+        display_size: '4.5'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: SMP53-210
+        -
+            strategy: string
+            value: 'Yarvik Ingenia X1'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Yarvik
+        brand_model: SMP53-210
+        brand_marketing_name: 'Yarvik Ingenia X1'
+        brand_names: 'Yarvik Ingenia X1'
+        design_weight: 183
+        display_size: '5.3'
+        display_type: 'IPS QHD'
+-
+    patterns:
+        -
+            strategy: string
+            value: TAB07-100
+        -
+            strategy: string
+            value: 'Yarvik Luna 7'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Yarvik
+        brand_model: TAB07-100
+        brand_marketing_name: 'Yarvik Luna 7'
+        brand_names: 'Yarvik Luna 7'
+        design_weight: 285
+        display_size: '7'
+        display_type: 'SUPER AMOLED Plus'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Luna TAB07-101'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Yarvik
+        brand_model: 'Luna TAB07-101'
+        design_weight: 291
+        display_size: '7'
+        display_type: 'IPS TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: TAB474
+        -
+            strategy: string
+            value: 'Yarvik Luna TAB474'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Yarvik
+        brand_model: TAB474
+        brand_marketing_name: 'Yarvik Luna TAB474'
+        brand_names: 'Yarvik Luna TAB474'
+        design_weight: 439
+        display_size: '10'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Luna Tab10-150'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Yarvik
+        brand_model: 'Luna Tab10-150'
+        design_weight: 585
+        display_size: '10'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: TAB274
+        -
+            strategy: string
+            value: 'Yarvik Luna Tab274'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Yarvik
+        brand_model: TAB274
+        brand_marketing_name: 'Yarvik Luna Tab274'
+        brand_names: 'Yarvik Luna Tab274'
+        design_weight: 318
+        display_size: '7'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: TAB10-400
+        -
+            strategy: string
+            value: 'Yarvik Noble TAB10-400'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Yarvik
+        brand_model: TAB10-400
+        brand_marketing_name: 'Yarvik Noble TAB10-400'
+        brand_names: 'Yarvik Noble TAB10-400'
+        design_weight: 589
+        display_size: '10'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: TAB07-200
+        -
+            strategy: string
+            value: 'Yarvik Xenta 7"'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Yarvik
+        brand_model: TAB07-200
+        brand_marketing_name: 'Yarvik Xenta 7"'
+        brand_names: 'Yarvik Xenta 7"'
+        design_weight: 288
+        display_size: '7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: TAB10-201
+        -
+            strategy: string
+            value: 'Yarvik Xenta 10ic'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1280
+        display_height: 800
+        brand_vendor: Yarvik
+        brand_model: TAB10-201
+        brand_marketing_name: 'Yarvik Xenta 10ic'
+        brand_names: 'Yarvik Xenta 10ic'
+        design_weight: 596
+        display_size: '10'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: TAB210
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Yarvik
+        brand_model: TAB210
+        design_weight: 375
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: TAB211
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Yarvik
+        brand_model: TAB211
+        design_weight: 365
+        display_size: '7'
+        display_type: AMOLED
+-
+    patterns:
+        -
+            strategy: string
+            value: TAB250
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Yarvik
+        brand_model: TAB250
+        design_weight: 383
+        display_size: '7'
+        display_type: 'AMOLED Plus'
+-
+    patterns:
+        -
+            strategy: string
+            value: TAB310
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 600
+        brand_vendor: Yarvik
+        brand_model: TAB310
+        design_weight: 565
+        display_size: '8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: TAB410
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Yarvik
+        brand_model: TAB410
+        design_weight: 692
+        display_size: '10'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: TAB462
+        -
+            strategy: string
+            value: 'Yarvik Zania 10ic'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1280
+        display_height: 800
+        brand_vendor: Yarvik
+        brand_model: TAB462
+        brand_marketing_name: 'Yarvik Zania 10ic'
+        brand_names: 'Yarvik Zania 10ic'
+        design_weight: 622
+        display_size: '10'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: TAB469
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Yarvik
+        brand_model: TAB469
+        design_weight: 655
+        display_size: '9.7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: TAB9-200
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Yarvik
+        brand_model: TAB9-200
+        design_weight: 638
+        display_size: '9.7'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Xenta Tab07-210'
+        -
+            strategy: string
+            value: 'Yarvik Xenta Tab07-210 Xenta 7c'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Yarvik
+        brand_model: 'Xenta Tab07-210'
+        brand_marketing_name: 'Yarvik Xenta Tab07-210 Xenta 7c'
+        brand_names: 'Yarvik Xenta Tab07-210 Xenta 7c'
+        design_weight: 282
+        display_size: '7'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Xenta Tab13 201'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 1280
+        brand_vendor: Yarvik
+        brand_model: 'Xenta Tab13 201'
+        design_weight: 1292
+        display_size: '13.3'
+        display_type: 'IPS LCD'

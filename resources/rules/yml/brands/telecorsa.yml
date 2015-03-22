@@ -1,0 +1,15 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: TY-012
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: TeleCorsa
+        brand_model: TY-012
+        design_weight: 280
+        display_size: '7'
+        display_type: 'TFT LCD'

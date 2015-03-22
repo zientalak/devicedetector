@@ -1,0 +1,20 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'OVO 2.0'
+        -
+            strategy: string
+            value: 'Tracer TRATAB42775'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Tracer
+        brand_model: 'OVO 2.0'
+        brand_marketing_name: 'Tracer TRATAB42775'
+        brand_names: 'Tracer TRATAB42775'
+        design_weight: 360
+        display_size: '7'
+        display_type: 'LCD IPS'

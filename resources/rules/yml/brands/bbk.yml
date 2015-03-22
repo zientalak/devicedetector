@@ -1,0 +1,128 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Vivo 4.3'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: BBK
+        brand_model: 'Vivo 4.3'
+        design_weight: 120
+        display_size: '4.3'
+        display_type: 'Super AMOLED Plus'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Vivo E1'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 320
+        brand_vendor: BBK
+        brand_model: 'Vivo E1'
+        design_weight: 123
+        display_size: '3.1'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Vivo E3'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: BBK
+        brand_model: 'Vivo E3'
+        design_weight: 128
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Vivo S3'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 320
+        brand_vendor: BBK
+        brand_model: 'Vivo S3'
+        display_size: '3.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Vivo S6'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: BBK
+        brand_model: 'Vivo S6'
+        design_weight: 132
+        display_size: '4'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Vivo S7'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: BBK
+        brand_model: 'Vivo S7'
+        design_weight: 144
+        display_size: '4'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Vivo V1'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 320
+        brand_vendor: BBK
+        brand_model: 'Vivo V1'
+        design_weight: 137
+        display_size: '3.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Vivo V2'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 320
+        brand_vendor: BBK
+        brand_model: 'Vivo V2'
+        design_weight: 149
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Vivo Y1'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: BBK
+        brand_model: 'Vivo Y1'
+        display_size: '3.2'
+        display_type: 'IPS LCD'

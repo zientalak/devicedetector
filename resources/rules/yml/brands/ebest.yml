@@ -1,0 +1,13 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: W58sx
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 320
+        brand_vendor: Ebest
+        brand_model: W58sx
+        design_weight: 137
+        display_size: '3.5'

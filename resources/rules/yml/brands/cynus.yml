@@ -1,0 +1,70 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: E1
+        -
+            strategy: string
+            value: 'Mobistel Cynus'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Cynus
+        brand_model: E1
+        brand_marketing_name: 'Mobistel Cynus'
+        brand_names: 'Mobistel Cynus'
+        design_weight: 110
+        display_size: '3.5'
+        display_type: 'HVGA LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: F4
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Cynus
+        brand_model: F4
+        design_weight: 155
+        display_size: '4.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: F5
+        -
+            strategy: string
+            value: 'Mobistel Cynus F5'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Cynus
+        brand_model: F5
+        brand_marketing_name: 'Mobistel Cynus F5'
+        brand_names: 'Mobistel Cynus F5'
+        design_weight: 165
+        display_size: '5'
+        display_type: 'LCD TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: T5
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Cynus
+        brand_model: T5
+        design_weight: 155
+        display_size: '5'
+        display_type: 'IPS LCD'

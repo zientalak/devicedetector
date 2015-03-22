@@ -1,0 +1,131 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: '3iD SkyMM'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 92
+        brand_vendor: Voxtel
+        brand_model: '3iD SkyMM'
+-
+    patterns:
+        -
+            strategy: string
+            value: BD40
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Voxtel
+        brand_model: BD40
+        design_weight: 70
+        display_size: '1'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: BD60
+    capabilities:
+        is_mobile: true
+        display_width: 120
+        display_height: 120
+        brand_vendor: Voxtel
+        brand_model: BD60
+        design_weight: 85
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: RX100
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Voxtel
+        brand_model: RX100
+        design_weight: 70
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: RX200
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Voxtel
+        brand_model: RX200
+        design_weight: 75
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: RX600
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Voxtel
+        brand_model: RX600
+        design_weight: 75
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: RX800
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Voxtel
+        brand_model: RX800
+        design_weight: 90
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: UP200
+    capabilities:
+        is_mobile: true
+        display_width: 160
+        display_height: 160
+        brand_vendor: Voxtel
+        brand_model: UP200
+        design_weight: 80
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: V310
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Voxtel
+        brand_model: V310
+        design_weight: 80
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: w210
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Voxtel
+        brand_model: w210
+        design_weight: 100
+        display_size: '1.9'
+        display_type: TFT

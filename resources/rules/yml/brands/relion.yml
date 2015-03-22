@@ -1,0 +1,20 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Realpad P700'
+        -
+            strategy: string
+            value: 'Relion RealPad P700 Bunaken'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 1280
+        brand_vendor: Relion
+        brand_model: 'Realpad P700'
+        brand_marketing_name: 'Relion RealPad P700 Bunaken'
+        brand_names: 'Relion RealPad P700 Bunaken'
+        design_weight: 560
+        display_size: '10.1'
+        display_type: LCD

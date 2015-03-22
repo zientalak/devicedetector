@@ -1,0 +1,30 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Tab 710'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Dicra
+        brand_model: 'Tab 710'
+        design_weight: 292
+        display_size: '7'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: Tab307
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Dicra
+        brand_model: Tab307
+        design_weight: 310
+        display_size: '7'
+        display_type: TFT

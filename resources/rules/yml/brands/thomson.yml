@@ -1,0 +1,33 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: MID1002
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Thomson
+        brand_model: MID1002
+        display_size: '10.1'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'TLink 350'
+        -
+            strategy: string
+            value: 'Thomson NOIR'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Thomson
+        brand_model: 'TLink 350'
+        brand_marketing_name: 'Thomson NOIR'
+        brand_names: 'Thomson NOIR'
+        design_weight: 105
+        display_size: '3.5'
+        display_type: 'HVGA TFT'

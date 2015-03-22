@@ -1,0 +1,28 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: TX18
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Irbis
+        brand_model: TX18
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: TX69
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Irbis
+        brand_model: TX69
+        display_size: '7'
+        display_type: TFT

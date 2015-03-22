@@ -1,0 +1,10 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Mercury Web Gateway'
+    capabilities:
+        display_width: 128
+        display_height: 92
+        brand_vendor: Tranxcode
+        brand_model: 'Mercury Web Gateway'

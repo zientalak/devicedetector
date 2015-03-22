@@ -1,0 +1,28 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Netphone 701'
+    capabilities:
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Smart
+        brand_model: 'Netphone 701'
+        design_weight: 120
+        display_size: '3.5'
+-
+    patterns:
+        -
+            strategy: string
+            value: T710
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Smart
+        brand_model: T710
+        design_weight: 105
+        display_size: '4'
+        display_type: HVGA

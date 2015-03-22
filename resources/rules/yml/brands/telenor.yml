@@ -1,0 +1,55 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'One Touch'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Telenor
+        brand_model: 'One Touch'
+        design_weight: 147
+        display_size: '3.5'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'One Touch S'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Telenor
+        brand_model: 'One Touch S'
+        design_weight: 124
+        display_size: '4.3'
+-
+    patterns:
+        -
+            strategy: string
+            value: Smart
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Telenor
+        brand_model: Smart
+        design_weight: 136
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Touch Plus'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Telenor
+        brand_model: 'Touch Plus'
+        design_weight: 118
+        display_size: '3.5'
+        display_type: TFT

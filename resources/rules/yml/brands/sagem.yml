@@ -1,0 +1,2105 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 3XXX
+    capabilities:
+        is_mobile: true
+        display_width: 96
+        display_height: 64
+        brand_vendor: Sagem
+        brand_model: 3XXX
+-
+    patterns:
+        -
+            strategy: string
+            value: '910'
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Sagem
+        brand_model: '910'
+-
+    patterns:
+        -
+            strategy: string
+            value: '912'
+    capabilities:
+        is_mobile: true
+        display_width: 40
+        display_height: 90
+        brand_vendor: Sagem
+        brand_model: '912'
+        design_weight: 117
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: '916'
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Sagem
+        brand_model: '916'
+        design_weight: 117
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: '919'
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Sagem
+        brand_model: '919'
+        design_weight: 95
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: '920'
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Sagem
+        brand_model: '920'
+        design_weight: 117
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: '922'
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Sagem
+        brand_model: '922'
+        design_weight: 121
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: '926'
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Sagem
+        brand_model: '926'
+        design_weight: 117
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: '929'
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Sagem
+        brand_model: '929'
+        design_weight: 95
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: '930'
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Sagem
+        brand_model: '930'
+        design_weight: 95
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: '932'
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Sagem
+        brand_model: '932'
+        design_weight: 117
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: '936'
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Sagem
+        brand_model: '936'
+        design_weight: 117
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: '939'
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Sagem
+        brand_model: '939'
+        design_weight: 117
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: '940'
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Sagem
+        brand_model: '940'
+        design_weight: 117
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: '942'
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Sagem
+        brand_model: '942'
+        design_weight: 117
+-
+    patterns:
+        -
+            strategy: string
+            value: '946'
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Sagem
+        brand_model: '946'
+        design_weight: 117
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: '949'
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Sagem
+        brand_model: '949'
+        design_weight: 95
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: '952'
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Sagem
+        brand_model: '952'
+        design_weight: 117
+-
+    patterns:
+        -
+            strategy: string
+            value: '956'
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Sagem
+        brand_model: '956'
+        design_weight: 117
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: '959'
+    capabilities:
+        is_mobile: true
+        display_width: 40
+        display_height: 90
+        brand_vendor: Sagem
+        brand_model: '959'
+        design_weight: 95
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: '3000'
+    capabilities:
+        is_mobile: true
+        display_width: 96
+        display_height: 64
+        brand_vendor: Sagem
+        brand_model: '3000'
+        design_weight: 112
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: '3016'
+    capabilities:
+        is_mobile: true
+        display_width: 96
+        display_height: 64
+        brand_vendor: Sagem
+        brand_model: '3016'
+-
+    patterns:
+        -
+            strategy: string
+            value: 9XX
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Sagem
+        brand_model: 9XX
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Bleu 453x'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Sagem
+        brand_model: 'Bleu 453x'
+        design_weight: 70
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: CO210
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Sagem
+        brand_model: CO210
+-
+    patterns:
+        -
+            strategy: string
+            value: 'DoCoMo myV-75'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Sagem
+        brand_model: 'DoCoMo myV-75'
+        design_weight: 106
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MC2007
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Sagem
+        brand_model: MC2007
+        design_weight: 95
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'MY 421Z'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Sagem
+        brand_model: 'MY 421Z'
+        design_weight: 95
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'MY 521X'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Sagem
+        brand_model: 'MY 521X'
+        design_weight: 90
+        display_size: '1.9'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'MY X55'
+    capabilities:
+        is_mobile: true
+        display_width: 120
+        display_height: 120
+        brand_vendor: Sagem
+        brand_model: 'MY X55'
+        design_weight: 97
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: MY202C
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Sagem
+        brand_model: MY202C
+        design_weight: 85
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: MY212X
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Sagem
+        brand_model: MY212X
+        design_weight: 69
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: MY214X
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Sagem
+        brand_model: MY214X
+        design_weight: 69
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: MY300C
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Sagem
+        brand_model: MY300C
+        design_weight: 79
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: MY400V
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Sagem
+        brand_model: MY400V
+        design_weight: 85
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: MY401C
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Sagem
+        brand_model: MY401C
+        design_weight: 82
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: MY401Z
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Sagem
+        brand_model: MY401Z
+        design_weight: 90
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MY405X
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Sagem
+        brand_model: MY405X
+        design_weight: 90
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MY411Cv
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Sagem
+        brand_model: MY411Cv
+        design_weight: 85
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MY411V
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Sagem
+        brand_model: MY411V
+        design_weight: 85
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: MY411X
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Sagem
+        brand_model: MY411X
+        design_weight: 85
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: MY419X
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Sagem
+        brand_model: MY419X
+        design_weight: 95
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MY501X
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Sagem
+        brand_model: MY501X
+        design_weight: 93
+        display_size: '1.9'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MY600V
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Sagem
+        brand_model: MY600V
+        design_weight: 100
+        display_size: '1.9'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MY600x
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Sagem
+        brand_model: MY600x
+        design_weight: 99
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MY800V
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 120
+        brand_vendor: Sagem
+        brand_model: MY800V
+        design_weight: 99
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MY800X
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Sagem
+        brand_model: MY800X
+        design_weight: 99
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MY850V
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Sagem
+        brand_model: MY850V
+        design_weight: 95
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MY901C
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Sagem
+        brand_model: MY901C
+        design_weight: 115
+        display_size: '1.9'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MYV-66
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Sagem
+        brand_model: MYV-66
+        design_weight: 97
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: MYV-85
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Sagem
+        brand_model: MYV-85
+        design_weight: 120
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MYZ-5
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Sagem
+        brand_model: MYZ-5
+        design_weight: 85
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MyV-65
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Sagem
+        brand_model: MyV-65
+        design_weight: 106
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MyV-75
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Sagem
+        brand_model: MyV-75
+        design_weight: 106
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MyX-2a
+    capabilities:
+        is_mobile: true
+        display_width: 101
+        display_height: 80
+        brand_vendor: Sagem
+        brand_model: MyX-2a
+        design_weight: 89
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: MyX-8
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Sagem
+        brand_model: MyX-8
+        design_weight: 121
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MyX5-2
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Sagem
+        brand_model: MyX5-2
+        design_weight: 97
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MyX6
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Sagem
+        brand_model: MyX6
+        design_weight: 106
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MyX8
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Sagem
+        brand_model: MyX8
+        design_weight: 125
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Myx-5
+    capabilities:
+        is_mobile: true
+        display_width: 101
+        display_height: 80
+        brand_vendor: Sagem
+        brand_model: Myx-5
+        design_weight: 92
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: P9521
+        -
+            strategy: string
+            value: 'Sagem Porsche Design'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Sagem
+        brand_model: P9521
+        brand_marketing_name: 'Sagem Porsche Design'
+        brand_names: 'Sagem Porsche Design'
+        design_weight: 139
+        display_size: '2.2'
+        display_type: AMOLED
+-
+    patterns:
+        -
+            strategy: string
+            value: P9522
+        -
+            strategy: string
+            value: 'Sagem P9522 Porsche'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 400
+        brand_vendor: Sagem
+        brand_model: P9522
+        brand_marketing_name: 'Sagem P9522 Porsche'
+        brand_names: 'Sagem P9522 Porsche'
+        design_weight: 115
+        display_size: '2.8'
+        display_type: AMOLED
+-
+    patterns:
+        -
+            strategy: string
+            value: 'PUMA Phone M1'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Sagem
+        brand_model: 'PUMA Phone M1'
+        design_weight: 115
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'PW 3020'
+    capabilities:
+        is_mobile: true
+        brand_vendor: Sagem
+        brand_model: 'PW 3020'
+        design_weight: 112
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: SG321i
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Sagem
+        brand_model: SG321i
+        design_weight: 105
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: SG322i
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Sagem
+        brand_model: SG322i
+        design_weight: 95
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: SG341i
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Sagem
+        brand_model: SG341i
+        design_weight: 97
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: SG342i
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Sagem
+        brand_model: SG342i
+        design_weight: 80
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: SG343i
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Sagem
+        brand_model: SG343i
+        design_weight: 85
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: SG344i
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Sagem
+        brand_model: SG344i
+        design_weight: 96
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: SG345i
+    capabilities:
+        is_mobile: true
+        display_width: 160
+        display_height: 128
+        brand_vendor: Sagem
+        brand_model: SG345i
+        design_weight: 85
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: SG346i
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Sagem
+        brand_model: SG346i
+        design_weight: 85
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: VF526
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Sagem
+        brand_model: VF526
+-
+    patterns:
+        -
+            strategy: string
+            value: VF533
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Sagem
+        brand_model: VF533
+        design_weight: 90
+        display_size: '2'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: VF540
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Sagem
+        brand_model: VF540
+        design_weight: 90
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Vodafone 527'
+    capabilities:
+        is_mobile: true
+        display_width: 120
+        display_height: 120
+        brand_vendor: Sagem
+        brand_model: 'Vodafone 527'
+        display_size: '1.7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'mw 3020'
+    capabilities:
+        is_mobile: true
+        display_width: 96
+        display_height: 64
+        brand_vendor: Sagem
+        brand_model: 'mw 3020'
+        design_weight: 112
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: 'mw 3022'
+    capabilities:
+        is_mobile: true
+        display_width: 96
+        display_height: 64
+        brand_vendor: Sagem
+        brand_model: 'mw 3022'
+        design_weight: 120
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: 'mw 3026'
+    capabilities:
+        is_mobile: true
+        display_width: 96
+        display_height: 64
+        brand_vendor: Sagem
+        brand_model: 'mw 3026'
+        design_weight: 112
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: 'mw 3040'
+    capabilities:
+        is_mobile: true
+        display_width: 96
+        display_height: 64
+        brand_vendor: Sagem
+        brand_model: 'mw 3040'
+        design_weight: 97
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: 'mw 3042'
+    capabilities:
+        is_mobile: true
+        display_width: 96
+        display_height: 64
+        brand_vendor: Sagem
+        brand_model: 'mw 3042'
+        design_weight: 97
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: 'mw 3046'
+    capabilities:
+        is_mobile: true
+        display_width: 96
+        display_height: 64
+        brand_vendor: Sagem
+        brand_model: 'mw 3046'
+        design_weight: 112
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: 'my 3020'
+    capabilities:
+        is_mobile: true
+        display_width: 96
+        display_height: 64
+        brand_vendor: Sagem
+        brand_model: 'my 3020'
+        design_weight: 112
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: 'my 3022'
+    capabilities:
+        is_mobile: true
+        display_width: 96
+        display_height: 64
+        brand_vendor: Sagem
+        brand_model: 'my 3022'
+        design_weight: 120
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: 'my 3026'
+    capabilities:
+        is_mobile: true
+        display_width: 96
+        display_height: 64
+        brand_vendor: Sagem
+        brand_model: 'my 3026'
+        design_weight: 112
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: 'my 3030'
+    capabilities:
+        is_mobile: true
+        display_width: 96
+        display_height: 64
+        brand_vendor: Sagem
+        brand_model: 'my 3030'
+        design_weight: 112
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: 'my 3032'
+    capabilities:
+        is_mobile: true
+        display_width: 96
+        display_height: 64
+        brand_vendor: Sagem
+        brand_model: 'my 3032'
+        design_weight: 105
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: 'my 3040'
+    capabilities:
+        is_mobile: true
+        display_width: 96
+        display_height: 64
+        brand_vendor: Sagem
+        brand_model: 'my 3040'
+        design_weight: 112
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: 'my 3042'
+    capabilities:
+        is_mobile: true
+        display_width: 96
+        display_height: 64
+        brand_vendor: Sagem
+        brand_model: 'my 3042'
+        design_weight: 97
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: 'my 3046'
+    capabilities:
+        is_mobile: true
+        display_width: 96
+        display_height: 64
+        brand_vendor: Sagem
+        brand_model: 'my 3046'
+        design_weight: 112
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: 'my 3052'
+    capabilities:
+        is_mobile: true
+        display_width: 96
+        display_height: 64
+        brand_vendor: Sagem
+        brand_model: 'my 3052'
+        design_weight: 100
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: my100x
+    capabilities:
+        is_mobile: true
+        display_width: 101
+        display_height: 64
+        brand_vendor: Sagem
+        brand_model: my100x
+        design_weight: 76
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: my200C
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Sagem
+        brand_model: my200C
+        design_weight: 85
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: my200x
+    capabilities:
+        is_mobile: true
+        display_width: 101
+        display_height: 80
+        brand_vendor: Sagem
+        brand_model: my200x
+        design_weight: 76
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: my201x
+    capabilities:
+        is_mobile: true
+        display_width: 101
+        display_height: 80
+        brand_vendor: Sagem
+        brand_model: my201x
+        design_weight: 76
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: my202x
+    capabilities:
+        is_mobile: true
+        display_width: 101
+        display_height: 80
+        brand_vendor: Sagem
+        brand_model: my202x
+        design_weight: 76
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: my210X
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Sagem
+        brand_model: my210X
+        design_weight: 69
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: my213x
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Sagem
+        brand_model: my213x
+        design_weight: 69
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: my220X
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Sagem
+        brand_model: my220X
+        design_weight: 65
+        display_size: '1.5'
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: my300X
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Sagem
+        brand_model: my300X
+        design_weight: 88
+        display_size: '1.7'
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: my301X
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Sagem
+        brand_model: my301X
+        design_weight: 88
+        display_size: '1.7'
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: my302X
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Sagem
+        brand_model: my302X
+        design_weight: 88
+        display_size: '1.7'
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: my3036
+    capabilities:
+        is_mobile: true
+        display_width: 96
+        display_height: 64
+        brand_vendor: Sagem
+        brand_model: my3036
+        design_weight: 112
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: my3062
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Sagem
+        brand_model: my3062
+        design_weight: 100
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: my312X
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Sagem
+        brand_model: my312X
+        design_weight: 87
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: my400X
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Sagem
+        brand_model: my400X
+        design_weight: 85
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: my401Ci
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Sagem
+        brand_model: my401Ci
+        design_weight: 82
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: my401X
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Sagem
+        brand_model: my401X
+        design_weight: 85
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: my411C
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Sagem
+        brand_model: my411C
+        design_weight: 87
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: my411Xi
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Sagem
+        brand_model: my411Xi
+        design_weight: 85
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: my500X
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Sagem
+        brand_model: my500X
+        design_weight: 90
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: my501C
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Sagem
+        brand_model: my501C
+        design_weight: 99
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: my511X
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Sagem
+        brand_model: my511X
+        design_weight: 81
+        display_size: '1.9'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: my511Xi
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Sagem
+        brand_model: my511Xi
+        design_weight: 90
+        display_size: '1.9'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: my700X
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Sagem
+        brand_model: my700X
+        design_weight: 95
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'my700X imode'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Sagem
+        brand_model: 'my700X imode'
+        design_weight: 95
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: my700Xi
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Sagem
+        brand_model: my700Xi
+        design_weight: 95
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: my721X
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Sagem
+        brand_model: my721X
+        design_weight: 90
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: my730C
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Sagem
+        brand_model: my730C
+        design_weight: 95
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: my750C
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Sagem
+        brand_model: my750C
+        design_weight: 125
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: my750X
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Sagem
+        brand_model: my750X
+        design_weight: 95
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: my810X
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 120
+        brand_vendor: Sagem
+        brand_model: my810X
+        design_weight: 105
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: my850C
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Sagem
+        brand_model: my850C
+        design_weight: 95
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: myC-2
+    capabilities:
+        is_mobile: true
+        display_width: 101
+        display_height: 80
+        brand_vendor: Sagem
+        brand_model: myC-2
+        design_weight: 90
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: myC-3
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Sagem
+        brand_model: myC-3
+        design_weight: 85
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: myC-3b
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Sagem
+        brand_model: myC-3b
+        design_weight: 85
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: myC-3m
+    capabilities:
+        is_mobile: true
+        display_width: 101
+        display_height: 80
+        brand_vendor: Sagem
+        brand_model: myC-3m
+        design_weight: 75
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: myC-4
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Sagem
+        brand_model: myC-4
+        design_weight: 92
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: myC2-2
+    capabilities:
+        is_mobile: true
+        display_width: 101
+        display_height: 80
+        brand_vendor: Sagem
+        brand_model: myC2-2
+        design_weight: 80
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: myC2-3
+    capabilities:
+        is_mobile: true
+        display_width: 101
+        display_height: 80
+        brand_vendor: Sagem
+        brand_model: myC2-3
+        design_weight: 75
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: myC3-2
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Sagem
+        brand_model: myC3-2
+        design_weight: 75
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: myC4-2
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Sagem
+        brand_model: myC4-2
+        design_weight: 75
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: myC5-2
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Sagem
+        brand_model: myC5-2
+        design_weight: 80
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: myC5-2T
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Sagem
+        brand_model: myC5-2T
+        design_weight: 80
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: myC5-3
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Sagem
+        brand_model: myC5-3
+        design_weight: 85
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: myG-5
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Sagem
+        brand_model: myG-5
+        design_weight: 92
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: myMobileTV
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Sagem
+        brand_model: myMobileTV
+        design_weight: 125
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: myS-7
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Sagem
+        brand_model: myS-7
+        design_weight: 120
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: myT-22
+    capabilities:
+        is_mobile: true
+        display_width: 101
+        display_height: 80
+        brand_vendor: Sagem
+        brand_model: myT-22
+        design_weight: 93
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: myV-55
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Sagem
+        brand_model: myV-55
+        design_weight: 97
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: myV-56
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Sagem
+        brand_model: myV-56
+        design_weight: 97
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: myV-76
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Sagem
+        brand_model: myV-76
+        design_weight: 104
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: myW-7
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Sagem
+        brand_model: myW-7
+        design_weight: 119
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: myX-1
+    capabilities:
+        is_mobile: true
+        display_width: 96
+        display_height: 64
+        brand_vendor: Sagem
+        brand_model: myX-1
+        design_weight: 93
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: myX-2
+    capabilities:
+        is_mobile: true
+        display_width: 101
+        display_height: 80
+        brand_vendor: Sagem
+        brand_model: myX-2
+        design_weight: 89
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: myX-2G
+    capabilities:
+        is_mobile: true
+        display_width: 101
+        display_height: 80
+        brand_vendor: Sagem
+        brand_model: myX-2G
+        design_weight: 89
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: myX-3
+    capabilities:
+        is_mobile: true
+        display_width: 101
+        display_height: 80
+        brand_vendor: Sagem
+        brand_model: myX-3
+        design_weight: 92
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: myX-4
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Sagem
+        brand_model: myX-4
+        design_weight: 95
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: myX-4T
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Sagem
+        brand_model: myX-4T
+        design_weight: 95
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: myX-5-2T
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Sagem
+        brand_model: myX-5-2T
+        design_weight: 97
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: myX-5d
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 120
+        brand_vendor: Sagem
+        brand_model: myX-5d
+        design_weight: 92
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: myX-5e
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 120
+        brand_vendor: Sagem
+        brand_model: myX-5e
+        design_weight: 92
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: myX-5m
+    capabilities:
+        is_mobile: true
+        display_width: 101
+        display_height: 80
+        brand_vendor: Sagem
+        brand_model: myX-5m
+        design_weight: 92
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: myX-6-2
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Sagem
+        brand_model: myX-6-2
+        design_weight: 104
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: myX-7
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Sagem
+        brand_model: myX-7
+        design_weight: 106
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: myX2-2
+    capabilities:
+        is_mobile: true
+        display_width: 101
+        display_height: 80
+        brand_vendor: Sagem
+        brand_model: myX2-2
+        design_weight: 898
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: myX3-2
+    capabilities:
+        is_mobile: true
+        display_width: 101
+        display_height: 80
+        brand_vendor: Sagem
+        brand_model: myX3-2
+        design_weight: 89
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: myX5-2m
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Sagem
+        brand_model: myX5-2m
+        design_weight: 97
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: myX5-2v
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Sagem
+        brand_model: myX5-2v
+        design_weight: 97
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: myZ-55
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 120
+        brand_vendor: Sagem
+        brand_model: myZ-55
+        design_weight: 85
+        display_type: CSTN

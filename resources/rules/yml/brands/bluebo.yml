@@ -1,0 +1,63 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: B3000
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: BlueBo
+        brand_model: B3000
+        display_size: '3.5'
+        display_type: HVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: B9002
+        -
+            strategy: string
+            value: 'Bluebo Note 3'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: BlueBo
+        brand_model: B9002
+        brand_marketing_name: 'Bluebo Note 3'
+        brand_names: 'Bluebo Note 3'
+        design_weight: 155
+        display_size: '5.7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: B9502
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: BlueBo
+        brand_model: B9502
+        design_weight: 120
+        display_size: '4.8'
+        display_type: 'qHD IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: H911
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 240
+        brand_vendor: BlueBo
+        brand_model: H911
+        design_weight: 135
+        display_size: '120'
+        display_type: TFT

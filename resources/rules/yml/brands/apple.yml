@@ -1,0 +1,345 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'QuickTime Agent'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Apple
+        brand_model: 'QuickTime Agent'
+-
+    patterns:
+        -
+            strategy: string
+            value: iPad
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Apple
+        brand_model: iPad
+        design_weight: 680
+        display_size: '9.7'
+        display_type: 'LED-backlit IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'iPad 2'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Apple
+        brand_model: 'iPad 2'
+        design_weight: 613
+        display_size: '9.7'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'iPad 3'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 2048
+        display_height: 1536
+        brand_vendor: Apple
+        brand_model: 'iPad 3'
+        design_weight: 652
+        display_size: '9.7'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'iPad 4'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 2048
+        display_height: 1536
+        brand_vendor: Apple
+        brand_model: 'iPad 4'
+        design_weight: 662
+        display_size: '9.7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'iPad Air'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1536
+        display_height: 2048
+        brand_vendor: Apple
+        brand_model: 'iPad Air'
+        design_weight: 469
+        display_size: '9.7'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'iPad Air 2'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1536
+        display_height: 2048
+        brand_vendor: Apple
+        brand_model: 'iPad Air 2'
+        design_weight: 444
+        display_size: '9.7'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'iPad Mini'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Apple
+        brand_model: 'iPad Mini'
+        design_weight: 308
+        display_size: '7.9'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'iPad Mini 2'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1536
+        display_height: 2048
+        brand_vendor: Apple
+        brand_model: 'iPad Mini 2'
+        design_weight: 331
+        display_size: '7.9'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'iPad Mini 3'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1536
+        display_height: 2048
+        brand_vendor: Apple
+        brand_model: 'iPad Mini 3'
+        design_weight: 331
+        display_size: '7.9'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: iPhone
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Apple
+        brand_model: iPhone
+        design_weight: 135
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'iPhone 3G'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Apple
+        brand_model: 'iPhone 3G'
+        design_weight: 133
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'iPhone 3GS'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Apple
+        brand_model: 'iPhone 3GS'
+        design_weight: 135
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'iPhone 4'
+    capabilities:
+        is_mobile: true
+        display_width: 640
+        display_height: 960
+        brand_vendor: Apple
+        brand_model: 'iPhone 4'
+        design_weight: 137
+        display_size: '3.5'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'iPhone 4S'
+    capabilities:
+        is_mobile: true
+        display_width: 640
+        display_height: 960
+        brand_vendor: Apple
+        brand_model: 'iPhone 4S'
+        design_weight: 140
+        display_size: '3.5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'iPhone 5'
+    capabilities:
+        is_mobile: true
+        display_width: 640
+        display_height: 1136
+        brand_vendor: Apple
+        brand_model: 'iPhone 5'
+        design_weight: 112
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'iPhone 5C'
+    capabilities:
+        is_mobile: true
+        display_width: 640
+        display_height: 1136
+        brand_vendor: Apple
+        brand_model: 'iPhone 5C'
+        design_weight: 132
+        display_size: '4'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'iPhone 5S'
+    capabilities:
+        is_mobile: true
+        display_width: 640
+        display_height: 1136
+        brand_vendor: Apple
+        brand_model: 'iPhone 5S'
+        design_weight: 112
+        display_size: '4'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'iPhone 6'
+    capabilities:
+        is_mobile: true
+        display_width: 750
+        display_height: 1334
+        brand_vendor: Apple
+        brand_model: 'iPhone 6'
+        design_weight: 129
+        display_size: '4.7'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'iPhone 6 Plus'
+    capabilities:
+        is_mobile: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Apple
+        brand_model: 'iPhone 6 Plus'
+        design_weight: 172
+        display_size: '5.5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'iPod Touch'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Apple
+        brand_model: 'iPod Touch'
+        design_weight: 119
+        display_size: '3.5'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'iPod touch 2nd generation'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Apple
+        brand_model: 'iPod touch 2nd generation'
+        design_weight: 115
+        display_size: '3.5'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'iPod touch 3rd generation'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Apple
+        brand_model: 'iPod touch 3rd generation'
+        design_weight: 115
+        display_size: '3.5'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'iPod touch 4th generation'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 640
+        display_height: 960
+        brand_vendor: Apple
+        brand_model: 'iPod touch 4th generation'
+        design_weight: 101
+        display_size: '3.5'
+        display_type: LCD

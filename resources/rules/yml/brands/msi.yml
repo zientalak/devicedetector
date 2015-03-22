@@ -1,0 +1,105 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Enjoy 10 Plus'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: msi
+        brand_model: 'Enjoy 10 Plus'
+        design_weight: 649
+        display_size: '10'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Enjoy 7 Plus'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: msi
+        brand_model: 'Enjoy 7 Plus'
+        design_weight: 375
+        display_size: '7'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Enjoy 71'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: MSI
+        brand_model: 'Enjoy 71'
+        design_weight: 299
+        display_size: '7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Primo 76'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 1280
+        brand_vendor: MSI
+        brand_model: 'Primo 76'
+        design_weight: 360
+        display_size: '7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Primo 77'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: MSI
+        brand_model: 'Primo 77'
+        design_weight: 300
+        display_size: '7'
+        display_type: 'IPS TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Primo 91'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: MSI
+        brand_model: 'Primo 91'
+        design_weight: 650
+        display_size: '9.7'
+        display_type: LED
+-
+    patterns:
+        -
+            strategy: string
+            value: Primo81
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 768
+        display_height: 1024
+        brand_vendor: MSI
+        brand_model: Primo81
+        design_weight: 330
+        display_size: '7.85'
+        display_type: 'IPS LCD'

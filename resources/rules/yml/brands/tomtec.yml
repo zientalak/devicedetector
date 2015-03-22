@@ -1,0 +1,40 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: ATP7717
+        -
+            strategy: string
+            value: 'Tomtec Excellent 7-II ATP7717'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Tomtec
+        brand_model: ATP7717
+        brand_marketing_name: 'Tomtec Excellent 7-II ATP7717'
+        brand_names: 'Tomtec Excellent 7-II ATP7717'
+        design_weight: 327
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: ATP7683
+        -
+            strategy: string
+            value: 'Tomtec Ultimate10'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: TomTec
+        brand_model: ATP7683
+        brand_marketing_name: 'Tomtec Ultimate10'
+        brand_names: 'Tomtec Ultimate10'
+        design_weight: 650
+        display_size: '9.7'
+        display_type: IPS

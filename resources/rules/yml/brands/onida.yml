@@ -1,0 +1,119 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: G515
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 640
+        brand_vendor: Onida
+        brand_model: G515
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: I010
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Onida
+        brand_model: I010
+        design_weight: 112
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: I099
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Onida
+        brand_model: I099
+        design_weight: 120
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: I101
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Onida
+        brand_model: I101
+        design_weight: 150
+        display_size: '4.3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: I555
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Onida
+        brand_model: I555
+        design_weight: 124
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: I666
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Onida
+        brand_model: I666
+        design_weight: 130
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: I777
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Onida
+        brand_model: I777
+        design_weight: 160
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: i011
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Onida
+        brand_model: i011
+        design_weight: 120
+        display_size: '3.5'
+        display_type: TFT

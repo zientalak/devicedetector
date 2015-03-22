@@ -1,0 +1,140 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Android 3100'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Maxwest
+        brand_model: 'Android 3100'
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Orbit 4600'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Maxwest
+        brand_model: 'Orbit 4600'
+        design_weight: 170
+        display_size: '4.7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Orbit 5.1 DC'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Maxwest
+        brand_model: 'Orbit 5.1 DC'
+        display_size: '5.3'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Orbit 5400'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Maxwest
+        brand_model: 'Orbit 5400'
+        design_weight: 170
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Orbit 5700T'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Maxwest
+        brand_model: 'Orbit 5700T'
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Orbit 6200'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Maxwest
+        brand_model: 'Orbit 6200'
+        design_weight: 210
+        display_size: '6'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: X50
+        -
+            strategy: string
+            value: 'Maxwest Orbit X50'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Maxwest
+        brand_model: X50
+        brand_marketing_name: 'Maxwest Orbit X50'
+        brand_names: 'Maxwest Orbit X50'
+        design_weight: 127
+        display_size: '5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Orbit Z50'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Maxwest
+        brand_model: 'Orbit Z50'
+        design_weight: 170
+        display_size: '5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: TAB7250
+        -
+            strategy: string
+            value: 'Maxwest Tab 7250 DC'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Maxwest
+        brand_model: TAB7250
+        brand_marketing_name: 'Maxwest Tab 7250 DC'
+        brand_names: 'Maxwest Tab 7250 DC'
+        display_size: '7'
+        display_type: LCD

@@ -1,0 +1,14 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: U703D-3G
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: ACT
+        brand_model: U703D-3G
+        display_size: '7'
+        display_type: TFT

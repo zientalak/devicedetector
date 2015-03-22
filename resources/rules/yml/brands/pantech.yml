@@ -1,0 +1,2336 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: '1200'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Pantech
+        brand_model: '1200'
+        design_weight: 91
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: 1310V
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Pantech
+        brand_model: 1310V
+        design_weight: 75
+        display_size: '1.5'
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: '1400'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Pantech
+        brand_model: '1400'
+        design_weight: 75
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: '1610'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Pantech
+        brand_model: '1610'
+        design_weight: 80
+        display_type: STN
+-
+    patterns:
+        -
+            strategy: string
+            value: '1810'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Pantech
+        brand_model: '1810'
+        design_weight: 88
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: '3700'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Pantech
+        brand_model: '3700'
+        design_weight: 80
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: ADR8995
+        -
+            strategy: string
+            value: 'Pantech Breakout, Pantech Apache'
+        -
+            strategy: string
+            value: 'Pantech Breakout'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Pantech
+        brand_model: ADR8995
+        brand_marketing_name: 'Pantech Breakout'
+        brand_names: 'Pantech Breakout, Pantech Apache'
+        design_weight: 138
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: ADR910L
+        -
+            strategy: string
+            value: 'Pantech Marauder, Pantech Star Q'
+        -
+            strategy: string
+            value: 'Pantech Marauder'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Pantech
+        brand_model: ADR910L
+        brand_marketing_name: 'Pantech Marauder'
+        brand_names: 'Pantech Marauder, Pantech Star Q'
+        design_weight: 173
+        display_size: '3.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: ADR930L
+        -
+            strategy: string
+            value: 'Pantech Perception'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Pantech
+        brand_model: ADR930L
+        brand_marketing_name: 'Pantech Perception'
+        brand_names: 'Pantech Perception'
+        design_weight: 137
+        display_size: '4.8'
+        display_type: 'Super AMOLED'
+-
+    patterns:
+        -
+            strategy: string
+            value: P8010
+        -
+            strategy: string
+            value: 'Pantech Adlet, Pantech Flex'
+        -
+            strategy: string
+            value: 'Pantech Adlet'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 960
+        display_height: 540
+        brand_vendor: Pantech
+        brand_model: P8010
+        brand_marketing_name: 'Pantech Adlet'
+        brand_names: 'Pantech Adlet, Pantech Flex'
+-
+    patterns:
+        -
+            strategy: string
+            value: C520
+        -
+            strategy: string
+            value: 'Pantech Breeze'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Pantech
+        brand_model: C520
+        brand_marketing_name: 'Pantech Breeze'
+        brand_names: 'Pantech Breeze'
+        design_weight: 96
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P2000
+        -
+            strategy: string
+            value: 'Pantech Breeze II'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Pantech
+        brand_model: P2000
+        brand_marketing_name: 'Pantech Breeze II'
+        brand_names: 'Pantech Breeze II'
+        design_weight: 99
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P2030
+        -
+            strategy: string
+            value: 'Pantech Breeze III'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Pantech
+        brand_model: P2030
+        brand_marketing_name: 'Pantech Breeze III'
+        brand_names: 'Pantech Breeze III'
+        design_weight: 102
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P9070
+        -
+            strategy: string
+            value: 'Pantech Burst'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Pantech
+        brand_model: P9070
+        brand_marketing_name: 'Pantech Burst'
+        brand_names: 'Pantech Burst'
+        design_weight: 122
+        display_size: '4'
+        display_type: 'Super AMOLED'
+-
+    patterns:
+        -
+            strategy: string
+            value: C180
+    capabilities:
+        is_mobile: true
+        brand_vendor: Pantech
+        brand_model: C180
+        design_weight: 67
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: PG-C300
+        -
+            strategy: string
+            value: 'Pantech C3'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Pantech
+        brand_model: PG-C300
+        brand_marketing_name: 'Pantech C3'
+        brand_names: 'Pantech C3'
+        design_weight: 70
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: C600
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Pantech
+        brand_model: C600
+        design_weight: 75
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: C630
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Pantech
+        brand_model: C630
+        design_weight: 132
+        display_size: '1.76'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: C740
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Pantech
+        brand_model: C740
+        design_weight: 132
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: C790
+        -
+            strategy: string
+            value: 'Pantech Reveal'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 240
+        brand_vendor: Pantech
+        brand_model: C790
+        brand_marketing_name: 'Pantech Reveal'
+        brand_names: 'Pantech Reveal'
+        design_weight: 112
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: C810
+        -
+            strategy: string
+            value: 'Pantech Duo'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Pantech
+        brand_model: C810
+        brand_marketing_name: 'Pantech Duo'
+        brand_names: 'Pantech Duo'
+        design_weight: 110
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: CDM-8635
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Pantech
+        brand_model: CDM-8635
+        design_weight: 99
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: CDM-8932
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Pantech
+        brand_model: CDM-8932
+        design_weight: 100
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: CDM-8960
+        -
+            strategy: string
+            value: 'PCD CDM-8960'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Pantech
+        brand_model: CDM-8960
+        brand_marketing_name: 'PCD CDM-8960'
+        brand_names: 'PCD CDM-8960'
+        design_weight: 91
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: CDM-8992
+        -
+            strategy: string
+            value: 'Pantech Hotshot'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 400
+        brand_vendor: Pantech
+        brand_model: CDM-8992
+        brand_marketing_name: 'Pantech Hotshot'
+        brand_names: 'Pantech Hotshot'
+        design_weight: 91
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: CDM-8999
+        -
+            strategy: string
+            value: 'Pantech Crux'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 400
+        brand_vendor: Pantech
+        brand_model: CDM-8999
+        brand_marketing_name: 'Pantech Crux'
+        brand_names: 'Pantech Crux'
+        design_weight: 122
+        display_size: '3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: TXT8035PP
+        -
+            strategy: string
+            value: 'Pantech Caper'
+    capabilities:
+        is_mobile: true
+        display_width: 220
+        display_height: 176
+        brand_vendor: Pantech
+        brand_model: TXT8035PP
+        brand_marketing_name: 'Pantech Caper'
+        brand_names: 'Pantech Caper'
+        design_weight: 99
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P8000
+        -
+            strategy: string
+            value: 'Pantech Crossover'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Pantech
+        brand_model: P8000
+        brand_marketing_name: 'Pantech Crossover'
+        brand_names: 'Pantech Crossover'
+        design_weight: 146
+        display_size: '3.1'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P9090
+        -
+            strategy: string
+            value: 'Pantech Discover, Pantech Magnus'
+        -
+            strategy: string
+            value: 'Pantech Discover'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Pantech
+        brand_model: P9090
+        brand_marketing_name: 'Pantech Discover'
+        brand_names: 'Pantech Discover, Pantech Magnus'
+        design_weight: 135
+        display_size: '4.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P2020
+        -
+            strategy: string
+            value: 'Pantech Ease'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 400
+        brand_vendor: Pantech
+        brand_model: P2020
+        brand_marketing_name: 'Pantech Ease'
+        brand_names: 'Pantech Ease'
+        design_weight: 99
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P4100
+        -
+            strategy: string
+            value: 'Pantech Element'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Pantech
+        brand_model: P4100
+        brand_marketing_name: 'Pantech Element'
+        brand_names: 'Pantech Element'
+        design_weight: 470
+        display_size: '8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: U4000
+        -
+            strategy: string
+            value: 'Pantech Europa'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Pantech
+        brand_model: U4000
+        brand_marketing_name: 'Pantech Europa'
+        brand_names: 'Pantech Europa'
+        design_weight: 92
+        display_size: '1.9'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: G200
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Pantech
+        brand_model: G200
+        design_weight: 80
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: G300
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Pantech
+        brand_model: G300
+        design_weight: 75
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: GB310
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Pantech
+        brand_model: GB310
+        design_weight: 72
+        display_size: '1.5'
+        display_type: STN
+-
+    patterns:
+        -
+            strategy: string
+            value: IM-A600S
+        -
+            strategy: string
+            value: 'Pantech Sirius'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Pantech
+        brand_model: IM-A600S
+        brand_marketing_name: 'Pantech Sirius'
+        brand_names: 'Pantech Sirius'
+        design_weight: 109
+        display_size: '3.7'
+-
+    patterns:
+        -
+            strategy: string
+            value: IM-A630K
+        -
+            strategy: string
+            value: 'Pantech Sky Izar'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Pantech
+        brand_model: IM-A630K
+        brand_marketing_name: 'Pantech Sky Izar'
+        brand_names: 'Pantech Sky Izar'
+        design_weight: 106
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: IM-A690L
+        -
+            strategy: string
+            value: 'Pantech Mirach, Pantech IS11PT'
+        -
+            strategy: string
+            value: 'Pantech Mirach'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Pantech
+        brand_model: IM-A690L
+        brand_marketing_name: 'Pantech Mirach'
+        brand_names: 'Pantech Mirach, Pantech IS11PT'
+        design_weight: 116
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: IM-A690S
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Pantech
+        brand_model: IM-A690S
+        display_size: '3.5'
+        display_type: OLED
+-
+    patterns:
+        -
+            strategy: string
+            value: IM-A720L
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Pantech
+        brand_model: IM-A720L
+        design_weight: 120
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: IM-A725L
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Pantech
+        brand_model: IM-A725L
+        design_weight: 119
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: IM-A730S
+        -
+            strategy: string
+            value: 'Pantech Sky Vega S'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Pantech
+        brand_model: IM-A730S
+        brand_marketing_name: 'Pantech Sky Vega S'
+        brand_names: 'Pantech Sky Vega S'
+        design_weight: 119
+        display_size: '4'
+        display_type: WVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: IM-A740S
+        -
+            strategy: string
+            value: 'Pantech Sky Mirach A IM-A740S'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Pantech
+        brand_model: IM-A740S
+        brand_marketing_name: 'Pantech Sky Mirach A IM-A740S'
+        brand_names: 'Pantech Sky Mirach A IM-A740S'
+        design_weight: 99
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: IM-A750K
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Pantech
+        brand_model: IM-A750K
+        design_weight: 99
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: IM-A760S
+        -
+            strategy: string
+            value: 'Pantech Sky Vega Racer'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 800
+        display_height: 1280
+        brand_vendor: Pantech
+        brand_model: IM-A760S
+        brand_marketing_name: 'Pantech Sky Vega Racer'
+        brand_names: 'Pantech Sky Vega Racer'
+        design_weight: 134
+        display_size: '4.8'
+        display_type: 'Super IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: IM-A770K
+        -
+            strategy: string
+            value: 'Pantech Sky Vega Racer'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 800
+        display_height: 1280
+        brand_vendor: Pantech
+        brand_model: IM-A770K
+        brand_marketing_name: 'Pantech Sky Vega Racer'
+        brand_names: 'Pantech Sky Vega Racer'
+        design_weight: 134
+        display_size: '4.8'
+        display_type: 'Super IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: IM-A775C
+        -
+            strategy: string
+            value: 'Pantech Sky Vega Racer'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 800
+        display_height: 1280
+        brand_vendor: Pantech
+        brand_model: IM-A775C
+        brand_marketing_name: 'Pantech Sky Vega Racer'
+        brand_names: 'Pantech Sky Vega Racer'
+        design_weight: 134
+        display_size: '4.8'
+        display_type: 'Super IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: IM-A780L
+        -
+            strategy: string
+            value: 'Pantech Sky Vega Racer'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 800
+        display_height: 1280
+        brand_vendor: Pantech
+        brand_model: IM-A780L
+        brand_marketing_name: 'Pantech Sky Vega Racer'
+        brand_names: 'Pantech Sky Vega Racer'
+        design_weight: 134
+        display_size: '4.8'
+        display_type: 'Super IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: IM-A800S
+        -
+            strategy: string
+            value: 'Pantech Vega LTE Sky'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 800
+        display_height: 1280
+        brand_vendor: Pantech
+        brand_model: IM-A800S
+        brand_marketing_name: 'Pantech Vega LTE Sky'
+        brand_names: 'Pantech Vega LTE Sky'
+        design_weight: 135
+        display_size: '4.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: IM-A810S
+        -
+            strategy: string
+            value: 'Pantech Sky Vega LTE M'
+    capabilities:
+        is_mobile: true
+        display_width: 800
+        display_height: 1280
+        brand_vendor: Pantech
+        brand_model: IM-A810S
+        brand_marketing_name: 'Pantech Sky Vega LTE M'
+        brand_names: 'Pantech Sky Vega LTE M'
+        design_weight: 141
+        display_size: '4.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: IM-A810k
+        -
+            strategy: string
+            value: 'Pantech Sky Vega LTE M'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Pantech
+        brand_model: IM-A810k
+        brand_marketing_name: 'Pantech Sky Vega LTE M'
+        brand_names: 'Pantech Sky Vega LTE M'
+        design_weight: 127
+        display_size: '4.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: IM-A820L
+        -
+            strategy: string
+            value: 'Pantech Vega LTE EX'
+    capabilities:
+        is_mobile: true
+        display_width: 800
+        display_height: 1280
+        brand_vendor: Pantech
+        brand_model: IM-A820L
+        brand_marketing_name: 'Pantech Vega LTE EX'
+        brand_names: 'Pantech Vega LTE EX'
+        design_weight: 136
+        display_size: '4.5'
+        display_type: 'Super IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: IM-A830K
+        -
+            strategy: string
+            value: 'Pantech Vega Racer 2 LTE'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Pantech
+        brand_model: IM-A830K
+        brand_marketing_name: 'Pantech Vega Racer 2 LTE'
+        brand_names: 'Pantech Vega Racer 2 LTE'
+        design_weight: 133
+        display_size: '4.8'
+-
+    patterns:
+        -
+            strategy: string
+            value: IM-A830L
+        -
+            strategy: string
+            value: 'Pantech Vega Racer 2 LTE'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Pantech
+        brand_model: IM-A830L
+        brand_marketing_name: 'Pantech Vega Racer 2 LTE'
+        brand_names: 'Pantech Vega Racer 2 LTE'
+        design_weight: 133
+        display_size: '4.8'
+-
+    patterns:
+        -
+            strategy: string
+            value: IM-A830S
+        -
+            strategy: string
+            value: 'Pantech Vega Racer 2 LTE'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Pantech
+        brand_model: IM-A830S
+        brand_marketing_name: 'Pantech Vega Racer 2 LTE'
+        brand_names: 'Pantech Vega Racer 2 LTE'
+        display_size: '4.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: IM-A840S
+        -
+            strategy: string
+            value: 'Pantech Vega S5'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Pantech
+        brand_model: IM-A840S
+        brand_marketing_name: 'Pantech Vega S5'
+        brand_names: 'Pantech Vega S5'
+        design_weight: 139
+        display_size: '5'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: IM-A850K
+        -
+            strategy: string
+            value: 'Pantech Vega R3'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Pantech
+        brand_model: IM-A850K
+        brand_marketing_name: 'Pantech Vega R3'
+        brand_names: 'Pantech Vega R3'
+        design_weight: 169
+        display_size: '5.3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: IM-A850L
+        -
+            strategy: string
+            value: 'Pantech Vega R3'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Pantech
+        brand_model: IM-A850L
+        brand_marketing_name: 'Pantech Vega R3'
+        brand_names: 'Pantech Vega R3'
+        design_weight: 168
+        display_size: '5.3'
+        display_type: 'IPS Pro LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: IM-A850S
+        -
+            strategy: string
+            value: 'Pantech Vega R3'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Pantech
+        brand_model: IM-A850S
+        brand_marketing_name: 'Pantech Vega R3'
+        brand_names: 'Pantech Vega R3'
+        design_weight: 168
+        display_size: '5.3'
+        display_type: 'IPS Pro LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: IM-A860K
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Pantech
+        brand_model: IM-A860K
+        design_weight: 210
+        display_size: '5.9'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: IM-A860L
+        -
+            strategy: string
+            value: 'Pantech Vega N6'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Pantech
+        brand_model: IM-A860L
+        brand_marketing_name: 'Pantech Vega N6'
+        brand_names: 'Pantech Vega N6'
+        design_weight: 208
+        display_size: '5.9'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: IM-A860s
+        -
+            strategy: string
+            value: 'Pantech Vega N6'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Pantech
+        brand_model: IM-A860s
+        brand_marketing_name: 'Pantech Vega N6'
+        brand_names: 'Pantech Vega N6'
+        design_weight: 210
+        display_size: '5.9'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: IM-A870
+        -
+            strategy: string
+            value: 'Pantech Vega Iron'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Pantech
+        brand_model: IM-A870
+        brand_marketing_name: 'Pantech Vega Iron'
+        brand_names: 'Pantech Vega Iron'
+        design_weight: 154
+        display_size: '5'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: IM-A870K
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Pantech
+        brand_model: IM-A870K
+        design_weight: 154
+        display_size: '5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: IM-A870L
+        -
+            strategy: string
+            value: 'Pantech Vega Iron'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Pantech
+        brand_model: IM-A870L
+        brand_marketing_name: 'Pantech Vega Iron'
+        brand_names: 'Pantech Vega Iron'
+        design_weight: 153
+        display_size: '5'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: IM-A870S
+        -
+            strategy: string
+            value: 'Pantech Vega Iron'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Pantech
+        brand_model: IM-A870S
+        brand_marketing_name: 'Pantech Vega Iron'
+        brand_names: 'Pantech Vega Iron'
+        design_weight: 153
+        display_size: '5'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: IM-A880S
+        -
+            strategy: string
+            value: 'Pantech Vega LTE A'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Pantech
+        brand_model: IM-A880S
+        brand_marketing_name: 'Pantech Vega LTE A'
+        brand_names: 'Pantech Vega LTE A'
+        design_weight: 181
+        display_size: '5.6'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: IM-A900K
+        -
+            strategy: string
+            value: 'Pantech Vega Secret Up'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Pantech
+        brand_model: IM-A900K
+        brand_marketing_name: 'Pantech Vega Secret Up'
+        brand_names: 'Pantech Vega Secret Up'
+        design_weight: 174
+        display_size: '5.6'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: IM-A900L
+        -
+            strategy: string
+            value: 'Pantech Vega Secret Up IM-A900L'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Pantech
+        brand_model: IM-A900L
+        brand_marketing_name: 'Pantech Vega Secret Up IM-A900L'
+        brand_names: 'Pantech Vega Secret Up IM-A900L'
+        design_weight: 174
+        display_size: '5.6'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: IM-A900S
+        -
+            strategy: string
+            value: 'Pantech Vega Secret Up'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Pantech
+        brand_model: IM-A900S
+        brand_marketing_name: 'Pantech Vega Secret Up'
+        brand_names: 'Pantech Vega Secret Up'
+        design_weight: 174
+        display_size: '5.6'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: IM-T100k
+        -
+            strategy: string
+            value: 'Pantech Sky Vega 5'
+    capabilities:
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Pantech
+        brand_model: IM-T100k
+        brand_marketing_name: 'Pantech Sky Vega 5'
+        brand_names: 'Pantech Sky Vega 5'
+        design_weight: 187
+        display_size: '5'
+-
+    patterns:
+        -
+            strategy: string
+            value: P7000
+        -
+            strategy: string
+            value: 'Pantech Impact'
+    capabilities:
+        is_mobile: true
+        display_width: 400
+        display_height: 240
+        brand_vendor: Pantech
+        brand_model: P7000
+        brand_marketing_name: 'Pantech Impact'
+        brand_names: 'Pantech Impact'
+        design_weight: 125
+        display_size: '2.6'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: TXT8040
+        -
+            strategy: string
+            value: 'Pantech Jest'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 320
+        brand_vendor: Pantech
+        brand_model: TXT8040
+        brand_marketing_name: 'Pantech Jest'
+        brand_names: 'Pantech Jest'
+        design_weight: 116
+        display_size: '2.6'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: TXT8045
+        -
+            strategy: string
+            value: 'Pantech Jest 2'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 240
+        brand_vendor: Pantech
+        brand_model: TXT8045
+        brand_marketing_name: 'Pantech Jest 2'
+        brand_names: 'Pantech Jest 2'
+        design_weight: 116
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P9050
+        -
+            strategy: string
+            value: 'Pantech Laser'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Pantech
+        brand_model: P9050
+        brand_marketing_name: 'Pantech Laser'
+        brand_names: 'Pantech Laser'
+        design_weight: 155
+        display_size: '3.1'
+        display_type: AMOLED
+-
+    patterns:
+        -
+            strategy: string
+            value: P7040
+        -
+            strategy: string
+            value: 'Pantech Link'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 240
+        brand_vendor: Pantech
+        brand_model: P7040
+        brand_marketing_name: 'Pantech Link'
+        brand_names: 'Pantech Link'
+        design_weight: 91
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P5000
+        -
+            strategy: string
+            value: 'Pantech Link II'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 240
+        brand_vendor: Pantech
+        brand_model: P5000
+        brand_marketing_name: 'Pantech Link II'
+        brand_names: 'Pantech Link II'
+        design_weight: 94
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P9060
+        -
+            strategy: string
+            value: 'Pantech Nuli, Pantech Pocket'
+        -
+            strategy: string
+            value: 'Pantech Nuli'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Pantech
+        brand_model: P9060
+        brand_marketing_name: 'Pantech Nuli'
+        brand_names: 'Pantech Nuli, Pantech Pocket'
+        design_weight: 115
+        display_size: '3.1'
+        display_type: AMOLED
+-
+    patterns:
+        -
+            strategy: string
+            value: P7050
+        -
+            strategy: string
+            value: 'Pantech Onza'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Pantech
+        brand_model: P7050
+        brand_marketing_name: 'Pantech Onza'
+        brand_names: 'Pantech Onza'
+        design_weight: 116
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P1010
+        -
+            strategy: string
+            value: 'Pantech Xtreme'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Pantech
+        brand_model: P1010
+        brand_marketing_name: 'Pantech Xtreme'
+        brand_names: 'Pantech Xtreme'
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P4000
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 400
+        brand_vendor: Pantech
+        brand_model: P4000
+        design_weight: 99
+        display_size: '3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P6010
+        -
+            strategy: string
+            value: 'Pantech Pursuit II'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Pantech
+        brand_model: P6010
+        brand_marketing_name: 'Pantech Pursuit II'
+        brand_names: 'Pantech Pursuit II'
+        design_weight: 127
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P6020
+        -
+            strategy: string
+            value: 'Pantech Swift'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Pantech
+        brand_model: P6020
+        brand_marketing_name: 'Pantech Swift'
+        brand_names: 'Pantech Swift'
+        design_weight: 178
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P6030
+        -
+            strategy: string
+            value: 'Pantech Renue'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Pantech
+        brand_model: P6030
+        brand_marketing_name: 'Pantech Renue'
+        brand_names: 'Pantech Renue'
+        design_weight: 128
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P9020
+        -
+            strategy: string
+            value: 'Pantech Pursuit'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Pantech
+        brand_model: P9020
+        brand_marketing_name: 'Pantech Pursuit'
+        brand_names: 'Pantech Pursuit'
+        design_weight: 130
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: PC-7300
+        -
+            strategy: string
+            value: 'Pantech Panwish Vivo 7300, Pantech PC-7300L'
+        -
+            strategy: string
+            value: 'Pantech Panwish Vivo 7300'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Pantech
+        brand_model: PC-7300
+        brand_marketing_name: 'Pantech Panwish Vivo 7300'
+        brand_names: 'Pantech Panwish Vivo 7300, Pantech PC-7300L'
+        design_weight: 83
+        display_size: '2'
+        display_type: TFT-LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: PG-1000S
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Pantech
+        brand_model: PG-1000S
+        design_weight: 80
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: PG-1300
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Pantech
+        brand_model: PG-1300
+        design_weight: 75
+        display_size: '1.5'
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: PG-1405
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Pantech
+        brand_model: PG-1405
+        design_weight: 80
+        display_type: STN
+-
+    patterns:
+        -
+            strategy: string
+            value: PG-1410
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Pantech
+        brand_model: PG-1410
+        design_weight: 75
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: PG-1500J
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Pantech
+        brand_model: PG-1500J
+        design_weight: 90
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: PG-1600
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Pantech
+        brand_model: PG-1600
+        design_weight: 83
+        display_size: '1.5'
+        display_type: STN
+-
+    patterns:
+        -
+            strategy: string
+            value: PG-1610
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Pantech
+        brand_model: PG-1610
+        design_weight: 80
+        display_size: '1.5'
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: PG-1810
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Pantech
+        brand_model: PG-1810
+        design_weight: 90
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: PG-1900
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Pantech
+        brand_model: PG-1900
+        design_weight: 80
+        display_size: '1.6'
+        display_type: STN
+-
+    patterns:
+        -
+            strategy: string
+            value: PG-2800
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Pantech
+        brand_model: PG-2800
+        design_weight: 80
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: PG-3000
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Pantech
+        brand_model: PG-3000
+        design_weight: 99
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: PG-3210
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Pantech
+        brand_model: PG-3210
+        design_weight: 70
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: PG-3300
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Pantech
+        brand_model: PG-3300
+        design_weight: 80
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: PG-331
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Pantech
+        brand_model: PG-331
+        design_weight: 80
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: PG-3310
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Pantech
+        brand_model: PG-3310
+        design_weight: 68
+        display_size: '1.5'
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: PG-3500
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Pantech
+        brand_model: PG-3500
+        design_weight: 75
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: PG-3600J
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Pantech
+        brand_model: PG-3600J
+        design_weight: 75
+        display_size: '1.9'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: PG-3810
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Pantech
+        brand_model: PG-3810
+        design_weight: 90
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: PG-3900
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Pantech
+        brand_model: PG-3900
+        design_weight: 92
+        display_size: '1.9'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: PG-6200
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Pantech
+        brand_model: PG-6200
+        design_weight: 92
+        display_size: '1.9'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: PG-8000
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 240
+        brand_vendor: Pantech
+        brand_model: PG-8000
+        design_weight: 106
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: PG-C120
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Pantech
+        brand_model: PG-C120
+        design_weight: 75
+        display_size: '1.5'
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: PG-C150
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Pantech
+        brand_model: PG-C150
+        design_weight: 70
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: PG-C3b
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Pantech
+        brand_model: PG-C3b
+        design_weight: 71
+        display_size: '1.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: PG-C510
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Pantech
+        brand_model: PG-C510
+        design_weight: 95
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: PG-G670
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Pantech
+        brand_model: PG-G670
+        design_weight: 85
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: PG-GF100
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Pantech
+        brand_model: PG-GF100
+        design_weight: 85
+        display_size: '1'
+        display_type: STN
+-
+    patterns:
+        -
+            strategy: string
+            value: PN-210
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Pantech
+        brand_model: PN-210
+        design_weight: 93
+        display_type: STN
+-
+    patterns:
+        -
+            strategy: string
+            value: PN-215
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Pantech
+        brand_model: PN-215
+        design_weight: 100
+        display_type: STN
+-
+    patterns:
+        -
+            strategy: string
+            value: PN-300
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Pantech
+        brand_model: PN-300
+        design_weight: 100
+        display_size: '1.8'
+        display_type: STN
+-
+    patterns:
+        -
+            strategy: string
+            value: PN-320
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Pantech
+        brand_model: PN-320
+        design_weight: 100
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: PN-3200
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Pantech
+        brand_model: PN-3200
+        design_weight: 100
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: PN-810
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Pantech
+        brand_model: PN-810
+        design_weight: 159
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: PN-820
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Pantech
+        brand_model: PN-820
+        design_weight: 111
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: PN-8300
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Pantech
+        brand_model: PN-8300
+        design_weight: 134
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: PN-E330
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Pantech
+        brand_model: PN-E330
+        design_weight: 100
+        display_size: '1.8'
+        display_type: STN
+-
+    patterns:
+        -
+            strategy: string
+            value: PT-BG210
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Pantech
+        brand_model: PT-BG210
+        design_weight: 80
+        display_type: STN
+-
+    patterns:
+        -
+            strategy: string
+            value: PT-G310
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Pantech
+        brand_model: PT-G310
+        design_weight: 75
+        display_size: '1'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: PT-G310c
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Pantech
+        brand_model: PT-G310c
+        design_weight: 75
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: PT-G510
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Pantech
+        brand_model: PT-G510
+        design_weight: 85
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: PT-G600
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 143
+        brand_vendor: Pantech
+        brand_model: PT-G600
+        design_weight: 87
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: PT-G700
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Pantech
+        brand_model: PT-G700
+        design_weight: 79
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: PT-G800
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Pantech
+        brand_model: PT-G800
+        design_weight: 85
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: PT-G900
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Pantech
+        brand_model: PT-G900
+        design_weight: 80
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: PT-GB100
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Pantech
+        brand_model: PT-GB100
+        design_weight: 80
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: PT-GB200
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Pantech
+        brand_model: PT-GB200
+        design_weight: 80
+        display_type: STN
+-
+    patterns:
+        -
+            strategy: string
+            value: PT-GB300
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Pantech
+        brand_model: PT-GB300
+        design_weight: 72
+        display_size: '1.5'
+        display_type: STN
+-
+    patterns:
+        -
+            strategy: string
+            value: PT-GF200
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Pantech
+        brand_model: PT-GF200
+        design_weight: 85
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: PT-GF200J
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Pantech
+        brand_model: PT-GF200J
+        design_weight: 85
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: PT-GF260
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Pantech
+        brand_model: PT-GF260
+        design_weight: 85
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: PT-GF500
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Pantech
+        brand_model: PT-GF500
+        design_weight: 83
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: PT-GI100J
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Pantech
+        brand_model: PT-GI100J
+        design_weight: 82
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: PT001
+    capabilities:
+        is_mobile: true
+        brand_vendor: Pantech
+        brand_model: PT001
+        design_weight: 100
+-
+    patterns:
+        -
+            strategy: string
+            value: PTL21
+        -
+            strategy: string
+            value: 'Pantech Vega PTL21'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Pantech
+        brand_model: PTL21
+        brand_marketing_name: 'Pantech Vega PTL21'
+        brand_names: 'Pantech Vega PTL21'
+        design_weight: 134
+        display_size: '4.3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: PU-C710
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Pantech
+        brand_model: PU-C710
+        design_weight: 100
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: TXT8030
+        -
+            strategy: string
+            value: 'Pantech Razzle'
+    capabilities:
+        is_mobile: true
+        display_width: 220
+        display_height: 176
+        brand_vendor: Pantech
+        brand_model: TXT8030
+        brand_marketing_name: 'Pantech Razzle'
+        brand_names: 'Pantech Razzle'
+        design_weight: 108
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: TX215
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Pantech
+        brand_model: TX215
+-
+    patterns:
+        -
+            strategy: string
+            value: TXT8026C
+    capabilities:
+        is_mobile: true
+        display_width: 144
+        display_height: 176
+        brand_vendor: Pantech
+        brand_model: TXT8026C
+        design_weight: 133
+        display_size: '2.2'
+        display_type: TFT

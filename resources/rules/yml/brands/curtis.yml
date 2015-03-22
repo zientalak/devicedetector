@@ -1,0 +1,19 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: LT8036
+        -
+            strategy: string
+            value: 'Curtis KLU LT8036'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 800
+        brand_vendor: Curtis
+        brand_model: LT8036
+        brand_marketing_name: 'Curtis KLU LT8036'
+        brand_names: 'Curtis KLU LT8036'
+        display_size: '8'
+        display_type: TFT

@@ -1,0 +1,75 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: T-17P
+        -
+            strategy: string
+            value: 'K-Mart Audiosonic T-17P'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Audiosonic
+        brand_model: T-17P
+        brand_marketing_name: 'K-Mart Audiosonic T-17P'
+        brand_names: 'K-Mart Audiosonic T-17P'
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: KM10C
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Audiosonic
+        brand_model: KM10C
+        display_size: '10'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: T-07B
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Audiosonic
+        brand_model: T-07B
+        design_weight: 280
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: T-10B
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Audiosonic
+        brand_model: T-10B
+        display_size: '10.1'
+-
+    patterns:
+        -
+            strategy: string
+            value: T-17B
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Audiosonic
+        brand_model: T-17B
+        design_weight: 260
+        display_size: '7'

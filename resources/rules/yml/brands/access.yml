@@ -1,0 +1,25 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Beeline C100'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Access
+        brand_model: 'Beeline C100'
+-
+    patterns:
+        -
+            strategy: string
+            value: F101
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Access
+        brand_model: F101
+        design_weight: 82
+        display_size: '2'
+        display_type: TFT

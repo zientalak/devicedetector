@@ -1,0 +1,49 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: IX
+        -
+            strategy: string
+            value: 'FlyTouch 9'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Superpad
+        brand_model: IX
+        brand_marketing_name: 'FlyTouch 9'
+        brand_names: 'FlyTouch 9'
+        design_weight: 670
+        display_size: '10'
+        display_type: LED
+-
+    patterns:
+        -
+            strategy: string
+            value: M1001
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Superpad
+        brand_model: M1001
+        design_weight: 572
+        display_size: '10.1'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: Sawee10
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Superpad
+        brand_model: Sawee10
+        design_weight: 690
+        display_size: '10'

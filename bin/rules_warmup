@@ -1,0 +1,27 @@
+#!/usr/bin/env php
+<?php
+
+require __DIR__ . '/../vendor/autoload.php';
+
+$parser = new \Symfony\Component\Yaml\Parser();
+$directories = array(
+    'basic' => __DIR__ . '/../resources/rules/yml/basic',
+    'brands' => __DIR__ . '/../resources/rules/yml/brands'
+);
+
+/** @var \Symfony\Component\Finder\SplFileInfo $dir */
+foreach ($directories as $name => $path) {
+    $finder = new \Symfony\Component\Finder\Finder();
+    $files = $finder->in($path)->files()->name('*.yml');
+    /** @var \Symfony\Component\Finder\SplFileInfo $file */
+    $rules = array();
+    foreach ($files as $file) {
+        $rules = array_merge($rules, $parser->parse($file->getContents()));
+    }
+
+    $destination = new \SplFileObject(
+        sprintf(__DIR__.'/../resources/rules/json/%s.json', $name),
+        'w'
+    );
+    $destination->fwrite(json_encode($rules));
+}

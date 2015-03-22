@@ -1,0 +1,42 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: MD-0651
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Prolink
+        brand_model: MD-0651
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MD-0696B
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Prolink
+        brand_model: MD-0696B
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MD-0697
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Prolink
+        brand_model: MD-0697
+        display_size: '9.7'
+        display_type: TFT

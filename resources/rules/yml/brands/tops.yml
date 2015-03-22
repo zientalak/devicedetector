@@ -1,0 +1,15 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: I9200
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Tops
+        brand_model: I9200
+        design_weight: 190
+        display_size: '5'
+        display_type: TFT

@@ -1,0 +1,45 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 7X
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Unusual
+        brand_model: 7X
+        design_weight: 310
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Vortex Dual'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Unusual
+        brand_model: 'Vortex Dual'
+        design_weight: 320
+        display_size: '7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: u7x
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Unusual
+        brand_model: u7x
+        design_weight: 310
+        display_size: '7'
+        display_type: TFT

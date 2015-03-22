@@ -1,0 +1,14 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Max P3'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Movi
+        brand_model: 'Max P3'
+        display_size: '7'
+        display_type: TFT

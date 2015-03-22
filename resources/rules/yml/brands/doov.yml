@@ -1,0 +1,69 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: D3
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Doov
+        brand_model: D3
+        design_weight: 142
+        display_size: '4'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'iEva D2'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Doov
+        brand_model: 'iEva D2'
+        design_weight: 123
+        display_size: '3.5'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'iEva D3'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Doov
+        brand_model: 'iEva D3'
+        display_size: '4'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'iEva D7'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Doov
+        brand_model: 'iEva D7'
+        design_weight: 117
+        display_size: '4'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'iEva D710'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Doov
+        brand_model: 'iEva D710'
+        design_weight: 118
+        display_size: '3.5'
+        display_type: TFT

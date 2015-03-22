@@ -1,0 +1,397 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: '2860'
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Medion
+        brand_model: '2860'
+-
+    patterns:
+        -
+            strategy: string
+            value: E4002
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Medion
+        brand_model: E4002
+        design_weight: 137
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P4501
+        -
+            strategy: string
+            value: 'Medion Life'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Medion
+        brand_model: P4501
+        brand_marketing_name: 'Medion Life'
+        brand_names: 'Medion Life'
+        design_weight: 145
+        display_size: '4.5'
+        display_type: QHD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Life E3501'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Medion
+        brand_model: 'Life E3501'
+        design_weight: 120
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P4013
+        -
+            strategy: string
+            value: 'Medion Life P4013'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Medion
+        brand_model: P4013
+        brand_marketing_name: 'Medion Life P4013'
+        brand_names: 'Medion Life P4013'
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Life P4310'
+        -
+            strategy: string
+            value: 'Medion MD98910, ZTE V960'
+        -
+            strategy: string
+            value: 'Medion MD98910'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Medion
+        brand_model: 'Life P4310'
+        brand_marketing_name: 'Medion MD98910'
+        brand_names: 'Medion MD98910, ZTE V960'
+        design_weight: 140
+        display_size: '4.3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P5001
+        -
+            strategy: string
+            value: 'Medion Life P5001'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Medion
+        brand_model: P5001
+        brand_marketing_name: 'Medion Life P5001'
+        brand_names: 'Medion Life P5001'
+        design_weight: 140
+        display_size: '5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: X4701
+        -
+            strategy: string
+            value: 'Medion Life X Series'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Medion
+        brand_model: X4701
+        brand_marketing_name: 'Medion Life X Series'
+        brand_names: 'Medion Life X Series'
+        design_weight: 155
+        display_size: '4.7'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: P4012
+        -
+            strategy: string
+            value: 'Medion LifePhone P4012'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Medion
+        brand_model: P4012
+        brand_marketing_name: 'Medion LifePhone P4012'
+        brand_names: 'Medion LifePhone P4012'
+        design_weight: 140
+        display_size: '10.16'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: MD98910
+        -
+            strategy: string
+            value: 'Medion LifeTab P4310'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Medion
+        brand_model: MD98910
+        brand_marketing_name: 'Medion LifeTab P4310'
+        brand_names: 'Medion LifeTab P4310'
+        design_weight: 140
+        display_size: '4.3'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'LifeTab P9514'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1280
+        display_height: 800
+        brand_vendor: Medion
+        brand_model: 'LifeTab P9514'
+        design_weight: 720
+        display_size: '10.1'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'LifeTab P9516'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1280
+        display_height: 800
+        brand_vendor: Medion
+        brand_model: 'LifeTab P9516'
+        design_weight: 750
+        display_size: '10'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'LifeTab S9512'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Medion
+        brand_model: 'LifeTab S9512'
+        design_weight: 580
+        display_size: '9.7'
+-
+    patterns:
+        -
+            strategy: string
+            value: S1033X
+        -
+            strategy: string
+            value: 'Medion Lifetab 1033X, Medion Lifetab S10334'
+        -
+            strategy: string
+            value: 'Medion Lifetab 1033X'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1920
+        display_height: 1200
+        brand_vendor: Medion
+        brand_model: S1033X
+        brand_marketing_name: 'Medion Lifetab 1033X'
+        brand_names: 'Medion Lifetab 1033X, Medion Lifetab S10334'
+        design_weight: 580
+        display_size: '10.1'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Lifetab E10310'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1280
+        display_height: 800
+        brand_vendor: Medion
+        brand_model: 'Lifetab E10310'
+        design_weight: 594
+        display_size: '10'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Lifetab E10312'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1280
+        display_height: 800
+        brand_vendor: Medion
+        brand_model: 'Lifetab E10312'
+        design_weight: 603
+        display_size: '10.1'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Lifetab E10316'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1280
+        display_height: 800
+        brand_vendor: Medion
+        brand_model: 'Lifetab E10316'
+        design_weight: 575
+        display_size: '10.1'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Lifetab E10320'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 1280
+        brand_vendor: Medion
+        brand_model: 'Lifetab E10320'
+        design_weight: 550
+        display_size: '10.1'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Lifetab E7310'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Medion
+        brand_model: 'Lifetab E7310'
+        design_weight: 310
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Lifetab E7312'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Medion
+        brand_model: 'Lifetab E7312'
+        design_weight: 303
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Lifetab E7313'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Medion
+        brand_model: 'Lifetab E7313'
+        design_weight: 310
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Lifetab E7316'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Medion
+        brand_model: 'Lifetab E7316'
+        design_weight: 305
+        display_size: '7'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Lifetab S1033X'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1200
+        display_height: 1920
+        brand_vendor: Medion
+        brand_model: 'Lifetab S1033X'
+        design_weight: 580
+        display_size: '10.1'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Lifetab S9714'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1280
+        display_height: 800
+        brand_vendor: Medion
+        brand_model: 'Lifetab S9714'
+        design_weight: 720
+        display_size: '10'
+        display_type: IPS

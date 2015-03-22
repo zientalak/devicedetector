@@ -1,0 +1,6270 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: U8800
+        -
+            strategy: string
+            value: 'Compal U8800'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Huawei
+        brand_model: U8800
+        brand_marketing_name: 'Compal U8800'
+        brand_names: 'Compal U8800'
+        design_weight: 130
+        display_size: '3.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 201HW
+        -
+            strategy: string
+            value: 'Huawei Ascend P1'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Huawei
+        brand_model: 201HW
+        brand_marketing_name: 'Huawei Ascend P1'
+        brand_names: 'Huawei Ascend P1'
+        design_weight: 110
+        display_size: '4.3'
+        display_type: 'Super AMOLED'
+-
+    patterns:
+        -
+            strategy: string
+            value: A103
+        -
+            strategy: string
+            value: 'Huawei Beeline'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Huawei
+        brand_model: A103
+        brand_marketing_name: 'Huawei Beeline'
+        brand_names: 'Huawei Beeline'
+        design_weight: 70
+        display_size: '1.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A199
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Huawei
+        brand_model: A199
+        design_weight: 160
+        display_size: '5'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: ADR3305
+        -
+            strategy: string
+            value: 'Huawei Ascend II'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Huawei
+        brand_model: ADR3305
+        brand_marketing_name: 'Huawei Ascend II'
+        brand_names: 'Huawei Ascend II'
+        design_weight: 120
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: M920
+        -
+            strategy: string
+            value: 'Huawei Activa, Huawei Activa 4G'
+        -
+            strategy: string
+            value: 'Huawei Activa'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Huawei
+        brand_model: M920
+        brand_marketing_name: 'Huawei Activa'
+        brand_names: 'Huawei Activa, Huawei Activa 4G'
+        design_weight: 140
+        display_size: '3.5'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: G700-T00
+        -
+            strategy: string
+            value: 'Huawei Ascend'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Huawei
+        brand_model: G700-T00
+        brand_marketing_name: 'Huawei Ascend'
+        brand_names: 'Huawei Ascend'
+        design_weight: 155
+        display_size: '5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: C8812
+        -
+            strategy: string
+            value: 'Huawei Ascend C8812'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Huawei
+        brand_model: C8812
+        brand_marketing_name: 'Huawei Ascend C8812'
+        brand_names: 'Huawei Ascend C8812'
+        design_weight: 135
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Ascend D quad'
+        -
+            strategy: string
+            value: 'Huawei Ascend D1 quad'
+    capabilities:
+        is_mobile: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Huawei
+        brand_model: 'Ascend D quad'
+        brand_marketing_name: 'Huawei Ascend D1 quad'
+        brand_names: 'Huawei Ascend D1 quad'
+        design_weight: 130
+        display_size: '4.5'
+        display_type: 'Super IPS+ LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Ascend D quad XL'
+    capabilities:
+        is_mobile: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Huawei
+        brand_model: 'Ascend D quad XL'
+        design_weight: 150
+        display_size: '4.5'
+        display_type: 'Super IPS+ LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Ascend D1'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Huawei
+        brand_model: 'Ascend D1'
+        display_size: '4.5'
+        display_type: 'Super IPS+ LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: U9510E
+        -
+            strategy: string
+            value: 'Huawei Ascend D1 XL'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Huawei
+        brand_model: U9510E
+        brand_marketing_name: 'Huawei Ascend D1 XL'
+        brand_names: 'Huawei Ascend D1 XL'
+        display_size: '4.6'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: D2-0082
+        -
+            strategy: string
+            value: 'Huawei Ascend D2'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Huawei
+        brand_model: D2-0082
+        brand_marketing_name: 'Huawei Ascend D2'
+        brand_names: 'Huawei Ascend D2'
+        design_weight: 170
+        display_size: '5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: U8815
+        -
+            strategy: string
+            value: 'Huawei Ascend G300'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Huawei
+        brand_model: U8815
+        brand_marketing_name: 'Huawei Ascend G300'
+        brand_names: 'Huawei Ascend G300'
+        design_weight: 140
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: C8810
+        -
+            strategy: string
+            value: 'Huawei Ascend G300C'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Huawei
+        brand_model: C8810
+        brand_marketing_name: 'Huawei Ascend G300C'
+        brand_names: 'Huawei Ascend G300C'
+        design_weight: 135
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: U8816
+        -
+            strategy: string
+            value: 'Huawei Ascend G301'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Huawei
+        brand_model: U8816
+        brand_marketing_name: 'Huawei Ascend G301'
+        brand_names: 'Huawei Ascend G301'
+        design_weight: 140
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: U8812D
+        -
+            strategy: string
+            value: 'Huawei Ascend G302D'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Huawei
+        brand_model: U8812D
+        brand_marketing_name: 'Huawei Ascend G302D'
+        brand_names: 'Huawei Ascend G302D'
+        design_weight: 121
+        display_size: '4'
+-
+    patterns:
+        -
+            strategy: string
+            value: T8828
+        -
+            strategy: string
+            value: 'Huawei Ascend G305T'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Huawei
+        brand_model: T8828
+        brand_marketing_name: 'Huawei Ascend G305T'
+        brand_names: 'Huawei Ascend G305T'
+        design_weight: 127
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: T8808D
+        -
+            strategy: string
+            value: 'Huawei Ascend G306T'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Huawei
+        brand_model: T8808D
+        brand_marketing_name: 'Huawei Ascend G306T'
+        brand_names: 'Huawei Ascend G306T'
+        design_weight: 130
+        display_size: '4'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: U8730
+        -
+            strategy: string
+            value: 'Huawei Ascend G312, Huawei Ascend G312 Qwerty, T-Mobile myTouch Q'
+        -
+            strategy: string
+            value: 'Huawei Ascend G312'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Huawei
+        brand_model: U8730
+        brand_marketing_name: 'Huawei Ascend G312'
+        brand_names: 'Huawei Ascend G312, Huawei Ascend G312 Qwerty, T-Mobile myTouch Q'
+        display_size: '4'
+-
+    patterns:
+        -
+            strategy: string
+            value: Y330-U05
+        -
+            strategy: string
+            value: 'Huawei Ascend G330'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Huawei
+        brand_model: Y330-U05
+        brand_marketing_name: 'Huawei Ascend G330'
+        brand_names: 'Huawei Ascend G330'
+        design_weight: 130
+        display_size: '4'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: C8825D
+        -
+            strategy: string
+            value: 'Huawei Ascend G330C'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Huawei
+        brand_model: C8825D
+        brand_marketing_name: 'Huawei Ascend G330C'
+        brand_names: 'Huawei Ascend G330C'
+        design_weight: 140
+        display_size: '4'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: U8825d
+        -
+            strategy: string
+            value: 'Huawei Ascend G330D'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Huawei
+        brand_model: U8825d
+        brand_marketing_name: 'Huawei Ascend G330D'
+        brand_names: 'Huawei Ascend G330D'
+        design_weight: 140
+        display_size: '4'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Ascend G500'
+        -
+            strategy: string
+            value: 'Huawei U8836D'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Huawei
+        brand_model: 'Ascend G500'
+        brand_marketing_name: 'Huawei U8836D'
+        brand_names: 'Huawei U8836D'
+        design_weight: 156
+        display_size: '4.3'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: G506-U151
+        -
+            strategy: string
+            value: 'Huawei Ascend G506-U151'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Huawei
+        brand_model: G506-U151
+        brand_marketing_name: 'Huawei Ascend G506-U151'
+        brand_names: 'Huawei Ascend G506-U151'
+        design_weight: 150
+        display_size: '4.5'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: T8951
+        -
+            strategy: string
+            value: 'Huawei Ascend G510'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Huawei
+        brand_model: T8951
+        brand_marketing_name: 'Huawei Ascend G510'
+        brand_names: 'Huawei Ascend G510'
+        design_weight: 150
+        display_size: '4.5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: G526-l11
+        -
+            strategy: string
+            value: 'Huawei Ascend G526'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Huawei
+        brand_model: G526-l11
+        brand_marketing_name: 'Huawei Ascend G526'
+        brand_names: 'Huawei Ascend G526'
+        design_weight: 150
+        display_size: '4.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: G535
+        -
+            strategy: string
+            value: 'Orange Gova, Huawei Ascend G535'
+        -
+            strategy: string
+            value: 'Orange Gova'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Huawei
+        brand_model: G535
+        brand_marketing_name: 'Orange Gova'
+        brand_names: 'Orange Gova, Huawei Ascend G535'
+        design_weight: 145
+        display_size: '4.5'
+        display_type: 'TFT IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: G6-C00
+        -
+            strategy: string
+            value: 'Huawei Ascend G6, Huawei Ascend G6-C00'
+        -
+            strategy: string
+            value: 'Huawei Ascend G6'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Huawei
+        brand_model: G6-C00
+        brand_marketing_name: 'Huawei Ascend G6'
+        brand_names: 'Huawei Ascend G6, Huawei Ascend G6-C00'
+        design_weight: 115
+        display_size: '4.5'
+        display_type: 'qHD IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: G6-l11
+        -
+            strategy: string
+            value: 'Huawei Ascend G6 4G'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Huawei
+        brand_model: G6-l11
+        brand_marketing_name: 'Huawei Ascend G6 4G'
+        brand_names: 'Huawei Ascend G6 4G'
+        design_weight: 115
+        display_size: '4.5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: G6-U00
+        -
+            strategy: string
+            value: 'Huawei Ascend G6 U00'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Huawei
+        brand_model: G6-U00
+        brand_marketing_name: 'Huawei Ascend G6 U00'
+        brand_names: 'Huawei Ascend G6 U00'
+        design_weight: 115
+        display_size: '4.5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: G6-L33
+        -
+            strategy: string
+            value: 'Huawei Ascend G6-L33'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Huawei
+        brand_model: G6-L33
+        brand_marketing_name: 'Huawei Ascend G6-L33'
+        brand_names: 'Huawei Ascend G6-L33'
+        design_weight: 115
+        display_size: '4.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: T8950
+        -
+            strategy: string
+            value: 'Huawei Ascend G600'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Huawei
+        brand_model: T8950
+        brand_marketing_name: 'Huawei Ascend G600'
+        brand_names: 'Huawei Ascend G600'
+        display_size: '4.5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: G610-u15
+        -
+            strategy: string
+            value: 'Huawei Ascend G610-U15'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Huawei
+        brand_model: G610-u15
+        brand_marketing_name: 'Huawei Ascend G610-U15'
+        brand_names: 'Huawei Ascend G610-U15'
+        design_weight: 170
+        display_size: '5'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: G615-U10
+        -
+            strategy: string
+            value: 'Huawei Ascend G615-U10'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Huawei
+        brand_model: G615-U10
+        brand_marketing_name: 'Huawei Ascend G615-U10'
+        brand_names: 'Huawei Ascend G615-U10'
+        design_weight: 165
+        display_size: '5'
+        display_type: 'qHD TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: G620S-L01
+        -
+            strategy: string
+            value: 'Huawei Ascend G620S'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Huawei
+        brand_model: G620S-L01
+        brand_marketing_name: 'Huawei Ascend G620S'
+        brand_names: 'Huawei Ascend G620S'
+        design_weight: 160
+        display_size: '5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: G630-U00
+        -
+            strategy: string
+            value: 'Huawei Ascend G630'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Huawei
+        brand_model: G630-U00
+        brand_marketing_name: 'Huawei Ascend G630'
+        brand_names: 'Huawei Ascend G630'
+        design_weight: 160
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: G630-U10
+        -
+            strategy: string
+            value: 'Huawei Ascend G630-U20'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Huawei
+        brand_model: G630-U10
+        brand_marketing_name: 'Huawei Ascend G630-U20'
+        brand_names: 'Huawei Ascend G630-U20'
+        design_weight: 160
+        display_size: '5'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: G7-L01
+        -
+            strategy: string
+            value: 'Huawei Ascend G7-L01'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Huawei
+        brand_model: G7-L01
+        brand_marketing_name: 'Huawei Ascend G7-L01'
+        brand_names: 'Huawei Ascend G7-L01'
+        design_weight: 165
+        display_size: '5.5'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: G700-U00
+        -
+            strategy: string
+            value: 'Huawei Ascend G700'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Huawei
+        brand_model: G700-U00
+        brand_marketing_name: 'Huawei Ascend G700'
+        brand_names: 'Huawei Ascend G700'
+        design_weight: 155
+        display_size: '5'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: G730-U10
+        -
+            strategy: string
+            value: 'Huawei Ascend G730'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Huawei
+        brand_model: G730-U10
+        brand_marketing_name: 'Huawei Ascend G730'
+        brand_names: 'Huawei Ascend G730'
+        design_weight: 180
+        display_size: '5.5'
+        display_type: 'IPS QHD'
+-
+    patterns:
+        -
+            strategy: string
+            value: G730-U251
+        -
+            strategy: string
+            value: 'Huawei Ascend G730-U251'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Huawei
+        brand_model: G730-U251
+        brand_marketing_name: 'Huawei Ascend G730-U251'
+        brand_names: 'Huawei Ascend G730-U251'
+        design_weight: 180
+        display_size: '5.5'
+        display_type: 'qHD IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: G740-L00
+        -
+            strategy: string
+            value: 'Huawei Ascend G740, Orange Yumo'
+        -
+            strategy: string
+            value: 'Huawei Ascend G740'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Huawei
+        brand_model: G740-L00
+        brand_marketing_name: 'Huawei Ascend G740'
+        brand_names: 'Huawei Ascend G740, Orange Yumo'
+        design_weight: 150
+        display_size: '5'
+        display_type: 'IPS TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: G750-T00
+        -
+            strategy: string
+            value: 'Huawei Ascend G750-T00, Huawei Honor 3X, Huawei Glory 4'
+        -
+            strategy: string
+            value: 'Huawei Ascend G750-T00'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Huawei
+        brand_model: G750-T00
+        brand_marketing_name: 'Huawei Ascend G750-T00'
+        brand_names: 'Huawei Ascend G750-T00, Huawei Honor 3X, Huawei Glory 4'
+        design_weight: 162
+        display_size: '5.5'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: HW-01E
+        -
+            strategy: string
+            value: 'Huawei Ascend HW-01E'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Huawei
+        brand_model: HW-01E
+        brand_marketing_name: 'Huawei Ascend HW-01E'
+        brand_names: 'Huawei Ascend HW-01E'
+        design_weight: 135
+        display_size: '4.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MT1-U06
+        -
+            strategy: string
+            value: 'Huawei Ascend Mate'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Huawei
+        brand_model: MT1-U06
+        brand_marketing_name: 'Huawei Ascend Mate'
+        brand_names: 'Huawei Ascend Mate'
+        design_weight: 198
+        display_size: '6'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: MT2L03
+        -
+            strategy: string
+            value: 'Huawei Ascend Mate 2'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Huawei
+        brand_model: MT2L03
+        brand_marketing_name: 'Huawei Ascend Mate 2'
+        brand_names: 'Huawei Ascend Mate 2'
+        design_weight: 202
+        display_size: '6.1'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: MT7-L09
+        -
+            strategy: string
+            value: 'Huawei Ascend Mate 7 MT7-L09'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Huawei
+        brand_model: MT7-L09
+        brand_marketing_name: 'Huawei Ascend Mate 7 MT7-L09'
+        brand_names: 'Huawei Ascend Mate 7 MT7-L09'
+        design_weight: 185
+        display_size: '6'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: MT7-TL10
+        -
+            strategy: string
+            value: 'Huawei Ascend Mate 7 MT7-TL10'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Huawei
+        brand_model: MT7-TL10
+        brand_marketing_name: 'Huawei Ascend Mate 7 MT7-TL10'
+        brand_names: 'Huawei Ascend Mate 7 MT7-TL10'
+        design_weight: 185
+        display_size: '6'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: MT1-T00
+        -
+            strategy: string
+            value: 'Huawei Ascend Mate MT1-T00'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Huawei
+        brand_model: MT1-T00
+        brand_marketing_name: 'Huawei Ascend Mate MT1-T00'
+        brand_names: 'Huawei Ascend Mate MT1-T00'
+        design_weight: 198
+        display_size: '6.1'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Ascend P1 S'
+    capabilities:
+        is_mobile: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Huawei
+        brand_model: 'Ascend P1 S'
+        design_weight: 130
+        display_size: '4.3'
+        display_type: 'Super AMOLED'
+-
+    patterns:
+        -
+            strategy: string
+            value: T9200
+        -
+            strategy: string
+            value: 'Huawei Ascend P1 TD'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Huawei
+        brand_model: T9200
+        brand_marketing_name: 'Huawei Ascend P1 TD'
+        brand_names: 'Huawei Ascend P1 TD'
+        design_weight: 110
+        display_size: '4.3'
+        display_type: 'Super AMOLED'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Ascend P2'
+    capabilities:
+        is_mobile: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Huawei
+        brand_model: 'Ascend P2'
+        design_weight: 122
+        display_size: '4.7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Ascend P6'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Huawei
+        brand_model: 'Ascend P6'
+        design_weight: 120
+        display_size: '4.7'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: P7-I00
+        -
+            strategy: string
+            value: 'Huawei Ascend P7-L00'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Huawei
+        brand_model: P7-I00
+        brand_marketing_name: 'Huawei Ascend P7-L00'
+        brand_names: 'Huawei Ascend P7-L00'
+        design_weight: 124
+        display_size: '5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: P7-L07
+        -
+            strategy: string
+            value: 'Huawei Ascend P7-L07'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Huawei
+        brand_model: P7-L07
+        brand_marketing_name: 'Huawei Ascend P7-L07'
+        brand_names: 'Huawei Ascend P7-L07'
+        design_weight: 124
+        display_size: '5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: P7-L10
+        -
+            strategy: string
+            value: 'Huawei Ascend P7/ Huawei Sophia'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Huawei
+        brand_model: P7-L10
+        brand_marketing_name: 'Huawei Ascend P7/ Huawei Sophia'
+        brand_names: 'Huawei Ascend P7/ Huawei Sophia'
+        design_weight: 124
+        display_size: '5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: U5120
+        -
+            strategy: string
+            value: 'Huawei Ascend U5120'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: U5120
+        brand_marketing_name: 'Huawei Ascend U5120'
+        brand_names: 'Huawei Ascend U5120'
+        display_size: '2'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: W1-C00
+        -
+            strategy: string
+            value: 'Huawei Ascend W1'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Huawei
+        brand_model: W1-C00
+        brand_marketing_name: 'Huawei Ascend W1'
+        brand_names: 'Huawei Ascend W1'
+        design_weight: 130
+        display_size: '4'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: W2
+        -
+            strategy: string
+            value: 'Huawei Ascend W2'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Huawei
+        brand_model: W2
+        brand_marketing_name: 'Huawei Ascend W2'
+        brand_names: 'Huawei Ascend W2'
+        design_weight: 160
+        display_size: '4.3'
+        display_type: 'TFT IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: U9000
+        -
+            strategy: string
+            value: 'Huawei Ascend X, Huawei Ideos X6'
+        -
+            strategy: string
+            value: 'Huawei Ascend X'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Huawei
+        brand_model: U9000
+        brand_marketing_name: 'Huawei Ascend X'
+        brand_names: 'Huawei Ascend X, Huawei Ideos X6'
+        design_weight: 143
+        display_size: '4.1'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: H866C
+        -
+            strategy: string
+            value: 'Huawei Ascend Y'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Huawei
+        brand_model: H866C
+        brand_marketing_name: 'Huawei Ascend Y'
+        brand_names: 'Huawei Ascend Y'
+        design_weight: 125
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: U8655
+        -
+            strategy: string
+            value: 'Huawei Ascend Y 200'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Huawei
+        brand_model: U8655
+        brand_marketing_name: 'Huawei Ascend Y 200'
+        brand_names: 'Huawei Ascend Y 200'
+        display_size: '3.5'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: U8185
+        -
+            strategy: string
+            value: 'Huawei Ascend Y100'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: U8185
+        brand_marketing_name: 'Huawei Ascend Y100'
+        brand_names: 'Huawei Ascend Y100'
+        display_size: '2.8'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: U8666
+        -
+            strategy: string
+            value: 'Huawei Ascend Y201'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Huawei
+        brand_model: U8666
+        brand_marketing_name: 'Huawei Ascend Y201'
+        brand_names: 'Huawei Ascend Y201'
+        display_size: '3.5'
+-
+    patterns:
+        -
+            strategy: string
+            value: Y210-0010
+        -
+            strategy: string
+            value: 'Huawei Ascend Y210'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Huawei
+        brand_model: Y210-0010
+        brand_marketing_name: 'Huawei Ascend Y210'
+        brand_names: 'Huawei Ascend Y210'
+        design_weight: 120
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Y300-0100
+        -
+            strategy: string
+            value: 'Huawei Ascend Y300'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Huawei
+        brand_model: Y300-0100
+        brand_marketing_name: 'Huawei Ascend Y300'
+        brand_names: 'Huawei Ascend Y300'
+        design_weight: 130
+        display_size: '4'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: Y320-U30
+        -
+            strategy: string
+            value: 'Huawei Ascend Y320-U30'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Huawei
+        brand_model: Y320-U30
+        brand_marketing_name: 'Huawei Ascend Y320-U30'
+        brand_names: 'Huawei Ascend Y320-U30'
+        design_weight: 123
+        display_size: '4'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: Y321-U051
+        -
+            strategy: string
+            value: 'Huawei Ascend Y321'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Huawei
+        brand_model: Y321-U051
+        brand_marketing_name: 'Huawei Ascend Y321'
+        brand_names: 'Huawei Ascend Y321'
+        design_weight: 130
+        display_size: '4'
+        display_type: 'WVGA LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: Y330-C00
+        -
+            strategy: string
+            value: 'Huawei Ascend Y330'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Huawei
+        brand_model: Y330-C00
+        brand_marketing_name: 'Huawei Ascend Y330'
+        brand_names: 'Huawei Ascend Y330'
+        design_weight: 130
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Y330-U07
+        -
+            strategy: string
+            value: 'Huawei Ascend Y330-U07'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Huawei
+        brand_model: Y330-U07
+        brand_marketing_name: 'Huawei Ascend Y330-U07'
+        brand_names: 'Huawei Ascend Y330-U07'
+        design_weight: 126
+        display_size: '4'
+        display_type: 'WVGA LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: Y520-U22
+        -
+            strategy: string
+            value: 'Huawei Ascend Y520'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Huawei
+        brand_model: Y520-U22
+        brand_marketing_name: 'Huawei Ascend Y520'
+        brand_names: 'Huawei Ascend Y520'
+        design_weight: 150
+        display_size: '4.5'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: Y530
+        -
+            strategy: string
+            value: 'Huawei Ascend Y530'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Huawei
+        brand_model: Y530
+        brand_marketing_name: 'Huawei Ascend Y530'
+        brand_names: 'Huawei Ascend Y530'
+        design_weight: 145
+        display_size: '4.5'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: Y535-C00
+        -
+            strategy: string
+            value: 'Huawei Ascend Y535'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Huawei
+        brand_model: Y535-C00
+        brand_marketing_name: 'Huawei Ascend Y535'
+        brand_names: 'Huawei Ascend Y535'
+        design_weight: 168
+        display_size: '4.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Y550-L01
+        -
+            strategy: string
+            value: 'Huawei Ascend Y550'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Huawei
+        brand_model: Y550-L01
+        brand_marketing_name: 'Huawei Ascend Y550'
+        brand_names: 'Huawei Ascend Y550'
+        design_weight: 153
+        display_size: '4.5'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: Y600-U151
+        -
+            strategy: string
+            value: 'Huawei Ascend Y600'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Huawei
+        brand_model: Y600-U151
+        brand_marketing_name: 'Huawei Ascend Y600'
+        brand_names: 'Huawei Ascend Y600'
+        design_weight: 180
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Y600D-C00
+        -
+            strategy: string
+            value: 'Huawei Ascend Y600D-C00'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Huawei
+        brand_model: Y600D-C00
+        brand_marketing_name: 'Huawei Ascend Y600D-C00'
+        brand_names: 'Huawei Ascend Y600D-C00'
+        design_weight: 180
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: U8651
+        -
+            strategy: string
+            value: 'Huawei Astro'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Huawei
+        brand_model: U8651
+        brand_marketing_name: 'Huawei Astro'
+        brand_names: 'Huawei Astro'
+        design_weight: 125
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: B199
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Huawei
+        brand_model: B199
+        design_weight: 170
+        display_size: '5.5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: BM-SWU300
+        -
+            strategy: string
+            value: IDEOS
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: BM-SWU300
+        brand_marketing_name: IDEOS
+        design_weight: 102
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: U8500
+        -
+            strategy: string
+            value: 'Huawei Beeline E300'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Huawei
+        brand_model: U8500
+        brand_marketing_name: 'Huawei Beeline E300'
+        brand_names: 'Huawei Beeline E300'
+        design_weight: 115
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: U8350
+        -
+            strategy: string
+            value: 'Huawei Boulder'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 240
+        brand_vendor: Huawei
+        brand_model: U8350
+        brand_marketing_name: 'Huawei Boulder'
+        brand_names: 'Huawei Boulder'
+        design_weight: 112
+        display_size: '2.6'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: C5005
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Huawei
+        brand_model: C5005
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: C5100
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Huawei
+        brand_model: C5100
+        design_weight: 95
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: C5110
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: C5110
+        design_weight: 74
+        display_size: '2'
+        display_type: STN
+-
+    patterns:
+        -
+            strategy: string
+            value: C5320
+    capabilities:
+        is_mobile: true
+        display_width: 120
+        display_height: 100
+        brand_vendor: Huawei
+        brand_model: C5320
+        design_weight: 90
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: C5330
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Huawei
+        brand_model: C5330
+        design_weight: 85
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: C5588
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Huawei
+        brand_model: C5588
+        design_weight: 90
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: C5589
+    capabilities:
+        is_mobile: true
+        display_width: 120
+        display_height: 100
+        brand_vendor: Huawei
+        brand_model: C5589
+        design_weight: 97
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: C5600
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Huawei
+        brand_model: C5600
+        design_weight: 90
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: C5700
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: C5700
+        design_weight: 77
+        display_size: '2'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: C5900
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: C5900
+        design_weight: 111
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: C6100
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 240
+        brand_vendor: Huawei
+        brand_model: C6100
+        design_weight: 106
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: C7100
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: C7100
+        design_weight: 99
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: C8000
+    capabilities:
+        is_mobile: true
+        brand_vendor: Huawei
+        brand_model: C8000
+-
+    patterns:
+        -
+            strategy: string
+            value: C8100
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: C8100
+        design_weight: 110
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: C8500
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: C8500
+        design_weight: 115
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: C8512
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 240
+        brand_vendor: Huawei
+        brand_model: C8512
+        design_weight: 143
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: C8650
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Huawei
+        brand_model: C8650
+        design_weight: 500
+        display_size: '3.5'
+-
+    patterns:
+        -
+            strategy: string
+            value: C8655
+        -
+            strategy: string
+            value: 'Ascend Y200'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Huawei
+        brand_model: C8655
+        brand_marketing_name: 'Ascend Y200'
+        brand_names: 'Ascend Y200'
+        design_weight: 125
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: C8813
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Huawei
+        brand_model: C8813
+        design_weight: 130
+        display_size: '4.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: C8815
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Huawei
+        brand_model: C8815
+        design_weight: 170
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: C8816
+        -
+            strategy: string
+            value: 'Huawei G301 Ascend'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Huawei
+        brand_model: C8816
+        brand_marketing_name: 'Huawei G301 Ascend'
+        brand_names: 'Huawei G301 Ascend'
+        design_weight: 167
+        display_size: '5'
+        display_type: 'qHD IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: C8816D
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Huawei
+        brand_model: C8816D
+        design_weight: 167
+        display_size: '5'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: C8860e
+    capabilities:
+        is_mobile: true
+        display_width: 854
+        display_height: 480
+        brand_vendor: Huawei
+        brand_model: C8860e
+        display_size: '4'
+        display_type: 'Super AMOLED'
+-
+    patterns:
+        -
+            strategy: string
+            value: C8950D
+        -
+            strategy: string
+            value: 'HUAWEI C8950D Honor+'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Huawei
+        brand_model: C8950D
+        brand_marketing_name: 'HUAWEI C8950D Honor+'
+        brand_names: 'HUAWEI C8950D Honor+'
+        design_weight: 140
+        display_size: '4.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: CHT8000
+        -
+            strategy: string
+            value: 'Chunghwa CHT8000'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 480
+        brand_vendor: Huawei
+        brand_model: CHT8000
+        brand_marketing_name: 'Chunghwa CHT8000'
+        brand_names: 'Chunghwa CHT8000'
+        design_weight: 135
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: CM651
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 240
+        brand_vendor: Huawei
+        brand_model: CM651
+        design_weight: 90
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: CM980
+        -
+            strategy: string
+            value: 'Huawei Evolucion II'
+    capabilities:
+        is_mobile: true
+        brand_vendor: Huawei
+        brand_model: CM980
+        brand_marketing_name: 'Huawei Evolucion II'
+        brand_names: 'Huawei Evolucion II'
+        display_size: '3.5'
+        display_type: LED
+-
+    patterns:
+        -
+            strategy: string
+            value: CM990
+        -
+            strategy: string
+            value: 'Huawei Evolution 3'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Huawei
+        brand_model: CM990
+        brand_marketing_name: 'Huawei Evolution 3'
+        brand_names: 'Huawei Evolution 3'
+        design_weight: 156
+        display_size: '4.5'
+        display_type: 'WVGA LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: Comet
+        -
+            strategy: string
+            value: 'T-Mobile Comet'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: Comet
+        brand_marketing_name: 'T-Mobile Comet'
+        brand_names: 'T-Mobile Comet'
+        design_weight: 102
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: U8520
+        -
+            strategy: string
+            value: 'Huawei Duplex, Huawei Deuce'
+        -
+            strategy: string
+            value: 'Huawei Duplex'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Huawei
+        brand_model: U8520
+        brand_marketing_name: 'Huawei Duplex'
+        brand_names: 'Huawei Duplex, Huawei Deuce'
+        design_weight: 109
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Discovery Expedition Phone'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: 'Discovery Expedition Phone'
+        design_weight: 106
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: UM840
+        -
+            strategy: string
+            value: 'Huawei Evolution'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Huawei
+        brand_model: UM840
+        brand_marketing_name: 'Huawei Evolution'
+        brand_names: 'Huawei Evolution'
+        design_weight: 115
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: M650
+        -
+            strategy: string
+            value: 'Huawei Express'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 240
+        brand_vendor: Huawei
+        brand_model: M650
+        brand_marketing_name: 'Huawei Express'
+        brand_names: 'Huawei Express'
+        design_weight: 135
+        display_size: '2.6'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Fusion 2'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Huawei
+        brand_model: 'Fusion 2'
+        design_weight: 124
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: G2200
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Huawei
+        brand_model: G2200
+        design_weight: 70
+        display_size: '1.5'
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: G2800
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Huawei
+        brand_model: G2800
+        design_weight: 70
+        display_size: '1.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: G3500
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Huawei
+        brand_model: G3500
+        design_weight: 79
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: G3501
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Huawei
+        brand_model: G3501
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: G3510
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Huawei
+        brand_model: G3510
+        design_weight: 75
+        display_size: '1.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: G3511
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Huawei
+        brand_model: G3511
+        design_weight: 70
+        display_size: '1.5'
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: G3512
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Huawei
+        brand_model: G3512
+        design_weight: 74
+        display_size: '1.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: G3610
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Huawei
+        brand_model: G3610
+        design_weight: 75
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: G3620
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Huawei
+        brand_model: G3620
+        design_weight: 74
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: G3621
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Huawei
+        brand_model: G3621
+        design_weight: 80
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: G3622
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Huawei
+        brand_model: G3622
+        design_weight: 80
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: G5010
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Huawei
+        brand_model: G5010
+        design_weight: 70
+        display_size: '1.8'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: G510
+        -
+            strategy: string
+            value: 'Huawei Ascend, Orange Daytona'
+        -
+            strategy: string
+            value: 'Huawei Ascend'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Huawei
+        brand_model: G510
+        brand_marketing_name: 'Huawei Ascend'
+        brand_names: 'Huawei Ascend, Orange Daytona'
+        design_weight: 150
+        display_size: '4.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: G520-0000
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Huawei
+        brand_model: G520-0000
+        design_weight: 155
+        display_size: '4.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: G520-5000
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Huawei
+        brand_model: G520-5000
+        design_weight: 150
+        display_size: '4.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: G520-T10
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Huawei
+        brand_model: G520-T10
+        design_weight: 150
+        display_size: '4.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: G525-U00
+        -
+            strategy: string
+            value: 'Huawei Ascend'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Huawei
+        brand_model: G525-U00
+        brand_marketing_name: 'Huawei Ascend'
+        brand_names: 'Huawei Ascend'
+        design_weight: 135
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: G526-l22
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Huawei
+        brand_model: G526-l22
+        design_weight: 150
+        display_size: '4.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: G526-l33
+        -
+            strategy: string
+            value: 'Huawei Ascend G526'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Huawei
+        brand_model: G526-l33
+        brand_marketing_name: 'Huawei Ascend G526'
+        brand_names: 'Huawei Ascend G526'
+        design_weight: 150
+        display_size: '4.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: G5500
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Huawei
+        brand_model: G5500
+        design_weight: 85
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: G5520
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: G5520
+        design_weight: 82
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: G5521
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: G5521
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: G5730
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: G5730
+        design_weight: 90
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: G6-U10
+        -
+            strategy: string
+            value: 'Huawei Ascend G6'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Huawei
+        brand_model: G6-U10
+        brand_marketing_name: 'Huawei Ascend G6'
+        brand_names: 'Huawei Ascend G6'
+        design_weight: 115
+        display_size: '4.5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: G6-l22
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Huawei
+        brand_model: G6-l22
+        design_weight: 115
+        display_size: '4.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: G6003
+    capabilities:
+        is_mobile: true
+        display_width: 230
+        display_height: 240
+        brand_vendor: Huawei
+        brand_model: G6003
+        design_weight: 102
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: G6005
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 240
+        brand_vendor: Huawei
+        brand_model: G6005
+        design_weight: 85
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: G6006
+    capabilities:
+        is_mobile: true
+        display_width: 120
+        display_height: 160
+        brand_vendor: Huawei
+        brand_model: G6006
+        design_weight: 102
+        display_size: '1.8'
+        display_type: 'QVGA LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: G6007
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Huawei
+        brand_model: G6007
+        design_weight: 90
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: G606-T00
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Huawei
+        brand_model: G606-T00
+        design_weight: 186
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: G610-C00
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Huawei
+        brand_model: G610-C00
+        design_weight: 170
+        display_size: '5.7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: G610-T00
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Huawei
+        brand_model: G610-T00
+        design_weight: 170
+        display_size: '5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: G610-T11
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Huawei
+        brand_model: G610-T11
+        design_weight: 170
+        display_size: '5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: G610-U00
+        -
+            strategy: string
+            value: 'Huawei G610s'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Huawei
+        brand_model: G610-U00
+        brand_marketing_name: 'Huawei G610s'
+        brand_names: 'Huawei G610s'
+        design_weight: 170
+        display_size: '5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: G610-U20
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Huawei
+        brand_model: G610-U20
+        design_weight: 170
+        display_size: '5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: G610-U30
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Huawei
+        brand_model: G610-U30
+        design_weight: 170
+        display_size: '5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: G6150
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: G6150
+        design_weight: 105
+        display_size: '2.41'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: G6151
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: G6151
+        design_weight: 98
+        display_size: '2.4'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: G630-U20
+        -
+            strategy: string
+            value: 'Huawei Ascend G630-U20, Huawei Ascend G630'
+        -
+            strategy: string
+            value: 'Huawei Ascend G630-U20'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Huawei
+        brand_model: G630-U20
+        brand_marketing_name: 'Huawei Ascend G630-U20'
+        brand_names: 'Huawei Ascend G630-U20, Huawei Ascend G630'
+        design_weight: 160
+        display_size: '5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: G630-U251
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Huawei
+        brand_model: G630-U251
+        design_weight: 160
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: G6310
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: G6310
+        design_weight: 100
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: G6600
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 240
+        brand_vendor: Huawei
+        brand_model: G6600
+        design_weight: 102
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: G6603
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: G6603
+        design_weight: 102
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: G6605
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: G6605
+        design_weight: 102
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: G6608
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: G6608
+        design_weight: 93
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: G6609
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 240
+        brand_vendor: Huawei
+        brand_model: G6609
+        design_weight: 98
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: G6610V
+    capabilities:
+        is_mobile: true
+        display_width: 220
+        display_height: 176
+        brand_vendor: Huawei
+        brand_model: G6610V
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: G6620
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 240
+        brand_vendor: Huawei
+        brand_model: G6620
+        design_weight: 102
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: G6880
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Huawei
+        brand_model: G6880
+        design_weight: 93
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: G700-U10
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Huawei
+        brand_model: G700-U10
+        design_weight: 155
+        display_size: '5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: G700-U20
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Huawei
+        brand_model: G700-U20
+        design_weight: 155
+        display_size: '5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: G7002
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: G7002
+        design_weight: 95
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: G7005
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: G7005
+        design_weight: 75
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: G7007
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: G7007
+        design_weight: 104
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: G7010
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: G7010
+        design_weight: 100
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: G7050
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 400
+        brand_vendor: Huawei
+        brand_model: G7050
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: G7105
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: G7105
+        design_weight: 104
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: G7206
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: G7206
+        design_weight: 89
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: G7210
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 400
+        brand_vendor: Huawei
+        brand_model: G7210
+        design_weight: 86
+        display_size: '3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: G7220
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: G7220
+        design_weight: 102
+        display_size: '3.2'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: G730-T00
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Huawei
+        brand_model: G730-T00
+        design_weight: 180
+        display_size: '5.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: G730-U00
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Huawei
+        brand_model: G730-U00
+        design_weight: 170
+        display_size: '5.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: G730-U30
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Huawei
+        brand_model: G730-U30
+        design_weight: 180
+        display_size: '5.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: G730-c00
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Huawei
+        brand_model: G730-c00
+        design_weight: 180
+        display_size: '5.5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: G750-T01
+        -
+            strategy: string
+            value: 'Huawei Honor 3X Lite G750-T01'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Huawei
+        brand_model: G750-T01
+        brand_marketing_name: 'Huawei Honor 3X Lite G750-T01'
+        brand_names: 'Huawei Honor 3X Lite G750-T01'
+        design_weight: 162
+        display_size: '5.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: G750-U10
+        -
+            strategy: string
+            value: 'Huawei Honor 3X G750'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Huawei
+        brand_model: G750-U10
+        brand_marketing_name: 'Huawei Honor 3X G750'
+        brand_names: 'Huawei Honor 3X G750'
+        design_weight: 162
+        display_size: '5.5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: G7500
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Huawei
+        brand_model: G7500
+        design_weight: 135
+        display_size: '3.5'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'GM T3'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: 'GM T3'
+-
+    patterns:
+        -
+            strategy: string
+            value: GS03
+        -
+            strategy: string
+            value: 'Huawei U9200'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Huawei
+        brand_model: GS03
+        brand_marketing_name: 'Huawei U9200'
+        brand_names: 'Huawei U9200'
+        design_weight: 110
+        display_size: '4.3'
+        display_type: 'Super Active Matrix OLED'
+-
+    patterns:
+        -
+            strategy: string
+            value: U8180
+        -
+            strategy: string
+            value: 'Huawei Ideos X1, Huawei Gaga'
+        -
+            strategy: string
+            value: 'Huawei Ideos X1'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: U8180
+        brand_marketing_name: 'Huawei Ideos X1'
+        brand_names: 'Huawei Ideos X1, Huawei Gaga'
+        design_weight: 100
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: M886
+        -
+            strategy: string
+            value: 'Huawei Glory'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Huawei
+        brand_model: M886
+        brand_marketing_name: 'Huawei Glory'
+        brand_names: 'Huawei Glory'
+        design_weight: 139
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: H11HW
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Huawei
+        brand_model: H11HW
+        design_weight: 105
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: H30-C00
+        -
+            strategy: string
+            value: 'Huawei Honor 3C H30-C00'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Huawei
+        brand_model: H30-C00
+        brand_marketing_name: 'Huawei Honor 3C H30-C00'
+        brand_names: 'Huawei Honor 3C H30-C00'
+        design_weight: 165
+        display_size: '5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: H30-L02
+        -
+            strategy: string
+            value: 'Huawei Honor, Huawei Honor 3C 4G LTE H30-L02'
+        -
+            strategy: string
+            value: 'Huawei Honor'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Huawei
+        brand_model: H30-L02
+        brand_marketing_name: 'Huawei Honor'
+        brand_names: 'Huawei Honor, Huawei Honor 3C 4G LTE H30-L02'
+        design_weight: 145
+        display_size: '5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: H30-T00
+        -
+            strategy: string
+            value: 'Huawei Honor 3C TD H30-T00'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Huawei
+        brand_model: H30-T00
+        brand_marketing_name: 'Huawei Honor 3C TD H30-T00'
+        brand_names: 'Huawei Honor 3C TD H30-T00'
+        design_weight: 140
+        display_size: '5'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: H30-T10
+        -
+            strategy: string
+            value: 'Huawei Honor 3C'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Huawei
+        brand_model: H30-T10
+        brand_marketing_name: 'Huawei Honor 3C'
+        brand_names: 'Huawei Honor 3C'
+        design_weight: 140
+        display_size: '5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: H30-U10
+        -
+            strategy: string
+            value: 'Huawei Honor 3C'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Huawei
+        brand_model: H30-U10
+        brand_marketing_name: 'Huawei Honor 3C'
+        brand_names: 'Huawei Honor 3C'
+        design_weight: 140
+        display_size: '5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: H60-L01
+        -
+            strategy: string
+            value: 'Huawei Honor 6 H60-L01, Huawei Mulan'
+        -
+            strategy: string
+            value: 'Huawei Honor 6 H60-L01'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Huawei
+        brand_model: H60-L01
+        brand_marketing_name: 'Huawei Honor 6 H60-L01'
+        brand_names: 'Huawei Honor 6 H60-L01, Huawei Mulan'
+        design_weight: 130
+        display_size: '5'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: H60-L02
+        -
+            strategy: string
+            value: 'HUAWEI Honor 6 4G H60-L02'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Huawei
+        brand_model: H60-L02
+        brand_marketing_name: 'HUAWEI Honor 6 4G H60-L02'
+        brand_names: 'HUAWEI Honor 6 4G H60-L02'
+        design_weight: 130
+        display_size: '5'
+        display_type: 'TFT IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: H60-L04
+        -
+            strategy: string
+            value: 'Huawei Honor 6 H60-L04'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Huawei
+        brand_model: H60-L04
+        brand_marketing_name: 'Huawei Honor 6 H60-L04'
+        brand_names: 'Huawei Honor 6 H60-L04'
+        design_weight: 130
+        display_size: '5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: H867G
+        -
+            strategy: string
+            value: 'Huawei Inspira'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Huawei
+        brand_model: H867G
+        brand_marketing_name: 'Huawei Inspira'
+        brand_names: 'Huawei Inspira'
+        design_weight: 128
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: H868C
+        -
+            strategy: string
+            value: 'Huawei Glory'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        brand_vendor: Huawei
+        brand_model: H868C
+        brand_marketing_name: 'Huawei Glory'
+        brand_names: 'Huawei Glory'
+        design_weight: 680
+        display_size: '3.5'
+-
+    patterns:
+        -
+            strategy: string
+            value: H871G
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Huawei
+        brand_model: H871G
+        design_weight: 149
+        display_size: '4.5'
+        display_type: WVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: H881C
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Huawei
+        brand_model: H881C
+        design_weight: 110
+        display_size: '4.3'
+        display_type: 'Super AMOLED'
+-
+    patterns:
+        -
+            strategy: string
+            value: HN3-U01
+        -
+            strategy: string
+            value: 'Huawei Honor 3'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Huawei
+        brand_model: HN3-U01
+        brand_marketing_name: 'Huawei Honor 3'
+        brand_names: 'Huawei Honor 3'
+        design_weight: 138
+        display_size: '4.7'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: HOL-U19
+        -
+            strategy: string
+            value: 'Huawei Honor Holly'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Huawei
+        brand_model: HOL-U19
+        brand_marketing_name: 'Huawei Honor Holly'
+        brand_names: 'Huawei Honor Holly'
+        design_weight: 156
+        display_size: '5'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: Hol-U10
+        -
+            strategy: string
+            value: 'Huawei Honor 3C'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Huawei
+        brand_model: Hol-U10
+        brand_marketing_name: 'Huawei Honor 3C'
+        brand_names: 'Huawei Honor 3C'
+        design_weight: 140
+        display_size: '5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: U8860
+        -
+            strategy: string
+            value: 'Huawei Honor'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Huawei
+        brand_model: U8860
+        brand_marketing_name: 'Huawei Honor'
+        brand_names: 'Huawei Honor'
+        design_weight: 135
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: U9508
+        -
+            strategy: string
+            value: 'Huawei Honor 2'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Huawei
+        brand_model: U9508
+        brand_marketing_name: 'Huawei Honor 2'
+        brand_names: 'Huawei Honor 2'
+        design_weight: 145
+        display_size: '4.5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: Ideos
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: Ideos
+        design_weight: 102
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Ideos S7 Slim'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Huawei
+        brand_model: 'Ideos S7 Slim'
+        design_weight: 440
+        display_size: '7'
+        display_type: AMOLED
+-
+    patterns:
+        -
+            strategy: string
+            value: U8150
+        -
+            strategy: string
+            value: 'Huawei Ideos X3'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: U8150
+        brand_marketing_name: 'Huawei Ideos X3'
+        brand_names: 'Huawei Ideos X3'
+        design_weight: 102
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Ideos X5'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Huawei
+        brand_model: 'Ideos X5'
+        design_weight: 130
+        display_size: '3.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: JATULC2
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Huawei
+        brand_model: JATULC2
+        design_weight: 85
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: U8652
+        -
+            strategy: string
+            value: 'Huawei Jengu'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Huawei
+        brand_model: U8652
+        brand_marketing_name: 'Huawei Jengu'
+        brand_names: 'Huawei Jengu'
+        design_weight: 117
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: M228
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Huawei
+        brand_model: M228
+        design_weight: 84
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: M318
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Huawei
+        brand_model: M318
+        design_weight: 92
+        display_size: '1.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: M328
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Huawei
+        brand_model: M328
+        design_weight: 91
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: M615
+        -
+            strategy: string
+            value: 'Huawei Pillar'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 240
+        brand_vendor: Huawei
+        brand_model: M615
+        brand_marketing_name: 'Huawei Pillar'
+        brand_names: 'Huawei Pillar'
+        design_weight: 99
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: M635
+        -
+            strategy: string
+            value: 'Huawei Pinnacle'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 240
+        brand_vendor: Huawei
+        brand_model: M635
+        brand_marketing_name: 'Huawei Pinnacle'
+        brand_names: 'Huawei Pinnacle'
+        design_weight: 100
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: M660
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Huawei
+        brand_model: M660
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: M735
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: M735
+        design_weight: 105
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: M835
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: M835
+        design_weight: 110
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: M860
+        -
+            strategy: string
+            value: 'Huawei Ascend'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Huawei
+        brand_model: M860
+        brand_marketing_name: 'Huawei Ascend'
+        brand_names: 'Huawei Ascend'
+        design_weight: 135
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: M865
+        -
+            strategy: string
+            value: 'Huawei Ascend II'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Huawei
+        brand_model: M865
+        brand_marketing_name: 'Huawei Ascend II'
+        brand_names: 'Huawei Ascend II'
+        design_weight: 120
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: M866
+        -
+            strategy: string
+            value: 'Huawei Mercury'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Huawei
+        brand_model: M866
+        brand_marketing_name: 'Huawei Mercury'
+        brand_names: 'Huawei Mercury'
+        design_weight: 139
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: M931
+        -
+            strategy: string
+            value: 'Huawei Premia 4G'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 400
+        display_height: 800
+        brand_vendor: Huawei
+        brand_model: M931
+        brand_marketing_name: 'Huawei Premia 4G'
+        brand_names: 'Huawei Premia 4G'
+        design_weight: 140
+        display_size: '4'
+        display_type: WVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: MD-302
+        -
+            strategy: string
+            value: 'Huawei MomoDesign MD-302'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: MD-302
+        brand_marketing_name: 'Huawei MomoDesign MD-302'
+        brand_names: 'Huawei MomoDesign MD-302'
+        design_weight: 90
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: S7-302u
+        -
+            strategy: string
+            value: 'Huawei MediaPad'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1280
+        display_height: 800
+        brand_vendor: Huawei
+        brand_model: S7-302u
+        brand_marketing_name: 'Huawei MediaPad'
+        brand_names: 'Huawei MediaPad'
+        design_weight: 390
+        display_size: '7'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: S10-101w
+        -
+            strategy: string
+            value: 'Huawei MediaPad 10, Huawei Mediapad 10 FHD'
+        -
+            strategy: string
+            value: 'Huawei MediaPad 10'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1920
+        display_height: 1200
+        brand_vendor: Huawei
+        brand_model: S10-101w
+        brand_marketing_name: 'Huawei MediaPad 10'
+        brand_names: 'Huawei MediaPad 10, Huawei Mediapad 10 FHD'
+        design_weight: 598
+        display_size: '10.1'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'MediaPad 7'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1280
+        display_height: 800
+        brand_vendor: Huawei
+        brand_model: 'MediaPad 7'
+        design_weight: 400
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'MediaPad 7 Lite'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Huawei
+        brand_model: 'MediaPad 7 Lite'
+        design_weight: 370
+        display_size: '7'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: U8110
+        -
+            strategy: string
+            value: 'T-Mobile Pulse Mini, Turkcell T10, Movistar Huawei Ivy'
+        -
+            strategy: string
+            value: 'T-Mobile Pulse Mini'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: U8110
+        brand_marketing_name: 'T-Mobile Pulse Mini'
+        brand_names: 'T-Mobile Pulse Mini, Turkcell T10, Movistar Huawei Ivy'
+        design_weight: 110
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: U8687
+        -
+            strategy: string
+            value: 'Huawei Nextel Chronos'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Huawei
+        brand_model: U8687
+        brand_marketing_name: 'Huawei Nextel Chronos'
+        brand_names: 'Huawei Nextel Chronos'
+        display_size: '3.5'
+-
+    patterns:
+        -
+            strategy: string
+            value: U9700L
+        -
+            strategy: string
+            value: 'Huawei P2-6011, Huawei Ascend P2'
+        -
+            strategy: string
+            value: 'Huawei P2-6011'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Huawei
+        brand_model: U9700L
+        brand_marketing_name: 'Huawei P2-6011'
+        brand_names: 'Huawei P2-6011, Huawei Ascend P2'
+        design_weight: 122
+        display_size: '4.7'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: P6-C00
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Huawei
+        brand_model: P6-C00
+        design_weight: 120
+        display_size: '4.7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: P6-T00
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Huawei
+        brand_model: P6-T00
+        design_weight: 120
+        display_size: '4.7'
+-
+    patterns:
+        -
+            strategy: string
+            value: P6-U06
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Huawei
+        brand_model: P6-U06
+        design_weight: 120
+        display_size: '4.7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: U8220
+        -
+            strategy: string
+            value: 'Huawei Pulse'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Huawei
+        brand_model: U8220
+        brand_marketing_name: 'Huawei Pulse'
+        brand_names: 'Huawei Pulse'
+        design_weight: 130
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: S7-103
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Huawei
+        brand_model: S7-103
+        design_weight: 500
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: S7-301c
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1280
+        display_height: 800
+        brand_vendor: Huawei
+        brand_model: S7-301c
+        design_weight: 390
+        display_size: '7'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: U8650
+        -
+            strategy: string
+            value: 'Huawei Sonic, Turkcell T20'
+        -
+            strategy: string
+            value: 'Huawei Sonic'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Huawei
+        brand_model: U8650
+        brand_marketing_name: 'Huawei Sonic'
+        brand_names: 'Huawei Sonic, Turkcell T20'
+        design_weight: 120
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: U8661
+        -
+            strategy: string
+            value: 'Huawei Sonic Plus, Huawei u8661 +'
+        -
+            strategy: string
+            value: 'Huawei Sonic Plus'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Huawei
+        brand_model: U8661
+        brand_marketing_name: 'Huawei Sonic Plus'
+        brand_names: 'Huawei Sonic Plus, Huawei u8661 +'
+        design_weight: 120
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Sonic U8660'
+        -
+            strategy: string
+            value: 'Huawei Sonic U8660'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Huawei
+        brand_model: 'Sonic U8660'
+        brand_marketing_name: 'Huawei Sonic U8660'
+        brand_names: 'Huawei Sonic U8660'
+        design_weight: 120
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: T209
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Huawei
+        brand_model: T209
+        design_weight: 80
+        display_size: '1.4'
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: T7200
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: T7200
+        design_weight: 105
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: T8100
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: T8100
+        design_weight: 107
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: T8300
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Huawei
+        brand_model: T8300
+        design_weight: 104
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: T8301
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Huawei
+        brand_model: T8301
+        design_weight: 120
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: T8500
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 240
+        brand_vendor: Huawei
+        brand_model: T8500
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: T8600
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Huawei
+        brand_model: T8600
+        design_weight: 120
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: T8620
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Huawei
+        brand_model: T8620
+        design_weight: 110
+        display_size: '3.5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: T8830
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Huawei
+        brand_model: T8830
+        design_weight: 130
+        display_size: '4'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: T8833
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Huawei
+        brand_model: T8833
+        design_weight: 142
+        display_size: '4'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: U8820
+        -
+            strategy: string
+            value: 'Huawei Titan U8820'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Huawei
+        brand_model: U8820
+        brand_marketing_name: 'Huawei Titan U8820'
+        brand_names: 'Huawei Titan U8820'
+        design_weight: 130
+        display_size: '3.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: U1005
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Huawei
+        brand_model: U1005
+        display_size: '1.5'
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: U1107
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Huawei
+        brand_model: U1107
+-
+    patterns:
+        -
+            strategy: string
+            value: U120
+    capabilities:
+        is_mobile: true
+        display_width: 144
+        display_height: 262
+        brand_vendor: Huawei
+        brand_model: U120
+        design_weight: 90
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: U1205
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Huawei
+        brand_model: U1205
+        design_weight: 90
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: U121
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Huawei
+        brand_model: U121
+        design_weight: 90
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: U1211
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Huawei
+        brand_model: U1211
+        design_weight: 90
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: U1215
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Huawei
+        brand_model: U1215
+        design_weight: 90
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: U1250
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: U1250
+        design_weight: 90
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: U1280
+        -
+            strategy: string
+            value: 'Vodafone Huawei U1280'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: U1280
+        brand_marketing_name: 'Vodafone Huawei U1280'
+        design_weight: 90
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: U1300
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: U1300
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: U1305
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: U1305
+-
+    patterns:
+        -
+            strategy: string
+            value: U1307
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: U1307
+-
+    patterns:
+        -
+            strategy: string
+            value: U1310
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: U1310
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: U1315
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Huawei
+        brand_model: U1315
+        design_weight: 90
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: U2800
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Huawei
+        brand_model: U2800
+        design_weight: 75
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: U2805
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: U2805
+        design_weight: 100
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: U3100
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: U3100
+        design_weight: 90
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: U3200s
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: U3200s
+        design_weight: 95
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: U3300
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Huawei
+        brand_model: U3300
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: U3307
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Huawei
+        brand_model: U3307
+        design_weight: 90
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: U3310
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Huawei
+        brand_model: U3310
+        design_weight: 90
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: U3311
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Huawei
+        brand_model: U3311
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: U3315
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Huawei
+        brand_model: U3315
+        design_weight: 105
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: U5130
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: U5130
+        design_weight: 100
+        display_size: '2.4'
+        display_type: QVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: U526
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Huawei
+        brand_model: U526
+        design_weight: 115
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: U528
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Huawei
+        brand_model: U528
+        design_weight: 115
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: U550
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Huawei
+        brand_model: U550
+        design_weight: 105
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: U5700
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Huawei
+        brand_model: U5700
+        design_weight: 92
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: U5705
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Huawei
+        brand_model: U5705
+        design_weight: 100
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: U5900
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: U5900
+        design_weight: 112
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: U6100
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: U6100
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: U6150
+        -
+            strategy: string
+            value: IDEOS
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 240
+        brand_vendor: Huawei
+        brand_model: U6150
+        brand_marketing_name: IDEOS
+        design_weight: 110
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: U626
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: U626
+        design_weight: 135
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: U7200
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: U7200
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: U7315
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: U7315
+        design_weight: 130
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: U7510
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: U7510
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: U7515
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: U7515
+        design_weight: 105
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: U7517
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: U7517
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: U7519
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: U7519
+        design_weight: 105
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: U7520
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: U7520
+        design_weight: 105
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: U7525
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: U7525
+-
+    patterns:
+        -
+            strategy: string
+            value: U7527
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: U7527
+-
+    patterns:
+        -
+            strategy: string
+            value: U8100
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: U8100
+        design_weight: 104
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: U8120
+        -
+            strategy: string
+            value: 'Vodafone 845'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: U8120
+        brand_marketing_name: 'Vodafone 845'
+        brand_names: 'Vodafone 845'
+        design_weight: 109
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: U8160
+        -
+            strategy: string
+            value: 'Vodafone Smart VF858'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: U8160
+        brand_marketing_name: 'Vodafone Smart VF858'
+        brand_names: 'Vodafone Smart VF858'
+        design_weight: 104
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: U8186
+        -
+            strategy: string
+            value: 'Huawei Ascend Y100'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: U8186
+        brand_marketing_name: 'Huawei Ascend Y100'
+        brand_names: 'Huawei Ascend Y100'
+        display_size: '2.8'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: U8230
+        -
+            strategy: string
+            value: 'Red Bull Mobile RBM2'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Huawei
+        brand_model: U8230
+        brand_marketing_name: 'Red Bull Mobile RBM2'
+        brand_names: 'Red Bull Mobile RBM2'
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: U8300
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 240
+        brand_vendor: Huawei
+        brand_model: U8300
+        design_weight: 100
+        display_size: '2.6'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: U8510
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Huawei
+        brand_model: U8510
+        design_weight: 104
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: U8651T
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: U8651T
+        design_weight: 117
+        display_size: '3.5'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: U8665
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: U8665
+        design_weight: 118
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: U8667
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Huawei
+        brand_model: U8667
+        design_weight: 120
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: U8680
+        -
+            strategy: string
+            value: 'T-Mobile myTouch, T-Mobile myTouch Q2'
+        -
+            strategy: string
+            value: 'T-Mobile myTouch'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Huawei
+        brand_model: U8680
+        brand_marketing_name: 'T-Mobile myTouch'
+        brand_names: 'T-Mobile myTouch, T-Mobile myTouch Q2'
+        design_weight: 185
+        display_size: '4'
+-
+    patterns:
+        -
+            strategy: string
+            value: U8681
+        -
+            strategy: string
+            value: 'Huawei Ascend'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Huawei
+        brand_model: U8681
+        brand_marketing_name: 'Huawei Ascend'
+        brand_names: 'Huawei Ascend'
+        display_size: '4'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'U8800 Pro'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Huawei
+        brand_model: 'U8800 Pro'
+        design_weight: 130
+        display_size: '3.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: U8818
+        -
+            strategy: string
+            value: 'Huawei Ascend G300'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Huawei
+        brand_model: U8818
+        brand_marketing_name: 'Huawei Ascend G300'
+        brand_names: 'Huawei Ascend G300'
+        design_weight: 140
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: U8825-1
+        -
+            strategy: string
+            value: 'Huawei Ascend G330D'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Huawei
+        brand_model: U8825-1
+        brand_marketing_name: 'Huawei Ascend G330D'
+        brand_names: 'Huawei Ascend G330D'
+        design_weight: 140
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: U8836D
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Huawei
+        brand_model: U8836D
+        design_weight: 156
+        display_size: '4.3'
+        display_type: 'IPS Capacitive'
+-
+    patterns:
+        -
+            strategy: string
+            value: U8850
+        -
+            strategy: string
+            value: 'Huawei Vision'
+    capabilities:
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Huawei
+        brand_model: U8850
+        brand_marketing_name: 'Huawei Vision'
+        brand_names: 'Huawei Vision'
+        design_weight: 121
+        display_size: '3.7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: U8860-51
+        -
+            strategy: string
+            value: 'Huawei Honor'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Huawei
+        brand_model: U8860-51
+        brand_marketing_name: 'Huawei Honor'
+        brand_names: 'Huawei Honor'
+        design_weight: 135
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: U8950
+        -
+            strategy: string
+            value: 'Ascend G600'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Huawei
+        brand_model: U8950
+        brand_marketing_name: 'Ascend G600'
+        brand_names: 'Ascend G600'
+        design_weight: 150
+        display_size: '4.5'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: U8951
+        -
+            strategy: string
+            value: 'Huawei Ascend'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Huawei
+        brand_model: U8951
+        brand_marketing_name: 'Huawei Ascend'
+        brand_names: 'Huawei Ascend'
+        design_weight: 150
+        display_size: '4.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: U9100
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 240
+        brand_vendor: Huawei
+        brand_model: U9100
+        design_weight: 130
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: U9120
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: U9120
+        design_weight: 130
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: U9120-200H
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: U9120-200H
+        design_weight: 130
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: U9130
+        -
+            strategy: string
+            value: Compass
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 240
+        brand_vendor: Huawei
+        brand_model: U9130
+        brand_marketing_name: Compass
+        brand_names: Compass
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: U9200
+        -
+            strategy: string
+            value: 'Huawei Ascend P1'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Huawei
+        brand_model: U9200
+        brand_marketing_name: 'Huawei Ascend P1'
+        brand_names: 'Huawei Ascend P1'
+        design_weight: 110
+        display_size: '4.3'
+        display_type: 'Super AMOLED'
+-
+    patterns:
+        -
+            strategy: string
+            value: U9202L-1
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Huawei
+        brand_model: U9202L-1
+        design_weight: 135
+        display_size: '4.3'
+        display_type: 'Super AMOLED'
+-
+    patterns:
+        -
+            strategy: string
+            value: U9500
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1280
+        display_height: 720
+        brand_vendor: Huawei
+        brand_model: U9500
+        design_weight: 132
+        display_size: '4.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: U9501L
+        -
+            strategy: string
+            value: 'Huawei Ascend HW-01E'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Huawei
+        brand_model: U9501L
+        brand_marketing_name: 'Huawei Ascend HW-01E'
+        brand_names: 'Huawei Ascend HW-01E'
+        design_weight: 135
+        display_size: '4.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: U9510
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Huawei
+        brand_model: U9510
+        design_weight: 130
+        display_size: '4.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: V1240
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: V1240
+        design_weight: 106
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: V715
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Huawei
+        brand_model: V715
+        design_weight: 90
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: V716
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Huawei
+        brand_model: V716
+        design_weight: 90
+        display_size: '2.1'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: V720
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Huawei
+        brand_model: V720
+        design_weight: 100
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Vodafone 725'
+        -
+            strategy: string
+            value: 'Huawei V725'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: 'Vodafone 725'
+        brand_marketing_name: 'Huawei V725'
+        brand_names: 'Huawei V725'
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: V736
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: V736
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: V8302
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: V8302
+        design_weight: 105
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: V835
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: V835
+        design_weight: 110
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Y301-A1
+        -
+            strategy: string
+            value: 'Huawei Valiant'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Huawei
+        brand_model: Y301-A1
+        brand_marketing_name: 'Huawei Valiant'
+        brand_names: 'Huawei Valiant'
+        design_weight: 140
+        display_size: '4'
+-
+    patterns:
+        -
+            strategy: string
+            value: Y301-A2
+        -
+            strategy: string
+            value: 'Huawei Vitria'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Huawei
+        brand_model: Y301-A2
+        brand_marketing_name: 'Huawei Vitria'
+        brand_names: 'Huawei Vitria'
+        design_weight: 140
+        display_size: '4'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Vodafone 710'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Huawei
+        brand_model: 'Vodafone 710'
+        design_weight: 99
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Vodafone 715'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Huawei
+        brand_model: 'Vodafone 715'
+        design_weight: 90
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Vodafone 716'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Huawei
+        brand_model: 'Vodafone 716'
+        design_weight: 90
+        display_size: '2.1'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Vodafone 720'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Huawei
+        brand_model: 'Vodafone 720'
+        design_weight: 100
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Vodafone 810'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: 'Vodafone 810'
+        design_weight: 105
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Vodafone 830'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: 'Vodafone 830'
+        design_weight: 71
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Vodafone 830i'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: 'Vodafone 830i'
+        design_weight: 71
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Vodafone 840'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: 'Vodafone 840'
+        design_weight: 93
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Vodafone 845'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: 'Vodafone 845'
+        design_weight: 109
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Vodafone 858'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Huawei
+        brand_model: 'Vodafone 858'
+        design_weight: 104
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: W1-U00
+        -
+            strategy: string
+            value: 'Huawei Ascend W1'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Huawei
+        brand_model: W1-U00
+        brand_marketing_name: 'Huawei Ascend W1'
+        brand_names: 'Huawei Ascend W1'
+        design_weight: 130
+        display_size: '4'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Y 220T'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Huawei
+        brand_model: 'Y 220T'
+        design_weight: 120
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Y210-0151
+        -
+            strategy: string
+            value: 'Huawei Y210'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Huawei
+        brand_model: Y210-0151
+        brand_marketing_name: 'Huawei Y210'
+        brand_names: 'Huawei Y210'
+        design_weight: 120
+        display_size: '3.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: Y210-0100
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Huawei
+        brand_model: Y210-0100
+        design_weight: 120
+        display_size: '3.5'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: Y210-0200
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Huawei
+        brand_model: Y210-0200
+        design_weight: 120
+        display_size: '3.5'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: Y210-0251
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Huawei
+        brand_model: Y210-0251
+        design_weight: 127
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Y210-2010
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Huawei
+        brand_model: Y210-2010
+        design_weight: 120
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Y220-U00
+        -
+            strategy: string
+            value: 'Huawei Ascend'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Huawei
+        brand_model: Y220-U00
+        brand_marketing_name: 'Huawei Ascend'
+        brand_names: 'Huawei Ascend'
+        design_weight: 130
+        display_size: '3.5'
+        display_type: HVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: Y220-U05
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Huawei
+        brand_model: Y220-U05
+        design_weight: 130
+        display_size: '3.5'
+-
+    patterns:
+        -
+            strategy: string
+            value: Y220-U10
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Huawei
+        brand_model: Y220-U10
+        design_weight: 130
+        display_size: '3.5'
+-
+    patterns:
+        -
+            strategy: string
+            value: Y300-0000
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Huawei
+        brand_model: Y300-0000
+        design_weight: 130
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Y300-0151
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Huawei
+        brand_model: Y300-0151
+        design_weight: 130
+        display_size: '4'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: Y300C
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Huawei
+        brand_model: Y300C
+        design_weight: 130
+        display_size: '4'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: Y310-5000
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Huawei
+        brand_model: Y310-5000
+        design_weight: 110
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Y310-T10
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Huawei
+        brand_model: Y310-T10
+        design_weight: 130
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Y320-C00
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Huawei
+        brand_model: Y320-C00
+        design_weight: 123
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Y320-U01
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Huawei
+        brand_model: Y320-U01
+        design_weight: 120
+        display_size: '4'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: Y320-U10
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Huawei
+        brand_model: Y320-U10
+        design_weight: 123
+        display_size: '4'
+-
+    patterns:
+        -
+            strategy: string
+            value: Y320-U351
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Huawei
+        brand_model: Y320-U351
+        design_weight: 123
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Y320-u151
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Huawei
+        brand_model: Y320-u151
+        design_weight: 123
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Y321-c00
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Huawei
+        brand_model: Y321-c00
+        design_weight: 122
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Y330-U11
+        -
+            strategy: string
+            value: 'Huawei Ascend Y330'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Huawei
+        brand_model: Y330-U11
+        brand_marketing_name: 'Huawei Ascend Y330'
+        brand_names: 'Huawei Ascend Y330'
+        design_weight: 126
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Y330-U15
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Huawei
+        brand_model: Y330-U15
+        design_weight: 126
+        display_size: '4'
+        display_type: 'WVGA LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: Y330-u01
+        -
+            strategy: string
+            value: 'Huawei Ascend Y330'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Huawei
+        brand_model: Y330-u01
+        brand_marketing_name: 'Huawei Ascend Y330'
+        brand_names: 'Huawei Ascend Y330'
+        design_weight: 126
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Y340-U081
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Huawei
+        brand_model: Y340-U081
+        design_weight: 133
+        display_size: '4'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: Y500-T00
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Huawei
+        brand_model: Y500-T00
+        design_weight: 146
+        display_size: '4.3'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: Y511-T00
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Huawei
+        brand_model: Y511-T00
+        design_weight: 150
+        display_size: '4.5'
+        display_type: WVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: Y511-U00
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Huawei
+        brand_model: Y511-U00
+        design_weight: 150
+        display_size: '4.5'
+-
+    patterns:
+        -
+            strategy: string
+            value: Y511-U10
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Huawei
+        brand_model: Y511-U10
+        design_weight: 150
+        display_size: '4.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: Y511-U251
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Huawei
+        brand_model: Y511-U251
+        design_weight: 150
+        display_size: '4.5'
+-
+    patterns:
+        -
+            strategy: string
+            value: Y511-u30
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Huawei
+        brand_model: Y511-u30
+        design_weight: 150
+        display_size: '4.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Y530-U00
+        -
+            strategy: string
+            value: 'Huawei Ascend Y530'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Huawei
+        brand_model: Y530-U00
+        brand_marketing_name: 'Huawei Ascend Y530'
+        brand_names: 'Huawei Ascend Y530'
+        design_weight: 145
+        display_size: '4.5'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: Y530-U051
+        -
+            strategy: string
+            value: 'Huawei Ascend Y530'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Huawei
+        brand_model: Y530-U051
+        brand_marketing_name: 'Huawei Ascend Y530'
+        brand_names: 'Huawei Ascend Y530'
+        design_weight: 145
+        display_size: '4.5'
+        display_type: 'FWVGA LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: Y535D-C00
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Huawei
+        brand_model: Y535D-C00
+        design_weight: 168
+        display_size: '4.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Y536A1
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Huawei
+        brand_model: Y536A1
+        display_size: '4.5'
+-
+    patterns:
+        -
+            strategy: string
+            value: Y600-U00
+        -
+            strategy: string
+            value: 'Huawei Ascend'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Huawei
+        brand_model: Y600-U00
+        brand_marketing_name: 'Huawei Ascend'
+        brand_names: 'Huawei Ascend'
+        design_weight: 180
+        display_size: '5'
+        display_type: 'FWVGA TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: Y600-U20
+        -
+            strategy: string
+            value: 'Huawei Ascend Y600'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Huawei
+        brand_model: Y600-U20
+        brand_marketing_name: 'Huawei Ascend Y600'
+        brand_names: 'Huawei Ascend Y600'
+        design_weight: 180
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Y600-U40
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Huawei
+        brand_model: Y600-U40
+        design_weight: 180
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Y610-U00
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Huawei
+        brand_model: Y610-U00
+        design_weight: 180
+        display_size: '5'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: P7-L09
+        -
+            strategy: string
+            value: 'Huawei Ascend P7'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Huawei
+        brand_model: P7-L09
+        brand_marketing_name: 'Huawei Ascend P7'
+        brand_names: 'Huawei Ascend P7'
+        design_weight: 124
+        display_size: '5'
+        display_type: LCD

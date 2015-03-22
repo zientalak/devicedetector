@@ -1,0 +1,484 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: Z401
+        -
+            strategy: string
+            value: 'Plum Axe'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Plum
+        brand_model: Z401
+        brand_marketing_name: 'Plum Axe'
+        brand_names: 'Plum Axe'
+        design_weight: 98
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Axe II'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Plum
+        brand_model: 'Axe II'
+        design_weight: 110
+        display_size: '4'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: Bubby
+    capabilities:
+        is_mobile: true
+        display_width: 120
+        display_height: 160
+        brand_vendor: Plum
+        brand_model: Bubby
+        design_weight: 50
+        display_size: '1.77'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Caliber
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Plum
+        brand_model: Caliber
+        design_weight: 90
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Z301
+        -
+            strategy: string
+            value: 'Plum Capacity'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Plum
+        brand_model: Z301
+        brand_marketing_name: 'Plum Capacity'
+        brand_names: 'Plum Capacity'
+        design_weight: 98
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Debut
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Plum
+        brand_model: Debut
+        design_weight: 388
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Flix
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Plum
+        brand_model: Flix
+        design_weight: 90
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Galactic
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Plum
+        brand_model: Galactic
+        design_weight: 93
+        display_size: '2.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Genius
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Plum
+        brand_model: Genius
+        design_weight: 91
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Geo
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Plum
+        brand_model: Geo
+        design_weight: 90
+        display_size: '2.6'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Inspire
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Plum
+        brand_model: Inspire
+        design_weight: 75
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: K100
+        -
+            strategy: string
+            value: Boom
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Plum
+        brand_model: K100
+        brand_marketing_name: Boom
+        brand_names: Boom
+        design_weight: 85
+        display_size: '1.77'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Kazzom
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Plum
+        brand_model: Kazzom
+        design_weight: 69
+        display_size: '1.77'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Link
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Plum
+        brand_model: Link
+        design_weight: 260
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Might
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Plum
+        brand_model: Might
+        design_weight: 180
+        display_size: '5.3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Might Plus'
+        -
+            strategy: string
+            value: 'Plum Might Plus Z512'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Plum
+        brand_model: 'Might Plus'
+        brand_marketing_name: 'Plum Might Plus Z512'
+        brand_names: 'Plum Might Plus Z512'
+        design_weight: 175
+        display_size: '5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: Orbit
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 400
+        brand_vendor: Plum
+        brand_model: Orbit
+        design_weight: 92
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P005
+        -
+            strategy: string
+            value: Whiz
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Plum
+        brand_model: P005
+        brand_marketing_name: Whiz
+        brand_names: Whiz
+        design_weight: 63
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P105
+        -
+            strategy: string
+            value: Strike
+    capabilities:
+        is_mobile: true
+        display_width: 144
+        display_height: 176
+        brand_vendor: Plum
+        brand_model: P105
+        brand_marketing_name: Strike
+        brand_names: Strike
+        design_weight: 90
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Profile
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Plum
+        brand_model: Profile
+        design_weight: 65
+        display_size: '1.77'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Snap
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Plum
+        brand_model: Snap
+        design_weight: 95
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Spare
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Plum
+        brand_model: Spare
+        design_weight: 65
+        display_size: '1.77'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Stubby
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Plum
+        brand_model: Stubby
+        design_weight: 83
+        display_size: '1.7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Stubby II'
+    capabilities:
+        is_mobile: true
+        display_width: 144
+        display_height: 176
+        brand_vendor: Plum
+        brand_model: 'Stubby II'
+        design_weight: 85
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Switch
+    capabilities:
+        is_mobile: true
+        display_width: 160
+        display_height: 240
+        brand_vendor: Plum
+        brand_model: Switch
+        design_weight: 106
+        display_size: '1.77'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Tingle
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 400
+        brand_vendor: Plum
+        brand_model: Tingle
+        design_weight: 126
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Tracer II'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Plum
+        brand_model: 'Tracer II'
+        design_weight: 93
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Trion
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Plum
+        brand_model: Trion
+        design_weight: 66
+        display_size: '1.77'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Trip
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Plum
+        brand_model: Trip
+        design_weight: 50
+        display_size: '1.77'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Tweek
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Plum
+        brand_model: Tweek
+        design_weight: 50
+        display_size: '1.77'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Velocity
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Plum
+        brand_model: Velocity
+        design_weight: 135
+        display_size: '2.6'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Wicked Z100'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Plum
+        brand_model: 'Wicked Z100'
+        design_weight: 92
+        display_size: '2.8'
+        display_type: TFT

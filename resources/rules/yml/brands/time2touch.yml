@@ -1,0 +1,27 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: MC701a
+    capabilities:
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Time2Touch
+        brand_model: MC701a
+        design_weight: 325
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: TC1042C
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Time2Touch
+        brand_model: TC1042C
+        display_size: '10.1'
+        display_type: LCD

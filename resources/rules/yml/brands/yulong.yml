@@ -1,0 +1,12 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Coolpad 288'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Yulong
+        brand_model: 'Coolpad 288'
+        display_type: TFT

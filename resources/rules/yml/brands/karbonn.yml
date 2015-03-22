@@ -1,0 +1,1423 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'A1 Plus'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Karbonn
+        brand_model: 'A1 Plus'
+        design_weight: 130
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'A1 Plus Champ'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Karbonn
+        brand_model: 'A1 Plus Champ'
+        design_weight: 109
+        display_size: '3.5'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'A1 Plus Duple'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Karbonn
+        brand_model: 'A1 Plus Duple'
+        design_weight: 107
+        display_size: '3.5'
+        display_type: 'HVGA IPS'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'A1 Plus Super'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Karbonn
+        brand_model: 'A1 Plus Super'
+        design_weight: 107
+        display_size: '3.5'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'A1 Pro'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Karbonn
+        brand_model: 'A1 Pro'
+        display_size: '3.5'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'A1 Star'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Karbonn
+        brand_model: 'A1 Star'
+        design_weight: 110
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'A11 Plus'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Karbonn
+        brand_model: 'A11 Plus'
+        display_size: '4.7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A111
+        -
+            strategy: string
+            value: 'Karbonn Smart'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Karbonn
+        brand_model: A111
+        brand_marketing_name: 'Karbonn Smart'
+        brand_names: 'Karbonn Smart'
+        design_weight: 135
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A12
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Karbonn
+        brand_model: A12
+        design_weight: 164
+        display_size: '4.5'
+        display_type: 'qHD LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'A12 Plus'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Karbonn
+        brand_model: 'A12 Plus'
+        display_size: '4'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: A14
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Karbonn
+        brand_model: A14
+        design_weight: 130
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'A15 Plus'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Karbonn
+        brand_model: 'A15 Plus'
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A16
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Karbonn
+        brand_model: A16
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'A18 plus'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Karbonn
+        brand_model: 'A18 plus'
+        display_size: '5'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'A2 Plus'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Karbonn
+        brand_model: 'A2 Plus'
+        design_weight: 110
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'A21 Plus'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Karbonn
+        brand_model: 'A21 Plus'
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A25
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Karbonn
+        brand_model: A25
+        design_weight: 150
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'A25 Plus'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Karbonn
+        brand_model: 'A25 Plus'
+        design_weight: 150
+        display_size: '5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'A27 plus'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Karbonn
+        brand_model: 'A27 plus'
+        design_weight: 126
+        display_size: '4.3'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: A29
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Karbonn
+        brand_model: A29
+        display_size: '4.7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'A3 Plus'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Karbonn
+        brand_model: 'A3 Plus'
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'A3 Star'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Karbonn
+        brand_model: 'A3 Star'
+        design_weight: 90
+        display_size: '3.5'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: A30
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Karbonn
+        brand_model: A30
+        design_weight: 280
+        display_size: '6'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A34HD
+        -
+            strategy: string
+            value: 'Karbonn Ta-Fone A34 HD Star'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Karbonn
+        brand_model: A34HD
+        brand_marketing_name: 'Karbonn Ta-Fone A34 HD Star'
+        brand_names: 'Karbonn Ta-Fone A34 HD Star'
+        design_weight: 250
+        display_size: '7'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: A35
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Karbonn
+        brand_model: A35
+        display_size: '5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: A4
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Karbonn
+        brand_model: A4
+        design_weight: 75
+        display_size: '4'
+        display_type: HVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: 'A4 Plus'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Karbonn
+        brand_model: 'A4 Plus'
+        design_weight: 75
+        display_size: '4'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: A40
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Karbonn
+        brand_model: A40
+        display_size: '5'
+        display_type: 'TFT IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'A5 Plus'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Karbonn
+        brand_model: 'A5 Plus'
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'A5 Star'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Karbonn
+        brand_model: 'A5 Star'
+        display_size: '3.2'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'A5 Turbo'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Karbonn
+        brand_model: 'A5 Turbo'
+        design_weight: 107
+        display_size: '3.5'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: A50
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Karbonn
+        brand_model: A50
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A50S
+        -
+            strategy: string
+            value: 'Karbonn Smart A50s'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Karbonn
+        brand_model: A50S
+        brand_marketing_name: 'Karbonn Smart A50s'
+        brand_names: 'Karbonn Smart A50s'
+        design_weight: 98
+        display_size: '3.5'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: A51
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Karbonn
+        brand_model: A51
+        design_weight: 122
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'A51 Lite'
+        -
+            strategy: string
+            value: 'Karbonn Smart A51 Lite'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Karbonn
+        brand_model: 'A51 Lite'
+        brand_marketing_name: 'Karbonn Smart A51 Lite'
+        brand_names: 'Karbonn Smart A51 Lite'
+        design_weight: 122
+        display_size: '3.5'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'A51 Plus'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Karbonn
+        brand_model: 'A51 Plus'
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'A52 Plus'
+        -
+            strategy: string
+            value: 'Karbonn Smart A52 Plus, Karbonn A52+'
+        -
+            strategy: string
+            value: 'Karbonn Smart A52 Plus'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Karbonn
+        brand_model: 'A52 Plus'
+        brand_marketing_name: 'Karbonn Smart A52 Plus'
+        brand_names: 'Karbonn Smart A52 Plus, Karbonn A52+'
+        design_weight: 100
+        display_size: '3.5'
+        display_type: 'HVGA IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'A52 lite'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Karbonn
+        brand_model: 'A52 lite'
+        design_weight: 100
+        display_size: '3.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: A55i
+        -
+            strategy: string
+            value: 'Karbonn Smart A55I'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Karbonn
+        brand_model: A55i
+        brand_marketing_name: 'Karbonn Smart A55I'
+        brand_names: 'Karbonn Smart A55I'
+        design_weight: 140
+        display_size: '3.5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: A5i
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Karbonn
+        brand_model: A5i
+        design_weight: 130
+        display_size: '3.5'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'A6 Plus'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Karbonn
+        brand_model: 'A6 Plus'
+        design_weight: 114
+        display_size: '4'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: A6S
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Karbonn
+        brand_model: A6S
+        design_weight: 114
+        display_size: '4'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'A7 Plus'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Karbonn
+        brand_model: 'A7 Plus'
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'A7 Star'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Karbonn
+        brand_model: 'A7 Star'
+        display_size: '4.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'A9 Star'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Karbonn
+        brand_model: 'A9 Star'
+        design_weight: 121
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A91
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Karbonn
+        brand_model: A91
+        design_weight: 120
+        display_size: '3.9'
+        display_type: 'WVGA TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'A92 Plus'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Karbonn
+        brand_model: 'A92 Plus'
+        design_weight: 120
+        display_size: '3.97'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'A92 Star'
+        -
+            strategy: string
+            value: 'Karbonn Smart A92 Star'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Karbonn
+        brand_model: 'A92 Star'
+        brand_marketing_name: 'Karbonn Smart A92 Star'
+        brand_names: 'Karbonn Smart A92 Star'
+        display_size: '4'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: A93
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Karbonn
+        brand_model: A93
+        design_weight: 125
+        display_size: '4'
+        display_type: TFT-LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: A99
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Karbonn
+        brand_model: A99
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'A99 Star'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Karbonn
+        brand_model: 'A99 Star'
+        design_weight: 440
+        display_size: '3.97'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: A99I
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Karbonn
+        brand_model: A99I
+        design_weight: 116
+        display_size: '4'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: A9S
+        -
+            strategy: string
+            value: 'Karbonn Smart A9S'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Karbonn
+        brand_model: A9S
+        brand_marketing_name: 'Karbonn Smart A9S'
+        brand_names: 'Karbonn Smart A9S'
+        design_weight: 115
+        display_size: '4'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Sparkle V'
+        -
+            strategy: string
+            value: 'Karbonn Android One'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Karbonn
+        brand_model: 'Sparkle V'
+        brand_marketing_name: 'Karbonn Android One'
+        brand_names: 'Karbonn Android One'
+        design_weight: 116
+        display_size: '4.5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Smart Tab 3'
+        -
+            strategy: string
+            value: 'Karbonn Blade'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Karbonn
+        brand_model: 'Smart Tab 3'
+        brand_marketing_name: 'Karbonn Blade'
+        brand_names: 'Karbonn Blade'
+        design_weight: 225
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: K65
+        -
+            strategy: string
+            value: 'Karbonn Buzz'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Karbonn
+        brand_model: K65
+        brand_marketing_name: 'Karbonn Buzz'
+        brand_names: 'Karbonn Buzz'
+        design_weight: 130
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: KT81
+        -
+            strategy: string
+            value: 'Karbonn Cosmos'
+    capabilities:
+        is_mobile: true
+        brand_vendor: Karbonn
+        brand_model: KT81
+        brand_marketing_name: 'Karbonn Cosmos'
+        brand_names: 'Karbonn Cosmos'
+        display_size: '3.2'
+-
+    patterns:
+        -
+            strategy: string
+            value: KT21
+        -
+            strategy: string
+            value: 'Karbonn Express'
+    capabilities:
+        is_mobile: true
+        brand_vendor: Karbonn
+        brand_model: KT21
+        brand_marketing_name: 'Karbonn Express'
+        brand_names: 'Karbonn Express'
+        display_size: '2.8'
+-
+    patterns:
+        -
+            strategy: string
+            value: KT61
+        -
+            strategy: string
+            value: 'Karbonn Iconik'
+    capabilities:
+        is_mobile: true
+        brand_vendor: Karbonn
+        brand_model: KT61
+        brand_marketing_name: 'Karbonn Iconik'
+        brand_names: 'Karbonn Iconik'
+        display_size: '2.8'
+-
+    patterns:
+        -
+            strategy: string
+            value: KT-7
+        -
+            strategy: string
+            value: 'Karbonn Jumbo TNT'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Karbonn
+        brand_model: KT-7
+        brand_marketing_name: 'Karbonn Jumbo TNT'
+        brand_names: 'Karbonn Jumbo TNT'
+        design_weight: 110
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'K 101'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Karbonn
+        brand_model: 'K 101'
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'K 1010'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Karbonn
+        brand_model: 'K 1010'
+        design_weight: 85
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'K 1616'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Karbonn
+        brand_model: 'K 1616'
+        design_weight: 135
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'K 201'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Karbonn
+        brand_model: 'K 201'
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'K 280'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Karbonn
+        brand_model: 'K 280'
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'K 404'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Karbonn
+        brand_model: 'K 404'
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'K 444x'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Karbonn
+        brand_model: 'K 444x'
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: K22
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Karbonn
+        brand_model: K22
+        design_weight: 98
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: K444
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Karbonn
+        brand_model: K444
+        design_weight: 100
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: K451
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Karbonn
+        brand_model: K451
+        design_weight: 80
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: K75
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Karbonn
+        brand_model: K75
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: K77
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Karbonn
+        brand_model: K77
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: QCP-2255
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Karbonn
+        brand_model: QCP-2255
+        design_weight: 123
+        display_size: '1.5'
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: S5
+        -
+            strategy: string
+            value: 'Karbonn S5 Titanium'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Karbonn
+        brand_model: S5
+        brand_marketing_name: 'Karbonn S5 Titanium'
+        brand_names: 'Karbonn S5 Titanium'
+        display_size: '5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: ST10
+        -
+            strategy: string
+            value: 'Karbonn Smart Tab 10'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Karbonn
+        brand_model: ST10
+        brand_marketing_name: 'Karbonn Smart Tab 10'
+        brand_names: 'Karbonn Smart Tab 10'
+        display_size: '9.7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'ST3 Blade'
+        -
+            strategy: string
+            value: 'Karbonn Smart Tab 3 Blade'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Karbonn
+        brand_model: 'ST3 Blade'
+        brand_marketing_name: 'Karbonn Smart Tab 3 Blade'
+        brand_names: 'Karbonn Smart Tab 3 Blade'
+        design_weight: 295
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: ST72
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Karbonn
+        brand_model: ST72
+        design_weight: 290
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: ST8
+        -
+            strategy: string
+            value: 'Karbonn Smart Tab 8 Velox'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Karbonn
+        brand_model: ST8
+        brand_marketing_name: 'Karbonn Smart Tab 8 Velox'
+        brand_names: 'Karbonn Smart Tab 8 Velox'
+        display_size: '8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'ST9 Marvel'
+        -
+            strategy: string
+            value: 'Karbonn Smart Tab 9 Marvel'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Karbonn
+        brand_model: 'ST9 Marvel'
+        brand_marketing_name: 'Karbonn Smart Tab 9 Marvel'
+        brand_names: 'Karbonn Smart Tab 9 Marvel'
+        design_weight: 345
+        display_size: '9'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Smart Tab 2'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Karbonn
+        brand_model: 'Smart Tab 2'
+        display_size: '7'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Smart Tab 9'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        brand_vendor: Karbonn
+        brand_model: 'Smart Tab 9'
+        display_size: '9'
+        display_type: WVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Smart Tab1'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Karbonn
+        brand_model: 'Smart Tab1'
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'TA-Fone A39 HD'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Karbonn
+        brand_model: 'TA-Fone A39 HD'
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Ta Fone A34'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Karbonn
+        brand_model: 'Ta Fone A34'
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Ta Fone A37'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        brand_vendor: Karbonn
+        brand_model: 'Ta Fone A37'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Titanium Hexa'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Karbonn
+        brand_model: 'Titanium Hexa'
+        display_size: '5.5'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Titanium Octane'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Karbonn
+        brand_model: 'Titanium Octane'
+        design_weight: 140
+        display_size: '5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Titanium S1 Plus'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Karbonn
+        brand_model: 'Titanium S1 Plus'
+        display_size: '4'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Titanium S2 Plus'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Karbonn
+        brand_model: 'Titanium S2 Plus'
+        design_weight: 120
+        display_size: '5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Titanium S3'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Karbonn
+        brand_model: 'Titanium S3'
+        design_weight: 120
+        display_size: '5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Titanium S6'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Karbonn
+        brand_model: 'Titanium S6'
+        design_weight: 104
+        display_size: '5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Titanium S7'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Karbonn
+        brand_model: 'Titanium S7'
+        design_weight: 155
+        display_size: '5'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Titanium S9'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Karbonn
+        brand_model: 'Titanium S9'
+        design_weight: 176
+        display_size: '5.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Titanium S99'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Karbonn
+        brand_model: 'Titanium S99'
+        design_weight: 122
+        display_size: '4'
+        display_type: 'IPS TFT'

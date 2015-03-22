@@ -1,0 +1,26 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: iK201
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: iKoMo
+        brand_model: iK201
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: iK202
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: iKoMo
+        brand_model: iK202
+        design_weight: 80
+        display_type: TFT

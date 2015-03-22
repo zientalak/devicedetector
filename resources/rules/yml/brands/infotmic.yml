@@ -1,0 +1,77 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Terra 7OL'
+        -
+            strategy: string
+            value: 'GoClever Terra 7O L'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Infotmic
+        brand_model: 'Terra 7OL'
+        brand_marketing_name: 'GoClever Terra 7O L'
+        brand_names: 'GoClever Terra 7O L'
+        design_weight: 272
+        display_size: '7'
+        display_type: 'TN LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: A5MID
+        -
+            strategy: string
+            value: 'IPPO Y8, Infotmic IMAPx800'
+        -
+            strategy: string
+            value: 'IPPO Y8'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Infotmic
+        brand_model: A5MID
+        brand_marketing_name: 'IPPO Y8'
+        brand_names: 'IPPO Y8, Infotmic IMAPx800'
+        design_weight: 270
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: X210
+        -
+            strategy: string
+            value: 'Infotmic M799ca'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Infotmic
+        brand_model: X210
+        brand_marketing_name: 'Infotmic M799ca'
+        brand_names: 'Infotmic M799ca'
+        design_weight: 370
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: X15
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Infotmic
+        brand_model: X15
+        design_weight: 304
+        display_size: '7'
+        display_type: TFT

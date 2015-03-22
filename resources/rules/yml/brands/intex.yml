@@ -1,0 +1,1186 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Aqua 3.2'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Intex
+        brand_model: 'Aqua 3.2'
+        design_weight: 113
+        display_size: '3.2'
+        display_type: QVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Aqua 3G'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Intex
+        brand_model: 'Aqua 3G'
+        design_weight: 120
+        display_size: '4'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Aqua 4.0'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 320
+        brand_vendor: Intex
+        brand_model: 'Aqua 4.0'
+        design_weight: 115
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Aqua 4X'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Intex
+        brand_model: 'Aqua 4X'
+        design_weight: 120
+        display_size: '4'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Aqua 5.0'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Intex
+        brand_model: 'Aqua 5.0'
+        design_weight: 198
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Aqua Active'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Intex
+        brand_model: 'Aqua Active'
+        design_weight: 122
+        display_size: '3.5'
+        display_type: QVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Aqua Curve'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Intex
+        brand_model: 'Aqua Curve'
+        design_weight: 152
+        display_size: '5'
+        display_type: 'QHD TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Aqua Flash'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Intex
+        brand_model: 'Aqua Flash'
+        design_weight: 118
+        display_size: '4.3'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Aqua Glory'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Intex
+        brand_model: 'Aqua Glory'
+        design_weight: 114
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Aqua Glow'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Intex
+        brand_model: 'Aqua Glow'
+        design_weight: 101
+        display_size: '4'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Aqua HD'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Intex
+        brand_model: 'Aqua HD'
+        design_weight: 133
+        display_size: '4.7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Aqua I-4 Plus'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Intex
+        brand_model: 'Aqua I-4 Plus'
+        design_weight: 122
+        display_size: '5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Aqua I-5'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Intex
+        brand_model: 'Aqua I-5'
+        design_weight: 155
+        display_size: '5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Aqua I14'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Intex
+        brand_model: 'Aqua I14'
+        design_weight: 172
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Aqua I4'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Intex
+        brand_model: 'Aqua I4'
+        design_weight: 133
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Aqua I4 Plus'
+        -
+            strategy: string
+            value: 'Intex Aqua I4 Plus'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Intex
+        brand_model: 'Aqua I4 Plus'
+        brand_marketing_name: 'Intex Aqua I4 Plus'
+        brand_names: 'Intex Aqua I4 Plus'
+        design_weight: 122
+        display_size: '5'
+        display_type: WVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Aqua I6'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Intex
+        brand_model: 'Aqua I6'
+        design_weight: 173
+        display_size: '5'
+        display_type: FWVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Aqua I7'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Intex
+        brand_model: 'Aqua I7'
+        design_weight: 143
+        display_size: '5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Aqua Marvel'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Intex
+        brand_model: 'Aqua Marvel'
+        design_weight: 138
+        display_size: '3.5'
+        display_type: HVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Aqua Marvel Plus'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Intex
+        brand_model: 'Aqua Marvel Plus'
+        design_weight: 138
+        display_size: '3.5'
+        display_type: HVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Aqua N15'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Intex
+        brand_model: 'Aqua N15'
+        design_weight: 133
+        display_size: '4'
+        display_type: 'WVGA IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Aqua N17'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Intex
+        brand_model: 'Aqua N17'
+        design_weight: 140
+        display_size: '4.5'
+        display_type: 'FWVGA IPS'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Aqua N2'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Intex
+        brand_model: 'Aqua N2'
+        design_weight: 121
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Aqua N4'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Intex
+        brand_model: 'Aqua N4'
+        design_weight: 122
+        display_size: '4'
+        display_type: 'WVGA TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Aqua N8'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Intex
+        brand_model: 'Aqua N8'
+        design_weight: 105
+        display_size: '4.5'
+        display_type: 'FWVGA TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Aqua S'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Intex
+        brand_model: 'Aqua S'
+        design_weight: 138
+        display_size: '3.5'
+        display_type: HVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Aqua SX'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Intex
+        brand_model: 'Aqua SX'
+        design_weight: 138
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Aqua Star'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Intex
+        brand_model: 'Aqua Star'
+        design_weight: 114
+        display_size: '4'
+        display_type: WVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Aqua Style'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Intex
+        brand_model: 'Aqua Style'
+        design_weight: 227
+        display_size: '6'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Aqua Swadesh'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Intex
+        brand_model: 'Aqua Swadesh'
+        design_weight: 113
+        display_size: '3.2'
+        display_type: QVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Aqua T2'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Intex
+        brand_model: 'Aqua T2'
+        design_weight: 109
+        display_size: '3.5'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Aqua T3'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Intex
+        brand_model: 'Aqua T3'
+        design_weight: 105
+        display_size: '3.5'
+        display_type: 'HVGA TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Aqua T4'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Intex
+        brand_model: 'Aqua T4'
+        design_weight: 100
+        display_size: '3.5'
+        display_type: 'HVGA TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Aqua T5'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Intex
+        brand_model: 'Aqua T5'
+        design_weight: 104
+        display_size: '3.5'
+        display_type: 'HVGA TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Aqua Trendy'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Intex
+        brand_model: 'Aqua Trendy'
+        design_weight: 198
+        display_size: '3.5'
+        display_type: WVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Aqua Wonder'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Intex
+        brand_model: 'Aqua Wonder'
+        design_weight: 125
+        display_size: '4.5'
+        display_type: HD-IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Aqua Wonder Quad Core'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1440
+        display_height: 2560
+        brand_vendor: Intex
+        brand_model: 'Aqua Wonder Quad Core'
+        design_weight: 125
+        display_size: '4.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Aqua Y2'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Intex
+        brand_model: 'Aqua Y2'
+        design_weight: 120
+        display_size: '4'
+        display_type: 'FWVGA, IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Aqua i2'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Intex
+        brand_model: 'Aqua i2'
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Aqua i3'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Intex
+        brand_model: 'Aqua i3'
+        design_weight: 119
+        display_size: '5'
+        display_type: FWVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Aqua i5 HD'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Intex
+        brand_model: 'Aqua i5 HD'
+        design_weight: 149
+        display_size: '5'
+        display_type: 'QHD IPS'
+-
+    patterns:
+        -
+            strategy: string
+            value: IT-M804RC
+        -
+            strategy: string
+            value: 'Intex Avatar 2'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 768
+        display_height: 1024
+        brand_vendor: Intex
+        brand_model: IT-M804RC
+        brand_marketing_name: 'Intex Avatar 2'
+        brand_names: 'Intex Avatar 2'
+        design_weight: 490
+        display_size: '8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Avatar 2.0'
+        -
+            strategy: string
+            value: 'Avatar 3D 2.0'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Intex
+        brand_model: 'Avatar 2.0'
+        brand_marketing_name: 'Avatar 3D 2.0'
+        brand_names: 'Avatar 3D 2.0'
+        design_weight: 125
+        display_size: '2.8'
+        display_type: QVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Avatar IT-M809rc'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 600
+        brand_vendor: Intex
+        brand_model: 'Avatar IT-M809rc'
+        design_weight: 475
+        display_size: '8'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Cloud VX'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Intex
+        brand_model: 'Cloud VX'
+        design_weight: 104
+        display_size: '3.5'
+        display_type: 'HVGA TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Cloud X plus'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Intex
+        brand_model: 'Cloud X plus'
+        design_weight: 104
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Cloud X1'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Intex
+        brand_model: 'Cloud X1'
+        design_weight: 108
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Cloud X12'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Intex
+        brand_model: 'Cloud X12'
+        design_weight: 115
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Cloud X2'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Intex
+        brand_model: 'Cloud X2'
+        design_weight: 108
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Cloud X3'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Intex
+        brand_model: 'Cloud X3'
+        design_weight: 75
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Cloud X4'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Intex
+        brand_model: 'Cloud X4'
+        design_weight: 112
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Cloud X5'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Intex
+        brand_model: 'Cloud X5'
+        design_weight: 100
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Cloud Y1'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Intex
+        brand_model: 'Cloud Y1'
+        design_weight: 100
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Cloud Y10'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Intex
+        brand_model: 'Cloud Y10'
+        design_weight: 126
+        display_size: '4'
+        display_type: 'WVGA TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Cloud Y11'
+        -
+            strategy: string
+            value: 'Intex Cloud Y11'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Intex
+        brand_model: 'Cloud Y11'
+        brand_marketing_name: 'Intex Cloud Y11'
+        brand_names: 'Intex Cloud Y11'
+        design_weight: 120
+        display_size: '4'
+        display_type: 'WVGA TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Cloud Y12'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Intex
+        brand_model: 'Cloud Y12'
+        design_weight: 137
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Cloud Y13'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Intex
+        brand_model: 'Cloud Y13'
+        design_weight: 113
+        display_size: '4'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Cloud Y13 Plus'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Intex
+        brand_model: 'Cloud Y13 Plus'
+        design_weight: 113
+        display_size: '4'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Cloud Y17'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Intex
+        brand_model: 'Cloud Y17'
+        display_size: '4.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Cloud Y17 Plus'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Intex
+        brand_model: 'Cloud Y17 Plus'
+        design_weight: 140
+        display_size: '4.5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Cloud Y2'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Intex
+        brand_model: 'Cloud Y2'
+        design_weight: 114
+        display_size: '4'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Cloud Y3'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Intex
+        brand_model: 'Cloud Y3'
+        design_weight: 113
+        display_size: '4'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Cloud Y4'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Intex
+        brand_model: 'Cloud Y4'
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Cloud Y5'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Intex
+        brand_model: 'Cloud Y5'
+        design_weight: 75
+        display_size: '4.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Cloud Y7'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Intex
+        brand_model: 'Cloud Y7'
+        design_weight: 139
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Cloud Z5'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Intex
+        brand_model: 'Cloud Z5'
+        design_weight: 175
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Cloud Z6'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Intex
+        brand_model: 'Cloud Z6'
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Dezire
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Intex
+        brand_model: Dezire
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'I Buddy Connect - 3G'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Intex
+        brand_model: 'I Buddy Connect - 3G'
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'IT M747 RK'
+        -
+            strategy: string
+            value: 'Intex Ray 7'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Intex
+        brand_model: 'IT M747 RK'
+        brand_marketing_name: 'Intex Ray 7'
+        brand_names: 'Intex Ray 7'
+        display_size: '7'
+        display_type: 'TFT LED'
+-
+    patterns:
+        -
+            strategy: string
+            value: IT-M700-MT
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Intex
+        brand_model: IT-M700-MT
+        design_weight: 325
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: M747
+        -
+            strategy: string
+            value: 'Intex Ray'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Intex
+        brand_model: M747
+        brand_marketing_name: 'Intex Ray'
+        brand_names: 'Intex Ray'
+        display_size: '7'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: Player
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Intex
+        brand_model: Player
+        design_weight: 70
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Turbo 3.5'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Intex
+        brand_model: 'Turbo 3.5'
+        design_weight: 90
+        display_size: '3.5'
+        display_type: HVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: 'i-Buddy 7'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Intex
+        brand_model: 'i-Buddy 7'
+        design_weight: 316
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'i-Buddy Connect 3G'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Intex
+        brand_model: 'i-Buddy Connect 3G'
+        design_weight: 340
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'iBuddy 3'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Intex
+        brand_model: 'iBuddy 3'
+        design_weight: 325
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'iBuddy Connect'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Intex
+        brand_model: 'iBuddy Connect'
+        design_weight: 340
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: iTab
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 600
+        brand_vendor: Intex
+        brand_model: iTab
+        design_weight: 475
+        display_size: '8'
+        display_type: TFT

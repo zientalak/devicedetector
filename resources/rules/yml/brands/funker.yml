@@ -1,0 +1,29 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: R452
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Funker
+        brand_model: R452
+        design_weight: 135
+        display_size: '4.5'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: T72i
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Funker
+        brand_model: T72i
+        design_weight: 320
+        display_size: '7'

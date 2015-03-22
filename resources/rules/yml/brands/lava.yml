@@ -1,0 +1,1646 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Iris 354'
+        -
+            strategy: string
+            value: 'Lava 3G 354'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Lava
+        brand_model: 'Iris 354'
+        brand_marketing_name: 'Lava 3G 354'
+        brand_names: 'Lava 3G 354'
+        design_weight: 103
+        display_size: '3.5'
+        display_type: 'HVGA TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Iris 415'
+        -
+            strategy: string
+            value: 'Lava 3G 415, Lava Iris 3G 415'
+        -
+            strategy: string
+            value: 'Lava 3G 415'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Lava
+        brand_model: 'Iris 415'
+        brand_marketing_name: 'Lava 3G 415'
+        brand_names: 'Lava 3G 415, Lava Iris 3G 415'
+        design_weight: 119
+        display_size: '4'
+        display_type: 'WVGA TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Iris 700'
+        -
+            strategy: string
+            value: 'AIS LAVA T4.5'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Lava
+        brand_model: 'Iris 700'
+        brand_marketing_name: 'AIS LAVA T4.5'
+        brand_names: 'AIS LAVA T4.5'
+        design_weight: 133
+        display_size: '4.5'
+        display_type: 'qHD IPS TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'ARC 1 Plus'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Lava
+        brand_model: 'ARC 1 Plus'
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'ARC 90'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Lava
+        brand_model: 'ARC 90'
+        display_size: '2.6'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: ARC01
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Lava
+        brand_model: ARC01
+        display_size: '1.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: ARC02
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Lava
+        brand_model: ARC02
+        display_size: '1.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: ARC03
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Lava
+        brand_model: ARC03
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: ARC03N
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Lava
+        brand_model: ARC03N
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: ARC04
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Lava
+        brand_model: ARC04
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: ARC05
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Lava
+        brand_model: ARC05
+        design_weight: 80
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: ARC21
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Lava
+        brand_model: ARC21
+        design_weight: 81
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: ARC9
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Lava
+        brand_model: ARC9
+        design_weight: 82
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: ARC9i
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Lava
+        brand_model: ARC9i
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: B6
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Lava
+        brand_model: B6
+        display_size: '2.3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: B8
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Lava
+        brand_model: B8
+        design_weight: 109
+        display_size: '2.3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: C11
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Lava
+        brand_model: C11
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: C31
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Lava
+        brand_model: C31
+        design_weight: 90
+        display_size: '2.6'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: C41
+    capabilities:
+        is_mobile: true
+        brand_vendor: Lava
+        brand_model: C41
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: C51
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Lava
+        brand_model: C51
+        design_weight: 91
+        display_size: '2.8'
+-
+    patterns:
+        -
+            strategy: string
+            value: C71
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 400
+        brand_vendor: Lava
+        brand_model: C71
+        design_weight: 90
+        display_size: '3.2'
+-
+    patterns:
+        -
+            strategy: string
+            value: C81
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 320
+        brand_vendor: Lava
+        brand_model: C81
+        display_size: '3.5'
+-
+    patterns:
+        -
+            strategy: string
+            value: Z7C
+        -
+            strategy: string
+            value: 'Lava E-Tab Connect Z7C'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Lava
+        brand_model: Z7C
+        brand_marketing_name: 'Lava E-Tab Connect Z7C'
+        brand_names: 'Lava E-Tab Connect Z7C'
+        design_weight: 350
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'E-Tab Ivory'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Lava
+        brand_model: 'E-Tab Ivory'
+        design_weight: 360
+        display_size: '7'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'E-Tab JB7'
+        -
+            strategy: string
+            value: 'Lava E-Tab Xtron JB7, Lava E-Tab XTRON'
+        -
+            strategy: string
+            value: 'Lava E-Tab Xtron JB7'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Lava
+        brand_model: 'E-Tab JB7'
+        brand_marketing_name: 'Lava E-Tab Xtron JB7'
+        brand_names: 'Lava E-Tab Xtron JB7, Lava E-Tab XTRON'
+        design_weight: 350
+        display_size: '7'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: Z7G
+        -
+            strategy: string
+            value: 'Lava E-Tab Velo Plus'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Lava
+        brand_model: Z7G
+        brand_marketing_name: 'Lava E-Tab Velo Plus'
+        brand_names: 'Lava E-Tab Velo Plus'
+        design_weight: 399
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'E-Tab Z7H'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Lava
+        brand_model: 'E-Tab Z7H'
+        design_weight: 350
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'E-tab Z7S'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Lava
+        brand_model: 'E-tab Z7S'
+        display_size: '7'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Etab Connect'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Lava
+        brand_model: 'Etab Connect'
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Etab Xtron'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Lava
+        brand_model: 'Etab Xtron'
+        design_weight: 350
+        display_size: '7'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Iris 250'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Lava
+        brand_model: 'Iris 250'
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Iris 300'
+        -
+            strategy: string
+            value: 'Lava Iris 300 Style'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Lava
+        brand_model: 'Iris 300'
+        brand_marketing_name: 'Lava Iris 300 Style'
+        brand_names: 'Lava Iris 300 Style'
+        design_weight: 80
+        display_size: '3.5'
+        display_type: HVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Iris 310S'
+        -
+            strategy: string
+            value: 'Lava Iris 310 Style'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Lava
+        brand_model: 'Iris 310S'
+        brand_marketing_name: 'Lava Iris 310 Style'
+        brand_names: 'Lava Iris 310 Style'
+        design_weight: 114
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Iris 349'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Lava
+        brand_model: 'Iris 349'
+        design_weight: 115
+        display_size: '3.5'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Iris 349 Plus'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Lava
+        brand_model: 'Iris 349 Plus'
+        design_weight: 115
+        display_size: '3.5'
+        display_type: 'HVGA TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Iris 349I'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Lava
+        brand_model: 'Iris 349I'
+        design_weight: 95
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Iris 349S'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Lava
+        brand_model: 'Iris 349S'
+        design_weight: 90
+        display_size: '3.5'
+        display_type: 'HVGA TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Iris 350'
+        -
+            strategy: string
+            value: 'Lava N350'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Lava
+        brand_model: 'Iris 350'
+        brand_marketing_name: 'Lava N350'
+        brand_names: 'Lava N350'
+        design_weight: 115
+        display_size: '3.5'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Iris 350M'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Lava
+        brand_model: 'Iris 350M'
+        design_weight: 60
+        display_size: '3.5'
+        display_type: 'HVGA TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Iris 351'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Lava
+        brand_model: 'Iris 351'
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Iris 352 Flair'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Lava
+        brand_model: 'Iris 352 Flair'
+        design_weight: 100
+        display_size: '3.5'
+        display_type: 'HVGA TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Iris 352E'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Lava
+        brand_model: 'Iris 352E'
+        design_weight: 98
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Iris 354E'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Lava
+        brand_model: 'Iris 354E'
+        design_weight: 103
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Iris 355'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Lava
+        brand_model: 'Iris 355'
+        display_size: '3.5'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Iris 356'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Lava
+        brand_model: 'Iris 356'
+        design_weight: 112
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Iris 360M'
+        -
+            strategy: string
+            value: 'Lava Iris 360 Music'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Lava
+        brand_model: 'Iris 360M'
+        brand_marketing_name: 'Lava Iris 360 Music'
+        brand_names: 'Lava Iris 360 Music'
+        design_weight: 118
+        display_size: '3.5'
+        display_type: 'HVGA TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Iris 412'
+        -
+            strategy: string
+            value: 'Lava Iris 3G 412'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Lava
+        brand_model: 'Iris 412'
+        brand_marketing_name: 'Lava Iris 3G 412'
+        brand_names: 'Lava Iris 3G 412'
+        design_weight: 120
+        display_size: '4'
+        display_type: 'WVGA TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Iris 400C'
+        -
+            strategy: string
+            value: 'Lava Iris 400 Colours'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Lava
+        brand_model: 'Iris 400C'
+        brand_marketing_name: 'Lava Iris 400 Colours'
+        brand_names: 'Lava Iris 400 Colours'
+        design_weight: 121
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Iris 400Q'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Lava
+        brand_model: 'Iris 400Q'
+        design_weight: 134
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Iris 400S'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Lava
+        brand_model: 'Iris 400S'
+        design_weight: 118
+        display_size: '4'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Iris 401E'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Lava
+        brand_model: 'Iris 401E'
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Iris 402'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Lava
+        brand_model: 'Iris 402'
+        design_weight: 124
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Iris 404 Flair'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Lava
+        brand_model: 'Iris 404 Flair'
+        design_weight: 118
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Iris 404E'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Lava
+        brand_model: 'Iris 404E'
+        design_weight: 113
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Iris 405'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Lava
+        brand_model: 'Iris 405'
+        design_weight: 120
+        display_size: '4'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Iris 405 plus'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Lava
+        brand_model: 'Iris 405 plus'
+        design_weight: 127
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Iris 406Q'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Lava
+        brand_model: 'Iris 406Q'
+        design_weight: 131
+        display_size: '4'
+        display_type: 'WVGA TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Iris 408E'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Lava
+        brand_model: 'Iris 408E'
+        design_weight: 131
+        display_size: '4'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Iris 410'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Lava
+        brand_model: 'Iris 410'
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Iris 430'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Lava
+        brand_model: 'Iris 430'
+        display_size: '4.3'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Iris 450'
+        -
+            strategy: string
+            value: 'Lava Iris 450 Colour'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Lava
+        brand_model: 'Iris 450'
+        brand_marketing_name: 'Lava Iris 450 Colour'
+        brand_names: 'Lava Iris 450 Colour'
+        design_weight: 136
+        display_size: '4.5'
+        display_type: 'FWVGA IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Iris 450P'
+        -
+            strategy: string
+            value: 'Lava Iris 450 Colour'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Lava
+        brand_model: 'Iris 450P'
+        brand_marketing_name: 'Lava Iris 450 Colour'
+        brand_names: 'Lava Iris 450 Colour'
+        design_weight: 136
+        display_size: '4.5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Iris 454'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Lava
+        brand_model: 'Iris 454'
+        design_weight: 123
+        display_size: '4.5'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Iris 455'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Lava
+        brand_model: 'Iris 455'
+        design_weight: 120
+        display_size: '4.5'
+        display_type: 'QHD TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Iris 456'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Lava
+        brand_model: 'Iris 456'
+        design_weight: 147
+        display_size: '4.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Iris 460'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Lava
+        brand_model: 'Iris 460'
+        design_weight: 136
+        display_size: '4.5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Iris 50'
+        -
+            strategy: string
+            value: 'Lava Iris Fuel 50'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Lava
+        brand_model: 'Iris 50'
+        brand_marketing_name: 'Lava Iris Fuel 50'
+        brand_names: 'Lava Iris Fuel 50'
+        design_weight: 160
+        display_size: '5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Iris 501'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Lava
+        brand_model: 'Iris 501'
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Iris 502'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Lava
+        brand_model: 'Iris 502'
+        display_size: '5'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Iris 503'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Lava
+        brand_model: 'Iris 503'
+        design_weight: 172
+        display_size: '5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Iris 504Q'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Lava
+        brand_model: 'Iris 504Q'
+        design_weight: 140
+        display_size: '5'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Iris 506Q'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Lava
+        brand_model: 'Iris 506Q'
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Iris 550Q'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Lava
+        brand_model: 'Iris 550Q'
+        design_weight: 177
+        display_size: '5.5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Iris Fuel50'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Lava
+        brand_model: 'Iris Fuel50'
+        design_weight: 160
+        display_size: '5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Iris N320'
+    capabilities:
+        is_mobile: true
+        brand_vendor: Lava
+        brand_model: 'Iris N320'
+        design_weight: 115
+        display_size: '3.2'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Iris N350'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Lava
+        brand_model: 'Iris N350'
+        design_weight: 115
+        display_size: '3.5'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Iris N400'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Lava
+        brand_model: 'Iris N400'
+        design_weight: 132
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Iris Pro 30'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Lava
+        brand_model: 'Iris Pro 30'
+        design_weight: 114
+        display_size: '4.7'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Iris Pro 30P'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Lava
+        brand_model: 'Iris Pro 30P'
+        design_weight: 116
+        display_size: '4.7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Iris Selfie 50'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Lava
+        brand_model: 'Iris Selfie 50'
+        design_weight: 138
+        display_size: '5'
+        display_type: 'FWVGA IPS'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Iris X1'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Lava
+        brand_model: 'Iris X1'
+        design_weight: 138
+        display_size: '4.5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Iris X5'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Lava
+        brand_model: 'Iris X5'
+        design_weight: 134
+        display_size: '5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: Iris458q
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Lava
+        brand_model: Iris458q
+        design_weight: 144
+        display_size: '4.5'
+-
+    patterns:
+        -
+            strategy: string
+            value: Iris505
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Lava
+        brand_model: Iris505
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: IvoryS
+        -
+            strategy: string
+            value: 'Lava Ivory S Tab'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Lava
+        brand_model: IvoryS
+        brand_marketing_name: 'Lava Ivory S Tab'
+        brand_names: 'Lava Ivory S Tab'
+        design_weight: 300
+        display_size: '7'
+        display_type: 'WSVGA TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'KKT 11 Plus'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Lava
+        brand_model: 'KKT 11 Plus'
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'KKT 11S'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Lava
+        brand_model: 'KKT 11S'
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'KKT 18'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Lava
+        brand_model: 'KKT 18'
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'KKT 22i'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Lava
+        brand_model: 'KKT 22i'
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'KKT 34S'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Lava
+        brand_model: 'KKT 34S'
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'KKT 34i'
+    capabilities:
+        is_mobile: true
+        brand_vendor: Lava
+        brand_model: 'KKT 34i'
+        design_weight: 108
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'KKT 36'
+    capabilities:
+        is_mobile: true
+        brand_vendor: Lava
+        brand_model: 'KKT 36'
+        display_size: '2.6'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'KKT 40'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Lava
+        brand_model: 'KKT 40'
+        design_weight: 121
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'KKT 40 Plus'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Lava
+        brand_model: 'KKT 40 Plus'
+        display_size: '2.6'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'KKT 51'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Lava
+        brand_model: 'KKT 51'
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'KKT 60'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Lava
+        brand_model: 'KKT 60'
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: KKT11
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Lava
+        brand_model: KKT11
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: KKT22
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Lava
+        brand_model: KKT22
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: KKT25
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Lava
+        brand_model: KKT25
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: KKT26
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Lava
+        brand_model: KKT26
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: KKT28
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Lava
+        brand_model: KKT28
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: KKT32
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Lava
+        brand_model: KKT32
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: KKT35
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Lava
+        brand_model: KKT35
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: KKT50
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 480
+        brand_vendor: Lava
+        brand_model: KKT50
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: KKT70
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Lava
+        brand_model: KKT70
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: LT-7009
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Lava
+        brand_model: LT-7009
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: M23
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Lava
+        brand_model: M23
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: M40
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Lava
+        brand_model: M40
+        display_size: '3.2'
+-
+    patterns:
+        -
+            strategy: string
+            value: M9
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Lava
+        brand_model: M9
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Magnum X604'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Lava
+        brand_model: 'Magnum X604'
+        design_weight: 207
+        display_size: '6'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: S12
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Lava
+        brand_model: S12
+        design_weight: 120
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Xolo X900'
+    capabilities:
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Lava
+        brand_model: 'Xolo X900'
+        design_weight: 127
+        display_size: '4'
+        display_type: TFT

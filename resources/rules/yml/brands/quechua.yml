@@ -1,0 +1,15 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Phone 5'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Quechua
+        brand_model: 'Phone 5'
+        design_weight: 250
+        display_size: '5'
+        display_type: 'WVGA LCD'

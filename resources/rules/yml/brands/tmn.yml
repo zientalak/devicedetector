@@ -1,0 +1,20 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Smart A18'
+        -
+            strategy: string
+            value: 'ZTE Grand X'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: TMN
+        brand_model: 'Smart A18'
+        brand_marketing_name: 'ZTE Grand X'
+        brand_names: 'ZTE Grand X'
+        design_weight: 138
+        display_size: '4.3'
+        display_type: TFT

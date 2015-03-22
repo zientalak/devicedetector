@@ -1,0 +1,169 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 8352RC
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Ezze
+        brand_model: 8352RC
+-
+    patterns:
+        -
+            strategy: string
+            value: E300
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Ezze
+        brand_model: E300
+-
+    patterns:
+        -
+            strategy: string
+            value: EZ100
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Ezze
+        brand_model: EZ100
+-
+    patterns:
+        -
+            strategy: string
+            value: EZ400
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Ezze
+        brand_model: EZ400
+-
+    patterns:
+        -
+            strategy: string
+            value: EZ600
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Ezze
+        brand_model: EZ600
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: EZ700
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 92
+        brand_vendor: Ezze
+        brand_model: EZ700
+-
+    patterns:
+        -
+            strategy: string
+            value: HG7000
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Ezze
+        brand_model: HG7000
+-
+    patterns:
+        -
+            strategy: string
+            value: M4U
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Ezze
+        brand_model: M4U
+-
+    patterns:
+        -
+            strategy: string
+            value: ME701
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Ezze
+        brand_model: ME701
+-
+    patterns:
+        -
+            strategy: string
+            value: ME702
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Ezze
+        brand_model: ME702
+-
+    patterns:
+        -
+            strategy: string
+            value: MM60
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Ezze
+        brand_model: MM60
+-
+    patterns:
+        -
+            strategy: string
+            value: MP100
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Ezze
+        brand_model: MP100
+-
+    patterns:
+        -
+            strategy: string
+            value: Njoy
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Ezze
+        brand_model: Njoy
+-
+    patterns:
+        -
+            strategy: string
+            value: SD588
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Ezze
+        brand_model: SD588
+-
+    patterns:
+        -
+            strategy: string
+            value: SL308
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Ezze
+        brand_model: SL308
+        display_size: '1.8'
+        display_type: TFT

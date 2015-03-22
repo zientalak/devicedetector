@@ -1,0 +1,33 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: A818
+        -
+            strategy: string
+            value: 'Samsung S5pv210'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Aishuo
+        brand_model: A818
+        brand_marketing_name: 'Samsung S5pv210'
+        brand_names: 'Samsung S5pv210'
+        design_weight: 510
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: T90
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Aishuo
+        brand_model: T90
+        design_weight: 650
+        display_size: '9.7'

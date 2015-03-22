@@ -1,0 +1,28 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: I10-le
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Impression
+        brand_model: I10-le
+        display_size: '9.7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Impad 1311'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Impression
+        brand_model: 'Impad 1311'
+        design_weight: 373
+        display_size: '7'

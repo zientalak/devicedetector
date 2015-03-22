@@ -1,0 +1,29 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: P790RN
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Shuoying
+        brand_model: P790RN
+        design_weight: 341
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: PA0750
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Shuoying
+        brand_model: PA0750
+        display_size: '7'
+        display_type: TFT

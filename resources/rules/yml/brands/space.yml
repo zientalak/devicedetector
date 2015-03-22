@@ -1,0 +1,15 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Livepad 7.2'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Space
+        brand_model: 'Livepad 7.2'
+        design_weight: 510
+        display_size: '7'
+        display_type: TFT

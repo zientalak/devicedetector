@@ -1,0 +1,55 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: BT210
+        -
+            strategy: string
+            value: 'Intel Yolo'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Intel
+        brand_model: BT210
+        brand_marketing_name: 'Intel Yolo'
+        brand_names: 'Intel Yolo'
+        design_weight: 132
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: BT230
+        -
+            strategy: string
+            value: 'Etisalat E20'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Intel
+        brand_model: BT230
+        brand_marketing_name: 'Etisalat E20'
+        brand_names: 'Etisalat E20'
+        design_weight: 132
+        display_size: '3.5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: TM75A
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Intel
+        brand_model: TM75A
+        design_weight: 384
+        display_size: '7'
+        display_type: 'Active Matrix TFT LCD'

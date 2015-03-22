@@ -1,0 +1,40 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: X7
+        -
+            strategy: string
+            value: 'Avatelecom Aveo X7'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Aveo
+        brand_model: X7
+        brand_marketing_name: 'Avatelecom Aveo X7'
+        brand_names: 'Avatelecom Aveo X7'
+        design_weight: 150
+        display_size: '5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: X6
+        -
+            strategy: string
+            value: 'ExpressMusic X6'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Aveo
+        brand_model: X6
+        brand_marketing_name: 'ExpressMusic X6'
+        brand_names: 'ExpressMusic X6'
+        design_weight: 122
+        display_size: '5'
+        display_type: 'Super LCD'

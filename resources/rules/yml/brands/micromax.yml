@@ -1,0 +1,1661 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: A064
+        -
+            strategy: string
+            value: 'Micromax Bolt A064'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Micromax
+        brand_model: A064
+        brand_marketing_name: 'Micromax Bolt A064'
+        brand_names: 'Micromax Bolt A064'
+        design_weight: 110
+        display_size: '3.5'
+        display_type: 'HVGA TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: A065
+        -
+            strategy: string
+            value: 'Micromax Bolt A065'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Micromax
+        brand_model: A065
+        brand_marketing_name: 'Micromax Bolt A065'
+        brand_names: 'Micromax Bolt A065'
+        design_weight: 129
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A068
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Micromax
+        brand_model: A068
+        design_weight: 131
+        display_size: '5'
+        display_type: 'FWVGA TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: A069
+        -
+            strategy: string
+            value: 'Micromax Bolt A069'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Micromax
+        brand_model: A069
+        brand_marketing_name: 'Micromax Bolt A069'
+        brand_names: 'Micromax Bolt A069'
+        design_weight: 129
+        display_size: '5'
+        display_type: 'FWVGA TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: A075
+        -
+            strategy: string
+            value: 'MicroMax Bolt'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Micromax
+        brand_model: A075
+        brand_marketing_name: 'MicroMax Bolt'
+        brand_names: 'MicroMax Bolt'
+        design_weight: 225
+        display_size: '5.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A082
+        -
+            strategy: string
+            value: 'Micromax Bolt A082'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Micromax
+        brand_model: A082
+        brand_marketing_name: 'Micromax Bolt A082'
+        brand_names: 'Micromax Bolt A082'
+        design_weight: 136
+        display_size: '4'
+        display_type: 'WVGA TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: A089
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Micromax
+        brand_model: A089
+        design_weight: 136
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A091
+        -
+            strategy: string
+            value: 'Micromax Canvas Engage A091'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Micromax
+        brand_model: A091
+        brand_marketing_name: 'Micromax Canvas Engage A091'
+        brand_names: 'Micromax Canvas Engage A091'
+        display_size: '4'
+        display_type: WVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: A092
+        -
+            strategy: string
+            value: 'Micromax Unite A092'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Micromax
+        brand_model: A092
+        brand_marketing_name: 'Micromax Unite A092'
+        brand_names: 'Micromax Unite A092'
+        design_weight: 129
+        display_size: '4'
+        display_type: 'IPS TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: A093
+        -
+            strategy: string
+            value: 'Micromax A093 Canvas Fire'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Micromax
+        brand_model: A093
+        brand_marketing_name: 'Micromax A093 Canvas Fire'
+        brand_names: 'Micromax A093 Canvas Fire'
+        design_weight: 127
+        display_size: '4'
+        display_type: WVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: A102
+        -
+            strategy: string
+            value: 'Micromax Canvas Doodle 3'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Micromax
+        brand_model: A102
+        brand_marketing_name: 'Micromax Canvas Doodle 3'
+        brand_names: 'Micromax Canvas Doodle 3'
+        design_weight: 126
+        display_size: '6'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A104
+        -
+            strategy: string
+            value: 'Micromax Canvas Fire A104'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Micromax
+        brand_model: A104
+        brand_marketing_name: 'Micromax Canvas Fire A104'
+        brand_names: 'Micromax Canvas Fire A104'
+        design_weight: 120
+        display_size: '4.5'
+        display_type: 'TN LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: A106
+        -
+            strategy: string
+            value: 'Micromax Unite 2'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Micromax
+        brand_model: A106
+        brand_marketing_name: 'Micromax Unite 2'
+        brand_names: 'Micromax Unite 2'
+        design_weight: 158
+        display_size: '4.7'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: A108
+        -
+            strategy: string
+            value: 'Micromax A108 Canvas L'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Micromax
+        brand_model: A108
+        brand_marketing_name: 'Micromax A108 Canvas L'
+        brand_names: 'Micromax A108 Canvas L'
+        display_size: '5.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: A109
+        -
+            strategy: string
+            value: 'Micromax Canvas XL2 A109'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Micromax
+        brand_model: A109
+        brand_marketing_name: 'Micromax Canvas XL2 A109'
+        brand_names: 'Micromax Canvas XL2 A109'
+        design_weight: 151
+        display_size: '5.5'
+        display_type: 'QHD IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: A110Q
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Micromax
+        brand_model: A110Q
+        design_weight: 164
+        display_size: '5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: A113
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Micromax
+        brand_model: A113
+        display_size: '5'
+-
+    patterns:
+        -
+            strategy: string
+            value: A114
+        -
+            strategy: string
+            value: 'Micromax Canvas 2.2'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Micromax
+        brand_model: A114
+        brand_marketing_name: 'Micromax Canvas 2.2'
+        brand_names: 'Micromax Canvas 2.2'
+        design_weight: 147
+        display_size: '5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: A114R
+        -
+            strategy: string
+            value: 'Micromax Canvas Beat A114R'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Micromax
+        brand_model: A114R
+        brand_marketing_name: 'Micromax Canvas Beat A114R'
+        brand_names: 'Micromax Canvas Beat A114R'
+        design_weight: 180
+        display_size: '5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: A116
+        -
+            strategy: string
+            value: 'Micromax Canvas HD'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Micromax
+        brand_model: A116
+        brand_marketing_name: 'Micromax Canvas HD'
+        brand_names: 'Micromax Canvas HD'
+        display_size: '5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: A117
+        -
+            strategy: string
+            value: 'Micromax A117 Canvas Magnus'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Micromax
+        brand_model: A117
+        brand_marketing_name: 'Micromax A117 Canvas Magnus'
+        brand_names: 'Micromax A117 Canvas Magnus'
+        display_size: '5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: A121
+        -
+            strategy: string
+            value: 'Micromax Canvas Elanza 2'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Micromax
+        brand_model: A121
+        brand_marketing_name: 'Micromax Canvas Elanza 2'
+        brand_names: 'Micromax Canvas Elanza 2'
+        design_weight: 156
+        display_size: '5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: A177
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Micromax
+        brand_model: A177
+        design_weight: 101
+        display_size: '5'
+        display_type: 'FWVGA TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: A24
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Micromax
+        brand_model: A24
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A240
+        -
+            strategy: string
+            value: 'Micromax Canvas Doodle 2'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Micromax
+        brand_model: A240
+        brand_marketing_name: 'Micromax Canvas Doodle 2'
+        brand_names: 'Micromax Canvas Doodle 2'
+        design_weight: 220
+        display_size: '5.7'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: A34
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Micromax
+        brand_model: A34
+        design_weight: 85
+        display_size: '3.95'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A36
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Micromax
+        brand_model: A36
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A37
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Micromax
+        brand_model: A37
+        design_weight: 127
+        display_size: '3.5'
+        display_type: 'HVGA TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: A37B
+        -
+            strategy: string
+            value: 'Micromax A37B Bolt'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Micromax
+        brand_model: A37B
+        brand_marketing_name: 'Micromax A37B Bolt'
+        brand_names: 'Micromax A37B Bolt'
+        design_weight: 129
+        display_size: '3.5'
+        display_type: 'HVGA TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: A44
+        -
+            strategy: string
+            value: 'Micromax Superfone Punk A44'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Micromax
+        brand_model: A44
+        brand_marketing_name: 'Micromax Superfone Punk A44'
+        brand_names: 'Micromax Superfone Punk A44'
+        design_weight: 120
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A45
+        -
+            strategy: string
+            value: 'Micromax A45 Superfone Punk'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Micromax
+        brand_model: A45
+        brand_marketing_name: 'Micromax A45 Superfone Punk'
+        brand_names: 'Micromax A45 Superfone Punk'
+        design_weight: 120
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A46
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Micromax
+        brand_model: A46
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A47
+        -
+            strategy: string
+            value: 'Micromax Bolt A47'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Micromax
+        brand_model: A47
+        brand_marketing_name: 'Micromax Bolt A47'
+        brand_names: 'Micromax Bolt A47'
+        design_weight: 137
+        display_size: '4'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: A52
+        -
+            strategy: string
+            value: 'Micromax Superphone, Micromax Xtreme Droid'
+        -
+            strategy: string
+            value: 'Micromax Superphone'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Micromax
+        brand_model: A52
+        brand_marketing_name: 'Micromax Superphone'
+        brand_names: 'Micromax Superphone, Micromax Xtreme Droid'
+        design_weight: 112
+        display_size: '3.2'
+        display_type: 'Yes'
+-
+    patterns:
+        -
+            strategy: string
+            value: A54
+        -
+            strategy: string
+            value: 'Micromax Smarty 3.5'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Micromax
+        brand_model: A54
+        brand_marketing_name: 'Micromax Smarty 3.5'
+        brand_names: 'Micromax Smarty 3.5'
+        design_weight: 102
+        display_size: '3.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: A55
+        -
+            strategy: string
+            value: 'Micromax Bling 2'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Micromax
+        brand_model: A55
+        brand_marketing_name: 'Micromax Bling 2'
+        brand_names: 'Micromax Bling 2'
+        design_weight: 111
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A56
+        -
+            strategy: string
+            value: 'Micromax Superfone Ninja 2'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Micromax
+        brand_model: A56
+        brand_marketing_name: 'Micromax Superfone Ninja 2'
+        brand_names: 'Micromax Superfone Ninja 2'
+        design_weight: 110
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A57
+        -
+            strategy: string
+            value: 'Micromax Ninja 3'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Micromax
+        brand_model: A57
+        brand_marketing_name: 'Micromax Ninja 3'
+        brand_names: 'Micromax Ninja 3'
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A61
+        -
+            strategy: string
+            value: 'Micromax Bolt A61'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Micromax
+        brand_model: A61
+        brand_marketing_name: 'Micromax Bolt A61'
+        brand_names: 'Micromax Bolt A61'
+        design_weight: 128
+        display_size: '4'
+        display_type: 'WVGA TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: A68
+        -
+            strategy: string
+            value: 'Micromax Smarty'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Micromax
+        brand_model: A68
+        brand_marketing_name: 'Micromax Smarty'
+        brand_names: 'Micromax Smarty'
+        display_size: '4'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: A72
+        -
+            strategy: string
+            value: 'Micromax Canvas Viva'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Micromax
+        brand_model: A72
+        brand_marketing_name: 'Micromax Canvas Viva'
+        brand_names: 'Micromax Canvas Viva'
+        display_size: '5'
+        display_type: WVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: A73
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Micromax
+        brand_model: A73
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A74
+        -
+            strategy: string
+            value: 'Micromax Canvas Fun A74'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Micromax
+        brand_model: A74
+        brand_marketing_name: 'Micromax Canvas Fun A74'
+        brand_names: 'Micromax Canvas Fun A74'
+        design_weight: 144
+        display_size: '4.5'
+        display_type: 'FWGA TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: A80
+        -
+            strategy: string
+            value: 'Micromax Superfone Infinity'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Micromax
+        brand_model: A80
+        brand_marketing_name: 'Micromax Superfone Infinity'
+        brand_names: 'Micromax Superfone Infinity'
+        display_size: '3.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A84
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Micromax
+        brand_model: A84
+        display_size: '3.9'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: A90S
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Micromax
+        brand_model: A90S
+        design_weight: 118
+        display_size: '4.3'
+        display_type: AMOLED
+-
+    patterns:
+        -
+            strategy: string
+            value: A92
+        -
+            strategy: string
+            value: 'Micromax Canvas Lite'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Micromax
+        brand_model: A92
+        brand_marketing_name: 'Micromax Canvas Lite'
+        brand_names: 'Micromax Canvas Lite'
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A94
+        -
+            strategy: string
+            value: 'Micromax Canvas Mad A94'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Micromax
+        brand_model: A94
+        brand_marketing_name: 'Micromax Canvas Mad A94'
+        brand_names: 'Micromax Canvas Mad A94'
+        display_size: '4.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: AD3520
+        -
+            strategy: string
+            value: 'Micromax Bolt AD3520'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Micromax
+        brand_model: AD3520
+        brand_marketing_name: 'Micromax Bolt AD3520'
+        brand_names: 'Micromax Bolt AD3520'
+        design_weight: 134
+        display_size: '3.5'
+        display_type: TN
+-
+    patterns:
+        -
+            strategy: string
+            value: AE90
+        -
+            strategy: string
+            value: 'Micromax Canvas Duet AE90'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Micromax
+        brand_model: AE90
+        brand_marketing_name: 'Micromax Canvas Duet AE90'
+        brand_names: 'Micromax Canvas Duet AE90'
+        design_weight: 146
+        display_size: '4.5'
+        display_type: 'QHD TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: AQ4501
+        -
+            strategy: string
+            value: 'Micromax AQ4501 Canvas A1'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Micromax
+        brand_model: AQ4501
+        brand_marketing_name: 'Micromax AQ4501 Canvas A1'
+        brand_names: 'Micromax AQ4501 Canvas A1'
+        design_weight: 136
+        display_size: '4.5'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: E390
+        -
+            strategy: string
+            value: 'Micromax MTS Alive'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 400
+        brand_vendor: Micromax
+        brand_model: E390
+        brand_marketing_name: 'Micromax MTS Alive'
+        brand_names: 'Micromax MTS Alive'
+        design_weight: 84
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: EG333
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 400
+        brand_vendor: Micromax
+        brand_model: EG333
+        design_weight: 120
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P560
+        -
+            strategy: string
+            value: 'Micromax Funbook 3G'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Micromax
+        brand_model: P560
+        brand_marketing_name: 'Micromax Funbook 3G'
+        brand_names: 'Micromax Funbook 3G'
+        design_weight: 323
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P250
+        -
+            strategy: string
+            value: 'Micromax Funbook P250'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Micromax
+        brand_model: P250
+        brand_marketing_name: 'Micromax Funbook P250'
+        brand_names: 'Micromax Funbook P250'
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P255
+        -
+            strategy: string
+            value: 'Micromax Funbook P255'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Micromax
+        brand_model: P255
+        brand_marketing_name: 'Micromax Funbook P255'
+        brand_names: 'Micromax Funbook P255'
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P280
+        -
+            strategy: string
+            value: 'Micromax Funbook P280'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Micromax
+        brand_model: P280
+        brand_marketing_name: 'Micromax Funbook P280'
+        brand_names: 'Micromax Funbook P280'
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P362
+        -
+            strategy: string
+            value: 'Micromax Funbook P362'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Micromax
+        brand_model: P362
+        brand_marketing_name: 'Micromax Funbook P362'
+        brand_names: 'Micromax Funbook P362'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P580
+        -
+            strategy: string
+            value: 'Micromax Funbook Ultra HD'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 768
+        display_height: 1024
+        brand_vendor: Micromax
+        brand_model: P580
+        brand_marketing_name: 'Micromax Funbook Ultra HD'
+        brand_names: 'Micromax Funbook Ultra HD'
+        display_size: '7.85'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: MT500
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Micromax
+        brand_model: MT500
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: X60
+        -
+            strategy: string
+            value: 'Micromax Modu T'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Micromax
+        brand_model: X60
+        brand_marketing_name: 'Micromax Modu T'
+        brand_names: 'Micromax Modu T'
+        design_weight: 55
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P275
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Micromax
+        brand_model: P275
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P360
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Micromax
+        brand_model: P360
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P410
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Micromax
+        brand_model: P410
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P650
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Micromax
+        brand_model: P650
+        display_size: '8'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: Q1
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Micromax
+        brand_model: Q1
+        design_weight: 97
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Q50
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 240
+        brand_vendor: Micromax
+        brand_model: Q50
+        design_weight: 96
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Q55
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 240
+        brand_vendor: Micromax
+        brand_model: Q55
+        design_weight: 75
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Q5C
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 240
+        brand_vendor: Micromax
+        brand_model: Q5C
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Q5FB
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 240
+        brand_vendor: Micromax
+        brand_model: Q5FB
+        design_weight: 95
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Q6
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Micromax
+        brand_model: Q6
+        design_weight: 130
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Q66
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 240
+        brand_vendor: Micromax
+        brand_model: Q66
+        design_weight: 118
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Q75
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 240
+        brand_vendor: Micromax
+        brand_model: Q75
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Q80
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 240
+        brand_vendor: Micromax
+        brand_model: Q80
+        design_weight: 118
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: W900
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 400
+        brand_vendor: Micromax
+        brand_model: W900
+        design_weight: 113
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: X100
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Micromax
+        brand_model: X100
+        design_weight: 61
+        display_size: '1.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: X111
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Micromax
+        brand_model: X111
+        design_weight: 69
+        display_size: '1.4'
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: X113
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Micromax
+        brand_model: X113
+        design_weight: 68
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: X118
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Micromax
+        brand_model: X118
+        design_weight: 79
+        display_size: '1.7'
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: X11i
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Micromax
+        brand_model: X11i
+        design_weight: 95
+        display_size: '1.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: X215
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 1280
+        brand_vendor: Micromax
+        brand_model: X215
+        design_weight: 65
+        display_size: '1.5'
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: X220
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Micromax
+        brand_model: X220
+        design_weight: 78
+        display_size: '1.8'
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: X225
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Micromax
+        brand_model: X225
+        design_weight: 65
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: X230
+    capabilities:
+        is_mobile: true
+        display_width: 144
+        display_height: 176
+        brand_vendor: Micromax
+        brand_model: X230
+        design_weight: 110
+        display_size: '2'
+-
+    patterns:
+        -
+            strategy: string
+            value: X235
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Micromax
+        brand_model: X235
+        design_weight: 85
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: X250
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Micromax
+        brand_model: X250
+        design_weight: 76
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: X260
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Micromax
+        brand_model: X260
+        design_weight: 75
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: X263
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Micromax
+        brand_model: X263
+        design_weight: 132
+        display_size: '2'
+-
+    patterns:
+        -
+            strategy: string
+            value: X265
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Micromax
+        brand_model: X265
+        design_weight: 95
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: X266
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Micromax
+        brand_model: X266
+        design_weight: 95
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: X285
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Micromax
+        brand_model: X285
+        design_weight: 86
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: X288
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Micromax
+        brand_model: X288
+        design_weight: 62
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: X290
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Micromax
+        brand_model: X290
+        design_weight: 86
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: X360
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Micromax
+        brand_model: X360
+        design_weight: 104
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: X365
+    capabilities:
+        is_mobile: true
+        display_width: 24
+        display_height: 320
+        brand_vendor: Micromax
+        brand_model: X365
+        design_weight: 90
+        display_size: '2.4'
+-
+    patterns:
+        -
+            strategy: string
+            value: X370
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Micromax
+        brand_model: X370
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: X40
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Micromax
+        brand_model: X40
+        design_weight: 148
+        display_size: '2.36'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'X505 PSYCH'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Micromax
+        brand_model: 'X505 PSYCH'
+        display_size: '2.8'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'X510 PIKE'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 400
+        brand_vendor: Micromax
+        brand_model: 'X510 PIKE'
+        design_weight: 103
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: X550
+        -
+            strategy: string
+            value: 'Micromax X550 QUBE'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 400
+        brand_vendor: Micromax
+        brand_model: X550
+        brand_marketing_name: 'Micromax X550 QUBE'
+        brand_names: 'Micromax X550 QUBE'
+        design_weight: 85
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: X560
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 400
+        brand_vendor: Micromax
+        brand_model: X560
+        design_weight: 102
+        display_size: '3.2'

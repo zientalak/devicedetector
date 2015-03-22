@@ -1,0 +1,15 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 700P11A
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: KTC
+        brand_model: 700P11A
+        design_weight: 336
+        display_size: '7'
+        display_type: TFT

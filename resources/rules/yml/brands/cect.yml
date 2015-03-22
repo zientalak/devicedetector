@@ -1,0 +1,27 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: A1000
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: CECT
+        brand_model: A1000
+        design_weight: 100
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: U600
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: CECT
+        brand_model: U600
+        design_weight: 86
+        display_type: TFT

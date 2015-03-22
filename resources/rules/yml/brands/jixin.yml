@@ -1,0 +1,14 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: J1000
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Jixin
+        brand_model: J1000
+        design_weight: 117
+        display_size: '5'

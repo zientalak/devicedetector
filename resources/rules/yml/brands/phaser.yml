@@ -1,0 +1,40 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: PC-709S
+        -
+            strategy: string
+            value: 'Phaser Kinno'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Phaser
+        brand_model: PC-709S
+        brand_marketing_name: 'Phaser Kinno'
+        brand_names: 'Phaser Kinno'
+        design_weight: 296
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: PC713
+        -
+            strategy: string
+            value: 'Tablet Phaser Kinno II PC713'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Phaser
+        brand_model: PC713
+        brand_marketing_name: 'Tablet Phaser Kinno II PC713'
+        brand_names: 'Tablet Phaser Kinno II PC713'
+        design_weight: 292
+        display_size: '7'
+        display_type: TFT

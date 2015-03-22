@@ -1,0 +1,368 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 097Q1
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        brand_vendor: MID
+        brand_model: 097Q1
+        design_weight: 620
+        display_size: '9.7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 710-BN
+        -
+            strategy: string
+            value: 'MID 710 7 inch'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: MID
+        brand_model: 710-BN
+        brand_marketing_name: 'MID 710 7 inch'
+        brand_names: 'MID 710 7 inch'
+        design_weight: 400
+        display_size: '7'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: A-13
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        brand_vendor: MID
+        brand_model: A-13
+        design_weight: 288
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: A025
+        -
+            strategy: string
+            value: 'Serails A025'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: MID
+        brand_model: A025
+        brand_marketing_name: 'Serails A025'
+        brand_names: 'Serails A025'
+        design_weight: 510
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A10MID
+        -
+            strategy: string
+            value: 'MID CA-MID-A6'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: MID
+        brand_model: A10MID
+        brand_marketing_name: 'MID CA-MID-A6'
+        brand_names: 'MID CA-MID-A6'
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: DFP7005
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: MID
+        brand_model: DFP7005
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: E1107
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: MID
+        brand_model: E1107
+        design_weight: 388
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: M032
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: MID
+        brand_model: M032
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: M711
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: MID
+        brand_model: M711
+        design_weight: 360
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: M7206
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: MID
+        brand_model: M7206
+        design_weight: 350
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: M746
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: MID
+        brand_model: M746
+        design_weight: 325
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: M8002
+        -
+            strategy: string
+            value: 'MID M8002r'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 600
+        brand_vendor: MID
+        brand_model: M8002
+        brand_marketing_name: 'MID M8002r'
+        brand_names: 'MID M8002r'
+        design_weight: 525
+        display_size: '8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: M88
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: MID
+        brand_model: M88
+        design_weight: 332
+        display_size: '7'
+        display_type: LED
+-
+    patterns:
+        -
+            strategy: string
+            value: M9000
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: MID
+        brand_model: M9000
+        design_weight: 907
+        display_size: '9'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: M9100
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: MID
+        brand_model: M9100
+        display_size: '9'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: M971B
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: MID
+        brand_model: M971B
+        display_size: '9.7'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: MB1003
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: MID
+        brand_model: MB1003
+        design_weight: 568
+        display_size: '10.1'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MID7030
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: MID
+        brand_model: MID7030
+        design_weight: 340
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: Serials
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        brand_vendor: MID
+        brand_model: Serials
+-
+    patterns:
+        -
+            strategy: string
+            value: T900
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: MID
+        brand_model: T900
+        design_weight: 535
+        display_size: '9'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: TCC8902
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: MID
+        brand_model: TCC8902
+        design_weight: 335
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: WM8650
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: MID
+        brand_model: WM8650
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: WM8850
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: MID
+        brand_model: WM8850
+        design_weight: 320
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: mid-001
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: MID
+        brand_model: mid-001
+        display_size: '7'
+        display_type: 'TFT LED'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'zenithink b01ref'
+    capabilities:
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: MID
+        brand_model: 'zenithink b01ref'
+        display_size: '5.8'

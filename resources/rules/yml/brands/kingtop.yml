@@ -1,0 +1,23 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: KT07
+        -
+            strategy: string
+            value: 'JTY Kingtop KT07, JTY Kingtop KT07 Tablet 3G'
+        -
+            strategy: string
+            value: 'JTY Kingtop KT07'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: KingTop
+        brand_model: KT07
+        brand_marketing_name: 'JTY Kingtop KT07'
+        brand_names: 'JTY Kingtop KT07, JTY Kingtop KT07 Tablet 3G'
+        design_weight: 312
+        display_size: '7'
+        display_type: LCD

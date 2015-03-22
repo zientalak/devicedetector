@@ -1,0 +1,175 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: A50C
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Azumi
+        brand_model: A50C
+        design_weight: 160
+        display_size: '5'
+-
+    patterns:
+        -
+            strategy: string
+            value: Chic
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Azumi
+        brand_model: Chic
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Chic N'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Azumi
+        brand_model: 'Chic N'
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Chic WF'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Azumi
+        brand_model: 'Chic WF'
+        design_weight: 75
+        display_size: '2.4'
+        display_type: QVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: K10
+        -
+            strategy: string
+            value: 'Azumi Q10G'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Azumi
+        brand_model: K10
+        brand_marketing_name: 'Azumi Q10G'
+        brand_names: 'Azumi Q10G'
+        design_weight: 54
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Tzuki Slim'
+        -
+            strategy: string
+            value: 'Azumi K15'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Azumi
+        brand_model: 'Tzuki Slim'
+        brand_marketing_name: 'Azumi K15'
+        brand_names: 'Azumi K15'
+        display_size: '2.2'
+        display_type: 'TFT QVGA'
+-
+    patterns:
+        -
+            strategy: string
+            value: Kl32
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Azumi
+        brand_model: Kl32
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: L3GA
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Azumi
+        brand_model: L3GA
+        design_weight: 85
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Mega Taicho'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Azumi
+        brand_model: 'Mega Taicho'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Q15
+        -
+            strategy: string
+            value: 'Azumi Tzuki Q15 Slim'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Azumi
+        brand_model: Q15
+        brand_marketing_name: 'Azumi Tzuki Q15 Slim'
+        brand_names: 'Azumi Tzuki Q15 Slim'
+        design_weight: 71
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Taicho
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Azumi
+        brand_model: Taicho
+        display_size: '4.3'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: Tairu
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Azumi
+        brand_model: Tairu
+        display_size: '2.8'
+        display_type: TFT

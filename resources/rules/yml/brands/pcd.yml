@@ -1,0 +1,380 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: TXT8020
+        -
+            strategy: string
+            value: 'Pantech TXT8020'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: PCD
+        brand_model: TXT8020
+        brand_marketing_name: 'Pantech TXT8020'
+        brand_names: 'Pantech TXT8020'
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: '252'
+        -
+            strategy: string
+            value: 'PCD CL252, PCD 252L'
+        -
+            strategy: string
+            value: 'PCD CL252'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: PCD
+        brand_model: '252'
+        brand_marketing_name: 'PCD CL252'
+        brand_names: 'PCD CL252, PCD 252L'
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: '381'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: PCD
+        brand_model: '381'
+        design_weight: 90
+        display_size: '2.8'
+        display_type: 'TFT QVGA'
+-
+    patterns:
+        -
+            strategy: string
+            value: '1299'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: PCD
+        brand_model: '1299'
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A554C
+        -
+            strategy: string
+            value: 'Alcatel One Touch Revolve A554C'
+    capabilities:
+        is_mobile: true
+        display_width: 600
+        display_height: 800
+        brand_vendor: PCD
+        brand_model: A554C
+        brand_marketing_name: 'Alcatel One Touch Revolve A554C'
+        brand_names: 'Alcatel One Touch Revolve A554C'
+        design_weight: 121
+        display_size: '2.8'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: ADR1105
+    capabilities:
+        is_mobile: true
+        brand_vendor: PCD
+        brand_model: ADR1105
+        display_size: '2.8'
+-
+    patterns:
+        -
+            strategy: string
+            value: ADR21
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: PCD
+        brand_model: ADR21
+        display_size: '3.2'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: ADR555
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: PCD
+        brand_model: ADR555
+        display_size: '3.2'
+-
+    patterns:
+        -
+            strategy: string
+            value: C721
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: PCD
+        brand_model: C721
+        design_weight: 128
+        display_size: '2.3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: C741
+        -
+            strategy: string
+            value: 'PCD Casio Brigade C741, Verizon Wireless CASIO G''zOne Brigade'
+        -
+            strategy: string
+            value: 'PCD Casio Brigade C741'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 400
+        brand_vendor: PCD
+        brand_model: C741
+        brand_marketing_name: 'PCD Casio Brigade C741'
+        brand_names: 'PCD Casio Brigade C741, Verizon Wireless CASIO G''zOne Brigade'
+        design_weight: 156
+        display_size: '2.9'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: C751
+        -
+            strategy: string
+            value: 'Casio G''zOne Ravine'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: PCD
+        brand_model: C751
+        brand_marketing_name: 'Casio G''zOne Ravine'
+        brand_names: 'Casio G''zOne Ravine'
+        design_weight: 130
+        display_size: '2.2'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: CDM8635
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: PCD
+        brand_model: CDM8635
+        design_weight: 99
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: DTV1188
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: PCD
+        brand_model: DTV1188
+        display_size: '2.4'
+        display_type: 'TFT QVGA'
+-
+    patterns:
+        -
+            strategy: string
+            value: WP8990
+        -
+            strategy: string
+            value: 'PCD Escapade'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: PCD
+        brand_model: WP8990
+        brand_marketing_name: 'PCD Escapade'
+        brand_names: 'PCD Escapade'
+        design_weight: 96
+        display_size: '2'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: GDX-2002
+    capabilities:
+        is_mobile: true
+        brand_vendor: PCD
+        brand_model: GDX-2002
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: PCD787
+        -
+            strategy: string
+            value: 'PCD UT 787'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: PCD
+        brand_model: PCD787
+        brand_marketing_name: 'PCD UT 787'
+        brand_names: 'PCD UT 787'
+        display_size: '2.2'
+-
+    patterns:
+        -
+            strategy: string
+            value: PCS-1400
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: PCD
+        brand_model: PCS-1400
+        design_weight: 65
+        display_size: '1.5'
+        display_type: STN
+-
+    patterns:
+        -
+            strategy: string
+            value: 'PPC 4100'
+        -
+            strategy: string
+            value: 'PCD SP230'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: PCD
+        brand_model: 'PPC 4100'
+        brand_marketing_name: 'PCD SP230'
+        brand_names: 'PCD SP230'
+        design_weight: 158
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: RTV-737
+    capabilities:
+        is_mobile: true
+        brand_vendor: PCD
+        brand_model: RTV-737
+        design_weight: 83
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: TXT8030OM
+        -
+            strategy: string
+            value: 'PCD Razzle'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: PCD
+        brand_model: TXT8030OM
+        brand_marketing_name: 'PCD Razzle'
+        brand_names: 'PCD Razzle'
+        design_weight: 108
+        display_size: '2.2'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: TXT8030MV
+        -
+            strategy: string
+            value: 'PCD Razzle TXT8030'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: PCD
+        brand_model: TXT8030MV
+        brand_marketing_name: 'PCD Razzle TXT8030'
+        brand_names: 'PCD Razzle TXT8030'
+        design_weight: 108
+        display_size: '2.2'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: TXT8026
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: PCD
+        brand_model: TXT8026
+        design_weight: 133
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: TXTM8
+        -
+            strategy: string
+            value: 'Pantech TXT8026'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 144
+        brand_vendor: PCD
+        brand_model: TXTM8
+        brand_marketing_name: 'Pantech TXT8026'
+        brand_names: 'Pantech TXT8026'
+        design_weight: 133
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Thera
+        -
+            strategy: string
+            value: 'Toshiba 2032'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: PCD
+        brand_model: Thera
+        brand_marketing_name: 'Toshiba 2032'
+        brand_names: 'Toshiba 2032'
+        design_weight: 198
+        display_type: TFT

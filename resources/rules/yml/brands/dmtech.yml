@@ -1,0 +1,15 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Tablet 726H'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: DMTECH
+        brand_model: 'Tablet 726H'
+        design_weight: 400
+        display_size: '7'
+        display_type: LCD

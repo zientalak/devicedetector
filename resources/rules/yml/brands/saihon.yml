@@ -1,0 +1,14 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: I97
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Saihon
+        brand_model: I97
+        design_weight: 130
+        display_size: '4'
+        display_type: TFT

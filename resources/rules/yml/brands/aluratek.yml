@@ -1,0 +1,58 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: AT107F
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Aluratek
+        brand_model: AT107F
+        design_weight: 725
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: AT110F
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Aluratek
+        brand_model: AT110F
+        display_size: '10'
+-
+    patterns:
+        -
+            strategy: string
+            value: AT197F
+        -
+            strategy: string
+            value: 'CINEPAD 9.7'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 768
+        display_height: 1024
+        brand_vendor: Aluratek
+        brand_model: AT197F
+        brand_marketing_name: 'CINEPAD 9.7'
+        brand_names: 'CINEPAD 9.7'
+        display_size: '9.7'
+-
+    patterns:
+        -
+            strategy: string
+            value: AT208F
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 768
+        display_height: 1280
+        brand_vendor: Aluratek
+        brand_model: AT208F
+        display_size: '8'

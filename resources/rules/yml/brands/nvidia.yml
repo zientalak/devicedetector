@@ -1,0 +1,45 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Shield Tablet'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1200
+        display_height: 1920
+        brand_vendor: Nvidia
+        brand_model: 'Shield Tablet'
+        design_weight: 390
+        display_size: '8'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Tegra Note 7'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 1280
+        brand_vendor: Nvidia
+        brand_model: 'Tegra Note 7'
+        design_weight: 320
+        display_size: '7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Tegranote P1640'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1280
+        display_height: 800
+        brand_vendor: Nvidia
+        brand_model: 'Tegranote P1640'
+        design_weight: 320
+        display_size: '7'
+        display_type: 'IPS LCD'

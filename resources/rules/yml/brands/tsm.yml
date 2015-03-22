@@ -1,0 +1,104 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: T8i
+        -
+            strategy: string
+            value: 'TSM Malaysia T8i Touch'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: TSM
+        brand_model: T8i
+        brand_marketing_name: 'TSM Malaysia T8i Touch'
+        brand_names: 'TSM Malaysia T8i Touch'
+        design_weight: 185
+        display_size: '5.3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: T9I
+        -
+            strategy: string
+            value: 'TSM T9'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: TSM
+        brand_model: T9I
+        brand_marketing_name: 'TSM T9'
+        brand_names: 'TSM T9'
+        design_weight: 148
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: T928
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: TSM
+        brand_model: T928
+        design_weight: 107
+        display_size: '4'
+        display_type: 'QHD TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: T968
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: TSM
+        brand_model: T968
+        design_weight: 153
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: TP3
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: TSM
+        brand_model: TP3
+        design_weight: 322
+        display_size: '7'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: U4
+        -
+            strategy: string
+            value: 'TSM U4i'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: TSM
+        brand_model: U4
+        brand_marketing_name: 'TSM U4i'
+        brand_names: 'TSM U4i'
+        design_weight: 133
+        display_size: '4.3'
+        display_type: TFT

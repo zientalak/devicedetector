@@ -1,0 +1,13 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: T4
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Totempo
+        brand_model: T4
+        display_size: '5'

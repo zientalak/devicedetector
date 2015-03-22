@@ -1,0 +1,513 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: A120
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Bird
+        brand_model: A120
+        design_weight: 80
+        display_type: STN
+-
+    patterns:
+        -
+            strategy: string
+            value: A150
+    capabilities:
+        is_mobile: true
+        display_width: 120
+        display_height: 160
+        brand_vendor: Bird
+        brand_model: A150
+        design_weight: 85
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: D610
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Bird
+        brand_model: D610
+        design_weight: 96
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: D611
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Bird
+        brand_model: D611
+        design_weight: 71
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: D615
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Bird
+        brand_model: D615
+        design_weight: 82
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: D660
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 220
+        brand_vendor: Bird
+        brand_model: D660
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: D700
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Bird
+        brand_model: D700
+        design_weight: 84
+        display_size: '1.9'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: D718
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Bird
+        brand_model: D718
+        design_weight: 100
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: D720
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Bird
+        brand_model: D720
+        design_weight: 93
+        display_size: '1.9'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: D730
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Bird
+        brand_model: D730
+        design_weight: 96
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: D736
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Bird
+        brand_model: D736
+        design_weight: 96
+        display_size: '1.9'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: E818
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Bird
+        brand_model: E818
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: F501
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Bird
+        brand_model: F501
+        design_weight: 84
+        display_size: '1.8'
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: F518
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Bird
+        brand_model: F518
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: G118
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Bird
+        brand_model: G118
+        design_weight: 80
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: K298
+        -
+            strategy: string
+            value: 'Bird Penguin'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Bird
+        brand_model: K298
+        brand_marketing_name: 'Bird Penguin'
+        brand_names: 'Bird Penguin'
+        design_weight: 98
+        display_size: '2.8'
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: M29
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Bird
+        brand_model: M29
+        design_weight: 90
+        display_size: '1.6'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: S230
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Bird
+        brand_model: S230
+        design_weight: 74
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: S305
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Bird
+        brand_model: S305
+        design_weight: 70
+        display_size: '1.8'
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: S570
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Bird
+        brand_model: S570
+        design_weight: 89
+        display_type: STN
+-
+    patterns:
+        -
+            strategy: string
+            value: S689
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Bird
+        brand_model: S689
+        design_weight: 95
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: S701
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Bird
+        brand_model: S701
+        design_weight: 63
+        display_size: '1.5'
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: S710
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Bird
+        brand_model: S710
+        design_weight: 68
+        display_size: '1.5'
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: S710a
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Bird
+        brand_model: S710a
+        design_weight: 68
+        display_size: '1.5'
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: S789
+    capabilities:
+        is_mobile: true
+        display_width: 28
+        display_height: 160
+        brand_vendor: Bird
+        brand_model: S789
+        design_weight: 80
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: S889
+        -
+            strategy: string
+            value: 'Bird S889'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Bird
+        brand_model: S889
+        brand_marketing_name: 'Bird S889'
+        brand_names: 'Bird S889'
+        design_weight: 106
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: S918
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Bird
+        brand_model: S918
+        design_weight: 132
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: SC14
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Bird
+        brand_model: SC14
+        design_weight: 85
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: SC17c
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Bird
+        brand_model: SC17c
+-
+    patterns:
+        -
+            strategy: string
+            value: SC24
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Bird
+        brand_model: SC24
+        design_weight: 80
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: SM10
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Bird
+        brand_model: SM10
+        design_weight: 75
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: V007
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Bird
+        brand_model: V007
+        design_weight: 80
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: V59
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 120
+        brand_vendor: Bird
+        brand_model: V59
+-
+    patterns:
+        -
+            strategy: string
+            value: V750
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Bird
+        brand_model: V750
+        display_size: '2.6'
+        display_type: QVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: V780
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Bird
+        brand_model: V780
+        design_weight: 110
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: V788
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Bird
+        brand_model: V788
+        design_weight: 122
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: V89
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Bird
+        brand_model: V89
+        design_weight: 80
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: k505
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Bird
+        brand_model: k505
+        display_size: '2.4'
+        display_type: TFT

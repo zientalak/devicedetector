@@ -1,0 +1,120 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 1010IPS
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 1280
+        brand_vendor: Polypad
+        brand_model: 1010IPS
+        design_weight: 585
+        display_size: '10.1'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 528HD
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Polypad
+        brand_model: 528HD
+        design_weight: 290
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 7408ips
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Polypad
+        brand_model: 7408ips
+        design_weight: 327
+        display_size: '7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 8208HD
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 768
+        display_height: 1024
+        brand_vendor: Polypad
+        brand_model: 8208HD
+        design_weight: 390
+        display_size: '8'
+        display_type: 'LCD TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: 8216HD
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 768
+        display_height: 1024
+        brand_vendor: Polypad
+        brand_model: 8216HD
+        design_weight: 390
+        display_size: '8'
+        display_type: 'TFT LCD IPS'
+-
+    patterns:
+        -
+            strategy: string
+            value: '9716 HD'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 768
+        display_height: 1024
+        brand_vendor: Polypad
+        brand_model: '9716 HD'
+        design_weight: 490
+        display_size: '9.7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: C504
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Polypad
+        brand_model: C504
+        design_weight: 290
+        display_size: '7'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: C7000
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 600
+        brand_vendor: Polypad
+        brand_model: C7000
+        design_weight: 420
+        display_size: '7'
+        display_type: TFT-LCD

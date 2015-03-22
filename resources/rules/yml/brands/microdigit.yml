@@ -1,0 +1,34 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: EX020D
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Microdigit
+        brand_model: EX020D
+        design_weight: 320
+        display_size: '7'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: M700G
+        -
+            strategy: string
+            value: 'Microdigit M700G Prime'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Microdigit
+        brand_model: M700G
+        brand_marketing_name: 'Microdigit M700G Prime'
+        brand_names: 'Microdigit M700G Prime'
+        display_size: '7'
+        display_type: LCD

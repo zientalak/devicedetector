@@ -1,0 +1,14 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: NMID7002P
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Nikai
+        brand_model: NMID7002P
+        display_size: '7'
+        display_type: TFT

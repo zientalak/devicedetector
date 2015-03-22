@@ -1,0 +1,674 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: CD611
+    capabilities:
+        is_mobile: true
+        brand_vendor: VeryKool
+        brand_model: CD611
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: R13
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: VeryKool
+        brand_model: R13
+        design_weight: 73
+        display_size: '1.8'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: R16
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: VeryKool
+        brand_model: R16
+        design_weight: 73
+        display_size: '1.8'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: R23
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: VeryKool
+        brand_model: R23
+        design_weight: 110
+        display_size: '2.2'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: R25
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: VeryKool
+        brand_model: R25
+        design_weight: 110
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: R620
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 240
+        brand_vendor: VeryKool
+        brand_model: R620
+        design_weight: 110
+        display_size: '2.3'
+        display_type: QVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: R623
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: VeryKool
+        brand_model: R623
+        design_weight: 112
+        display_size: '2.3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: R80
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: VeryKool
+        brand_model: R80
+        design_weight: 73
+        display_size: '2.4'
+        display_type: OLED
+-
+    patterns:
+        -
+            strategy: string
+            value: R800
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: VeryKool
+        brand_model: R800
+        design_weight: 417
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: S352
+        -
+            strategy: string
+            value: 'Verykool S352 Jasper II'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: VeryKool
+        brand_model: S352
+        brand_marketing_name: 'Verykool S352 Jasper II'
+        brand_names: 'Verykool S352 Jasper II'
+        design_weight: 108
+        display_size: '3.5'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: S353
+        -
+            strategy: string
+            value: 'VeryKool S353 Jasper'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: VeryKool
+        brand_model: S353
+        brand_marketing_name: 'VeryKool S353 Jasper'
+        brand_names: 'VeryKool S353 Jasper'
+        design_weight: 104
+        display_size: '3.5'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: S401
+        -
+            strategy: string
+            value: 'Verykool S401 Aura'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: VeryKool
+        brand_model: S401
+        brand_marketing_name: 'Verykool S401 Aura'
+        brand_names: 'Verykool S401 Aura'
+        design_weight: 100
+        display_size: '4'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: S450
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: VeryKool
+        brand_model: S450
+        design_weight: 132
+        display_size: '4.5'
+        display_type: 'TFT LCD IPS'
+-
+    patterns:
+        -
+            strategy: string
+            value: S728
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: VeryKool
+        brand_model: S728
+        design_weight: 90
+        display_size: '2.8'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: S757
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: VeryKool
+        brand_model: S757
+        design_weight: 224
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: S815
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: VeryKool
+        brand_model: S815
+        design_weight: 90
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: i115
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: VeryKool
+        brand_model: i115
+        design_weight: 65
+        display_size: '1.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: i117
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: VeryKool
+        brand_model: i117
+        design_weight: 65
+        display_size: '1.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: i119
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: VeryKool
+        brand_model: i119
+        design_weight: 63
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: i121
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: VeryKool
+        brand_model: i121
+        design_weight: 65
+        display_size: '1.77'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: i121C
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: VeryKool
+        brand_model: i121C
+        design_weight: 65
+        display_size: '1.77'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: i122
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: VeryKool
+        brand_model: i122
+        design_weight: 63
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: i125
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: VeryKool
+        brand_model: i125
+        design_weight: 63
+        display_size: '1.8'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: i270
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: VeryKool
+        brand_model: i270
+        design_weight: 95
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: i277
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 400
+        brand_vendor: VeryKool
+        brand_model: i277
+        design_weight: 96
+        display_size: '3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: i280
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: VeryKool
+        brand_model: i280
+        design_weight: 110
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: i310
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: VeryKool
+        brand_model: i310
+        design_weight: 90
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: i315N
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: VeryKool
+        brand_model: i315N
+        design_weight: 70
+        display_size: '1.43'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: i320
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: VeryKool
+        brand_model: i320
+        design_weight: 85
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: i600
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: VeryKool
+        brand_model: i600
+        design_weight: 88
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: i601
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: VeryKool
+        brand_model: i601
+        design_weight: 85
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: i610
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: VeryKool
+        brand_model: i610
+        design_weight: 88
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: i625
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: VeryKool
+        brand_model: i625
+        design_weight: 110
+        display_size: '2.3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: i650
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: VeryKool
+        brand_model: i650
+        design_weight: 130
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: i672
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: VeryKool
+        brand_model: i672
+        design_weight: 90
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: i674
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: VeryKool
+        brand_model: i674
+        design_weight: 100
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: i675
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: VeryKool
+        brand_model: i675
+        design_weight: 100
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: i705
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: VeryKool
+        brand_model: i705
+        design_weight: 90
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: i725
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: VeryKool
+        brand_model: i725
+        design_weight: 106
+        display_size: '3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: i800
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: VeryKool
+        brand_model: i800
+        design_weight: 107
+        display_size: '2.8'
+-
+    patterns:
+        -
+            strategy: string
+            value: s135
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: VeryKool
+        brand_model: s135
+        design_weight: 80
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: s350
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: VeryKool
+        brand_model: s350
+        design_weight: 100
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: s635
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: VeryKool
+        brand_model: s635
+        design_weight: 80
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: s732
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: VeryKool
+        brand_model: s732
+        design_weight: 120
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: s735
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: VeryKool
+        brand_model: s735
+        design_weight: 121
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: s758
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: VeryKool
+        brand_model: s758
+        design_weight: 212
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: s810
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: VeryKool
+        brand_model: s810
+        design_weight: 101
+        display_size: '2.4'
+        display_type: TFT

@@ -1,0 +1,14 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'SKG A-PAD 114 Plus'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: SKG
+        brand_model: 'SKG A-PAD 114 Plus'
+        display_size: '7'
+        display_type: WVGA

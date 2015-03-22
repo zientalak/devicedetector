@@ -1,0 +1,15 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: Y-B07N
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Yamay
+        brand_model: Y-B07N
+        design_weight: 360
+        display_size: '7'
+        display_type: TFT

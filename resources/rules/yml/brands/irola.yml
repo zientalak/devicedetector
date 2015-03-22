@@ -1,0 +1,20 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: Dx752
+        -
+            strategy: string
+            value: 'Kocaso iRola DX752'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: iRola
+        brand_model: Dx752
+        brand_marketing_name: 'Kocaso iRola DX752'
+        brand_names: 'Kocaso iRola DX752'
+        design_weight: 340
+        display_size: '7'
+        display_type: TFT

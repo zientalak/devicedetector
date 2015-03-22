@@ -1,0 +1,44 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Sm@rt Mini S620'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: MTN
+        brand_model: 'Sm@rt Mini S620'
+        design_weight: 107
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Sm@rt S720i'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: MTN
+        brand_model: 'Sm@rt S720i'
+        design_weight: 100
+        display_size: '4'
+        display_type: 'WVGA TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Smart S720'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: MTN
+        brand_model: 'Smart S720'
+        display_size: '4'
+        display_type: TFT

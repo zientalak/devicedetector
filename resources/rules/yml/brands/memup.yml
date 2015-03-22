@@ -1,0 +1,132 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: PP40
+        -
+            strategy: string
+            value: 'Memup Pocket Pad 4.0'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 272
+        display_height: 480
+        brand_vendor: Memup
+        brand_model: PP40
+        brand_marketing_name: 'Memup Pocket Pad 4.0'
+        brand_names: 'Memup Pocket Pad 4.0'
+        display_size: '4.3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: SP704C
+        -
+            strategy: string
+            value: 'Memup SlidePad 704c'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Memup
+        brand_model: SP704C
+        brand_marketing_name: 'Memup SlidePad 704c'
+        brand_names: 'Memup SlidePad 704c'
+        design_weight: 290
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: SP708C
+        -
+            strategy: string
+            value: 'Memup Slidepad 708C'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 600
+        brand_vendor: Memup
+        brand_model: SP708C
+        brand_marketing_name: 'Memup Slidepad 708C'
+        brand_names: 'Memup Slidepad 708C'
+        display_size: '7'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: SPNG708
+        -
+            strategy: string
+            value: 'Memup Slidepad NG 708'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Memup
+        brand_model: SPNG708
+        brand_marketing_name: 'Memup Slidepad NG 708'
+        brand_names: 'Memup Slidepad NG 708'
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: SPNG808
+        -
+            strategy: string
+            value: 'Memup Slidepad NG 808'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 600
+        brand_vendor: Memup
+        brand_model: SPNG808
+        brand_marketing_name: 'Memup Slidepad NG 808'
+        brand_names: 'Memup Slidepad NG 808'
+        display_size: '8'
+-
+    patterns:
+        -
+            strategy: string
+            value: SPNG9708
+        -
+            strategy: string
+            value: 'Memup Slide Pad NG9708'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Memup
+        brand_model: SPNG9708
+        brand_marketing_name: 'Memup Slide Pad NG9708'
+        brand_names: 'Memup Slide Pad NG9708'
+        design_weight: 570
+        display_size: '9.7'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: SPNG9716DC
+        -
+            strategy: string
+            value: 'Memup Slidepad NG 9716DC'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Memup
+        brand_model: SPNG9716DC
+        brand_marketing_name: 'Memup Slidepad NG 9716DC'
+        brand_names: 'Memup Slidepad NG 9716DC'
+        display_size: '9.7'
+        display_type: IPS

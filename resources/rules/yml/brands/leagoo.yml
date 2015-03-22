@@ -1,0 +1,30 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Lead 3'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: LEAGOO
+        brand_model: 'Lead 3'
+        design_weight: 135
+        display_size: '4.5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: Lead4
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: LEAGOO
+        brand_model: Lead4
+        design_weight: 115
+        display_size: '4'
+        display_type: 'TFT LCD'

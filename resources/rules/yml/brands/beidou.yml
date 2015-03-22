@@ -1,0 +1,40 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: LA-I
+        -
+            strategy: string
+            value: 'Beidou Hot Pepper LA-I'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Beidou
+        brand_model: LA-I
+        brand_marketing_name: 'Beidou Hot Pepper LA-I'
+        brand_names: 'Beidou Hot Pepper LA-I'
+        design_weight: 139
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: LA-M1
+        -
+            strategy: string
+            value: 'Beidou Little Chilli'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Beidou
+        brand_model: LA-M1
+        brand_marketing_name: 'Beidou Little Chilli'
+        brand_names: 'Beidou Little Chilli'
+        design_weight: 150
+        display_size: '4.5'
+        display_type: IPS

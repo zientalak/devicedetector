@@ -1,0 +1,15 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: GN708W
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: GPLUS
+        brand_model: GN708W
+        design_weight: 140
+        display_size: '4.5'
+        display_type: 'IPS TFT'

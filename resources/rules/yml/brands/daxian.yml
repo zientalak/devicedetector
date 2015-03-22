@@ -1,0 +1,25 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: D758
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Daxian
+        brand_model: D758
+        design_weight: 73
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: DX801
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Daxian
+        brand_model: DX801
+        design_weight: 110

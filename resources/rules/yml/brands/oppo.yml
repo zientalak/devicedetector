@@ -1,0 +1,1049 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: A105T
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Oppo
+        brand_model: A105T
+        design_weight: 89
+        display_size: '2.4'
+        display_type: TFT-LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: A1215
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Oppo
+        brand_model: A1215
+        design_weight: 95
+        display_size: '2.4'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: A127
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Oppo
+        brand_model: A127
+        design_weight: 95
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A129
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 400
+        brand_vendor: Oppo
+        brand_model: A129
+        design_weight: 93
+        display_size: '2.75'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A201
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Oppo
+        brand_model: A201
+        design_weight: 140
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A613
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 400
+        brand_vendor: Oppo
+        brand_model: A613
+        design_weight: 107
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A913
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Oppo
+        brand_model: A913
+        design_weight: 95
+        display_size: '2.4'
+        display_type: TFT-LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: U5211
+        -
+            strategy: string
+            value: 'Oppo Chatty Dot'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Oppo
+        brand_model: U5211
+        brand_marketing_name: 'Oppo Chatty Dot'
+        brand_names: 'Oppo Chatty Dot'
+        design_weight: 116
+        display_size: '2.4'
+        display_type: TFT-LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: X9015
+        -
+            strategy: string
+            value: 'Oppo Find 3'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Oppo
+        brand_model: X9015
+        brand_marketing_name: 'Oppo Find 3'
+        brand_names: 'Oppo Find 3'
+        design_weight: 150
+        display_size: '4'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: X909T
+        -
+            strategy: string
+            value: 'Oppo Find 5 X909T'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Oppo
+        brand_model: X909T
+        brand_marketing_name: 'Oppo Find 5 X909T'
+        brand_names: 'Oppo Find 5 X909T'
+        design_weight: 165
+        display_size: '5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: R815
+        -
+            strategy: string
+            value: 'Oppo Find Clover R815'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Oppo
+        brand_model: R815
+        brand_marketing_name: 'Oppo Find Clover R815'
+        brand_names: 'Oppo Find Clover R815'
+        design_weight: 141
+        display_size: '4.3'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: R821
+        -
+            strategy: string
+            value: 'Oppo Find Muse'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Oppo
+        brand_model: R821
+        brand_marketing_name: 'Oppo Find Muse'
+        brand_names: 'Oppo Find Muse'
+        design_weight: 124
+        display_size: '4'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: R8113
+        -
+            strategy: string
+            value: 'Oppo Find Piano'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Oppo
+        brand_model: R8113
+        brand_marketing_name: 'Oppo Find Piano'
+        brand_names: 'Oppo Find Piano'
+        design_weight: 128
+        display_size: '2.4'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: U707
+        -
+            strategy: string
+            value: 'Oppo Find Way S'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Oppo
+        brand_model: U707
+        brand_marketing_name: 'Oppo Find Way S'
+        brand_names: 'Oppo Find Way S'
+        design_weight: 182
+        display_size: '5.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Find X903'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Oppo
+        brand_model: 'Find X903'
+        design_weight: 199
+        display_size: '4'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: X9017
+        -
+            strategy: string
+            value: 'Oppo Finder X9017'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Oppo
+        brand_model: X9017
+        brand_marketing_name: 'Oppo Finder X9017'
+        brand_names: 'Oppo Finder X9017'
+        display_size: '4.3'
+        display_type: 'Super AMOLED'
+-
+    patterns:
+        -
+            strategy: string
+            value: U520T
+        -
+            strategy: string
+            value: 'Oppo Funtasy'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Oppo
+        brand_model: U520T
+        brand_marketing_name: 'Oppo Funtasy'
+        brand_names: 'Oppo Funtasy'
+        design_weight: 103
+        display_size: '2.4'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: R1001
+        -
+            strategy: string
+            value: 'Oppo Joy R1001'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Oppo
+        brand_model: R1001
+        brand_marketing_name: 'Oppo Joy R1001'
+        brand_names: 'Oppo Joy R1001'
+        design_weight: 125
+        display_size: '4'
+        display_type: 'IPS TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: U529T
+        -
+            strategy: string
+            value: 'Oppo Lomo me'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 432
+        brand_vendor: Oppo
+        brand_model: U529T
+        brand_marketing_name: 'Oppo Lomo me'
+        brand_names: 'Oppo Lomo me'
+        design_weight: 130
+        display_size: '3.2'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: N5116
+        -
+            strategy: string
+            value: 'Oppo N1 Mini N5116'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Oppo
+        brand_model: N5116
+        brand_marketing_name: 'Oppo N1 Mini N5116'
+        brand_names: 'Oppo N1 Mini N5116'
+        design_weight: 150
+        display_size: '5'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: N1T
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Oppo
+        brand_model: N1T
+        design_weight: 213
+        display_size: '5.9'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: N5111
+        -
+            strategy: string
+            value: 'OPPO N1 MINI'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Oppo
+        brand_model: N5111
+        brand_marketing_name: 'OPPO N1 MINI'
+        brand_names: 'OPPO N1 MINI'
+        design_weight: 150
+        display_size: '5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: R831
+        -
+            strategy: string
+            value: 'Oppo Neo'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Oppo
+        brand_model: R831
+        brand_marketing_name: 'Oppo Neo'
+        brand_names: 'Oppo Neo'
+        design_weight: 130
+        display_size: '4.5'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: R831K
+        -
+            strategy: string
+            value: 'Oppo Neo 3'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Oppo
+        brand_model: R831K
+        brand_marketing_name: 'Oppo Neo 3'
+        brand_names: 'Oppo Neo 3'
+        design_weight: 130
+        display_size: '4.5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: R831L
+        -
+            strategy: string
+            value: 'Oppo Neo 5 R831L'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Oppo
+        brand_model: R831L
+        brand_marketing_name: 'Oppo Neo 5 R831L'
+        brand_names: 'Oppo Neo 5 R831L'
+        design_weight: 132
+        display_size: '4.5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: R829
+        -
+            strategy: string
+            value: 'Oppo R1'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Oppo
+        brand_model: R829
+        brand_marketing_name: 'Oppo R1'
+        brand_names: 'Oppo R1'
+        design_weight: 140
+        display_size: '5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: R829T
+        -
+            strategy: string
+            value: 'Oppo R1 R829T'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Oppo
+        brand_model: R829T
+        brand_marketing_name: 'Oppo R1 R829T'
+        brand_names: 'Oppo R1 R829T'
+        design_weight: 140
+        display_size: '5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: R8006
+        -
+            strategy: string
+            value: 'Oppo R1L R8006'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Oppo
+        brand_model: R8006
+        brand_marketing_name: 'Oppo R1L R8006'
+        brand_names: 'Oppo R1L R8006'
+        design_weight: 136
+        display_size: '5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: R8007
+        -
+            strategy: string
+            value: 'Oppo R1S R8007'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Oppo
+        brand_model: R8007
+        brand_marketing_name: 'Oppo R1S R8007'
+        brand_names: 'Oppo R1S R8007'
+        design_weight: 140
+        display_size: '5'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: R2001
+        -
+            strategy: string
+            value: 'Oppo Yoyo R2001'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Oppo
+        brand_model: R2001
+        brand_marketing_name: 'Oppo Yoyo R2001'
+        brand_names: 'Oppo Yoyo R2001'
+        design_weight: 145
+        display_size: '4.7'
+        display_type: 'IPS QHD'
+-
+    patterns:
+        -
+            strategy: string
+            value: R801
+        -
+            strategy: string
+            value: 'Oppo Real R801'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 320
+        brand_vendor: Oppo
+        brand_model: R801
+        brand_marketing_name: 'Oppo Real R801'
+        brand_names: 'Oppo Real R801'
+        design_weight: 129
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: R8015
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 320
+        brand_vendor: Oppo
+        brand_model: R8015
+        design_weight: 127
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: R803
+        -
+            strategy: string
+            value: 'Oppo Real R803'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 320
+        brand_vendor: Oppo
+        brand_model: R803
+        brand_marketing_name: 'Oppo Real R803'
+        brand_names: 'Oppo Real R803'
+        design_weight: 127
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: R805
+        -
+            strategy: string
+            value: 'Oppo Real R805'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 320
+        brand_vendor: Oppo
+        brand_model: R805
+        brand_marketing_name: 'Oppo Real R805'
+        brand_names: 'Oppo Real R805'
+        design_weight: 130
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: R807
+        -
+            strategy: string
+            value: 'Oppo Real R807'
+    capabilities:
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Oppo
+        brand_model: R807
+        brand_marketing_name: 'Oppo Real R807'
+        brand_names: 'Oppo Real R807'
+        design_weight: 140
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: R809T
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Oppo
+        brand_model: R809T
+        design_weight: 110
+        display_size: '4.7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: R811
+        -
+            strategy: string
+            value: 'Oppo Real R811'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Oppo
+        brand_model: R811
+        brand_marketing_name: 'Oppo Real R811'
+        brand_names: 'Oppo Real R811'
+        design_weight: 119
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: R8111
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Oppo
+        brand_model: R8111
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: R813T
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Oppo
+        brand_model: R813T
+        design_weight: 128
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: R815T
+        -
+            strategy: string
+            value: 'Oppo R815T Clover'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Oppo
+        brand_model: R815T
+        brand_marketing_name: 'Oppo R815T Clover'
+        brand_names: 'Oppo R815T Clover'
+        design_weight: 141
+        display_size: '4.3'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: R817
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Oppo
+        brand_model: R817
+        design_weight: 125
+        display_size: '4'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: R817T
+        -
+            strategy: string
+            value: 'Oppo Real R817T'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Oppo
+        brand_model: R817T
+        brand_marketing_name: 'Oppo Real R817T'
+        brand_names: 'Oppo Real R817T'
+        design_weight: 125
+        display_size: '4'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: R819
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Oppo
+        brand_model: R819
+        design_weight: 110
+        display_size: '4.7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: R819T
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Oppo
+        brand_model: R819T
+        design_weight: 110
+        display_size: '4.7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: R821T
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Oppo
+        brand_model: R821T
+        design_weight: 125
+        display_size: '4'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: R823T
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Oppo
+        brand_model: R823T
+        design_weight: 128
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: R827
+        -
+            strategy: string
+            value: 'Oppo R827 Find 5 Mini'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Oppo
+        brand_model: R827
+        brand_marketing_name: 'Oppo R827 Find 5 Mini'
+        brand_names: 'Oppo R827 Find 5 Mini'
+        design_weight: 128
+        display_size: '4.7'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: R827T
+        -
+            strategy: string
+            value: 'Oppo R827T Find 5'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Oppo
+        brand_model: R827T
+        brand_marketing_name: 'Oppo R827T Find 5'
+        brand_names: 'Oppo R827T Find 5'
+        design_weight: 128
+        display_size: '4.7'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: R831T
+        -
+            strategy: string
+            value: 'Oppo R831T Neo'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Oppo
+        brand_model: R831T
+        brand_marketing_name: 'Oppo R831T Neo'
+        brand_names: 'Oppo R831T Neo'
+        design_weight: 128
+        display_size: '4.5'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: R833T
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Oppo
+        brand_model: R833T
+        design_weight: 139
+        display_size: '4.3'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: T29
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Oppo
+        brand_model: T29
+        design_weight: 160
+        display_size: '4.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: T703
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 320
+        brand_vendor: Oppo
+        brand_model: T703
+        design_weight: 137
+        display_size: '3.2'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: U707T
+        -
+            strategy: string
+            value: 'Oppo U2S U707T, Find Way S'
+        -
+            strategy: string
+            value: 'Oppo U2S U707T'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Oppo
+        brand_model: U707T
+        brand_marketing_name: 'Oppo U2S U707T'
+        brand_names: 'Oppo U2S U707T, Find Way S'
+        design_weight: 182
+        display_size: '5.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: U525
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 432
+        brand_vendor: Oppo
+        brand_model: U525
+        design_weight: 132
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: U701
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Oppo
+        brand_model: U701
+        design_weight: 130
+        display_size: '4'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: U7011
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Oppo
+        brand_model: U7011
+        design_weight: 133
+        display_size: '4'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: U705T
+        -
+            strategy: string
+            value: 'Oppo Ulike'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Oppo
+        brand_model: U705T
+        brand_marketing_name: 'Oppo Ulike'
+        brand_names: 'Oppo Ulike'
+        design_weight: 113
+        display_size: '4.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: X905
+    capabilities:
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Oppo
+        brand_model: X905
+        design_weight: 150
+        display_size: '4'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: X907
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Oppo
+        brand_model: X907
+        design_weight: 125
+        display_size: '4.3'
+        display_type: 'Super AMOLED Plus'
+-
+    patterns:
+        -
+            strategy: string
+            value: X909
+        -
+            strategy: string
+            value: 'Find 5'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Oppo
+        brand_model: X909
+        brand_marketing_name: 'Find 5'
+        brand_names: 'Find 5'
+        design_weight: 165
+        display_size: '5'
+        display_type: IPS

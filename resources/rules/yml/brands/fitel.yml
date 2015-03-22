@@ -1,0 +1,11 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: PG2100
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Fitel
+        brand_model: PG2100

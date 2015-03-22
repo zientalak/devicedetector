@@ -1,0 +1,80 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: S12HT
+        -
+            strategy: string
+            value: 'Emobile EMonster Lite'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Emobile
+        brand_model: S12HT
+        brand_marketing_name: 'Emobile EMonster Lite'
+        brand_names: 'Emobile EMonster Lite'
+        design_weight: 120
+        display_size: '2.6'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: S11HT
+        -
+            strategy: string
+            value: 'Emobile Emonster'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Emobile
+        brand_model: S11HT
+        brand_marketing_name: 'Emobile Emonster'
+        brand_names: 'Emobile Emonster'
+        design_weight: 190
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: S21HT
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 640
+        brand_vendor: Emobile
+        brand_model: S21HT
+        design_weight: 110
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: S31HT
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Emobile
+        brand_model: S31HT
+        design_weight: 108
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: S31HW
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Emobile
+        brand_model: S31HW
+        design_weight: 105
+        display_size: '2.8'
+        display_type: TFT

@@ -1,0 +1,12 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: MID7102SC
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        brand_vendor: Mitsui
+        brand_model: MID7102SC
+        display_size: '7'
+        display_type: TFT

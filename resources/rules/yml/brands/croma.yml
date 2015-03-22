@@ -1,0 +1,60 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: CRCB2129
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Croma
+        brand_model: CRCB2129
+        design_weight: 117
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: CRCB2243
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Croma
+        brand_model: CRCB2243
+        design_weight: 188
+        display_size: '5'
+        display_type: 'qHD IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'CRXT 1125'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Croma
+        brand_model: 'CRXT 1125'
+        design_weight: 320
+        display_size: '7'
+        display_type: 'HD IPS'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'CRXT 1131'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Croma
+        brand_model: 'CRXT 1131'
+        design_weight: 400
+        display_size: '7.85'
+        display_type: 'HD IPS'

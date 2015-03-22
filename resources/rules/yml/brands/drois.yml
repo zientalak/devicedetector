@@ -1,0 +1,26 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'HD7 Pro'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Drois
+        brand_model: 'HD7 Pro'
+        design_weight: 162
+        display_size: '4.3'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'HDC A9100'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Drois
+        brand_model: 'HDC A9100'
+        design_weight: 145
+        display_size: '4.3'

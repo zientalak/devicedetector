@@ -1,0 +1,59 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Business II Tab 9'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Piranha
+        brand_model: 'Business II Tab 9'
+        design_weight: 518
+        display_size: '9'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Business III Tab 10.1'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Piranha
+        brand_model: 'Business III Tab 10.1'
+        display_size: '10.1'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Business Tab 7'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Piranha
+        brand_model: 'Business Tab 7'
+        design_weight: 296
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Pro II tab 7.0'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Piranha
+        brand_model: 'Pro II tab 7.0'
+        design_weight: 331
+        display_size: '7'
+        display_type: TFT

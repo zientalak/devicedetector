@@ -1,0 +1,58 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: E505
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Moii
+        brand_model: E505
+        design_weight: 118
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: E801
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Moii
+        brand_model: E801
+        design_weight: 128
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: E896
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Moii
+        brand_model: E896
+        design_weight: 143
+        display_size: '4.5'
+-
+    patterns:
+        -
+            strategy: string
+            value: E996
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Moii
+        brand_model: E996
+        design_weight: 160
+        display_size: '5'

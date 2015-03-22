@@ -1,0 +1,14 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'SciPhone A1241'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Bluelans
+        brand_model: 'SciPhone A1241'
+        design_weight: 125
+        display_size: '3.2'
+        display_type: TFT

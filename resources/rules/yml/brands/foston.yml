@@ -1,0 +1,73 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: G-M7904
+        -
+            strategy: string
+            value: 'Foston FS-M3G796GT'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Foston
+        brand_model: G-M7904
+        brand_marketing_name: 'Foston FS-M3G796GT'
+        brand_names: 'Foston FS-M3G796GT'
+        display_size: '7'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: FS-M787
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Foston
+        brand_model: FS-M787
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: FS-M797HD
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Foston
+        brand_model: FS-M797HD
+        display_size: '7'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: FS-S350
+    capabilities:
+        is_mobile: true
+        display_width: 800
+        display_height: 1008
+        brand_vendor: Foston
+        brand_model: FS-S350
+        display_size: '3.5'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: FS-S4300
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Foston
+        brand_model: FS-S4300
+        display_size: '4.3'
+        display_type: 'TFT LCD'

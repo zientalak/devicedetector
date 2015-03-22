@@ -1,0 +1,30 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: N5
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Neken
+        brand_model: N5
+        design_weight: 172
+        display_size: '4.7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: N6
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Neken
+        brand_model: N6
+        design_weight: 173
+        display_size: '5'
+        display_type: IPS

@@ -1,0 +1,12 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: iBak-796cap
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        brand_vendor: Bak
+        brand_model: iBak-796cap
+        display_size: '7'
+        display_type: TFT

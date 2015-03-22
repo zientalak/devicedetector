@@ -1,0 +1,14 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: PC7134
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Kolke
+        brand_model: PC7134
+        display_size: '7'
+        display_type: 'TFT LCD'

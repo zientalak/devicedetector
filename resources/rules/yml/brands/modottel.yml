@@ -1,0 +1,13 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: WTE320
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Modottel
+        brand_model: WTE320
+        design_weight: 95
+        display_type: TFT

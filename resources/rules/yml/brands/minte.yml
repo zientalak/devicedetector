@@ -1,0 +1,12 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: N505
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Minte
+        brand_model: N505
+        display_size: '3.5'

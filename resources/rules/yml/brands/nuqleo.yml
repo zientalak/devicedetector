@@ -1,0 +1,30 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Quantum 7'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Nuqleo
+        brand_model: 'Quantum 7'
+        design_weight: 309
+        display_size: '7'
+        display_type: LED
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Zinq 7'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Nuqleo
+        brand_model: 'Zinq 7'
+        design_weight: 306
+        display_size: '7'
+        display_type: 'TFT LED'

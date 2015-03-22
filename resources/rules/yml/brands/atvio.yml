@@ -1,0 +1,14 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: MID7109sc
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Atvio
+        brand_model: MID7109sc
+        display_size: '7'
+        display_type: TFT

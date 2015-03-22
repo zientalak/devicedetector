@@ -1,0 +1,28 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'A704 Inspire X'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: GTel
+        brand_model: 'A704 Inspire X'
+        display_size: '4'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'A706 Infinity S'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: GTel
+        brand_model: 'A706 Infinity S'
+        display_size: '5'
+        display_type: IPS

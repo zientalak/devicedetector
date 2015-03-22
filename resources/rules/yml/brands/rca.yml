@@ -1,0 +1,139 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: RCT6077W2
+        -
+            strategy: string
+            value: 'RCA 7 RCT6077W2'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: RCA
+        brand_model: RCT6077W2
+        brand_marketing_name: 'RCA 7 RCT6077W2'
+        brand_names: 'RCA 7 RCT6077W2'
+        design_weight: 316
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: RCT6773W22
+        -
+            strategy: string
+            value: 'RCA 7 Voyager'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: RCA
+        brand_model: RCT6773W22
+        brand_marketing_name: 'RCA 7 Voyager'
+        brand_names: 'RCA 7 Voyager'
+        design_weight: 288
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: RCT6573W23
+        -
+            strategy: string
+            value: 'RCA Apollo 8'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 768
+        display_height: 1024
+        brand_vendor: RCA
+        brand_model: RCT6573W23
+        brand_marketing_name: 'RCA Apollo 8'
+        brand_names: 'RCA Apollo 8'
+        design_weight: 350
+        display_size: '8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: RCT6103W46
+        -
+            strategy: string
+            value: 'RCA Pro 10 Edition'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: RCA
+        brand_model: RCT6103W46
+        brand_marketing_name: 'RCA Pro 10 Edition'
+        brand_names: 'RCA Pro 10 Edition'
+        design_weight: 921
+        display_size: '10.1'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: RCT6203W46
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: RCA
+        brand_model: RCT6203W46
+        design_weight: 921
+        display_size: '10.1'
+-
+    patterns:
+        -
+            strategy: string
+            value: RCT6272W23
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: RCA
+        brand_model: RCT6272W23
+        design_weight: 318
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: RCT6378W2
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: RCA
+        brand_model: RCT6378W2
+        design_weight: 316
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: RCT6691W3
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: RCA
+        brand_model: RCT6691W3
+        design_weight: 471
+        display_size: '9'
+        display_type: TFT

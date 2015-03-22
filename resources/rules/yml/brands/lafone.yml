@@ -1,0 +1,19 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: Siii
+        -
+            strategy: string
+            value: 'Lafone S58'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Lafone
+        brand_model: Siii
+        brand_marketing_name: 'Lafone S58'
+        brand_names: 'Lafone S58'
+        display_size: '3.5'
+        display_type: TFT

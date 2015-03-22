@@ -1,0 +1,13 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: MF800
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Leopard
+        brand_model: MF800
+        display_size: '3.5'
+        display_type: TFT

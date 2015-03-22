@@ -1,0 +1,13 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: CatNova8
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 600
+        brand_vendor: Weltbild
+        brand_model: CatNova8
+        design_weight: 500

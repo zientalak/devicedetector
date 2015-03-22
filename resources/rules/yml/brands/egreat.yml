@@ -1,0 +1,14 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: S33D
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Egreat
+        brand_model: S33D
+        design_weight: 250
+        display_type: '3D HD'

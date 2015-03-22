@@ -1,0 +1,38 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Spark A2'
+        -
+            strategy: string
+            value: 'GFive Bravo A2'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: 'G Five'
+        brand_model: 'Spark A2'
+        brand_marketing_name: 'GFive Bravo A2'
+        brand_names: 'GFive Bravo A2'
+        display_size: '3.5'
+        display_type: 'HVGA LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Fararee A78'
+        -
+            strategy: string
+            value: 'GFive Fararee A78'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: 'G Five'
+        brand_model: 'Fararee A78'
+        brand_marketing_name: 'GFive Fararee A78'
+        brand_names: 'GFive Fararee A78'
+        design_weight: 160
+        display_size: '4.3'
+        display_type: TFT

@@ -1,0 +1,44 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: MMD1010
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: HD
+        brand_model: MMD1010
+-
+    patterns:
+        -
+            strategy: string
+            value: MMP1020
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: HD
+        brand_model: MMP1020
+-
+    patterns:
+        -
+            strategy: string
+            value: PD20
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: HD
+        brand_model: PD20
+-
+    patterns:
+        -
+            strategy: string
+            value: TX20b0011a
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: HD
+        brand_model: TX20b0011a

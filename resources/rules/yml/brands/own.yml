@@ -1,0 +1,44 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: S3030
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Own
+        brand_model: S3030
+        design_weight: 137
+        display_size: '4'
+        display_type: 'WVGA TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: S4010
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Own
+        brand_model: S4010
+        display_size: '4'
+        display_type: AMOLED
+-
+    patterns:
+        -
+            strategy: string
+            value: S5010
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Own
+        brand_model: S5010
+        design_weight: 115
+        display_size: '4.7'
+        display_type: AMOLED

@@ -1,0 +1,266 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: I7400
+        -
+            strategy: string
+            value: 'Ninetology Black Pearl'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Ninetology
+        brand_model: I7400
+        brand_marketing_name: 'Ninetology Black Pearl'
+        brand_names: 'Ninetology Black Pearl'
+        display_size: '4'
+-
+    patterns:
+        -
+            strategy: string
+            value: I5350
+        -
+            strategy: string
+            value: 'Ninetology Pearl Mini'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Ninetology
+        brand_model: I5350
+        brand_marketing_name: 'Ninetology Pearl Mini'
+        brand_names: 'Ninetology Pearl Mini'
+        design_weight: 108
+        display_size: '3.5'
+-
+    patterns:
+        -
+            strategy: string
+            value: I5351
+        -
+            strategy: string
+            value: 'Ninetology J1 U9 I5351'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Ninetology
+        brand_model: I5351
+        brand_marketing_name: 'Ninetology J1 U9 I5351'
+        brand_names: 'Ninetology J1 U9 I5351'
+        design_weight: 0
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: I7520
+        -
+            strategy: string
+            value: 'Ninetology Stealth'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Ninetology
+        brand_model: I7520
+        brand_marketing_name: 'Ninetology Stealth'
+        brand_names: 'Ninetology Stealth'
+        display_size: '5.2'
+-
+    patterns:
+        -
+            strategy: string
+            value: I8450
+        -
+            strategy: string
+            value: 'Ninetology U9 Q1 i8450'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Ninetology
+        brand_model: I8450
+        brand_marketing_name: 'Ninetology U9 Q1 i8450'
+        brand_names: 'Ninetology U9 Q1 i8450'
+        design_weight: 90
+        display_size: '4.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: I9501
+        -
+            strategy: string
+            value: 'Ninetology Stealth 4x I9501'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Ninetology
+        brand_model: I9501
+        brand_marketing_name: 'Ninetology Stealth 4x I9501'
+        brand_names: 'Ninetology Stealth 4x I9501'
+        design_weight: 113
+        display_size: '5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: i9430
+        -
+            strategy: string
+            value: 'Ninetology Insight'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Ninetology
+        brand_model: i9430
+        brand_marketing_name: 'Ninetology Insight'
+        brand_names: 'Ninetology Insight'
+        design_weight: 160
+        display_size: '4.3'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Z1 plus'
+        -
+            strategy: string
+            value: 'NInetology U9 Z1'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Ninetology
+        brand_model: 'Z1 plus'
+        brand_marketing_name: 'NInetology U9 Z1'
+        brand_names: 'NInetology U9 Z1'
+        design_weight: 158
+        display_size: '5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: T8700
+        -
+            strategy: string
+            value: 'Ninetology Outlook Pure'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Ninetology
+        brand_model: T8700
+        brand_marketing_name: 'Ninetology Outlook Pure'
+        brand_names: 'Ninetology Outlook Pure'
+        design_weight: 330
+        display_size: '7'
+        display_type: 'HD LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: T7800
+        -
+            strategy: string
+            value: 'Ninetology Outlook Tablet'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Ninetology
+        brand_model: T7800
+        brand_marketing_name: 'Ninetology Outlook Tablet'
+        brand_names: 'Ninetology Outlook Tablet'
+        design_weight: 486
+        display_size: '8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'P1 I8400'
+        -
+            strategy: string
+            value: 'Ninetology U9 P1'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Ninetology
+        brand_model: 'P1 I8400'
+        brand_marketing_name: 'Ninetology U9 P1'
+        brand_names: 'Ninetology U9 P1'
+        design_weight: 110
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: i5300
+        -
+            strategy: string
+            value: 'Ninetology Palette i5300'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Ninetology
+        brand_model: i5300
+        brand_marketing_name: 'Ninetology Palette i5300'
+        brand_names: 'Ninetology Palette i5300'
+        design_weight: 110
+        display_size: '3'
+        display_type: QVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: Xpress
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 600
+        brand_vendor: Ninetology
+        brand_model: Xpress
+        design_weight: 345
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: i9480
+        -
+            strategy: string
+            value: 'Ninetology U9X1'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Ninetology
+        brand_model: i9480
+        brand_marketing_name: 'Ninetology U9X1'
+        brand_names: 'Ninetology U9X1'
+        design_weight: 160
+        display_size: '4.8'
+        display_type: IPS

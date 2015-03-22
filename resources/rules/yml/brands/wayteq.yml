@@ -1,0 +1,131 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'XTAB 70dc'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: WayteQ
+        brand_model: 'XTAB 70dc'
+        design_weight: 400
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: XTAB-70DCI
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1280
+        display_height: 800
+        brand_vendor: WayteQ
+        brand_model: XTAB-70DCI
+        design_weight: 290
+        display_size: '7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Xpad 70'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 600
+        brand_vendor: WayteQ
+        brand_model: 'Xpad 70'
+        design_weight: 430
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: xTAB-100
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: WayteQ
+        brand_model: xTAB-100
+        design_weight: 650
+        display_size: '10.1'
+-
+    patterns:
+        -
+            strategy: string
+            value: xTAB-100is
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: WayteQ
+        brand_model: xTAB-100is
+        design_weight: 660
+        display_size: '9.7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: xTAB-100s
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: WayteQ
+        brand_model: xTAB-100s
+        design_weight: 650
+        display_size: '9.7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: xTAB-70I
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 600
+        brand_vendor: WayteQ
+        brand_model: xTAB-70I
+        design_weight: 410
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: xTAB-70W
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: WayteQ
+        brand_model: xTAB-70W
+        design_weight: 400
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: xTAB-80
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: WayteQ
+        brand_model: xTAB-80
+        design_weight: 450
+        display_size: '8'

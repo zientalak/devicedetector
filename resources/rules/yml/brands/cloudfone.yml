@@ -1,0 +1,772 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 320E
+        -
+            strategy: string
+            value: 'CloudFone Excite 320E'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: CloudFone
+        brand_model: 320E
+        brand_marketing_name: 'CloudFone Excite 320E'
+        brand_names: 'CloudFone Excite 320E'
+        design_weight: 80
+        display_size: '3.2'
+        display_type: QVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: 320G
+        -
+            strategy: string
+            value: 'CloudFone Excite 320G'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: CloudFone
+        brand_model: 320G
+        brand_marketing_name: 'CloudFone Excite 320G'
+        brand_names: 'CloudFone Excite 320G'
+        display_size: '3.2'
+        display_type: QVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: 350E
+        -
+            strategy: string
+            value: 'Cloudfone Excite 350E'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: CloudFone
+        brand_model: 350E
+        brand_marketing_name: 'Cloudfone Excite 350E'
+        brand_names: 'Cloudfone Excite 350E'
+        design_weight: 110
+        display_size: '3.5'
+        display_type: HVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: 350G
+        -
+            strategy: string
+            value: 'CloudFone Excite 350G'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: CloudFone
+        brand_model: 350G
+        brand_marketing_name: 'CloudFone Excite 350G'
+        brand_names: 'CloudFone Excite 350G'
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 350I
+        -
+            strategy: string
+            value: 'CloudFone Excite 350I'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: CloudFone
+        brand_model: 350I
+        brand_marketing_name: 'CloudFone Excite 350I'
+        brand_names: 'CloudFone Excite 350I'
+        display_size: '3.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 352G
+        -
+            strategy: string
+            value: 'CloudFone Excite 352g'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: CloudFone
+        brand_model: 352G
+        brand_marketing_name: 'CloudFone Excite 352g'
+        brand_names: 'CloudFone Excite 352g'
+        design_weight: 80
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 400D
+        -
+            strategy: string
+            value: 'CloudFone Excite 400D'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: CloudFone
+        brand_model: 400D
+        brand_marketing_name: 'CloudFone Excite 400D'
+        brand_names: 'CloudFone Excite 400D'
+        design_weight: 110
+        display_size: '4'
+        display_type: 'IPS Capacitive'
+-
+    patterns:
+        -
+            strategy: string
+            value: 400G
+        -
+            strategy: string
+            value: 'CloudFone Thrill 400G'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: CloudFone
+        brand_model: 400G
+        brand_marketing_name: 'CloudFone Thrill 400G'
+        brand_names: 'CloudFone Thrill 400G'
+        display_size: '4'
+-
+    patterns:
+        -
+            strategy: string
+            value: 430D
+        -
+            strategy: string
+            value: 'CloudFone Thrill 430D'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: CloudFone
+        brand_model: 430D
+        brand_marketing_name: 'CloudFone Thrill 430D'
+        brand_names: 'CloudFone Thrill 430D'
+        design_weight: 75
+        display_size: '4.3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 430G
+        -
+            strategy: string
+            value: 'CloudFone Thrill 430G'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: CloudFone
+        brand_model: 430G
+        brand_marketing_name: 'CloudFone Thrill 430G'
+        brand_names: 'CloudFone Thrill 430G'
+        display_size: '4.3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 430X
+        -
+            strategy: string
+            value: 'CloudFone Thrill 430X'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: CloudFone
+        brand_model: 430X
+        brand_marketing_name: 'CloudFone Thrill 430X'
+        brand_names: 'CloudFone Thrill 430X'
+        design_weight: 170
+        display_size: '4.3'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 500D
+        -
+            strategy: string
+            value: 'CloudFone Excite 500D'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: CloudFone
+        brand_model: 500D
+        brand_marketing_name: 'CloudFone Excite 500D'
+        brand_names: 'CloudFone Excite 500D'
+        design_weight: 170
+        display_size: '5'
+        display_type: WVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: 500G
+        -
+            strategy: string
+            value: 'CloudFone Thrill 500G'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: CloudFone
+        brand_model: 500G
+        brand_marketing_name: 'CloudFone Thrill 500G'
+        brand_names: 'CloudFone Thrill 500G'
+        display_size: '5'
+-
+    patterns:
+        -
+            strategy: string
+            value: 700D
+        -
+            strategy: string
+            value: 'CloudFone Cloudpad 700D'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: CloudFone
+        brand_model: 700D
+        brand_marketing_name: 'CloudFone Cloudpad 700D'
+        brand_names: 'CloudFone Cloudpad 700D'
+        design_weight: 200
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 700w
+        -
+            strategy: string
+            value: 'CloudFone Cloudpad 700w'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: CloudFone
+        brand_model: 700w
+        brand_marketing_name: 'CloudFone Cloudpad 700w'
+        brand_names: 'CloudFone Cloudpad 700w'
+        display_size: '7'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'CloudPad 700E'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: CloudFone
+        brand_model: 'CloudPad 700E'
+        design_weight: 300
+        display_size: '7'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'CloudPad 700TV'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: CloudFone
+        brand_model: 'CloudPad 700TV'
+        design_weight: 300
+        display_size: '7'
+        display_type: 'WVGA TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'CloudPad 800D'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 768
+        display_height: 1024
+        brand_vendor: CloudFone
+        brand_model: 'CloudPad 800D'
+        design_weight: 500
+        display_size: '8'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'CloudPad 800TV'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 768
+        display_height: 1024
+        brand_vendor: CloudFone
+        brand_model: 'CloudPad 800TV'
+        design_weight: 500
+        display_size: '8'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'CloudPad 970D'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: CloudFone
+        brand_model: 'CloudPad 970D'
+        design_weight: 800
+        display_size: '9.7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Cloudpad 701TV'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: CloudFone
+        brand_model: 'Cloudpad 701TV'
+        design_weight: 300
+        display_size: '7'
+        display_type: 'WVGA TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Cloudpad 705W'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: CloudFone
+        brand_model: 'Cloudpad 705W'
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Cloudpad 706W'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: CloudFone
+        brand_model: 'Cloudpad 706W'
+        design_weight: 300
+        display_size: '7'
+        display_type: 'WSVGA LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Excite 354G'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: CloudFone
+        brand_model: 'Excite 354G'
+        design_weight: 110
+        display_size: '3.5'
+        display_type: HVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Excite 355G'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: CloudFone
+        brand_model: 'Excite 355G'
+        display_size: '3.5'
+        display_type: 'HVGA LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Excite 356G'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: CloudFone
+        brand_model: 'Excite 356G'
+        display_size: '3.5'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Excite 400DX'
+        -
+            strategy: string
+            value: 'CloudFone Thrill 400DX'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: CloudFone
+        brand_model: 'Excite 400DX'
+        brand_marketing_name: 'CloudFone Thrill 400DX'
+        brand_names: 'CloudFone Thrill 400DX'
+        design_weight: 130
+        display_size: '4'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Excite 402D'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: CloudFone
+        brand_model: 'Excite 402D'
+        display_size: '4'
+        display_type: WVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Excite 403D'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: CloudFone
+        brand_model: 'Excite 403D'
+        display_size: '4'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Excite 450Q'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: CloudFone
+        brand_model: 'Excite 450Q'
+        design_weight: 150
+        display_size: '4.5'
+        display_type: 'FWVGA IPS'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Excite 451Q'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: CloudFone
+        brand_model: 'Excite 451Q'
+        display_size: '4.5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Excite 451TV'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: CloudFone
+        brand_model: 'Excite 451TV'
+        display_size: '4.5'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Excite 500Q'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: CloudFone
+        brand_model: 'Excite 500Q'
+        design_weight: 150
+        display_size: '5'
+        display_type: FWVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Excite 501D'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: CloudFone
+        brand_model: 'Excite 501D'
+        design_weight: 170
+        display_size: '5'
+        display_type: FWVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Excite 502Q'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: CloudFone
+        brand_model: 'Excite 502Q'
+        display_size: '5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Excite 503D'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: CloudFone
+        brand_model: 'Excite 503D'
+        design_weight: 170
+        display_size: '5'
+        display_type: 'FWVGA TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Excite 504D'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: CloudFone
+        brand_model: 'Excite 504D'
+        display_size: '5'
+        display_type: FWVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Geo 400Q'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: CloudFone
+        brand_model: 'Geo 400Q'
+        design_weight: 170
+        display_size: '4'
+        display_type: FWVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Geo 400Q Plus'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: CloudFone
+        brand_model: 'Geo 400Q Plus'
+        design_weight: 170
+        display_size: '4'
+        display_type: 'FWVGA LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Geo 401Q Plus'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: CloudFone
+        brand_model: 'Geo 401Q Plus'
+        design_weight: 140
+        display_size: '4'
+        display_type: WVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Geo 402Q'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: CloudFone
+        brand_model: 'Geo 402Q'
+        display_size: '4'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'ICE 2GS'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: CloudFone
+        brand_model: 'ICE 2GS'
+        display_size: '3.2'
+        display_type: WVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: 'ICE 350E'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: CloudFone
+        brand_model: 'ICE 350E'
+        design_weight: 110
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Ice
+        -
+            strategy: string
+            value: 'Huawei U8500 IDEOS X2'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: CloudFone
+        brand_model: Ice
+        brand_marketing_name: 'Huawei U8500 IDEOS X2'
+        brand_names: 'Huawei U8500 IDEOS X2'
+        design_weight: 115
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Ice 400E'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: CloudFone
+        brand_model: 'Ice 400E'
+        design_weight: 130
+        display_size: '4'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Ice 401E'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: CloudFone
+        brand_model: 'Ice 401E'
+        design_weight: 130
+        display_size: '4'
+        display_type: 'WVGA LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Ice 500E'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: CloudFone
+        brand_model: 'Ice 500E'
+        design_weight: 130
+        display_size: '5'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Thrill 450Q'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: CloudFone
+        brand_model: 'Thrill 450Q'
+        design_weight: 140
+        display_size: '4.5'
+        display_type: IPS

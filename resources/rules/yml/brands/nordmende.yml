@@ -1,0 +1,28 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: ND-8014RK
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Nordmende
+        brand_model: ND-8014RK
+        display_size: '8'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: ND-R726B
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Nordmende
+        brand_model: ND-R726B
+        display_size: '7'
+        display_type: TFT

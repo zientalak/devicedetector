@@ -1,0 +1,521 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Sky Plus'
+        -
+            strategy: string
+            value: 'Alps Sky Plus'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Explay
+        brand_model: 'Sky Plus'
+        brand_marketing_name: 'Alps Sky Plus'
+        brand_names: 'Alps Sky Plus'
+        design_weight: 143
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'A350 TV'
+        -
+            strategy: string
+            value: 'Explay Star TV'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Explay
+        brand_model: 'A350 TV'
+        brand_marketing_name: 'Explay Star TV'
+        brand_names: 'Explay Star TV'
+        design_weight: 118
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A351
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Explay
+        brand_model: A351
+        design_weight: 110
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: AR-701
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Explay
+        brand_model: AR-701
+        design_weight: 340
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Advance
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 900
+        brand_vendor: Explay
+        brand_model: Advance
+        design_weight: 143
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Explay Infinity'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Explay
+        brand_model: 'Explay Infinity'
+        design_weight: 115
+        display_size: '4.3'
+        display_type: 'Super AMOLED'
+-
+    patterns:
+        -
+            strategy: string
+            value: Five
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Explay
+        brand_model: Five
+        design_weight: 162
+        display_size: '5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: Fresh
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Explay
+        brand_model: Fresh
+        design_weight: 168
+        display_size: '5'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: Golf
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Explay
+        brand_model: Golf
+        design_weight: 152
+        display_size: '4.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: Infinity
+        -
+            strategy: string
+            value: 'Smartphone Explay Infinity'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Explay
+        brand_model: Infinity
+        brand_marketing_name: 'Smartphone Explay Infinity'
+        brand_names: 'Smartphone Explay Infinity'
+        design_weight: 119
+        display_size: '4.3'
+        display_type: 'Super AMOLED+'
+-
+    patterns:
+        -
+            strategy: string
+            value: Infinityll
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Explay
+        brand_model: Infinityll
+        design_weight: 119
+        display_size: '4.3'
+        display_type: 'Super AMOLED'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Informer 701'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Explay
+        brand_model: 'Informer 701'
+        design_weight: 340
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Informer 702'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Explay
+        brand_model: 'Informer 702'
+        design_weight: 350
+        display_size: '7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Informer 703'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Explay
+        brand_model: 'Informer 703'
+        design_weight: 340
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Informer 704'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Explay
+        brand_model: 'Informer 704'
+        design_weight: 385
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Informer 705'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Explay
+        brand_model: 'Informer 705'
+        design_weight: 280
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Informer 708 3G'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Explay
+        brand_model: 'Informer 708 3G'
+        design_weight: 360
+        display_size: '7'
+        display_type: 'TFT IPS'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Informer 801'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Explay
+        brand_model: 'Informer 801'
+        design_weight: 485
+        display_size: '8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Informer 901'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1280
+        display_height: 800
+        brand_vendor: Explay
+        brand_model: 'Informer 901'
+        design_weight: 540
+        display_size: '9'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Informer 920'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Explay
+        brand_model: 'Informer 920'
+        design_weight: 640
+        display_size: '9.7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Informer 921'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 768
+        display_height: 1024
+        brand_vendor: Explay
+        brand_model: 'Informer 921'
+        design_weight: 640
+        display_size: '9.7'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: MID710b
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Explay
+        brand_model: MID710b
+        design_weight: 400
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Polo
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Explay
+        brand_model: Polo
+        design_weight: 155
+        display_size: '4.5'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Rio Play'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Explay
+        brand_model: 'Rio Play'
+        design_weight: 170
+        display_size: '5'
+        display_type: 'FWVGA TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Squad 7.82 3g'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Explay
+        brand_model: 'Squad 7.82 3g'
+        design_weight: 345
+        display_size: '7.85'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Surfer 7.02'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Explay
+        brand_model: 'Surfer 7.02'
+        design_weight: 325
+        display_size: '7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Surfer 7.04'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Explay
+        brand_model: 'Surfer 7.04'
+        design_weight: 325
+        display_size: '7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Surfer 7.31 3G'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Explay
+        brand_model: 'Surfer 7.31 3G'
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Surfer 7.32 3G'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Explay
+        brand_model: 'Surfer 7.32 3G'
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Surfer 7.34'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Explay
+        brand_model: 'Surfer 7.34'
+        design_weight: 290
+        display_size: '7'
+        display_type: LED
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Surfer 8.31 3g'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Explay
+        brand_model: 'Surfer 8.31 3g'
+        design_weight: 415
+        display_size: '8'
+        display_type: 'TFT IPS'
+-
+    patterns:
+        -
+            strategy: string
+            value: X-Tremer
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Explay
+        brand_model: X-Tremer
+        design_weight: 153
+        display_size: '5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'sQuad 10.02 3G'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 1280
+        brand_vendor: Explay
+        brand_model: 'sQuad 10.02 3G'
+        design_weight: 620
+        display_size: '10.1'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'D7.2 3G'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Explay
+        brand_model: 'D7.2 3G'
+        design_weight: 265
+        display_size: '7'
+        display_type: TFT

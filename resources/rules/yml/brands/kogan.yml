@@ -1,0 +1,30 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Agora Quad Core'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Kogan
+        brand_model: 'Agora Quad Core'
+        brand_marketing_name: 'Agora Quad Core'
+        brand_names: 'Agora Quad Core'
+        design_weight: 135
+        display_size: '5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Intros 10-inch Agora tablet'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Kogan
+        brand_model: 'Intros 10-inch Agora tablet'
+        display_size: '10'

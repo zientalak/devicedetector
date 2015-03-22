@@ -1,0 +1,13 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Novus Alfa'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Ledstar
+        brand_model: 'Novus Alfa'
+        display_size: '3.5'
+        display_type: 'HVGA LCD'

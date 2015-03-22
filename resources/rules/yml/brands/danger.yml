@@ -1,0 +1,55 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: Hiptop
+        -
+            strategy: string
+            value: 'Danger Sidekick'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 160
+        brand_vendor: Danger
+        brand_model: Hiptop
+        brand_marketing_name: 'Danger Sidekick'
+        brand_names: 'Danger Sidekick'
+        design_weight: 176
+        display_size: '2.6'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: LX
+        -
+            strategy: string
+            value: Sidekick
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 160
+        brand_vendor: Danger
+        brand_model: LX
+        brand_marketing_name: Sidekick
+        design_weight: 162
+        display_size: '3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Sidekick 4'
+        -
+            strategy: string
+            value: Sidekick
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 160
+        brand_vendor: Danger
+        brand_model: 'Sidekick 4'
+        brand_marketing_name: Sidekick
+        design_weight: 162
+        display_size: '3.5'
+        display_type: TFT

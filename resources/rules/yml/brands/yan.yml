@@ -1,0 +1,27 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 9.7G
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Yan
+        brand_model: 9.7G
+        display_size: '9.7'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Tablet 8.1'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Yan
+        brand_model: 'Tablet 8.1'
+        design_weight: 493
+        display_size: '8.1'

@@ -1,0 +1,93 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: MT-700
+        -
+            strategy: string
+            value: 'Miia Style MT-700'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Miia
+        brand_model: MT-700
+        brand_marketing_name: 'Miia Style MT-700'
+        brand_names: 'Miia Style MT-700'
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MT-700A
+        -
+            strategy: string
+            value: 'Miia Touch Tab 7'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Miia
+        brand_model: MT-700A
+        brand_marketing_name: 'Miia Touch Tab 7'
+        brand_names: 'Miia Touch Tab 7'
+        design_weight: 281
+        display_size: '7'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: MT-700DA
+        -
+            strategy: string
+            value: 'Miia Style TAB7 MIIATOUCH 7"'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Miia
+        brand_model: MT-700DA
+        brand_marketing_name: 'Miia Style TAB7 MIIATOUCH 7"'
+        brand_names: 'Miia Style TAB7 MIIATOUCH 7"'
+        design_weight: 260
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MT-902
+        -
+            strategy: string
+            value: 'Miiatouch MT-902'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Miia
+        brand_model: MT-902
+        brand_marketing_name: 'Miiatouch MT-902'
+        brand_names: 'Miiatouch MT-902'
+        design_weight: 350
+        display_size: '9'
+        display_type: WVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: ST-500
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Miia
+        brand_model: ST-500
+        display_size: '5'
+        display_type: TFT

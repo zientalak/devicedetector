@@ -1,0 +1,60 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'mid robin'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Irulu
+        brand_model: 'mid robin'
+        design_weight: 380
+        display_size: '7'
+        display_type: WVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: AL101
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Irulu
+        brand_model: AL101
+        design_weight: 127
+        display_size: '10.1'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: AX105
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: iRulu
+        brand_model: AX105
+        design_weight: 850
+        display_size: '10.1'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MID
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: iRulu
+        brand_model: MID
+        design_weight: 380
+        display_size: '7'
+        display_type: 'TFT LCD'

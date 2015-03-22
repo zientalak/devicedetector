@@ -1,0 +1,28 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: H8-3g
+    capabilities:
+        is_mobile: true
+        display_width: 960
+        display_height: 540
+        brand_vendor: HKPhone
+        brand_model: H8-3g
+        design_weight: 135
+        display_size: '4.3'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Revo Max 2013'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: HKPhone
+        brand_model: 'Revo Max 2013'
+        design_weight: 199
+        display_size: '5.3'
+        display_type: IPS

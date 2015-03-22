@@ -1,0 +1,62 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'MTV 3.0'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: ModeLabs
+        brand_model: 'MTV 3.0'
+-
+    patterns:
+        -
+            strategy: string
+            value: MW200
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: ModeLabs
+        brand_model: MW200
+        design_weight: 70
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Virgin_1
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: ModeLabs
+        brand_model: Virgin_1
+-
+    patterns:
+        -
+            strategy: string
+            value: 'myWAY touch'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: ModeLabs
+        brand_model: 'myWAY touch'
+        design_weight: 85
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'myway Slim'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: ModeLabs
+        brand_model: 'myway Slim'
+        design_weight: 71
+        display_type: TFT

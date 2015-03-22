@@ -1,0 +1,13 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Free Class'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Freecel
+        brand_model: 'Free Class'
+        display_size: '4'

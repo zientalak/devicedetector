@@ -1,0 +1,2157 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 2035a
+    capabilities:
+        is_mobile: true
+        brand_vendor: Kyocera
+        brand_model: 2035a
+        design_weight: 125
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: '820'
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Kyocera
+        brand_model: '820'
+        design_weight: 87
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: '1135'
+    capabilities:
+        is_mobile: true
+        brand_vendor: Kyocera
+        brand_model: '1135'
+        design_weight: 123
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: '2035'
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Kyocera
+        brand_model: '2035'
+        design_weight: 125
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: '2119'
+    capabilities:
+        is_mobile: true
+        brand_vendor: Kyocera
+        brand_model: '2119'
+        design_weight: 128
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: '2135'
+    capabilities:
+        is_mobile: true
+        brand_vendor: Kyocera
+        brand_model: '2135'
+        design_weight: 133
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: '2235'
+    capabilities:
+        is_mobile: true
+        brand_vendor: Kyocera
+        brand_model: '2235'
+        design_weight: 123
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: '2255'
+    capabilities:
+        is_mobile: true
+        brand_vendor: Kyocera
+        brand_model: '2255'
+        design_weight: 123
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: '2325'
+    capabilities:
+        is_mobile: true
+        brand_vendor: Kyocera
+        brand_model: '2325'
+        design_weight: 123
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: '2345'
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 60
+        brand_vendor: Kyocera
+        brand_model: '2345'
+        design_weight: 123
+        display_type: STN
+-
+    patterns:
+        -
+            strategy: string
+            value: '3035'
+    capabilities:
+        is_mobile: true
+        brand_vendor: Kyocera
+        brand_model: '3035'
+        design_weight: 124
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: '3225'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Kyocera
+        brand_model: '3225'
+        design_weight: 120
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: '3245'
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Kyocera
+        brand_model: '3245'
+        design_weight: 120
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: '3250'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Kyocera
+        brand_model: '3250'
+        design_weight: 120
+        display_type: STN
+-
+    patterns:
+        -
+            strategy: string
+            value: '5135'
+    capabilities:
+        is_mobile: true
+        brand_vendor: Kyocera
+        brand_model: '5135'
+        design_weight: 94
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: '6035'
+    capabilities:
+        is_mobile: true
+        brand_vendor: Kyocera
+        brand_model: '6035'
+        design_weight: 208
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: '7135'
+    capabilities:
+        is_mobile: true
+        display_width: 160
+        display_height: 160
+        brand_vendor: Kyocera
+        brand_model: '7135'
+        design_weight: 187
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A5528K
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Kyocera
+        brand_model: A5528K
+        design_weight: 110
+        display_size: '2.6'
+-
+    patterns:
+        -
+            strategy: string
+            value: Aktiv
+    capabilities:
+        is_mobile: true
+        display_width: 104
+        display_height: 80
+        brand_vendor: Kyocera
+        brand_model: Aktiv
+        design_weight: 100
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: KX18
+        -
+            strategy: string
+            value: 'Kyocera Amp''d Jet & Angel'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Kyocera
+        brand_model: KX18
+        brand_marketing_name: 'Kyocera Amp''d Jet & Angel'
+        brand_names: 'Kyocera Amp''d Jet & Angel'
+        design_weight: 110
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: E6782
+        -
+            strategy: string
+            value: 'Kyocera Brigadier E6782'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Kyocera
+        brand_model: E6782
+        brand_marketing_name: 'Kyocera Brigadier E6782'
+        brand_names: 'Kyocera Brigadier E6782'
+        design_weight: 187
+        display_size: '4.5'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: S3015
+        -
+            strategy: string
+            value: 'Kyocera Brio'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 240
+        brand_vendor: Kyocera
+        brand_model: S3015
+        brand_marketing_name: 'Kyocera Brio'
+        brand_names: 'Kyocera Brio'
+        design_weight: 105
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Buckle
+    capabilities:
+        is_mobile: true
+        display_width: 120
+        display_height: 120
+        brand_vendor: Kyocera
+        brand_model: Buckle
+        design_weight: 72
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: C4700
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Kyocera
+        brand_model: C4700
+        design_weight: 103
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: C5120
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Kyocera
+        brand_model: C5120
+        design_weight: 158
+        display_size: '3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: C5121
+        -
+            strategy: string
+            value: 'Kyocera Milano'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Kyocera
+        brand_model: C5121
+        brand_marketing_name: 'Kyocera Milano'
+        brand_names: 'Kyocera Milano'
+        design_weight: 159
+        display_size: '3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: C5133
+        -
+            strategy: string
+            value: 'Kyocera Event'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Kyocera
+        brand_model: C5133
+        brand_marketing_name: 'Kyocera Event'
+        brand_names: 'Kyocera Event'
+        design_weight: 117
+        display_size: '3.5'
+        display_type: HVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: C5155
+        -
+            strategy: string
+            value: 'Kyocera Rise'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Kyocera
+        brand_model: C5155
+        brand_marketing_name: 'Kyocera Rise'
+        brand_names: 'Kyocera Rise'
+        design_weight: 157
+        display_size: '3.5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: C5170
+        -
+            strategy: string
+            value: 'Kyocera Hydro'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Kyocera
+        brand_model: C5170
+        brand_marketing_name: 'Kyocera Hydro'
+        brand_names: 'Kyocera Hydro'
+        design_weight: 120
+        display_size: '3.5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: C5215
+        -
+            strategy: string
+            value: 'Kyocera Hydro EDGE'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Kyocera
+        brand_model: C5215
+        brand_marketing_name: 'Kyocera Hydro EDGE'
+        brand_names: 'Kyocera Hydro EDGE'
+        design_weight: 128
+        display_size: '4'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: C6522n
+        -
+            strategy: string
+            value: 'Kyocera Hydro XTRM'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Kyocera
+        brand_model: C6522n
+        brand_marketing_name: 'Kyocera Hydro XTRM'
+        brand_names: 'Kyocera Hydro XTRM'
+        design_weight: 139
+        display_size: '4'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: C6530
+        -
+            strategy: string
+            value: 'Kyocera Hydro LIFE C6530'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Kyocera
+        brand_model: C6530
+        brand_marketing_name: 'Kyocera Hydro LIFE C6530'
+        brand_names: 'Kyocera Hydro LIFE C6530'
+        design_weight: 136
+        display_size: '4.5'
+        display_type: 'IPS TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: C6530N
+        -
+            strategy: string
+            value: 'Kyocera Hydro Life'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Kyocera
+        brand_model: C6530N
+        brand_marketing_name: 'Kyocera Hydro Life'
+        brand_names: 'Kyocera Hydro Life'
+        design_weight: 136
+        display_size: '4.5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: C6721
+        -
+            strategy: string
+            value: 'Kyocera Hydro XTRM C6721'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Kyocera
+        brand_model: C6721
+        brand_marketing_name: 'Kyocera Hydro XTRM C6721'
+        brand_names: 'Kyocera Hydro XTRM C6721'
+        design_weight: 139
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: C6725
+        -
+            strategy: string
+            value: 'Kyocera Hyrdo Vibe'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Kyocera
+        brand_model: C6725
+        brand_marketing_name: 'Kyocera Hyrdo Vibe'
+        brand_names: 'Kyocera Hyrdo Vibe'
+        design_weight: 139
+        display_size: '4.5'
+        display_type: 'qHD IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: C6730
+        -
+            strategy: string
+            value: 'Kyocera Hydro Icon'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Kyocera
+        brand_model: C6730
+        brand_marketing_name: 'Kyocera Hydro Icon'
+        brand_names: 'Kyocera Hydro Icon'
+        design_weight: 144
+        display_size: '4.5'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: C6750
+        -
+            strategy: string
+            value: 'Kyocera Hydro Elite'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Kyocera
+        brand_model: C6750
+        brand_marketing_name: 'Kyocera Hydro Elite'
+        brand_names: 'Kyocera Hydro Elite'
+        design_weight: 128
+        display_size: '4.3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: WX05K
+        -
+            strategy: string
+            value: 'Kyocera Casablanca'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 400
+        brand_vendor: Kyocera
+        brand_model: WX05K
+        brand_marketing_name: 'Kyocera Casablanca'
+        brand_names: 'Kyocera Casablanca'
+        design_weight: 109
+        display_size: '3'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: S2151
+        -
+            strategy: string
+            value: 'Kyocera Coast / Kyocera Kona'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Kyocera
+        brand_model: S2151
+        brand_marketing_name: 'Kyocera Coast / Kyocera Kona'
+        brand_names: 'Kyocera Coast / Kyocera Kona'
+        design_weight: 104
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: K325
+        -
+            strategy: string
+            value: 'Kyocera Cyclops'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Kyocera
+        brand_model: K325
+        brand_marketing_name: 'Kyocera Cyclops'
+        brand_names: 'Kyocera Cyclops'
+        design_weight: 96
+        display_type: STN
+-
+    patterns:
+        -
+            strategy: string
+            value: KYL22
+        -
+            strategy: string
+            value: 'Kyocera DIGNO M KYL22, KDDI Kyocera Digno M KYL22'
+        -
+            strategy: string
+            value: 'Kyocera DIGNO M KYL22'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Kyocera
+        brand_model: KYL22
+        brand_marketing_name: 'Kyocera DIGNO M KYL22'
+        brand_names: 'Kyocera DIGNO M KYL22, KDDI Kyocera Digno M KYL22'
+        design_weight: 135
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: E1000
+        -
+            strategy: string
+            value: 'Kyocera Deco'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Kyocera
+        brand_model: E1000
+        brand_marketing_name: 'Kyocera Deco'
+        brand_names: 'Kyocera Deco'
+        design_weight: 95
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: ISW11K
+        -
+            strategy: string
+            value: 'Kyocera Digno'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Kyocera
+        brand_model: ISW11K
+        brand_marketing_name: 'Kyocera Digno'
+        brand_names: 'Kyocera Digno'
+        design_weight: 130
+        display_size: '4'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Digno Dual WX04k'
+    capabilities:
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Kyocera
+        brand_model: 'Digno Dual WX04k'
+        design_weight: 148
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: KYL21
+        -
+            strategy: string
+            value: 'Kyocera Digno S'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Kyocera
+        brand_model: KYL21
+        brand_marketing_name: 'Kyocera Digno S'
+        brand_names: 'Kyocera Digno S'
+        design_weight: 157
+        display_size: '4.7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: S1310
+        -
+            strategy: string
+            value: 'Kyocera Domino'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Kyocera
+        brand_model: S1310
+        brand_marketing_name: 'Kyocera Domino'
+        brand_names: 'Kyocera Domino'
+        design_weight: 72
+        display_size: '1.8'
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: KX13
+        -
+            strategy: string
+            value: 'Kyocera Dorado'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Kyocera
+        brand_model: KX13
+        brand_marketing_name: 'Kyocera Dorado'
+        brand_names: 'Kyocera Dorado'
+        design_weight: 105
+        display_type: STN
+-
+    patterns:
+        -
+            strategy: string
+            value: DuraCore
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Kyocera
+        brand_model: DuraCore
+        design_weight: 126
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: DuraMax
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Kyocera
+        brand_model: DuraMax
+        design_weight: 144
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: DuraPlus
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Kyocera
+        brand_model: DuraPlus
+        display_size: '2'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: DuraXT
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Kyocera
+        brand_model: DuraXT
+        design_weight: 150
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: E1100
+        -
+            strategy: string
+            value: 'Kyocera Neo'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Kyocera
+        brand_model: E1100
+        brand_marketing_name: 'Kyocera Neo'
+        brand_names: 'Kyocera Neo'
+        design_weight: 90
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: E2000
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Kyocera
+        brand_model: E2000
+        design_weight: 100
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: E2500
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Kyocera
+        brand_model: E2500
+        design_weight: 69
+        display_size: '2'
+        display_type: STN
+-
+    patterns:
+        -
+            strategy: string
+            value: E3500
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Kyocera
+        brand_model: E3500
+        design_weight: 84
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: E4000
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Kyocera
+        brand_model: E4000
+        design_weight: 90
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: E4600
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Kyocera
+        brand_model: E4600
+        design_weight: 85
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: E5000
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Kyocera
+        brand_model: E5000
+        design_weight: 100
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: E6710
+        -
+            strategy: string
+            value: 'Kyocera Torque'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Kyocera
+        brand_model: E6710
+        brand_marketing_name: 'Kyocera Torque'
+        brand_names: 'Kyocera Torque'
+        design_weight: 168
+        display_size: '4'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: Echo
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Kyocera
+        brand_model: Echo
+        design_weight: 193
+        display_size: '3.5'
+        display_type: 'Dual TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Energi K490'
+        -
+            strategy: string
+            value: 'Kyocera K493'
+    capabilities:
+        is_mobile: true
+        display_width: 104
+        display_height: 80
+        brand_vendor: Kyocera
+        brand_model: 'Energi K490'
+        brand_marketing_name: 'Kyocera K493'
+        brand_names: 'Kyocera K493'
+        design_weight: 100
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: 'G2go M2000'
+        -
+            strategy: string
+            value: 'Kyocera x-tc, Virgin Mobile x-tc'
+        -
+            strategy: string
+            value: 'Kyocera x-tc'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Kyocera
+        brand_model: 'G2go M2000'
+        brand_marketing_name: 'Kyocera x-tc'
+        brand_names: 'Kyocera x-tc, Virgin Mobile x-tc'
+        design_weight: 119
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Garnetto
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Kyocera
+        brand_model: Garnetto
+        design_weight: 100
+        display_type: STN
+-
+    patterns:
+        -
+            strategy: string
+            value: Glide
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Kyocera
+        brand_model: Glide
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Honey Bee 101K'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Kyocera
+        brand_model: 'Honey Bee 101K'
+        design_weight: 135
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: WX350K
+        -
+            strategy: string
+            value: 'Kyocera HoneyBee 4'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Kyocera
+        brand_model: WX350K
+        brand_marketing_name: 'Kyocera HoneyBee 4'
+        brand_names: 'Kyocera HoneyBee 4'
+        design_weight: 73
+        display_size: '2'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: Jax
+        -
+            strategy: string
+            value: 'Kyocera Melo S1300'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Kyocera
+        brand_model: Jax
+        brand_marketing_name: 'Kyocera Melo S1300'
+        brand_names: 'Kyocera Melo S1300'
+        design_weight: 71
+        display_size: '1.8'
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: 'K10 Royale'
+    capabilities:
+        is_mobile: true
+        display_width: 104
+        display_height: 80
+        brand_vendor: Kyocera
+        brand_model: 'K10 Royale'
+        design_weight: 99
+        display_type: STN
+-
+    patterns:
+        -
+            strategy: string
+            value: K122
+    capabilities:
+        is_mobile: true
+        display_width: 96
+        display_height: 64
+        brand_vendor: Kyocera
+        brand_model: K122
+        design_weight: 78
+        display_type: STN
+-
+    patterns:
+        -
+            strategy: string
+            value: S1000
+        -
+            strategy: string
+            value: 'Kyocera K126c'
+    capabilities:
+        is_mobile: true
+        display_width: 126
+        display_height: 132
+        brand_vendor: Kyocera
+        brand_model: S1000
+        brand_marketing_name: 'Kyocera K126c'
+        brand_names: 'Kyocera K126c'
+        design_weight: 76
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'K127 Marbl'
+        -
+            strategy: string
+            value: 'Kyocera Marbl'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Kyocera
+        brand_model: 'K127 Marbl'
+        brand_marketing_name: 'Kyocera Marbl'
+        brand_names: 'Kyocera Marbl'
+        design_weight: 93
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: K132
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Kyocera
+        brand_model: K132
+        design_weight: 93
+        display_type: STN
+-
+    patterns:
+        -
+            strategy: string
+            value: K24
+    capabilities:
+        is_mobile: true
+        display_width: 120
+        display_height: 120
+        brand_vendor: Kyocera
+        brand_model: K24
+        design_weight: 96
+        display_type: STN
+-
+    patterns:
+        -
+            strategy: string
+            value: K312
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Kyocera
+        brand_model: K312
+        design_weight: 96
+        display_type: STN
+-
+    patterns:
+        -
+            strategy: string
+            value: K323
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Kyocera
+        brand_model: K323
+        design_weight: 96
+        display_type: STN
+-
+    patterns:
+        -
+            strategy: string
+            value: K342
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Kyocera
+        brand_model: K342
+        design_weight: 96
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: K352
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Kyocera
+        brand_model: K352
+        design_weight: 84
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: K38
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Kyocera
+        brand_model: K38
+        design_weight: 90
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'K4 XXL'
+    capabilities:
+        is_mobile: true
+        display_width: 120
+        display_height: 160
+        brand_vendor: Kyocera
+        brand_model: 'K4 XXL'
+-
+    patterns:
+        -
+            strategy: string
+            value: K404
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Kyocera
+        brand_model: K404
+        design_weight: 100
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: K483JLC
+    capabilities:
+        is_mobile: true
+        display_width: 104
+        display_height: 80
+        brand_vendor: Kyocera
+        brand_model: K483JLC
+        design_weight: 100
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: K4XXN
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Kyocera
+        brand_model: K4XXN
+-
+    patterns:
+        -
+            strategy: string
+            value: K612
+        -
+            strategy: string
+            value: 'Kyocera Strobe'
+    capabilities:
+        is_mobile: true
+        display_width: 160
+        display_height: 128
+        brand_vendor: Kyocera
+        brand_model: K612
+        brand_marketing_name: 'Kyocera Strobe'
+        brand_names: 'Kyocera Strobe'
+        design_weight: 115
+        display_type: STN
+-
+    patterns:
+        -
+            strategy: string
+            value: K612B
+        -
+            strategy: string
+            value: Strobe
+    capabilities:
+        is_mobile: true
+        display_width: 160
+        display_height: 128
+        brand_vendor: Kyocera
+        brand_model: K612B
+        brand_marketing_name: Strobe
+        design_weight: 115
+        display_type: STN
+-
+    patterns:
+        -
+            strategy: string
+            value: K7
+    capabilities:
+        is_mobile: true
+        brand_vendor: Kyocera
+        brand_model: K7
+        design_weight: 100
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: K822
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Kyocera
+        brand_model: K822
+        design_weight: 96
+        display_type: STN
+-
+    patterns:
+        -
+            strategy: string
+            value: K9
+    capabilities:
+        is_mobile: true
+        display_width: 104
+        display_height: 80
+        brand_vendor: Kyocera
+        brand_model: K9
+        design_weight: 100
+        display_type: Grayscale
+-
+    patterns:
+        -
+            strategy: string
+            value: KE414
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Kyocera
+        brand_model: KE414
+        design_weight: 100
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: KE424c
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Kyocera
+        brand_model: KE424c
+        design_weight: 100
+        display_type: STN
+-
+    patterns:
+        -
+            strategy: string
+            value: KX1
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Kyocera
+        brand_model: KX1
+        design_weight: 108
+        display_type: STN
+-
+    patterns:
+        -
+            strategy: string
+            value: KX12
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Kyocera
+        brand_model: KX12
+        design_weight: 118
+        display_type: STN
+-
+    patterns:
+        -
+            strategy: string
+            value: KX16
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Kyocera
+        brand_model: KX16
+        design_weight: 100
+        display_type: STN
+-
+    patterns:
+        -
+            strategy: string
+            value: 'KX160 Xcursion'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Kyocera
+        brand_model: 'KX160 Xcursion'
+        design_weight: 116
+        display_type: STN
+-
+    patterns:
+        -
+            strategy: string
+            value: KX2
+        -
+            strategy: string
+            value: 'Kyocera Koi'
+    capabilities:
+        is_mobile: true
+        display_width: 132
+        display_height: 176
+        brand_vendor: Kyocera
+        brand_model: KX2
+        brand_marketing_name: 'Kyocera Koi'
+        brand_names: 'Kyocera Koi'
+        design_weight: 114
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: KX413
+    capabilities:
+        is_mobile: true
+        display_width: 140
+        display_height: 80
+        brand_vendor: Kyocera
+        brand_model: KX413
+        design_weight: 100
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: KX414
+    capabilities:
+        is_mobile: true
+        display_width: 104
+        display_height: 80
+        brand_vendor: Kyocera
+        brand_model: KX414
+        design_weight: 100
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: KX424
+    capabilities:
+        is_mobile: true
+        display_width: 104
+        display_height: 80
+        brand_vendor: Kyocera
+        brand_model: KX424
+        design_weight: 100
+        display_type: STN
+-
+    patterns:
+        -
+            strategy: string
+            value: KX433
+    capabilities:
+        is_mobile: true
+        display_width: 104
+        display_height: 80
+        brand_vendor: Kyocera
+        brand_model: KX433
+        design_weight: 100
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: KX440
+        -
+            strategy: string
+            value: KX444
+    capabilities:
+        is_mobile: true
+        display_width: 104
+        display_height: 80
+        brand_vendor: Kyocera
+        brand_model: KX440
+        brand_marketing_name: KX444
+        brand_names: KX444
+        design_weight: 122
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: KX444c
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Kyocera
+        brand_model: KX444c
+        design_weight: 122
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: KX5
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Kyocera
+        brand_model: KX5
+        design_weight: 115
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: KX5B
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Kyocera
+        brand_model: KX5B
+        design_weight: 115
+        display_size: '1.7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: KX9
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Kyocera
+        brand_model: KX9
+        design_weight: 100
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: KX9B
+        -
+            strategy: string
+            value: 'KX9C, Milan'
+        -
+            strategy: string
+            value: KX9C
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Kyocera
+        brand_model: KX9B
+        brand_marketing_name: KX9C
+        brand_names: 'KX9C, Milan'
+        design_weight: 100
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: KX9d
+        -
+            strategy: string
+            value: 'Kyocera Oystr'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Kyocera
+        brand_model: KX9d
+        brand_marketing_name: 'Kyocera Oystr'
+        brand_names: 'Kyocera Oystr'
+        design_weight: 100
+        display_type: STN
+-
+    patterns:
+        -
+            strategy: string
+            value: KX9e
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Kyocera
+        brand_model: KX9e
+        design_weight: 102
+        display_type: STN
+-
+    patterns:
+        -
+            strategy: string
+            value: KYY21
+        -
+            strategy: string
+            value: 'Kyocera Urbano L01'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Kyocera
+        brand_model: KYY21
+        brand_marketing_name: 'Kyocera Urbano L01'
+        brand_names: 'Kyocera Urbano L01'
+        design_weight: 140
+        display_size: '4.7'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'KZ 830'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Kyocera
+        brand_model: 'KZ 830'
+        design_weight: 93
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: S2300
+        -
+            strategy: string
+            value: 'Kyocera Loft, Kyocera S2300 Torino'
+        -
+            strategy: string
+            value: 'Kyocera Loft'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 240
+        brand_vendor: Kyocera
+        brand_model: S2300
+        brand_marketing_name: 'Kyocera Loft'
+        brand_names: 'Kyocera Loft, Kyocera S2300 Torino'
+        design_weight: 99
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: S2100
+        -
+            strategy: string
+            value: 'Kyocera Luno'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Kyocera
+        brand_model: S2100
+        brand_marketing_name: 'Kyocera Luno'
+        brand_names: 'Kyocera Luno'
+        design_weight: 85
+        display_size: '1.8'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: M6000
+        -
+            strategy: string
+            value: Zio
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Kyocera
+        brand_model: M6000
+        brand_marketing_name: Zio
+        design_weight: 105
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: M9300
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Kyocera
+        brand_model: M9300
+        design_weight: 193
+        display_size: '3.5'
+        display_type: 'Dual TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Mako S4000'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Kyocera
+        brand_model: 'Mako S4000'
+        design_weight: 83
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: S1300
+        -
+            strategy: string
+            value: 'Kyocera Melo'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Kyocera
+        brand_model: S1300
+        brand_marketing_name: 'Kyocera Melo'
+        brand_names: 'Kyocera Melo'
+        design_weight: 71
+        display_size: '1.8'
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Melo S1300'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Kyocera
+        brand_model: 'Melo S1300'
+        design_weight: 71
+        display_size: '1.8'
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Neo E1100'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Kyocera
+        brand_model: 'Neo E1100'
+        design_weight: 90
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: S1350
+        -
+            strategy: string
+            value: 'Kyocera Presto'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Kyocera
+        brand_model: S1350
+        brand_marketing_name: 'Kyocera Presto'
+        brand_names: 'Kyocera Presto'
+        design_weight: 76
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'SCP Pro 700mts'
+        -
+            strategy: string
+            value: 'Kyocera Pro-700, Sanyo Pro-700'
+        -
+            strategy: string
+            value: 'Kyocera Pro-700'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Kyocera
+        brand_model: 'SCP Pro 700mts'
+        brand_marketing_name: 'Kyocera Pro-700'
+        brand_names: 'Kyocera Pro-700, Sanyo Pro-700'
+        design_weight: 107
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Pulse
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Kyocera
+        brand_model: Pulse
+        design_weight: 100
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: QCP6035
+    capabilities:
+        is_mobile: true
+        brand_vendor: Kyocera
+        brand_model: QCP6035
+        design_weight: 208
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: Rio
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Kyocera
+        brand_model: Rio
+        design_weight: 90
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Rio E3100'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Kyocera
+        brand_model: 'Rio E3100'
+        design_weight: 90
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: S1600
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Kyocera
+        brand_model: S1600
+        design_weight: 59
+        display_size: '1.5'
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: S2000i
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Kyocera
+        brand_model: S2000i
+        design_weight: 79
+-
+    patterns:
+        -
+            strategy: string
+            value: S2410
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Kyocera
+        brand_model: S2410
+        design_weight: 79
+        display_size: '1.8'
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: SE44
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Kyocera
+        brand_model: SE44
+        design_weight: 96
+        display_type: STN
+-
+    patterns:
+        -
+            strategy: string
+            value: SE47
+    capabilities:
+        is_mobile: true
+        display_width: 40
+        display_height: 90
+        brand_vendor: Kyocera
+        brand_model: SE47
+        design_weight: 96
+        display_type: STN
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Slider Remix KX5'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Kyocera
+        brand_model: 'Slider Remix KX5'
+        design_weight: 115
+        display_size: '1.9'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: SoHo
+        -
+            strategy: string
+            value: KX1i
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Kyocera
+        brand_model: SoHo
+        brand_marketing_name: KX1i
+        brand_names: KX1i
+        design_weight: 108
+        display_type: STN
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Solo E4000'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Kyocera
+        brand_model: 'Solo E4000'
+        design_weight: 90
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Switch Back'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Kyocera
+        brand_model: 'Switch Back'
+        design_weight: 115
+        display_type: STN
+-
+    patterns:
+        -
+            strategy: string
+            value: TNT
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Kyocera
+        brand_model: TNT
+        design_weight: 73
+        display_size: '1.8'
+        display_type: STN
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Tempo E2000'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Kyocera
+        brand_model: 'Tempo E2000'
+        design_weight: 100
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Torino
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 240
+        brand_vendor: Kyocera
+        brand_model: Torino
+        design_weight: 99
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Urbano Progresso'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Kyocera
+        brand_model: 'Urbano Progresso'
+        design_weight: 139
+        display_size: '4'
+        display_type: AMOLED
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Vodafone 736'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Kyocera
+        brand_model: 'Vodafone 736'
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: WX01K
+        -
+            strategy: string
+            value: 'Willcom WX01K'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 400
+        brand_vendor: Kyocera
+        brand_model: WX01K
+        brand_marketing_name: 'Willcom WX01K'
+        brand_names: 'Willcom WX01K'
+        design_weight: 109
+        display_size: '3'
+        display_type: 'LCD IPS'
+-
+    patterns:
+        -
+            strategy: string
+            value: WX09K
+        -
+            strategy: string
+            value: 'Willcom WX09K'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 400
+        brand_vendor: Kyocera
+        brand_model: WX09K
+        brand_marketing_name: 'Willcom WX09K'
+        brand_names: 'Willcom WX09K'
+        design_weight: 109
+        display_size: '3'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: WX10K
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Kyocera
+        brand_model: WX10K
+        design_weight: 134
+        display_size: '4.7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: WX330K
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Kyocera
+        brand_model: WX330K
+        design_weight: 112
+        display_size: '2.4'
+-
+    patterns:
+        -
+            strategy: string
+            value: WX340K
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 400
+        brand_vendor: Kyocera
+        brand_model: WX340K
+        design_weight: 108
+        display_size: '2.7'
+        display_type: 'TFT IPS'
+-
+    patterns:
+        -
+            strategy: string
+            value: WX341K
+        -
+            strategy: string
+            value: 'Willcom Baum'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 400
+        brand_vendor: Kyocera
+        brand_model: WX341K
+        brand_marketing_name: 'Willcom Baum'
+        brand_names: 'Willcom Baum'
+        design_weight: 90
+        display_size: '2.4'
+        display_type: QVGA

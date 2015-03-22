@@ -1,0 +1,84 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: PNDPP410GP
+        -
+            strategy: string
+            value: 'PendoPad 10.1'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Pendo
+        brand_model: PNDPP410GP
+        brand_marketing_name: 'PendoPad 10.1'
+        brand_names: 'PendoPad 10.1'
+        display_size: '10.1'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Pad 8'
+        -
+            strategy: string
+            value: 'Pendo PNDPP438DC'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Pendo
+        brand_model: 'Pad 8'
+        brand_marketing_name: 'Pendo PNDPP438DC'
+        brand_names: 'Pendo PNDPP438DC'
+        display_size: '8'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: PNDPP48GP
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 768
+        display_height: 1024
+        brand_vendor: Pendo
+        brand_model: PNDPP48GP
+        display_size: '8'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'PendoPad PP4MT-9'
+        -
+            strategy: string
+            value: 'Pendo PendoPad PNDPP4MT9'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Pendo
+        brand_model: 'PendoPad PP4MT-9'
+        brand_marketing_name: 'Pendo PendoPad PNDPP4MT9'
+        brand_names: 'Pendo PendoPad PNDPP4MT9'
+        display_size: '9.7'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'PendoPad PP4MT-7'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 640
+        display_height: 480
+        brand_vendor: Pendo
+        brand_model: 'PendoPad PP4MT-7'
+        display_size: '7'
+        display_type: 'TFT LCD'

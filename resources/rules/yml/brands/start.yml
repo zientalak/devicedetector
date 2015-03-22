@@ -1,0 +1,15 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: '901.1'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Start
+        brand_model: '901.1'
+        design_weight: 420
+        display_size: '9'
+        display_type: 'TFT LCD'

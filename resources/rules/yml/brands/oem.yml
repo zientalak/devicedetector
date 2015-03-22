@@ -1,0 +1,48 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: M716D
+        -
+            strategy: string
+            value: 'OEM BT-M716D'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: OEM
+        brand_model: M716D
+        brand_marketing_name: 'OEM BT-M716D'
+        brand_names: 'OEM BT-M716D'
+        design_weight: 380
+        display_size: '7'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: MB9701
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: OEM
+        brand_model: MB9701
+        design_weight: 660
+        display_size: '9.7'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: MID1060
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1280
+        display_height: 800
+        brand_vendor: OEM
+        brand_model: MID1060
+        display_size: '10.1'

@@ -1,0 +1,15 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: A9724
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Vero
+        brand_model: A9724
+        design_weight: 620
+        display_size: '9.7'
+        display_type: 'IPS LCD'

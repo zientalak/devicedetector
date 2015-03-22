@@ -1,0 +1,20 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Tab 707'
+        -
+            strategy: string
+            value: 'Storex eZee Tab 707'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: eZee
+        brand_model: 'Tab 707'
+        brand_marketing_name: 'Storex eZee Tab 707'
+        brand_names: 'Storex eZee Tab 707'
+        design_weight: 330
+        display_size: '7'
+        display_type: TFT

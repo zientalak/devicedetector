@@ -1,0 +1,63 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: Hexen
+        -
+            strategy: string
+            value: 'iJoy Hexen Dual Core'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: iJoy
+        brand_model: Hexen
+        brand_marketing_name: 'iJoy Hexen Dual Core'
+        brand_names: 'iJoy Hexen Dual Core'
+        design_weight: 300
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Rebel 8GB'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: iJoy
+        brand_model: 'Rebel 8GB'
+        design_weight: 330
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Scooby
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: iJoy
+        brand_model: Scooby
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'i Call 350'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: iJoy
+        brand_model: 'i Call 350'
+        display_size: '3.5'
+        display_type: TFT

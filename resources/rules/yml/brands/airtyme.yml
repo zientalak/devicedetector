@@ -1,0 +1,28 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: Picasso
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: AirTyme
+        brand_model: Picasso
+        design_weight: 126
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Picasso DG50'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: AirTyme
+        brand_model: 'Picasso DG50'
+        design_weight: 126
+        display_size: '3.5'
+        display_type: LCD

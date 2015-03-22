@@ -1,0 +1,668 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: A280
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Gionee
+        brand_model: A280
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: V4
+        -
+            strategy: string
+            value: 'Gionee CTRL V4'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Gionee
+        brand_model: V4
+        brand_marketing_name: 'Gionee CTRL V4'
+        brand_names: 'Gionee CTRL V4'
+        display_size: '4.5'
+        display_type: FWVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Ctrl V1'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Gionee
+        brand_model: 'Ctrl V1'
+        display_size: '4'
+        display_type: HVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Ctrl V3'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Gionee
+        brand_model: 'Ctrl V3'
+        display_size: '4.3'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Ctrl V4'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Gionee
+        brand_model: 'Ctrl V4'
+        display_size: '4.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Ctrl V4S'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Gionee
+        brand_model: 'Ctrl V4S'
+        design_weight: 85
+        display_size: '4.5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Ctrl v2'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Gionee
+        brand_model: 'Ctrl v2'
+        display_size: '3.5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: D001
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 92
+        brand_vendor: Gionee
+        brand_model: D001
+-
+    patterns:
+        -
+            strategy: string
+            value: E3
+        -
+            strategy: string
+            value: 'Gionee Elife E3'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Gionee
+        brand_model: E3
+        brand_marketing_name: 'Gionee Elife E3'
+        brand_names: 'Gionee Elife E3'
+        design_weight: 110
+        display_size: '4.7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: E6
+        -
+            strategy: string
+            value: 'Gionee Elife E6'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Gionee
+        brand_model: E6
+        brand_marketing_name: 'Gionee Elife E6'
+        brand_names: 'Gionee Elife E6'
+        design_weight: 123
+        display_size: '5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: E7
+        -
+            strategy: string
+            value: 'Gionee Elife E7'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Gionee
+        brand_model: E7
+        brand_marketing_name: 'Gionee Elife E7'
+        brand_names: 'Gionee Elife E7'
+        design_weight: 151
+        display_size: '5.5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'E7 Mini'
+        -
+            strategy: string
+            value: 'Gionee Elife E7 Mini'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Gionee
+        brand_model: 'E7 Mini'
+        brand_marketing_name: 'Gionee Elife E7 Mini'
+        brand_names: 'Gionee Elife E7 Mini'
+        design_weight: 143
+        display_size: '4.7'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: S5.5
+        -
+            strategy: string
+            value: 'Gionee Elife S5.5 gets'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Gionee
+        brand_model: S5.5
+        brand_marketing_name: 'Gionee Elife S5.5 gets'
+        brand_names: 'Gionee Elife S5.5 gets'
+        design_weight: 130
+        display_size: '5'
+        display_type: 'Super AMOLED'
+-
+    patterns:
+        -
+            strategy: string
+            value: F6
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 400
+        brand_vendor: Gionee
+        brand_model: F6
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: G4
+        -
+            strategy: string
+            value: 'Gionee Gpad G4'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Gionee
+        brand_model: G4
+        brand_marketing_name: 'Gionee Gpad G4'
+        brand_names: 'Gionee Gpad G4'
+        design_weight: 128
+        display_size: '5.7'
+        display_type: 'IPS TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: GN105
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 320
+        brand_vendor: Gionee
+        brand_model: GN105
+        design_weight: 130
+        display_size: '3.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: GN106
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Gionee
+        brand_model: GN106
+        design_weight: 123
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: GN107
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Gionee
+        brand_model: GN107
+        display_size: '3.5'
+-
+    patterns:
+        -
+            strategy: string
+            value: GN137
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Gionee
+        brand_model: GN137
+        design_weight: 140
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: GN160t
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Gionee
+        brand_model: GN160t
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: GN170
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Gionee
+        brand_model: GN170
+        display_size: '3.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: GN180
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Gionee
+        brand_model: GN180
+        design_weight: 172
+        display_size: '4'
+        display_type: 'TFT IPS'
+-
+    patterns:
+        -
+            strategy: string
+            value: GN205
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Gionee
+        brand_model: GN205
+        display_size: '3.7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: GN305
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1280
+        display_height: 720
+        brand_vendor: Gionee
+        brand_model: GN305
+        design_weight: 138
+        display_size: '4'
+        display_type: 'PLS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: GN380
+    capabilities:
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Gionee
+        brand_model: GN380
+        design_weight: 150
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Infinity GN708'
+        -
+            strategy: string
+            value: 'Gionee GN708'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Gionee
+        brand_model: 'Infinity GN708'
+        brand_marketing_name: 'Gionee GN708'
+        brand_names: 'Gionee GN708'
+        design_weight: 140
+        display_size: '4.5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: GN708w
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Gionee
+        brand_model: GN708w
+        design_weight: 133
+        display_size: '4.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: GN868
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Gionee
+        brand_model: GN868
+        display_size: '4.3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Gpad G1'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Gionee
+        brand_model: 'Gpad G1'
+        display_size: '5'
+        display_type: WVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Gpad G2'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Gionee
+        brand_model: 'Gpad G2'
+        display_size: '5.3'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Gpad G3'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Gionee
+        brand_model: 'Gpad G3'
+        design_weight: 132
+        display_size: '5.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: I9
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Gionee
+        brand_model: I9
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Infinity Plus'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Gionee
+        brand_model: 'Infinity Plus'
+        display_size: '4.3'
+        display_type: 'Super AMOLED'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Infinity Power'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Gionee
+        brand_model: 'Infinity Power'
+        design_weight: 116
+        display_size: '4'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: L10
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Gionee
+        brand_model: L10
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: L6
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Gionee
+        brand_model: L6
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: L7
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Gionee
+        brand_model: L7
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P2
+        -
+            strategy: string
+            value: 'Gionee Pioneer P2'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Gionee
+        brand_model: P2
+        brand_marketing_name: 'Gionee Pioneer P2'
+        brand_names: 'Gionee Pioneer P2'
+        design_weight: 122
+        display_size: '4'
+        display_type: 'WVGA TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: P2S
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Gionee
+        brand_model: P2S
+        design_weight: 124
+        display_size: '4'
+        display_type: 'WVGA TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Pioneer P1'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Gionee
+        brand_model: 'Pioneer P1'
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Pioneer P3'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Gionee
+        brand_model: 'Pioneer P3'
+        display_size: '4.3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Pioneer P4'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Gionee
+        brand_model: 'Pioneer P4'
+        design_weight: 88
+        display_size: '4.5'
+        display_type: 'FWVGA TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: S101
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Gionee
+        brand_model: S101
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: V182
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Gionee
+        brand_model: V182
+        design_weight: 182
+        display_size: '4.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: V500
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Gionee
+        brand_model: V500
+        display_type: TFT

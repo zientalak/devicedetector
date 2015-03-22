@@ -1,0 +1,29 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: A23
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Tagital
+        brand_model: A23
+        design_weight: 275
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: TY-Q88
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Tagital
+        brand_model: TY-Q88
+        display_size: '7'
+        display_type: TFT

@@ -1,0 +1,14 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Slate N9 SE'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: DOMO
+        brand_model: 'Slate N9 SE'
+        design_weight: 230
+        display_size: '7'

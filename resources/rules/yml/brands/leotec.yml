@@ -1,0 +1,131 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: LETAB901
+        -
+            strategy: string
+            value: 'Leotec Comet'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Leotec
+        brand_model: LETAB901
+        brand_marketing_name: 'Leotec Comet'
+        brand_names: 'Leotec Comet'
+        display_size: '9.7'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: LETAB903
+        -
+            strategy: string
+            value: 'Leotec L-Pad Aurora'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        brand_vendor: Leotec
+        brand_model: LETAB903
+        brand_marketing_name: 'Leotec L-Pad Aurora'
+        brand_names: 'Leotec L-Pad Aurora'
+        display_size: '9.7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: LETAB801
+        -
+            strategy: string
+            value: 'Leotec L-Pad Cosmos'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 600
+        brand_vendor: Leotec
+        brand_model: LETAB801
+        brand_marketing_name: 'Leotec L-Pad Cosmos'
+        brand_names: 'Leotec L-Pad Cosmos'
+        display_size: '8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: LETAB805
+        -
+            strategy: string
+            value: 'Leotec L-Pad Cosmos II'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 600
+        brand_vendor: Leotec
+        brand_model: LETAB805
+        brand_marketing_name: 'Leotec L-Pad Cosmos II'
+        brand_names: 'Leotec L-Pad Cosmos II'
+        display_size: '8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: LETAB701
+        -
+            strategy: string
+            value: 'Leotec L-Pad Space'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Leotec
+        brand_model: LETAB701
+        brand_marketing_name: 'Leotec L-Pad Space'
+        brand_names: 'Leotec L-Pad Space'
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: LETAB712
+        -
+            strategy: string
+            value: 'Leotec L-Pad Space II'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Leotec
+        brand_model: LETAB712
+        brand_marketing_name: 'Leotec L-Pad Space II'
+        brand_names: 'Leotec L-Pad Space II'
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: LETAB1004
+        -
+            strategy: string
+            value: 'Leotec L-Pad Universe 10'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Leotec
+        brand_model: LETAB1004
+        brand_marketing_name: 'Leotec L-Pad Universe 10'
+        brand_names: 'Leotec L-Pad Universe 10'
+        display_size: '10.1'
+        display_type: TFT

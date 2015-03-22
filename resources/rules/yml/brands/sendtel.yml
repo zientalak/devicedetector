@@ -1,0 +1,14 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Wise plus'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Sendtel
+        brand_model: 'Wise plus'
+        display_size: '3.5'
+        display_type: TFT

@@ -1,0 +1,59 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Amazing A4'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: TWM
+        brand_model: 'Amazing A4'
+        design_weight: 130
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Amazing A6'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: TWM
+        brand_model: 'Amazing A6'
+        design_weight: 170
+        display_size: '5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'MyPad P4 Lite'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: TWM
+        brand_model: 'MyPad P4 Lite'
+        design_weight: 410
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'myPad P3'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: TWM
+        brand_model: 'myPad P3'
+        design_weight: 402
+        display_size: '7'

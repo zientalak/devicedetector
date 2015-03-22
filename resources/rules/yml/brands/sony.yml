@@ -1,0 +1,2525 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: SOL24
+        -
+            strategy: string
+            value: 'Sony Xperia Z Ultra'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Sony
+        brand_model: SOL24
+        brand_marketing_name: 'Sony Xperia Z Ultra'
+        brand_names: 'Sony Xperia Z Ultra'
+        design_weight: 214
+        display_size: '6.4'
+        display_type: 'TFT IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: LT28H
+        -
+            strategy: string
+            value: 'Sony Xperia Ion, Sony Aoba'
+        -
+            strategy: string
+            value: 'Sony Xperia Ion'
+    capabilities:
+        is_mobile: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Sony
+        brand_model: LT28H
+        brand_marketing_name: 'Sony Xperia Ion'
+        brand_names: 'Sony Xperia Ion, Sony Aoba'
+        design_weight: 144
+        display_size: '4.6'
+        display_type: 'LED-backlit LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: C1504
+        -
+            strategy: string
+            value: 'Sony Xperia E'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Sony
+        brand_model: C1504
+        brand_marketing_name: 'Sony Xperia E'
+        brand_names: 'Sony Xperia E'
+        design_weight: 115
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: C1505
+        -
+            strategy: string
+            value: 'Sony Xperia E'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Sony
+        brand_model: C1505
+        brand_marketing_name: 'Sony Xperia E'
+        brand_names: 'Sony Xperia E'
+        design_weight: 115
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: C1604
+        -
+            strategy: string
+            value: 'Sony Xperia E Dual'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Sony
+        brand_model: C1604
+        brand_marketing_name: 'Sony Xperia E Dual'
+        brand_names: 'Sony Xperia E Dual'
+        design_weight: 115
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: C1605
+        -
+            strategy: string
+            value: 'Sony Xperia E Dual'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Sony
+        brand_model: C1605
+        brand_marketing_name: 'Sony Xperia E Dual'
+        brand_names: 'Sony Xperia E Dual'
+        design_weight: 115
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: C1904
+        -
+            strategy: string
+            value: 'Sony Xperia M'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 854
+        display_height: 480
+        brand_vendor: Sony
+        brand_model: C1904
+        brand_marketing_name: 'Sony Xperia M'
+        brand_names: 'Sony Xperia M'
+        design_weight: 115
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: C1905
+        -
+            strategy: string
+            value: 'Sony Xperia M'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 854
+        display_height: 480
+        brand_vendor: Sony
+        brand_model: C1905
+        brand_marketing_name: 'Sony Xperia M'
+        brand_names: 'Sony Xperia M'
+        design_weight: 115
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: C2004
+        -
+            strategy: string
+            value: 'Sony Xperia M'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 854
+        display_height: 480
+        brand_vendor: Sony
+        brand_model: C2004
+        brand_marketing_name: 'Sony Xperia M'
+        brand_names: 'Sony Xperia M'
+        design_weight: 115
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: C2005
+        -
+            strategy: string
+            value: 'Sony Xperia M Dual'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Sony
+        brand_model: C2005
+        brand_marketing_name: 'Sony Xperia M Dual'
+        brand_names: 'Sony Xperia M Dual'
+        design_weight: 115
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: C2104
+        -
+            strategy: string
+            value: 'Sony Xperia L'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Sony
+        brand_model: C2104
+        brand_marketing_name: 'Sony Xperia L'
+        brand_names: 'Sony Xperia L'
+        design_weight: 137
+        display_size: '4.3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: C2105
+        -
+            strategy: string
+            value: 'Sony Xperia L'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Sony
+        brand_model: C2105
+        brand_marketing_name: 'Sony Xperia L'
+        brand_names: 'Sony Xperia L'
+        design_weight: 137
+        display_size: '4.3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: C2304
+        -
+            strategy: string
+            value: 'Sony Xperia C'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Sony
+        brand_model: C2304
+        brand_marketing_name: 'Sony Xperia C'
+        brand_names: 'Sony Xperia C'
+        design_weight: 153
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: C2305
+        -
+            strategy: string
+            value: 'Sony Xperia C'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Sony
+        brand_model: C2305
+        brand_marketing_name: 'Sony Xperia C'
+        brand_names: 'Sony Xperia C'
+        design_weight: 153
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: C5302
+        -
+            strategy: string
+            value: 'Sony Xperia SP'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Sony
+        brand_model: C5302
+        brand_marketing_name: 'Sony Xperia SP'
+        brand_names: 'Sony Xperia SP'
+        design_weight: 155
+        display_size: '4.6'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: C5303
+        -
+            strategy: string
+            value: 'Sony Xperia SP'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Sony
+        brand_model: C5303
+        brand_marketing_name: 'Sony Xperia SP'
+        brand_names: 'Sony Xperia SP'
+        design_weight: 155
+        display_size: '4.6'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: C5306
+        -
+            strategy: string
+            value: 'Sony Xperia SP'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Sony
+        brand_model: C5306
+        brand_marketing_name: 'Sony Xperia SP'
+        brand_names: 'Sony Xperia SP'
+        design_weight: 155
+        display_size: '4.6'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: C5502
+        -
+            strategy: string
+            value: 'Sony Xperia ZR'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Sony
+        brand_model: C5502
+        brand_marketing_name: 'Sony Xperia ZR'
+        brand_names: 'Sony Xperia ZR'
+        design_weight: 138
+        display_size: '4.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: C5503
+        -
+            strategy: string
+            value: 'Sony Xperia ZR'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Sony
+        brand_model: C5503
+        brand_marketing_name: 'Sony Xperia ZR'
+        brand_names: 'Sony Xperia ZR'
+        design_weight: 138
+        display_size: '4.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: C550X
+        -
+            strategy: string
+            value: 'Sony Xperia ZR'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Sony
+        brand_model: C550X
+        brand_marketing_name: 'Sony Xperia ZR'
+        brand_names: 'Sony Xperia ZR'
+        design_weight: 138
+        display_size: '4.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: C6502
+        -
+            strategy: string
+            value: 'Sony Xperia ZL'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Sony
+        brand_model: C6502
+        brand_marketing_name: 'Sony Xperia ZL'
+        brand_names: 'Sony Xperia ZL'
+        design_weight: 151
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: C6503
+        -
+            strategy: string
+            value: 'Sony Xperia ZL 4G LTE'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Sony
+        brand_model: C6503
+        brand_marketing_name: 'Sony Xperia ZL 4G LTE'
+        brand_names: 'Sony Xperia ZL 4G LTE'
+        design_weight: 151
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: C6506
+        -
+            strategy: string
+            value: 'Sony Xperia ZL'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Sony
+        brand_model: C6506
+        brand_marketing_name: 'Sony Xperia ZL'
+        brand_names: 'Sony Xperia ZL'
+        design_weight: 151
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: C6602
+        -
+            strategy: string
+            value: 'Sony Xperia Z, Sony Xperia Z LTE, Sony Xperia Z HSPA+'
+        -
+            strategy: string
+            value: 'Sony Xperia Z'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Sony
+        brand_model: C6602
+        brand_marketing_name: 'Sony Xperia Z'
+        brand_names: 'Sony Xperia Z, Sony Xperia Z LTE, Sony Xperia Z HSPA+'
+        design_weight: 146
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: C6603
+        -
+            strategy: string
+            value: 'Sony Xperia Z'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Sony
+        brand_model: C6603
+        brand_marketing_name: 'Sony Xperia Z'
+        brand_names: 'Sony Xperia Z'
+        design_weight: 146
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: C6606
+        -
+            strategy: string
+            value: 'Sony Xperia Z L36a, Sony Yuga Rex'
+        -
+            strategy: string
+            value: 'Sony Xperia Z L36a'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1920
+        display_height: 1080
+        brand_vendor: Sony
+        brand_model: C6606
+        brand_marketing_name: 'Sony Xperia Z L36a'
+        brand_names: 'Sony Xperia Z L36a, Sony Yuga Rex'
+        design_weight: 146
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: C6616
+        -
+            strategy: string
+            value: 'Sony Xperia Z'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Sony
+        brand_model: C6616
+        brand_marketing_name: 'Sony Xperia Z'
+        brand_names: 'Sony Xperia Z'
+        design_weight: 146
+        display_size: '5'
+        display_type: 'HD LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: C6802
+        -
+            strategy: string
+            value: 'Sony Xperia Z Ultra'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Sony
+        brand_model: C6802
+        brand_marketing_name: 'Sony Xperia Z Ultra'
+        brand_names: 'Sony Xperia Z Ultra'
+        design_weight: 212
+        display_size: '6.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: C6806
+        -
+            strategy: string
+            value: 'Sony Xperia Z Ultra'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Sony
+        brand_model: C6806
+        brand_marketing_name: 'Sony Xperia Z Ultra'
+        brand_names: 'Sony Xperia Z Ultra'
+        design_weight: 212
+        display_size: '6.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: C6833
+        -
+            strategy: string
+            value: 'Sony Xperia Z Ultra'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Sony
+        brand_model: C6833
+        brand_marketing_name: 'Sony Xperia Z Ultra'
+        brand_names: 'Sony Xperia Z Ultra'
+        design_weight: 212
+        display_size: '6.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: C6843
+        -
+            strategy: string
+            value: 'Sony Xperia Z Ultra LTE, Sony Togari'
+        -
+            strategy: string
+            value: 'Sony Xperia Z Ultra LTE'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Sony
+        brand_model: C6843
+        brand_marketing_name: 'Sony Xperia Z Ultra LTE'
+        brand_names: 'Sony Xperia Z Ultra LTE, Sony Togari'
+        design_weight: 212
+        display_size: '6.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: C6902
+        -
+            strategy: string
+            value: 'Sony Xperia Z1'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Sony
+        brand_model: C6902
+        brand_marketing_name: 'Sony Xperia Z1'
+        brand_names: 'Sony Xperia Z1'
+        design_weight: 170
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: C6903
+        -
+            strategy: string
+            value: 'Sony Xperia Z1'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Sony
+        brand_model: C6903
+        brand_marketing_name: 'Sony Xperia Z1'
+        brand_names: 'Sony Xperia Z1'
+        design_weight: 170
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: C6906
+        -
+            strategy: string
+            value: 'Sony Xperia Z1 C6906'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Sony
+        brand_model: C6906
+        brand_marketing_name: 'Sony Xperia Z1 C6906'
+        brand_names: 'Sony Xperia Z1 C6906'
+        design_weight: 170
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: C6916
+        -
+            strategy: string
+            value: 'Sony Xperia Z1'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Sony
+        brand_model: C6916
+        brand_marketing_name: 'Sony Xperia Z1'
+        brand_names: 'Sony Xperia Z1'
+        design_weight: 170
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: C6943
+        -
+            strategy: string
+            value: 'Sony Xperia Z1'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Sony
+        brand_model: C6943
+        brand_marketing_name: 'Sony Xperia Z1'
+        brand_names: 'Sony Xperia Z1'
+        design_weight: 170
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: SGP511
+        -
+            strategy: string
+            value: 'Sony Xperia Z2, Sony Castor'
+        -
+            strategy: string
+            value: 'Sony Xperia Z2'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1200
+        display_height: 1920
+        brand_vendor: Sony
+        brand_model: SGP511
+        brand_marketing_name: 'Sony Xperia Z2'
+        brand_names: 'Sony Xperia Z2, Sony Castor'
+        design_weight: 426
+        display_size: '10.1'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: PEG-TH55
+        -
+            strategy: string
+            value: 'Sony Clie PEG-TH55, Sony Clie PEG-TH55E'
+        -
+            strategy: string
+            value: 'Sony Clie PEG-TH55'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Sony
+        brand_model: PEG-TH55
+        brand_marketing_name: 'Sony Clie PEG-TH55'
+        brand_names: 'Sony Clie PEG-TH55, Sony Clie PEG-TH55E'
+        design_weight: 165
+        display_size: '3.9'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: PEG-UX50
+        -
+            strategy: string
+            value: 'Sony Clie PEG-UX50, Sony Clie PEG-UX50U, Sony Clie PEG-UX50E'
+        -
+            strategy: string
+            value: 'Sony Clie PEG-UX50'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 320
+        brand_vendor: Sony
+        brand_model: PEG-UX50
+        brand_marketing_name: 'Sony Clie PEG-UX50'
+        brand_names: 'Sony Clie PEG-UX50, Sony Clie PEG-UX50U, Sony Clie PEG-UX50E'
+        design_weight: 175
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: D2004
+        -
+            strategy: string
+            value: 'Sony Xperia E1'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Sony
+        brand_model: D2004
+        brand_marketing_name: 'Sony Xperia E1'
+        brand_names: 'Sony Xperia E1'
+        design_weight: 120
+        display_size: '4'
+        display_type: 'WVGA TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: D2005
+        -
+            strategy: string
+            value: 'Sony Xperia E1'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Sony
+        brand_model: D2005
+        brand_marketing_name: 'Sony Xperia E1'
+        brand_names: 'Sony Xperia E1'
+        design_weight: 120
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: D2104
+        -
+            strategy: string
+            value: 'Sony Xperia E1 Dual D2104'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Sony
+        brand_model: D2104
+        brand_marketing_name: 'Sony Xperia E1 Dual D2104'
+        brand_names: 'Sony Xperia E1 Dual D2104'
+        design_weight: 122
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: D2105
+        -
+            strategy: string
+            value: 'Sony Xperia E1 Dual D2105'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Sony
+        brand_model: D2105
+        brand_marketing_name: 'Sony Xperia E1 Dual D2105'
+        brand_names: 'Sony Xperia E1 Dual D2105'
+        design_weight: 120
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: D2114
+        -
+            strategy: string
+            value: 'Sony Xperia E1 Dual'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Sony
+        brand_model: D2114
+        brand_marketing_name: 'Sony Xperia E1 Dual'
+        brand_names: 'Sony Xperia E1 Dual'
+        design_weight: 122
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: D2202
+        -
+            strategy: string
+            value: 'Sony Xperia E3'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Sony
+        brand_model: D2202
+        brand_marketing_name: 'Sony Xperia E3'
+        brand_names: 'Sony Xperia E3'
+        design_weight: 143
+        display_size: '4.5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: D2203
+        -
+            strategy: string
+            value: 'Sony Xperia E3'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Sony
+        brand_model: D2203
+        brand_marketing_name: 'Sony Xperia E3'
+        brand_names: 'Sony Xperia E3'
+        design_weight: 143
+        display_size: '4.5'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: D2212
+        -
+            strategy: string
+            value: 'Sony Xperia E3 Dual'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Sony
+        brand_model: D2212
+        brand_marketing_name: 'Sony Xperia E3 Dual'
+        brand_names: 'Sony Xperia E3 Dual'
+        design_weight: 145
+        display_size: '4.5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: D2302
+        -
+            strategy: string
+            value: 'Sony Xperia M2 Dual D2302'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Sony
+        brand_model: D2302
+        brand_marketing_name: 'Sony Xperia M2 Dual D2302'
+        brand_names: 'Sony Xperia M2 Dual D2302'
+        design_weight: 148
+        display_size: '4.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: D2403
+        -
+            strategy: string
+            value: 'Sony Xperia M2 Aqua'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Sony
+        brand_model: D2403
+        brand_marketing_name: 'Sony Xperia M2 Aqua'
+        brand_names: 'Sony Xperia M2 Aqua'
+        design_weight: 149
+        display_size: '4.4'
+        display_type: 'TFT IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: D2502
+        -
+            strategy: string
+            value: 'Sony Xperia C3 Dual D2502'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Sony
+        brand_model: D2502
+        brand_marketing_name: 'Sony Xperia C3 Dual D2502'
+        brand_names: 'Sony Xperia C3 Dual D2502'
+        design_weight: 149
+        display_size: '5.5'
+        display_type: 'TFT IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: D2533
+        -
+            strategy: string
+            value: 'Sony Xperia C3'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Sony
+        brand_model: D2533
+        brand_marketing_name: 'Sony Xperia C3'
+        brand_names: 'Sony Xperia C3'
+        design_weight: 159
+        display_size: '5.5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: D5102
+        -
+            strategy: string
+            value: 'Sony Xperia T3'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Sony
+        brand_model: D5102
+        brand_marketing_name: 'Sony Xperia T3'
+        brand_names: 'Sony Xperia T3'
+        design_weight: 148
+        display_size: '5.3'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: D5103
+        -
+            strategy: string
+            value: 'Sony Xperia T3'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Sony
+        brand_model: D5103
+        brand_marketing_name: 'Sony Xperia T3'
+        brand_names: 'Sony Xperia T3'
+        design_weight: 148
+        display_size: '5.3'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: D5106
+        -
+            strategy: string
+            value: 'Sony Xperia T3'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Sony
+        brand_model: D5106
+        brand_marketing_name: 'Sony Xperia T3'
+        brand_names: 'Sony Xperia T3'
+        design_weight: 148
+        display_size: '5.3'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: D5316
+        -
+            strategy: string
+            value: 'Sony Xperia T2 Ultra D5316'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Sony
+        brand_model: D5316
+        brand_marketing_name: 'Sony Xperia T2 Ultra D5316'
+        brand_names: 'Sony Xperia T2 Ultra D5316'
+        design_weight: 172
+        display_size: '6'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: D5322
+        -
+            strategy: string
+            value: 'Sony Xperia T2 Ultra'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Sony
+        brand_model: D5322
+        brand_marketing_name: 'Sony Xperia T2 Ultra'
+        brand_names: 'Sony Xperia T2 Ultra'
+        design_weight: 171
+        display_size: '6'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: D5503
+        -
+            strategy: string
+            value: 'Sony Xperia Z1'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Sony
+        brand_model: D5503
+        brand_marketing_name: 'Sony Xperia Z1'
+        brand_names: 'Sony Xperia Z1'
+        design_weight: 170
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: D6502
+        -
+            strategy: string
+            value: 'Sony Experia Z2, Sony Sirius'
+        -
+            strategy: string
+            value: 'Sony Experia Z2'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Sony
+        brand_model: D6502
+        brand_marketing_name: 'Sony Experia Z2'
+        brand_names: 'Sony Experia Z2, Sony Sirius'
+        design_weight: 163
+        display_size: '5.2'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: D6503
+        -
+            strategy: string
+            value: 'Sony Xperia Sirius'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Sony
+        brand_model: D6503
+        brand_marketing_name: 'Sony Xperia Sirius'
+        brand_names: 'Sony Xperia Sirius'
+        design_weight: 163
+        display_size: '5.2'
+        display_type: QHD
+-
+    patterns:
+        -
+            strategy: string
+            value: D6543
+        -
+            strategy: string
+            value: 'SONY XPERIA Z2 D6543'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Sony
+        brand_model: D6543
+        brand_marketing_name: 'SONY XPERIA Z2 D6543'
+        brand_names: 'SONY XPERIA Z2 D6543'
+        design_weight: 163
+        display_size: '5.2'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: ST25A
+        -
+            strategy: string
+            value: 'Sony Xperia U, SonyEricsson Kumquat'
+        -
+            strategy: string
+            value: 'Sony Xperia U'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Sony
+        brand_model: ST25A
+        brand_marketing_name: 'Sony Xperia U'
+        brand_names: 'Sony Xperia U, SonyEricsson Kumquat'
+        design_weight: 110
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MT25I
+        -
+            strategy: string
+            value: 'Sony Xperia Neo L'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Sony
+        brand_model: MT25I
+        brand_marketing_name: 'Sony Xperia Neo L'
+        brand_names: 'Sony Xperia Neo L'
+        design_weight: 132
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: LT26W
+        -
+            strategy: string
+            value: 'Sony Xperia Acro S, Sony Hikari'
+        -
+            strategy: string
+            value: 'Sony Xperia Acro S'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Sony
+        brand_model: LT26W
+        brand_marketing_name: 'Sony Xperia Acro S'
+        brand_names: 'Sony Xperia Acro S, Sony Hikari'
+        design_weight: 147
+        display_size: '4.3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: L36H
+        -
+            strategy: string
+            value: 'Sony Xperia Z'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Sony
+        brand_model: L36H
+        brand_marketing_name: 'Sony Xperia Z'
+        brand_names: 'Sony Xperia Z'
+        design_weight: 146
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: L39H
+        -
+            strategy: string
+            value: 'Sony Xperia Z1'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Sony
+        brand_model: L39H
+        brand_marketing_name: 'Sony Xperia Z1'
+        brand_names: 'Sony Xperia Z1'
+        design_weight: 170
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: LT15I
+        -
+            strategy: string
+            value: 'Sony Ericsson Xperia Arc'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Sony
+        brand_model: LT15I
+        brand_marketing_name: 'Sony Ericsson Xperia Arc'
+        brand_names: 'Sony Ericsson Xperia Arc'
+        design_weight: 117
+        display_size: '4.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: LT22I
+        -
+            strategy: string
+            value: 'Sony Xperia P, Sony Nyphon'
+        -
+            strategy: string
+            value: 'Sony Xperia P'
+    capabilities:
+        is_mobile: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Sony
+        brand_model: LT22I
+        brand_marketing_name: 'Sony Xperia P'
+        brand_names: 'Sony Xperia P, Sony Nyphon'
+        design_weight: 120
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: LT25C
+        -
+            strategy: string
+            value: 'Sony Xperia VC LT25C'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Sony
+        brand_model: LT25C
+        brand_marketing_name: 'Sony Xperia VC LT25C'
+        brand_names: 'Sony Xperia VC LT25C'
+        design_weight: 120
+        display_size: '4.3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: LT25I
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Sony
+        brand_model: LT25I
+        design_weight: 120
+        display_size: '4.3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: LT26I
+        -
+            strategy: string
+            value: 'Sony Xperia Ion, Sony Xperia S'
+        -
+            strategy: string
+            value: 'Sony Xperia Ion'
+    capabilities:
+        is_mobile: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Sony
+        brand_model: LT26I
+        brand_marketing_name: 'Sony Xperia Ion'
+        brand_names: 'Sony Xperia Ion, Sony Xperia S'
+        design_weight: 144
+        display_size: '4.6'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: LT26II
+        -
+            strategy: string
+            value: 'Sony Xperia SL'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1280
+        display_height: 720
+        brand_vendor: Sony
+        brand_model: LT26II
+        brand_marketing_name: 'Sony Xperia SL'
+        brand_names: 'Sony Xperia SL'
+        design_weight: 144
+        display_size: '4.3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: LT28AT
+        -
+            strategy: string
+            value: 'Sony Xperia Ion'
+    capabilities:
+        is_mobile: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Sony
+        brand_model: LT28AT
+        brand_marketing_name: 'Sony Xperia Ion'
+        brand_names: 'Sony Xperia Ion'
+        design_weight: 144
+        display_size: '4.6'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: LT28I
+        -
+            strategy: string
+            value: 'Sony Xperia Ion'
+    capabilities:
+        is_mobile: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Sony
+        brand_model: LT28I
+        brand_marketing_name: 'Sony Xperia Ion'
+        brand_names: 'Sony Xperia Ion'
+        design_weight: 144
+        display_size: '4.6'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: LT29I
+        -
+            strategy: string
+            value: 'Sony Xperia Habayusa, Sony Xperia TX'
+        -
+            strategy: string
+            value: 'Sony Xperia Habayusa'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Sony
+        brand_model: LT29I
+        brand_marketing_name: 'Sony Xperia Habayusa'
+        brand_names: 'Sony Xperia Habayusa, Sony Xperia TX'
+        design_weight: 127
+        display_size: '4.6'
+        display_type: 'LED-backlit LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: LT30A
+        -
+            strategy: string
+            value: 'Sony Xperia T'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Sony
+        brand_model: LT30A
+        brand_marketing_name: 'Sony Xperia T'
+        brand_names: 'Sony Xperia T'
+        design_weight: 139
+        display_size: '4.6'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: LT30AT
+        -
+            strategy: string
+            value: 'Sony Xperia AT'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Sony
+        brand_model: LT30AT
+        brand_marketing_name: 'Sony Xperia AT'
+        brand_names: 'Sony Xperia AT'
+        design_weight: 139
+        display_size: '4.6'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: LT30P
+        -
+            strategy: string
+            value: 'Sony Xperia T'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Sony
+        brand_model: LT30P
+        brand_marketing_name: 'Sony Xperia T'
+        brand_names: 'Sony Xperia T'
+        design_weight: 139
+        display_size: '4.6'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: ST27A
+        -
+            strategy: string
+            value: 'Sony Xperia Advance, Sony Lotus'
+        -
+            strategy: string
+            value: 'Sony Xperia Advance'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Sony
+        brand_model: ST27A
+        brand_marketing_name: 'Sony Xperia Advance'
+        brand_names: 'Sony Xperia Advance, Sony Lotus'
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: M35C
+        -
+            strategy: string
+            value: 'Sony Xperia SP'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Sony
+        brand_model: M35C
+        brand_marketing_name: 'Sony Xperia SP'
+        brand_names: 'Sony Xperia SP'
+        design_weight: 155
+        display_size: '4.6'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MT27i
+        -
+            strategy: string
+            value: 'Sony Pepper, Sony Xperia Pepper, Sony Xperia sola'
+        -
+            strategy: string
+            value: 'Sony Pepper'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Sony
+        brand_model: MT27i
+        brand_marketing_name: 'Sony Pepper'
+        brand_names: 'Sony Pepper, Sony Xperia Pepper, Sony Xperia sola'
+        design_weight: 107
+        display_size: '3.7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: NSZ-GS7
+        -
+            strategy: string
+            value: 'Sony NSZ-GX70, Sony NSZ-GS7/GX70, Internet Player with Google TV'
+        -
+            strategy: string
+            value: 'Sony NSZ-GX70'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        brand_vendor: Sony
+        brand_model: NSZ-GS7
+        brand_marketing_name: 'Sony NSZ-GX70'
+        brand_names: 'Sony NSZ-GX70, Sony NSZ-GS7/GX70, Internet Player with Google TV'
+        design_weight: 599
+-
+    patterns:
+        -
+            strategy: string
+            value: NWZ-1000
+        -
+            strategy: string
+            value: 'Sony Z Series'
+    capabilities:
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Sony
+        brand_model: NWZ-1000
+        brand_marketing_name: 'Sony Z Series'
+        brand_names: 'Sony Z Series'
+        design_weight: 154
+        display_size: '4.3'
+-
+    patterns:
+        -
+            strategy: string
+            value: NWZ-X1000
+        -
+            strategy: string
+            value: 'Sony Walkman'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 432
+        brand_vendor: Sony
+        brand_model: NWZ-X1000
+        brand_marketing_name: 'Sony Walkman'
+        brand_names: 'Sony Walkman'
+        design_weight: 98
+        display_size: '3'
+        display_type: AMOLED
+-
+    patterns:
+        -
+            strategy: string
+            value: NWZ-X1060
+    capabilities:
+        is_mobile: true
+        display_width: 432
+        display_height: 240
+        brand_vendor: Sony
+        brand_model: NWZ-X1060
+-
+    patterns:
+        -
+            strategy: string
+            value: PEG-TJ37
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 320
+        display_height: 320
+        brand_vendor: Sony
+        brand_model: PEG-TJ37
+        design_weight: 145
+        display_size: '3.1'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: PS3
+        -
+            strategy: string
+            value: 'Sony PlayStation 3'
+    capabilities:
+        display_width: 640
+        display_height: 480
+        brand_vendor: Sony
+        brand_model: PS3
+        brand_marketing_name: 'Sony PlayStation 3'
+        brand_names: 'Sony PlayStation 3'
+        design_weight: 4989
+-
+    patterns:
+        -
+            strategy: string
+            value: PSP
+        -
+            strategy: string
+            value: 'Sony PlayStation Portable'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 272
+        brand_vendor: Sony
+        brand_model: PSP
+        brand_marketing_name: 'Sony PlayStation Portable'
+        brand_names: 'Sony PlayStation Portable'
+        design_weight: 260
+        display_size: '4.3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'PlayStation Vita'
+    capabilities:
+        is_mobile: true
+        display_width: 960
+        display_height: 544
+        brand_vendor: Sony
+        brand_model: 'PlayStation Vita'
+        display_type: OLED
+-
+    patterns:
+        -
+            strategy: string
+            value: S39H
+        -
+            strategy: string
+            value: 'Sony Xperia C'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Sony
+        brand_model: S39H
+        brand_marketing_name: 'Sony Xperia C'
+        brand_names: 'Sony Xperia C'
+        design_weight: 153
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: SGP311
+        -
+            strategy: string
+            value: 'Sony Xperia Tablet Z'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1920
+        display_height: 1200
+        brand_vendor: Sony
+        brand_model: SGP311
+        brand_marketing_name: 'Sony Xperia Tablet Z'
+        brand_names: 'Sony Xperia Tablet Z'
+        design_weight: 495
+        display_size: '10.1'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: SGP312
+        -
+            strategy: string
+            value: 'Sony Xperia Tablet Z'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1920
+        display_height: 1200
+        brand_vendor: Sony
+        brand_model: SGP312
+        brand_marketing_name: 'Sony Xperia Tablet Z'
+        brand_names: 'Sony Xperia Tablet Z'
+        design_weight: 495
+        display_size: '10.1'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: SGP321
+        -
+            strategy: string
+            value: 'Sony Xperia Tablet Z'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1200
+        display_height: 1920
+        brand_vendor: Sony
+        brand_model: SGP321
+        brand_marketing_name: 'Sony Xperia Tablet Z'
+        brand_names: 'Sony Xperia Tablet Z'
+        design_weight: 495
+        display_size: '10.1'
+        display_type: 'LED LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: SGP512
+        -
+            strategy: string
+            value: 'Sony Experia Z2, Sony Castor'
+        -
+            strategy: string
+            value: 'Sony Experia Z2'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1200
+        display_height: 1920
+        brand_vendor: Sony
+        brand_model: SGP512
+        brand_marketing_name: 'Sony Experia Z2'
+        brand_names: 'Sony Experia Z2, Sony Castor'
+        design_weight: 426
+        display_size: '10.1'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: SGP521
+        -
+            strategy: string
+            value: 'Sony Xperia Z2'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1200
+        display_height: 1920
+        brand_vendor: Sony
+        brand_model: SGP521
+        brand_marketing_name: 'Sony Xperia Z2'
+        brand_names: 'Sony Xperia Z2'
+        design_weight: 439
+        display_size: '10.1'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: SGP561
+        -
+            strategy: string
+            value: 'Sony Xperia Z2 SGP561'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1200
+        display_height: 1920
+        brand_vendor: Sony
+        brand_model: SGP561
+        brand_marketing_name: 'Sony Xperia Z2 SGP561'
+        brand_names: 'Sony Xperia Z2 SGP561'
+        design_weight: 439
+        display_size: '10.1'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: SGPT111
+        -
+            strategy: string
+            value: 'Sony Tablet S'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1280
+        display_height: 800
+        brand_vendor: Sony
+        brand_model: SGPT111
+        brand_marketing_name: 'Sony Tablet S'
+        brand_names: 'Sony Tablet S'
+        design_weight: 598
+        display_size: '9.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: SGPT12
+        -
+            strategy: string
+            value: 'Sony Xperia Tablet S'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 1280
+        brand_vendor: Sony
+        brand_model: SGPT12
+        brand_marketing_name: 'Sony Xperia Tablet S'
+        brand_names: 'Sony Xperia Tablet S'
+        design_weight: 570
+        display_size: '9.4'
+        display_type: 'LED-backlit LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: SGPT13
+        -
+            strategy: string
+            value: 'Sony Xperia Tablet S'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1280
+        display_height: 800
+        brand_vendor: Sony
+        brand_model: SGPT13
+        brand_marketing_name: 'Sony Xperia Tablet S'
+        brand_names: 'Sony Xperia Tablet S'
+        design_weight: 585
+        display_size: '9.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: SGPT211
+        -
+            strategy: string
+            value: 'Sony Tablet P'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 480
+        brand_vendor: Sony
+        brand_model: SGPT211
+        brand_marketing_name: 'Sony Tablet P'
+        brand_names: 'Sony Tablet P'
+        design_weight: 372
+        display_size: '5.5'
+        display_type: 'Dual TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: SO-01E
+        -
+            strategy: string
+            value: 'Sony Xperia AX'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Sony
+        brand_model: SO-01E
+        brand_marketing_name: 'Sony Xperia AX'
+        brand_names: 'Sony Xperia AX'
+        design_weight: 120
+        display_size: '4.3'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: SO-01F
+        -
+            strategy: string
+            value: 'Sony Xperia Z1'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Sony
+        brand_model: SO-01F
+        brand_marketing_name: 'Sony Xperia Z1'
+        brand_names: 'Sony Xperia Z1'
+        design_weight: 170
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: SO-02E
+        -
+            strategy: string
+            value: 'Sony Xperia Z, Sony Yuga'
+        -
+            strategy: string
+            value: 'Sony Xperia Z'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Sony
+        brand_model: SO-02E
+        brand_marketing_name: 'Sony Xperia Z'
+        brand_names: 'Sony Xperia Z, Sony Yuga'
+        design_weight: 146
+        display_size: '5'
+        display_type: 'HD LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: SO-02F
+        -
+            strategy: string
+            value: 'Sony Xperia Z1'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Sony
+        brand_model: SO-02F
+        brand_marketing_name: 'Sony Xperia Z1'
+        brand_names: 'Sony Xperia Z1'
+        design_weight: 170
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: SO-03E
+        -
+            strategy: string
+            value: 'Sony Xperia Tablet Z'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1200
+        display_height: 1920
+        brand_vendor: Sony
+        brand_model: SO-03E
+        brand_marketing_name: 'Sony Xperia Tablet Z'
+        brand_names: 'Sony Xperia Tablet Z'
+        design_weight: 495
+        display_size: '10.1'
+        display_type: 'LED LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: SO-03F
+        -
+            strategy: string
+            value: 'Sony Xperia Z2'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Sony
+        brand_model: SO-03F
+        brand_marketing_name: 'Sony Xperia Z2'
+        brand_names: 'Sony Xperia Z2'
+        design_weight: 163
+        display_size: '5.2'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: SO-04D
+        -
+            strategy: string
+            value: 'Sony Xperia GX'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Sony
+        brand_model: SO-04D
+        brand_marketing_name: 'Sony Xperia GX'
+        brand_names: 'Sony Xperia GX'
+        design_weight: 127
+        display_size: '4.6'
+-
+    patterns:
+        -
+            strategy: string
+            value: SO-04E
+        -
+            strategy: string
+            value: 'Sony Xperia A'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Sony
+        brand_model: SO-04E
+        brand_marketing_name: 'Sony Xperia A'
+        brand_names: 'Sony Xperia A'
+        design_weight: 138
+        display_size: '4.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: SO-05D
+        -
+            strategy: string
+            value: 'Sony Xperia SX'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Sony
+        brand_model: SO-05D
+        brand_marketing_name: 'Sony Xperia SX'
+        brand_names: 'Sony Xperia SX'
+        design_weight: 95
+        display_size: '3.7'
+-
+    patterns:
+        -
+            strategy: string
+            value: SOL21
+        -
+            strategy: string
+            value: 'Sony Xperia VL'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Sony
+        brand_model: SOL21
+        brand_marketing_name: 'Sony Xperia VL'
+        brand_names: 'Sony Xperia VL'
+        design_weight: 120
+        display_size: '4.3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: SOL23
+        -
+            strategy: string
+            value: 'Sony Xperia Z1'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Sony
+        brand_model: SOL23
+        brand_marketing_name: 'Sony Xperia Z1'
+        brand_names: 'Sony Xperia Z1'
+        design_weight: 170
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: ST21A
+        -
+            strategy: string
+            value: 'Sony Xperia Tipo'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Sony
+        brand_model: ST21A
+        brand_marketing_name: 'Sony Xperia Tipo'
+        brand_names: 'Sony Xperia Tipo'
+        design_weight: 280
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: ST21A2
+        -
+            strategy: string
+            value: 'Sony Xperia Tipo Dual'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Sony
+        brand_model: ST21A2
+        brand_marketing_name: 'Sony Xperia Tipo Dual'
+        brand_names: 'Sony Xperia Tipo Dual'
+        design_weight: 99
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: ST21I
+        -
+            strategy: string
+            value: 'Sony Tapioca'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Sony
+        brand_model: ST21I
+        brand_marketing_name: 'Sony Tapioca'
+        brand_names: 'Sony Tapioca'
+        design_weight: 280
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: ST21I2
+        -
+            strategy: string
+            value: 'Sony Xperia Tipo Dual'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Sony
+        brand_model: ST21I2
+        brand_marketing_name: 'Sony Xperia Tipo Dual'
+        brand_names: 'Sony Xperia Tipo Dual'
+        design_weight: 99
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: ST21IV
+        -
+            strategy: string
+            value: 'Sony Xperia Tipo'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Sony
+        brand_model: ST21IV
+        brand_marketing_name: 'Sony Xperia Tipo'
+        brand_names: 'Sony Xperia Tipo'
+        design_weight: 280
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: ST23A
+        -
+            strategy: string
+            value: 'Sony Xperia Miro'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Sony
+        brand_model: ST23A
+        brand_marketing_name: 'Sony Xperia Miro'
+        brand_names: 'Sony Xperia Miro'
+        design_weight: 110
+        display_size: '3.5'
+        display_type: 'LED-backlit LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: ST23I
+        -
+            strategy: string
+            value: 'Sony Xperia Miro'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Sony
+        brand_model: ST23I
+        brand_marketing_name: 'Sony Xperia Miro'
+        brand_names: 'Sony Xperia Miro'
+        design_weight: 110
+        display_size: '3.5'
+        display_type: 'LED-backlit LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: ST25I
+        -
+            strategy: string
+            value: 'Sony Xperia U'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Sony
+        brand_model: ST25I
+        brand_marketing_name: 'Sony Xperia U'
+        brand_names: 'Sony Xperia U'
+        design_weight: 110
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: ST26A
+        -
+            strategy: string
+            value: 'Sony Xperia J'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 854
+        display_height: 480
+        brand_vendor: Sony
+        brand_model: ST26A
+        brand_marketing_name: 'Sony Xperia J'
+        brand_names: 'Sony Xperia J'
+        design_weight: 130
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: ST26I
+        -
+            strategy: string
+            value: 'Sony Xperia J'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 854
+        display_height: 480
+        brand_vendor: Sony
+        brand_model: ST26I
+        brand_marketing_name: 'Sony Xperia J'
+        brand_names: 'Sony Xperia J'
+        design_weight: 130
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: ST27I
+        -
+            strategy: string
+            value: 'Sony Xperia Go, Sony Xperia Advance, Sony Lotus'
+        -
+            strategy: string
+            value: 'Sony Xperia Go'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Sony
+        brand_model: ST27I
+        brand_marketing_name: 'Sony Xperia Go'
+        brand_names: 'Sony Xperia Go, Sony Xperia Advance, Sony Lotus'
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Sol 25'
+        -
+            strategy: string
+            value: 'Sony Xperia ZL2 SOL 25'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Sony
+        brand_model: 'Sol 25'
+        brand_marketing_name: 'Sony Xperia ZL2 SOL 25'
+        brand_names: 'Sony Xperia ZL2 SOL 25'
+        design_weight: 167
+        display_size: '5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: Sol22
+        -
+            strategy: string
+            value: 'Sony Xperia UL'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Sony
+        brand_model: Sol22
+        brand_marketing_name: 'Sony Xperia UL'
+        brand_names: 'Sony Xperia UL'
+        design_weight: 145
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Sony Xperia Z2'
+    capabilities:
+        is_mobile: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Sony
+        brand_model: 'Sony Xperia Z2'
+        design_weight: 163
+        display_size: '5.2'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Walkman (ICX1227)'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Sony
+        brand_model: 'Walkman (ICX1227)'
+        design_weight: 115
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: X8
+        -
+            strategy: string
+            value: 'Sony Ericsson Xperia X8'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Sony
+        brand_model: X8
+        brand_marketing_name: 'Sony Ericsson Xperia X8'
+        brand_names: 'Sony Ericsson Xperia X8'
+        design_weight: 104
+        display_size: '3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'mylo COM-2'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 240
+        brand_vendor: Sony
+        brand_model: 'mylo COM-2'
+        design_weight: 193
+        display_size: '3.5'
+        display_type: 'TFT LCD'

@@ -1,0 +1,87 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Bold 3500'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Rage
+        brand_model: 'Bold 3500'
+        design_weight: 80
+        display_size: '3.5'
+        display_type: HVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: 'OPS 35D'
+        -
+            strategy: string
+            value: 'Rage Optima Smart OPS-35D'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Rage
+        brand_model: 'OPS 35D'
+        brand_marketing_name: 'Rage Optima Smart OPS-35D'
+        brand_names: 'Rage Optima Smart OPS-35D'
+        design_weight: 106
+        display_size: '3.5'
+        display_type: HVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: OPS-40G
+        -
+            strategy: string
+            value: 'Rage Optima Smart OPS-40G'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Rage
+        brand_model: OPS-40G
+        brand_marketing_name: 'Rage Optima Smart OPS-40G'
+        brand_names: 'Rage Optima Smart OPS-40G'
+        design_weight: 120
+        display_size: '4'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Optima Smart'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Rage
+        brand_model: 'Optima Smart'
+        display_size: '3.5'
+        display_type: WQVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Optima Vtab'
+        -
+            strategy: string
+            value: 'Rage Optima Voice Tablet'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Rage
+        brand_model: 'Optima Vtab'
+        brand_marketing_name: 'Rage Optima Voice Tablet'
+        brand_names: 'Rage Optima Voice Tablet'
+        display_size: '7'
+        display_type: 'LCD TFT'

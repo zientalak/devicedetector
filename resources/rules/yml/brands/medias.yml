@@ -1,0 +1,17 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'BR IS11N'
+        -
+            strategy: string
+            value: 'Medias IS11N'
+    capabilities:
+        is_mobile: true
+        brand_vendor: Medias
+        brand_model: 'BR IS11N'
+        brand_marketing_name: 'Medias IS11N'
+        brand_names: 'Medias IS11N'
+        design_weight: 122
+        display_size: '3.6'
+        display_type: TFT

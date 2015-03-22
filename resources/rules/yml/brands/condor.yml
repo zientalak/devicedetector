@@ -1,0 +1,155 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: PKT-301
+        -
+            strategy: string
+            value: 'Condor C2 PKT-301'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Condor
+        brand_model: PKT-301
+        brand_marketing_name: 'Condor C2 PKT-301'
+        brand_names: 'Condor C2 PKT-301'
+        design_weight: 80
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: PGN-403
+        -
+            strategy: string
+            value: 'Condor C4+ Noir'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Condor
+        brand_model: PGN-403
+        brand_marketing_name: 'Condor C4+ Noir'
+        brand_names: 'Condor C4+ Noir'
+        design_weight: 125
+        display_size: '4'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: PHS-601
+        -
+            strategy: string
+            value: 'Condor C8'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Condor
+        brand_model: PHS-601
+        brand_marketing_name: 'Condor C8'
+        brand_names: 'Condor C8'
+        design_weight: 165
+        display_size: '5.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'CTAB 785R16 3G'
+        -
+            strategy: string
+            value: 'Condor mini CTAB 785R'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 768
+        display_height: 1024
+        brand_vendor: Condor
+        brand_model: 'CTAB 785R16 3G'
+        brand_marketing_name: 'Condor mini CTAB 785R'
+        brand_names: 'Condor mini CTAB 785R'
+        design_weight: 362
+        display_size: '7.85'
+        display_type: 'IPS TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: CTAB101
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 1280
+        brand_vendor: Condor
+        brand_model: CTAB101
+        design_weight: 640
+        display_size: '10.1'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: CTAB700L
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Condor
+        brand_model: CTAB700L
+        design_weight: 348
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: CTAB970L-3G
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 768
+        display_height: 1024
+        brand_vendor: Condor
+        brand_model: CTAB970L-3G
+        design_weight: 536
+        display_size: '9.7'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: CTab700L-3G
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Condor
+        brand_model: CTab700L-3G
+        design_weight: 348
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: TCV-703G
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Condor
+        brand_model: TCV-703G
+        design_weight: 320
+        display_size: '7'
+        display_type: TFT

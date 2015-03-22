@@ -1,0 +1,183 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: Ax01
+        -
+            strategy: string
+            value: 'iBerry Auxus Ax01'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: iBerry
+        brand_model: Ax01
+        brand_marketing_name: 'iBerry Auxus Ax01'
+        brand_names: 'iBerry Auxus Ax01'
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: Ax02
+        -
+            strategy: string
+            value: 'iBerry Auxus Ax02'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: iBerry
+        brand_model: Ax02
+        brand_marketing_name: 'iBerry Auxus Ax02'
+        brand_names: 'iBerry Auxus Ax02'
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: Ax03g
+        -
+            strategy: string
+            value: 'iBerry Auxus Ax03g'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: iBerry
+        brand_model: Ax03g
+        brand_marketing_name: 'iBerry Auxus Ax03g'
+        brand_names: 'iBerry Auxus Ax03g'
+        design_weight: 340
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Auxus CoreX4 3G'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 768
+        display_height: 1024
+        brand_vendor: iBerry
+        brand_model: 'Auxus CoreX4 3G'
+        design_weight: 612
+        display_size: '9.7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Auxus Corex2 3G'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 1280
+        brand_vendor: iBerry
+        brand_model: 'Auxus Corex2 3G'
+        design_weight: 312
+        display_size: '7'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Linea L1'
+        -
+            strategy: string
+            value: 'iBerry Auxus Linea L1'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: iBerry
+        brand_model: 'Linea L1'
+        brand_marketing_name: 'iBerry Auxus Linea L1'
+        brand_names: 'iBerry Auxus Linea L1'
+        design_weight: 129
+        display_size: '4.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Auxus Note 5.5'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: iBerry
+        brand_model: 'Auxus Note 5.5'
+        display_size: '5.5'
+        display_type: 'HD IPS AMOLED'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Auxus Nuclea N1'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: iBerry
+        brand_model: 'Auxus Nuclea N1'
+        design_weight: 120
+        display_size: '5'
+        display_type: 'HD LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: BT07
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: iBerry
+        brand_model: BT07
+        design_weight: 355
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: BT07I
+        -
+            strategy: string
+            value: 'iBerry Limited Edition'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: iBerry
+        brand_model: BT07I
+        brand_marketing_name: 'iBerry Limited Edition'
+        brand_names: 'iBerry Limited Edition'
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: BT10
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: iBerry
+        brand_model: BT10
+        design_weight: 702
+        display_size: '10.1'
+        display_type: 'TFT LCD'

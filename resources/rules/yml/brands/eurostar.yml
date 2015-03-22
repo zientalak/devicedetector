@@ -1,0 +1,80 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: ET7008C-B13
+        -
+            strategy: string
+            value: 'Eurostar EPad Colors ET7008C-B13'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Eurostar
+        brand_model: ET7008C-B13
+        brand_marketing_name: 'Eurostar EPad Colors ET7008C-B13'
+        brand_names: 'Eurostar EPad Colors ET7008C-B13'
+        display_size: '7'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: ET7142G-B13
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Eurostar
+        brand_model: ET7142G-B13
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'ET7183G B13'
+        -
+            strategy: string
+            value: 'Eurostar ePad Genie ET7183G'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Eurostar
+        brand_model: 'ET7183G B13'
+        brand_marketing_name: 'Eurostar ePad Genie ET7183G'
+        brand_names: 'Eurostar ePad Genie ET7183G'
+        display_size: '7'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: ET754-b13
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Eurostar
+        brand_model: ET754-b13
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: ET7582G-HM14
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Eurostar
+        brand_model: ET7582G-HM14
+        display_size: '7'
+        display_type: TFT

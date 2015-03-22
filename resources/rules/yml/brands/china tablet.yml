@@ -1,0 +1,22 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: MID-A13
+        -
+            strategy: string
+            value: 'Allwinner MID-A13, Allwinner A13'
+        -
+            strategy: string
+            value: 'Allwinner MID-A13'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: 'China Tablet'
+        brand_model: MID-A13
+        brand_marketing_name: 'Allwinner MID-A13'
+        brand_names: 'Allwinner MID-A13, Allwinner A13'
+        display_size: '7'
+        display_type: TFT

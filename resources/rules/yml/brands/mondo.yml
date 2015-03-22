@@ -1,0 +1,34 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 5701Q
+        -
+            strategy: string
+            value: 'Mondo Connect'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Mondo
+        brand_model: 5701Q
+        brand_marketing_name: 'Mondo Connect'
+        brand_names: 'Mondo Connect'
+        design_weight: 223
+        display_size: '5.7'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 7801Q
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 768
+        display_height: 1024
+        brand_vendor: Mondo
+        brand_model: 7801Q
+        display_size: '7.85'
+        display_type: TFT

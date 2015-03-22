@@ -1,0 +1,28 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: STB7012
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Avoca
+        brand_model: STB7012
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: STB8098
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Avoca
+        brand_model: STB8098
+        display_size: '8'
+        display_type: TFT

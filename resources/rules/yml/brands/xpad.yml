@@ -1,0 +1,15 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: X6D
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Xpad
+        brand_model: X6D
+        design_weight: 575
+        display_size: '7'
+        display_type: 'TFT LCD'

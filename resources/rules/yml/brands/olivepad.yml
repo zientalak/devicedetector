@@ -1,0 +1,28 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: V-T100
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: OlivePad
+        brand_model: V-T100
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: V-T200
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: OlivePad
+        brand_model: V-T200
+        display_size: '7'
+        display_type: TFT

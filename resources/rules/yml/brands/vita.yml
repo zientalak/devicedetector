@@ -1,0 +1,13 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Vita V4W'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Vita
+        brand_model: 'Vita V4W'
+        design_weight: 150
+        display_size: '4'

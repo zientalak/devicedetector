@@ -1,0 +1,40 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'M2 Elegante'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Magicon
+        brand_model: 'M2 Elegante'
+        display_size: '3.5'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'M3 Atom'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Magicon
+        brand_model: 'M3 Atom'
+        design_weight: 135
+        display_size: '3.5'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'M39 Sawy'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Magicon
+        brand_model: 'M39 Sawy'
+        display_size: '3.95'
+        display_type: LCD

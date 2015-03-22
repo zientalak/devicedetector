@@ -1,0 +1,30 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: M755
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Beneve
+        brand_model: M755
+        design_weight: 288
+        display_size: '7'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: S750L
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Beneve
+        brand_model: S750L
+        design_weight: 246
+        display_size: '7'
+        display_type: 'TFT LCD'

@@ -1,0 +1,208 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: A618
+    capabilities:
+        is_mobile: true
+        display_width: 120
+        display_height: 120
+        brand_vendor: Compal
+        brand_model: A618
+-
+    patterns:
+        -
+            strategy: string
+            value: C8600
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 120
+        brand_vendor: Compal
+        brand_model: C8600
+        design_weight: 119
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Chase 898'
+    capabilities:
+        is_mobile: true
+        display_width: 120
+        display_height: 120
+        brand_vendor: Compal
+        brand_model: 'Chase 898'
+-
+    patterns:
+        -
+            strategy: string
+            value: D77
+    capabilities:
+        is_mobile: true
+        display_width: 120
+        display_height: 120
+        brand_vendor: Compal
+        brand_model: D77
+-
+    patterns:
+        -
+            strategy: string
+            value: HZ8
+    capabilities:
+        is_mobile: true
+        display_width: 120
+        display_height: 120
+        brand_vendor: Compal
+        brand_model: HZ8
+-
+    patterns:
+        -
+            strategy: string
+            value: MT-733G
+        -
+            strategy: string
+            value: 'Compal Miia MT-733G'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Compal
+        brand_model: MT-733G
+        brand_marketing_name: 'Compal Miia MT-733G'
+        brand_names: 'Compal Miia MT-733G'
+        display_size: '7'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: S7100
+    capabilities:
+        is_mobile: true
+        display_width: 120
+        display_height: 120
+        brand_vendor: Compal
+        brand_model: S7100
+-
+    patterns:
+        -
+            strategy: string
+            value: S7110
+    capabilities:
+        is_mobile: true
+        display_width: 120
+        display_height: 120
+        brand_vendor: Compal
+        brand_model: S7110
+-
+    patterns:
+        -
+            strategy: string
+            value: TG762
+    capabilities:
+        is_mobile: true
+        display_width: 120
+        display_height: 120
+        brand_vendor: Compal
+        brand_model: TG762
+-
+    patterns:
+        -
+            strategy: string
+            value: TG762D
+    capabilities:
+        is_mobile: true
+        display_width: 120
+        display_height: 120
+        brand_vendor: Compal
+        brand_model: TG762D
+-
+    patterns:
+        -
+            strategy: string
+            value: U80
+    capabilities:
+        is_mobile: true
+        display_width: 120
+        display_height: 120
+        brand_vendor: Compal
+        brand_model: U80
+-
+    patterns:
+        -
+            strategy: string
+            value: U8600
+    capabilities:
+        is_mobile: true
+        display_width: 120
+        display_height: 120
+        brand_vendor: Compal
+        brand_model: U8600
+-
+    patterns:
+        -
+            strategy: string
+            value: V800C
+    capabilities:
+        is_mobile: true
+        display_width: 120
+        display_height: 120
+        brand_vendor: Compal
+        brand_model: V800C
+-
+    patterns:
+        -
+            strategy: string
+            value: XG2
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Compal
+        brand_model: XG2
+-
+    patterns:
+        -
+            strategy: string
+            value: XG3
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Compal
+        brand_model: XG3
+-
+    patterns:
+        -
+            strategy: string
+            value: XG3C
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Compal
+        brand_model: XG3C
+-
+    patterns:
+        -
+            strategy: string
+            value: XG5
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Compal
+        brand_model: XG5
+-
+    patterns:
+        -
+            strategy: string
+            value: XG655
+    capabilities:
+        is_mobile: true
+        display_width: 120
+        display_height: 120
+        brand_vendor: Compal
+        brand_model: XG655

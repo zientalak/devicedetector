@@ -1,0 +1,33 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'CT 25m'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 240
+        brand_vendor: IXI
+        brand_model: 'CT 25m'
+-
+    patterns:
+        -
+            strategy: string
+            value: CT25
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 240
+        brand_vendor: IXI
+        brand_model: CT25
+-
+    patterns:
+        -
+            strategy: string
+            value: OGO-CT1X
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 160
+        brand_vendor: IXI
+        brand_model: OGO-CT1X

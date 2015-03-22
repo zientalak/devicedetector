@@ -1,0 +1,105 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: G2S
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Jiayu
+        brand_model: G2S
+        design_weight: 163
+        display_size: '4'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: JY-F1
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Jiayu
+        brand_model: JY-F1
+        design_weight: 139
+        display_size: '4'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: JY-G2
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Jiayu
+        brand_model: JY-G2
+        design_weight: 139
+        display_size: '4'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: JY-G3
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Jiayu
+        brand_model: JY-G3
+        design_weight: 135
+        display_size: '4.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: JY-G4
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Jiayu
+        brand_model: JY-G4
+        design_weight: 154
+        display_size: '4.7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: JY-G4S
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Jiayu
+        brand_model: JY-G4S
+        design_weight: 154
+        display_size: '4.7'
+        display_type: 'LTPS IPS'
+-
+    patterns:
+        -
+            strategy: string
+            value: JY-G5
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Jiayu
+        brand_model: JY-G5
+        design_weight: 158
+        display_size: '4.5'
+        display_type: IPS

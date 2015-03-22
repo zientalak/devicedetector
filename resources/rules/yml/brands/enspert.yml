@@ -1,0 +1,15 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Identity Tab E201'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Enspert
+        brand_model: 'Identity Tab E201'
+        design_weight: 425
+        display_size: '7'
+        display_type: LCD

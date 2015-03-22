@@ -1,0 +1,63 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Neo 4G'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Minix
+        brand_model: 'Neo 4G'
+        display_size: '3.7'
+-
+    patterns:
+        -
+            strategy: string
+            value: Neo-X5
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Minix
+        brand_model: Neo-X5
+        design_weight: 187
+-
+    patterns:
+        -
+            strategy: string
+            value: Neo-X5-116A
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Minix
+        brand_model: Neo-X5-116A
+-
+    patterns:
+        -
+            strategy: string
+            value: Neo-X5-Mini
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Minix
+        brand_model: Neo-X5-Mini
+        design_weight: 187
+-
+    patterns:
+        -
+            strategy: string
+            value: Neo-x7-216a
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Minix
+        brand_model: Neo-x7-216a

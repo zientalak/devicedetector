@@ -1,0 +1,12 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: W60
+    capabilities:
+        is_mobile: true
+        brand_vendor: Hantel
+        brand_model: W60
+        design_weight: 126
+        display_size: '3.5'
+        display_type: TFT

@@ -1,0 +1,42 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: W8000
+        -
+            strategy: string
+            value: 'Blueberry Knight, CSL W8000'
+        -
+            strategy: string
+            value: 'Blueberry Knight'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Blueberry
+        brand_model: W8000
+        brand_marketing_name: 'Blueberry Knight'
+        brand_names: 'Blueberry Knight, CSL W8000'
+        design_weight: 88
+        display_size: '2.4'
+        display_type: 'QVGA TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: M17
+        -
+            strategy: string
+            value: 'Blueberry NetCat M17'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Blueberry
+        brand_model: M17
+        brand_marketing_name: 'Blueberry NetCat M17'
+        brand_names: 'Blueberry NetCat M17'
+        design_weight: 360
+        display_size: '7'
+        display_type: 'WVGA LCD'

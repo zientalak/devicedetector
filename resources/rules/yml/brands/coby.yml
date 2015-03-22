@@ -1,0 +1,843 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: CMP500
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Coby
+        brand_model: CMP500
+        design_weight: 135
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MID7011
+        -
+            strategy: string
+            value: 'Coby Krytos MID7011'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Coby
+        brand_model: MID7011
+        brand_marketing_name: 'Coby Krytos MID7011'
+        brand_names: 'Coby Krytos MID7011'
+        display_size: '7'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: MID7038
+        -
+            strategy: string
+            value: 'Coby Krytos MID7038'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Coby
+        brand_model: MID7038
+        brand_marketing_name: 'Coby Krytos MID7038'
+        brand_names: 'Coby Krytos MID7038'
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MID7015
+        -
+            strategy: string
+            value: 'Coby Kyros'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Coby
+        brand_model: MID7015
+        brand_marketing_name: 'Coby Kyros'
+        brand_names: 'Coby Kyros'
+        display_size: '10.1'
+-
+    patterns:
+        -
+            strategy: string
+            value: MID7032
+        -
+            strategy: string
+            value: 'Coby Kyros Internet 7'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 400
+        brand_vendor: Coby
+        brand_model: MID7032
+        brand_marketing_name: 'Coby Kyros Internet 7'
+        brand_names: 'Coby Kyros Internet 7'
+        display_size: '7'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: MID1045
+        -
+            strategy: string
+            value: 'Coby Kyros MID1045'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1280
+        display_height: 800
+        brand_vendor: Coby
+        brand_model: MID1045
+        brand_marketing_name: 'Coby Kyros MID1045'
+        brand_names: 'Coby Kyros MID1045'
+        design_weight: 610
+        display_size: '10.1'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MID1126
+        -
+            strategy: string
+            value: 'Coby Kyros MID1126'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 768
+        display_height: 1024
+        brand_vendor: Coby
+        brand_model: MID1126
+        brand_marketing_name: 'Coby Kyros MID1126'
+        brand_names: 'Coby Kyros MID1126'
+        design_weight: 617
+        display_size: '10'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: MID7042
+        -
+            strategy: string
+            value: 'Coby Kyros MID7042'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Coby
+        brand_model: MID7042
+        brand_marketing_name: 'Coby Kyros MID7042'
+        brand_names: 'Coby Kyros MID7042'
+        design_weight: 454
+        display_size: '10'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MID7046
+        -
+            strategy: string
+            value: 'Coby Kyros MID7046'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 400
+        display_height: 800
+        brand_vendor: Coby
+        brand_model: MID7046
+        brand_marketing_name: 'Coby Kyros MID7046'
+        brand_names: 'Coby Kyros MID7046'
+        design_weight: 215
+        display_size: '7'
+        display_type: TFT-LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: MID7048
+        -
+            strategy: string
+            value: 'Coby Kyros MID7048'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Coby
+        brand_model: MID7048
+        brand_marketing_name: 'Coby Kyros MID7048'
+        brand_names: 'Coby Kyros MID7048'
+        design_weight: 165
+        display_size: '7'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: MID7052
+        -
+            strategy: string
+            value: 'Coby Kyros MID7052'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Coby
+        brand_model: MID7052
+        brand_marketing_name: 'Coby Kyros MID7052'
+        brand_names: 'Coby Kyros MID7052'
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MID7125
+        -
+            strategy: string
+            value: 'Coby Kyros MID7125'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Coby
+        brand_model: MID7125
+        brand_marketing_name: 'Coby Kyros MID7125'
+        brand_names: 'Coby Kyros MID7125'
+        design_weight: 372
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MID8024
+        -
+            strategy: string
+            value: 'Coby Kyros MID8024'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 600
+        brand_vendor: Coby
+        brand_model: MID8024
+        brand_marketing_name: 'Coby Kyros MID8024'
+        brand_names: 'Coby Kyros MID8024'
+        design_weight: 531
+        display_size: '8'
+-
+    patterns:
+        -
+            strategy: string
+            value: MID8048
+        -
+            strategy: string
+            value: 'Coby Kyros MID8048'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 800
+        brand_vendor: Coby
+        brand_model: MID8048
+        brand_marketing_name: 'Coby Kyros MID8048'
+        brand_names: 'Coby Kyros MID8048'
+        display_size: '8'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: MID8127
+        -
+            strategy: string
+            value: 'Coby Kyros MID8127'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 600
+        brand_vendor: Coby
+        brand_model: MID8127
+        brand_marketing_name: 'Coby Kyros MID8127'
+        brand_names: 'Coby Kyros MID8127'
+        design_weight: 544
+        display_size: '8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MID8128
+        -
+            strategy: string
+            value: 'Coby Kyros MID8128'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 600
+        brand_vendor: Coby
+        brand_model: MID8128
+        brand_marketing_name: 'Coby Kyros MID8128'
+        brand_names: 'Coby Kyros MID8128'
+        display_size: '8'
+        display_type: '3D LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Kyros MID9762'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 768
+        display_height: 1024
+        brand_vendor: Coby
+        brand_model: 'Kyros MID9762'
+        design_weight: 358
+        display_size: '9.7'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: MID1024
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Coby
+        brand_model: MID1024
+        design_weight: 680
+        display_size: '10'
+-
+    patterns:
+        -
+            strategy: string
+            value: MID1042
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Coby
+        brand_model: MID1042
+        design_weight: 680
+        display_size: '10.1'
+-
+    patterns:
+        -
+            strategy: string
+            value: MID1048
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 1280
+        brand_vendor: Coby
+        brand_model: MID1048
+        design_weight: 616
+        display_size: '10.1'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: MID1054
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 1280
+        brand_vendor: Coby
+        brand_model: MID1054
+        display_size: '10.1'
+-
+    patterns:
+        -
+            strategy: string
+            value: MID1065
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 1280
+        brand_vendor: Coby
+        brand_model: MID1065
+        design_weight: 590
+        display_size: '10.1'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: MID1125
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Coby
+        brand_model: MID1125
+        design_weight: 717
+        display_size: '10.1'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MID4331
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 272
+        display_height: 480
+        brand_vendor: Coby
+        brand_model: MID4331
+        display_size: '4.3'
+-
+    patterns:
+        -
+            strategy: string
+            value: MID7005
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Coby
+        brand_model: MID7005
+        design_weight: 440
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: MID7010
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Coby
+        brand_model: MID7010
+        design_weight: 400
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: MID7012
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Coby
+        brand_model: MID7012
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: MID7014
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Coby
+        brand_model: MID7014
+        design_weight: 322
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: MID7016
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Coby
+        brand_model: MID7016
+        design_weight: 394
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MID7020
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Coby
+        brand_model: MID7020
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: MID7022
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Coby
+        brand_model: MID7022
+        design_weight: 816
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MID7024
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Coby
+        brand_model: MID7024
+        design_weight: 395
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: MID7026
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 600
+        brand_vendor: Coby
+        brand_model: MID7026
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: MID7033
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Coby
+        brand_model: MID7033
+        design_weight: 907
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MID7034
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Coby
+        brand_model: MID7034
+        design_weight: 309
+        display_size: '7'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: MID7035
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Coby
+        brand_model: MID7035
+        design_weight: 294
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MID7036
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Coby
+        brand_model: MID7036
+        design_weight: 294
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: MID7047
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Coby
+        brand_model: MID7047
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: MID7050
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Coby
+        brand_model: MID7050
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: MID7051
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Coby
+        brand_model: MID7051
+        design_weight: 290
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: MID7065
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Coby
+        brand_model: MID7065
+        design_weight: 560
+        display_size: '7'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: MID7105sr
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Coby
+        brand_model: MID7105sr
+        design_weight: 408
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: MID7120
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Coby
+        brand_model: MID7120
+        design_weight: 322
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: MID7127
+    capabilities:
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Coby
+        brand_model: MID7127
+        design_weight: 403
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MID8020
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 600
+        brand_vendor: Coby
+        brand_model: MID8020
+        display_size: '8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MID8042
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 600
+        brand_vendor: Coby
+        brand_model: MID8042
+        design_weight: 680
+        display_size: '8'
+-
+    patterns:
+        -
+            strategy: string
+            value: MID8065
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 768
+        display_height: 1024
+        brand_vendor: Coby
+        brand_model: MID8065
+        design_weight: 485
+        display_size: '8'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: MID8120
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 600
+        brand_vendor: Coby
+        brand_model: MID8120
+        design_weight: 680
+        display_size: '8'
+-
+    patterns:
+        -
+            strategy: string
+            value: MID8125
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 600
+        brand_vendor: Coby
+        brand_model: MID8125
+        design_weight: 535
+        display_size: '8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MID9042
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1280
+        display_height: 800
+        brand_vendor: Coby
+        brand_model: MID9042
+        design_weight: 450
+        display_size: '9'
+-
+    patterns:
+        -
+            strategy: string
+            value: MID9740
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 768
+        display_height: 1024
+        brand_vendor: Coby
+        brand_model: MID9740
+        display_size: '9.7'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: MID9742
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Coby
+        brand_model: MID9742
+        design_weight: 454
+        display_size: '9.7'
+-
+    patterns:
+        -
+            strategy: string
+            value: MID9760
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1920
+        display_height: 1080
+        brand_vendor: Coby
+        brand_model: MID9760
+        display_size: '9.7'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: MID9765
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 768
+        display_height: 1024
+        brand_vendor: Coby
+        brand_model: MID9765
+        design_weight: 635
+        display_size: '9.7'

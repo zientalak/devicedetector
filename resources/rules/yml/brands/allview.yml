@@ -1,0 +1,729 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: A4Duo
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Allview
+        brand_model: A4Duo
+        design_weight: 110
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A4all
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Allview
+        brand_model: A4all
+        design_weight: 122
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A4you
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Allview
+        brand_model: A4you
+        design_weight: 110
+        display_size: '3.5'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'A5 Duo'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Allview
+        brand_model: 'A5 Duo'
+        design_weight: 137
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'A5 Quad'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Allview
+        brand_model: 'A5 Quad'
+        design_weight: 153
+        display_size: '4.3'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'AX 3 Party'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Allview
+        brand_model: 'AX 3 Party'
+        design_weight: 337
+        display_size: '7'
+        display_type: TFT-LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'AX2 Frenzy'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Allview
+        brand_model: 'AX2 Frenzy'
+        design_weight: 337
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'AX4 Nano'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Allview
+        brand_model: 'AX4 Nano'
+        design_weight: 256
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'AllDro 2 Duo Speed'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Allview
+        brand_model: 'AllDro 2 Duo Speed'
+        design_weight: 498
+        display_size: '8'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'AllDro 2 Speed HD'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Allview
+        brand_model: 'AllDro 2 Speed HD'
+        design_weight: 498
+        display_size: '8'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'AllDro 3 Speed'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Allview
+        brand_model: 'AllDro 3 Speed'
+        design_weight: 608
+        display_size: '9.7'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'AllDro 3 Speed Duo'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 768
+        display_height: 1024
+        brand_vendor: Allview
+        brand_model: 'AllDro 3 Speed Duo'
+        design_weight: 608
+        display_size: '9.7'
+        display_type: 'LCD IPS'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'AllDro P1'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Allview
+        brand_model: 'AllDro P1'
+        design_weight: 119
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'AllDro P2'
+    capabilities:
+        is_mobile: true
+        display_width: 32
+        display_height: 480
+        brand_vendor: Allview
+        brand_model: 'AllDro P2'
+        design_weight: 124
+        display_size: '3.5'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'AllDro P3'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Allview
+        brand_model: 'AllDro P3'
+        design_weight: 135
+        display_size: '4.1'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'AllDro P4'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Allview
+        brand_model: 'AllDro P4'
+        design_weight: 118
+        display_size: '4.3'
+        display_type: 'Super AMOLED'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'AllDro Speed'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Allview
+        brand_model: 'AllDro Speed'
+        design_weight: 392
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'AllDro Speed 3G'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Allview
+        brand_model: 'AllDro Speed 3G'
+        design_weight: 350
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'AllDro Speed Duo'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1280
+        display_height: 800
+        brand_vendor: Allview
+        brand_model: 'AllDro Speed Duo'
+        design_weight: 314
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'AllDro Speed I'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Allview
+        brand_model: 'AllDro Speed I'
+        design_weight: 329
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'AllDro Speed S EU'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Allview
+        brand_model: 'AllDro Speed S EU'
+        design_weight: 330
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'AllDro Speed Satellite'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Allview
+        brand_model: 'AllDro Speed Satellite'
+        design_weight: 330
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'AllDro p5'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Allview
+        brand_model: 'AllDro p5'
+        design_weight: 134
+        display_size: '4.3'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Cosmote My Tab'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Allview
+        brand_model: 'Cosmote My Tab'
+        design_weight: 699
+        display_size: '9.7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'E1 Ticke'
+    capabilities:
+        is_mobile: true
+        display_width: 400
+        display_height: 240
+        brand_vendor: Allview
+        brand_model: 'E1 Ticke'
+        design_weight: 131
+        display_size: '3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'F1 X-Perience'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 400
+        brand_vendor: Allview
+        brand_model: 'F1 X-Perience'
+        design_weight: 120
+        display_size: '3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'F2 Crony'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 400
+        brand_vendor: Allview
+        brand_model: 'F2 Crony'
+        design_weight: 73
+        display_size: '3'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'F3 Sensy'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 400
+        brand_vendor: Allview
+        brand_model: 'F3 Sensy'
+        design_weight: 90
+        display_size: '3.2'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'G1 Magic'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Allview
+        brand_model: 'G1 Magic'
+        design_weight: 115
+        display_size: '2.4'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'H1 Thin'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Allview
+        brand_model: 'H1 Thin'
+        design_weight: 75
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'H2 Qubo'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Allview
+        brand_model: 'H2 Qubo'
+        design_weight: 142
+        display_size: '4.5'
+        display_type: TFT-LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: H8
+        -
+            strategy: string
+            value: 'Allview Viva H8'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 768
+        display_height: 1024
+        brand_vendor: Allview
+        brand_model: H8
+        brand_marketing_name: 'Allview Viva H8'
+        brand_names: 'Allview Viva H8'
+        design_weight: 374
+        display_size: '7.9'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'L1 Life'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Allview
+        brand_model: 'L1 Life'
+        design_weight: 82
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'L2 FIT'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Allview
+        brand_model: 'L2 FIT'
+        design_weight: 68
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'L3 Cheer'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Allview
+        brand_model: 'L3 Cheer'
+        design_weight: 73
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'M1 Fusion'
+    capabilities:
+        is_mobile: true
+        display_width: 107
+        display_height: 47
+        brand_vendor: Allview
+        brand_model: 'M1 Fusion'
+        design_weight: 67
+        display_size: '16.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'M2i Chroma'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 260
+        brand_vendor: Allview
+        brand_model: 'M2i Chroma'
+        design_weight: 58
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'M3 Sincron'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Allview
+        brand_model: 'M3 Sincron'
+        design_weight: 62
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'M4 Slim'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Allview
+        brand_model: 'M4 Slim'
+        design_weight: 78
+        display_size: '2.2'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'M5 Music'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Allview
+        brand_model: 'M5 Music'
+        design_weight: 52
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'M6 Stark'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Allview
+        brand_model: 'M6 Stark'
+        design_weight: 52
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'P4 Duo'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Allview
+        brand_model: 'P4 Duo'
+        design_weight: 118
+        display_size: '4.3'
+        display_type: AMOLED
+-
+    patterns:
+        -
+            strategy: string
+            value: 'P5 Quad'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Allview
+        brand_model: 'P5 Quad'
+        design_weight: 140
+        display_size: '4.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Q1 Get'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 240
+        brand_vendor: Allview
+        brand_model: 'Q1 Get'
+        design_weight: 130
+        display_size: '2.4'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Q2 CLOUD'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 240
+        brand_vendor: Allview
+        brand_model: 'Q2 CLOUD'
+        design_weight: 110
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'S1i Tytan'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Allview
+        brand_model: 'S1i Tytan'
+        design_weight: 124
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'S2 Guld'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Allview
+        brand_model: 'S2 Guld'
+        design_weight: 104
+        display_size: '2'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'S3 LITE'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Allview
+        brand_model: 'S3 LITE'
+        design_weight: 82
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'S4 Steel'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Allview
+        brand_model: 'S4 Steel'
+        design_weight: 89
+        display_size: '2.2'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'T1 Vision'
+    capabilities:
+        is_mobile: true
+        display_width: 400
+        display_height: 240
+        brand_vendor: Allview
+        brand_model: 'T1 Vision'
+        design_weight: 92
+        display_size: '3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'V1 Viper'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Allview
+        brand_model: 'V1 Viper'
+        design_weight: 124
+        display_size: '4.7'
+        display_type: IPS

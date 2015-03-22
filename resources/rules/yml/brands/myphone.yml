@@ -1,0 +1,637 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'A618 TV Duo'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: MyPhone
+        brand_model: 'A618 TV Duo'
+        display_size: '3.1'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'A818 Duo'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: MyPhone
+        brand_model: 'A818 Duo'
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'A828 TV Duo'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: MyPhone
+        brand_model: 'A828 TV Duo'
+        design_weight: 123
+        display_size: '3.5'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'A848 Duo'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: MyPhone
+        brand_model: 'A848 Duo'
+        design_weight: 125
+        display_size: '4'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'A858 Duo'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: MyPhone
+        brand_model: 'A858 Duo'
+        display_size: '3.9'
+        display_type: HVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: 'A868 Duo'
+        -
+            strategy: string
+            value: 'i-mobile i-STYLE 3'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: MyPhone
+        brand_model: 'A868 Duo'
+        brand_marketing_name: 'i-mobile i-STYLE 3'
+        brand_names: 'i-mobile i-STYLE 3'
+        display_size: '3.95'
+        display_type: HVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: 'A878 Duo'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: MyPhone
+        brand_model: 'A878 Duo'
+        display_size: '4.3'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: A888
+        -
+            strategy: string
+            value: 'Myphone A888 Duo'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: MyPhone
+        brand_model: A888
+        brand_marketing_name: 'Myphone A888 Duo'
+        brand_names: 'Myphone A888 Duo'
+        design_weight: 135
+        display_size: '4.5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'A888 Duo'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: MyPhone
+        brand_model: 'A888 Duo'
+        display_size: '4.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'A888G Duo'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: MyPhone
+        brand_model: 'A888G Duo'
+        design_weight: 150
+        display_size: '4.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'A898 Duo'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: MyPhone
+        brand_model: 'A898 Duo'
+        design_weight: 157
+        display_size: '4.3'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'A919 3D Duo'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: MyPhone
+        brand_model: 'A919 3D Duo'
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'A919 Duo'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        brand_vendor: MyPhone
+        brand_model: 'A919 Duo'
+        display_size: '5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: A919I
+        -
+            strategy: string
+            value: 'MyPhone A919i Duo'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: MyPhone
+        brand_model: A919I
+        brand_marketing_name: 'MyPhone A919i Duo'
+        brand_names: 'MyPhone A919i Duo'
+        design_weight: 156
+        display_size: '5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Agua Cyclone'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: MyPhone
+        brand_model: 'Agua Cyclone'
+        display_size: '5'
+        display_type: 'qHD IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Agua Hail'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: MyPhone
+        brand_model: 'Agua Hail'
+        design_weight: 250
+        display_size: '5'
+        display_type: 'FWVGA LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Agua Iceberg'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: MyPhone
+        brand_model: 'Agua Iceberg'
+        design_weight: 220
+        display_size: '5.7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Agua Ocean Lite'
+        -
+            strategy: string
+            value: 'MyPhone Ocean Lite'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: MyPhone
+        brand_model: 'Agua Ocean Lite'
+        brand_marketing_name: 'MyPhone Ocean Lite'
+        brand_names: 'MyPhone Ocean Lite'
+        display_size: '3.97'
+        display_type: WVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Agua Ocean Mini'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: MyPhone
+        brand_model: 'Agua Ocean Mini'
+        design_weight: 230
+        display_size: '3.5'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Agua Ocean Pro'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: MyPhone
+        brand_model: 'Agua Ocean Pro'
+        design_weight: 166
+        display_size: '5.5'
+        display_type: 'qHD IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Agua Rain 2g'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: MyPhone
+        brand_model: 'Agua Rain 2g'
+        display_size: '3.5'
+        display_type: HVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Agua Rain 3G'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 350
+        display_height: 480
+        brand_vendor: MyPhone
+        brand_model: 'Agua Rain 3G'
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Agua Rio'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: MyPhone
+        brand_model: 'Agua Rio'
+        display_size: '5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Agua Rio Fun'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: MyPhone
+        brand_model: 'Agua Rio Fun'
+        display_size: '5'
+        display_type: 'FWVGA TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Agua Storm'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: MyPhone
+        brand_model: 'Agua Storm'
+        display_size: '4'
+        display_type: HVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: B21
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: MyPhone
+        brand_model: B21
+-
+    patterns:
+        -
+            strategy: string
+            value: 'B22 Duo'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: MyPhone
+        brand_model: 'B22 Duo'
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: B23
+        -
+            strategy: string
+            value: 'MyPhone Duo'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: MyPhone
+        brand_model: B23
+        brand_marketing_name: 'MyPhone Duo'
+        brand_names: 'MyPhone Duo'
+        design_weight: 77
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: B31
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: MyPhone
+        brand_model: B31
+        design_weight: 75
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Infinity Lite'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: MyPhone
+        brand_model: 'Infinity Lite'
+        display_size: '4.7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: MS28
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: MyPhone
+        brand_model: MS28
+        design_weight: 71
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'MyPad 2'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: MyPhone
+        brand_model: 'MyPad 2'
+        display_size: '7'
+        display_type: WVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Rio Junior'
+        -
+            strategy: string
+            value: 'Myphone Agua Rio Junior'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: MyPhone
+        brand_model: 'Rio Junior'
+        brand_marketing_name: 'Myphone Agua Rio Junior'
+        brand_names: 'Myphone Agua Rio Junior'
+        display_size: '3.5'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Q19i Duo'
+    capabilities:
+        is_mobile: true
+        display_width: 220
+        display_height: 176
+        brand_vendor: MyPhone
+        brand_model: 'Q19i Duo'
+        design_weight: 72
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Q21
+    capabilities:
+        is_mobile: true
+        display_width: 220
+        display_height: 176
+        brand_vendor: MyPhone
+        brand_model: Q21
+        design_weight: 103
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Q22
+        -
+            strategy: string
+            value: Duo
+    capabilities:
+        is_mobile: true
+        display_width: 220
+        display_height: 176
+        brand_vendor: MyPhone
+        brand_model: Q22
+        brand_marketing_name: Duo
+        design_weight: 104
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'QTW88 TV DUO'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 240
+        brand_vendor: MyPhone
+        brand_model: 'QTW88 TV DUO'
+        design_weight: 97
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Rio Craze'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 534
+        brand_vendor: MyPhone
+        brand_model: 'Rio Craze'
+        design_weight: 111
+        display_size: '4'
+        display_type: WVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Rio Junior TV'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: MyPhone
+        brand_model: 'Rio Junior TV'
+        display_size: '3.5'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: S21
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: MyPhone
+        brand_model: S21
+        design_weight: 74
+        display_size: '1.4'
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: 'TS1 Duo'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: MyPhone
+        brand_model: 'TS1 Duo'
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: TV21
+        -
+            strategy: string
+            value: DUO
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 400
+        brand_vendor: MyPhone
+        brand_model: TV21
+        brand_marketing_name: DUO
+        design_weight: 120
+        display_size: '3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'TW26 TV Duo'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 400
+        brand_vendor: MyPhone
+        brand_model: 'TW26 TV Duo'
+        design_weight: 85
+        display_size: '3.2'

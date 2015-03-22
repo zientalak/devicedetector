@@ -1,0 +1,14 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'AML-MX REF'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Amlogic
+        brand_model: 'AML-MX REF'
+        design_weight: 630
+        display_size: '10.1'

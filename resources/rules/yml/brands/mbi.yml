@@ -1,0 +1,11 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'i6D Dual Sim'
+    capabilities:
+        is_mobile: true
+        brand_vendor: MBI
+        brand_model: 'i6D Dual Sim'
+        display_size: '3.2'
+        display_type: TFT

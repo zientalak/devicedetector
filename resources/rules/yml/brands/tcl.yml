@@ -1,0 +1,329 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: '4110 Smart'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: TCL
+        brand_model: '4110 Smart'
+        design_weight: 118
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 602D
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: TCL
+        brand_model: 602D
+        design_weight: 85
+        display_size: '2.3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 7040N
+        -
+            strategy: string
+            value: 'Alcatel One Touch Fierce 2'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: TCL
+        brand_model: 7040N
+        brand_marketing_name: 'Alcatel One Touch Fierce 2'
+        brand_names: 'Alcatel One Touch Fierce 2'
+        design_weight: 149
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: '718'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: TCL
+        brand_model: '718'
+        design_weight: 80
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: '5120'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: TCL
+        brand_model: '5120'
+        design_weight: 136
+        display_size: '4'
+        display_type: 'WVGA TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: 720D
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: TCL
+        brand_model: 720D
+        design_weight: 94
+        display_size: '2.8'
+        display_type: QVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: A228
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: TCL
+        brand_model: A228
+-
+    patterns:
+        -
+            strategy: string
+            value: A966
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: TCL
+        brand_model: A966
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A968
+    capabilities:
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: TCL
+        brand_model: A968
+        design_weight: 152
+        display_size: '3.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A986
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 320
+        brand_vendor: TCL
+        brand_model: A986
+        design_weight: 131
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A988
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: TCL
+        brand_model: A988
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A996
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: TCL
+        brand_model: A996
+        display_size: '4'
+        display_type: 'TFT IPS'
+-
+    patterns:
+        -
+            strategy: string
+            value: A998
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: TCL
+        brand_model: A998
+        design_weight: 120
+        display_size: '4.3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: C990
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 320
+        brand_vendor: TCL
+        brand_model: C990
+        design_weight: 143
+        display_size: '3.5'
+-
+    patterns:
+        -
+            strategy: string
+            value: D308
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: TCL
+        brand_model: D308
+        design_weight: 79
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: D628
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: TCL
+        brand_model: D628
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: E767
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: TCL
+        brand_model: E767
+        design_weight: 106
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: E787
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 92
+        brand_vendor: TCL
+        brand_model: E787
+        design_weight: 132
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: S950
+        -
+            strategy: string
+            value: 'TCL Idol X S950'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: TCL
+        brand_model: S950
+        brand_marketing_name: 'TCL Idol X S950'
+        brand_names: 'TCL Idol X S950'
+        design_weight: 120
+        display_size: '5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: J620
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: TCL
+        brand_model: J620
+        design_weight: 132
+        display_size: '4.5'
+        display_type: 'FWVGA, IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'J636D Plus'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: TCL
+        brand_model: 'J636D Plus'
+        design_weight: 145
+        display_size: '4.5'
+        display_type: 'FWVGA TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: J720
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: TCL
+        brand_model: J720
+        design_weight: 163
+        display_size: '5'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: VF685
+        -
+            strategy: string
+            value: 'Vodafone Smart Kicka VF685'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: TCL
+        brand_model: VF685
+        brand_marketing_name: 'Vodafone Smart Kicka VF685'
+        brand_names: 'Vodafone Smart Kicka VF685'
+        design_weight: 100
+        display_size: '3.5'
+        display_type: HVGA

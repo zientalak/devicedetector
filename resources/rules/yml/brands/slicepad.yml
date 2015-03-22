@@ -1,0 +1,11 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: L8
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        brand_vendor: SlicePad
+        brand_model: L8
+        display_size: '8'

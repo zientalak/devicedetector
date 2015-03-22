@@ -1,0 +1,14 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Gemei G9T'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Merimobiles
+        brand_model: 'Gemei G9T'
+        display_size: '9.7'
+        display_type: TFT

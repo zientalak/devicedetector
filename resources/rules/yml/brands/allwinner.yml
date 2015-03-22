@@ -1,0 +1,34 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: A8003T
+        -
+            strategy: string
+            value: 'AllWinner A10'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 800
+        brand_vendor: Allwinner
+        brand_model: A8003T
+        brand_marketing_name: 'AllWinner A10'
+        brand_names: 'AllWinner A10'
+        design_weight: 400
+        display_size: '8'
+-
+    patterns:
+        -
+            strategy: string
+            value: Tablet
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Allwinner
+        brand_model: Tablet
+        design_weight: 331
+        display_size: '7'
+        display_type: 'TFT LCD'

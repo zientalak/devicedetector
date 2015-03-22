@@ -1,0 +1,14 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: U670c
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Unimax
+        brand_model: U670c
+        design_weight: 118
+        display_size: '3.2'
+        display_type: TFT

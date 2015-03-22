@@ -1,0 +1,1017 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Android 2.0 Mobile'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Generic
+        brand_model: 'Android 2.0 Mobile'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Android 2.0 Tablet'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 640
+        display_height: 480
+        brand_vendor: Generic
+        brand_model: 'Android 2.0 Tablet'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Android 2.1 Mobile'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Generic
+        brand_model: 'Android 2.1 Mobile'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Android 2.1 Tablet'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 640
+        display_height: 480
+        brand_vendor: Generic
+        brand_model: 'Android 2.1 Tablet'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Android 2.2 Mobile'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Generic
+        brand_model: 'Android 2.2 Mobile'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Android 2.2 Tablet'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 640
+        display_height: 480
+        brand_vendor: Generic
+        brand_model: 'Android 2.2 Tablet'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Android 2.3 Mobile'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Generic
+        brand_model: 'Android 2.3 Mobile'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Android 2.3 Tablet'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 640
+        display_height: 480
+        brand_vendor: Generic
+        brand_model: 'Android 2.3 Tablet'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Android 3.0 Mobile'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Generic
+        brand_model: 'Android 3.0 Mobile'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Android 3.0 Tablet'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 640
+        display_height: 480
+        brand_vendor: Generic
+        brand_model: 'Android 3.0 Tablet'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Android 3.1 Mobile'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Generic
+        brand_model: 'Android 3.1 Mobile'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Android 3.1 Tablet'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 640
+        display_height: 480
+        brand_vendor: Generic
+        brand_model: 'Android 3.1 Tablet'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Android 3.2 Mobile'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Generic
+        brand_model: 'Android 3.2 Mobile'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Android 4.0 Mobile'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Generic
+        brand_model: 'Android 4.0 Mobile'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Android 4.0 Tablet'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 640
+        display_height: 480
+        brand_vendor: Generic
+        brand_model: 'Android 4.0 Tablet'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Android 4.1 Mobile'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Generic
+        brand_model: 'Android 4.1 Mobile'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Android 4.1 Tablet'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 640
+        display_height: 480
+        brand_vendor: Generic
+        brand_model: 'Android 4.1 Tablet'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Android 4.2 Mobile'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Generic
+        brand_model: 'Android 4.2 Mobile'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Android 4.2 Tablet'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 640
+        display_height: 480
+        brand_vendor: Generic
+        brand_model: 'Android 4.2 Tablet'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Android 4.3 Mobile'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Generic
+        brand_model: 'Android 4.3 Mobile'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Android 4.3 Tablet'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 640
+        display_height: 480
+        brand_vendor: Generic
+        brand_model: 'Android 4.3 Tablet'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Android 4.4 Mobile'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Generic
+        brand_model: 'Android 4.4 Mobile'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Android 4.4 Tablet'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 640
+        display_height: 480
+        brand_vendor: Generic
+        brand_model: 'Android 4.4 Tablet'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Android 5.0 Mobile'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Generic
+        brand_model: 'Android 5.0 Mobile'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Android 5.0 Tablet'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 640
+        display_height: 480
+        brand_vendor: Generic
+        brand_model: 'Android 5.0 Tablet'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Android Mobile'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Generic
+        brand_model: 'Android Mobile'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Android Smart TV'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Generic
+        brand_model: 'Android Smart TV'
+        design_weight: 40
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Android Tablet'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 640
+        display_height: 480
+        brand_vendor: Generic
+        brand_model: 'Android Tablet'
+-
+    patterns:
+        -
+            strategy: string
+            value: AppleTV
+    capabilities:
+        display_width: 685
+        display_height: 480
+        brand_vendor: Generic
+        brand_model: AppleTV
+-
+    patterns:
+        -
+            strategy: string
+            value: B928a
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Generic
+        brand_model: B928a
+        design_weight: 143
+        display_size: '5.3'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Bolt Browser'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Generic
+        brand_model: 'Bolt Browser'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Boxee Box'
+    capabilities:
+        display_width: 685
+        display_height: 480
+        brand_vendor: Generic
+        brand_model: 'Boxee Box'
+-
+    patterns:
+        -
+            strategy: string
+            value: C208
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Generic
+        brand_model: C208
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: DH-A721
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Generic
+        brand_model: DH-A721
+        design_weight: 300
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: Firefox
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Generic
+        brand_model: Firefox
+        display_size: '4'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Firefox Mobile'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Generic
+        brand_model: 'Firefox Mobile'
+        display_size: '4'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Firefox Tablet'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Generic
+        brand_model: 'Firefox Tablet'
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: GoogleTV
+    capabilities:
+        display_width: 685
+        display_height: 480
+        brand_vendor: Generic
+        brand_model: GoogleTV
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Iris Browser'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Generic
+        brand_model: 'Iris Browser'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'J2ME Midlet'
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Generic
+        brand_model: 'J2ME Midlet'
+        display_size: '2'
+-
+    patterns:
+        -
+            strategy: string
+            value: M82vg
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 600
+        brand_vendor: Generic
+        brand_model: M82vg
+        design_weight: 200
+        display_size: '8'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'MAUI WAP Browser'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Generic
+        brand_model: 'MAUI WAP Browser'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'NetFront 3.1'
+    capabilities:
+        is_mobile: true
+        display_width: 120
+        display_height: 100
+        brand_vendor: Generic
+        brand_model: 'NetFront 3.1'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'NetFront 3.2'
+    capabilities:
+        is_mobile: true
+        display_width: 120
+        display_height: 100
+        brand_vendor: Generic
+        brand_model: 'NetFront 3.2'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'NetFront 3.3'
+    capabilities:
+        is_mobile: true
+        display_width: 120
+        display_height: 100
+        brand_vendor: Generic
+        brand_model: 'NetFront 3.3'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'NetFront 3.4'
+    capabilities:
+        is_mobile: true
+        display_width: 120
+        display_height: 100
+        brand_vendor: Generic
+        brand_model: 'NetFront 3.4'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'NetFront 3.5'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 100
+        brand_vendor: Generic
+        brand_model: 'NetFront 3.5'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'NetFront 4.0'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 100
+        brand_vendor: Generic
+        brand_model: 'NetFront 4.0'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'NetFront 4.1'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 100
+        brand_vendor: Generic
+        brand_model: 'NetFront 4.1'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Openwave 3'
+    capabilities:
+        is_mobile: true
+        brand_vendor: Generic
+        brand_model: 'Openwave 3'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Openwave 4'
+    capabilities:
+        is_mobile: true
+        brand_vendor: Generic
+        brand_model: 'Openwave 4'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Openwave 5'
+    capabilities:
+        is_mobile: true
+        brand_vendor: Generic
+        brand_model: 'Openwave 5'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Openwave 6'
+    capabilities:
+        is_mobile: true
+        brand_vendor: Generic
+        brand_model: 'Openwave 6'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Openwave 6.2'
+    capabilities:
+        is_mobile: true
+        brand_vendor: Generic
+        brand_model: 'Openwave 6.2'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Openwave 7'
+    capabilities:
+        is_mobile: true
+        brand_vendor: Generic
+        brand_model: 'Openwave 7'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Openwave 7.2'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Generic
+        brand_model: 'Openwave 7.2'
+        design_weight: 87
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Opera Mini 1'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 160
+        brand_vendor: Generic
+        brand_model: 'Opera Mini 1'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Opera Mini 2'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 160
+        brand_vendor: Generic
+        brand_model: 'Opera Mini 2'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Opera Mini 3'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 160
+        brand_vendor: Generic
+        brand_model: 'Opera Mini 3'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Opera Mini 4'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 160
+        brand_vendor: Generic
+        brand_model: 'Opera Mini 4'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Opera Mini 5'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 160
+        brand_vendor: Generic
+        brand_model: 'Opera Mini 5'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Opera Mini 6'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 160
+        brand_vendor: Generic
+        brand_model: 'Opera Mini 6'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Opera Mini 7'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 160
+        brand_vendor: Generic
+        brand_model: 'Opera Mini 7'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Opera Mini for S60'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Generic
+        brand_model: 'Opera Mini for S60'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Opera Mobi'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Generic
+        brand_model: 'Opera Mobi'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Opera Mobile 10 Windows'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Generic
+        brand_model: 'Opera Mobile 10 Windows'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Opera Symbian Client'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 40
+        brand_vendor: Generic
+        brand_model: 'Opera Symbian Client'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Opera for Series 60'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 208
+        brand_vendor: Generic
+        brand_model: 'Opera for Series 60'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Pad 703'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 600
+        brand_vendor: Generic
+        brand_model: 'Pad 703'
+        display_size: '7'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Pocket PC'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Generic
+        brand_model: 'Pocket PC'
+        design_weight: 200
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Pocket PC 2000'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Generic
+        brand_model: 'Pocket PC 2000'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Pocket PC 2002'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Generic
+        brand_model: 'Pocket PC 2002'
+-
+    patterns:
+        -
+            strategy: string
+            value: SmartTV
+    capabilities:
+        display_width: 685
+        display_height: 480
+        brand_vendor: Generic
+        brand_model: SmartTV
+-
+    patterns:
+        -
+            strategy: string
+            value: T05A
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Generic
+        brand_model: T05A
+        design_weight: 602
+        display_size: '9.7'
+-
+    patterns:
+        -
+            strategy: string
+            value: T112
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Generic
+        brand_model: T112
+        design_weight: 310
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: Teleca-Obigo
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 432
+        brand_vendor: Generic
+        brand_model: Teleca-Obigo
+        design_weight: 125
+        display_size: '3.1'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Transcoder
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 92
+        brand_vendor: Generic
+        brand_model: Transcoder
+-
+    patterns:
+        -
+            strategy: string
+            value: WR761
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Generic
+        brand_model: WR761
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: WWE10
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Generic
+        brand_model: WWE10
+        display_size: '10.1'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Windows 8 Tablet'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        brand_vendor: Generic
+        brand_model: 'Windows 8 Tablet'
+        design_weight: 676
+        display_size: '10.6'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Windows Mobile'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Generic
+        brand_model: 'Windows Mobile'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Windows Mobile (Opera)'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Generic
+        brand_model: 'Windows Mobile (Opera)'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Windows Mobile 5'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Generic
+        brand_model: 'Windows Mobile 5'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Windows Mobile 6'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Generic
+        brand_model: 'Windows Mobile 6'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Windows Mobile 6.1'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Generic
+        brand_model: 'Windows Mobile 6.1'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Windows Mobile 6.5'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Generic
+        brand_model: 'Windows Mobile 6.5'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Windows Mobile 7'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Generic
+        brand_model: 'Windows Mobile 7'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Windows Phone 8'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Generic
+        brand_model: 'Windows Phone 8'
+        display_size: '4'
+        display_type: S-LCD

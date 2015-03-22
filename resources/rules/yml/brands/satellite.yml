@@ -1,0 +1,14 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: AM728
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Satellite
+        brand_model: AM728
+        display_size: '7'
+        display_type: TFT

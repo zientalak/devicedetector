@@ -1,0 +1,13 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: T701
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Cellacom
+        brand_model: T701
+        display_size: '2.8'
+        display_type: TFT

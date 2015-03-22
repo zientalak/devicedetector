@@ -1,0 +1,155 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: CLICK
+    capabilities:
+        is_mobile: true
+        brand_vendor: Emporia
+        brand_model: CLICK
+        design_weight: 110
+        display_size: '2.2'
+-
+    patterns:
+        -
+            strategy: string
+            value: CONNECT
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Emporia
+        brand_model: CONNECT
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: ELEGANCE
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Emporia
+        brand_model: ELEGANCE
+        design_weight: 92
+        display_size: '1.8'
+        display_type: OLED
+-
+    patterns:
+        -
+            strategy: string
+            value: ELEGANCEplus
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Emporia
+        brand_model: ELEGANCEplus
+        design_weight: 92
+        display_size: '1.8'
+        display_type: OLED
+-
+    patterns:
+        -
+            strategy: string
+            value: LIFEplus
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Emporia
+        brand_model: LIFEplus
+        design_weight: 138
+        display_size: '2.7'
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: RL1
+    capabilities:
+        is_mobile: true
+        display_width: 160
+        display_height: 128
+        brand_vendor: Emporia
+        brand_model: RL1
+        design_weight: 92
+        display_size: '1.8'
+        display_type: OLED
+-
+    patterns:
+        -
+            strategy: string
+            value: SAFETYpremium
+    capabilities:
+        is_mobile: true
+        brand_vendor: Emporia
+        brand_model: SAFETYpremium
+-
+    patterns:
+        -
+            strategy: string
+            value: SOLID
+    capabilities:
+        is_mobile: true
+        display_width: 160
+        display_height: 128
+        brand_vendor: Emporia
+        brand_model: SOLID
+        design_weight: 92
+        display_size: '1.8'
+        display_type: OLED
+-
+    patterns:
+        -
+            strategy: string
+            value: TALK
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 64
+        brand_vendor: Emporia
+        brand_model: TALK
+        design_weight: 110
+        display_size: '2'
+        display_type: STN
+-
+    patterns:
+        -
+            strategy: string
+            value: TALKcomfort
+    capabilities:
+        is_mobile: true
+        brand_vendor: Emporia
+        brand_model: TALKcomfort
+        design_weight: 80
+-
+    patterns:
+        -
+            strategy: string
+            value: TALKpremium
+    capabilities:
+        is_mobile: true
+        display_width: 64
+        display_height: 128
+        brand_vendor: Emporia
+        brand_model: TALKpremium
+        design_weight: 110
+        display_size: '2'
+        display_type: STN
+-
+    patterns:
+        -
+            strategy: string
+            value: TIME
+    capabilities:
+        is_mobile: true
+        display_width: 64
+        display_height: 128
+        brand_vendor: Emporia
+        brand_model: TIME
+        design_weight: 110
+        display_size: '2'
+        display_type: STN

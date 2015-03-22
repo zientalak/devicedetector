@@ -1,0 +1,120 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: A101b
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Carrefour
+        brand_model: A101b
+        design_weight: 600
+        display_size: '10'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: CT1001
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Carrefour
+        brand_model: CT1001
+        design_weight: 600
+        display_size: '10'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: CT1002
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Carrefour
+        brand_model: CT1002
+        design_weight: 600
+        display_size: '10'
+-
+    patterns:
+        -
+            strategy: string
+            value: CT1010
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Carrefour
+        brand_model: CT1010
+        design_weight: 620
+        display_size: '9.7'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: CT1020W
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 1280
+        brand_vendor: Carrefour
+        brand_model: CT1020W
+        display_size: '10.1'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: CT705
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Carrefour
+        brand_model: CT705
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: CT710
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Carrefour
+        brand_model: CT710
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: CT820
+        -
+            strategy: string
+            value: 'Carrefour Touch Tablet CT820'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 768
+        display_height: 1024
+        brand_vendor: Carrefour
+        brand_model: CT820
+        brand_marketing_name: 'Carrefour Touch Tablet CT820'
+        brand_names: 'Carrefour Touch Tablet CT820'
+        design_weight: 420
+        display_size: '8'
+        display_type: 'IPS LCD'

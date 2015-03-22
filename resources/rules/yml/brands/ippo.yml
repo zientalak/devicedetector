@@ -1,0 +1,105 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: F815
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: IPPO
+        brand_model: F815
+        design_weight: 277
+        display_size: '7'
+        display_type: LED
+-
+    patterns:
+        -
+            strategy: string
+            value: F816
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: IPPO
+        brand_model: F816
+        design_weight: 276
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: F817
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: IPPO
+        brand_model: F817
+        design_weight: 300
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: G900
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: IPPO
+        brand_model: G900
+        design_weight: 447
+        display_size: '9'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: M718
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: IPPO
+        brand_model: M718
+        design_weight: 293
+        display_size: '7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: Q8H
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: IPPO
+        brand_model: Q8H
+        design_weight: 350
+        display_size: '7'
+        display_type: 'WVGA TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: N7
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Ippo
+        brand_model: N7
+        design_weight: 302
+        display_size: '7'
+        display_type: TFT

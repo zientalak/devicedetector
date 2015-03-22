@@ -1,0 +1,35 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'TPC 97150'
+        -
+            strategy: string
+            value: 'VIVAX Tablet TPC-97150'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 768
+        display_height: 1024
+        brand_vendor: Vivax
+        brand_model: 'TPC 97150'
+        brand_marketing_name: 'VIVAX Tablet TPC-97150'
+        brand_names: 'VIVAX Tablet TPC-97150'
+        design_weight: 625
+        display_size: '9.7'
+        display_type: 'IPS TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: TPC-7151
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 1280
+        brand_vendor: Vivax
+        brand_model: TPC-7151
+        design_weight: 350
+        display_size: '7'
+        display_type: IPS

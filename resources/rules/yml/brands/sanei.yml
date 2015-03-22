@@ -1,0 +1,99 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: N10
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1280
+        display_height: 800
+        brand_vendor: Sanei
+        brand_model: N10
+        design_weight: 675
+        display_size: '10.1'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: N10-2CPU
+        -
+            strategy: string
+            value: 'Sanei N10 Dual Core'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 1280
+        brand_vendor: Sanei
+        brand_model: N10-2CPU
+        brand_marketing_name: 'Sanei N10 Dual Core'
+        brand_names: 'Sanei N10 Dual Core'
+        design_weight: 688
+        display_size: '10.1'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: N10-4core
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1280
+        display_height: 800
+        brand_vendor: Sanei
+        brand_model: N10-4core
+        design_weight: 587
+        display_size: '10.1'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: N78-M02
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Sanei
+        brand_model: N78-M02
+        design_weight: 308
+        display_size: '7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: N83
+        -
+            strategy: string
+            value: 'Sanei N83 Deluxe'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Sanei
+        brand_model: N83
+        brand_marketing_name: 'Sanei N83 Deluxe'
+        brand_names: 'Sanei N83 Deluxe'
+        design_weight: 480
+        display_size: '8'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'N90 II'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Sanei
+        brand_model: 'N90 II'
+        design_weight: 609
+        display_size: '9.7'
+        display_type: 'IPS LCD'

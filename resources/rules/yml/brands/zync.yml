@@ -1,0 +1,68 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: Z18
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Zync
+        brand_model: Z18
+        design_weight: 630
+        display_size: '7'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: Z909
+        -
+            strategy: string
+            value: 'Zync Z909 Plus'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Zync
+        brand_model: Z909
+        brand_marketing_name: 'Zync Z909 Plus'
+        brand_names: 'Zync Z909 Plus'
+        design_weight: 380
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Z99
+        -
+            strategy: string
+            value: 'Zync Z99 2G'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Zync
+        brand_model: Z99
+        brand_marketing_name: 'Zync Z99 2G'
+        brand_names: 'Zync Z99 2G'
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Z99 Dual Core'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Zync
+        brand_model: 'Z99 Dual Core'
+        display_size: '7'
+        display_type: TFT

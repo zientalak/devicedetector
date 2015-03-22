@@ -1,0 +1,54 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: F7102
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: China
+        brand_model: F7102
+        design_weight: 196
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Feiteng GT-I9300'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: China
+        brand_model: 'Feiteng GT-I9300'
+        design_weight: 152
+        display_size: '4.7'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'G20 MTK6513'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: China
+        brand_model: 'G20 MTK6513'
+        display_size: '3.5'
+-
+    patterns:
+        -
+            strategy: string
+            value: WT-M768
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 600
+        brand_vendor: China
+        brand_model: WT-M768
+        display_size: '7'
+        display_type: TFT

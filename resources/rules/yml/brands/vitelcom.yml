@@ -1,0 +1,190 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 30i
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Vitelcom
+        brand_model: 30i
+-
+    patterns:
+        -
+            strategy: string
+            value: TSM-1
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Vitelcom
+        brand_model: TSM-1
+        design_weight: 79
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: TSM-100
+    capabilities:
+        is_mobile: true
+        display_width: 116
+        display_height: 181
+        brand_vendor: Vitelcom
+        brand_model: TSM-100
+        design_weight: 125
+-
+    patterns:
+        -
+            strategy: string
+            value: TSM-100v
+    capabilities:
+        is_mobile: true
+        display_width: 116
+        display_height: 181
+        brand_vendor: Vitelcom
+        brand_model: TSM-100v
+-
+    patterns:
+        -
+            strategy: string
+            value: TSM-3
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Vitelcom
+        brand_model: TSM-3
+-
+    patterns:
+        -
+            strategy: string
+            value: TSM-30
+    capabilities:
+        is_mobile: true
+        display_width: 110
+        display_height: 96
+        brand_vendor: Vitelcom
+        brand_model: TSM-30
+-
+    patterns:
+        -
+            strategy: string
+            value: TSM-342
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Vitelcom
+        brand_model: TSM-342
+-
+    patterns:
+        -
+            strategy: string
+            value: TSM-4
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Vitelcom
+        brand_model: TSM-4
+-
+    patterns:
+        -
+            strategy: string
+            value: TSM-5
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Vitelcom
+        brand_model: TSM-5
+-
+    patterns:
+        -
+            strategy: string
+            value: TSM-520
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Vitelcom
+        brand_model: TSM-520
+-
+    patterns:
+        -
+            strategy: string
+            value: TSM-5m
+    capabilities:
+        is_mobile: true
+        display_width: 120
+        display_height: 120
+        brand_vendor: Vitelcom
+        brand_model: TSM-5m
+-
+    patterns:
+        -
+            strategy: string
+            value: TSM-5mt
+    capabilities:
+        is_mobile: true
+        display_width: 110
+        display_height: 72
+        brand_vendor: Vitelcom
+        brand_model: TSM-5mt
+-
+    patterns:
+        -
+            strategy: string
+            value: TSM-6
+    capabilities:
+        is_mobile: true
+        display_width: 160
+        display_height: 40
+        brand_vendor: Vitelcom
+        brand_model: TSM-6
+-
+    patterns:
+        -
+            strategy: string
+            value: TSM-7
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Vitelcom
+        brand_model: TSM-7
+-
+    patterns:
+        -
+            strategy: string
+            value: TSM-7i
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Vitelcom
+        brand_model: TSM-7i
+-
+    patterns:
+        -
+            strategy: string
+            value: TSM340
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 83
+        brand_vendor: Vitelcom
+        brand_model: TSM340
+-
+    patterns:
+        -
+            strategy: string
+            value: TSM500
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Vitelcom
+        brand_model: TSM500

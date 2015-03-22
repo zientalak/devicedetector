@@ -36,8 +36,9 @@ composer.lock
 composer.phar
 coverage.clover
 ocular.phar
-bin/phpspec
-bin/phpunit
+bin/php*
+bin/pdepend
+bin/local/*
 phpcs.xml
 phpmd.xml
 

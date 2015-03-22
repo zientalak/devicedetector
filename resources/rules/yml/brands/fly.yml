@@ -1,0 +1,1909 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: '2040'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Fly
+        brand_model: '2040'
+        design_weight: 57
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 2040L
+    capabilities:
+        is_mobile: true
+        display_width: 160
+        display_height: 128
+        brand_vendor: Fly
+        brand_model: 2040L
+        design_weight: 57
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 2040i
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Fly
+        brand_model: 2040i
+        design_weight: 57
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: '2080'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Fly
+        brand_model: '2080'
+        design_weight: 78
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: B400
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Fly
+        brand_model: B400
+        design_weight: 67
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: B406
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Fly
+        brand_model: B406
+        design_weight: 79
+        display_size: '2'
+        display_type: QCIF
+-
+    patterns:
+        -
+            strategy: string
+            value: B600
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Fly
+        brand_model: B600
+        design_weight: 110
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'B700 Duo'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 229
+        brand_vendor: Fly
+        brand_model: 'B700 Duo'
+        design_weight: 95
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'B720 Duo'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Fly
+        brand_model: 'B720 Duo'
+        design_weight: 122
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: DS150
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Fly
+        brand_model: DS150
+        display_size: '1.77'
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: DS155
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Fly
+        brand_model: DS155
+        design_weight: 84
+        display_size: '1.77'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: DS170
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Fly
+        brand_model: DS170
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: DS185
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Fly
+        brand_model: DS185
+        design_weight: 77
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: DS186
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Fly
+        brand_model: DS186
+        design_weight: 81
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: DS400
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Fly
+        brand_model: DS400
+        design_weight: 96
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: DS500
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Fly
+        brand_model: DS500
+        design_weight: 110
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'E 350 Touch'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Fly
+        brand_model: 'E 350 Touch'
+        display_size: '3.5'
+-
+    patterns:
+        -
+            strategy: string
+            value: E105
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Fly
+        brand_model: E105
+        design_weight: 80
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: E141
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Fly
+        brand_model: E141
+        design_weight: 93
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: E146
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 400
+        brand_vendor: Fly
+        brand_model: E146
+        design_weight: 89
+        display_size: '3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: E150
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Fly
+        brand_model: E150
+        design_weight: 90
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: E155
+    capabilities:
+        is_mobile: true
+        brand_vendor: Fly
+        brand_model: E155
+        design_weight: 115
+        display_size: '3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: E170
+    capabilities:
+        is_mobile: true
+        brand_vendor: Fly
+        brand_model: E170
+        design_weight: 119
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: E171
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 400
+        brand_vendor: Fly
+        brand_model: E171
+        design_weight: 95
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: IQ440
+        -
+            strategy: string
+            value: 'Fly Energie'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Fly
+        brand_model: IQ440
+        brand_marketing_name: 'Fly Energie'
+        brand_names: 'Fly Energie'
+        display_size: '4'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: IQ447
+        -
+            strategy: string
+            value: 'Fly Era Life 1'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Fly
+        brand_model: IQ447
+        brand_marketing_name: 'Fly Era Life 1'
+        brand_names: 'Fly Era Life 1'
+        design_weight: 120
+        display_size: '4'
+        display_type: WVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: IQ454
+        -
+            strategy: string
+            value: 'Fly Evo Tech 1'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Fly
+        brand_model: IQ454
+        brand_marketing_name: 'Fly Evo Tech 1'
+        brand_names: 'Fly Evo Tech 1'
+        design_weight: 175
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: F32
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Fly
+        brand_model: F32
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: F350
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Fly
+        brand_model: F350
+        display_size: '3.5'
+        display_type: HVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: F350s
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Fly
+        brand_model: F350s
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: F351
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Fly
+        brand_model: F351
+        design_weight: 121
+        display_size: '3.5'
+        display_type: 'HVGA TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: F40
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Fly
+        brand_model: F40
+        display_size: '3.78'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: F410
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Fly
+        brand_model: F410
+        display_size: '4'
+        display_type: WVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: F41s
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Fly
+        brand_model: F41s
+        design_weight: 140
+        display_size: '4'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: F45S
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Fly
+        brand_model: F45S
+        display_size: '4.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: F50
+        -
+            strategy: string
+            value: 'Fly F50s'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Fly
+        brand_model: F50
+        brand_marketing_name: 'Fly F50s'
+        brand_names: 'Fly F50s'
+        design_weight: 125
+        display_size: '5'
+        display_type: 'WVGA TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: F51
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Fly
+        brand_model: F51
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: F53S
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Fly
+        brand_model: F53S
+        display_size: '5.3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: F8s
+        -
+            strategy: string
+            value: 'Fly Vision F8s'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 768
+        display_height: 1024
+        brand_vendor: Fly
+        brand_model: F8s
+        brand_marketing_name: 'Fly Vision F8s'
+        brand_names: 'Fly Vision F8s'
+        design_weight: 385
+        display_size: '8'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Fly V100'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Fly
+        brand_model: 'Fly V100'
+        design_weight: 75
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Fly-LX610
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Fly
+        brand_model: Fly-LX610
+        design_weight: 94
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'FlyLife Connect 7.85 3G Slim'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 768
+        display_height: 1024
+        brand_vendor: Fly
+        brand_model: 'FlyLife Connect 7.85 3G Slim'
+        design_weight: 323
+        display_size: '7.85'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: Fly_Q300
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 240
+        brand_vendor: Fly
+        brand_model: Fly_Q300
+        design_weight: 87
+        display_size: '2.3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Fly_ST230
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Fly
+        brand_model: Fly_ST230
+        design_weight: 92
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: HT-1
+        -
+            strategy: string
+            value: 'Fly Hummer'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Fly
+        brand_model: HT-1
+        brand_marketing_name: 'Fly Hummer'
+        brand_names: 'Fly Hummer'
+        design_weight: 101
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: HT1
+        -
+            strategy: string
+            value: 'Fly Hummer HT1'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Fly
+        brand_model: HT1
+        brand_marketing_name: 'Fly Hummer HT1'
+        brand_names: 'Fly Hummer HT1'
+        design_weight: 100
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: HT2
+        -
+            strategy: string
+            value: 'Fly Hummer HT2'
+    capabilities:
+        is_mobile: true
+        display_width: 220
+        display_height: 176
+        brand_vendor: Fly
+        brand_model: HT2
+        brand_marketing_name: 'Fly Hummer HT2'
+        brand_names: 'Fly Hummer HT2'
+        design_weight: 95
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: IQ450
+        -
+            strategy: string
+            value: 'Fly Horizon'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Fly
+        brand_model: IQ450
+        brand_marketing_name: 'Fly Horizon'
+        brand_names: 'Fly Horizon'
+        display_size: '5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'IQ450 Quattro'
+        -
+            strategy: string
+            value: 'Fly Horizon 2'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Fly
+        brand_model: 'IQ450 Quattro'
+        brand_marketing_name: 'Fly Horizon 2'
+        brand_names: 'Fly Horizon 2'
+        design_weight: 168
+        display_size: '5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'IQ 444'
+        -
+            strategy: string
+            value: 'Fly Quattro'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Fly
+        brand_model: 'IQ 444'
+        brand_marketing_name: 'Fly Quattro'
+        brand_names: 'Fly Quattro'
+        design_weight: 135
+        display_size: '4.65'
+        display_type: 'Super AMOLED'
+-
+    patterns:
+        -
+            strategy: string
+            value: IQ230
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Fly
+        brand_model: IQ230
+        design_weight: 108
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: IQ235
+        -
+            strategy: string
+            value: 'IQ235 Uno'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Fly
+        brand_model: IQ235
+        brand_marketing_name: 'IQ235 Uno'
+        brand_names: 'IQ235 Uno'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: IQ237
+        -
+            strategy: string
+            value: 'Fly IQ237 Dynamic'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Fly
+        brand_model: IQ237
+        brand_marketing_name: 'Fly IQ237 Dynamic'
+        brand_names: 'Fly IQ237 Dynamic'
+        design_weight: 126
+        display_size: '3.5'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: IQ238
+        -
+            strategy: string
+            value: 'Fly Jazz'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Fly
+        brand_model: IQ238
+        brand_marketing_name: 'Fly Jazz'
+        brand_names: 'Fly Jazz'
+        design_weight: 110
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: IQ239
+        -
+            strategy: string
+            value: 'Fly IQ239 Era Nano 2'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Fly
+        brand_model: IQ239
+        brand_marketing_name: 'Fly IQ239 Era Nano 2'
+        brand_names: 'Fly IQ239 Era Nano 2'
+        design_weight: 105
+        display_size: '3.5'
+        display_type: 'HVGA TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: IQ240
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Fly
+        brand_model: IQ240
+        design_weight: 126
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: IQ245
+        -
+            strategy: string
+            value: 'Wizard IQ245'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Fly
+        brand_model: IQ245
+        brand_marketing_name: 'Wizard IQ245'
+        brand_names: 'Wizard IQ245'
+        design_weight: 120
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: IQ246
+        -
+            strategy: string
+            value: 'Fly IQ246 Power'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Fly
+        brand_model: IQ246
+        brand_marketing_name: 'Fly IQ246 Power'
+        brand_names: 'Fly IQ246 Power'
+        design_weight: 110
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: IQ255
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Fly
+        brand_model: IQ255
+        design_weight: 168
+        display_size: '3.95'
+-
+    patterns:
+        -
+            strategy: string
+            value: IQ256
+        -
+            strategy: string
+            value: 'Fly Vogue'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Fly
+        brand_model: IQ256
+        brand_marketing_name: 'Fly Vogue'
+        brand_names: 'Fly Vogue'
+        design_weight: 120
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: IQ270
+        -
+            strategy: string
+            value: 'IQ270 Firebird'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Fly
+        brand_model: IQ270
+        brand_marketing_name: 'IQ270 Firebird'
+        brand_names: 'IQ270 Firebird'
+        design_weight: 135
+        display_size: '3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: IQ275
+        -
+            strategy: string
+            value: Marathon
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Fly
+        brand_model: IQ275
+        brand_marketing_name: Marathon
+        brand_names: Marathon
+        design_weight: 183
+        display_size: '3.7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: IQ280
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Fly
+        brand_model: IQ280
+        design_weight: 120
+        display_size: '4'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: IQ285
+        -
+            strategy: string
+            value: 'Fly IQ285 Turbo'
+    capabilities:
+        is_mobile: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Fly
+        brand_model: IQ285
+        brand_marketing_name: 'Fly IQ285 Turbo'
+        brand_names: 'Fly IQ285 Turbo'
+        design_weight: 137
+        display_size: '4.3'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: IQ430
+        -
+            strategy: string
+            value: 'Fly IQ430 Evoke'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Fly
+        brand_model: IQ430
+        brand_marketing_name: 'Fly IQ430 Evoke'
+        brand_names: 'Fly IQ430 Evoke'
+        design_weight: 113
+        display_size: '3.5'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: IQ431
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Fly
+        brand_model: IQ431
+        design_weight: 105
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: IQ434
+        -
+            strategy: string
+            value: 'Fly IQ434 Era Nano 5'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Fly
+        brand_model: IQ434
+        brand_marketing_name: 'Fly IQ434 Era Nano 5'
+        brand_names: 'Fly IQ434 Era Nano 5'
+        design_weight: 100
+        display_size: '3.5'
+        display_type: 'HVGA TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: IQ436
+        -
+            strategy: string
+            value: 'Fly IQ436 Era Nano 3'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Fly
+        brand_model: IQ436
+        brand_marketing_name: 'Fly IQ436 Era Nano 3'
+        brand_names: 'Fly IQ436 Era Nano 3'
+        design_weight: 115
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: IQ441
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Fly
+        brand_model: IQ441
+        design_weight: 136
+        display_size: '4.3'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: IQ442
+        -
+            strategy: string
+            value: 'Fly Miracle'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Fly
+        brand_model: IQ442
+        brand_marketing_name: 'Fly Miracle'
+        brand_names: 'Fly Miracle'
+        design_weight: 141
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'IQ442 Quad'
+        -
+            strategy: string
+            value: 'Fly Miracle 2'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Fly
+        brand_model: 'IQ442 Quad'
+        brand_marketing_name: 'Fly Miracle 2'
+        brand_names: 'Fly Miracle 2'
+        design_weight: 124
+        display_size: '4'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: IQ443
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Fly
+        brand_model: IQ443
+        design_weight: 150
+        display_size: '4.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: IQ445
+        -
+            strategy: string
+            value: 'Fly IQ445 Genius'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Fly
+        brand_model: IQ445
+        brand_marketing_name: 'Fly IQ445 Genius'
+        brand_names: 'Fly IQ445 Genius'
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: IQ446
+        -
+            strategy: string
+            value: 'Fly IQ446 Magic'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Fly
+        brand_model: IQ446
+        brand_marketing_name: 'Fly IQ446 Magic'
+        brand_names: 'Fly IQ446 Magic'
+        design_weight: 144
+        display_size: '4.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: IQ449
+        -
+            strategy: string
+            value: Pronto
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Fly
+        brand_model: IQ449
+        brand_marketing_name: Pronto
+        brand_names: Pronto
+        design_weight: 137
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: IQ451
+        -
+            strategy: string
+            value: 'Fly IQ451 Quattro Vista'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Fly
+        brand_model: IQ451
+        brand_marketing_name: 'Fly IQ451 Quattro Vista'
+        brand_names: 'Fly IQ451 Quattro Vista'
+        design_weight: 150
+        display_size: '5'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: IQ456
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Fly
+        brand_model: IQ456
+        design_weight: 151
+        display_size: '5'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: LX500
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Fly
+        brand_model: LX500
+        design_weight: 110
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: LX600
+        -
+            strategy: string
+            value: 'Fly Mega'
+    capabilities:
+        is_mobile: true
+        display_width: 220
+        display_height: 176
+        brand_vendor: Fly
+        brand_model: LX600
+        brand_marketing_name: 'Fly Mega'
+        brand_names: 'Fly Mega'
+        design_weight: 98
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: LX610
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Fly
+        brand_model: LX610
+        design_weight: 94
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: M130
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Fly
+        brand_model: M130
+        design_weight: 70
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: M140
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Fly
+        brand_model: M140
+        design_weight: 75
+        display_size: '1.4'
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: MC100
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Fly
+        brand_model: MC100
+        design_weight: 106
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MC110
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Fly
+        brand_model: MC110
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MC150ds
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Fly
+        brand_model: MC150ds
+        design_weight: 112
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MC170DS
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Fly
+        brand_model: MC170DS
+        design_weight: 105
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MC180
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Fly
+        brand_model: MC180
+        design_weight: 83
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MC220
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Fly
+        brand_model: MC220
+        design_weight: 94
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MC300
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Fly
+        brand_model: MC300
+        design_weight: 84
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MP600
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Fly
+        brand_model: MP600
+        design_weight: 65
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'MV 282'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Fly
+        brand_model: 'MV 282'
+        design_weight: 85
+        display_size: '2.7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MX200
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Fly
+        brand_model: MX200
+        design_weight: 73
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MX200i
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Fly
+        brand_model: MX200i
+        design_weight: 73
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MX230
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Fly
+        brand_model: MX230
+        design_weight: 73
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MX300
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Fly
+        brand_model: MX300
+        design_weight: 72
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MX330
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Fly
+        brand_model: MX330
+        design_weight: 72
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Q200
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 240
+        brand_vendor: Fly
+        brand_model: Q200
+        design_weight: 90
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: SL110
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Fly
+        brand_model: SL110
+        design_weight: 85
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: SL130
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Fly
+        brand_model: SL130
+        design_weight: 87
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: SL300m
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Fly
+        brand_model: SL300m
+        design_weight: 90
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: SL399e
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Fly
+        brand_model: SL399e
+        design_weight: 68
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: SL500i
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Fly
+        brand_model: SL500i
+        design_weight: 90
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: SL500m
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Fly
+        brand_model: SL500m
+        design_weight: 90
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: SL600
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Fly
+        brand_model: SL600
+        design_weight: 81
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: SLT100
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Fly
+        brand_model: SLT100
+        design_weight: 100
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: ST230
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Fly
+        brand_model: ST230
+        design_weight: 92
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: SX100
+    capabilities:
+        is_mobile: true
+        display_width: 220
+        display_height: 176
+        brand_vendor: Fly
+        brand_model: SX100
+        design_weight: 83
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: SX205
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Fly
+        brand_model: SX205
+        display_size: '1.79'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: SX210
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Fly
+        brand_model: SX210
+        design_weight: 100
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: SX220
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Fly
+        brand_model: SX220
+        design_weight: 106
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: SX225
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Fly
+        brand_model: SX225
+        design_weight: 90
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: SX230
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Fly
+        brand_model: SX230
+        design_weight: 87
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: SX240
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Fly
+        brand_model: SX240
+        design_weight: 88
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: SX300
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Fly
+        brand_model: SX300
+        design_weight: 68
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: SX305
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Fly
+        brand_model: SX305
+        design_weight: 68
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: SX310
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Fly
+        brand_model: SX310
+        design_weight: 68
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: SX315
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Fly
+        brand_model: SX315
+        design_weight: 74
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: SX390
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Fly
+        brand_model: SX390
+        design_weight: 68
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Touch BC1003'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Fly
+        brand_model: 'Touch BC1003'
+        design_weight: 700
+        display_size: '10.1'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: V100
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Fly
+        brand_model: V100
+        design_weight: 75
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: V120
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Fly
+        brand_model: V120
+        design_weight: 70
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: V55
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Fly
+        brand_model: V55
+-
+    patterns:
+        -
+            strategy: string
+            value: V71
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Fly
+        brand_model: V71
+        design_weight: 85
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Via FlyTouch 256m'
+    capabilities:
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Fly
+        brand_model: 'Via FlyTouch 256m'
+        design_weight: 350
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: X3
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Fly
+        brand_model: X3
+        design_weight: 70
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Z300
+    capabilities:
+        is_mobile: true
+        display_width: 160
+        display_height: 128
+        brand_vendor: Fly
+        brand_model: Z300
+        design_weight: 70
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Z400
+    capabilities:
+        is_mobile: true
+        display_width: 160
+        display_height: 128
+        brand_vendor: Fly
+        brand_model: Z400
+        design_weight: 85
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Z500
+    capabilities:
+        is_mobile: true
+        display_width: 160
+        display_height: 128
+        brand_vendor: Fly
+        brand_model: Z500
+        design_weight: 85
+        display_type: TFT

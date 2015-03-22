@@ -1,0 +1,15 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: NBX-7012
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Noblex
+        brand_model: NBX-7012
+        design_weight: 348
+        display_size: '7'
+        display_type: LED

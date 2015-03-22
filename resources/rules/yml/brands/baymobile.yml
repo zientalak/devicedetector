@@ -1,0 +1,25 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: Chat
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: BayMobile
+        brand_model: Chat
+        design_weight: 82
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Touch
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 400
+        brand_vendor: BayMobile
+        brand_model: Touch

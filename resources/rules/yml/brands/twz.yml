@@ -1,0 +1,44 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: A459
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: TWZ
+        brand_model: A459
+        design_weight: 138
+        display_size: '4'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: A49
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: TWZ
+        brand_model: A49
+        display_size: '4'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Tab Play 002'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: TWZ
+        brand_model: 'Tab Play 002'
+        design_weight: 341
+        display_size: '7'
+        display_type: WVGA

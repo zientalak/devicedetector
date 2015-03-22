@@ -1,0 +1,70 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Gunius 713'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Teac
+        brand_model: 'Gunius 713'
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: TC-973D
+        -
+            strategy: string
+            value: 'Teac Slick'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Teac
+        brand_model: TC-973D
+        brand_marketing_name: 'Teac Slick'
+        brand_names: 'Teac Slick'
+        display_size: '9.7'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Slick TC-973'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 768
+        display_height: 1024
+        brand_vendor: Teac
+        brand_model: 'Slick TC-973'
+        display_size: '9.7'
+-
+    patterns:
+        -
+            strategy: string
+            value: TC-7110
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Teac
+        brand_model: TC-7110
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: TC-713
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Teac
+        brand_model: TC-713
+        display_size: '7'

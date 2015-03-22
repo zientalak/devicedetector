@@ -1,0 +1,15 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: EN-TAB419
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Ennovia
+        brand_model: EN-TAB419
+        design_weight: 400
+        display_size: '9.7'
+        display_type: IPS

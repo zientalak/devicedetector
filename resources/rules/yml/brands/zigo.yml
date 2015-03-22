@@ -1,0 +1,61 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Eon 4I'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Zigo
+        brand_model: 'Eon 4I'
+        display_size: '4'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Eon 5i'
+        -
+            strategy: string
+            value: 'Zigo Eon 53'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Zigo
+        brand_model: 'Eon 5i'
+        brand_marketing_name: 'Zigo Eon 53'
+        brand_names: 'Zigo Eon 53'
+        display_size: '4.3'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: Eon3I
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Zigo
+        brand_model: Eon3I
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Nebula 6.9'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Zigo
+        brand_model: 'Nebula 6.9'
+        display_size: '7'
+        display_type: TFT

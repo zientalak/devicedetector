@@ -1,0 +1,13 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: C2
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Metapad
+        brand_model: C2
+        display_size: '7'

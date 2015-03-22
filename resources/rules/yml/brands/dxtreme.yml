@@ -1,0 +1,45 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: D101
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: DXtreme
+        brand_model: D101
+        design_weight: 720
+        display_size: '10.1'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: D703b
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: DXtreme
+        brand_model: D703b
+        design_weight: 312
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: D704B
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: DXtreme
+        brand_model: D704B
+        design_weight: 380
+        display_size: '7'
+        display_type: TFT

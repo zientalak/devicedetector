@@ -1,0 +1,12 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: ST-A77
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 240
+        brand_vendor: Stone
+        brand_model: ST-A77
+        display_size: '2.4'

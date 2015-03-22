@@ -1,0 +1,15 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: '10 Inch'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Snowy
+        brand_model: '10 Inch'
+        design_weight: 800
+        display_size: '10.1'
+        display_type: TFT

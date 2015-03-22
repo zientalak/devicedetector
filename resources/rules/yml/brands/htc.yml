@@ -1,0 +1,6850 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 0PCV1
+        -
+            strategy: string
+            value: 'HTC Desire 510'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: HTC
+        brand_model: 0PCV1
+        brand_marketing_name: 'HTC Desire 510'
+        brand_names: 'HTC Desire 510'
+        design_weight: 158
+        display_size: '4.7'
+        display_type: FWVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: 0P3P7
+        -
+            strategy: string
+            value: 'HTC One Max'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: HTC
+        brand_model: 0P3P7
+        brand_marketing_name: 'HTC One Max'
+        brand_names: 'HTC One Max'
+        design_weight: 217
+        display_size: '5.9'
+        display_type: 'Super LCD 3'
+-
+    patterns:
+        -
+            strategy: string
+            value: 0P4E1
+        -
+            strategy: string
+            value: 'HTC Zara / HTC Desire 601'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: HTC
+        brand_model: 0P4E1
+        brand_marketing_name: 'HTC Zara / HTC Desire 601'
+        brand_names: 'HTC Zara / HTC Desire 601'
+        design_weight: 130
+        display_size: '4.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 0P6A1
+        -
+            strategy: string
+            value: 'HTC Desire 300'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: 0P6A1
+        brand_marketing_name: 'HTC Desire 300'
+        brand_names: 'HTC Desire 300'
+        design_weight: 120
+        display_size: '4.3'
+        display_type: 'WVGA TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: 0P6B130
+        -
+            strategy: string
+            value: 'HTC One M8'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: HTC
+        brand_model: 0P6B130
+        brand_marketing_name: 'HTC One M8'
+        brand_names: 'HTC One M8'
+        design_weight: 143
+        display_size: '4.7'
+        display_type: S-LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 0P9O110
+        -
+            strategy: string
+            value: 'HTC Desire 610'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: HTC
+        brand_model: 0P9O110
+        brand_marketing_name: 'HTC Desire 610'
+        brand_names: 'HTC Desire 610'
+        design_weight: 143
+        display_size: '4.7'
+        display_type: FWVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: 0PCV220
+        -
+            strategy: string
+            value: 'HTC A11, HTC Desire 510 4G'
+        -
+            strategy: string
+            value: 'HTC A11'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: HTC
+        brand_model: 0PCV220
+        brand_marketing_name: 'HTC A11'
+        brand_names: 'HTC A11, HTC Desire 510 4G'
+        design_weight: 158
+        display_size: '4.7'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: '2125'
+        -
+            strategy: string
+            value: 'HTC Faraday'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: '2125'
+        brand_marketing_name: 'HTC Faraday'
+        brand_names: 'HTC Faraday'
+        design_weight: 116
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: '310 Dual Sim'
+        -
+            strategy: string
+            value: 'HTC Desire 310 Dual Sim'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: HTC
+        brand_model: '310 Dual Sim'
+        brand_marketing_name: 'HTC Desire 310 Dual Sim'
+        brand_names: 'HTC Desire 310 Dual Sim'
+        design_weight: 140
+        display_size: '4.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: '3100'
+        -
+            strategy: string
+            value: 'HTC StarTrek'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: '3100'
+        brand_marketing_name: 'HTC StarTrek'
+        brand_names: 'HTC StarTrek'
+        design_weight: 176
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 331ZLVW
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: HTC
+        brand_model: 331ZLVW
+        design_weight: 146
+        display_size: '4.7'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: M4
+        -
+            strategy: string
+            value: 'HTC One Mini LTE, HTC 601S'
+        -
+            strategy: string
+            value: 'HTC One Mini LTE'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: HTC
+        brand_model: M4
+        brand_marketing_name: 'HTC One Mini LTE'
+        brand_names: 'HTC One Mini LTE, HTC 601S'
+        design_weight: 122
+        display_size: '4.3'
+        display_type: 'Super LCD2'
+-
+    patterns:
+        -
+            strategy: string
+            value: 603E
+        -
+            strategy: string
+            value: 'HTC E1'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: 603E
+        brand_marketing_name: 'HTC E1'
+        brand_names: 'HTC E1'
+        design_weight: 130
+        display_size: '4.3'
+        display_type: 'Super LCD 2'
+-
+    patterns:
+        -
+            strategy: string
+            value: 606W
+        -
+            strategy: string
+            value: 'HTC 606W Desire 600 Dual Sim, HTC 606W Desire 600'
+        -
+            strategy: string
+            value: 'HTC 606W Desire 600 Dual Sim'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: HTC
+        brand_model: 606W
+        brand_marketing_name: 'HTC 606W Desire 600 Dual Sim'
+        brand_names: 'HTC 606W Desire 600 Dual Sim, HTC 606W Desire 600'
+        design_weight: 130
+        display_size: '4.5'
+        display_type: 'qHD TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 608T
+        -
+            strategy: string
+            value: 'HTC Desire 608T, HTC CP3'
+        -
+            strategy: string
+            value: 'HTC Desire 608T'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: HTC
+        brand_model: 608T
+        brand_marketing_name: 'HTC Desire 608T'
+        brand_names: 'HTC Desire 608T, HTC CP3'
+        design_weight: 130
+        display_size: '4.5'
+        display_type: 'Super LCD 2'
+-
+    patterns:
+        -
+            strategy: string
+            value: 609d
+        -
+            strategy: string
+            value: 'HTC Desire 609d'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: HTC
+        brand_model: 609d
+        brand_marketing_name: 'HTC Desire 609d'
+        brand_names: 'HTC Desire 609d'
+        design_weight: 127
+        display_size: '4.5'
+        display_type: 'TFT SLCD2'
+-
+    patterns:
+        -
+            strategy: string
+            value: '6175'
+        -
+            strategy: string
+            value: 'HTC Ozone'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 240
+        brand_vendor: HTC
+        brand_model: '6175'
+        brand_marketing_name: 'HTC Ozone'
+        brand_names: 'HTC Ozone'
+        design_weight: 105
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 6435W
+        -
+            strategy: string
+            value: 'HTC Droid DNA'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: HTC
+        brand_model: 6435W
+        brand_marketing_name: 'HTC Droid DNA'
+        brand_names: 'HTC Droid DNA'
+        design_weight: 142
+        display_size: '5'
+        display_type: SLCD3
+-
+    patterns:
+        -
+            strategy: string
+            value: 6500LVW
+        -
+            strategy: string
+            value: 'HTC One'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: HTC
+        brand_model: 6500LVW
+        brand_marketing_name: 'HTC One'
+        brand_names: 'HTC One'
+        design_weight: 143
+        display_size: '4.7'
+        display_type: S-LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 6515LVW
+        -
+            strategy: string
+            value: 'HTC One Remix HTC6515LVW, HTC One mini 2'
+        -
+            strategy: string
+            value: 'HTC One Remix HTC6515LVW'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: HTC
+        brand_model: 6515LVW
+        brand_marketing_name: 'HTC One Remix HTC6515LVW'
+        brand_names: 'HTC One Remix HTC6515LVW, HTC One mini 2'
+        design_weight: 137
+        display_size: '4.5'
+        display_type: 'Super LCD2 TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: 6525LVW
+        -
+            strategy: string
+            value: 'HTC One M8'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: HTC
+        brand_model: 6525LVW
+        brand_marketing_name: 'HTC One M8'
+        brand_names: 'HTC One M8'
+        design_weight: 143
+        display_size: '4.7'
+        display_type: S-LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 6600LVW
+        -
+            strategy: string
+            value: 'HTC One Max'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: HTC
+        brand_model: 6600LVW
+        brand_marketing_name: 'HTC One Max'
+        brand_names: 'HTC One Max'
+        design_weight: 217
+        display_size: '5.9'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: '6600LVW 4G'
+        -
+            strategy: string
+            value: 'HTC One Max 4G'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: HTC
+        brand_model: '6600LVW 4G'
+        brand_marketing_name: 'HTC One Max 4G'
+        brand_names: 'HTC One Max 4G'
+        design_weight: 217
+        display_size: '5.9'
+        display_type: 'Super LCD 3'
+-
+    patterns:
+        -
+            strategy: string
+            value: '6850'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 640
+        brand_vendor: HTC
+        brand_model: '6850'
+        design_weight: 140
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: '6900'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: '6900'
+        design_weight: 165
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: '6990'
+    capabilities:
+        is_mobile: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: HTC
+        brand_model: '6990'
+        design_weight: 130
+        display_size: '4.3'
+        display_type: 'TFT SLCD2'
+-
+    patterns:
+        -
+            strategy: string
+            value: Mazaa
+        -
+            strategy: string
+            value: 'HTC 7 Mazaa'
+    capabilities:
+        is_mobile: true
+        display_width: 400
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: Mazaa
+        brand_marketing_name: 'HTC 7 Mazaa'
+        brand_names: 'HTC 7 Mazaa'
+        display_size: '3.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: PD67100
+        -
+            strategy: string
+            value: 'HTC 7 Mozart, HTC Mozart'
+        -
+            strategy: string
+            value: 'HTC 7 Mozart'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: PD67100
+        brand_marketing_name: 'HTC 7 Mozart'
+        brand_names: 'HTC 7 Mozart, HTC Mozart'
+        design_weight: 130
+        display_size: '3.7'
+        display_type: S-LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: MWP6885
+        -
+            strategy: string
+            value: 'HTC 7 Pro, HTC Arrive'
+        -
+            strategy: string
+            value: 'HTC 7 Pro'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: MWP6885
+        brand_marketing_name: 'HTC 7 Pro'
+        brand_names: 'HTC 7 Pro, HTC Arrive'
+        design_weight: 185
+        display_size: '3.6'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: T8788
+        -
+            strategy: string
+            value: 'HTC 7 Surround, HTC Surround'
+        -
+            strategy: string
+            value: 'HTC 7 Surround'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: T8788
+        brand_marketing_name: 'HTC 7 Surround'
+        brand_names: 'HTC 7 Surround, HTC Surround'
+        design_weight: 165
+        display_size: '3.8'
+-
+    patterns:
+        -
+            strategy: string
+            value: MWP6985
+        -
+            strategy: string
+            value: 'HTC 7 Trophy, HTC Trophy, HTC Spark'
+        -
+            strategy: string
+            value: 'HTC 7 Trophy'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: MWP6985
+        brand_marketing_name: 'HTC 7 Trophy'
+        brand_names: 'HTC 7 Trophy, HTC Trophy, HTC Spark'
+        design_weight: 140
+        display_size: '3.8'
+        display_type: 'TFT, S-LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 710C
+        -
+            strategy: string
+            value: 'Virgin Mobile HTC Desire 816 4G'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: HTC
+        brand_model: 710C
+        brand_marketing_name: 'Virgin Mobile HTC Desire 816 4G'
+        brand_names: 'Virgin Mobile HTC Desire 816 4G'
+        design_weight: 165
+        display_size: '5.5'
+        display_type: 'Super LCD2'
+-
+    patterns:
+        -
+            strategy: string
+            value: 801A
+        -
+            strategy: string
+            value: 'HTC One'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1920
+        display_height: 1080
+        brand_vendor: HTC
+        brand_model: 801A
+        brand_marketing_name: 'HTC One'
+        brand_names: 'HTC One'
+        design_weight: 143
+        display_size: '4.7'
+        display_type: 'Super LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 801E
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: HTC
+        brand_model: 801E
+        design_weight: 143
+        display_size: '4.7'
+        display_type: 'Super LCD 3, TFT-LCD,'
+-
+    patterns:
+        -
+            strategy: string
+            value: 802D
+        -
+            strategy: string
+            value: 'HTC One Dual SIM'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: HTC
+        brand_model: 802D
+        brand_marketing_name: 'HTC One Dual SIM'
+        brand_names: 'HTC One Dual SIM'
+        design_weight: 143
+        display_size: '4.7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 802T
+        -
+            strategy: string
+            value: 'HTC One 802T'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: HTC
+        brand_model: 802T
+        brand_marketing_name: 'HTC One 802T'
+        brand_names: 'HTC One 802T'
+        design_weight: 153
+        display_size: '4.7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 802W
+        -
+            strategy: string
+            value: 'HTC One M7'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: HTC
+        brand_model: 802W
+        brand_marketing_name: 'HTC One M7'
+        brand_names: 'HTC One M7'
+        design_weight: 143
+        display_size: '4.7'
+        display_type: S-LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: '8060'
+        -
+            strategy: string
+            value: 'HTC One Max Dual Sim, HTC One MAX T6 8060'
+        -
+            strategy: string
+            value: 'HTC One Max Dual Sim'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: HTC
+        brand_model: '8060'
+        brand_marketing_name: 'HTC One Max Dual Sim'
+        brand_names: 'HTC One Max Dual Sim, HTC One MAX T6 8060'
+        design_weight: 217
+        display_size: '5.9'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: '8282'
+        -
+            strategy: string
+            value: 'Touch HD T8282'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: '8282'
+        brand_marketing_name: 'Touch HD T8282'
+        design_weight: 146
+        display_size: '3.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: '8500'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: '8500'
+        design_weight: 99
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 8900A
+        -
+            strategy: string
+            value: Pilgrim/Tilt
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: 8900A
+        brand_marketing_name: Pilgrim/Tilt
+        design_weight: 190
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 8900B
+        -
+            strategy: string
+            value: 'HTC Olive G3100'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: 8900B
+        brand_marketing_name: 'HTC Olive G3100'
+        brand_names: 'HTC Olive G3100'
+        design_weight: 190
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Windows Phone 8X'
+        -
+            strategy: string
+            value: 'HTC Accord, HTC 8X'
+        -
+            strategy: string
+            value: 'HTC Accord'
+    capabilities:
+        is_mobile: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: HTC
+        brand_model: 'Windows Phone 8X'
+        brand_marketing_name: 'HTC Accord'
+        brand_names: 'HTC Accord, HTC 8X'
+        design_weight: 130
+        display_size: '4.3'
+        display_type: S-LCD2
+-
+    patterns:
+        -
+            strategy: string
+            value: '9000'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: '9000'
+        design_weight: 285
+        display_size: '3.6'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: '9090'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: '9090'
+        design_weight: 210
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: '9292'
+        -
+            strategy: string
+            value: 'EVO 4G'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: '9292'
+        brand_marketing_name: 'EVO 4G'
+        design_weight: 162
+        display_size: '4.3'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: '9500'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: '9500'
+        design_weight: 193
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A310E
+        -
+            strategy: string
+            value: 'HTC Explorer, HTC Pico'
+        -
+            strategy: string
+            value: 'HTC Explorer'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: HTC
+        brand_model: A310E
+        brand_marketing_name: 'HTC Explorer'
+        brand_names: 'HTC Explorer, HTC Pico'
+        design_weight: 108
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A320A
+        -
+            strategy: string
+            value: 'HTC Desire C, HTC Wildfire C, HTC Golf'
+        -
+            strategy: string
+            value: 'HTC Desire C'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: HTC
+        brand_model: A320A
+        brand_marketing_name: 'HTC Desire C'
+        brand_names: 'HTC Desire C, HTC Wildfire C, HTC Golf'
+        display_size: '3.5'
+-
+    patterns:
+        -
+            strategy: string
+            value: A3233
+        -
+            strategy: string
+            value: 'HTC Tattoo, HTC Click'
+        -
+            strategy: string
+            value: 'HTC Tattoo'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: A3233
+        brand_marketing_name: 'HTC Tattoo'
+        brand_names: 'HTC Tattoo, HTC Click'
+        design_weight: 113
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A3333
+        -
+            strategy: string
+            value: 'HTC Wildfire, HTC Buzz'
+        -
+            strategy: string
+            value: 'HTC Wildfire'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: A3333
+        brand_marketing_name: 'HTC Wildfire'
+        brand_names: 'HTC Wildfire, HTC Buzz'
+        design_weight: 118
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A3335
+        -
+            strategy: string
+            value: 'HTC Wildfire, HTC Buzz'
+        -
+            strategy: string
+            value: 'HTC Wildfire'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: A3335
+        brand_marketing_name: 'HTC Wildfire'
+        brand_names: 'HTC Wildfire, HTC Buzz'
+        design_weight: 118
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A510A
+        -
+            strategy: string
+            value: 'HTC Wildfire S, HTC Marvel'
+        -
+            strategy: string
+            value: 'HTC Wildfire S'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: HTC
+        brand_model: A510A
+        brand_marketing_name: 'HTC Wildfire S'
+        brand_names: 'HTC Wildfire S, HTC Marvel'
+        design_weight: 105
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A510B
+        -
+            strategy: string
+            value: 'HTC Wildfire S, HTC Marvel'
+        -
+            strategy: string
+            value: 'HTC Wildfire S'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: HTC
+        brand_model: A510B
+        brand_marketing_name: 'HTC Wildfire S'
+        brand_names: 'HTC Wildfire S, HTC Marvel'
+        design_weight: 105
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A510C
+        -
+            strategy: string
+            value: 'HTC Wildfire S, HTC Marvel'
+        -
+            strategy: string
+            value: 'HTC Wildfire S'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: HTC
+        brand_model: A510C
+        brand_marketing_name: 'HTC Wildfire S'
+        brand_names: 'HTC Wildfire S, HTC Marvel'
+        design_weight: 105
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A510E
+        -
+            strategy: string
+            value: 'HTC Wildfire S, HTC Marvel'
+        -
+            strategy: string
+            value: 'HTC Wildfire S'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: HTC
+        brand_model: A510E
+        brand_marketing_name: 'HTC Wildfire S'
+        brand_names: 'HTC Wildfire S, HTC Marvel'
+        design_weight: 105
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A6262
+        -
+            strategy: string
+            value: 'HTC Hero'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: HTC
+        brand_model: A6262
+        brand_marketing_name: 'HTC Hero'
+        brand_names: 'HTC Hero'
+        design_weight: 128
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A6277
+        -
+            strategy: string
+            value: 'HTC Hero Sprint, HTC Hero 200'
+        -
+            strategy: string
+            value: 'HTC Hero Sprint'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: HTC
+        brand_model: A6277
+        brand_marketing_name: 'HTC Hero Sprint'
+        brand_names: 'HTC Hero Sprint, HTC Hero 200'
+        design_weight: 128
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A6363
+        -
+            strategy: string
+            value: 'HTC Legend'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: HTC
+        brand_model: A6363
+        brand_marketing_name: 'HTC Legend'
+        brand_names: 'HTC Legend'
+        design_weight: 126
+        display_size: '3.2'
+        display_type: AMOLED
+-
+    patterns:
+        -
+            strategy: string
+            value: A6366
+        -
+            strategy: string
+            value: 'HTC Aria'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: HTC
+        brand_model: A6366
+        brand_marketing_name: 'HTC Aria'
+        brand_names: 'HTC Aria'
+        design_weight: 108
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A6380
+        -
+            strategy: string
+            value: 'HTC Aria, HCT Liberty, HTC Gratia'
+        -
+            strategy: string
+            value: 'HTC Aria'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: HTC
+        brand_model: A6380
+        brand_marketing_name: 'HTC Aria'
+        brand_names: 'HTC Aria, HCT Liberty, HTC Gratia'
+        design_weight: 115
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A7272
+        -
+            strategy: string
+            value: 'HTC Desire Z, HTC Vision, T-Mobile G2'
+        -
+            strategy: string
+            value: 'HTC Desire Z'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: A7272
+        brand_marketing_name: 'HTC Desire Z'
+        brand_names: 'HTC Desire Z, HTC Vision, T-Mobile G2'
+        design_weight: 180
+        display_size: '3.7'
+        display_type: S-LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: A7275
+        -
+            strategy: string
+            value: 'HTC Desire Z, HTC Vision'
+        -
+            strategy: string
+            value: 'HTC Desire Z'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: A7275
+        brand_marketing_name: 'HTC Desire Z'
+        brand_names: 'HTC Desire Z, HTC Vision'
+        design_weight: 180
+        display_size: '3.7'
+        display_type: S-LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: A810E
+        -
+            strategy: string
+            value: 'Htc ChaCha, HTC Status'
+        -
+            strategy: string
+            value: 'Htc ChaCha'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: A810E
+        brand_marketing_name: 'Htc ChaCha'
+        brand_names: 'Htc ChaCha, HTC Status'
+        design_weight: 120
+        display_size: '2.6'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A8181
+        -
+            strategy: string
+            value: 'HTC Desire, HTC Bravo'
+        -
+            strategy: string
+            value: 'HTC Desire'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: A8181
+        brand_marketing_name: 'HTC Desire'
+        brand_names: 'HTC Desire, HTC Bravo'
+        design_weight: 135
+        display_size: '3.7'
+        display_type: AMOLED
+-
+    patterns:
+        -
+            strategy: string
+            value: A8182
+        -
+            strategy: string
+            value: 'HTC Desire, HTC Bravo'
+        -
+            strategy: string
+            value: 'HTC Desire'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: A8182
+        brand_marketing_name: 'HTC Desire'
+        brand_names: 'HTC Desire, HTC Bravo'
+        design_weight: 135
+        display_size: '3.7'
+        display_type: AMOLED
+-
+    patterns:
+        -
+            strategy: string
+            value: A8183
+        -
+            strategy: string
+            value: 'HTC Desire, HTC Bravo'
+        -
+            strategy: string
+            value: 'HTC Desire'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: A8183
+        brand_marketing_name: 'HTC Desire'
+        brand_names: 'HTC Desire, HTC Bravo'
+        design_weight: 135
+        display_size: '3.7'
+        display_type: AMOLED
+-
+    patterns:
+        -
+            strategy: string
+            value: A9188
+        -
+            strategy: string
+            value: 'HTC Tianxi'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: A9188
+        brand_marketing_name: 'HTC Tianxi'
+        brand_names: 'HTC Tianxi'
+        design_weight: 172
+        display_size: '4.2'
+-
+    patterns:
+        -
+            strategy: string
+            value: A9191
+        -
+            strategy: string
+            value: 'HTC Desire HD, HTC Ace'
+        -
+            strategy: string
+            value: 'HTC Desire HD'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: A9191
+        brand_marketing_name: 'HTC Desire HD'
+        brand_names: 'HTC Desire HD, HTC Ace'
+        design_weight: 164
+        display_size: '4.3'
+        display_type: S-LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: A9192
+        -
+            strategy: string
+            value: 'HTC Desire HD, HTC Ace, HTC Inspire'
+        -
+            strategy: string
+            value: 'HTC Desire HD'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: A9192
+        brand_marketing_name: 'HTC Desire HD'
+        brand_names: 'HTC Desire HD, HTC Ace, HTC Inspire'
+        design_weight: 164
+        display_size: '4.3'
+        display_type: S-LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: ADR6200
+        -
+            strategy: string
+            value: 'HTC Desire, HTC Droid Eris'
+        -
+            strategy: string
+            value: 'HTC Desire'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: ADR6200
+        brand_marketing_name: 'HTC Desire'
+        brand_names: 'HTC Desire, HTC Droid Eris'
+        design_weight: 135
+        display_size: '3.7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: ADR6225
+        -
+            strategy: string
+            value: 'HTC Bee'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: ADR6225
+        brand_marketing_name: 'HTC Bee'
+        brand_names: 'HTC Bee'
+        design_weight: 115
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: ADR6230
+        -
+            strategy: string
+            value: 'HTC Wildfire S, HTC Marvel'
+        -
+            strategy: string
+            value: 'HTC Wildfire S'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: HTC
+        brand_model: ADR6230
+        brand_marketing_name: 'HTC Wildfire S'
+        brand_names: 'HTC Wildfire S, HTC Marvel'
+        design_weight: 105
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: ADR6275US
+        -
+            strategy: string
+            value: 'HTC Desire, HTC Bravo'
+        -
+            strategy: string
+            value: 'HTC Desire'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: ADR6275US
+        brand_marketing_name: 'HTC Desire'
+        brand_names: 'HTC Desire, HTC Bravo'
+        design_weight: 135
+        display_size: '3.7'
+        display_type: AMOLED
+-
+    patterns:
+        -
+            strategy: string
+            value: ADR6285
+        -
+            strategy: string
+            value: 'HTC Hero S'
+    capabilities:
+        is_mobile: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: HTC
+        brand_model: ADR6285
+        brand_marketing_name: 'HTC Hero S'
+        brand_names: 'HTC Hero S'
+        design_weight: 130
+        display_size: '4'
+        display_type: S-LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: ADR6290
+        -
+            strategy: string
+            value: 'HTC One V'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: ADR6290
+        brand_marketing_name: 'HTC One V'
+        brand_names: 'HTC One V'
+        design_weight: 115
+        display_size: '3.7'
+-
+    patterns:
+        -
+            strategy: string
+            value: ADR6300
+        -
+            strategy: string
+            value: 'HTC Droid Incredible, HTC Incredible'
+        -
+            strategy: string
+            value: 'HTC Droid Incredible'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: ADR6300
+        brand_marketing_name: 'HTC Droid Incredible'
+        brand_names: 'HTC Droid Incredible, HTC Incredible'
+        design_weight: 130
+        display_size: '3.7'
+        display_type: AMOLED
+-
+    patterns:
+        -
+            strategy: string
+            value: ADR6325
+        -
+            strategy: string
+            value: 'HTC Lexikon, HTC Merge'
+        -
+            strategy: string
+            value: 'HTC Lexikon'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: ADR6325
+        brand_marketing_name: 'HTC Lexikon'
+        brand_names: 'HTC Lexikon, HTC Merge'
+        design_weight: 198
+        display_size: '3.8'
+        display_type: S-LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: ADR6330VW
+        -
+            strategy: string
+            value: 'HTC Rhyme'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: ADR6330VW
+        brand_marketing_name: 'HTC Rhyme'
+        brand_names: 'HTC Rhyme'
+        design_weight: 135
+        display_size: '3.7'
+        display_type: S-LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: ADR6350
+        -
+            strategy: string
+            value: 'HTC Droid Incredible 2, HTC Vivo, PCD ADR6350'
+        -
+            strategy: string
+            value: 'HTC Droid Incredible 2'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: ADR6350
+        brand_marketing_name: 'HTC Droid Incredible 2'
+        brand_names: 'HTC Droid Incredible 2, HTC Vivo, PCD ADR6350'
+        design_weight: 135
+        display_size: '4'
+        display_type: S-LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: ADR6400L
+        -
+            strategy: string
+            value: 'HTC Incredible HD, HTC Thunderbolt, HTC Mecha'
+        -
+            strategy: string
+            value: 'HTC Incredible HD'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: ADR6400L
+        brand_marketing_name: 'HTC Incredible HD'
+        brand_names: 'HTC Incredible HD, HTC Thunderbolt, HTC Mecha'
+        design_weight: 177
+        display_size: '4.3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: ADR6410
+        -
+            strategy: string
+            value: 'HTC Droid Incredible 4G, HTC Fireball, HTC Droid Incredible 3'
+        -
+            strategy: string
+            value: 'HTC Droid Incredible 4G'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: HTC
+        brand_model: ADR6410
+        brand_marketing_name: 'HTC Droid Incredible 4G'
+        brand_names: 'HTC Droid Incredible 4G, HTC Fireball, HTC Droid Incredible 3'
+        design_weight: 132
+        display_size: '4'
+        display_type: S-LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: ADR6425
+        -
+            strategy: string
+            value: 'HTC Droid Incredible HD, HTC ThunderBolt 2, HTC Vigor, HTC Rezound'
+        -
+            strategy: string
+            value: 'HTC Droid Incredible HD'
+    capabilities:
+        is_mobile: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: HTC
+        brand_model: ADR6425
+        brand_marketing_name: 'HTC Droid Incredible HD'
+        brand_names: 'HTC Droid Incredible HD, HTC ThunderBolt 2, HTC Vigor, HTC Rezound'
+        design_weight: 170
+        display_size: '4.3'
+        display_type: S-LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: ADR6435
+        -
+            strategy: string
+            value: 'HTC Droid DNA'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: HTC
+        brand_model: ADR6435
+        brand_marketing_name: 'HTC Droid DNA'
+        brand_names: 'HTC Droid DNA'
+        design_weight: 142
+        display_size: '5'
+        display_type: SLCD3
+-
+    patterns:
+        -
+            strategy: string
+            value: AP831CHK
+        -
+            strategy: string
+            value: 'HTC One M8'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: HTC
+        brand_model: AP831CHK
+        brand_marketing_name: 'HTC One M8'
+        brand_names: 'HTC One M8'
+        design_weight: 143
+        display_size: '4.7'
+        display_type: S-LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: APA7373KT
+        -
+            strategy: string
+            value: 'HTC Evo Shift, HTC Detail'
+        -
+            strategy: string
+            value: 'HTC Evo Shift'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: APA7373KT
+        brand_marketing_name: 'HTC Evo Shift'
+        brand_names: 'HTC Evo Shift, HTC Detail'
+        design_weight: 167
+        display_size: '3.6'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: APA9292KT
+        -
+            strategy: string
+            value: 'HTC Evo 4G, HTC Supersonic'
+        -
+            strategy: string
+            value: 'HTC Evo 4G'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: APA9292KT
+        brand_marketing_name: 'HTC Evo 4G'
+        brand_names: 'HTC Evo 4G, HTC Supersonic'
+        design_weight: 170
+        display_size: '4.3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: APC715CKT
+        -
+            strategy: string
+            value: 'HTC Evo Design 4G'
+    capabilities:
+        is_mobile: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: HTC
+        brand_model: APC715CKT
+        brand_marketing_name: 'HTC Evo Design 4G'
+        brand_names: 'HTC Evo Design 4G'
+        design_weight: 147
+        display_size: '4'
+        display_type: S-LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: APX325CKT
+        -
+            strategy: string
+            value: 'HTC Evo 4G LTE, Evo One'
+        -
+            strategy: string
+            value: 'HTC Evo 4G LTE'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: HTC
+        brand_model: APX325CKT
+        brand_marketing_name: 'HTC Evo 4G LTE'
+        brand_names: 'HTC Evo 4G LTE, Evo One'
+        design_weight: 134
+        display_size: '4.7'
+        display_type: 'Super IPS LCD2'
+-
+    patterns:
+        -
+            strategy: string
+            value: APX515CKT
+        -
+            strategy: string
+            value: 'HTC EVO 3D, HTC Shooter, HTC Evo V 4G'
+        -
+            strategy: string
+            value: 'HTC EVO 3D'
+    capabilities:
+        is_mobile: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: HTC
+        brand_model: APX515CKT
+        brand_marketing_name: 'HTC EVO 3D'
+        brand_names: 'HTC EVO 3D, HTC Shooter, HTC Evo V 4G'
+        design_weight: 170
+        display_size: '4.3'
+        display_type: S-LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: ATP515CKIT
+        -
+            strategy: string
+            value: 'HTC EVO View 4G'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: HTC
+        brand_model: ATP515CKIT
+        brand_marketing_name: 'HTC EVO View 4G'
+        brand_names: 'HTC EVO View 4G'
+        design_weight: 425
+        display_size: '7'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: Acquire
+    capabilities:
+        is_mobile: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: HTC
+        brand_model: Acquire
+        design_weight: 148
+        display_size: '4'
+        display_type: S-LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: X7500
+        -
+            strategy: string
+            value: 'HTC Advantage, HTC Athena'
+        -
+            strategy: string
+            value: 'HTC Advantage'
+    capabilities:
+        is_mobile: true
+        display_width: 640
+        display_height: 480
+        brand_vendor: HTC
+        brand_model: X7500
+        brand_marketing_name: 'HTC Advantage'
+        brand_names: 'HTC Advantage, HTC Athena'
+        design_weight: 359
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Amaze 4G'
+        -
+            strategy: string
+            value: 'HTC Ruby'
+    capabilities:
+        is_mobile: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: HTC
+        brand_model: 'Amaze 4G'
+        brand_marketing_name: 'HTC Ruby'
+        brand_names: 'HTC Ruby'
+        design_weight: 173
+        display_size: '4.3'
+        display_type: S-LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: PPC-6700
+        -
+            strategy: string
+            value: 'HTC Apache'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: PPC-6700
+        brand_marketing_name: 'HTC Apache'
+        brand_names: 'HTC Apache'
+        design_weight: 172
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P3300
+        -
+            strategy: string
+            value: 'HTC Cruiser, HTC Artemis, O2 Orbit'
+        -
+            strategy: string
+            value: 'HTC Cruiser'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: P3300
+        brand_marketing_name: 'HTC Cruiser'
+        brand_names: 'HTC Cruiser, HTC Artemis, O2 Orbit'
+        design_weight: 130
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P4351
+        -
+            strategy: string
+            value: 'HTC Atlas'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: P4351
+        brand_marketing_name: 'HTC Atlas'
+        brand_names: 'HTC Atlas'
+        design_weight: 168
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Bahamas
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: HTC
+        brand_model: Bahamas
+        design_weight: 116
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Z715E
+        -
+            strategy: string
+            value: 'HTC Sensation XE, HTC Beat, HTC Sensation XL with Beats Audio'
+        -
+            strategy: string
+            value: 'HTC Sensation XE'
+    capabilities:
+        is_mobile: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: HTC
+        brand_model: Z715E
+        brand_marketing_name: 'HTC Sensation XE'
+        brand_names: 'HTC Sensation XE, HTC Beat, HTC Sensation XL with Beats Audio'
+        design_weight: 151
+        display_size: '4.3'
+        display_type: S-LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: Blackstone
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: Blackstone
+        design_weight: 146
+        display_size: '3.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Blue Angel'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: 'Blue Angel'
+        design_weight: 210
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Bresson
+    capabilities:
+        is_mobile: true
+        brand_vendor: HTC
+        brand_model: Bresson
+-
+    patterns:
+        -
+            strategy: string
+            value: P6800
+        -
+            strategy: string
+            value: 'HTC Titan, HTC Eternity, HTC Bunyip'
+        -
+            strategy: string
+            value: 'HTC Titan'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: P6800
+        brand_marketing_name: 'HTC Titan'
+        brand_names: 'HTC Titan, HTC Eternity, HTC Bunyip'
+        design_weight: 160
+        display_size: '4.7'
+        display_type: S-LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: Butterfly
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: HTC
+        brand_model: Butterfly
+        design_weight: 140
+        display_size: '5'
+        display_type: 'Super LCD2'
+-
+    patterns:
+        -
+            strategy: string
+            value: C11E
+        -
+            strategy: string
+            value: 'HTC Omega, HTC Radar 4G, HTC Radar'
+        -
+            strategy: string
+            value: 'HTC Omega'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: C11E
+        brand_marketing_name: 'HTC Omega'
+        brand_names: 'HTC Omega, HTC Radar 4G, HTC Radar'
+        design_weight: 137
+        display_size: '3.8'
+        display_type: S-LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: C525C
+        -
+            strategy: string
+            value: 'HTC One SV'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: C525C
+        brand_marketing_name: 'HTC One SV'
+        brand_names: 'HTC One SV'
+        design_weight: 122
+        display_size: '4.3'
+        display_type: 'Super LCD2'
+-
+    patterns:
+        -
+            strategy: string
+            value: C525U
+        -
+            strategy: string
+            value: 'HTC One SV 4G'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: C525U
+        brand_marketing_name: 'HTC One SV 4G'
+        brand_names: 'HTC One SV 4G'
+        design_weight: 122
+        display_size: '4.3'
+        display_type: 'Super LCD2'
+-
+    patterns:
+        -
+            strategy: string
+            value: C715C
+        -
+            strategy: string
+            value: 'HTC Evo Design 4G'
+    capabilities:
+        is_mobile: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: HTC
+        brand_model: C715C
+        brand_marketing_name: 'HTC Evo Design 4G'
+        brand_names: 'HTC Evo Design 4G'
+        design_weight: 147
+        display_size: '4'
+        display_type: S-LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: Canary
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: HTC
+        brand_model: Canary
+        design_weight: 120
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Cavalier
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: Cavalier
+        design_weight: 120
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Charmer
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: Charmer
+        design_weight: 150
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Cleo
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: Cleo
+        design_weight: 150
+        display_size: '2.6'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: D310N
+        -
+            strategy: string
+            value: 'HTC Desire 310 N'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: HTC
+        brand_model: D310N
+        brand_marketing_name: 'HTC Desire 310 N'
+        brand_names: 'HTC Desire 310 N'
+        design_weight: 140
+        display_size: '4.5'
+        display_type: 'FWVGA TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: D610X
+        -
+            strategy: string
+            value: 'HTC D610x Desire 610'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: HTC
+        brand_model: D610X
+        brand_marketing_name: 'HTC D610x Desire 610'
+        brand_names: 'HTC D610x Desire 610'
+        design_weight: 143
+        display_size: '4.7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: D816W
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: HTC
+        brand_model: D816W
+        design_weight: 165
+        display_size: '5.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: D816X
+        -
+            strategy: string
+            value: 'HTC Desire 816 Dual SIM D816X'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: HTC
+        brand_model: D816X
+        brand_marketing_name: 'HTC Desire 816 Dual SIM D816X'
+        brand_names: 'HTC Desire 816 Dual SIM D816X'
+        design_weight: 165
+        display_size: '5.5'
+        display_type: 'Super LCD2'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Dash 3G'
+        -
+            strategy: string
+            value: 'T-Mobile Dash 3G'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 240
+        brand_vendor: HTC
+        brand_model: 'Dash 3G'
+        brand_marketing_name: 'T-Mobile Dash 3G'
+        brand_names: 'T-Mobile Dash 3G'
+        design_weight: 120
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: X920E
+        -
+            strategy: string
+            value: 'HTC Butterfly, HTC Deluxe'
+        -
+            strategy: string
+            value: 'HTC Butterfly'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: HTC
+        brand_model: X920E
+        brand_marketing_name: 'HTC Butterfly'
+        brand_names: 'HTC Butterfly, HTC Deluxe'
+        design_weight: 140
+        display_size: '5'
+        display_type: 'Super LCD 3'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Desire 210 Dual SIM'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: 'Desire 210 Dual SIM'
+        design_weight: 130
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Desire 516 Dual SIM'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: HTC
+        brand_model: 'Desire 516 Dual SIM'
+        design_weight: 160
+        display_size: '5'
+        display_type: qHD
+-
+    patterns:
+        -
+            strategy: string
+            value: IM-A710K
+        -
+            strategy: string
+            value: 'HTC Desire HD SoftBank'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: IM-A710K
+        brand_marketing_name: 'HTC Desire HD SoftBank'
+        brand_names: 'HTC Desire HD SoftBank'
+        design_weight: 164
+        display_size: '4.3'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: S510B
+        -
+            strategy: string
+            value: 'HTC Rhyme, HTC Desire S'
+        -
+            strategy: string
+            value: 'HTC Rhyme'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: S510B
+        brand_marketing_name: 'HTC Rhyme'
+        brand_names: 'HTC Rhyme, HTC Desire S'
+        design_weight: 135
+        display_size: '3.7'
+        display_type: S-LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: T326E
+        -
+            strategy: string
+            value: 'HTC Desire SV'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: T326E
+        brand_marketing_name: 'HTC Desire SV'
+        brand_names: 'HTC Desire SV'
+        design_weight: 131
+        display_size: '4.3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Promin U'
+        -
+            strategy: string
+            value: 'HTC Desire U'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: 'Promin U'
+        brand_marketing_name: 'HTC Desire U'
+        brand_names: 'HTC Desire U'
+        design_weight: 114
+        display_size: '4'
+        display_type: 'Super LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Desire U Dual SIM'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: 'Desire U Dual SIM'
+        design_weight: 114
+        display_size: '4'
+        display_type: 'Super LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: T328W
+        -
+            strategy: string
+            value: 'HTC Desire V, HTC Wind'
+        -
+            strategy: string
+            value: 'HTC Desire V'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: T328W
+        brand_marketing_name: 'HTC Desire V'
+        brand_names: 'HTC Desire V, HTC Wind'
+        display_size: '4'
+        display_type: 'Super LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: T328D
+        -
+            strategy: string
+            value: 'HTC Desire VC'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: T328D
+        brand_marketing_name: 'HTC Desire VC'
+        brand_names: 'HTC Desire VC'
+        design_weight: 118
+        display_size: '4'
+        display_type: WVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: T328T
+        -
+            strategy: string
+            value: 'HTC Desire VT'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 400
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: T328T
+        brand_marketing_name: 'HTC Desire VT'
+        brand_names: 'HTC Desire VT'
+        design_weight: 118
+        display_size: '4'
+        display_type: 'Super LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: T328E
+        -
+            strategy: string
+            value: 'HTC Desire X'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: T328E
+        brand_marketing_name: 'HTC Desire X'
+        brand_names: 'HTC Desire X'
+        design_weight: 114
+        display_size: '4'
+        display_type: 'Super LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Desire X Dual Sim'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: 'Desire X Dual Sim'
+        design_weight: 114
+        display_size: '4'
+        display_type: 'Super LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: T329W
+        -
+            strategy: string
+            value: 'HTC Desire X T329W'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: T329W
+        brand_marketing_name: 'HTC Desire X T329W'
+        brand_names: 'HTC Desire X T329W'
+        design_weight: 114
+        display_size: '4'
+        display_type: 'Super TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: PLS7373ADR
+        -
+            strategy: string
+            value: 'HTC Evo Shift, HTC Detail'
+        -
+            strategy: string
+            value: 'HTC Evo Shift'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: PLS7373ADR
+        brand_marketing_name: 'HTC Evo Shift'
+        brand_names: 'HTC Evo Shift, HTC Detail'
+        design_weight: 167
+        display_size: '3.6'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'DoCoMo 03A'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: HTC
+        brand_model: 'DoCoMo 03A'
+        design_weight: 118
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'myTouch 4G Slide'
+        -
+            strategy: string
+            value: 'T-Mobile myTouch 4G Slide, HTC Doubleshot, Motorola S610d'
+        -
+            strategy: string
+            value: 'T-Mobile myTouch 4G Slide'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: 'myTouch 4G Slide'
+        brand_marketing_name: 'T-Mobile myTouch 4G Slide'
+        brand_names: 'T-Mobile myTouch 4G Slide, HTC Doubleshot, Motorola S610d'
+        design_weight: 184
+        display_size: '3.7'
+        display_type: S-LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: Dream
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: HTC
+        brand_model: Dream
+        design_weight: 158
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'EVO 3D CDMA'
+        -
+            strategy: string
+            value: 'HTC EVO V 4G'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: HTC
+        brand_model: 'EVO 3D CDMA'
+        brand_marketing_name: 'HTC EVO V 4G'
+        brand_names: 'HTC EVO V 4G'
+        design_weight: 170
+        display_size: '4.3'
+        display_type: S-LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'EVO 3D GSM'
+    capabilities:
+        is_mobile: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: HTC
+        brand_model: 'EVO 3D GSM'
+        design_weight: 170
+        display_size: '4.3'
+        display_type: S-LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: ISW11HT
+        -
+            strategy: string
+            value: 'HTC EVO WiMAX'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: HTC
+        brand_model: ISW11HT
+        brand_marketing_name: 'HTC EVO WiMAX'
+        brand_names: 'HTC EVO WiMAX'
+        design_weight: 170
+        display_size: '4.3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: S720T
+        -
+            strategy: string
+            value: 'HTC One XT, HTC Supreme, HTC Edge, HTC Evita'
+        -
+            strategy: string
+            value: 'HTC One XT'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: HTC
+        brand_model: S720T
+        brand_marketing_name: 'HTC One XT'
+        brand_names: 'HTC One XT, HTC Supreme, HTC Edge, HTC Evita'
+        design_weight: 129
+        display_size: '4.7'
+        display_type: 'Super IPS LCD2'
+-
+    patterns:
+        -
+            strategy: string
+            value: Elf
+        -
+            strategy: string
+            value: 'HTC Touch P3450 (HTC Elf 100)'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: Elf
+        brand_marketing_name: 'HTC Touch P3450 (HTC Elf 100)'
+        design_weight: 112
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Eris
+        -
+            strategy: string
+            value: 'HTC Droid Eris'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: HTC
+        brand_model: Eris
+        brand_marketing_name: 'HTC Droid Eris'
+        brand_names: 'HTC Droid Eris'
+        design_weight: 120
+        display_size: '3.2'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: Espresso
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: HTC
+        brand_model: Espresso
+        design_weight: 167
+        display_size: '3.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Z520E
+        -
+            strategy: string
+            value: 'HTC One S, HTC Ville, HTC Eva Ul'
+        -
+            strategy: string
+            value: 'HTC One S'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: HTC
+        brand_model: Z520E
+        brand_marketing_name: 'HTC One S'
+        brand_names: 'HTC One S, HTC Ville, HTC Eva Ul'
+        design_weight: 120
+        display_size: '4.3'
+        display_type: 'Super AMOLED'
+-
+    patterns:
+        -
+            strategy: string
+            value: PH44100
+        -
+            strategy: string
+            value: 'HTC Evo Design 4G'
+    capabilities:
+        is_mobile: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: HTC
+        brand_model: PH44100
+        brand_marketing_name: 'HTC Evo Design 4G'
+        brand_names: 'HTC Evo Design 4G'
+        design_weight: 147
+        display_size: '4'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Evo Design C715E'
+    capabilities:
+        is_mobile: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: HTC
+        brand_model: 'Evo Design C715E'
+        design_weight: 147
+        display_size: '4'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: S620
+        -
+            strategy: string
+            value: 'HTC Excalibur'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 240
+        brand_vendor: HTC
+        brand_model: S620
+        brand_marketing_name: 'HTC Excalibur'
+        brand_names: 'HTC Excalibur'
+        design_weight: 120
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Neon
+        -
+            strategy: string
+            value: 'HTC FOMA HT1100'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: Neon
+        brand_marketing_name: 'HTC FOMA HT1100'
+        brand_names: 'HTC FOMA HT1100'
+        design_weight: 120
+        display_size: '2.6'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: FOREseer
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 240
+        brand_vendor: HTC
+        brand_model: FOREseer
+        design_weight: 106
+        display_size: '2.2'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: Fiesta
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: HTC
+        brand_model: Fiesta
+        design_weight: 118
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: First
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: HTC
+        brand_model: First
+        design_weight: 124
+        display_size: '4.3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P510E
+        -
+            strategy: string
+            value: 'HTC Flyer'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: HTC
+        brand_model: P510E
+        brand_marketing_name: 'HTC Flyer'
+        brand_names: 'HTC Flyer'
+        design_weight: 420
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Freestyle
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: HTC
+        brand_model: Freestyle
+        design_weight: 128
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: PPC6850SP
+        -
+            strategy: string
+            value: 'T-Mobile MDA Vario IV, HTC Fuze'
+        -
+            strategy: string
+            value: 'T-Mobile MDA Vario IV'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 640
+        brand_vendor: HTC
+        brand_model: PPC6850SP
+        brand_marketing_name: 'T-Mobile MDA Vario IV'
+        brand_names: 'T-Mobile MDA Vario IV, HTC Fuze'
+        design_weight: 165
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: G-Infinity
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: G-Infinity
+-
+    patterns:
+        -
+            strategy: string
+            value: Gemini
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: Gemini
+        design_weight: 212
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P3400
+        -
+            strategy: string
+            value: 'HTC Gene'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: P3400
+        brand_marketing_name: 'HTC Gene'
+        brand_names: 'HTC Gene'
+        design_weight: 126
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Glacier
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: Glacier
+        design_weight: 142
+        display_size: '3.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Glamor
+    capabilities:
+        is_mobile: true
+        brand_vendor: HTC
+        brand_model: Glamor
+-
+    patterns:
+        -
+            strategy: string
+            value: H1000C
+        -
+            strategy: string
+            value: 'HTC Desire C'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: HTC
+        brand_model: H1000C
+        brand_marketing_name: 'HTC Desire C'
+        brand_names: 'HTC Desire C'
+        design_weight: 98
+        display_size: '3.5'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: H2000C
+        -
+            strategy: string
+            value: 'HTC One V, HTC Primo'
+        -
+            strategy: string
+            value: 'HTC One V'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: H2000C
+        brand_marketing_name: 'HTC One V'
+        brand_names: 'HTC One V, HTC Primo'
+        design_weight: 115
+        display_size: '3.7'
+-
+    patterns:
+        -
+            strategy: string
+            value: H3000c
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: HTC
+        brand_model: H3000c
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: T5555
+        -
+            strategy: string
+            value: 'HTC HD Mini'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: HTC
+        brand_model: T5555
+        brand_marketing_name: 'HTC HD Mini'
+        brand_names: 'HTC HD Mini'
+        design_weight: 110
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: HD2
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: HD2
+        design_weight: 157
+        display_size: '4.3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'HD2 Android'
+        -
+            strategy: string
+            value: 'HTC HD2 Android Custom Rom'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: 'HD2 Android'
+        brand_marketing_name: 'HTC HD2 Android Custom Rom'
+        brand_names: 'HTC HD2 Android Custom Rom'
+        design_weight: 157
+        display_size: '4.3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: T9295
+        -
+            strategy: string
+            value: 'HTC HD7'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: T9295
+        brand_marketing_name: 'HTC HD7'
+        brand_names: 'HTC HD7'
+        design_weight: 162
+        display_size: '4.3'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: HD7S
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: HD7S
+        design_weight: 162
+        display_size: '4.3'
+        display_type: S-LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: HT-02A
+        -
+            strategy: string
+            value: 'DoCoMo Pro Series HT-02A'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 640
+        brand_vendor: HTC
+        brand_model: HT-02A
+        brand_marketing_name: 'DoCoMo Pro Series HT-02A'
+        brand_names: 'DoCoMo Pro Series HT-02A'
+        design_weight: 110
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: HT-03A
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: HTC
+        brand_model: HT-03A
+        design_weight: 118
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: HTL21
+        -
+            strategy: string
+            value: 'HTC J Butterfly'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1920
+        display_height: 1080
+        brand_vendor: HTC
+        brand_model: HTL21
+        brand_marketing_name: 'HTC J Butterfly'
+        brand_names: 'HTC J Butterfly'
+        design_weight: 140
+        display_size: '5'
+        display_type: 'Super LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: HTX21
+        -
+            strategy: string
+            value: 'KDDI Iinfobar A02'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: HTC
+        brand_model: HTX21
+        brand_marketing_name: 'KDDI Iinfobar A02'
+        brand_names: 'KDDI Iinfobar A02'
+        design_weight: 147
+        display_size: '4.7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Harrier
+        -
+            strategy: string
+            value: 'PCD XV-6600, PCD PPC-6600, PCD PPC-6601, Verizon Wireless XV6600'
+        -
+            strategy: string
+            value: 'PCD XV-6600'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: Harrier
+        brand_marketing_name: 'PCD XV-6600'
+        brand_names: 'PCD XV-6600, PCD PPC-6600, PCD PPC-6601, Verizon Wireless XV6600'
+        design_weight: 210
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Herald
+        -
+            strategy: string
+            value: 'T-Mobile Wing, O2 XDA Terra, HTC P4350'
+        -
+            strategy: string
+            value: 'T-Mobile Wing'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: Herald
+        brand_marketing_name: 'T-Mobile Wing'
+        brand_names: 'T-Mobile Wing, O2 XDA Terra, HTC P4350'
+        design_weight: 168
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P4500
+        -
+            strategy: string
+            value: 'HTC TyTN, HTC Hermes, AT&T 8525, O2 XDA Trion, Cingular 8525'
+        -
+            strategy: string
+            value: 'HTC TyTN'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: P4500
+        brand_marketing_name: 'HTC TyTN'
+        brand_names: 'HTC TyTN, HTC Hermes, AT&T 8525, O2 XDA Trion, Cingular 8525'
+        design_weight: 176
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Hero2
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: HTC
+        brand_model: Hero2
+        design_weight: 130
+        display_size: '3.2'
+        display_type: AMOLED
+-
+    patterns:
+        -
+            strategy: string
+            value: Himalaya
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: Himalaya
+        design_weight: 190
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Holiday
+        -
+            strategy: string
+            value: 'HTC Velocity Telstra'
+    capabilities:
+        is_mobile: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: HTC
+        brand_model: Holiday
+        brand_marketing_name: 'HTC Velocity Telstra'
+        brand_names: 'HTC Velocity Telstra'
+        design_weight: 177
+        display_size: '4.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Hurricane
+        -
+            strategy: string
+            value: 'i-mate SP4m, Orange C550, Qtek 8200'
+        -
+            strategy: string
+            value: 'i-mate SP4m'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: Hurricane
+        brand_marketing_name: 'i-mate SP4m'
+        brand_names: 'i-mate SP4m, Orange C550, Qtek 8200'
+        design_weight: 107
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: ISW12HT
+        -
+            strategy: string
+            value: 'HTC EVO 3D, HTC Shooter, HTC Evo V 4G'
+        -
+            strategy: string
+            value: 'HTC EVO 3D'
+    capabilities:
+        is_mobile: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: HTC
+        brand_model: ISW12HT
+        brand_marketing_name: 'HTC EVO 3D'
+        brand_names: 'HTC EVO 3D, HTC Shooter, HTC Evo V 4G'
+        design_weight: 170
+        display_size: '4.3'
+        display_type: S-LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: ISW13HT
+        -
+            strategy: string
+            value: 'HTC Nippon, HTC J'
+        -
+            strategy: string
+            value: 'HTC Nippon'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: HTC
+        brand_model: ISW13HT
+        brand_marketing_name: 'HTC Nippon'
+        brand_names: 'HTC Nippon, HTC J'
+        design_weight: 142
+        display_size: '4.3'
+        display_type: 'Super AMOLED'
+-
+    patterns:
+        -
+            strategy: string
+            value: Ignite
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: Ignite
+        display_size: '3.7'
+        display_type: S-LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: XV6975
+        -
+            strategy: string
+            value: 'HTC Imagio'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: XV6975
+        brand_marketing_name: 'HTC Imagio'
+        brand_names: 'HTC Imagio'
+        design_weight: 150
+        display_size: '3.6'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Incredible S'
+        -
+            strategy: string
+            value: 'HTC S710E'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: 'Incredible S'
+        brand_marketing_name: 'HTC S710E'
+        brand_names: 'HTC S710E'
+        design_weight: 135
+        display_size: '4'
+        display_type: 'Super LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: S710D
+        -
+            strategy: string
+            value: 'HTC Incredible S710D'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: S710D
+        brand_marketing_name: 'HTC Incredible S710D'
+        brand_names: 'HTC Incredible S710D'
+        design_weight: 135
+        display_size: '4'
+        display_type: 'TFT Super LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: PG86310
+        -
+            strategy: string
+            value: 'HTC Inspire 3D'
+    capabilities:
+        is_mobile: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: HTC
+        brand_model: PG86310
+        brand_marketing_name: 'HTC Inspire 3D'
+        brand_names: 'HTC Inspire 3D'
+        design_weight: 170
+        display_size: '4.3'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: PD98120
+        -
+            strategy: string
+            value: 'HTC Inspire 4G'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: PD98120
+        brand_marketing_name: 'HTC Inspire 4G'
+        brand_names: 'HTC Inspire 4G'
+        design_weight: 164
+        display_size: '4.3'
+        display_type: S-LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Inspire HD'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: 'Inspire HD'
+        design_weight: 164
+        display_size: '4.3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'J One HTL22'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: HTC
+        brand_model: 'J One HTL22'
+        design_weight: 157
+        display_size: '4.7'
+        display_type: 'Super LCD 3'
+-
+    patterns:
+        -
+            strategy: string
+            value: Jade
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: Jade
+        design_weight: 96
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: X720d
+        -
+            strategy: string
+            value: 'HTC Jel'
+    capabilities:
+        is_mobile: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: HTC
+        brand_model: X720d
+        brand_marketing_name: 'HTC Jel'
+        brand_names: 'HTC Jel'
+        design_weight: 138
+        display_size: '4.7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: PJ83100
+        -
+            strategy: string
+            value: 'HTC One X, HTC Jet'
+        -
+            strategy: string
+            value: 'HTC One X'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: HTC
+        brand_model: PJ83100
+        brand_marketing_name: 'HTC One X'
+        brand_names: 'HTC One X, HTC Jet'
+        design_weight: 129
+        display_size: '4.7'
+        display_type: 'Super IPS LCD2'
+-
+    patterns:
+        -
+            strategy: string
+            value: P715A
+        -
+            strategy: string
+            value: 'HTC Jetstream, HTC Puccini'
+        -
+            strategy: string
+            value: 'HTC Jetstream'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 1280
+        brand_vendor: HTC
+        brand_model: P715A
+        brand_marketing_name: 'HTC Jetstream'
+        brand_names: 'HTC Jetstream, HTC Puccini'
+        design_weight: 709
+        display_size: '10.1'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: Juno
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 240
+        brand_vendor: HTC
+        brand_model: Juno
+        design_weight: 150
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Kaiser
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: Kaiser
+        design_weight: 190
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Kingdom
+    capabilities:
+        is_mobile: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: HTC
+        brand_model: Kingdom
+        design_weight: 147
+        display_size: '4'
+        display_type: S-LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: Knight
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: Knight
+        design_weight: 167
+        display_size: '3.6'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Lancaster
+    capabilities:
+        is_mobile: true
+        brand_vendor: HTC
+        brand_model: Lancaster
+        design_weight: 110
+        display_size: '2.8'
+-
+    patterns:
+        -
+            strategy: string
+            value: Lead
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: Lead
+        display_size: '4.3'
+-
+    patterns:
+        -
+            strategy: string
+            value: T8585
+        -
+            strategy: string
+            value: 'HTC Leo 100'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: T8585
+        brand_marketing_name: 'HTC Leo 100'
+        brand_names: 'HTC Leo 100'
+        design_weight: 157
+        display_size: '4.3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: S720
+        -
+            strategy: string
+            value: 'HTC Libra'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: S720
+        brand_marketing_name: 'HTC Libra'
+        brand_names: 'HTC Libra'
+        design_weight: 130
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P3350
+        -
+            strategy: string
+            value: 'HTC Love'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: P3350
+        brand_marketing_name: 'HTC Love'
+        brand_names: 'HTC Love'
+        design_weight: 130
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: M8X
+        -
+            strategy: string
+            value: 'HTC One M8'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: HTC
+        brand_model: M8X
+        brand_marketing_name: 'HTC One M8'
+        brand_names: 'HTC One M8'
+        design_weight: 160
+        display_size: '5'
+        display_type: 'Super LCD 3, TFT-LCD,'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'MDA Compact'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: 'MDA Compact'
+        design_weight: 150
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'MDA Vario II'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: 'MDA Vario II'
+        design_weight: 176
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'MDA Vario III'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: 'MDA Vario III'
+        design_weight: 190
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'MDA Vario V'
+        -
+            strategy: string
+            value: 'T-Mobile Rhodium'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: 'MDA Vario V'
+        brand_marketing_name: 'T-Mobile Rhodium'
+        brand_names: 'T-Mobile Rhodium'
+        design_weight: 178
+        display_size: '3.6'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Magician
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: Magician
+        design_weight: 150
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Mail
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 240
+        brand_vendor: HTC
+        brand_model: Mail
+        design_weight: 119
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: T8290
+        -
+            strategy: string
+            value: 'HTC Max 4G'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 640
+        brand_vendor: HTC
+        brand_model: T8290
+        brand_marketing_name: 'HTC Max 4G'
+        brand_names: 'HTC Max 4G'
+        design_weight: 151
+        display_size: '3.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Mega
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: Mega
+        design_weight: 110
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Mercury
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: Mercury
+        design_weight: 176
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'P4000 Titan'
+        -
+            strategy: string
+            value: 'HTC Mogul, Verizon Wireless XV6800, PCD PPC6800, HTC PPC6800, Sprint Titan'
+        -
+            strategy: string
+            value: 'HTC Mogul'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: 'P4000 Titan'
+        brand_marketing_name: 'HTC Mogul'
+        brand_names: 'HTC Mogul, Verizon Wireless XV6800, PCD PPC6800, HTC PPC6800, Sprint Titan'
+        design_weight: 165
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Nike
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: Nike
+        design_weight: 120
+        display_size: '2.6'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: S610
+        -
+            strategy: string
+            value: 'HTC Nike Dopod S610'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: S610
+        brand_marketing_name: 'HTC Nike Dopod S610'
+        brand_names: 'HTC Nike Dopod S610'
+        design_weight: 120
+        display_size: '2.6'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: T9199
+        -
+            strategy: string
+            value: 'HTC Oboe'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: T9199
+        brand_marketing_name: 'HTC Oboe'
+        brand_names: 'HTC Oboe'
+        design_weight: 160
+        display_size: '4.3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: PO582
+        -
+            strategy: string
+            value: 'HTC One Mini'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: HTC
+        brand_model: PO582
+        brand_marketing_name: 'HTC One Mini'
+        brand_names: 'HTC One Mini'
+        design_weight: 122
+        display_size: '4.3'
+        display_type: 'Super LCD2'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'One Mini 2'
+        -
+            strategy: string
+            value: 'HTC One Mini 2 M8MINx LTE-A, HTC One Remix'
+        -
+            strategy: string
+            value: 'HTC One Mini 2 M8MINx LTE-A'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: HTC
+        brand_model: 'One Mini 2'
+        brand_marketing_name: 'HTC One Mini 2 M8MINx LTE-A'
+        brand_names: 'HTC One Mini 2 M8MINx LTE-A, HTC One Remix'
+        design_weight: 137
+        display_size: '4.5'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: T528D
+        -
+            strategy: string
+            value: 'HTC One SC'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: T528D
+        brand_marketing_name: 'HTC One SC'
+        brand_names: 'HTC One SC'
+        design_weight: 116
+        display_size: '4.3'
+        display_type: 'Super LCD2'
+-
+    patterns:
+        -
+            strategy: string
+            value: T528W
+        -
+            strategy: string
+            value: 'HTC One SU'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: T528W
+        brand_marketing_name: 'HTC One SU'
+        brand_names: 'HTC One SU'
+        design_weight: 119
+        display_size: '4.3'
+        display_type: S-LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: T320E
+        -
+            strategy: string
+            value: 'HTC One V, HTC Primo'
+        -
+            strategy: string
+            value: 'HTC One V'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: T320E
+        brand_marketing_name: 'HTC One V'
+        brand_names: 'HTC One V, HTC Primo'
+        design_weight: 115
+        display_size: '3.7'
+-
+    patterns:
+        -
+            strategy: string
+            value: PM36100
+        -
+            strategy: string
+            value: 'HTC One VX'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: HTC
+        brand_model: PM36100
+        brand_marketing_name: 'HTC One VX'
+        brand_names: 'HTC One VX'
+        design_weight: 125
+        display_size: '4.5'
+        display_type: 'Super LCD2'
+-
+    patterns:
+        -
+            strategy: string
+            value: PM63100
+        -
+            strategy: string
+            value: 'HTC One X Plus'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: HTC
+        brand_model: PM63100
+        brand_marketing_name: 'HTC One X Plus'
+        brand_names: 'HTC One X Plus'
+        design_weight: 135
+        display_size: '4.7'
+        display_type: 'Super LCD2'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'One XL'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: HTC
+        brand_model: 'One XL'
+        design_weight: 129
+        display_size: '4.7'
+        display_type: 'Super IPS LCD2'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Opal 100'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: 'Opal 100'
+        design_weight: 110
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: S310
+        -
+            strategy: string
+            value: 'HTC Oxygen'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: HTC
+        brand_model: S310
+        brand_marketing_name: 'HTC Oxygen'
+        brand_names: 'HTC Oxygen'
+        design_weight: 105
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P3000
+        -
+            strategy: string
+            value: 'HTC Wave'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: P3000
+        brand_marketing_name: 'HTC Wave'
+        brand_names: 'HTC Wave'
+        design_weight: 130
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P3301
+        -
+            strategy: string
+            value: Artemis
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: P3301
+        brand_marketing_name: Artemis
+        design_weight: 127
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'P3400i Gene'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: 'P3400i Gene'
+        design_weight: 126
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P3450
+        -
+            strategy: string
+            value: Touch/Elf
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: P3450
+        brand_marketing_name: Touch/Elf
+        design_weight: 112
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P3451
+        -
+            strategy: string
+            value: Touch/Elf
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: P3451
+        brand_marketing_name: Touch/Elf
+        design_weight: 112
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P3452
+        -
+            strategy: string
+            value: 'HTC Touch, O2 XDA Nova'
+        -
+            strategy: string
+            value: 'HTC Touch'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: P3452
+        brand_marketing_name: 'HTC Touch'
+        brand_names: 'HTC Touch, O2 XDA Nova'
+        design_weight: 112
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P3470
+        -
+            strategy: string
+            value: Pharos
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: P3470
+        brand_marketing_name: Pharos
+        design_weight: 122
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P3490
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 640
+        brand_vendor: HTC
+        brand_model: P3490
+        design_weight: 110
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P3600
+        -
+            strategy: string
+            value: 'HTC Trinity'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: P3600
+        brand_marketing_name: 'HTC Trinity'
+        brand_names: 'HTC Trinity'
+        design_weight: 150
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P3650
+        -
+            strategy: string
+            value: 'HTC Polaris'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: P3650
+        brand_marketing_name: 'HTC Polaris'
+        brand_names: 'HTC Polaris'
+        design_weight: 130
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P3651
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: P3651
+        design_weight: 102
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P3700
+        -
+            strategy: string
+            value: 'HTC Touch Diamond'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 640
+        brand_vendor: HTC
+        brand_model: P3700
+        brand_marketing_name: 'HTC Touch Diamond'
+        brand_names: 'HTC Touch Diamond'
+        design_weight: 110
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P3701
+        -
+            strategy: string
+            value: 'HTC Touch Diamond 100'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 640
+        brand_vendor: HTC
+        brand_model: P3701
+        brand_marketing_name: 'HTC Touch Diamond 100'
+        brand_names: 'HTC Touch Diamond 100'
+        design_weight: 110
+        display_size: '2.8'
+-
+    patterns:
+        -
+            strategy: string
+            value: P3702
+        -
+            strategy: string
+            value: 'HTC Victor'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 640
+        brand_vendor: HTC
+        brand_model: P3702
+        brand_marketing_name: 'HTC Victor'
+        brand_names: 'HTC Victor'
+        design_weight: 115
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Wizard 110'
+        -
+            strategy: string
+            value: 'Cingular 8125, Dopod 838, HTC P4300, Qtek A9100'
+        -
+            strategy: string
+            value: 'Cingular 8125'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: 'Wizard 110'
+        brand_marketing_name: 'Cingular 8125'
+        brand_names: 'Cingular 8125, Dopod 838, HTC P4300, Qtek A9100'
+        design_weight: 168
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P4550
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: P4550
+        design_weight: 190
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P4600
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 640
+        brand_vendor: HTC
+        brand_model: P4600
+        design_weight: 165
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P512
+        -
+            strategy: string
+            value: 'HTC Flyer'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: HTC
+        brand_model: P512
+        brand_marketing_name: 'HTC Flyer'
+        brand_names: 'HTC Flyer'
+        design_weight: 420
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P5310BM
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: P5310BM
+        design_weight: 120
+        display_size: '2.6'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P5500
+        -
+            strategy: string
+            value: 'HTC Touch Dual'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: P5500
+        brand_marketing_name: 'HTC Touch Dual'
+        brand_names: 'HTC Touch Dual'
+        design_weight: 120
+        display_size: '2.6'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P5520
+        -
+            strategy: string
+            value: 'HTC Touch Dual'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: P5520
+        brand_marketing_name: 'HTC Touch Dual'
+        brand_names: 'HTC Touch Dual'
+        design_weight: 120
+        display_size: '2.6'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P5530
+        -
+            strategy: string
+            value: 'HTC Neon'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: P5530
+        brand_marketing_name: 'HTC Neon'
+        brand_names: 'HTC Neon'
+        design_weight: 120
+        display_size: '2.6'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P5800
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: P5800
+        design_weight: 130
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P6300
+        -
+            strategy: string
+            value: 'HTC Panda'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: P6300
+        brand_marketing_name: 'HTC Panda'
+        brand_names: 'HTC Panda'
+        design_weight: 200
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P6500
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: P6500
+        design_weight: 220
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: PB99400
+        -
+            strategy: string
+            value: Incredible
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: PB99400
+        brand_marketing_name: Incredible
+        design_weight: 135
+        display_size: '3.7'
+        display_type: AMOLED
+-
+    patterns:
+        -
+            strategy: string
+            value: PC36100
+        -
+            strategy: string
+            value: 'HTC Evo 4G, HTC Supersonic'
+        -
+            strategy: string
+            value: 'HTC Evo 4G'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: PC36100
+        brand_marketing_name: 'HTC Evo 4G'
+        brand_names: 'HTC Evo 4G, HTC Supersonic'
+        design_weight: 170
+        display_size: '4.3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: PC93100
+        -
+            strategy: string
+            value: 'HTC 7 Pro, HTC Arrive'
+        -
+            strategy: string
+            value: 'HTC 7 Pro'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: PC93100
+        brand_marketing_name: 'HTC 7 Pro'
+        brand_names: 'HTC 7 Pro, HTC Arrive'
+        design_weight: 185
+        display_size: '3.6'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: PG06100
+        -
+            strategy: string
+            value: 'HTC Evo Shift, HTC Detail'
+        -
+            strategy: string
+            value: 'HTC Evo Shift'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: PG06100
+        brand_marketing_name: 'HTC Evo Shift'
+        brand_names: 'HTC Evo Shift, HTC Detail'
+        design_weight: 167
+        display_size: '3.6'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: PG09410
+        -
+            strategy: string
+            value: 'HTC Jetstream, HTC Puccini'
+        -
+            strategy: string
+            value: 'HTC Jetstream'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 1280
+        brand_vendor: HTC
+        brand_model: PG09410
+        brand_marketing_name: 'HTC Jetstream'
+        brand_names: 'HTC Jetstream, HTC Puccini'
+        design_weight: 709
+        display_size: '10.1'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: PG41200
+        -
+            strategy: string
+            value: 'HTC EVO View 4G'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: HTC
+        brand_model: PG41200
+        brand_marketing_name: 'HTC EVO View 4G'
+        brand_names: 'HTC EVO View 4G'
+        design_weight: 425
+        display_size: '7'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: PG58130
+        -
+            strategy: string
+            value: 'HTC Sensation 4G'
+    capabilities:
+        is_mobile: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: HTC
+        brand_model: PG58130
+        brand_marketing_name: 'HTC Sensation 4G'
+        brand_names: 'HTC Sensation 4G'
+        design_weight: 148
+        display_size: '4.3'
+        display_type: S-LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: PG76110
+        -
+            strategy: string
+            value: 'HTC Wildfire S, HTC Marvel'
+        -
+            strategy: string
+            value: 'HTC Wildfire S'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: HTC
+        brand_model: PG76110
+        brand_marketing_name: 'HTC Wildfire S'
+        brand_names: 'HTC Wildfire S, HTC Marvel'
+        design_weight: 105
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: PG762
+    capabilities:
+        is_mobile: true
+        brand_vendor: HTC
+        brand_model: PG762
+-
+    patterns:
+        -
+            strategy: string
+            value: PG86100
+        -
+            strategy: string
+            value: 'HTC EVO 3D, HTC Shooter, HTC Evo V 4G'
+        -
+            strategy: string
+            value: 'HTC EVO 3D'
+    capabilities:
+        is_mobile: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: HTC
+        brand_model: PG86100
+        brand_marketing_name: 'HTC EVO 3D'
+        brand_names: 'HTC EVO 3D, HTC Shooter, HTC Evo V 4G'
+        design_weight: 170
+        display_size: '4.3'
+        display_type: S-LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: PH06130
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: PH06130
+        design_weight: 120
+        display_size: '2.6'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: PH39100
+        -
+            strategy: string
+            value: 'HTC Vivid, HTC Vivid 4G, HTC Vivid 4G LTE'
+        -
+            strategy: string
+            value: 'HTC Vivid'
+    capabilities:
+        is_mobile: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: HTC
+        brand_model: PH39100
+        brand_marketing_name: 'HTC Vivid'
+        brand_names: 'HTC Vivid, HTC Vivid 4G, HTC Vivid 4G LTE'
+        design_weight: 177
+        display_size: '4.5'
+        display_type: S-LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: PI39100
+        -
+            strategy: string
+            value: 'HTC Titan, HTC Eternity, HTC Bunyip'
+        -
+            strategy: string
+            value: 'HTC Titan'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: PI39100
+        brand_marketing_name: 'HTC Titan'
+        brand_names: 'HTC Titan, HTC Eternity, HTC Bunyip'
+        design_weight: 160
+        display_size: '4.7'
+        display_type: S-LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: PI86100
+        -
+            strategy: string
+            value: 'HTC Titan II'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: PI86100
+        brand_marketing_name: 'HTC Titan II'
+        brand_names: 'HTC Titan II'
+        design_weight: 147
+        display_size: '4.7'
+        display_type: S-LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: PM23300
+    capabilities:
+        is_mobile: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: HTC
+        brand_model: PM23300
+        design_weight: 130
+        display_size: '4.3'
+        display_type: 'Super LCD2'
+-
+    patterns:
+        -
+            strategy: string
+            value: PN07120
+        -
+            strategy: string
+            value: 'HTC One'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: HTC
+        brand_model: PN07120
+        brand_marketing_name: 'HTC One'
+        brand_names: 'HTC One'
+        design_weight: 143
+        display_size: '4.7'
+        display_type: 'Super LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: PN072
+        -
+            strategy: string
+            value: 'HTC One'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: HTC
+        brand_model: PN072
+        brand_marketing_name: 'HTC One'
+        brand_names: 'HTC One'
+        design_weight: 143
+        display_size: '4.7'
+        display_type: 'Super LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: PO58220
+        -
+            strategy: string
+            value: 'HTC One Mini'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: HTC
+        brand_model: PO58220
+        brand_marketing_name: 'HTC One Mini'
+        brand_names: 'HTC One Mini'
+        design_weight: 122
+        display_size: '4.3'
+        display_type: 'Super LCD2'
+-
+    patterns:
+        -
+            strategy: string
+            value: PPC6850BM
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 640
+        brand_vendor: HTC
+        brand_model: PPC6850BM
+        design_weight: 165
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Panache
+        -
+            strategy: string
+            value: 'T-Mobile myTouch HD'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: Panache
+        brand_marketing_name: 'T-Mobile myTouch HD'
+        brand_names: 'T-Mobile myTouch HD'
+        design_weight: 142
+        display_size: '3.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Paradise
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: HTC
+        brand_model: Paradise
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Passion
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: Passion
+        design_weight: 130
+        display_size: '3.7'
+        display_type: AMOLED
+-
+    patterns:
+        -
+            strategy: string
+            value: Pharos
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: Pharos
+        design_weight: 122
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Phoebus
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: Phoebus
+        design_weight: 150
+        display_size: '2.6'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Prime
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: Prime
+        display_size: '3.7'
+        display_type: S-LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: Wizard
+        -
+            strategy: string
+            value: 'HTC Prodigy, Cingular 8100'
+        -
+            strategy: string
+            value: 'HTC Prodigy'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: Wizard
+        brand_marketing_name: 'HTC Prodigy'
+        brand_names: 'HTC Prodigy, Cingular 8100'
+        design_weight: 160
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Prophet
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: Prophet
+        design_weight: 150
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: S6356
+        -
+            strategy: string
+            value: 'HTC Pure'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: S6356
+        brand_marketing_name: 'HTC Pure'
+        brand_names: 'HTC Pure'
+        design_weight: 117
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Z710A
+        -
+            strategy: string
+            value: 'HTC Sensation, HTC Pyramid'
+        -
+            strategy: string
+            value: 'HTC Sensation'
+    capabilities:
+        is_mobile: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: HTC
+        brand_model: Z710A
+        brand_marketing_name: 'HTC Sensation'
+        brand_names: 'HTC Sensation, HTC Pyramid'
+        design_weight: 148
+        display_size: '4.3'
+        display_type: S-LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: Quartz
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 640
+        brand_vendor: HTC
+        brand_model: Quartz
+        design_weight: 151
+        display_size: '3.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Quattro
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1280
+        display_height: 768
+        brand_vendor: HTC
+        brand_model: Quattro
+        display_size: '10.1'
+-
+    patterns:
+        -
+            strategy: string
+            value: Radiant
+    capabilities:
+        is_mobile: true
+        brand_vendor: HTC
+        brand_model: Radiant
+        display_size: '4.7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: X710A
+        -
+            strategy: string
+            value: 'HTC Raider, Raider 4G, HTC Raider 4G LTE'
+        -
+            strategy: string
+            value: 'HTC Raider'
+    capabilities:
+        is_mobile: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: HTC
+        brand_model: X710A
+        brand_marketing_name: 'HTC Raider'
+        brand_names: 'HTC Raider, Raider 4G, HTC Raider 4G LTE'
+        design_weight: 177
+        display_size: '4.5'
+        display_type: S-LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: Raphael
+        -
+            strategy: string
+            value: 'HTC Touch Pro'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 640
+        brand_vendor: HTC
+        brand_model: Raphael
+        brand_marketing_name: 'HTC Touch Pro'
+        brand_names: 'HTC Touch Pro'
+        design_weight: 140
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: T7373
+        -
+            strategy: string
+            value: 'HTC Touch Pro2, HTC Rhodium 100'
+        -
+            strategy: string
+            value: 'HTC Touch Pro2'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: T7373
+        brand_marketing_name: 'HTC Touch Pro2'
+        brand_names: 'HTC Touch Pro2, HTC Rhodium 100'
+        design_weight: 175
+        display_size: '3.6'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Rider
+    capabilities:
+        is_mobile: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: HTC
+        brand_model: Rider
+        display_size: '4.3'
+        display_type: '3D S-LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: S743
+        -
+            strategy: string
+            value: 'HTC Rose'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: S743
+        brand_marketing_name: 'HTC Rose'
+        brand_names: 'HTC Rose'
+        design_weight: 140
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: X315
+        -
+            strategy: string
+            value: 'HTC Sensation XL, HTC Runnymede'
+        -
+            strategy: string
+            value: 'HTC Sensation XL'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: X315
+        brand_marketing_name: 'HTC Sensation XL'
+        brand_names: 'HTC Sensation XL, HTC Runnymede'
+        design_weight: 162
+        display_size: '4.7'
+        display_type: S-LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: S410
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: S410
+        design_weight: 130
+        display_size: '3.7'
+        display_type: S-LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: S411
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: S411
+        design_weight: 105
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: S510E
+        -
+            strategy: string
+            value: 'HTC Desire S, HTC Saga'
+        -
+            strategy: string
+            value: 'HTC Desire S'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: S510E
+        brand_marketing_name: 'HTC Desire S'
+        brand_names: 'HTC Desire S, HTC Saga'
+        design_weight: 130
+        display_size: '3.7'
+        display_type: S-LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: S511
+        -
+            strategy: string
+            value: Snap
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 240
+        brand_vendor: HTC
+        brand_model: S511
+        brand_marketing_name: Snap
+        design_weight: 119
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: S521
+        -
+            strategy: string
+            value: 'HTC Snap'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 240
+        brand_vendor: HTC
+        brand_model: S521
+        brand_marketing_name: 'HTC Snap'
+        brand_names: 'HTC Snap'
+        design_weight: 120
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: S522
+        -
+            strategy: string
+            value: 'HTC Snap'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 240
+        brand_vendor: HTC
+        brand_model: S522
+        brand_marketing_name: 'HTC Snap'
+        brand_names: 'HTC Snap'
+        design_weight: 120
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: S523
+        -
+            strategy: string
+            value: 'HTC Snap'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 240
+        brand_vendor: HTC
+        brand_model: S523
+        brand_marketing_name: 'HTC Snap'
+        brand_names: 'HTC Snap'
+        design_weight: 120
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: S610D
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: S610D
+        design_weight: 185
+        display_size: '4.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: S621
+        -
+            strategy: string
+            value: Excalibur
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 240
+        brand_vendor: HTC
+        brand_model: S621
+        brand_marketing_name: Excalibur
+        design_weight: 130
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: S630
+        -
+            strategy: string
+            value: Cavalier
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 240
+        brand_vendor: HTC
+        brand_model: S630
+        brand_marketing_name: Cavalier
+        design_weight: 120
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: S640
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 240
+        brand_vendor: HTC
+        brand_model: S640
+        design_weight: 112
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: S720E
+        -
+            strategy: string
+            value: 'HTC One X, HTC Jet'
+        -
+            strategy: string
+            value: 'HTC One X'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: HTC
+        brand_model: S720E
+        brand_marketing_name: 'HTC One X'
+        brand_names: 'HTC One X, HTC Jet'
+        design_weight: 129
+        display_size: '4.7'
+        display_type: 'Super IPS LCD2'
+-
+    patterns:
+        -
+            strategy: string
+            value: S730
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: S730
+        design_weight: 150
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: S740
+        -
+            strategy: string
+            value: 'HTC Rose'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: S740
+        brand_marketing_name: 'HTC Rose'
+        brand_names: 'HTC Rose'
+        design_weight: 140
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: ST21
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: ST21
+        design_weight: 157
+        display_size: '4.3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: ST7377
+        -
+            strategy: string
+            value: 'HTC Tilt 2'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: ST7377
+        brand_marketing_name: 'HTC Tilt 2'
+        brand_names: 'HTC Tilt 2'
+        design_weight: 178
+        display_size: '3.6'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Salsa
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: HTC
+        brand_model: Salsa
+        design_weight: 120
+        display_size: '3.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Sedna,P6500'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: 'Sedna,P6500'
+        design_weight: 220
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Z710T
+        -
+            strategy: string
+            value: 'HTC Sensation Z710T'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: HTC
+        brand_model: Z710T
+        brand_marketing_name: 'HTC Sensation Z710T'
+        brand_names: 'HTC Sensation Z710T'
+        design_weight: 148
+        display_size: '4.3'
+        display_type: 'Super LCD TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: Shift
+    capabilities:
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: HTC
+        brand_model: Shift
+        design_weight: 800
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Shubert
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: Shubert
+        display_size: '3.7'
+        display_type: S-LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Smart F3188'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: 'Smart F3188'
+        design_weight: 108
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Snap CDMA'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 240
+        brand_vendor: HTC
+        brand_model: 'Snap CDMA'
+        design_weight: 119
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: T120c
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: T120c
+        design_weight: 115
+        display_size: '3.7'
+        display_type: 'Super LCD2'
+-
+    patterns:
+        -
+            strategy: string
+            value: T2223
+        -
+            strategy: string
+            value: 'HTC Touch Viva'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: T2223
+        brand_marketing_name: 'HTC Touch Viva'
+        brand_names: 'HTC Touch Viva'
+        design_weight: 110
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: T320A
+        -
+            strategy: string
+            value: 'HTC One V, HTC Primo'
+        -
+            strategy: string
+            value: 'HTC One V'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: T320A
+        brand_marketing_name: 'HTC One V'
+        brand_names: 'HTC One V, HTC Primo'
+        design_weight: 115
+        display_size: '3.7'
+-
+    patterns:
+        -
+            strategy: string
+            value: T3232
+        -
+            strategy: string
+            value: 'HTC Touch 3G'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: T3232
+        brand_marketing_name: 'HTC Touch 3G'
+        brand_names: 'HTC Touch 3G'
+        design_weight: 96
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: T327T
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: T327T
+        design_weight: 118
+        display_size: '4'
+        display_type: 'WVGA LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: T329T
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: T329T
+        design_weight: 113
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: T3333
+        -
+            strategy: string
+            value: 'HTC Touch 2'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: T3333
+        brand_marketing_name: 'HTC Touch 2'
+        brand_names: 'HTC Touch 2'
+        design_weight: 110
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: T4242
+        -
+            strategy: string
+            value: 'HTC Touch Cruise'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: T4242
+        brand_marketing_name: 'HTC Touch Cruise'
+        brand_names: 'HTC Touch Cruise'
+        design_weight: 130
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: T528T
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: T528T
+        design_weight: 116
+        display_size: '4.3'
+        display_type: 'Super LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: T5353
+        -
+            strategy: string
+            value: 'HTC Touch Diamond 2'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: T5353
+        brand_marketing_name: 'HTC Touch Diamond 2'
+        brand_names: 'HTC Touch Diamond 2'
+        design_weight: 117
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: T5360
+        -
+            strategy: string
+            value: 'Touch Diamond 2'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: T5360
+        brand_marketing_name: 'Touch Diamond 2'
+        design_weight: 118
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: T7380
+        -
+            strategy: string
+            value: TouchFLO
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: T7380
+        brand_marketing_name: TouchFLO
+        design_weight: 175
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: T7575
+        -
+            strategy: string
+            value: 'HTC 7 Pro, HTC Arrive'
+        -
+            strategy: string
+            value: 'HTC 7 Pro'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: T7575
+        brand_marketing_name: 'HTC 7 Pro'
+        brand_names: 'HTC 7 Pro, HTC Arrive'
+        design_weight: 185
+        display_size: '3.6'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: T7576
+        -
+            strategy: string
+            value: 'HTC 7 Pro, HTC Arrive'
+        -
+            strategy: string
+            value: 'HTC 7 Pro'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: T7576
+        brand_marketing_name: 'HTC 7 Pro'
+        brand_names: 'HTC 7 Pro, HTC Arrive'
+        design_weight: 185
+        display_size: '3.6'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: T8282
+        -
+            strategy: string
+            value: 'HTC Touch HD'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: T8282
+        brand_marketing_name: 'HTC Touch HD'
+        brand_names: 'HTC Touch HD'
+        design_weight: 146
+        display_size: '3.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: T8285
+        -
+            strategy: string
+            value: 'HTC Touch HD'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: T8285
+        brand_marketing_name: 'HTC Touch HD'
+        brand_names: 'HTC Touch HD'
+        design_weight: 146
+        display_size: '3.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: T8686
+        -
+            strategy: string
+            value: 'HTC 7 Trophy, HTC Trophy, HTC Spark'
+        -
+            strategy: string
+            value: 'HTC 7 Trophy'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: T8686
+        brand_marketing_name: 'HTC 7 Trophy'
+        brand_names: 'HTC 7 Trophy, HTC Trophy, HTC Spark'
+        design_weight: 140
+        display_size: '3.8'
+        display_type: 'TFT, S-LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: T9199T
+        -
+            strategy: string
+            value: 'HTC Oboe'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: T9199T
+        brand_marketing_name: 'HTC Oboe'
+        brand_names: 'HTC Oboe'
+        design_weight: 160
+        display_size: '4.3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: T9292
+        -
+            strategy: string
+            value: 'HTC HD7'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: T9292
+        brand_marketing_name: 'HTC HD7'
+        brand_names: 'HTC HD7'
+        design_weight: 162
+        display_size: '4.3'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: T9296
+        -
+            strategy: string
+            value: 'HTC HD7'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: T9296
+        brand_marketing_name: 'HTC HD7'
+        brand_names: 'HTC HD7'
+        design_weight: 162
+        display_size: '4.3'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: T9299
+        -
+            strategy: string
+            value: 'HTC Inspire 4G'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: T9299
+        brand_marketing_name: 'HTC Inspire 4G'
+        brand_names: 'HTC Inspire 4G'
+        design_weight: 164
+        display_size: '4.3'
+        display_type: S-LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: Tide
+    capabilities:
+        is_mobile: true
+        brand_vendor: HTC
+        brand_model: Tide
+        display_size: '2.7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'TyTN II'
+        -
+            strategy: string
+            value: 'HTC Tilt'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: 'TyTN II'
+        brand_marketing_name: 'HTC Tilt'
+        brand_names: 'HTC Tilt'
+        design_weight: 190
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: X825B
+        -
+            strategy: string
+            value: 'HTC Titan 4G'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: X825B
+        brand_marketing_name: 'HTC Titan 4G'
+        brand_names: 'HTC Titan 4G'
+        design_weight: 147
+        display_size: '4.7'
+        display_type: S-LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: Tornado
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: Tornado
+        design_weight: 106
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Touch 6900'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: 'Touch 6900'
+        design_weight: 112
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'XDA Diamond 2'
+        -
+            strategy: string
+            value: 'HTC Touch Diamond 2'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: 'XDA Diamond 2'
+        brand_marketing_name: 'HTC Touch Diamond 2'
+        brand_names: 'HTC Touch Diamond 2'
+        design_weight: 118
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Typhoon
+        -
+            strategy: string
+            value: 'PCD SMT5600, Orange SPV-C500, Qtek 8010'
+        -
+            strategy: string
+            value: 'PCD SMT5600'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: HTC
+        brand_model: Typhoon
+        brand_marketing_name: 'PCD SMT5600'
+        brand_names: 'PCD SMT5600, Orange SPV-C500, Qtek 8010'
+        design_weight: 100
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Ultimate
+        -
+            strategy: string
+            value: 'HTC Titan, HTC Eternity, HTC Bunyip'
+        -
+            strategy: string
+            value: 'HTC Titan'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: Ultimate
+        brand_marketing_name: 'HTC Titan'
+        brand_names: 'HTC Titan, HTC Eternity, HTC Bunyip'
+        design_weight: 160
+        display_size: '4.7'
+        display_type: S-LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: Universal
+    capabilities:
+        is_mobile: true
+        display_width: 640
+        display_height: 480
+        brand_vendor: HTC
+        brand_model: Universal
+        design_weight: 285
+        display_size: '3.6'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: V7505
+        -
+            strategy: string
+            value: 'HTC Vodafone s710'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: V7505
+        brand_marketing_name: 'HTC Vodafone s710'
+        brand_names: 'HTC Vodafone s710'
+        design_weight: 120
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'VPA Touch'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: 'VPA Touch'
+        design_weight: 112
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: X710S
+        -
+            strategy: string
+            value: 'HTC Velocity 4G'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: HTC
+        brand_model: X710S
+        brand_marketing_name: 'HTC Velocity 4G'
+        brand_names: 'HTC Velocity 4G'
+        design_weight: 163
+        display_size: '4.5'
+        display_type: S-LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: Vivida
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: HTC
+        brand_model: Vivida
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Vogu100 P3050'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: 'Vogu100 P3050'
+        design_weight: 112
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Volans
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: Volans
+        design_weight: 150
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Voyager
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: HTC
+        brand_model: Voyager
+        design_weight: 130
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Wallaby
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: Wallaby
+        design_weight: 201
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Windows Phone 8S'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: 'Windows Phone 8S'
+        design_weight: 113
+        display_size: '4'
+        display_type: S-LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Wizard 200'
+        -
+            strategy: string
+            value: 'O2 XDA Mini S, O2 XDA Mini Pro, i-mate K-JAM, Qtek 9100, Orange SPV M3000, T-Mobile MDA Vario'
+        -
+            strategy: string
+            value: 'O2 XDA Mini S'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: 'Wizard 200'
+        brand_marketing_name: 'O2 XDA Mini S'
+        brand_names: 'O2 XDA Mini S, O2 XDA Mini Pro, i-mate K-JAM, Qtek 9100, Orange SPV M3000, T-Mobile MDA Vario'
+        design_weight: 160
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: X
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: X
+        design_weight: 148
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: X01HT
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: X01HT
+        design_weight: 190
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: X02HT
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 240
+        brand_vendor: HTC
+        brand_model: X02HT
+        design_weight: 120
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: X06HT
+        -
+            strategy: string
+            value: 'HTC Desire'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: X06HT
+        brand_marketing_name: 'HTC Desire'
+        brand_names: 'HTC Desire'
+        design_weight: 135
+        display_size: '3.7'
+        display_type: AMOLED
+-
+    patterns:
+        -
+            strategy: string
+            value: X310E
+        -
+            strategy: string
+            value: 'HTC Titan, HTC Eternity, HTC Bunyip'
+        -
+            strategy: string
+            value: 'HTC Titan'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: X310E
+        brand_marketing_name: 'HTC Titan'
+        brand_names: 'HTC Titan, HTC Eternity, HTC Bunyip'
+        design_weight: 160
+        display_size: '4.7'
+        display_type: S-LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: X315E
+        -
+            strategy: string
+            value: 'HTC Sensation XL, HTC Runnymede'
+        -
+            strategy: string
+            value: 'HTC Sensation XL'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: X315E
+        brand_marketing_name: 'HTC Sensation XL'
+        brand_names: 'HTC Sensation XL, HTC Runnymede'
+        design_weight: 162
+        display_size: '4.7'
+        display_type: S-LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: X325A
+        -
+            strategy: string
+            value: 'HTC One X, HTC Jet'
+        -
+            strategy: string
+            value: 'HTC One X'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: HTC
+        brand_model: X325A
+        brand_marketing_name: 'HTC One X'
+        brand_names: 'HTC One X, HTC Jet'
+        design_weight: 130
+        display_size: '4.7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: X325C
+        -
+            strategy: string
+            value: 'HTC Evo 4G LTE, Evo One'
+        -
+            strategy: string
+            value: 'HTC Evo 4G LTE'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: HTC
+        brand_model: X325C
+        brand_marketing_name: 'HTC Evo 4G LTE'
+        brand_names: 'HTC Evo 4G LTE, Evo One'
+        design_weight: 134
+        display_size: '4.7'
+        display_type: 'Super IPS LCD2'
+-
+    patterns:
+        -
+            strategy: string
+            value: X515A
+        -
+            strategy: string
+            value: 'HTC EVO 3D, HTC Shooter, HTC Evo V 4G'
+        -
+            strategy: string
+            value: 'HTC EVO 3D'
+    capabilities:
+        is_mobile: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: HTC
+        brand_model: X515A
+        brand_marketing_name: 'HTC EVO 3D'
+        brand_names: 'HTC EVO 3D, HTC Shooter, HTC Evo V 4G'
+        design_weight: 170
+        display_size: '4.3'
+        display_type: S-LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: X515C
+        -
+            strategy: string
+            value: 'HTC EVO 3D, HTC Shooter, HTC Evo V 4G'
+        -
+            strategy: string
+            value: 'HTC EVO 3D'
+    capabilities:
+        is_mobile: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: HTC
+        brand_model: X515C
+        brand_marketing_name: 'HTC EVO 3D'
+        brand_names: 'HTC EVO 3D, HTC Shooter, HTC Evo V 4G'
+        design_weight: 170
+        display_size: '4.3'
+        display_type: S-LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: X515E
+        -
+            strategy: string
+            value: 'HTC EVO 3D, HTC Shooter, HTC Evo V 4G'
+        -
+            strategy: string
+            value: 'HTC EVO 3D'
+    capabilities:
+        is_mobile: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: HTC
+        brand_model: X515E
+        brand_marketing_name: 'HTC EVO 3D'
+        brand_names: 'HTC EVO 3D, HTC Shooter, HTC Evo V 4G'
+        design_weight: 170
+        display_size: '4.3'
+        display_type: S-LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: X515M
+        -
+            strategy: string
+            value: 'HTC EVO 3D, HTC Shooter, HTC Evo V 4G'
+        -
+            strategy: string
+            value: 'HTC EVO 3D'
+    capabilities:
+        is_mobile: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: HTC
+        brand_model: X515M
+        brand_marketing_name: 'HTC EVO 3D'
+        brand_names: 'HTC EVO 3D, HTC Shooter, HTC Evo V 4G'
+        design_weight: 170
+        display_size: '4.3'
+        display_type: S-LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: X525A
+        -
+            strategy: string
+            value: 'HTC One X Plus'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: HTC
+        brand_model: X525A
+        brand_marketing_name: 'HTC One X Plus'
+        brand_names: 'HTC One X Plus'
+        design_weight: 135
+        display_size: '4.7'
+        display_type: 'Super LCD2'
+-
+    patterns:
+        -
+            strategy: string
+            value: X710E
+        -
+            strategy: string
+            value: 'HTC Raider, Raider 4G, HTC Raider 4G LTE'
+        -
+            strategy: string
+            value: 'HTC Raider'
+    capabilities:
+        is_mobile: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: HTC
+        brand_model: X710E
+        brand_marketing_name: 'HTC Raider'
+        brand_names: 'HTC Raider, Raider 4G, HTC Raider 4G LTE'
+        design_weight: 177
+        display_size: '4.5'
+        display_type: S-LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: X7510
+        -
+            strategy: string
+            value: 'HTC Advantage'
+    capabilities:
+        is_mobile: true
+        display_width: 640
+        display_height: 480
+        brand_vendor: HTC
+        brand_model: X7510
+        brand_marketing_name: 'HTC Advantage'
+        brand_names: 'HTC Advantage'
+        design_weight: 375
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: XV6700
+        -
+            strategy: string
+            value: 'HTC Apache'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: XV6700
+        brand_marketing_name: 'HTC Apache'
+        brand_names: 'HTC Apache'
+        design_weight: 172
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Xda II Mini'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: 'Xda II Mini'
+        design_weight: 150
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Xda IIs'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HTC
+        brand_model: 'Xda IIs'
+        design_weight: 210
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Z321E
+        -
+            strategy: string
+            value: 'HTC Nippon, HTC J'
+        -
+            strategy: string
+            value: 'HTC Nippon'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: HTC
+        brand_model: Z321E
+        brand_marketing_name: 'HTC Nippon'
+        brand_names: 'HTC Nippon, HTC J'
+        design_weight: 142
+        display_size: '4.3'
+        display_type: 'Super AMOLED'
+-
+    patterns:
+        -
+            strategy: string
+            value: Z520M
+        -
+            strategy: string
+            value: 'HTC One S, HTC Ville, HTC Eva Ul'
+        -
+            strategy: string
+            value: 'HTC One S'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: HTC
+        brand_model: Z520M
+        brand_marketing_name: 'HTC One S'
+        brand_names: 'HTC One S, HTC Ville, HTC Eva Ul'
+        design_weight: 120
+        display_size: '4.3'
+        display_type: 'Super AMOLED'
+-
+    patterns:
+        -
+            strategy: string
+            value: Z560E
+        -
+            strategy: string
+            value: 'HTC One S'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: HTC
+        brand_model: Z560E
+        brand_marketing_name: 'HTC One S'
+        brand_names: 'HTC One S'
+        design_weight: 120
+        display_size: '4.3'
+        display_type: 'Super AMOLED'
+-
+    patterns:
+        -
+            strategy: string
+            value: Z710E
+        -
+            strategy: string
+            value: 'HTC Sensation'
+    capabilities:
+        is_mobile: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: HTC
+        brand_model: Z710E
+        brand_marketing_name: 'HTC Sensation'
+        brand_names: 'HTC Sensation'
+        design_weight: 148
+        display_size: '4.3'
+        display_type: S-LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: T327W
+        -
+            strategy: string
+            value: 'HTC Desire U'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HTC
+        brand_model: T327W
+        brand_marketing_name: 'HTC Desire U'
+        brand_names: 'HTC Desire U'
+        design_weight: 114
+        display_size: '4'
+        display_type: 'Super LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: X20
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: HTC
+        brand_model: X20
+        design_weight: 180
+        display_size: '3.5'
+        display_type: TFT

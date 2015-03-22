@@ -1,0 +1,15 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 5C
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: HiPhone
+        brand_model: 5C
+        design_weight: 135
+        display_size: '4'
+        display_type: IPS

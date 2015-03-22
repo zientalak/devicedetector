@@ -1,0 +1,13 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: S1160
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Aiko
+        brand_model: S1160
+        design_weight: 85
+        display_type: Monochrome

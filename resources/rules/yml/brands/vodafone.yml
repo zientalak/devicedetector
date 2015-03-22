@@ -1,0 +1,608 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 331FM
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Vodafone
+        brand_model: 331FM
+        design_weight: 88
+        display_size: '1.8'
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: '332'
+    capabilities:
+        is_mobile: true
+        display_width: 120
+        display_height: 160
+        brand_vendor: Vodafone
+        brand_model: '332'
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: '351'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Vodafone
+        brand_model: '351'
+        design_weight: 68
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: '353'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Vodafone
+        brand_model: '353'
+        design_weight: 85
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: VF353
+        -
+            strategy: string
+            value: 'Vodafone 353 Fortune'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Vodafone
+        brand_model: VF353
+        brand_marketing_name: 'Vodafone 353 Fortune'
+        brand_names: 'Vodafone 353 Fortune'
+        design_weight: 85
+        display_size: '1.8'
+        display_type: 'TFT QVGA'
+-
+    patterns:
+        -
+            strategy: string
+            value: '354'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Vodafone
+        brand_model: '354'
+        design_weight: 83
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: '455'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Vodafone
+        brand_model: '455'
+        design_weight: 80
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: '547'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 400
+        brand_vendor: Vodafone
+        brand_model: '547'
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 547i
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 400
+        brand_vendor: Vodafone
+        brand_model: 547i
+        design_weight: 95
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: '553'
+    capabilities:
+        is_mobile: true
+        display_width: 400
+        display_height: 240
+        brand_vendor: Vodafone
+        brand_model: '553'
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: '555'
+        -
+            strategy: string
+            value: 'Vodafone 555 Blue'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 240
+        brand_vendor: Vodafone
+        brand_model: '555'
+        brand_marketing_name: 'Vodafone 555 Blue'
+        brand_names: 'Vodafone 555 Blue'
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: '735'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Vodafone
+        brand_model: '735'
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: '785'
+        -
+            strategy: string
+            value: 'Vodafone Smart 4 Mini'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Vodafone
+        brand_model: '785'
+        brand_marketing_name: 'Vodafone Smart 4 Mini'
+        brand_names: 'Vodafone Smart 4 Mini'
+        design_weight: 117
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: '875'
+        -
+            strategy: string
+            value: 'Vodafone Smart Mini'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Vodafone
+        brand_model: '875'
+        brand_marketing_name: 'Vodafone Smart Mini'
+        brand_names: 'Vodafone Smart Mini'
+        design_weight: 117
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 890n
+        -
+            strategy: string
+            value: 'Vodafone 890N Smart 4 Turbo'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Vodafone
+        brand_model: 890n
+        brand_marketing_name: 'Vodafone 890N Smart 4 Turbo'
+        brand_names: 'Vodafone 890N Smart 4 Turbo'
+        design_weight: 152
+        display_size: '4.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: '945'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 400
+        brand_vendor: Vodafone
+        brand_model: '945'
+        design_weight: 130
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: '958'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Vodafone
+        brand_model: '958'
+        design_weight: 144
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 985N
+        -
+            strategy: string
+            value: 'Vodafone Smart 4 Power'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Vodafone
+        brand_model: 985N
+        brand_marketing_name: 'Vodafone Smart 4 Power'
+        brand_names: 'Vodafone Smart 4 Power'
+        design_weight: 162
+        display_size: '5'
+        display_type: 'IPS TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'VPA Compact IV'
+        -
+            strategy: string
+            value: 'Vodafone Atlas'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Vodafone
+        brand_model: 'VPA Compact IV'
+        brand_marketing_name: 'Vodafone Atlas'
+        brand_names: 'Vodafone Atlas'
+        design_weight: 168
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Blade V'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Vodafone
+        brand_model: 'Blade V'
+        design_weight: 130
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Compact S'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Vodafone
+        brand_model: 'Compact S'
+        design_weight: 150
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'SFR V3650'
+        -
+            strategy: string
+            value: 'Vodafone Polaris'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Vodafone
+        brand_model: 'SFR V3650'
+        brand_marketing_name: 'Vodafone Polaris'
+        brand_names: 'Vodafone Polaris'
+        design_weight: 130
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'SFR v1615'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Vodafone
+        brand_model: 'SFR v1615'
+        design_weight: 190
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Smart 4'
+        -
+            strategy: string
+            value: 'Vodafone Smart 4 3G'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 361
+        display_height: 642
+        brand_vendor: Vodafone
+        brand_model: 'Smart 4'
+        brand_marketing_name: 'Vodafone Smart 4 3G'
+        brand_names: 'Vodafone Smart 4 3G'
+        design_weight: 152
+        display_size: '4.5'
+        display_type: 'FWVGA TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Smart 4G'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Vodafone
+        brand_model: 'Smart 4G'
+        design_weight: 153
+        display_size: '4.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Smart Tab 10'
+        -
+            strategy: string
+            value: 'ZTE Web Tab 10'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 1280
+        brand_vendor: Vodafone
+        brand_model: 'Smart Tab 10'
+        brand_marketing_name: 'ZTE Web Tab 10'
+        brand_names: 'ZTE Web Tab 10'
+        design_weight: 319
+        display_size: '10'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Smart Tab 3G'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 1280
+        brand_vendor: Vodafone
+        brand_model: 'Smart Tab 3G'
+        design_weight: 275
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Smart Tab 7'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 1280
+        brand_vendor: Vodafone
+        brand_model: 'Smart Tab 7'
+        design_weight: 319
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Smarttab II 10'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1280
+        display_height: 800
+        brand_vendor: Vodafone
+        brand_model: 'Smarttab II 10'
+        design_weight: 580
+        display_size: '10'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Smart Tab III 7'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Vodafone
+        brand_model: 'Smart Tab III 7'
+        design_weight: 350
+        display_size: '7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Smart tab 4'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 1280
+        brand_vendor: Vodafone
+        brand_model: 'Smart tab 4'
+        design_weight: 328
+        display_size: '8'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'SmartTab III 10.1'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1280
+        display_height: 800
+        brand_vendor: Vodafone
+        brand_model: 'SmartTab III 10.1'
+        design_weight: 560
+        display_size: '10'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: V804SS
+        -
+            strategy: string
+            value: 'Samsung SGH-Z548'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Vodafone
+        brand_model: V804SS
+        brand_marketing_name: 'Samsung SGH-Z548'
+        brand_names: 'Samsung SGH-Z548'
+        design_weight: 105
+        display_size: '2.3'
+        display_type: 'QVGA TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'VDA GPS'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 240
+        brand_vendor: Vodafone
+        brand_model: 'VDA GPS'
+        design_weight: 130
+        display_size: '2.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: v1240
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Vodafone
+        brand_model: v1240
+        design_weight: 106
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: v1415
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Vodafone
+        brand_model: v1415
+        design_weight: 120
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: v1510
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Vodafone
+        brand_model: v1510
+        design_weight: 143
+        display_size: '2.8'
+-
+    patterns:
+        -
+            strategy: string
+            value: v1605
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Vodafone
+        brand_model: v1605
+        design_weight: 176
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: v1640
+    capabilities:
+        is_mobile: true
+        display_width: 640
+        display_height: 480
+        brand_vendor: Vodafone
+        brand_model: v1640
+        design_weight: 285
+        display_size: '3.6'
+        display_type: TFT

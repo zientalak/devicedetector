@@ -1,0 +1,12 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Auyantepui Y210'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 489
+        brand_vendor: Orinoquia
+        brand_model: 'Auyantepui Y210'
+        display_size: '3.5'

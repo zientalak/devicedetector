@@ -1,0 +1,19 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: OT107
+        -
+            strategy: string
+            value: 'Omega Tablet PC'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Omega
+        brand_model: OT107
+        brand_marketing_name: 'Omega Tablet PC'
+        brand_names: 'Omega Tablet PC'
+        display_size: '7'
+        display_type: TFT

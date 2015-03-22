@@ -1,0 +1,281 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'A10 Dual Core'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 1280
+        brand_vendor: Ampe
+        brand_model: 'A10 Dual Core'
+        design_weight: 602
+        display_size: '10.1'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: A10-4core
+        -
+            strategy: string
+            value: 'Ampe A10 Quadcore'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1280
+        display_height: 800
+        brand_vendor: Ampe
+        brand_model: A10-4core
+        brand_marketing_name: 'Ampe A10 Quadcore'
+        brand_names: 'Ampe A10 Quadcore'
+        display_size: '10.1'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'A10 Tablet PC'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1280
+        display_height: 800
+        brand_vendor: Ampe
+        brand_model: 'A10 Tablet PC'
+        design_weight: 627
+        display_size: '101'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: A10-QM
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1028
+        display_height: 800
+        brand_vendor: Ampe
+        brand_model: A10-QM
+        design_weight: 639
+        display_size: '10.1'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: A65
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Ampe
+        brand_model: A65
+        design_weight: 271
+        display_size: '6.5'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: A70X
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Ampe
+        brand_model: A70X
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A71
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Ampe
+        brand_model: A71
+        design_weight: 550
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: A76
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Ampe
+        brand_model: A76
+        design_weight: 310
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'A76 Elite Tablet PC'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Ampe
+        brand_model: 'A76 Elite Tablet PC'
+        design_weight: 310
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A77
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Ampe
+        brand_model: A77
+        design_weight: 324
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A78
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Ampe
+        brand_model: A78
+        design_weight: 337
+        display_size: '7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: A79Q
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 1280
+        brand_vendor: Ampe
+        brand_model: A79Q
+        design_weight: 362
+        display_size: '7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'A81 Tablet PC'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        brand_vendor: Ampe
+        brand_model: 'A81 Tablet PC'
+        design_weight: 470
+        display_size: '8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A85
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 600
+        brand_vendor: Ampe
+        brand_model: A85
+        design_weight: 432
+        display_size: '8'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'A85 DELUXE VERSION'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 600
+        brand_vendor: Ampe
+        brand_model: 'A85 DELUXE VERSION'
+        design_weight: 456
+        display_size: '1'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'A85 ELITE VERSION'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 600
+        brand_vendor: Ampe
+        brand_model: 'A85 ELITE VERSION'
+        design_weight: 432
+        display_size: '8'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'A90 Tablet PC'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Ampe
+        brand_model: 'A90 Tablet PC'
+        display_size: '9.7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: A96
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Ampe
+        brand_model: A96
+        design_weight: 485
+        display_size: '9'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: N10-QM
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1028
+        display_height: 800
+        brand_vendor: Ampe
+        brand_model: N10-QM
+        design_weight: 639
+        display_size: '10.1'
+        display_type: IPS

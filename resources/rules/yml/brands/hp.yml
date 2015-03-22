@@ -1,0 +1,585 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: '7 Plus'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: HP
+        brand_model: '7 Plus'
+        design_weight: 294
+        display_size: '7'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: '7 VoiceTab'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: HP
+        brand_model: '7 VoiceTab'
+        design_weight: 305
+        display_size: '7'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: '7.1'
+        -
+            strategy: string
+            value: 'HP 7.1 1201'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: HP
+        brand_model: '7.1'
+        brand_marketing_name: 'HP 7.1 1201'
+        brand_names: 'HP 7.1 1201'
+        design_weight: 295
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: '8'
+        -
+            strategy: string
+            value: 'HP 8 1401'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 768
+        display_height: 1024
+        brand_vendor: HP
+        brand_model: '8'
+        brand_marketing_name: 'HP 8 1401'
+        brand_names: 'HP 8 1401'
+        design_weight: 313
+        display_size: '7.85'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: '10'
+        -
+            strategy: string
+            value: 'HP Slate10 HD'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 1280
+        brand_vendor: HP
+        brand_model: '10'
+        brand_marketing_name: 'HP Slate10 HD'
+        brand_names: 'HP Slate10 HD'
+        design_weight: 626
+        display_size: '10.1'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Slate 6 Voice Tab'
+        -
+            strategy: string
+            value: 'HP HSTNH-B19C, HP Pomegranate'
+        -
+            strategy: string
+            value: 'HP HSTNH-B19C'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: HP
+        brand_model: 'Slate 6 Voice Tab'
+        brand_marketing_name: 'HP HSTNH-B19C'
+        brand_names: 'HP HSTNH-B19C, HP Pomegranate'
+        design_weight: 160
+        display_size: '6'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'iPAQ 510'
+        -
+            strategy: string
+            value: 'HP Voice Messenger, HP iPAQ 514, HP IPAQ 500'
+        -
+            strategy: string
+            value: 'HP Voice Messenger'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: HP
+        brand_model: 'iPAQ 510'
+        brand_marketing_name: 'HP Voice Messenger'
+        brand_names: 'HP Voice Messenger, HP iPAQ 514, HP IPAQ 500'
+        design_weight: 102
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Movi M1'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: HP
+        brand_model: 'Movi M1'
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Pre 3 GSM'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HP
+        brand_model: 'Pre 3 GSM'
+        design_weight: 156
+        display_size: '3.6'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Pre3
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HP
+        brand_model: Pre3
+        design_weight: 156
+        display_size: '3.6'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Slate 10 HD'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 1280
+        brand_vendor: HP
+        brand_model: 'Slate 10 HD'
+        design_weight: 453
+        display_size: '10'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Slate 21'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1920
+        display_height: 1080
+        brand_vendor: HP
+        brand_model: 'Slate 21'
+        design_weight: 5970
+        display_size: '21.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Slate 7'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: HP
+        brand_model: 'Slate 7'
+        design_weight: 370
+        display_size: '7'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Slatebook 10 x2 PC'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1920
+        display_height: 1200
+        brand_vendor: HP
+        brand_model: 'Slatebook 10 x2 PC'
+        display_size: '10.1'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: TouchPad
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: HP
+        brand_model: TouchPad
+        design_weight: 740
+        display_size: '9.7'
+        display_type: 'LED-backlit LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'TouchPad 4G'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: HP
+        brand_model: 'TouchPad 4G'
+        design_weight: 740
+        display_size: '9.7'
+        display_type: 'LED-backlit LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: Veer
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 400
+        brand_vendor: HP
+        brand_model: Veer
+        design_weight: 103
+        display_size: '2.6'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Veer 4G'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 400
+        brand_vendor: HP
+        brand_model: 'Veer 4G'
+        design_weight: 103
+        display_size: '2.6'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'iPAQ 600'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HP
+        brand_model: 'iPAQ 600'
+        design_weight: 145
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'iPAQ 610'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HP
+        brand_model: 'iPAQ 610'
+        design_weight: 145
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'iPAQ 6900'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 240
+        brand_vendor: HP
+        brand_model: 'iPAQ 6900'
+        design_weight: 180
+        display_size: '3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'iPAQ 900'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 240
+        brand_vendor: HP
+        brand_model: 'iPAQ 900'
+        design_weight: 146
+        display_size: '2.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'iPAQ 910'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 240
+        brand_vendor: HP
+        brand_model: 'iPAQ 910'
+        design_weight: 146
+        display_size: '2.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'iPAQ Data Messenger'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HP
+        brand_model: 'iPAQ Data Messenger'
+        design_weight: 160
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'iPAQ Glisten'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HP
+        brand_model: 'iPAQ Glisten'
+        design_weight: 132
+        display_size: '2.5'
+        display_type: AMOLED
+-
+    patterns:
+        -
+            strategy: string
+            value: 'iPAQ H5450 series'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HP
+        brand_model: 'iPAQ H5450 series'
+        design_weight: 206
+        display_size: '3.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'iPAQ H6300 series'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HP
+        brand_model: 'iPAQ H6300 series'
+        design_weight: 190
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'iPAQ HW6500'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 240
+        brand_vendor: HP
+        brand_model: 'iPAQ HW6500'
+        design_weight: 165
+        display_size: '3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'iPAQ HW6510'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 240
+        brand_vendor: HP
+        brand_model: 'iPAQ HW6510'
+        design_weight: 165
+        display_size: '3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'iPAQ HW6515'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 240
+        brand_vendor: HP
+        brand_model: 'iPAQ HW6515'
+        design_weight: 165
+        display_size: '3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'iPAQ HW6915'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 240
+        brand_vendor: HP
+        brand_model: 'iPAQ HW6915'
+        design_weight: 179
+        display_size: '3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'iPAQ HW6925'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 240
+        brand_vendor: HP
+        brand_model: 'iPAQ HW6925'
+        design_weight: 179
+        display_size: '3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'iPAQ Voice Messenger'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HP
+        brand_model: 'iPAQ Voice Messenger'
+        design_weight: 107
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'iPAQ h6300'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HP
+        brand_model: 'iPAQ h6300'
+        design_weight: 190
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'iPAQ hw6900'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 240
+        brand_vendor: HP
+        brand_model: 'iPAQ hw6900'
+        design_weight: 180
+        display_size: '3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'iPAQ hw692x'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 240
+        brand_vendor: HP
+        brand_model: 'iPAQ hw692x'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'iPAQ rw6800'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 240
+        brand_vendor: HP
+        brand_model: 'iPAQ rw6800'
+        design_weight: 140
+        display_size: '2.7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'iPAQ rw6815'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: HP
+        brand_model: 'iPAQ rw6815'
+        design_weight: 140
+        display_size: '2.7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Slate 8 Pro'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1200
+        display_height: 160
+        brand_vendor: HP
+        brand_model: 'Slate 8 Pro'
+        design_weight: 453
+        display_size: '8'
+        display_type: 'IPS LCD'

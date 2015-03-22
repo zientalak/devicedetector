@@ -1,0 +1,15 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'A23 Q8'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HyperTAB
+        brand_model: 'A23 Q8'
+        design_weight: 300
+        display_size: '7'
+        display_type: 'TFT LCD'

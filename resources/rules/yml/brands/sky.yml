@@ -1,0 +1,53 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: HD9500
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Sky
+        brand_model: HD9500
+        design_weight: 168
+        display_size: '5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: Nano
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Sky
+        brand_model: Nano
+        design_weight: 136
+        display_size: '4.7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Vivo X2'
+        -
+            strategy: string
+            value: 'Sky Vivo HD, Sky Vivo X2'
+        -
+            strategy: string
+            value: 'Sky Vivo HD'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Sky
+        brand_model: 'Vivo X2'
+        brand_marketing_name: 'Sky Vivo HD'
+        brand_names: 'Sky Vivo HD, Sky Vivo X2'
+        design_weight: 190
+        display_size: '4.5'
+        display_type: IPS

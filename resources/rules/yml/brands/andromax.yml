@@ -1,0 +1,34 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: AD683J
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Andromax
+        brand_model: AD683J
+        design_weight: 120
+        display_size: '4.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: AD687G
+        -
+            strategy: string
+            value: 'Smartfren Andromax G'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Andromax
+        brand_model: AD687G
+        brand_marketing_name: 'Smartfren Andromax G'
+        brand_names: 'Smartfren Andromax G'
+        display_size: '4'
+        display_type: IPS

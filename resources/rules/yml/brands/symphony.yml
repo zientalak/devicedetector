@@ -1,0 +1,684 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: H100
+        -
+            strategy: string
+            value: 'Symphony Xplorer H100'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Symphony
+        brand_model: H100
+        brand_marketing_name: 'Symphony Xplorer H100'
+        brand_names: 'Symphony Xplorer H100'
+        display_size: '5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Play W17'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Symphony
+        brand_model: 'Play W17'
+        display_size: '3.5'
+        display_type: 'TFT HVGA'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'T7 Ultra'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Symphony
+        brand_model: 'T7 Ultra'
+        display_size: '7'
+        display_type: WVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: T7I
+        -
+            strategy: string
+            value: 'Symphony Xplorer T7I'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Symphony
+        brand_model: T7I
+        brand_marketing_name: 'Symphony Xplorer T7I'
+        brand_names: 'Symphony Xplorer T7I'
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: T8Q
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Symphony
+        brand_model: T8Q
+        display_size: '8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: W125
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Symphony
+        brand_model: W125
+        display_size: '4.5'
+-
+    patterns:
+        -
+            strategy: string
+            value: W128
+        -
+            strategy: string
+            value: 'Symphony Xplorer'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Symphony
+        brand_model: W128
+        brand_marketing_name: 'Symphony Xplorer'
+        brand_names: 'Symphony Xplorer'
+        display_size: '4.5'
+        display_type: 'IPS QHD'
+-
+    patterns:
+        -
+            strategy: string
+            value: W130
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Symphony
+        brand_model: W130
+        display_size: '5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: W160
+        -
+            strategy: string
+            value: 'Symphony Xplorer W160'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Symphony
+        brand_model: W160
+        brand_marketing_name: 'Symphony Xplorer W160'
+        brand_names: 'Symphony Xplorer W160'
+        display_size: '5'
+        display_type: 'IPS HD'
+-
+    patterns:
+        -
+            strategy: string
+            value: W19
+        -
+            strategy: string
+            value: 'Symphony Xplorer W19'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Symphony
+        brand_model: W19
+        brand_marketing_name: 'Symphony Xplorer W19'
+        brand_names: 'Symphony Xplorer W19'
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: W20
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Symphony
+        brand_model: W20
+        design_weight: 110
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: W30
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Symphony
+        brand_model: W30
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: W32
+        -
+            strategy: string
+            value: 'Symphony Xplorer W32'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Symphony
+        brand_model: W32
+        brand_marketing_name: 'Symphony Xplorer W32'
+        brand_names: 'Symphony Xplorer W32'
+        design_weight: 120
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: W50
+        -
+            strategy: string
+            value: 'Symphony Xplorer W50'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Symphony
+        brand_model: W50
+        brand_marketing_name: 'Symphony Xplorer W50'
+        brand_names: 'Symphony Xplorer W50'
+        design_weight: 135
+        display_size: '3.75'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: W65
+        -
+            strategy: string
+            value: 'Symphony Xplorer W65'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Symphony
+        brand_model: W65
+        brand_marketing_name: 'Symphony Xplorer W65'
+        brand_names: 'Symphony Xplorer W65'
+        design_weight: 132
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: W66
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Symphony
+        brand_model: W66
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: W67
+        -
+            strategy: string
+            value: 'Symphony Xplorer W67'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Symphony
+        brand_model: W67
+        brand_marketing_name: 'Symphony Xplorer W67'
+        brand_names: 'Symphony Xplorer W67'
+        display_size: '4'
+        display_type: 'TN WVGA'
+-
+    patterns:
+        -
+            strategy: string
+            value: W68
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Symphony
+        brand_model: W68
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: W68Q
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Symphony
+        brand_model: W68Q
+        display_size: '4'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: W69
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Symphony
+        brand_model: W69
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: W71
+        -
+            strategy: string
+            value: 'Symphony Xplorer W71'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Symphony
+        brand_model: W71
+        brand_marketing_name: 'Symphony Xplorer W71'
+        brand_names: 'Symphony Xplorer W71'
+        display_size: '4.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: W72
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Symphony
+        brand_model: W72
+        display_size: '4.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: W82
+        -
+            strategy: string
+            value: 'Symphony Xplorer W82'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Symphony
+        brand_model: W82
+        brand_marketing_name: 'Symphony Xplorer W82'
+        brand_names: 'Symphony Xplorer W82'
+        design_weight: 178
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: W85
+        -
+            strategy: string
+            value: 'Symphony Xplorer W85'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Symphony
+        brand_model: W85
+        brand_marketing_name: 'Symphony Xplorer W85'
+        brand_names: 'Symphony Xplorer W85'
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: W91
+        -
+            strategy: string
+            value: 'Symphony Xplorer W91'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Symphony
+        brand_model: W91
+        brand_marketing_name: 'Symphony Xplorer W91'
+        brand_names: 'Symphony Xplorer W91'
+        display_size: '4.5'
+        display_type: 'IPS FWVGA'
+-
+    patterns:
+        -
+            strategy: string
+            value: W92
+        -
+            strategy: string
+            value: 'Symphony Xplorer W92'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Symphony
+        brand_model: W92
+        brand_marketing_name: 'Symphony Xplorer W92'
+        brand_names: 'Symphony Xplorer W92'
+        design_weight: 189
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: W95
+        -
+            strategy: string
+            value: 'Symphony Xplorer W95'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Symphony
+        brand_model: W95
+        brand_marketing_name: 'Symphony Xplorer W95'
+        brand_names: 'Symphony Xplorer W95'
+        display_size: '5'
+        display_type: 'IPS FWVGA'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Xplorer P8'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Symphony
+        brand_model: 'Xplorer P8'
+        display_size: '5.7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Xplorer T8I'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Symphony
+        brand_model: 'Xplorer T8I'
+        display_size: '8'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Xplorer W10'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 400
+        brand_vendor: Symphony
+        brand_model: 'Xplorer W10'
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Xplorer W140'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Symphony
+        brand_model: 'Xplorer W140'
+        display_size: '5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Xplorer W15I'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Symphony
+        brand_model: 'Xplorer W15I'
+        display_size: '3.5'
+        display_type: 'HVGA TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Xplorer W18'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Symphony
+        brand_model: 'Xplorer W18'
+        display_size: '3.5'
+        display_type: 'HVGA TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Xplorer W21'
+        -
+            strategy: string
+            value: 'Symphony Xplorer W21 3G'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Symphony
+        brand_model: 'Xplorer W21'
+        brand_marketing_name: 'Symphony Xplorer W21 3G'
+        brand_names: 'Symphony Xplorer W21 3G'
+        display_size: '4'
+        display_type: 'WVGA TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Xplorer W25'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Symphony
+        brand_model: 'Xplorer W25'
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Xplorer W31'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Symphony
+        brand_model: 'Xplorer W31'
+        display_size: '4'
+        display_type: 'WVGA TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Xplorer W35'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Symphony
+        brand_model: 'Xplorer W35'
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Xplorer W69Q'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Symphony
+        brand_model: 'Xplorer W69Q'
+        display_size: '4'
+        display_type: 'WVGA IPS'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Xplorer W70Q'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Symphony
+        brand_model: 'Xplorer W70Q'
+        display_size: '4'
+        display_type: 'WVGA IPS'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Xplorer W75'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Symphony
+        brand_model: 'Xplorer W75'
+        design_weight: 130
+        display_size: '4.5'
+        display_type: 'FWVGA IPS'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Xplorer W86'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Symphony
+        brand_model: 'Xplorer W86'
+        display_size: '5'
+        display_type: 'WVGA TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: ZIII
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Symphony
+        brand_model: ZIII
+        design_weight: 142
+        display_size: '4.7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Zii
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Symphony
+        brand_model: Zii
+        design_weight: 168
+        display_size: '4.8'
+        display_type: 'Super AMOLED'

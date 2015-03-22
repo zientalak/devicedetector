@@ -1,0 +1,13 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: I7001
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: iZoom
+        brand_model: I7001
+        design_weight: 110
+        display_size: '3.5'

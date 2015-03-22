@@ -1,0 +1,13 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: AC831
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: ARCELIK
+        brand_model: AC831
+        design_weight: 87
+        display_type: TFT

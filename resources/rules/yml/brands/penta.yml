@@ -1,0 +1,139 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: PS650
+        -
+            strategy: string
+            value: 'Penta Smart'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Penta
+        brand_model: PS650
+        brand_marketing_name: 'Penta Smart'
+        brand_names: 'Penta Smart'
+        design_weight: 209
+        display_size: '6.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: WS1001Q
+        -
+            strategy: string
+            value: 'Penta T Pad'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 1280
+        brand_vendor: Penta
+        brand_model: WS1001Q
+        brand_marketing_name: 'Penta T Pad'
+        brand_names: 'Penta T Pad'
+        display_size: '10.1'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'T-Pad IS701C'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Penta
+        brand_model: 'T-Pad IS701C'
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'T-Pad IS703C'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Penta
+        brand_model: 'T-Pad IS703C'
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: WS702C
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Penta
+        brand_model: WS702C
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: WS703c
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Penta
+        brand_model: WS703c
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: WS707C
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Penta
+        brand_model: WS707C
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: WS802Q
+        -
+            strategy: string
+            value: 'Penta T Pad'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Penta
+        brand_model: WS802Q
+        brand_marketing_name: 'Penta T Pad'
+        brand_names: 'Penta T Pad'
+        display_size: '8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: WS802c
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 600
+        brand_vendor: Penta
+        brand_model: WS802c
+        display_size: '8'

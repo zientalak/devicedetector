@@ -1,0 +1,48 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: RQ735-A
+        -
+            strategy: string
+            value: 'Royqueen 7 Dual Core'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: RoyQueen
+        brand_model: RQ735-A
+        brand_marketing_name: 'Royqueen 7 Dual Core'
+        brand_names: 'Royqueen 7 Dual Core'
+        display_size: '7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: T-788
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: RoyQueen
+        brand_model: T-788
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: '702'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Royqueen
+        brand_model: '702'
+        design_weight: 280
+        display_size: '7'
+        display_type: 'WVGA LCD'

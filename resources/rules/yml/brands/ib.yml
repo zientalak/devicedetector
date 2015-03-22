@@ -1,0 +1,39 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 755c
+        -
+            strategy: string
+            value: 'iB Sleek 7" Dou'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: IB
+        brand_model: 755c
+        brand_marketing_name: 'iB Sleek 7" Dou'
+        brand_names: 'iB Sleek 7" Dou'
+        display_size: '7'
+        display_type: 'LCD TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: IBT0700
+        -
+            strategy: string
+            value: 'Tablet IB Sol 7in'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: IB
+        brand_model: IBT0700
+        brand_marketing_name: 'Tablet IB Sol 7in'
+        brand_names: 'Tablet IB Sol 7in'
+        design_weight: 384
+        display_size: '7'
+        display_type: TFT

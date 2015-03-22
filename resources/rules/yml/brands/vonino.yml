@@ -1,0 +1,44 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Onyx Z'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Vonino
+        brand_model: 'Onyx Z'
+        design_weight: 320
+        display_size: '7'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Orin HD'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Vonino
+        brand_model: 'Orin HD'
+        display_size: '7'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Sirius QS'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Vonino
+        brand_model: 'Sirius QS'
+        design_weight: 360
+        display_size: '7.9'
+        display_type: IPS

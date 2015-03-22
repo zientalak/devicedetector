@@ -1,0 +1,11 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: TTPComRef
+    capabilities:
+        is_mobile: true
+        display_width: 132
+        display_height: 176
+        brand_vendor: TTPCom
+        brand_model: TTPComRef

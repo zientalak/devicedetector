@@ -1,0 +1,14 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: A502
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 320
+        brand_vendor: Umeox
+        brand_model: A502
+        design_weight: 109
+        display_size: '3.2'
+        display_type: TFT

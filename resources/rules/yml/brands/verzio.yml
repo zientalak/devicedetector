@@ -1,0 +1,14 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: Duplii
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Verzio
+        brand_model: Duplii
+        design_weight: 110
+        display_size: '2.2'
+        display_type: TFT

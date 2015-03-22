@@ -1,0 +1,45 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'STX EVO'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Stonex
+        brand_model: 'STX EVO'
+        design_weight: 139
+        display_size: '5'
+        display_type: 'HD LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Stx S'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Stonex
+        brand_model: 'Stx S'
+        design_weight: 155
+        display_size: '4.5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Stx Ultra'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Stonex
+        brand_model: 'Stx Ultra'
+        design_weight: 144
+        display_size: '5'
+        display_type: TFT

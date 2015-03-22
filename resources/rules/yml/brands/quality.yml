@@ -1,0 +1,13 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: QT-A03
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Quality
+        brand_model: QT-A03
+        design_weight: 120
+        display_size: '3.5'

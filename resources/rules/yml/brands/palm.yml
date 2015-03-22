@@ -1,0 +1,581 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Treo 700w'
+        -
+            strategy: string
+            value: 'Palm 700wx'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 240
+        brand_vendor: Palm
+        brand_model: 'Treo 700w'
+        brand_marketing_name: 'Palm 700wx'
+        brand_names: 'Palm 700wx'
+        design_weight: 154
+        display_size: '2.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: '750'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 240
+        brand_vendor: Palm
+        brand_model: '750'
+        design_weight: 154
+        display_size: '2.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Blazer
+    capabilities:
+        is_mobile: true
+        display_width: 160
+        display_height: 160
+        brand_vendor: Palm
+        brand_model: Blazer
+        design_weight: 168
+        display_size: '2.5'
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: Broadway
+    capabilities:
+        is_mobile: true
+        brand_vendor: Palm
+        brand_model: Broadway
+-
+    patterns:
+        -
+            strategy: string
+            value: Centro
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 320
+        brand_vendor: Palm
+        brand_model: Centro
+        design_weight: 124
+        display_size: '2.3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Centro CDMA'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 320
+        brand_vendor: Palm
+        brand_model: 'Centro CDMA'
+        design_weight: 119
+        display_size: '2.3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Eudora client'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 92
+        brand_vendor: Palm
+        brand_model: 'Eudora client'
+-
+    patterns:
+        -
+            strategy: string
+            value: Mansion
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Palm
+        brand_model: Mansion
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Mantaray
+    capabilities:
+        is_mobile: true
+        brand_vendor: Palm
+        brand_model: Mantaray
+-
+    patterns:
+        -
+            strategy: string
+            value: Pixi
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 400
+        brand_vendor: Palm
+        brand_model: Pixi
+        design_weight: 100
+        display_size: '2.6'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Pixi Plus'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 400
+        brand_vendor: Palm
+        brand_model: 'Pixi Plus'
+        design_weight: 92
+        display_size: '2.6'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Pixi Plus GSM'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 400
+        brand_vendor: Palm
+        brand_model: 'Pixi Plus GSM'
+        design_weight: 92
+        display_size: '2.6'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Pre
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Palm
+        brand_model: Pre
+        design_weight: 133
+        display_size: '3.1'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Pre 2 GSM'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Palm
+        brand_model: 'Pre 2 GSM'
+        design_weight: 145
+        display_size: '3.1'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Pre GSM'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Palm
+        brand_model: 'Pre GSM'
+        design_weight: 135
+        display_size: '3.1'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Pre Plus'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Palm
+        brand_model: 'Pre Plus'
+        design_weight: 138
+        display_size: '3.1'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Pre Plus GSM'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Palm
+        brand_model: 'Pre Plus GSM'
+        design_weight: 138
+        display_size: '3.1'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Pre2
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Palm
+        brand_model: Pre2
+        design_weight: 145
+        display_size: '3.1'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Roadrunner
+    capabilities:
+        is_mobile: true
+        brand_vendor: Palm
+        brand_model: Roadrunner
+-
+    patterns:
+        -
+            strategy: string
+            value: Stingray
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Palm
+        brand_model: Stingray
+-
+    patterns:
+        -
+            strategy: string
+            value: TX
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 448
+        brand_vendor: Palm
+        brand_model: TX
+        design_weight: 149
+        display_size: '3.9'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Treo 500v'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Palm
+        brand_model: 'Treo 500v'
+        design_weight: 120
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Treo 600'
+    capabilities:
+        is_mobile: true
+        display_width: 160
+        display_height: 160
+        brand_vendor: Palm
+        brand_model: 'Treo 600'
+        design_weight: 168
+        display_size: '2.5'
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Treo 650'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 320
+        brand_vendor: Palm
+        brand_model: 'Treo 650'
+        design_weight: 178
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Treo 650 (CDMA)'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 320
+        brand_vendor: Palm
+        brand_model: 'Treo 650 (CDMA)'
+        design_weight: 178
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Treo 650 (GSM)'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 320
+        brand_vendor: Palm
+        brand_model: 'Treo 650 (GSM)'
+        design_weight: 178
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Treo 680'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 320
+        brand_vendor: Palm
+        brand_model: 'Treo 680'
+        design_weight: 157
+        display_size: '2.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Treo 700VX'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 320
+        brand_vendor: Palm
+        brand_model: 'Treo 700VX'
+        design_weight: 170
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Treo 700p'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 320
+        brand_vendor: Palm
+        brand_model: 'Treo 700p'
+        design_weight: 180
+        display_size: '2.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Treo 750'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 240
+        brand_vendor: Palm
+        brand_model: 'Treo 750'
+        design_weight: 154
+        display_size: '2.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Treo 750v'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 240
+        brand_vendor: Palm
+        brand_model: 'Treo 750v'
+        design_weight: 154
+        display_size: '2.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Treo 750w'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 240
+        brand_vendor: Palm
+        brand_model: 'Treo 750w'
+        design_weight: 154
+        display_size: '2.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Treo 755p'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 320
+        brand_vendor: Palm
+        brand_model: 'Treo 755p'
+        design_weight: 160
+        display_size: '2.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Treo 800w'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 320
+        brand_vendor: Palm
+        brand_model: 'Treo 800w'
+        design_weight: 142
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Treo 850'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 320
+        brand_vendor: Palm
+        brand_model: 'Treo 850'
+        design_weight: 133
+        display_size: '2.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Treo850e
+        -
+            strategy: string
+            value: 'Palm Treo Pro'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 320
+        brand_vendor: Palm
+        brand_model: Treo850e
+        brand_marketing_name: 'Palm Treo Pro'
+        brand_names: 'Palm Treo Pro'
+        design_weight: 133
+        display_size: '2.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Treo Pro CDMA'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 320
+        brand_vendor: Palm
+        brand_model: 'Treo Pro CDMA'
+        design_weight: 133
+        display_size: '2.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Tungsten C'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 320
+        brand_vendor: Palm
+        brand_model: 'Tungsten C'
+        design_weight: 178
+        display_size: '3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Tungsten T3'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 320
+        brand_vendor: Palm
+        brand_model: 'Tungsten T3'
+        design_weight: 153
+        display_size: '3.9'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Tungsten W'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 320
+        brand_vendor: Palm
+        brand_model: 'Tungsten W'
+        design_weight: 184
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Tunx
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 320
+        brand_vendor: Palm
+        brand_model: Tunx
+        design_weight: 907
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Windsor
+    capabilities:
+        is_mobile: true
+        brand_vendor: Palm
+        brand_model: Windsor
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Zire 72'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 320
+        brand_vendor: Palm
+        brand_model: 'Zire 72'
+        design_weight: 136
+        display_size: '3'
+        display_type: TFT

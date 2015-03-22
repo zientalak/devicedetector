@@ -1,0 +1,274 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: Muse
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Starmobile
+        brand_model: Muse
+        design_weight: 139
+        display_size: '5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: Astra
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Starmobile
+        brand_model: Astra
+        design_weight: 132
+        display_size: '4.3'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: Bright
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Starmobile
+        brand_model: Bright
+        design_weight: 124
+        display_size: '3.5'
+-
+    patterns:
+        -
+            strategy: string
+            value: Diamond
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Starmobile
+        brand_model: Diamond
+        design_weight: 110
+        display_size: '5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Diamond D1'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Starmobile
+        brand_model: 'Diamond D1'
+        design_weight: 204
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Diamond D2'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Starmobile
+        brand_model: 'Diamond D2'
+        design_weight: 280
+        display_size: '6.8'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Diamond V7'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Starmobile
+        brand_model: 'Diamond V7'
+        display_size: '5.7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Energy
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Starmobile
+        brand_model: Energy
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Flirt
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Starmobile
+        brand_model: Flirt
+        display_size: '4.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: Goal
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Starmobile
+        brand_model: Goal
+        design_weight: 72
+        display_size: '4.5'
+-
+    patterns:
+        -
+            strategy: string
+            value: Hit
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Starmobile
+        brand_model: Hit
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Jump
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Starmobile
+        brand_model: Jump
+        design_weight: 110
+        display_size: '4'
+        display_type: WVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: Like
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Starmobile
+        brand_model: Like
+        display_size: '4'
+        display_type: WVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: Navi
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 640
+        brand_vendor: Starmobile
+        brand_model: Navi
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Play
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Starmobile
+        brand_model: Play
+        design_weight: 138
+        display_size: '4'
+        display_type: WVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: Roar
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Starmobile
+        brand_model: Roar
+        design_weight: 150
+        display_size: '4.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: Sky
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Starmobile
+        brand_model: Sky
+        design_weight: 128
+        display_size: '4'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Up Mini'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Starmobile
+        brand_model: 'Up Mini'
+        design_weight: 137
+        display_size: '4.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: Vida
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Starmobile
+        brand_model: Vida
+        design_weight: 108
+        display_size: '3.5'
+        display_type: TFT

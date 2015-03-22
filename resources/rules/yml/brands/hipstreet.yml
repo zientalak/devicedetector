@@ -1,0 +1,137 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 7DTB25
+        -
+            strategy: string
+            value: 'Hipstreet Titan 2 7DTB25'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Hipstreet
+        brand_model: 7DTB25
+        brand_marketing_name: 'Hipstreet Titan 2 7DTB25'
+        brand_names: 'Hipstreet Titan 2 7DTB25'
+        design_weight: 310
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 9DTB7
+        -
+            strategy: string
+            value: 'Hipstreet Flare 2'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Hipstreet
+        brand_model: 9DTB7
+        brand_marketing_name: 'Hipstreet Flare 2'
+        brand_names: 'Hipstreet Flare 2'
+        design_weight: 498
+        display_size: '9'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: HS-7DTB6
+        -
+            strategy: string
+            value: 'Hipstreet Aurora'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Hipstreet
+        brand_model: HS-7DTB6
+        brand_marketing_name: 'Hipstreet Aurora'
+        brand_names: 'Hipstreet Aurora'
+        design_weight: 340
+        display_size: '7'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: HS-10DTB2
+        -
+            strategy: string
+            value: 'Hipstreet EQUINOX 2'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Hipstreet
+        brand_model: HS-10DTB2
+        brand_marketing_name: 'Hipstreet EQUINOX 2'
+        brand_names: 'Hipstreet EQUINOX 2'
+        design_weight: 550
+        display_size: '10.1'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: HS-9DTB4
+        -
+            strategy: string
+            value: 'Hipstreet Flare'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Hipstreet
+        brand_model: HS-9DTB4
+        brand_marketing_name: 'Hipstreet Flare'
+        brand_names: 'Hipstreet Flare'
+        design_weight: 340
+        display_size: '9'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: HS-7DTB2
+        -
+            strategy: string
+            value: 'Hipstreet Vektor'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1366
+        display_height: 768
+        brand_vendor: Hipstreet
+        brand_model: HS-7DTB2
+        brand_marketing_name: 'Hipstreet Vektor'
+        brand_names: 'Hipstreet Vektor'
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: HS-7DTB4
+        -
+            strategy: string
+            value: 'Hipstreet Titan'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Hipstreet
+        brand_model: HS-7DTB4
+        brand_marketing_name: 'Hipstreet Titan'
+        brand_names: 'Hipstreet Titan'
+        display_size: '7'
+        display_type: 'TFT LCD'

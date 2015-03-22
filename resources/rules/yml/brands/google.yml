@@ -1,0 +1,187 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: Glass
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 640
+        display_height: 360
+        brand_vendor: Google
+        brand_model: Glass
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Googlebot 6820'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Google
+        brand_model: 'Googlebot 6820'
+        design_weight: 100
+        display_size: '1.6'
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Googlebot N905i'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Google
+        brand_model: 'Googlebot N905i'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Googlebot SGH-E250'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Google
+        brand_model: 'Googlebot SGH-E250'
+        design_weight: 80
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Googlebot iPhone'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Google
+        brand_model: 'Googlebot iPhone'
+-
+    patterns:
+        -
+            strategy: string
+            value: Ion
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Google
+        brand_model: Ion
+        design_weight: 118
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Nexus 10'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1600
+        display_height: 2560
+        brand_vendor: Google
+        brand_model: 'Nexus 10'
+        design_weight: 603
+        display_size: '10.05'
+        display_type: 'Super PLS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Nexus 5'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Google
+        brand_model: 'Nexus 5'
+        design_weight: 130
+        display_size: '4.95'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Nexus 6'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1440
+        display_height: 2560
+        brand_vendor: Google
+        brand_model: 'Nexus 6'
+        design_weight: 184
+        display_size: '5.96'
+        display_type: 'QHD AMOLED'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Nexus 7'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1920
+        display_height: 1200
+        brand_vendor: Google
+        brand_model: 'Nexus 7'
+        design_weight: 340
+        display_size: '7'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Nexus 9'
+        -
+            strategy: string
+            value: 'Google Nexus 9 4G LTE, HTC Nexus 9 LTE'
+        -
+            strategy: string
+            value: 'Google Nexus 9 4G LTE'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1536
+        display_height: 2048
+        brand_vendor: Google
+        brand_model: 'Nexus 9'
+        brand_marketing_name: 'Google Nexus 9 4G LTE'
+        brand_names: 'Google Nexus 9 4G LTE, HTC Nexus 9 LTE'
+        design_weight: 436
+        display_size: '8.9'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Nexus One'
+        -
+            strategy: string
+            value: 'HTC Nexus One'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Google
+        brand_model: 'Nexus One'
+        brand_marketing_name: 'HTC Nexus One'
+        design_weight: 130
+        display_size: '3.7'
+        display_type: AMOLED
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Wireless Transcoder'
+    capabilities:
+        display_width: 128
+        display_height: 128
+        brand_vendor: Google
+        brand_model: 'Wireless Transcoder'

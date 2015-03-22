@@ -1,0 +1,26 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: AG280
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Toplux
+        brand_model: AG280
+        design_weight: 88
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: CG360
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Toplux
+        brand_model: CG360
+        design_weight: 93
+        display_type: OLED

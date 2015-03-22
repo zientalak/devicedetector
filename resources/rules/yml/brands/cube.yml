@@ -1,0 +1,238 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: '7X 3G'
+        -
+            strategy: string
+            value: 'Cube Talk 7X 3G U51GT-W'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Cube
+        brand_model: '7X 3G'
+        brand_marketing_name: 'Cube Talk 7X 3G U51GT-W'
+        brand_names: 'Cube Talk 7X 3G U51GT-W'
+        design_weight: 320
+        display_size: '7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: K8GT
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Cube
+        brand_model: K8GT
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: U55GT
+        -
+            strategy: string
+            value: 'Cube Talk 79 U55GT'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 768
+        display_height: 1024
+        brand_vendor: Cube
+        brand_model: U55GT
+        brand_marketing_name: 'Cube Talk 79 U55GT'
+        brand_names: 'Cube Talk 79 U55GT'
+        design_weight: 360
+        display_size: '7.9'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: U51GT-W
+        -
+            strategy: string
+            value: 'Cube Talk 7X U51GT-W'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Cube
+        brand_model: U51GT-W
+        brand_marketing_name: 'Cube Talk 7X U51GT-W'
+        brand_names: 'Cube Talk 7X U51GT-W'
+        design_weight: 320
+        display_size: '7'
+        display_type: 'TN IPS'
+-
+    patterns:
+        -
+            strategy: string
+            value: U65GT
+        -
+            strategy: string
+            value: 'Cube Talk 9X U65GT'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1536
+        display_height: 2048
+        brand_vendor: Cube
+        brand_model: U65GT
+        brand_marketing_name: 'Cube Talk 9X U65GT'
+        brand_names: 'Cube Talk 9X U65GT'
+        design_weight: 560
+        display_size: '9.7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'U10gt A'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Cube
+        brand_model: 'U10gt A'
+        display_size: '8'
+-
+    patterns:
+        -
+            strategy: string
+            value: U18GT
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Cube
+        brand_model: U18GT
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: U19GT
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Cube
+        brand_model: U19GT
+        design_weight: 660
+        display_size: '9.7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: U20GT
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Cube
+        brand_model: U20GT
+        design_weight: 420
+        display_size: '9.7'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'U20GT WS'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 768
+        display_height: 1024
+        brand_vendor: Cube
+        brand_model: 'U20GT WS'
+        design_weight: 690
+        display_size: '9.7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: U23GT
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 768
+        display_height: 1024
+        brand_vendor: Cube
+        brand_model: U23GT
+        design_weight: 400
+        display_size: '8'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: U25GT
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Cube
+        brand_model: U25GT
+        design_weight: 320
+        display_size: '7'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: U30GT
+        -
+            strategy: string
+            value: 'Cube U30GT-H'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1280
+        display_height: 800
+        brand_vendor: Cube
+        brand_model: U30GT
+        brand_marketing_name: 'Cube U30GT-H'
+        brand_names: 'Cube U30GT-H'
+        design_weight: 522
+        display_size: '10.1'
+-
+    patterns:
+        -
+            strategy: string
+            value: U9GT
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Cube
+        brand_model: U9GT
+        design_weight: 195
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'U9GT 2'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        brand_vendor: Cube
+        brand_model: 'U9GT 2'
+        design_weight: 480

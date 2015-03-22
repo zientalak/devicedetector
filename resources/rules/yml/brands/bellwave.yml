@@ -1,0 +1,50 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: Anasta
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Bellwave
+        brand_model: Anasta
+        design_weight: 132
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Fino30
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Bellwave
+        brand_model: Fino30
+        design_weight: 91
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Neo200
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Bellwave
+        brand_model: Neo200
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: UP560
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 92
+        brand_vendor: Bellwave
+        brand_model: UP560
+        display_type: LCD

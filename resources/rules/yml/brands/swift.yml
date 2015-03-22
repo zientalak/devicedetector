@@ -1,0 +1,19 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 73FB5G
+        -
+            strategy: string
+            value: 'Swift Tab II 73FB5G S7i2'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Swift
+        brand_model: 73FB5G
+        brand_marketing_name: 'Swift Tab II 73FB5G S7i2'
+        brand_names: 'Swift Tab II 73FB5G S7i2'
+        display_size: '7'
+        display_type: LCD

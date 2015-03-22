@@ -1,0 +1,100 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 1705B
+        -
+            strategy: string
+            value: 'TecToy Acqua II TT1705'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Tectoy
+        brand_model: 1705B
+        brand_marketing_name: 'TecToy Acqua II TT1705'
+        brand_names: 'TecToy Acqua II TT1705'
+        design_weight: 305
+        display_size: '7'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: TT-1705
+        -
+            strategy: string
+            value: 'Tectoy Acqua 2'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Tectoy
+        brand_model: TT-1705
+        brand_marketing_name: 'Tectoy Acqua 2'
+        brand_names: 'Tectoy Acqua 2'
+        design_weight: 332
+        display_size: '7'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: TT-1720
+        -
+            strategy: string
+            value: 'Tablet TecToy Magic III TT1720'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Tectoy
+        brand_model: TT-1720
+        brand_marketing_name: 'Tablet TecToy Magic III TT1720'
+        brand_names: 'Tablet TecToy Magic III TT1720'
+        design_weight: 340
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: TT-2500
+        -
+            strategy: string
+            value: 'Magic Tablet TT - 2500'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Tectoy
+        brand_model: TT-2500
+        brand_marketing_name: 'Magic Tablet TT - 2500'
+        brand_names: 'Magic Tablet TT - 2500'
+        design_weight: 340
+        display_size: '7'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: TT-5000I
+        -
+            strategy: string
+            value: 'Tectoy Veloce TT-5000i'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Tectoy
+        brand_model: TT-5000I
+        brand_marketing_name: 'Tectoy Veloce TT-5000i'
+        brand_names: 'Tectoy Veloce TT-5000i'
+        design_weight: 266
+        display_size: '7'
+        display_type: 'IPS LCD'

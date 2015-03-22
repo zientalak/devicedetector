@@ -1,0 +1,29 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: '761'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HBD
+        brand_model: '761'
+        design_weight: 375
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'MID 761Y'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HBD
+        brand_model: 'MID 761Y'
+        design_weight: 370
+        display_size: '7'
+        display_type: TFT

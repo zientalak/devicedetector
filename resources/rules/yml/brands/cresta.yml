@@ -1,0 +1,42 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: CTP810
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Cresta
+        brand_model: CTP810
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: CTP828
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Cresta
+        brand_model: CTP828
+        design_weight: 683
+        display_size: '7'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: CTP888
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Cresta
+        brand_model: CTP888
+        display_size: '9.7'
+        display_type: LCD

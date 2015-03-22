@@ -1,0 +1,1122 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: N-04D
+        -
+            strategy: string
+            value: 'NEC Medias LTE, DoCoMo N-04D'
+        -
+            strategy: string
+            value: 'NEC Medias LTE'
+    capabilities:
+        is_mobile: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: NEC
+        brand_model: N-04D
+        brand_marketing_name: 'NEC Medias LTE'
+        brand_names: 'NEC Medias LTE, DoCoMo N-04D'
+        design_weight: 149
+        display_size: '4.3'
+-
+    patterns:
+        -
+            strategy: string
+            value: 101N
+        -
+            strategy: string
+            value: 'Medias CH'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: NEC
+        brand_model: 101N
+        brand_marketing_name: 'Medias CH'
+        brand_names: 'Medias CH'
+        design_weight: 113
+        display_size: '4'
+        display_type: 'Super AMOLED'
+-
+    patterns:
+        -
+            strategy: string
+            value: 223i
+    capabilities:
+        is_mobile: true
+        display_width: 120
+        display_height: 160
+        brand_vendor: NEC
+        brand_model: 223i
+        design_weight: 110
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: 331i
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: NEC
+        brand_model: 331i
+        design_weight: 110
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 333i
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 40
+        brand_vendor: NEC
+        brand_model: 333i
+-
+    patterns:
+        -
+            strategy: string
+            value: 341i
+    capabilities:
+        is_mobile: true
+        display_width: 162
+        display_height: 216
+        brand_vendor: NEC
+        brand_model: 341i
+        design_weight: 110
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: '515'
+    capabilities:
+        is_mobile: true
+        display_width: 162
+        display_height: 216
+        brand_vendor: NEC
+        brand_model: '515'
+        design_weight: 100
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: '525'
+    capabilities:
+        is_mobile: true
+        display_width: 162
+        display_height: 216
+        brand_vendor: NEC
+        brand_model: '525'
+        design_weight: 110
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: '530'
+    capabilities:
+        is_mobile: true
+        display_width: 162
+        display_height: 216
+        brand_vendor: NEC
+        brand_model: '530'
+        design_weight: 110
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 600i
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: NEC
+        brand_model: 600i
+        design_weight: 113
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: DB7000
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: NEC
+        brand_model: DB7000
+        design_weight: 120
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: E122
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: NEC
+        brand_model: E122
+        design_weight: 90
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: E235
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: NEC
+        brand_model: E235
+        design_weight: 95
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: E373
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: NEC
+        brand_model: E373
+        design_weight: 90
+        display_size: '1.9'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: E616
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 240
+        brand_vendor: NEC
+        brand_model: E616
+        design_weight: 130
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: N-08D
+        -
+            strategy: string
+            value: 'NEC MEDIAS TAB UL N-08D'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 1280
+        brand_vendor: NEC
+        brand_model: N-08D
+        brand_marketing_name: 'NEC MEDIAS TAB UL N-08D'
+        brand_names: 'NEC MEDIAS TAB UL N-08D'
+        design_weight: 249
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MP6J1E1-1F
+    capabilities:
+        is_mobile: true
+        display_width: 120
+        display_height: 160
+        brand_vendor: NEC
+        brand_model: MP6J1E1-1F
+        design_weight: 65
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Medias 101S'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: NEC
+        brand_model: 'Medias 101S'
+        design_weight: 117
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Medias 101T'
+    capabilities:
+        is_mobile: true
+        display_width: 854
+        display_height: 480
+        brand_vendor: NEC
+        brand_model: 'Medias 101T'
+        design_weight: 117
+        display_size: '4'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: N-05D
+        -
+            strategy: string
+            value: 'NEC Medias ES'
+    capabilities:
+        is_mobile: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: NEC
+        brand_model: N-05D
+        brand_marketing_name: 'NEC Medias ES'
+        brand_names: 'NEC Medias ES'
+        design_weight: 110
+        display_size: '4.3'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: N-04C
+        -
+            strategy: string
+            value: 'NEC Medias N-04C'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: NEC
+        brand_model: N-04C
+        brand_marketing_name: 'NEC Medias N-04C'
+        brand_names: 'NEC Medias N-04C'
+        design_weight: 105
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: NE-103T
+        -
+            strategy: string
+            value: 'NEC Medias NE-103T'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: NEC
+        brand_model: NE-103T
+        brand_marketing_name: 'NEC Medias NE-103T'
+        brand_names: 'NEC Medias NE-103T'
+        design_weight: 174
+        display_size: '4'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: N-01D
+        -
+            strategy: string
+            value: 'NEC Medias PP Phone'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: NEC
+        brand_model: N-01D
+        brand_marketing_name: 'NEC Medias PP Phone'
+        brand_names: 'NEC Medias PP Phone'
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: N-06D
+        -
+            strategy: string
+            value: 'NEC Medias Tab'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1280
+        display_height: 800
+        brand_vendor: NEC
+        brand_model: N-06D
+        brand_marketing_name: 'NEC Medias Tab'
+        brand_names: 'NEC Medias Tab'
+        design_weight: 350
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: N-03E
+        -
+            strategy: string
+            value: 'NEC N-03E Disney Phone'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: NEC
+        brand_model: N-03E
+        brand_marketing_name: 'NEC N-03E Disney Phone'
+        brand_names: 'NEC N-03E Disney Phone'
+        design_weight: 145
+        display_size: '4.7'
+        display_type: AMOLED
+-
+    patterns:
+        -
+            strategy: string
+            value: N-04E
+        -
+            strategy: string
+            value: 'NEC N-04E Medias X'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: NEC
+        brand_model: N-04E
+        brand_marketing_name: 'NEC N-04E Medias X'
+        brand_names: 'NEC N-04E Medias X'
+        design_weight: 155
+        display_size: '4.7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: N-06C
+        -
+            strategy: string
+            value: 'Optimus Pad'
+    capabilities:
+        is_mobile: true
+        display_width: 768
+        display_height: 1280
+        brand_vendor: NEC
+        brand_model: N-06C
+        brand_marketing_name: 'Optimus Pad'
+        design_weight: 113
+        display_size: '4'
+-
+    patterns:
+        -
+            strategy: string
+            value: N-07C
+        -
+            strategy: string
+            value: 'NEC Optimus Bright'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: NEC
+        brand_model: N-07C
+        brand_marketing_name: 'NEC Optimus Bright'
+        brand_names: 'NEC Optimus Bright'
+        design_weight: 109
+        display_size: '4'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: N-07D
+        -
+            strategy: string
+            value: 'Medias X'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: NEC
+        brand_model: N-07D
+        brand_marketing_name: 'Medias X'
+        brand_names: 'Medias X'
+        design_weight: 123
+        display_size: '4.3'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: N200
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: NEC
+        brand_model: N200
+        design_weight: 70
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: N331i
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: NEC
+        brand_model: N331i
+        design_weight: 110
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: N344i
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: NEC
+        brand_model: N344i
+        design_weight: 95
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: N400i
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: NEC
+        brand_model: N400i
+        design_weight: 110
+        display_size: '2.2'
+-
+    patterns:
+        -
+            strategy: string
+            value: N401i
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: NEC
+        brand_model: N401i
+        design_weight: 90
+        display_size: '1.9'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: N410i
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: NEC
+        brand_model: N410i
+        design_weight: 118
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: N411i
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: NEC
+        brand_model: N411i
+        design_weight: 95
+        display_size: '1.9'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: N412i
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: NEC
+        brand_model: N412i
+        design_weight: 96
+        display_size: '1.9'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: N500
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: NEC
+        brand_model: N500
+        design_weight: 80
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: N500i
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: NEC
+        brand_model: N500i
+        design_weight: 99
+        display_size: '1.9'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: N500iS
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: NEC
+        brand_model: N500iS
+        design_weight: 95
+        display_size: '1.9'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: N525i
+    capabilities:
+        is_mobile: true
+        display_width: 162
+        display_height: 216
+        brand_vendor: NEC
+        brand_model: N525i
+        design_weight: 110
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: N535
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: NEC
+        brand_model: N535
+        design_weight: 110
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: N600
+    capabilities:
+        is_mobile: true
+        display_width: 120
+        display_height: 120
+        brand_vendor: NEC
+        brand_model: N600
+        design_weight: 110
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: N6206
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: NEC
+        brand_model: N6206
+        design_weight: 84
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: N630i
+    capabilities:
+        is_mobile: true
+        display_width: 120
+        display_height: 40
+        brand_vendor: NEC
+        brand_model: N630i
+        design_weight: 110
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: N710
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: NEC
+        brand_model: N710
+        design_weight: 95
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: N8
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 120
+        brand_vendor: NEC
+        brand_model: N8
+        design_weight: 110
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: N8000
+    capabilities:
+        is_mobile: true
+        display_width: 120
+        display_height: 160
+        brand_vendor: NEC
+        brand_model: N8000
+        design_weight: 110
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: N820
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: NEC
+        brand_model: N820
+        design_weight: 110
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: N830
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: NEC
+        brand_model: N830
+        design_weight: 110
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: N840
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 255
+        brand_vendor: NEC
+        brand_model: N840
+        design_weight: 118
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: N850
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: NEC
+        brand_model: N850
+        design_weight: 95
+        display_size: '1.9'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: N900
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: NEC
+        brand_model: N900
+        design_weight: 70
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: N906IMYU
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: NEC
+        brand_model: N906IMYU
+        design_weight: 106
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: N908
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: NEC
+        brand_model: N908
+        design_weight: 84
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: N910
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 40
+        brand_vendor: NEC
+        brand_model: N910
+        design_weight: 76
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: N917
+    capabilities:
+        is_mobile: true
+        display_width: 160
+        display_height: 128
+        brand_vendor: NEC
+        brand_model: N917
+        design_weight: 70
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: N923
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: NEC
+        brand_model: N923
+        design_weight: 70
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: a232
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: NEC
+        brand_model: a232
+        design_weight: 110
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: c313
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 640
+        brand_vendor: NEC
+        brand_model: c313
+        design_weight: 126
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: c338
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 182
+        brand_vendor: NEC
+        brand_model: c338
+        design_weight: 118
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: c616
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 200
+        brand_vendor: NEC
+        brand_model: c616
+        design_weight: 130
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: e121
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: NEC
+        brand_model: e121
+        design_weight: 95
+        display_size: '1.8'
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: e228
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: NEC
+        brand_model: e228
+        design_weight: 125
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: e238
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: NEC
+        brand_model: e238
+        design_weight: 95
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: e242
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 176
+        brand_vendor: NEC
+        brand_model: e242
+        design_weight: 95
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: e313
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: NEC
+        brand_model: e313
+        design_weight: 126
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: e338
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: NEC
+        brand_model: e338
+        design_weight: 114
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: e353
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: NEC
+        brand_model: e353
+        design_weight: 90
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: e540
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: NEC
+        brand_model: e540
+        design_weight: 95
+        display_size: '1.9'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: e606
+    capabilities:
+        is_mobile: true
+        display_width: 132
+        display_height: 162
+        brand_vendor: NEC
+        brand_model: e606
+        design_weight: 145
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: e808
+    capabilities:
+        is_mobile: true
+        display_width: 132
+        display_height: 162
+        brand_vendor: NEC
+        brand_model: e808
+        design_weight: 200
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: e949
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: NEC
+        brand_model: e949
+        design_weight: 96
+        display_size: '1.9'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: n21i
+    capabilities:
+        is_mobile: true
+        display_width: 120
+        display_height: 160
+        brand_vendor: NEC
+        brand_model: n21i
+        design_weight: 120
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: n22i
+    capabilities:
+        is_mobile: true
+        display_width: 120
+        display_height: 160
+        brand_vendor: NEC
+        brand_model: n22i
+        design_weight: 110
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: n31i
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 40
+        brand_vendor: NEC
+        brand_model: n31i
+        design_weight: 110
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: n342i
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: NEC
+        brand_model: n342i
+        design_weight: 90
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: n343i
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: NEC
+        brand_model: n343i
+        design_weight: 95
+        display_type: CSTN

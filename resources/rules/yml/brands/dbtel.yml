@@ -1,0 +1,141 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: '2039'
+    capabilities:
+        is_mobile: true
+        display_width: 120
+        display_height: 128
+        brand_vendor: DBTEL
+        brand_model: '2039'
+        design_weight: 70
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: '6228'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 96
+        brand_vendor: DBTEL
+        brand_model: '6228'
+        design_weight: 69
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: '6568'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: DBTEL
+        brand_model: '6568'
+        design_weight: 70
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: 6588C
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: DBTEL
+        brand_model: 6588C
+        design_weight: 79
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: '6668'
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: DBTEL
+        brand_model: '6668'
+        design_weight: 70
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: '6669'
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: DBTEL
+        brand_model: '6669'
+        design_weight: 70
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: '8036'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 96
+        brand_vendor: DBTEL
+        brand_model: '8036'
+        design_weight: 86
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: '8038'
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: DBTEL
+        brand_model: '8038'
+        design_weight: 91
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: D5
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: DBTEL
+        brand_model: D5
+        design_weight: 91
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: J6
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: DBTEL
+        brand_model: J6
+        design_weight: 91
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: T302
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: DBTEL
+        brand_model: T302

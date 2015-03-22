@@ -1,0 +1,38 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: AN7CG3
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Foxda
+        brand_model: AN7CG3
+        display_size: '7.8'
+-
+    patterns:
+        -
+            strategy: string
+            value: FW8920
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        brand_vendor: Foxda
+        brand_model: FW8920
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: FW8932
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Foxda
+        brand_model: FW8932
+        display_size: '7'
+        display_type: TFT

@@ -1,0 +1,26 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: PU2
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Uniscope
+        brand_model: PU2
+-
+    patterns:
+        -
+            strategy: string
+            value: U1203
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Uniscope
+        brand_model: U1203
+        design_weight: 128
+        display_size: '4.3'
+        display_type: IPS

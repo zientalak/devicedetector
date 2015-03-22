@@ -1,0 +1,248 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: SX-SP715A
+        -
+            strategy: string
+            value: 'Skytex Alpha 2'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Skytex
+        brand_model: SX-SP715A
+        brand_marketing_name: 'Skytex Alpha 2'
+        brand_names: 'Skytex Alpha 2'
+        design_weight: 376
+        display_size: '7'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Imagine 10'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 1280
+        brand_vendor: Skytex
+        brand_model: 'Imagine 10'
+        design_weight: 588
+        display_size: '10.1'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Imagine 7'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 1280
+        brand_vendor: Skytex
+        brand_model: 'Imagine 7'
+        design_weight: 317
+        display_size: '7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: SP722
+        -
+            strategy: string
+            value: 'Skytex SKYPAD SP722'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Skytex
+        brand_model: SP722
+        brand_marketing_name: 'Skytex SKYPAD SP722'
+        brand_names: 'Skytex SKYPAD SP722'
+        design_weight: 800
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: SP438
+        -
+            strategy: string
+            value: 'Skytex Skypad SP438'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 272
+        display_height: 480
+        brand_vendor: Skytex
+        brand_model: SP438
+        brand_marketing_name: 'Skytex Skypad SP438'
+        brand_names: 'Skytex Skypad SP438'
+        design_weight: 141
+        display_size: '4.3'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: SP700a
+        -
+            strategy: string
+            value: 'Skytex Skypad Alpha SX-SP700A'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Skytex
+        brand_model: SP700a
+        brand_marketing_name: 'Skytex Skypad Alpha SX-SP700A'
+        brand_names: 'Skytex Skypad Alpha SX-SP700A'
+        display_size: '7'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: SP705
+        -
+            strategy: string
+            value: 'Skytex Skypad SP705'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Skytex
+        brand_model: SP705
+        brand_marketing_name: 'Skytex Skypad SP705'
+        brand_names: 'Skytex Skypad SP705'
+        design_weight: 256
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: SP712
+        -
+            strategy: string
+            value: 'Skytex Skypad SP712'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Skytex
+        brand_model: SP712
+        brand_marketing_name: 'Skytex Skypad SP712'
+        brand_names: 'Skytex Skypad SP712'
+        design_weight: 227
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: SP723
+        -
+            strategy: string
+            value: 'Skytex Skypad 723'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Skytex
+        brand_model: SP723
+        brand_marketing_name: 'Skytex Skypad 723'
+        brand_names: 'Skytex Skypad 723'
+        design_weight: 227
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: SP910
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 768
+        display_height: 1024
+        brand_vendor: Skytex
+        brand_model: SP910
+        design_weight: 620
+        display_size: '9'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: SX-SP435A
+        -
+            strategy: string
+            value: 'Skytex SX-SP435 Skypad Pocket'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Skytex
+        brand_model: SX-SP435A
+        brand_marketing_name: 'Skytex SX-SP435 Skypad Pocket'
+        brand_names: 'Skytex SX-SP435 Skypad Pocket'
+        display_size: '4.3'
+-
+    patterns:
+        -
+            strategy: string
+            value: SX-SP715A4
+        -
+            strategy: string
+            value: 'SKYPAD ALPHA 2'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Skytex
+        brand_model: SX-SP715A4
+        brand_marketing_name: 'SKYPAD ALPHA 2'
+        brand_names: 'SKYPAD ALPHA 2'
+        design_weight: 376
+        display_size: '7'
+        display_type: 'WVGA LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Skypad Gemini'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Skytex
+        brand_model: 'Skypad Gemini'
+        design_weight: 340
+        display_size: '7'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Skypad Pocket'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 272
+        display_height: 480
+        brand_vendor: Skytex
+        brand_model: 'Skypad Pocket'
+        design_weight: 142
+        display_size: '4.3'

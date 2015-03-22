@@ -1,0 +1,15 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: Q101
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 1280
+        brand_vendor: VOYO
+        brand_model: Q101
+        design_weight: 600
+        display_size: '10.1'
+        display_type: IPS

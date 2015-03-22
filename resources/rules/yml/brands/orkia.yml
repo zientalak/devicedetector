@@ -1,0 +1,13 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: OK-PP555
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        brand_vendor: Orkia
+        brand_model: OK-PP555
+        design_weight: 336
+        display_size: '7'
+        display_type: AMOLED

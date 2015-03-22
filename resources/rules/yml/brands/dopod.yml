@@ -1,0 +1,341 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 577W
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Dopod
+        brand_model: 577W
+        design_weight: 106
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: '595'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Dopod
+        brand_model: '595'
+        design_weight: 115
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 818Pro
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Dopod
+        brand_model: 818Pro
+        design_weight: 148
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 838Pro
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Dopod
+        brand_model: 838Pro
+        design_weight: 176
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: '900'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 640
+        brand_vendor: Dopod
+        brand_model: '900'
+        design_weight: 285
+        display_size: '3.6'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A3288
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Dopod
+        brand_model: A3288
+        design_weight: 113
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A6288
+        -
+            strategy: string
+            value: 'HTC Hero 100'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Dopod
+        brand_model: A6288
+        brand_marketing_name: 'HTC Hero 100'
+        brand_names: 'HTC Hero 100'
+        design_weight: 128
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: C800
+        -
+            strategy: string
+            value: 'Dopod Atlas'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Dopod
+        brand_model: C800
+        brand_marketing_name: 'Dopod Atlas'
+        brand_names: 'Dopod Atlas'
+        design_weight: 168
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: C500
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Dopod
+        brand_model: C500
+        design_weight: 140
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: C720W
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 240
+        brand_vendor: Dopod
+        brand_model: C720W
+        design_weight: 119
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: C730
+        -
+            strategy: string
+            value: 'HTC S630 Cavalier'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 240
+        brand_vendor: Dopod
+        brand_model: C730
+        brand_marketing_name: 'HTC S630 Cavalier'
+        brand_names: 'HTC S630 Cavalier'
+        design_weight: 120
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'CHT 9100'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Dopod
+        brand_model: 'CHT 9100'
+        design_weight: 143
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: D600
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Dopod
+        brand_model: D600
+        design_weight: 126
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: D805
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Dopod
+        brand_model: D805
+        design_weight: 130
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: D810
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Dopod
+        brand_model: D810
+        design_weight: 143
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: D818c
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Dopod
+        brand_model: D818c
+        design_weight: 130
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: M700
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Dopod
+        brand_model: M700
+        design_weight: 130
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P660
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Dopod
+        brand_model: P660
+        design_weight: 122
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P800W
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Dopod
+        brand_model: P800W
+        design_weight: 127
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P860
+        -
+            strategy: string
+            value: Beacon
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Dopod
+        brand_model: P860
+        brand_marketing_name: Beacon
+        design_weight: 130
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: S1
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Dopod
+        brand_model: S1
+        design_weight: 112
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: S900
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 640
+        brand_vendor: Dopod
+        brand_model: S900
+        design_weight: 110
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: U1000
+    capabilities:
+        is_mobile: true
+        display_width: 640
+        display_height: 480
+        brand_vendor: Dopod
+        brand_model: U1000
+        design_weight: 359
+        display_size: '5'
+        display_type: TFT

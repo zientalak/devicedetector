@@ -1,0 +1,13 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: EVB
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 552
+        brand_vendor: Crane
+        brand_model: EVB
+        display_size: '9'

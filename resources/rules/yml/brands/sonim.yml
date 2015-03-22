@@ -1,0 +1,56 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: XP1
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Sonim
+        brand_model: XP1
+        design_weight: 128
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'XP1301 Core'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Sonim
+        brand_model: 'XP1301 Core'
+        design_weight: 190
+        display_size: '2'
+        display_type: QVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: XP3.20
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Sonim
+        brand_model: XP3.20
+        design_weight: 170
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'XP3400 Armor'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Sonim
+        brand_model: 'XP3400 Armor'
+        design_weight: 185
+        display_size: '2'
+        display_type: LCD

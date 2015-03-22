@@ -1,0 +1,15 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: T-704S
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: DGM
+        brand_model: T-704S
+        design_weight: 290
+        display_size: '7'
+        display_type: LCD

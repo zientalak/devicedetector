@@ -1,0 +1,542 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: Primo
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Walton
+        brand_model: Primo
+        design_weight: 116
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Primo C1'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Walton
+        brand_model: 'Primo C1'
+        design_weight: 112
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Primo C2'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Walton
+        brand_model: 'Primo C2'
+        design_weight: 107
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Primo C3'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Walton
+        brand_model: 'Primo C3'
+        design_weight: 106
+        display_size: '3.5'
+        display_type: 'HVGA TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Primo D1'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Walton
+        brand_model: 'Primo D1'
+        design_weight: 123
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Primo D2'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Walton
+        brand_model: 'Primo D2'
+        design_weight: 105
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Primo D3'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Walton
+        brand_model: 'Primo D3'
+        design_weight: 123
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Primo D4'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Walton
+        brand_model: 'Primo D4'
+        design_weight: 110
+        display_size: '3.5'
+        display_type: 'HVGA TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Primo E1'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Walton
+        brand_model: 'Primo E1'
+        design_weight: 117
+        display_size: '4'
+        display_type: 'WVGA TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Primo E2'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Walton
+        brand_model: 'Primo E2'
+        design_weight: 121
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Primo E3'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Walton
+        brand_model: 'Primo E3'
+        design_weight: 122
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Primo EF'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Walton
+        brand_model: 'Primo EF'
+        design_weight: 144
+        display_size: '4.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Primo F1'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Walton
+        brand_model: 'Primo F1'
+        design_weight: 153
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Primo F2'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Walton
+        brand_model: 'Primo F2'
+        design_weight: 138
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Primo F3'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Walton
+        brand_model: 'Primo F3'
+        design_weight: 141
+        display_size: '4.5'
+        display_type: 'FWVGA TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Primo F3I'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Walton
+        brand_model: 'Primo F3I'
+        design_weight: 141
+        display_size: '4.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Primo F4'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Walton
+        brand_model: 'Primo F4'
+        design_weight: 123
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Primo G1'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Walton
+        brand_model: 'Primo G1'
+        design_weight: 133
+        display_size: '4.3'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Primo G2'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Walton
+        brand_model: 'Primo G2'
+        design_weight: 156
+        display_size: '4.5'
+        display_type: 'qHD IPS'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Primo G3'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Walton
+        brand_model: 'Primo G3'
+        design_weight: 138
+        display_size: '4.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Primo G4'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Walton
+        brand_model: 'Primo G4'
+        design_weight: 184
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Primo GF'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Walton
+        brand_model: 'Primo GF'
+        design_weight: 155
+        display_size: '4.3'
+        display_type: 'WVGA TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Primo GH'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Walton
+        brand_model: 'Primo GH'
+        design_weight: 173
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Primo GH2'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Walton
+        brand_model: 'Primo GH2'
+        design_weight: 126
+        display_size: '4.5'
+        display_type: 'FWVGA,'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Primo H2'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Walton
+        brand_model: 'Primo H2'
+        design_weight: 158
+        display_size: '4.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Primo H3'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Walton
+        brand_model: 'Primo H3'
+        design_weight: 143
+        display_size: '4.7'
+        display_type: 'qHD IPS'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Primo HM'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Walton
+        brand_model: 'Primo HM'
+        design_weight: 193
+        display_size: '5'
+        display_type: 'FWVGA IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Primo N'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Walton
+        brand_model: 'Primo N'
+        design_weight: 158
+        display_size: '5.5'
+        display_type: 'FWVGA TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Primo N1'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Walton
+        brand_model: 'Primo N1'
+        design_weight: 200
+        display_size: '5.3'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Primo NX'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Walton
+        brand_model: 'Primo NX'
+        design_weight: 189
+        display_size: '5.3'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Primo R2'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Walton
+        brand_model: 'Primo R2'
+        design_weight: 160
+        display_size: '4.7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Primo R3'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Walton
+        brand_model: 'Primo R3'
+        design_weight: 137
+        display_size: '4.7'
+        display_type: 'OGS IPS'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Primo RX2'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Walton
+        brand_model: 'Primo RX2'
+        design_weight: 137
+        display_size: '5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Primo Walpad 7'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 1280
+        brand_vendor: Walton
+        brand_model: 'Primo Walpad 7'
+        design_weight: 350
+        display_size: '7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Walpad 8B'
+        -
+            strategy: string
+            value: 'Walton Primo Walpad 8B'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 768
+        display_height: 1024
+        brand_vendor: Walton
+        brand_model: 'Walpad 8B'
+        brand_marketing_name: 'Walton Primo Walpad 8B'
+        brand_names: 'Walton Primo Walpad 8B'
+        design_weight: 360
+        display_size: '7.85'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Primo X1'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Walton
+        brand_model: 'Primo X1'
+        design_weight: 132
+        display_size: '4.65'
+        display_type: 'Super AMOLED'

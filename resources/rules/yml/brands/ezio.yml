@@ -1,0 +1,73 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: EZ501
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: EZIO
+        brand_model: EZ501
+        design_weight: 75
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: EZIO-E800
+    capabilities:
+        is_mobile: true
+        display_width: 160
+        display_height: 128
+        brand_vendor: EZIO
+        brand_model: EZIO-E800
+        design_weight: 75
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MP500
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: EZIO
+        brand_model: MP500
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'NEX 800'
+    capabilities:
+        is_mobile: true
+        display_width: 160
+        display_height: 128
+        brand_vendor: EZIO
+        brand_model: 'NEX 800'
+-
+    patterns:
+        -
+            strategy: string
+            value: SL388
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: EZIO
+        brand_model: SL388
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: SX200
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: EZIO
+        brand_model: SX200

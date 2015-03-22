@@ -1,0 +1,180 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: QBA757
+        -
+            strategy: string
+            value: 'Qbex Slim Note'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Qbex
+        brand_model: QBA757
+        brand_marketing_name: 'Qbex Slim Note'
+        brand_names: 'Qbex Slim Note'
+        design_weight: 380
+        display_size: '5.2'
+        display_type: WVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: QBA769
+        -
+            strategy: string
+            value: 'Qbex Slim Note'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Qbex
+        brand_model: QBA769
+        brand_marketing_name: 'Qbex Slim Note'
+        brand_names: 'Qbex Slim Note'
+        design_weight: 197
+        display_size: '5.5'
+        display_type: WVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: S7916E
+        -
+            strategy: string
+            value: 'Qbex Slim Pad'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Qbex
+        brand_model: S7916E
+        brand_marketing_name: 'Qbex Slim Pad'
+        brand_names: 'Qbex Slim Pad'
+        design_weight: 300
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: S7916H
+        -
+            strategy: string
+            value: 'Qbex Slim Pad Tablet'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Qbex
+        brand_model: S7916H
+        brand_marketing_name: 'Qbex Slim Pad Tablet'
+        brand_names: 'Qbex Slim Pad Tablet'
+        design_weight: 308
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: TX126
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Qbex
+        brand_model: TX126
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: TX130
+        -
+            strategy: string
+            value: 'Qbex Zupin TX130'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Qbex
+        brand_model: TX130
+        brand_marketing_name: 'Qbex Zupin TX130'
+        brand_names: 'Qbex Zupin TX130'
+        display_size: '7'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: TX140
+        -
+            strategy: string
+            value: 'Qbex Zupin TX140, Qbex Zupin'
+        -
+            strategy: string
+            value: 'Qbex Zupin TX140'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Qbex
+        brand_model: TX140
+        brand_marketing_name: 'Qbex Zupin TX140'
+        brand_names: 'Qbex Zupin TX140, Qbex Zupin'
+        design_weight: 350
+        display_size: '7'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: TX200
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Qbex
+        brand_model: TX200
+        display_size: '9'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: TX320i
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Qbex
+        brand_model: TX320i
+        design_weight: 350
+        display_size: '7'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Zupin -TX120'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Qbex
+        brand_model: 'Zupin -TX120'
+        design_weight: 350
+        display_size: '7'
+        display_type: 'TFT LCD'

@@ -1,0 +1,221 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: Droid2
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Verizon
+        brand_model: Droid2
+        design_weight: 169
+        display_size: '3.7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Touch Pro2 XV6875'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Verizon
+        brand_model: 'Touch Pro2 XV6875'
+        design_weight: 180
+        display_size: '3.6'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Wireless Blitz'
+        -
+            strategy: string
+            value: 'PCD TXT8010'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Verizon
+        brand_model: 'Wireless Blitz'
+        brand_marketing_name: 'PCD TXT8010'
+        brand_names: 'PCD TXT8010'
+        design_weight: 145
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Wireless C751'
+        -
+            strategy: string
+            value: 'Verizon Wireless Casio G''zOne Ravine'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Verizon
+        brand_model: 'Wireless C751'
+        brand_marketing_name: 'Verizon Wireless Casio G''zOne Ravine'
+        brand_names: 'Verizon Wireless Casio G''zOne Ravine'
+        design_weight: 130
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Wireless CDM7076'
+    capabilities:
+        is_mobile: true
+        brand_vendor: Verizon
+        brand_model: 'Wireless CDM7076'
+        design_weight: 99
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Wireless CDM8950'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Verizon
+        brand_model: 'Wireless CDM8950'
+        design_weight: 91
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Wireless CDM8975'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Verizon
+        brand_model: 'Wireless CDM8975'
+        design_weight: 91
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Wireless Casio Exilim'
+        -
+            strategy: string
+            value: 'Verizon Wireless Casio Exilim C721'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Verizon
+        brand_model: 'Wireless Casio Exilim'
+        brand_marketing_name: 'Verizon Wireless Casio Exilim C721'
+        brand_names: 'Verizon Wireless Casio Exilim C721'
+        design_weight: 128
+        display_size: '2.3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Wireless Casio G???zOne Ravine'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Verizon
+        brand_model: 'Wireless Casio G???zOne Ravine'
+        design_weight: 130
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Wireless Escapade'
+        -
+            strategy: string
+            value: 'Pantech Escapade WP8990VW'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Verizon
+        brand_model: 'Wireless Escapade'
+        brand_marketing_name: 'Pantech Escapade WP8990VW'
+        brand_names: 'Pantech Escapade WP8990VW'
+        design_weight: 96
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Wireless Razzle'
+    capabilities:
+        is_mobile: true
+        display_width: 220
+        display_height: 176
+        brand_vendor: Verizon
+        brand_model: 'Wireless Razzle'
+        design_weight: 108
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Wireless Salute'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Verizon
+        brand_model: 'Wireless Salute'
+        design_weight: 112
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: XV6850
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 640
+        brand_vendor: Verizon
+        brand_model: XV6850
+        design_weight: 150
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: XV6900
+        -
+            strategy: string
+            value: 'HTC Touch CDMA, HTC Vogue'
+        -
+            strategy: string
+            value: 'HTC Touch CDMA'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Verizon
+        brand_model: XV6900
+        brand_marketing_name: 'HTC Touch CDMA'
+        brand_names: 'HTC Touch CDMA, HTC Vogue'
+        design_weight: 112
+        display_size: '2.8'
+        display_type: TFT

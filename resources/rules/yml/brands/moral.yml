@@ -1,0 +1,13 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: N01
+    capabilities:
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Moral
+        brand_model: N01
+        design_weight: 154
+        display_size: '4'

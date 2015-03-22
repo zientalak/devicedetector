@@ -1,0 +1,239 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'NaviPad TM-7045 3G'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Texet
+        brand_model: 'NaviPad TM-7045 3G'
+        design_weight: 325
+        display_size: '7'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'NaviPad TM-7855 3G'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 768
+        display_height: 1024
+        brand_vendor: Texet
+        brand_model: 'NaviPad TM-7855 3G'
+        design_weight: 362
+        display_size: '7.85'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Navipad TM-7858 3G'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 768
+        display_height: 1024
+        brand_vendor: Texet
+        brand_model: 'Navipad TM-7858 3G'
+        design_weight: 382
+        display_size: '7.85'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: T-990A
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 272
+        display_height: 480
+        brand_vendor: Texet
+        brand_model: T-990A
+        design_weight: 125
+        display_size: '4.3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: TM-3204R
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Texet
+        brand_model: TM-3204R
+        design_weight: 210
+        display_size: '3.2'
+        display_type: 'IPS TFT,'
+-
+    patterns:
+        -
+            strategy: string
+            value: TM-5200
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Texet
+        brand_model: TM-5200
+        design_weight: 213
+        display_size: '5.3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: TM-5204
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Texet
+        brand_model: TM-5204
+        design_weight: 213
+        display_size: '5.25'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: TM-7011
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Texet
+        brand_model: TM-7011
+        design_weight: 350
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: TM-7023
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Texet
+        brand_model: TM-7023
+        design_weight: 294
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: TM-7024
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Texet
+        brand_model: TM-7024
+        design_weight: 299
+        display_size: '7'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: TM-7025
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Texet
+        brand_model: TM-7025
+        design_weight: 370
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: TM-7026
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Texet
+        brand_model: TM-7026
+        design_weight: 313
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: TM-9741
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Texet
+        brand_model: TM-9741
+        design_weight: 580
+        display_size: '9.7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: TM-9747BT
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 768
+        display_height: 1024
+        brand_vendor: Texet
+        brand_model: TM-9747BT
+        design_weight: 575
+        display_size: '9.7'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'TM-9748 3G'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 768
+        display_height: 1024
+        brand_vendor: Texet
+        brand_model: 'TM-9748 3G'
+        design_weight: 603
+        display_size: '9.7'
+        display_type: 'LCD IPS'
+-
+    patterns:
+        -
+            strategy: string
+            value: X-Basic
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Texet
+        brand_model: X-Basic
+        design_weight: 127
+        display_size: '4'
+        display_type: TFT

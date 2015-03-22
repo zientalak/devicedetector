@@ -1,0 +1,14 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: T720
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 1280
+        brand_vendor: Giada
+        brand_model: T720
+        display_size: '7'
+        display_type: IPS

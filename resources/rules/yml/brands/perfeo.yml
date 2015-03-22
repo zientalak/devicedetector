@@ -1,0 +1,14 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: Pat712-3d
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Perfeo
+        brand_model: Pat712-3d
+        design_weight: 300
+        display_size: '7'

@@ -1,0 +1,15 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: B7200
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Bluedigit
+        brand_model: B7200
+        design_weight: 310
+        display_size: '7'
+        display_type: 'IPS LCD'

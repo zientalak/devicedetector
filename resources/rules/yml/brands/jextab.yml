@@ -1,0 +1,15 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Tab 810'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 800
+        brand_vendor: JexTab
+        brand_model: 'Tab 810'
+        design_weight: 450
+        display_size: '8'
+        display_type: 'LCD TFT'

@@ -1,0 +1,46 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: '209'
+        -
+            strategy: string
+            value: 'Avio A209'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 92
+        brand_vendor: Avio
+        brand_model: '209'
+        brand_marketing_name: 'Avio A209'
+        brand_names: 'Avio A209'
+        design_weight: 75
+        display_size: '2.4'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: A602
+    capabilities:
+        is_mobile: true
+        brand_vendor: Avio
+        brand_model: A602
+        design_weight: 102
+        display_size: '2.8'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Sen S4'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Avio
+        brand_model: 'Sen S4'
+        design_weight: 165
+        display_size: '4.5'
+        display_type: TFT

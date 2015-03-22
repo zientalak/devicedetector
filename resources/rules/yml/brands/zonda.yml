@@ -1,0 +1,207 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: ZMCK900
+        -
+            strategy: string
+            value: 'Zonda Raging'
+    capabilities:
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Zonda
+        brand_model: ZMCK900
+        brand_marketing_name: 'Zonda Raging'
+        brand_names: 'Zonda Raging'
+        display_size: '4'
+-
+    patterns:
+        -
+            strategy: string
+            value: ZA950
+        -
+            strategy: string
+            value: 'ZA950 MEGA'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Zonda
+        brand_model: ZA950
+        brand_marketing_name: 'ZA950 MEGA'
+        brand_names: 'ZA950 MEGA'
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: ZMCK740
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Zonda
+        brand_model: ZMCK740
+        design_weight: 72
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: ZMCK870
+    capabilities:
+        is_mobile: true
+        display_width: 220
+        display_height: 176
+        brand_vendor: Zonda
+        brand_model: ZMCK870
+        design_weight: 106
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'ZMEM 1090'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 92
+        brand_vendor: Zonda
+        brand_model: 'ZMEM 1090'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'ZMEM 1095'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Zonda
+        brand_model: 'ZMEM 1095'
+        design_weight: 39
+-
+    patterns:
+        -
+            strategy: string
+            value: ZMEM1070
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Zonda
+        brand_model: ZMEM1070
+-
+    patterns:
+        -
+            strategy: string
+            value: ZMEM1075
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Zonda
+        brand_model: ZMEM1075
+-
+    patterns:
+        -
+            strategy: string
+            value: ZMEM1085
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Zonda
+        brand_model: ZMEM1085
+-
+    patterns:
+        -
+            strategy: string
+            value: 'ZMNG 1900'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Zonda
+        brand_model: 'ZMNG 1900'
+        design_weight: 66
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: ZMTFTV20
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Zonda
+        brand_model: ZMTFTV20
+-
+    patterns:
+        -
+            strategy: string
+            value: ZMTN610
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Zonda
+        brand_model: ZMTN610
+        design_weight: 100
+        display_size: '2'
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: ZMTN615
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Zonda
+        brand_model: ZMTN615
+        display_size: '1.4'
+-
+    patterns:
+        -
+            strategy: string
+            value: ZMTN800
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 240
+        brand_vendor: Zonda
+        brand_model: ZMTN800
+-
+    patterns:
+        -
+            strategy: string
+            value: ZMTN815
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Zonda
+        brand_model: ZMTN815
+        design_weight: 64
+        display_size: '3'
+-
+    patterns:
+        -
+            strategy: string
+            value: zmck895
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 400
+        brand_vendor: Zonda
+        brand_model: zmck895
+        design_weight: 92
+        display_size: '3.2'
+        display_type: TFT

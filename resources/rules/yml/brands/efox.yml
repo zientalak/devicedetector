@@ -1,0 +1,15 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Smart E4'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Efox
+        brand_model: 'Smart E4'
+        design_weight: 130
+        display_size: '5'
+        display_type: IPS

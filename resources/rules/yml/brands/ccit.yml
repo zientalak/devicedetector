@@ -1,0 +1,15 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: A708G
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: CCIT
+        brand_model: A708G
+        design_weight: 320
+        display_size: '7'
+        display_type: 'WVGA LCD'

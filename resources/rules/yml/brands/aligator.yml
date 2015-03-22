@@ -1,0 +1,13 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: S4000DUO
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Aligator
+        brand_model: S4000DUO
+        display_size: '4'
+        display_type: TFT

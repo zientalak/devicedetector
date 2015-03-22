@@ -1,0 +1,14 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: W702
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Yusun
+        brand_model: W702
+        design_weight: 135
+        display_size: '3.5'
+        display_type: TFT

@@ -1,0 +1,61 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'MINT PLUS 7'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Oblio
+        brand_model: 'MINT PLUS 7'
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Mint 7x'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Oblio
+        brand_model: 'Mint 7x'
+        display_size: '7'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Mint 8X8i DC'
+        -
+            strategy: string
+            value: 'OBLIO MINT 8X8 DC'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 800
+        brand_vendor: Oblio
+        brand_model: 'Mint 8X8i DC'
+        brand_marketing_name: 'OBLIO MINT 8X8 DC'
+        brand_names: 'OBLIO MINT 8X8 DC'
+        display_size: '8'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Mint Plus 7 X'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Oblio
+        brand_model: 'Mint Plus 7 X'
+        display_size: '7'
+        display_type: TFT

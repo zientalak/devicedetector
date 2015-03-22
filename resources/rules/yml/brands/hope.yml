@@ -1,0 +1,23 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: Ss707
+        -
+            strategy: string
+            value: 'OEM Ss707, Shenzhen Xin Ss707'
+        -
+            strategy: string
+            value: 'OEM Ss707'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: HOPE
+        brand_model: Ss707
+        brand_marketing_name: 'OEM Ss707'
+        brand_names: 'OEM Ss707, Shenzhen Xin Ss707'
+        design_weight: 328
+        display_size: '7'
+        display_type: LCD

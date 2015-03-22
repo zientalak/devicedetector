@@ -1,0 +1,20 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: HD3
+        -
+            strategy: string
+            value: 'Star B94M'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Revo
+        brand_model: HD3
+        brand_marketing_name: 'Star B94M'
+        brand_names: 'Star B94M'
+        design_weight: 150
+        display_size: '4.5'
+        display_type: QHD

@@ -1,0 +1,14 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Velocity 103 VGA'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 640
+        brand_vendor: Velocity
+        brand_model: 'Velocity 103 VGA'
+        design_weight: 130
+        display_size: '2.8'
+        display_type: TFT

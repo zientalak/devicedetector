@@ -1,0 +1,20 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: GO750
+        -
+            strategy: string
+            value: 'Tom Tom GO 750 LIVE'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 272
+        display_height: 480
+        brand_vendor: TomTom
+        brand_model: GO750
+        brand_marketing_name: 'Tom Tom GO 750 LIVE'
+        brand_names: 'Tom Tom GO 750 LIVE'
+        design_weight: 224
+        display_size: '4.3'
+        display_type: LCD

@@ -1,0 +1,20 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: MT7003
+        -
+            strategy: string
+            value: 'Media-Droid Imperius MT7003'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Imperius
+        brand_model: MT7003
+        brand_marketing_name: 'Media-Droid Imperius MT7003'
+        brand_names: 'Media-Droid Imperius MT7003'
+        design_weight: 191
+        display_size: '5'
+        display_type: TFT

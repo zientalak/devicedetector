@@ -1,0 +1,20 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: ZX-X15
+        -
+            strategy: string
+            value: 'Noria T2'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 640
+        display_height: 480
+        brand_vendor: Noria
+        brand_model: ZX-X15
+        brand_marketing_name: 'Noria T2'
+        brand_names: 'Noria T2'
+        design_weight: 277
+        display_size: '7'
+        display_type: TFT

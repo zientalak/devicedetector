@@ -1,0 +1,14 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'ACCM 7000'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: ACCM
+        brand_model: 'ACCM 7000'
+        display_size: '7'
+        display_type: TFT

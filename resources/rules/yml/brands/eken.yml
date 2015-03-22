@@ -1,0 +1,221 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: B10
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Eken
+        brand_model: B10
+        display_size: '10.1'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: B70
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Eken
+        brand_model: B70
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: C70
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Eken
+        brand_model: C70
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: D70
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Eken
+        brand_model: D70
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: K90
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Eken
+        brand_model: K90
+        display_size: '9.7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: M005
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 800
+        brand_vendor: Eken
+        brand_model: M005
+        design_weight: 399
+        display_size: '8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: M009f
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Eken
+        brand_model: M009f
+        design_weight: 361
+        display_size: '7'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: M009s
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Eken
+        brand_model: M009s
+        design_weight: 380
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: T01A
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Eken
+        brand_model: T01A
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: T03a
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Eken
+        brand_model: T03a
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: T10A
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Eken
+        brand_model: T10A
+        design_weight: 636
+        display_size: '10.1'
+-
+    patterns:
+        -
+            strategy: string
+            value: W10
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Eken
+        brand_model: W10
+        display_size: '10.1'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: W10C
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Eken
+        brand_model: W10C
+        display_size: '10.1'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: W70
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Eken
+        brand_model: W70
+        display_size: '7'
+        display_type: Amoled
+-
+    patterns:
+        -
+            strategy: string
+            value: W80
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 600
+        brand_vendor: Eken
+        brand_model: W80
+        display_size: '8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: W90
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Eken
+        brand_model: W90
+        display_size: '9.7'
+        display_type: TFT

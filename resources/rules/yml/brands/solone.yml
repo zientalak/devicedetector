@@ -1,0 +1,55 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: SL-KA4
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Solone
+        brand_model: SL-KA4
+        design_weight: 135
+        display_size: '4'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: SL-S1
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Solone
+        brand_model: SL-S1
+        display_size: '3.5'
+-
+    patterns:
+        -
+            strategy: string
+            value: SL-S10
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 403
+        brand_vendor: Solone
+        brand_model: SL-S10
+        design_weight: 120
+        display_size: '3.5'
+        display_type: HVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: SL-SA4
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Solone
+        brand_model: SL-SA4
+        design_weight: 99
+        display_size: '4'

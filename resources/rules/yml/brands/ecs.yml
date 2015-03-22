@@ -1,0 +1,49 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: TR10CS1
+        -
+            strategy: string
+            value: 'Intel Education Tablets ECS TR10CS1'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 800
+        display_height: 1280
+        brand_vendor: ECS
+        brand_model: TR10CS1
+        brand_marketing_name: 'Intel Education Tablets ECS TR10CS1'
+        brand_names: 'Intel Education Tablets ECS TR10CS1'
+        design_weight: 770
+        display_size: '10.1'
+        display_type: 'TN LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: TM105
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 1280
+        brand_vendor: ECS
+        brand_model: TM105
+        design_weight: 685
+        display_size: '10.1'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: TM105A
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1280
+        display_height: 800
+        brand_vendor: ECS
+        brand_model: TM105A
+        design_weight: 685
+        display_size: '10.1'

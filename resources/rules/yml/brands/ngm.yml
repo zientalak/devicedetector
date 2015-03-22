@@ -1,0 +1,628 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: Absolute
+        -
+            strategy: string
+            value: 'NGM WeMove Absolute'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: NGM
+        brand_model: Absolute
+        brand_marketing_name: 'NGM WeMove Absolute'
+        brand_names: 'NGM WeMove Absolute'
+        design_weight: 93
+        display_size: '4'
+        display_type: 'PLS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: Action
+        -
+            strategy: string
+            value: 'NGM Wemove Action'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: NGM
+        brand_model: Action
+        brand_marketing_name: 'NGM Wemove Action'
+        brand_names: 'NGM Wemove Action'
+        design_weight: 114
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Alittle
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: NGM
+        brand_model: Alittle
+        design_weight: 76
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Argo
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: NGM
+        brand_model: Argo
+        design_weight: 130
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Billy
+    capabilities:
+        is_mobile: true
+        display_width: 220
+        display_height: 176
+        brand_vendor: NGM
+        brand_model: Billy
+        design_weight: 96
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Clio
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: NGM
+        brand_model: Clio
+        design_weight: 82
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Dynamic Fun'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: NGM
+        brand_model: 'Dynamic Fun'
+        design_weight: 141
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Dynamic Maxi'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: NGM
+        brand_model: 'Dynamic Maxi'
+        design_weight: 184
+        display_size: '5.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Dynamic Milo'
+        -
+            strategy: string
+            value: 'New Generation Mobile NGM Dynamic Milo Dual Sim'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: NGM
+        brand_model: 'Dynamic Milo'
+        brand_marketing_name: 'New Generation Mobile NGM Dynamic Milo Dual Sim'
+        brand_names: 'New Generation Mobile NGM Dynamic Milo Dual Sim'
+        design_weight: 160
+        display_size: '5'
+        display_type: 'FWVGA TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Dynamic Star'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: NGM
+        brand_model: 'Dynamic Star'
+        design_weight: 168
+        display_size: '5'
+        display_type: 'QHD TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: Stylo
+        -
+            strategy: string
+            value: 'NGM Dynamic Stylo'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: NGM
+        brand_model: Stylo
+        brand_marketing_name: 'NGM Dynamic Stylo'
+        brand_names: 'NGM Dynamic Stylo'
+        design_weight: 140
+        display_size: '4.5'
+        display_type: 'FWVGA TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Dynamic Wide'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: NGM
+        brand_model: 'Dynamic Wide'
+        design_weight: 230
+        display_size: '6'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Dynamic Wing'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: NGM
+        brand_model: 'Dynamic Wing'
+        design_weight: 133
+        display_size: '5'
+        display_type: 'IPS QHD'
+-
+    patterns:
+        -
+            strategy: string
+            value: Enjoy
+    capabilities:
+        is_mobile: true
+        display_width: 220
+        display_height: 176
+        brand_vendor: NGM
+        brand_model: Enjoy
+        design_weight: 124
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Forward Active'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: NGM
+        brand_model: 'Forward Active'
+        design_weight: 184
+        display_size: '5.7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Forward Art'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: NGM
+        brand_model: 'Forward Art'
+        design_weight: 131
+        display_size: '4.5'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Forward Escape'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: NGM
+        brand_model: 'Forward Escape'
+        design_weight: 160
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Forward Evolve'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: NGM
+        brand_model: 'Forward Evolve'
+        design_weight: 139
+        display_size: '5'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Forward Infinity'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: NGM
+        brand_model: 'Forward Infinity'
+        design_weight: 143
+        display_size: '4.5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Forward Prime'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: NGM
+        brand_model: 'Forward Prime'
+        design_weight: 125
+        display_size: '4.7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Forward Racing HD'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: NGM
+        brand_model: 'Forward Racing HD'
+        design_weight: 160
+        display_size: '5'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Forward Shake'
+        -
+            strategy: string
+            value: 'New Generation Mobile NGM Forward Shake Dual Sim'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: NGM
+        brand_model: 'Forward Shake'
+        brand_marketing_name: 'New Generation Mobile NGM Forward Shake Dual Sim'
+        brand_names: 'New Generation Mobile NGM Forward Shake Dual Sim'
+        design_weight: 122
+        display_size: '4'
+        display_type: 'TFT LCD IPS'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Forward Young'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: NGM
+        brand_model: 'Forward Young'
+        design_weight: 120
+        display_size: '4'
+        display_type: 'WVGA TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: Legend
+        -
+            strategy: string
+            value: 'NGM Wemove Legend'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: NGM
+        brand_model: Legend
+        brand_marketing_name: 'NGM Wemove Legend'
+        brand_names: 'NGM Wemove Legend'
+        design_weight: 120
+        display_size: '4.3'
+        display_type: 'Super AMOLED'
+-
+    patterns:
+        -
+            strategy: string
+            value: Legend2
+        -
+            strategy: string
+            value: 'Wemove Legend2'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: NGM
+        brand_model: Legend2
+        brand_marketing_name: 'Wemove Legend2'
+        brand_names: 'Wemove Legend2'
+        design_weight: 120
+        display_size: '4.3'
+        display_type: 'SUPER AMOLED Plus'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Metal Devil'
+    capabilities:
+        is_mobile: true
+        brand_vendor: NGM
+        brand_model: 'Metal Devil'
+        design_weight: 120
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Miracle
+        -
+            strategy: string
+            value: 'NGM Wemove Miracle'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: NGM
+        brand_model: Miracle
+        brand_marketing_name: 'NGM Wemove Miracle'
+        brand_names: 'NGM Wemove Miracle'
+        design_weight: 140
+        display_size: '4'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: Mito
+    capabilities:
+        is_mobile: true
+        display_width: 220
+        display_height: 176
+        brand_vendor: NGM
+        brand_model: Mito
+        design_weight: 96
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Polaris
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: NGM
+        brand_model: Polaris
+        design_weight: 162
+        display_size: '3.95'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Prestige
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 400
+        brand_vendor: NGM
+        brand_model: Prestige
+        design_weight: 116
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Soapqwerty
+    capabilities:
+        is_mobile: true
+        brand_vendor: NGM
+        brand_model: Soapqwerty
+        design_weight: 90
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Supreme
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: NGM
+        brand_model: Supreme
+        design_weight: 120
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Vanity
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 240
+        brand_vendor: NGM
+        brand_model: Vanity
+        design_weight: 90
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Vanity Qwerty'
+    capabilities:
+        display_width: 320
+        display_height: 240
+        brand_vendor: NGM
+        brand_model: 'Vanity Qwerty'
+        design_weight: 93
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Vanitytouch
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: NGM
+        brand_model: Vanitytouch
+        design_weight: 98
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Winn
+        -
+            strategy: string
+            value: 'NGM WEMOVE WINN'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: NGM
+        brand_model: Winn
+        brand_marketing_name: 'NGM WEMOVE WINN'
+        brand_names: 'NGM WEMOVE WINN'
+        design_weight: 120
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'WeMove Atlantis'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: NGM
+        brand_model: 'WeMove Atlantis'
+        design_weight: 144
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'WeMove Polaris'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: NGM
+        brand_model: 'WeMove Polaris'
+        design_weight: 162
+        display_size: '3.95'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Wilco
+        -
+            strategy: string
+            value: 'NGM WeMove Wilco'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: NGM
+        brand_model: Wilco
+        brand_marketing_name: 'NGM WeMove Wilco'
+        brand_names: 'NGM WeMove Wilco'
+        design_weight: 132
+        display_size: '4.3'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Wemove Quasar'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: NGM
+        brand_model: 'Wemove Quasar'
+        design_weight: 134
+        display_size: '3.7'
+        display_type: TFT

@@ -1,0 +1,274 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Ascent 2010'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Vertu
+        brand_model: 'Ascent 2010'
+        design_weight: 170
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Ascent Ferrari GT'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Vertu
+        brand_model: 'Ascent Ferrari GT'
+        design_weight: 187
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Ascent Ti'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Vertu
+        brand_model: 'Ascent Ti'
+        design_weight: 160
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Ascent Ti Carbon Fibre'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Vertu
+        brand_model: 'Ascent Ti Carbon Fibre'
+        design_weight: 162
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Ascent Ti Ferrari'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Vertu
+        brand_model: 'Ascent Ti Ferrari'
+        design_weight: 160
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Ascent Ti ICM Special Edition'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Vertu
+        brand_model: 'Ascent Ti ICM Special Edition'
+        design_weight: 162
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Ascent Ti Neon'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Vertu
+        brand_model: 'Ascent Ti Neon'
+        design_weight: 162
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Constellation Ayxta'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 400
+        brand_vendor: Vertu
+        brand_model: 'Constellation Ayxta'
+        design_weight: 175
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Constellation Diamonds'
+    capabilities:
+        is_mobile: true
+        brand_vendor: Vertu
+        brand_model: 'Constellation Diamonds'
+        design_weight: 142
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Constellation Exotic'
+    capabilities:
+        is_mobile: true
+        brand_vendor: Vertu
+        brand_model: 'Constellation Exotic'
+        design_weight: 142
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Constellation Monogram'
+    capabilities:
+        is_mobile: true
+        brand_vendor: Vertu
+        brand_model: 'Constellation Monogram'
+        design_weight: 142
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Constellation Pure'
+    capabilities:
+        is_mobile: true
+        brand_vendor: Vertu
+        brand_model: 'Constellation Pure'
+        design_weight: 142
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Constellation Quest'
+    capabilities:
+        is_mobile: true
+        display_width: 640
+        display_height: 480
+        brand_vendor: Vertu
+        brand_model: 'Constellation Quest'
+        design_weight: 185
+        display_size: '2.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Constellation Rococo'
+    capabilities:
+        is_mobile: true
+        brand_vendor: Vertu
+        brand_model: 'Constellation Rococo'
+        design_weight: 142
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Constellation T'
+        -
+            strategy: string
+            value: Quest
+    capabilities:
+        is_mobile: true
+        display_width: 360
+        display_height: 640
+        brand_vendor: Vertu
+        brand_model: 'Constellation T'
+        brand_marketing_name: Quest
+        design_weight: 199
+        display_size: '3.5'
+        display_type: AMOLED
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Constellation Vivre'
+    capabilities:
+        is_mobile: true
+        brand_vendor: Vertu
+        brand_model: 'Constellation Vivre'
+        design_weight: 142
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Signature
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Vertu
+        brand_model: Signature
+        design_weight: 173
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Signature S'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Vertu
+        brand_model: 'Signature S'
+        design_weight: 166
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Ti
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Vertu
+        brand_model: Ti
+        display_size: '3.7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Unrecognized Vertu'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Vertu
+        brand_model: 'Unrecognized Vertu'
+-
+    patterns:
+        -
+            strategy: string
+            value: VertuSignature
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Vertu
+        brand_model: VertuSignature
+        design_weight: 215
+        display_type: TFT

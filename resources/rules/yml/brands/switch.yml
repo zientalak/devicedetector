@@ -1,0 +1,18 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: MI363
+        -
+            strategy: string
+            value: 'Swicth Star Neo'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 320
+        brand_vendor: Switch
+        brand_model: MI363
+        brand_marketing_name: 'Swicth Star Neo'
+        brand_names: 'Swicth Star Neo'
+        display_size: '3.5'
+        display_type: TFT

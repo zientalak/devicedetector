@@ -1,0 +1,44 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: HY5001
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Bedove
+        brand_model: HY5001
+        design_weight: 182
+        display_size: '5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: X12
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Bedove
+        brand_model: X12
+        design_weight: 91
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: X21
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Bedove
+        brand_model: X21
+        design_weight: 500
+        display_size: '4.5'

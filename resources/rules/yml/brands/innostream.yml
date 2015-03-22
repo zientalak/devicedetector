@@ -1,0 +1,151 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: I2300
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Innostream
+        brand_model: I2300
+        design_weight: 90
+-
+    patterns:
+        -
+            strategy: string
+            value: INNO30
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Innostream
+        brand_model: INNO30
+        design_weight: 76
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: INNO35
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Innostream
+        brand_model: INNO35
+-
+    patterns:
+        -
+            strategy: string
+            value: INNO50
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Innostream
+        brand_model: INNO50
+        design_weight: 90
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: INNO55
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Innostream
+        brand_model: INNO55
+        design_weight: 88
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: INNO80
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Innostream
+        brand_model: INNO80
+        design_weight: 97
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: INNO89
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Innostream
+        brand_model: INNO89
+        design_weight: 98
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: INNO90
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Innostream
+        brand_model: INNO90
+        design_weight: 88
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: INNO98
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Innostream
+        brand_model: INNO98
+        design_weight: 91
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: INNO99
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Innostream
+        brand_model: INNO99
+        design_weight: 91
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: INNOA10
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Innostream
+        brand_model: INNOA10
+        design_weight: 86
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: INNOA10_W2
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Innostream
+        brand_model: INNOA10_W2

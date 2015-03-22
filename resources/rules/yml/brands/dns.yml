@@ -1,0 +1,481 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: M101W
+        -
+            strategy: string
+            value: 'DNS AirTab'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 1280
+        brand_vendor: DNS
+        brand_model: M101W
+        brand_marketing_name: 'DNS AirTab'
+        brand_names: 'DNS AirTab'
+        design_weight: 575
+        display_size: '10.1'
+        display_type: 'TFT IPS'
+-
+    patterns:
+        -
+            strategy: string
+            value: E71
+        -
+            strategy: string
+            value: 'DNS AirTab E71'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: DNS
+        brand_model: E71
+        brand_marketing_name: 'DNS AirTab E71'
+        brand_names: 'DNS AirTab E71'
+        design_weight: 370
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'AirTab E80'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 800
+        brand_vendor: DNS
+        brand_model: 'AirTab E80'
+        design_weight: 450
+        display_size: '8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'AirTab M100'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 1280
+        brand_vendor: DNS
+        brand_model: 'AirTab M100'
+        design_weight: 575
+        display_size: '10.1'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: M73
+        -
+            strategy: string
+            value: 'DNS AirTab M73'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: DNS
+        brand_model: M73
+        brand_marketing_name: 'DNS AirTab M73'
+        brand_names: 'DNS AirTab M73'
+        design_weight: 340
+        display_size: '7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: M83G
+        -
+            strategy: string
+            value: 'DNS AirTab M83G'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: DNS
+        brand_model: M83G
+        brand_marketing_name: 'DNS AirTab M83G'
+        brand_names: 'DNS AirTab M83G'
+        design_weight: 500
+        display_size: '8'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: M84G
+        -
+            strategy: string
+            value: 'DNS AirTab M84G'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: DNS
+        brand_model: M84G
+        brand_marketing_name: 'DNS AirTab M84G'
+        brand_names: 'DNS AirTab M84G'
+        design_weight: 435
+        display_size: '8'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: M972W
+        -
+            strategy: string
+            value: 'DNS AirTab M972w'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: DNS
+        brand_model: M972W
+        brand_marketing_name: 'DNS AirTab M972w'
+        brand_names: 'DNS AirTab M972w'
+        design_weight: 625
+        display_size: '9.7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: P101G
+        -
+            strategy: string
+            value: 'DNS AirTab P101G'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1280
+        display_height: 800
+        brand_vendor: DNS
+        brand_model: P101G
+        brand_marketing_name: 'DNS AirTab P101G'
+        brand_names: 'DNS AirTab P101G'
+        design_weight: 705
+        display_size: '10.1'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'AirTab P101W'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 1280
+        brand_vendor: DNS
+        brand_model: 'AirTab P101W'
+        design_weight: 680
+        display_size: '10.1'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P970G
+        -
+            strategy: string
+            value: 'DNS AirTab P970G'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: DNS
+        brand_model: P970G
+        brand_marketing_name: 'DNS AirTab P970G'
+        brand_names: 'DNS AirTab P970G'
+        design_weight: 650
+        display_size: '9.7'
+-
+    patterns:
+        -
+            strategy: string
+            value: E74
+        -
+            strategy: string
+            value: 'DNS Airtab E74'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: DNS
+        brand_model: E74
+        brand_marketing_name: 'DNS Airtab E74'
+        brand_names: 'DNS Airtab E74'
+        design_weight: 341
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: M83W
+        -
+            strategy: string
+            value: 'DNS Airtab M83W'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: DNS
+        brand_model: M83W
+        brand_marketing_name: 'DNS Airtab M83W'
+        brand_names: 'DNS Airtab M83W'
+        design_weight: 450
+        display_size: '8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: M973W
+        -
+            strategy: string
+            value: 'DNS Airtab M973W'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: DNS
+        brand_model: M973W
+        brand_marketing_name: 'DNS Airtab M973W'
+        brand_names: 'DNS Airtab M973W'
+        design_weight: 600
+        display_size: '9.7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Airtab M974W'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 768
+        display_height: 1024
+        brand_vendor: DNS
+        brand_model: 'Airtab M974W'
+        design_weight: 685
+        display_size: '9.7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Airtab P970W'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 768
+        display_height: 1024
+        brand_vendor: DNS
+        brand_model: 'Airtab P970W'
+        design_weight: 650
+        display_size: '9.7'
+        display_type: 'TFT IPS'
+-
+    patterns:
+        -
+            strategy: string
+            value: M75T
+        -
+            strategy: string
+            value: 'DNS AirTab'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: DNS
+        brand_model: M75T
+        brand_marketing_name: 'DNS AirTab'
+        brand_names: 'DNS AirTab'
+        display_size: '7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: S4001
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: DNS
+        brand_model: S4001
+        design_weight: 138
+        display_size: '4'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: S4003
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: DNS
+        brand_model: S4003
+        design_weight: 100
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: S4501M
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: DNS
+        brand_model: S4501M
+        design_weight: 160
+        display_size: '4.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: S4502
+        -
+            strategy: string
+            value: 'Innos D9'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: DNS
+        brand_model: S4502
+        brand_marketing_name: 'Innos D9'
+        brand_names: 'Innos D9'
+        design_weight: 185
+        display_size: '4.3'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: S4502M
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: DNS
+        brand_model: S4502M
+        design_weight: 185
+        display_size: '4.3'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: S4503
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: DNS
+        brand_model: S4503
+        design_weight: 140
+        display_size: '4.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: S4503Q
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: DNS
+        brand_model: S4503Q
+        design_weight: 140
+        display_size: '4.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: S4504
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: DNS
+        brand_model: S4504
+        display_size: '4.3'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: S4505M
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: DNS
+        brand_model: S4505M
+        design_weight: 158
+        display_size: '4.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: S4701
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: DNS
+        brand_model: S4701
+        design_weight: 160
+        display_size: '4.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: S5301Q
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 640
+        display_height: 960
+        brand_vendor: DNS
+        brand_model: S5301Q
+        display_size: '5.3'
+        display_type: IPS

@@ -1,0 +1,35 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: NM7RK-C
+        -
+            strategy: string
+            value: 'Idolian IdolPad NM7RK-C'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Idolian
+        brand_model: NM7RK-C
+        brand_marketing_name: 'Idolian IdolPad NM7RK-C'
+        brand_names: 'Idolian IdolPad NM7RK-C'
+        design_weight: 318
+        display_size: '7'
+        display_type: WVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Idolpad 7 Plus'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Idolian
+        brand_model: 'Idolpad 7 Plus'
+        design_weight: 363
+        display_size: '7'
+        display_type: 'WVGA TFT'

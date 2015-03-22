@@ -1,0 +1,188 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: TM-MID732
+        -
+            strategy: string
+            value: 'Touchmate 7'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Touchmate
+        brand_model: TM-MID732
+        brand_marketing_name: 'Touchmate 7'
+        brand_names: 'Touchmate 7'
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MID-750
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Touchmate
+        brand_model: MID-750
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MID790
+        -
+            strategy: string
+            value: 'TouchScreen 3G Call Pad'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Touchmate
+        brand_model: MID790
+        brand_marketing_name: 'TouchScreen 3G Call Pad'
+        brand_names: 'TouchScreen 3G Call Pad'
+        design_weight: 900
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: TM-MID755
+        -
+            strategy: string
+            value: 'Touchmate S-Tab'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Touchmate
+        brand_model: TM-MID755
+        brand_marketing_name: 'Touchmate S-Tab'
+        brand_names: 'Touchmate S-Tab'
+        display_size: '7'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: TM-MID712
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Touchmate
+        brand_model: TM-MID712
+        design_weight: 300
+        display_size: '7'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: TM-MID720
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Touchmate
+        brand_model: TM-MID720
+        display_size: '7'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: TM-MID721
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Touchmate
+        brand_model: TM-MID721
+        design_weight: 410
+        display_size: '7'
+        display_type: 'LCD TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: TM-MID730
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Touchmate
+        brand_model: TM-MID730
+        design_weight: 300
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: TM-MID780
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Touchmate
+        brand_model: TM-MID780
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: TM-MID788
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Touchmate
+        brand_model: TM-MID788
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: TM-MID794D
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Touchmate
+        brand_model: TM-MID794D
+        design_weight: 300
+        display_size: '7'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: TM-MID880
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 600
+        brand_vendor: Touchmate
+        brand_model: TM-MID880
+        display_size: '8'
+        display_type: TFT

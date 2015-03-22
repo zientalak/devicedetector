@@ -1,0 +1,434 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: F-03D
+        -
+            strategy: string
+            value: 'Fujitsu Arrows Kiss, DoCoMo F-03D'
+        -
+            strategy: string
+            value: 'Fujitsu Arrows Kiss'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Fujitsu
+        brand_model: F-03D
+        brand_marketing_name: 'Fujitsu Arrows Kiss'
+        brand_names: 'Fujitsu Arrows Kiss, DoCoMo F-03D'
+        display_size: '3.7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 101F
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 960
+        display_height: 540
+        brand_vendor: Fujitsu
+        brand_model: 101F
+        design_weight: 136
+        display_size: '4.3'
+        display_type: AMOLED
+-
+    patterns:
+        -
+            strategy: string
+            value: 201f
+        -
+            strategy: string
+            value: 'Fujitsu Arrows A 201F'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Fujitsu
+        brand_model: 201f
+        brand_marketing_name: 'Fujitsu Arrows A 201F'
+        brand_names: 'Fujitsu Arrows A 201F'
+        design_weight: 145
+        display_size: '4.7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Arrow F-07d'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Fujitsu
+        brand_model: 'Arrow F-07d'
+        design_weight: 105
+        display_size: '4'
+        display_type: OLED
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Arrow Me F-11d'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Fujitsu
+        brand_model: 'Arrow Me F-11d'
+        design_weight: 125
+        display_size: '3.7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: F-02E
+        -
+            strategy: string
+            value: 'Fujitsu Arrows F-02E'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Fujitsu
+        brand_model: F-02E
+        brand_marketing_name: 'Fujitsu Arrows F-02E'
+        brand_names: 'Fujitsu Arrows F-02E'
+        design_weight: 105
+        display_size: '4'
+-
+    patterns:
+        -
+            strategy: string
+            value: F-01F
+        -
+            strategy: string
+            value: 'Fujitsu Arrows NX'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Fujitsu
+        brand_model: F-01F
+        brand_marketing_name: 'Fujitsu Arrows NX'
+        brand_names: 'Fujitsu Arrows NX'
+        design_weight: 157
+        display_size: '5'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: F-06e
+        -
+            strategy: string
+            value: 'Fujitsu Arrows NX F-06E'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Fujitsu
+        brand_model: F-06e
+        brand_marketing_name: 'Fujitsu Arrows NX F-06E'
+        brand_names: 'Fujitsu Arrows NX F-06E'
+        design_weight: 163
+        display_size: '5.2'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: F-05E
+        -
+            strategy: string
+            value: 'Fujitsu Arrows Tab F-05E'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1920
+        display_height: 1200
+        brand_vendor: Fujitsu
+        brand_model: F-05E
+        brand_marketing_name: 'Fujitsu Arrows Tab F-05E'
+        brand_names: 'Fujitsu Arrows Tab F-05E'
+        design_weight: 589
+        display_size: '10.1'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: F-04e
+        -
+            strategy: string
+            value: 'Fujitsu Arrows V'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Fujitsu
+        brand_model: F-04e
+        brand_marketing_name: 'Fujitsu Arrows V'
+        brand_names: 'Fujitsu Arrows V'
+        design_weight: 145
+        display_size: '4.7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: ISW13F
+        -
+            strategy: string
+            value: 'Fujitsu Arrows Z'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Fujitsu
+        brand_model: ISW13F
+        brand_marketing_name: 'Fujitsu Arrows Z'
+        brand_names: 'Fujitsu Arrows Z'
+        design_weight: 145
+        display_size: '4.6'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: FJL21
+        -
+            strategy: string
+            value: 'Fujitsu Arrows ef'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Fujitsu
+        brand_model: FJL21
+        brand_marketing_name: 'Fujitsu Arrows ef'
+        brand_names: 'Fujitsu Arrows ef'
+        design_weight: 139
+        display_size: '4.3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Stylist M350'
+        -
+            strategy: string
+            value: 'Fujitsu CA2'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Fujitsu
+        brand_model: 'Stylist M350'
+        brand_marketing_name: 'Fujitsu CA2'
+        brand_names: 'Fujitsu CA2'
+        design_weight: 420
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: F-07E
+        -
+            strategy: string
+            value: 'DoCoMo Fujitsu F-07E Disney Mobile'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Fujitsu
+        brand_model: F-07E
+        brand_marketing_name: 'DoCoMo Fujitsu F-07E Disney Mobile'
+        brand_names: 'DoCoMo Fujitsu F-07E Disney Mobile'
+        design_weight: 157
+        display_size: '4.7'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: F-02F
+        -
+            strategy: string
+            value: 'DoCoMo Arrows Tab'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1600
+        display_height: 2560
+        brand_vendor: Fujitsu
+        brand_model: F-02F
+        brand_marketing_name: 'DoCoMo Arrows Tab'
+        brand_names: 'DoCoMo Arrows Tab'
+        design_weight: 519
+        display_size: '10.1'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: F-03E
+        -
+            strategy: string
+            value: 'Fujitsu Arrows Kiss'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Fujitsu
+        brand_model: F-03E
+        brand_marketing_name: 'Fujitsu Arrows Kiss'
+        brand_names: 'Fujitsu Arrows Kiss'
+        design_weight: 128
+        display_size: '4'
+        display_type: 'qHD TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: F-09D
+        -
+            strategy: string
+            value: 'NTT F-09D Anteprima, Fujitsu F-09D Anteprima'
+        -
+            strategy: string
+            value: 'NTT F-09D Anteprima'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Fujitsu
+        brand_model: F-09D
+        brand_marketing_name: 'NTT F-09D Anteprima'
+        brand_names: 'NTT F-09D Anteprima, Fujitsu F-09D Anteprima'
+        design_weight: 120
+        display_size: '3.7'
+-
+    patterns:
+        -
+            strategy: string
+            value: F-12C
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Fujitsu
+        brand_model: F-12C
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: FJL22
+        -
+            strategy: string
+            value: 'Fujitsu Arrows Z'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Fujitsu
+        brand_model: FJL22
+        brand_marketing_name: 'Fujitsu Arrows Z'
+        brand_names: 'Fujitsu Arrows Z'
+        design_weight: 149
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: IS12F
+        -
+            strategy: string
+            value: 'Fujitsu Toshiba Arrows ES'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Fujitsu
+        brand_model: IS12F
+        brand_marketing_name: 'Fujitsu Toshiba Arrows ES'
+        brand_names: 'Fujitsu Toshiba Arrows ES'
+        design_weight: 105
+        display_size: '4'
+-
+    patterns:
+        -
+            strategy: string
+            value: ISW11F
+        -
+            strategy: string
+            value: 'Fujitsu Toshiba Arrows Z'
+    capabilities:
+        is_mobile: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Fujitsu
+        brand_model: ISW11F
+        brand_marketing_name: 'Fujitsu Toshiba Arrows Z'
+        brand_names: 'Fujitsu Toshiba Arrows Z'
+        design_weight: 131
+        display_size: '4.3'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: M532
+        -
+            strategy: string
+            value: 'Fujitsu Stylistic'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1280
+        display_height: 800
+        brand_vendor: Fujitsu
+        brand_model: M532
+        brand_marketing_name: 'Fujitsu Stylistic'
+        brand_names: 'Fujitsu Stylistic'
+        design_weight: 560
+        display_size: '10.1'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: T-01C
+        -
+            strategy: string
+            value: 'Fujitsu REGZA Phone T-01C'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Fujitsu
+        brand_model: T-01C
+        brand_marketing_name: 'Fujitsu REGZA Phone T-01C'
+        brand_names: 'Fujitsu REGZA Phone T-01C'
+        design_weight: 149
+        display_size: '4'
+        display_type: TFT

@@ -1,0 +1,15 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Own S3010'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Entel
+        brand_model: 'Own S3010'
+        design_weight: 110
+        display_size: '4'
+        display_type: 'WVGA TFT'

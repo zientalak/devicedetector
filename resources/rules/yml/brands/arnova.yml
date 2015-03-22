@@ -1,0 +1,517 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: '101 g4'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Arnova
+        brand_model: '101 g4'
+        display_size: '10.1'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: '10B G3'
+        -
+            strategy: string
+            value: 'Arnova AN10BG3DT'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Arnova
+        brand_model: '10B G3'
+        brand_marketing_name: 'Arnova AN10BG3DT'
+        brand_names: 'Arnova AN10BG3DT'
+        design_weight: 630
+        display_size: '10.1'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: AN7HG3
+        -
+            strategy: string
+            value: 'Arnova 7H G3'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Arnova
+        brand_model: AN7HG3
+        brand_marketing_name: 'Arnova 7H G3'
+        brand_names: 'Arnova 7H G3'
+        design_weight: 270
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Arnova 9 G2'
+        -
+            strategy: string
+            value: 'Arnova 9 G2i'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Arnova
+        brand_model: 'Arnova 9 G2'
+        brand_marketing_name: 'Arnova 9 G2i'
+        brand_names: 'Arnova 9 G2i'
+        design_weight: 630
+        display_size: '9.7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: '90 G4'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Arnova
+        brand_model: '90 G4'
+        design_weight: 480
+        display_size: '9'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 97g4
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Arnova
+        brand_model: 97g4
+        design_weight: 700
+        display_size: '9.7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A80ksc
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 800
+        brand_vendor: Arnova
+        brand_model: A80ksc
+        design_weight: 506
+        display_size: '8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: AN10CG3
+        -
+            strategy: string
+            value: 'Arnova ARNOVA 10c G3'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Arnova
+        brand_model: AN10CG3
+        brand_marketing_name: 'Arnova ARNOVA 10c G3'
+        brand_names: 'Arnova ARNOVA 10c G3'
+        design_weight: 520
+        display_size: '10.1'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Arnova 7d G3'
+        -
+            strategy: string
+            value: 'Arnova AN7DG3-CP'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Arnova
+        brand_model: 'Arnova 7d G3'
+        brand_marketing_name: 'Arnova AN7DG3-CP'
+        brand_names: 'Arnova AN7DG3-CP'
+        design_weight: 340
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: AN7DG3B
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Arnova
+        brand_model: AN7DG3B
+        design_weight: 660
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: AN7DG3ST-CP
+        -
+            strategy: string
+            value: 'Archos Arnova ChildPad AN7DG3ST'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Arnova
+        brand_model: AN7DG3ST-CP
+        brand_marketing_name: 'Archos Arnova ChildPad AN7DG3ST'
+        brand_names: 'Archos Arnova ChildPad AN7DG3ST'
+        design_weight: 380
+        display_size: '7'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: AN7G2I
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Arnova
+        brand_model: AN7G2I
+        design_weight: 370
+        display_size: '7'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Arnova 10'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Arnova
+        brand_model: 'Arnova 10'
+        design_weight: 57
+        display_size: '10'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Arnova 10 G2'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Arnova
+        brand_model: 'Arnova 10 G2'
+        design_weight: 540
+        display_size: '10.1'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Arnova 10b G2'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Arnova
+        brand_model: 'Arnova 10b G2'
+        design_weight: 680
+        display_size: '10.1'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Arnova 7'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Arnova
+        brand_model: 'Arnova 7'
+        design_weight: 340
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Arnova 7 G2'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Arnova
+        brand_model: 'Arnova 7 G2'
+        design_weight: 370
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Arnova 7 G3'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Arnova
+        brand_model: 'Arnova 7 G3'
+        design_weight: 300
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Arnova 7b G2'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Arnova
+        brand_model: 'Arnova 7b G2'
+        design_weight: 350
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Arnova 7b G2 DT'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Arnova
+        brand_model: 'Arnova 7b G2 DT'
+        design_weight: 351
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Arnova 7b G3'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Arnova
+        brand_model: 'Arnova 7b G3'
+        design_weight: 350
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Arnova 7c G2'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Arnova
+        brand_model: 'Arnova 7c G2'
+        design_weight: 490
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Arnova 7c G3'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Arnova
+        brand_model: 'Arnova 7c G3'
+        design_weight: 360
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Arnova 7e G2 Dual Touch'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Arnova
+        brand_model: 'Arnova 7e G2 Dual Touch'
+        design_weight: 370
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Arnova 7f G3'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Arnova
+        brand_model: 'Arnova 7f G3'
+        design_weight: 340
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Arnova 8'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 600
+        brand_vendor: Arnova
+        brand_model: 'Arnova 8'
+        design_weight: 500
+        display_size: '8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Arnova 8 G2'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 600
+        brand_vendor: Arnova
+        brand_model: 'Arnova 8 G2'
+        design_weight: 490
+        display_size: '8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Arnova 8 G3'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 600
+        brand_vendor: Arnova
+        brand_model: 'Arnova 8 G3'
+        design_weight: 510
+        display_size: '8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Arnova 8b G2'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 600
+        brand_vendor: Arnova
+        brand_model: 'Arnova 8b G2'
+        design_weight: 510
+        display_size: '8'
+        display_type: Tablet
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Arnova 8c G3'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 600
+        brand_vendor: Arnova
+        brand_model: 'Arnova 8c G3'
+        design_weight: 470
+        display_size: '8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Arnova 9 G3'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Arnova
+        brand_model: 'Arnova 9 G3'
+        design_weight: 630
+        display_size: '9.7'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Arnova ChildPad'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Arnova
+        brand_model: 'Arnova ChildPad'
+        design_weight: 380
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: GBook
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Arnova
+        brand_model: GBook
+        design_weight: 304
+        display_size: '7'
+        display_type: TFT

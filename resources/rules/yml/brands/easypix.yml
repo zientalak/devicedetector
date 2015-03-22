@@ -1,0 +1,14 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Smart Pad EP750'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Easypix
+        brand_model: 'Smart Pad EP750'
+        design_weight: 350
+        display_size: '7'

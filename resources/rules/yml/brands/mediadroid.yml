@@ -1,0 +1,15 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: MT7010
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: MediaDroid
+        brand_model: MT7010
+        design_weight: 613
+        display_size: '10'
+        display_type: LCD

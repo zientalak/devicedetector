@@ -1,0 +1,339 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: A10Q
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Evercoss
+        brand_model: A10Q
+        design_weight: 114
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A26C
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Evercoss
+        brand_model: A26C
+        design_weight: 175
+        display_size: '5'
+        display_type: 'FWVGA LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: A26b
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Evercoss
+        brand_model: A26b
+        design_weight: 171
+        display_size: '5'
+        display_type: FWVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: A28A
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Evercoss
+        brand_model: A28A
+        design_weight: 119
+        display_size: '4'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: A28B
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Evercoss
+        brand_model: A28B
+        design_weight: 96
+        display_size: '3.5'
+        display_type: HVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: A28M
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Evercoss
+        brand_model: A28M
+        design_weight: 116
+        display_size: '4'
+-
+    patterns:
+        -
+            strategy: string
+            value: A28S
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Evercoss
+        brand_model: A28S
+        design_weight: 109
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A28T
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Evercoss
+        brand_model: A28T
+        design_weight: 120
+        display_size: '4'
+        display_type: WVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: A5S
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Evercoss
+        brand_model: A5S
+        design_weight: 118
+        display_size: '4.3'
+        display_type: WVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: A65A
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Evercoss
+        brand_model: A65A
+        design_weight: 128
+        display_size: '5'
+        display_type: 'FWVGA, IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: A66A
+        -
+            strategy: string
+            value: 'Evercoss Elevate Y'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Evercoss
+        brand_model: A66A
+        brand_marketing_name: 'Evercoss Elevate Y'
+        brand_names: 'Evercoss Elevate Y'
+        design_weight: 148
+        display_size: '5'
+        display_type: 'IPS LCD, TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: A7A
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Evercoss
+        brand_model: A7A
+        design_weight: 114
+        display_size: '4'
+        display_type: 'WVGA TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: A7B
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Evercoss
+        brand_model: A7B
+        design_weight: 104
+        display_size: '4'
+        display_type: 'WVGA IPS'
+-
+    patterns:
+        -
+            strategy: string
+            value: A7D
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Evercoss
+        brand_model: A7D
+        design_weight: 105
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A7F
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Evercoss
+        brand_model: A7F
+        design_weight: 134
+        display_size: '4.5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: A7R
+        -
+            strategy: string
+            value: 'Evercoss A7R Slim'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Evercoss
+        brand_model: A7R
+        brand_marketing_name: 'Evercoss A7R Slim'
+        brand_names: 'Evercoss A7R Slim'
+        design_weight: 144
+        display_size: '5'
+        display_type: 'FWVGA IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: A7T
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Evercoss
+        brand_model: A7T
+        design_weight: 118
+        display_size: '4'
+        display_type: WVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: 'A7T Plus'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Evercoss
+        brand_model: 'A7T Plus'
+        design_weight: 118
+        display_size: '4'
+        display_type: 'WVGA TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: A7V
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Evercoss
+        brand_model: A7V
+        design_weight: 120
+        display_size: '5'
+        display_type: 'FWVGA TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: AT1A
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Evercoss
+        brand_model: AT1A
+        design_weight: 341
+        display_size: '7'
+        display_type: 'WSVGA IPS'
+-
+    patterns:
+        -
+            strategy: string
+            value: AT1C
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Evercoss
+        brand_model: AT1C
+        design_weight: 276
+        display_size: '7'
+        display_type: 'WSVGA TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: AT8
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 768
+        display_height: 1024
+        brand_vendor: Evercoss
+        brand_model: AT8
+        design_weight: 386
+        display_size: '8'
+        display_type: 'WXGA IPS'

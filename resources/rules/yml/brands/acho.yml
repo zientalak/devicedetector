@@ -1,0 +1,29 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: C905
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Acho
+        brand_model: C905
+        design_weight: 356
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: C906
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Acho
+        brand_model: C906
+        design_weight: 700
+        display_size: '9.7'

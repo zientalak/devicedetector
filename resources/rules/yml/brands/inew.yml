@@ -1,0 +1,100 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: I3000
+        -
+            strategy: string
+            value: 'iNew I3000 HD'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: iNew
+        brand_model: I3000
+        brand_marketing_name: 'iNew I3000 HD'
+        brand_names: 'iNew I3000 HD'
+        design_weight: 125
+        display_size: '5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: I6000
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: iNew
+        brand_model: I6000
+        design_weight: 265
+        display_size: '6.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: M2
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: iNew
+        brand_model: M2
+        design_weight: 114
+        display_size: '5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: V3
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: iNew
+        brand_model: V3
+        design_weight: 128
+        display_size: '5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: V3-E
+        -
+            strategy: string
+            value: 'iNew V3'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: iNew
+        brand_model: V3-E
+        brand_marketing_name: 'iNew V3'
+        brand_names: 'iNew V3'
+        design_weight: 124
+        display_size: '5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: i8000
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: iNew
+        brand_model: i8000
+        design_weight: 157
+        display_size: '5.5'
+        display_type: IPS

@@ -1,0 +1,95 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: C20
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: SmartPhone
+        brand_model: C20
+        design_weight: 165
+        display_size: '5'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: E120L
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: SmartPhone
+        brand_model: E120L
+        design_weight: 158
+        display_size: '4.7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: GT-9000
+        -
+            strategy: string
+            value: 'Smartphone H5W'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: SmartPhone
+        brand_model: GT-9000
+        brand_marketing_name: 'Smartphone H5W'
+        brand_names: 'Smartphone H5W'
+        design_weight: 96
+        display_size: '4'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Mini One'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: SmartPhone
+        brand_model: 'Mini One'
+        design_weight: 93
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: N7800
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: SmartPhone
+        brand_model: N7800
+        design_weight: 196
+        display_size: '5'
+        display_type: WVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: S5292
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: SmartPhone
+        brand_model: S5292
+        design_weight: 134
+        display_size: '3.5'
+        display_type: TFT

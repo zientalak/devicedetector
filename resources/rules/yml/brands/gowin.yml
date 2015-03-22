@@ -1,0 +1,14 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: D8
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Gowin
+        brand_model: D8
+        display_size: '4.7'
+        display_type: IPS

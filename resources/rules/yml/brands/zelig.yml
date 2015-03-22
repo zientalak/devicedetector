@@ -1,0 +1,15 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: XZPAD210G
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 1280
+        brand_vendor: Zelig
+        brand_model: XZPAD210G
+        design_weight: 640
+        display_size: '10.1'
+        display_type: 'IPS LCD'

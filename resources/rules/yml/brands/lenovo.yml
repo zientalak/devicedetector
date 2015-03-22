@@ -1,0 +1,2540 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: A3300-T
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Lenovo
+        brand_model: A3300-T
+        design_weight: 327
+        display_size: '7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 3GC101
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Lenovo
+        brand_model: 3GC101
+        design_weight: 165
+        display_size: '3.6'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 3GW100
+        -
+            strategy: string
+            value: 'Lenovo LePhone'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Lenovo
+        brand_model: 3GW100
+        brand_marketing_name: 'Lenovo LePhone'
+        brand_names: 'Lenovo LePhone'
+        design_weight: 165
+        display_size: '3.7'
+        display_type: AMOLED
+-
+    patterns:
+        -
+            strategy: string
+            value: 3GW101
+    capabilities:
+        is_mobile: true
+        brand_vendor: Lenovo
+        brand_model: 3GW101
+        display_size: '3.6'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: A1-07
+        -
+            strategy: string
+            value: 'Lenovo LePad A1-07'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Lenovo
+        brand_model: A1-07
+        brand_marketing_name: 'Lenovo LePad A1-07'
+        brand_names: 'Lenovo LePad A1-07'
+        design_weight: 400
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A1107
+        -
+            strategy: string
+            value: 'Lenovo IdeaPad A1107'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Lenovo
+        brand_model: A1107
+        brand_marketing_name: 'Lenovo IdeaPad A1107'
+        brand_names: 'Lenovo IdeaPad A1107'
+        design_weight: 400
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: A208T
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Lenovo
+        brand_model: A208T
+        design_weight: 110
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A2105
+        -
+            strategy: string
+            value: 'Lenovo LePad A2105'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Lenovo
+        brand_model: A2105
+        brand_marketing_name: 'Lenovo LePad A2105'
+        brand_names: 'Lenovo LePad A2105'
+        design_weight: 135
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A2107
+        -
+            strategy: string
+            value: 'Lenovo IdeaTab A2107, Vodafone SmartTab II'
+        -
+            strategy: string
+            value: 'Lenovo IdeaTab A2107'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Lenovo
+        brand_model: A2107
+        brand_marketing_name: 'Lenovo IdeaTab A2107'
+        brand_names: 'Lenovo IdeaTab A2107, Vodafone SmartTab II'
+        design_weight: 400
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A2107A
+        -
+            strategy: string
+            value: 'Lenovo SmartTab II7'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Lenovo
+        brand_model: A2107A
+        brand_marketing_name: 'Lenovo SmartTab II7'
+        brand_names: 'Lenovo SmartTab II7'
+        design_weight: 400
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A2107A-H
+        -
+            strategy: string
+            value: 'Lenovo IdeaTab A2107A-H'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Lenovo
+        brand_model: A2107A-H
+        brand_marketing_name: 'Lenovo IdeaTab A2107A-H'
+        brand_names: 'Lenovo IdeaTab A2107A-H'
+        design_weight: 400
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A2109A
+        -
+            strategy: string
+            value: 'Lenovo IdeaTab A2109A'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1280
+        display_height: 800
+        brand_vendor: Lenovo
+        brand_model: A2109A
+        brand_marketing_name: 'Lenovo IdeaTab A2109A'
+        brand_names: 'Lenovo IdeaTab A2109A'
+        design_weight: 570
+        display_size: '9'
+        display_type: LED
+-
+    patterns:
+        -
+            strategy: string
+            value: A238T
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Lenovo
+        brand_model: A238T
+        design_weight: 122
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A269
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Lenovo
+        brand_model: A269
+        design_weight: 110
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A269I
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Lenovo
+        brand_model: A269I
+        design_weight: 112
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A278T
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Lenovo
+        brand_model: A278T
+        design_weight: 116
+        display_size: '3.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: A288T
+        -
+            strategy: string
+            value: 'Lenovo LePhone A288T'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Lenovo
+        brand_model: A288T
+        brand_marketing_name: 'Lenovo LePhone A288T'
+        brand_names: 'Lenovo LePhone A288T'
+        design_weight: 135
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A298T
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Lenovo
+        brand_model: A298T
+        design_weight: 120
+        display_size: '4'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: A308T
+    capabilities:
+        is_mobile: true
+        display_width: 600
+        display_height: 1066
+        brand_vendor: Lenovo
+        brand_model: A308T
+        design_weight: 117
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A316
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Lenovo
+        brand_model: A316
+        design_weight: 130
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A316i
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Lenovo
+        brand_model: A316i
+        design_weight: 121
+        display_size: '4'
+        display_type: 'WVGA LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: A319
+        -
+            strategy: string
+            value: 'Lenovo RocStar A319'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Lenovo
+        brand_model: A319
+        brand_marketing_name: 'Lenovo RocStar A319'
+        brand_names: 'Lenovo RocStar A319'
+        design_weight: 130
+        display_size: '4'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: A328
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Lenovo
+        brand_model: A328
+        design_weight: 140
+        display_size: '4.5'
+        display_type: 'TN TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: A3300-HV
+        -
+            strategy: string
+            value: 'Lenovo A7-30 A3300HV'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Lenovo
+        brand_model: A3300-HV
+        brand_marketing_name: 'Lenovo A7-30 A3300HV'
+        brand_names: 'Lenovo A7-30 A3300HV'
+        design_weight: 327
+        display_size: '7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: A3300-gv
+        -
+            strategy: string
+            value: 'Lenovo Tab A7-30'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Lenovo
+        brand_model: A3300-gv
+        brand_marketing_name: 'Lenovo Tab A7-30'
+        brand_names: 'Lenovo Tab A7-30'
+        design_weight: 327
+        display_size: '7'
+        display_type: 'TN LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: A338T
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Lenovo
+        brand_model: A338T
+        design_weight: 145
+        display_size: '4.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A3500-F
+        -
+            strategy: string
+            value: 'Lenovo IdeaPad A3500F'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 1280
+        brand_vendor: Lenovo
+        brand_model: A3500-F
+        brand_marketing_name: 'Lenovo IdeaPad A3500F'
+        brand_names: 'Lenovo IdeaPad A3500F'
+        design_weight: 320
+        display_size: '7'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: A3500-FL
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 1280
+        brand_vendor: Lenovo
+        brand_model: A3500-FL
+        design_weight: 320
+        display_size: '7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: A3500-H
+        -
+            strategy: string
+            value: 'Lenovo IdeaTab A3500-H'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 1280
+        brand_vendor: Lenovo
+        brand_model: A3500-H
+        brand_marketing_name: 'Lenovo IdeaTab A3500-H'
+        brand_names: 'Lenovo IdeaTab A3500-H'
+        design_weight: 320
+        display_size: '7'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: A3500-HV
+        -
+            strategy: string
+            value: 'Lenovo A7-50 A3500, Lenovo Tab A7-50'
+        -
+            strategy: string
+            value: 'Lenovo A7-50 A3500'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 1280
+        brand_vendor: Lenovo
+        brand_model: A3500-HV
+        brand_marketing_name: 'Lenovo A7-50 A3500'
+        brand_names: 'Lenovo A7-50 A3500, Lenovo Tab A7-50'
+        design_weight: 320
+        display_size: '7'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: A358T
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Lenovo
+        brand_model: A358T
+        design_weight: 155
+        display_size: '5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: A360
+        -
+            strategy: string
+            value: 'Lenovo LePhone A360'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Lenovo
+        brand_model: A360
+        brand_marketing_name: 'Lenovo LePhone A360'
+        brand_names: 'Lenovo LePhone A360'
+        design_weight: 118
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A366T
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 320
+        brand_vendor: Lenovo
+        brand_model: A366T
+        design_weight: 127
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A369
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Lenovo
+        brand_model: A369
+        design_weight: 118
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A369I
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Lenovo
+        brand_model: A369I
+        design_weight: 120
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A378T
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Lenovo
+        brand_model: A378T
+        design_weight: 146
+        display_size: '4.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: A388T
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Lenovo
+        brand_model: A388T
+        design_weight: 177
+        display_size: '5'
+        display_type: 'IPS FWVGA'
+-
+    patterns:
+        -
+            strategy: string
+            value: A390
+        -
+            strategy: string
+            value: 'Lenovo LePhone A390'
+    capabilities:
+        is_mobile: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Lenovo
+        brand_model: A390
+        brand_marketing_name: 'Lenovo LePhone A390'
+        brand_names: 'Lenovo LePhone A390'
+        design_weight: 357
+        display_size: '4'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: A390e
+        -
+            strategy: string
+            value: 'Lenovo LePhone A390e'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Lenovo
+        brand_model: A390e
+        brand_marketing_name: 'Lenovo LePhone A390e'
+        brand_names: 'Lenovo LePhone A390e'
+        design_weight: 110
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A396
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Lenovo
+        brand_model: A396
+        design_weight: 125
+        display_size: '4'
+        display_type: 'WVGA TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: A516
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Lenovo
+        brand_model: A516
+        design_weight: 148
+        display_size: '4.5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: A526
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Lenovo
+        brand_model: A526
+        design_weight: 145
+        display_size: '4.5'
+        display_type: FWVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: A529
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Lenovo
+        brand_model: A529
+        design_weight: 171
+        display_size: '5'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: A536
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Lenovo
+        brand_model: A536
+        design_weight: 148
+        display_size: '5'
+        display_type: 'TN FWVGA TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: A5500-F
+        -
+            strategy: string
+            value: 'Lenovo A8-50 A5500'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 800
+        display_height: 1280
+        brand_vendor: Lenovo
+        brand_model: A5500-F
+        brand_marketing_name: 'Lenovo A8-50 A5500'
+        brand_names: 'Lenovo A8-50 A5500'
+        design_weight: 360
+        display_size: '8'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: A5500-H
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 1280
+        brand_vendor: Lenovo
+        brand_model: A5500-H
+        design_weight: 360
+        display_size: '8'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: A560
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Lenovo
+        brand_model: A560
+        design_weight: 159
+        display_size: '5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: A560e
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Lenovo
+        brand_model: A560e
+        design_weight: 115
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A580
+        -
+            strategy: string
+            value: 'Lenovo LePhone A580'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Lenovo
+        brand_model: A580
+        brand_marketing_name: 'Lenovo LePhone A580'
+        brand_names: 'Lenovo LePhone A580'
+        design_weight: 139
+        display_size: '4.3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A590
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Lenovo
+        brand_model: A590
+        design_weight: 190
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'A60 plus'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Lenovo
+        brand_model: 'A60 plus'
+        design_weight: 135
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A600E
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Lenovo
+        brand_model: A600E
+        design_weight: 164
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A630
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Lenovo
+        brand_model: A630
+        design_weight: 159
+        display_size: '4.5'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: A630T
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Lenovo
+        brand_model: A630T
+        design_weight: 150
+        display_size: '4.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A650
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Lenovo
+        brand_model: A650
+        design_weight: 120
+        display_size: '5.5'
+        display_type: 'FWVGA LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: A660
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Lenovo
+        brand_model: A660
+        display_size: '4'
+-
+    patterns:
+        -
+            strategy: string
+            value: A668T
+        -
+            strategy: string
+            value: 'Lenovo LePhone A668T'
+    capabilities:
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Lenovo
+        brand_model: A668T
+        brand_marketing_name: 'Lenovo LePhone A668T'
+        brand_names: 'Lenovo LePhone A668T'
+        design_weight: 125
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A66t
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 320
+        brand_vendor: Lenovo
+        brand_model: A66t
+        design_weight: 126
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A670
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Lenovo
+        brand_model: A670
+        design_weight: 128
+        display_size: '4.5'
+        display_type: 'IPSV TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: A670T
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Lenovo
+        brand_model: A670T
+        design_weight: 128
+        display_size: '4.5'
+        display_type: TFT-LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'A680 Row'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Lenovo
+        brand_model: 'A680 Row'
+        design_weight: 165
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A689
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Lenovo
+        brand_model: A689
+        design_weight: 110
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A68e
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 320
+        brand_vendor: Lenovo
+        brand_model: A68e
+        design_weight: 136
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A690
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Lenovo
+        brand_model: A690
+        design_weight: 134
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A698t
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Lenovo
+        brand_model: A698t
+        design_weight: 117
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A706
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Lenovo
+        brand_model: A706
+        design_weight: 130
+        display_size: '4.5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: A710E
+        -
+            strategy: string
+            value: 'Lenovo LePhone A710E'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Lenovo
+        brand_model: A710E
+        brand_marketing_name: 'Lenovo LePhone A710E'
+        brand_names: 'Lenovo LePhone A710E'
+        design_weight: 143
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A750
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Lenovo
+        brand_model: A750
+        design_weight: 162
+        display_size: '4'
+        display_type: TFT-LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: A760
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Lenovo
+        brand_model: A760
+        design_weight: 134
+        display_size: '4.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: A765e
+        -
+            strategy: string
+            value: 'LePhone A765E'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Lenovo
+        brand_model: A765e
+        brand_marketing_name: 'LePhone A765E'
+        brand_names: 'LePhone A765E'
+        design_weight: 123
+        display_size: '4.5'
+        display_type: 'TFT IPS'
+-
+    patterns:
+        -
+            strategy: string
+            value: A766
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Lenovo
+        brand_model: A766
+        design_weight: 162
+        display_size: '5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: A780
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Lenovo
+        brand_model: A780
+        design_weight: 168
+        display_size: '4'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: A789
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Lenovo
+        brand_model: A789
+        design_weight: 140
+        display_size: '4.3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A790e
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Lenovo
+        brand_model: A790e
+        design_weight: 140
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A798T
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Lenovo
+        brand_model: A798T
+        design_weight: 161
+        display_size: '4.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A806
+        -
+            strategy: string
+            value: 'Lenovo Golden Warrior A8 A806'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Lenovo
+        brand_model: A806
+        brand_marketing_name: 'Lenovo Golden Warrior A8 A806'
+        brand_names: 'Lenovo Golden Warrior A8 A806'
+        design_weight: 150
+        display_size: '5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: A830
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Lenovo
+        brand_model: A830
+        design_weight: 165
+        display_size: '5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'A850 Plus'
+        -
+            strategy: string
+            value: 'LePhone A850+'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Lenovo
+        brand_model: 'A850 Plus'
+        brand_marketing_name: 'LePhone A850+'
+        brand_names: 'LePhone A850+'
+        design_weight: 162
+        display_size: '5.5'
+        display_type: 'IPS LCD, TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: A850i
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Lenovo
+        brand_model: A850i
+        design_weight: 184
+        display_size: '5.5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: A859
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Lenovo
+        brand_model: A859
+        design_weight: 163
+        display_size: '5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: A880
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Lenovo
+        brand_model: A880
+        design_weight: 196
+        display_size: '6'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: A889
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Lenovo
+        brand_model: A889
+        design_weight: 192
+        display_size: '6'
+        display_type: 'IPS QHD'
+-
+    patterns:
+        -
+            strategy: string
+            value: S560
+        -
+            strategy: string
+            value: 'Lenovo IdeaPhone S560, Lenovo Arizona S560'
+        -
+            strategy: string
+            value: 'Lenovo IdeaPhone S560'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Lenovo
+        brand_model: S560
+        brand_marketing_name: 'Lenovo IdeaPhone S560'
+        brand_names: 'Lenovo IdeaPhone S560, Lenovo Arizona S560'
+        design_weight: 155
+        display_size: '4'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: B6000-F
+        -
+            strategy: string
+            value: 'Lenovo Ideapad B6000-F'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1280
+        display_height: 800
+        brand_vendor: Lenovo
+        brand_model: B6000-F
+        brand_marketing_name: 'Lenovo Ideapad B6000-F'
+        brand_names: 'Lenovo Ideapad B6000-F'
+        design_weight: 401
+        display_size: '8'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: B6000-H
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 1280
+        brand_vendor: Lenovo
+        brand_model: B6000-H
+        design_weight: 401
+        display_size: '8'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: B6000-HV
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1280
+        display_height: 800
+        brand_vendor: Lenovo
+        brand_model: B6000-HV
+        design_weight: 401
+        display_size: '8'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: B8000-F
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1280
+        display_height: 800
+        brand_vendor: Lenovo
+        brand_model: B8000-F
+        design_weight: 600
+        display_size: '10'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: B8000-H
+        -
+            strategy: string
+            value: 'Lenovo Yoga Tablet 10'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1280
+        display_height: 800
+        brand_vendor: Lenovo
+        brand_model: B8000-H
+        brand_marketing_name: 'Lenovo Yoga Tablet 10'
+        brand_names: 'Lenovo Yoga Tablet 10'
+        design_weight: 605
+        display_size: '8'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: B8080-F
+        -
+            strategy: string
+            value: 'Lenovo YOGA Tablet 10 HD+'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1200
+        display_height: 1920
+        brand_vendor: Lenovo
+        brand_model: B8080-F
+        brand_marketing_name: 'Lenovo YOGA Tablet 10 HD+'
+        brand_names: 'Lenovo YOGA Tablet 10 HD+'
+        design_weight: 615
+        display_size: '10.1'
+        display_type: 'IPS TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: B8080-H
+        -
+            strategy: string
+            value: 'Lenovo Yoga Tablet 10 3G, YOGA Tablet 10 HD +'
+        -
+            strategy: string
+            value: 'Lenovo Yoga Tablet 10 3G'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1200
+        display_height: 1920
+        brand_vendor: Lenovo
+        brand_model: B8080-H
+        brand_marketing_name: 'Lenovo Yoga Tablet 10 3G'
+        brand_names: 'Lenovo Yoga Tablet 10 3G, YOGA Tablet 10 HD +'
+        design_weight: 628
+        display_size: '10.1'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: E228
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Lenovo
+        brand_model: E228
+        design_weight: 92
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: E268
+        -
+            strategy: string
+            value: 'Lenovo Flip'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Lenovo
+        brand_model: E268
+        brand_marketing_name: 'Lenovo Flip'
+        brand_names: 'Lenovo Flip'
+        design_weight: 88
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: E303
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Lenovo
+        brand_model: E303
+        design_weight: 85
+        display_size: '1.6'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: E307
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Lenovo
+        brand_model: E307
+        design_weight: 82
+        display_size: '1.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: E308
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Lenovo
+        brand_model: E308
+        display_size: '1.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: ET600
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Lenovo
+        brand_model: ET600
+        design_weight: 105
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: ET860
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Lenovo
+        brand_model: ET860
+        design_weight: 115
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: I906
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Lenovo
+        brand_model: I906
+        design_weight: 109
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: K1
+        -
+            strategy: string
+            value: 'Lenovo IdeaPad K1'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1280
+        display_height: 800
+        brand_vendor: Lenovo
+        brand_model: K1
+        brand_marketing_name: 'Lenovo IdeaPad K1'
+        brand_names: 'Lenovo IdeaPad K1'
+        design_weight: 771
+        display_size: '10.1'
+        display_type: LED
+-
+    patterns:
+        -
+            strategy: string
+            value: K860
+        -
+            strategy: string
+            value: 'Lenovo IdeaPhone K860, Lenovo LePhone K860'
+        -
+            strategy: string
+            value: 'Lenovo IdeaPhone K860'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Lenovo
+        brand_model: K860
+        brand_marketing_name: 'Lenovo IdeaPhone K860'
+        brand_names: 'Lenovo IdeaPhone K860, Lenovo LePhone K860'
+        design_weight: 185
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P770
+        -
+            strategy: string
+            value: 'Lenovo IdeaPhone P770'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Lenovo
+        brand_model: P770
+        brand_marketing_name: 'Lenovo IdeaPhone P770'
+        brand_names: 'Lenovo IdeaPhone P770'
+        display_size: '4.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: S890
+        -
+            strategy: string
+            value: 'Lenovo IdeaPhone S890'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Lenovo
+        brand_model: S890
+        brand_marketing_name: 'Lenovo IdeaPhone S890'
+        brand_names: 'Lenovo IdeaPhone S890'
+        design_weight: 176
+        display_size: '5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'IdeaTab A1000-F'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Lenovo
+        brand_model: 'IdeaTab A1000-F'
+        design_weight: 340
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'IdeaTab A1000-G'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Lenovo
+        brand_model: 'IdeaTab A1000-G'
+        design_weight: 340
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'IdeaTab A2207A-H'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Lenovo
+        brand_model: 'IdeaTab A2207A-H'
+        design_weight: 400
+        display_size: '7'
+        display_type: LED
+-
+    patterns:
+        -
+            strategy: string
+            value: S2110
+        -
+            strategy: string
+            value: 'Lenovo IdeaTab S2'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1280
+        display_height: 800
+        brand_vendor: Lenovo
+        brand_model: S2110
+        brand_marketing_name: 'Lenovo IdeaTab S2'
+        brand_names: 'Lenovo IdeaTab S2'
+        design_weight: 580
+        display_size: '10.1'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: S2007A
+        -
+            strategy: string
+            value: 'Lenovo IdeaTab S2007A'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1280
+        display_height: 800
+        brand_vendor: Lenovo
+        brand_model: S2007A
+        brand_marketing_name: 'Lenovo IdeaTab S2007A'
+        brand_names: 'Lenovo IdeaTab S2007A'
+        design_weight: 357
+        display_size: '7'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: S2109
+        -
+            strategy: string
+            value: 'Lenovo IdeaTab S2109'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Lenovo
+        brand_model: S2109
+        brand_marketing_name: 'Lenovo IdeaTab S2109'
+        brand_names: 'Lenovo IdeaTab S2109'
+        display_size: '9.7'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: S6000-H
+        -
+            strategy: string
+            value: 'Lenovo IdeaTab S6000H'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 1280
+        brand_vendor: Lenovo
+        brand_model: S6000-H
+        brand_marketing_name: 'Lenovo IdeaTab S6000H'
+        brand_names: 'Lenovo IdeaTab S6000H'
+        design_weight: 560
+        display_size: '10.1'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Ideatab A1000-T'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Lenovo
+        brand_model: 'Ideatab A1000-T'
+        design_weight: 340
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Ideatab A1000L-F'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Lenovo
+        brand_model: 'Ideatab A1000L-F'
+        design_weight: 340
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: S6000-F
+        -
+            strategy: string
+            value: 'Lenovo Ideatab S6000-F'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 1280
+        brand_vendor: Lenovo
+        brand_model: S6000-F
+        brand_marketing_name: 'Lenovo Ideatab S6000-F'
+        brand_names: 'Lenovo Ideatab S6000-F'
+        design_weight: 560
+        display_size: '10.1'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Ideatab S6000-H'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1280
+        display_height: 800
+        brand_vendor: Lenovo
+        brand_model: 'Ideatab S6000-H'
+        design_weight: 562
+        display_size: '10.1'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: K800
+    capabilities:
+        is_mobile: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Lenovo
+        brand_model: K800
+        display_size: '4.5'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: K900
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Lenovo
+        brand_model: K900
+        design_weight: 162
+        display_size: '5.5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: K910
+        -
+            strategy: string
+            value: 'Lenovo Vibe Z K910'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Lenovo
+        brand_model: K910
+        brand_marketing_name: 'Lenovo Vibe Z K910'
+        brand_names: 'Lenovo Vibe Z K910'
+        design_weight: 147
+        display_size: '5.5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: K910L
+        -
+            strategy: string
+            value: 'Lenovo Vibe Z K910L'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Lenovo
+        brand_model: K910L
+        brand_marketing_name: 'Lenovo Vibe Z K910L'
+        brand_names: 'Lenovo Vibe Z K910L'
+        design_weight: 145
+        display_size: '5.5'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'KKT 11'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Lenovo
+        brand_model: 'KKT 11'
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: LN1107
+        -
+            strategy: string
+            value: 'LNV -LN1107'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Lenovo
+        brand_model: LN1107
+        brand_marketing_name: 'LNV -LN1107'
+        brand_names: 'LNV -LN1107'
+        design_weight: 384
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: S2005A-H
+        -
+            strategy: string
+            value: 'Lenovo LePad S2005'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Lenovo
+        brand_model: S2005A-H
+        brand_marketing_name: 'Lenovo LePad S2005'
+        brand_names: 'Lenovo LePad S2005'
+        design_weight: 198
+        display_size: '5'
+        display_type: LTPS
+-
+    patterns:
+        -
+            strategy: string
+            value: S686
+        -
+            strategy: string
+            value: 'Lenovo LePhone S686'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Lenovo
+        brand_model: S686
+        brand_marketing_name: 'Lenovo LePhone S686'
+        brand_names: 'Lenovo LePhone S686'
+        design_weight: 139
+        display_size: '4.3'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: S760
+        -
+            strategy: string
+            value: 'Lenovo LePhone S760'
+    capabilities:
+        is_mobile: true
+        brand_vendor: Lenovo
+        brand_model: S760
+        brand_marketing_name: 'Lenovo LePhone S760'
+        brand_names: 'Lenovo LePhone S760'
+        display_size: '3.7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: S880
+        -
+            strategy: string
+            value: 'Lenovo LePhone S880'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Lenovo
+        brand_model: S880
+        brand_marketing_name: 'Lenovo LePhone S880'
+        brand_names: 'Lenovo LePhone S880'
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'OMS Android'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Lenovo
+        brand_model: 'OMS Android'
+-
+    patterns:
+        -
+            strategy: string
+            value: P70
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Lenovo
+        brand_model: P70
+        design_weight: 135
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P708
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Lenovo
+        brand_model: P708
+        design_weight: 90
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P709
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Lenovo
+        brand_model: P709
+        design_weight: 105
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P768
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Lenovo
+        brand_model: P768
+        design_weight: 96
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P780
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Lenovo
+        brand_model: P780
+        design_weight: 102
+        display_size: '1.9'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P790
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Lenovo
+        brand_model: P790
+        design_weight: 112
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P90W
+    capabilities:
+        is_mobile: true
+        display_width: 400
+        display_height: 240
+        brand_vendor: Lenovo
+        brand_model: P90W
+        design_weight: 143
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P960
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Lenovo
+        brand_model: P960
+        design_weight: 143
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: S1-37AH0
+    capabilities:
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Lenovo
+        brand_model: S1-37AH0
+        design_weight: 156
+        display_size: '3.6'
+        display_type: AMOLED
+-
+    patterns:
+        -
+            strategy: string
+            value: S2-38AH0
+        -
+            strategy: string
+            value: 'Lenovo LePhone S2'
+    capabilities:
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Lenovo
+        brand_model: S2-38AH0
+        brand_marketing_name: 'Lenovo LePhone S2'
+        brand_names: 'Lenovo LePhone S2'
+        design_weight: 125
+        display_size: '3.8'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: S6000L-F
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1280
+        display_height: 800
+        brand_vendor: Lenovo
+        brand_model: S6000L-F
+        design_weight: 570
+        display_size: '10.1'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: S650
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Lenovo
+        brand_model: S650
+        design_weight: 126
+        display_size: '4.7'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: S680
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Lenovo
+        brand_model: S680
+        design_weight: 139
+        display_size: '4.3'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: S696
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Lenovo
+        brand_model: S696
+        design_weight: 132
+        display_size: '5'
+        display_type: 'IPS LCD, TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: S750
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Lenovo
+        brand_model: S750
+        design_weight: 157
+        display_size: '4.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: S820
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Lenovo
+        brand_model: S820
+        design_weight: 143
+        display_size: '4.7'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: S850
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Lenovo
+        brand_model: S850
+        design_weight: 140
+        display_size: '5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: S850e
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Lenovo
+        brand_model: S850e
+        design_weight: 139
+        display_size: '4.3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: S860
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Lenovo
+        brand_model: S860
+        design_weight: 190
+        display_size: '5.3'
+        display_type: 'IPS TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Smart Tab II 10'
+        -
+            strategy: string
+            value: 'Vodafone Smart Tab II 10'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1280
+        display_height: 800
+        brand_vendor: Lenovo
+        brand_model: 'Smart Tab II 10'
+        brand_marketing_name: 'Vodafone Smart Tab II 10'
+        brand_names: 'Vodafone Smart Tab II 10'
+        design_weight: 580
+        display_size: '10'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'TAB S8-50F'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1200
+        display_height: 1920
+        brand_vendor: Lenovo
+        brand_model: 'TAB S8-50F'
+        design_weight: 299
+        display_size: '8'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'ThinkPad Tablet'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1280
+        display_height: 800
+        brand_vendor: Lenovo
+        brand_model: 'ThinkPad Tablet'
+        design_weight: 715
+        display_size: '10.1'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: V528
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Lenovo
+        brand_model: V528
+        design_weight: 93
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: V707
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Lenovo
+        brand_model: V707
+        design_weight: 93
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: V800
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Lenovo
+        brand_model: V800
+        design_weight: 89
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Yoga Tablet 2 1050F'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1200
+        display_height: 1920
+        brand_vendor: Lenovo
+        brand_model: 'Yoga Tablet 2 1050F'
+        design_weight: 619
+        display_size: '10.1'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Yoga Tablet 2-1050L'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1200
+        display_height: 1920
+        brand_vendor: Lenovo
+        brand_model: 'Yoga Tablet 2-1050L'
+        design_weight: 629
+        display_size: '10.1'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: i300
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Lenovo
+        brand_model: i300
+        design_weight: 95
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: i720
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Lenovo
+        brand_model: i720
+        design_weight: 78
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: i817
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Lenovo
+        brand_model: i817
+        design_weight: 96
+        display_size: '2.6'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: i908
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Lenovo
+        brand_model: i908
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: i909
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Lenovo
+        brand_model: i909
+        design_weight: 112
+        display_size: '2.6'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: i919
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Lenovo
+        brand_model: i919
+        design_weight: 115
+        display_size: '3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: i921
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Lenovo
+        brand_model: i921
+        design_weight: 124
+        display_size: '2.2'
+        display_type: TFT

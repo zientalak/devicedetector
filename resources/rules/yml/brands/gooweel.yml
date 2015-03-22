@@ -1,0 +1,34 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: GA10H
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Gooweel
+        brand_model: GA10H
+        display_size: '10.1'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: T736
+        -
+            strategy: string
+            value: 'Gooweel T736 A23 2G'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Gooweel
+        brand_model: T736
+        brand_marketing_name: 'Gooweel T736 A23 2G'
+        brand_names: 'Gooweel T736 A23 2G'
+        design_weight: 252
+        display_size: '7'
+        display_type: LCD

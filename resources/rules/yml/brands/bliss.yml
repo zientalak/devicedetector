@@ -1,0 +1,116 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: A70
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Bliss
+        brand_model: A70
+        design_weight: 145
+        display_size: '3.5'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Bliss Pad A9730'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 768
+        display_height: 1024
+        brand_vendor: Bliss
+        brand_model: 'Bliss Pad A9730'
+        display_size: '9.7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Bliss Pad Q7011'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Bliss
+        brand_model: 'Bliss Pad Q7011'
+        design_weight: 376
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Bliss Pad R9010'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1280
+        display_height: 800
+        brand_vendor: Bliss
+        brand_model: 'Bliss Pad R9010'
+        design_weight: 616
+        display_size: '9'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Bliss Pad r7.1'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Bliss
+        brand_model: 'Bliss Pad r7.1'
+        design_weight: 375
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Bliss pad C7.3b'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Bliss
+        brand_model: 'Bliss pad C7.3b'
+        design_weight: 375
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Pad R8015'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 600
+        brand_vendor: Bliss
+        brand_model: 'Pad R8015'
+        design_weight: 465
+        display_size: '8'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Pad T7012'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Bliss
+        brand_model: 'Pad T7012'
+        design_weight: 295
+        display_size: '7'
+        display_type: TFT

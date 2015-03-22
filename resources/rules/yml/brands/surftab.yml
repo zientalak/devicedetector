@@ -1,0 +1,55 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: ST70104-2
+        -
+            strategy: string
+            value: 'SurfTab Breeze 7.0 v2'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: SurfTab
+        brand_model: ST70104-2
+        brand_marketing_name: 'SurfTab Breeze 7.0 v2'
+        brand_names: 'SurfTab Breeze 7.0 v2'
+        design_weight: 337
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: ST10216-2
+        -
+            strategy: string
+            value: 'SurfTab Ventos'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1280
+        display_height: 800
+        brand_vendor: SurfTab
+        brand_model: ST10216-2
+        brand_marketing_name: 'SurfTab Ventos'
+        brand_names: 'SurfTab Ventos'
+        design_weight: 639
+        display_size: '10.1'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: ST80208-2
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: SurfTab
+        brand_model: ST80208-2
+        design_weight: 420
+        display_size: '8'
+        display_type: IPS

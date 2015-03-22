@@ -1,0 +1,14 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: M5
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: DreamMobile
+        brand_model: M5
+        design_weight: 190
+        display_size: '5'
+        display_type: TFT

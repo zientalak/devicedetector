@@ -2,7 +2,6 @@
 
 namespace DeviceDetectorIO\DeviceDetector\Factory;
 
-use DeviceDetectorIO\DeviceDetector\Cache\ArrayCache;
 use DeviceDetectorIO\DeviceDetector\Cache\CacheInterface;
 use DeviceDetectorIO\DeviceDetector\CacheProvider\GenericProvider;
 use DeviceDetectorIO\DeviceDetector\Collector\Collector;
@@ -89,24 +88,36 @@ class DeviceUserAgentFactory implements DeviceUserAgentFactoryInterface
     private function createVisitorManager()
     {
         $visitorManager = new VisitorManager();
-        $visitorManager->addVisitor($this->createRepositoryVisitor(), 255);
+        $visitorManager->addVisitor(
+            $this->createRepositoryVisitor(
+                __DIR__ . '/../../../../resources/rules/json/basic.json'
+            ),
+            250
+        );
         $visitorManager->addVisitor(new Visitor\Apple\OSXVisitor());
         $visitorManager->addVisitor(new Visitor\Apple\IPadVisitor());
         $visitorManager->addVisitor(new Visitor\Apple\IPhoneVisitor());
         $visitorManager->addVisitor(new Visitor\Apple\IPodTouchVisitor());
-        $visitorManager->addVisitor(new Visitor\OS\AndroidReleaseVisitor(), 2);
+        $visitorManager->addVisitor(new Visitor\OS\AndroidReleaseVisitor(), 1);
+        $visitorManager->addVisitor(
+            $this->createRepositoryVisitor(
+                __DIR__ . '/../../../../resources/rules/json/brands.json'
+            ),
+            -254
+        );
         $visitorManager->addVisitor(new Visitor\EndPointVisitor(), -255);
 
         return $visitorManager;
     }
 
     /**
+     * @param string $path
      * @return JsonRepository
      */
-    private function createRepository()
+    private function createRepository($path)
     {
         $repository = new JsonRepository();
-        $repository->setFilePath(__DIR__ . '/../../../../resources/rules/json/basic.json');
+        $repository->setFilePath($path);
 
         if (null !== $this->cache) {
             $cacheRepository = new CacheRepository($repository, $this->cache);
@@ -130,10 +141,10 @@ class DeviceUserAgentFactory implements DeviceUserAgentFactoryInterface
         return $strategyChain;
     }
 
-    private function createRepositoryVisitor()
+    private function createRepositoryVisitor($path)
     {
         return new Visitor\RepositoryVisitor(
-            $this->createRepository(),
+            $this->createRepository($path),
             $this->createMatchingStrategy()
         );
     }

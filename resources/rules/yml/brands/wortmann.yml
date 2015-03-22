@@ -1,0 +1,30 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Terra Pad 1002'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 768
+        display_height: 1024
+        brand_vendor: Wortmann
+        brand_model: 'Terra Pad 1002'
+        design_weight: 630
+        display_size: '9.7'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Terra Pad1001'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 768
+        display_height: 1024
+        brand_vendor: Wortmann
+        brand_model: 'Terra Pad1001'
+        design_weight: 630
+        display_size: '9.7'
+        display_type: TFT

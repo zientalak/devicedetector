@@ -1,0 +1,19 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'VeryKool i250'
+        -
+            strategy: string
+            value: 'InfoSonics VeryKool'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: InfoSonics
+        brand_model: 'VeryKool i250'
+        brand_marketing_name: 'InfoSonics VeryKool'
+        brand_names: 'InfoSonics VeryKool'
+        design_weight: 90
+        display_size: '2.4'
+        display_type: TFT

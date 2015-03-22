@@ -1,0 +1,20 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: C-701
+        -
+            strategy: string
+            value: 'Concord Silver Edition C-701'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Concord
+        brand_model: C-701
+        brand_marketing_name: 'Concord Silver Edition C-701'
+        brand_names: 'Concord Silver Edition C-701'
+        design_weight: 260
+        display_size: '7'
+        display_type: 'TFT LCD'

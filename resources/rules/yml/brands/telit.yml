@@ -1,0 +1,274 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: '822'
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Telit
+        brand_model: '822'
+        design_weight: 100
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: '824'
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Telit
+        brand_model: '824'
+        design_weight: 100
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: '825'
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Telit
+        brand_model: '825'
+        design_weight: 100
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: '882'
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Telit
+        brand_model: '882'
+        design_weight: 100
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: C1000
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Telit
+        brand_model: C1000
+        design_weight: 74
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: G40
+    capabilities:
+        is_mobile: true
+        display_width: 80
+        display_height: 101
+        brand_vendor: Telit
+        brand_model: G40
+        design_weight: 75
+-
+    patterns:
+        -
+            strategy: string
+            value: G80
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 120
+        brand_vendor: Telit
+        brand_model: G80
+        design_weight: 96
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: G82
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 96
+        brand_vendor: Telit
+        brand_model: G82
+        design_weight: 90
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: G83
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Telit
+        brand_model: G83
+        design_weight: 90
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: G90
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Telit
+        brand_model: G90
+        design_weight: 135
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: GM910i
+    capabilities:
+        is_mobile: true
+        display_width: 97
+        display_height: 32
+        brand_vendor: Telit
+        brand_model: GM910i
+        design_weight: 105
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: GU1100
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Telit
+        brand_model: GU1100
+        design_weight: 103
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: NEO
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Telit
+        brand_model: NEO
+        design_weight: 65
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: SP600
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Telit
+        brand_model: SP600
+        design_weight: 99
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: T110
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 40
+        brand_vendor: Telit
+        brand_model: T110
+        design_weight: 75
+        display_size: '1.8'
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: T130
+    capabilities:
+        is_mobile: true
+        display_width: 64
+        display_height: 96
+        brand_vendor: Telit
+        brand_model: T130
+        design_weight: 75
+        display_size: '1'
+-
+    patterns:
+        -
+            strategy: string
+            value: T180
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Telit
+        brand_model: T180
+        design_weight: 76
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: T420
+    capabilities:
+        is_mobile: true
+        display_width: 160
+        display_height: 128
+        brand_vendor: Telit
+        brand_model: T420
+        design_weight: 82
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: T91
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Telit
+        brand_model: T91
+        design_weight: 85
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: TP100
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Telit
+        brand_model: TP100
+        design_weight: 109
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: X60i
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Telit
+        brand_model: X60i
+        design_weight: 65
+        display_type: CSTN

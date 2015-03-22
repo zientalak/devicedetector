@@ -1,0 +1,64 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Aurora S'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Inco
+        brand_model: 'Aurora S'
+        design_weight: 284
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Clio S'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Inco
+        brand_model: 'Clio S'
+        design_weight: 104
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Colossus II'
+        -
+            strategy: string
+            value: 'Colossus II Blanco'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Inco
+        brand_model: 'Colossus II'
+        brand_marketing_name: 'Colossus II Blanco'
+        brand_names: 'Colossus II Blanco'
+        display_size: '5.3'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Storm II'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Inco
+        brand_model: 'Storm II'
+        design_weight: 174
+        display_size: '5'
+        display_type: IPS

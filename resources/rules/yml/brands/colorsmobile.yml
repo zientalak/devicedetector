@@ -1,0 +1,64 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: CG301
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: ColorsMobile
+        brand_model: CG301
+        display_size: '2'
+        display_type: QCIF
+-
+    patterns:
+        -
+            strategy: string
+            value: X22
+        -
+            strategy: string
+            value: 'Colors Mobile XFactor Wave'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: ColorsMobile
+        brand_model: X22
+        brand_marketing_name: 'Colors Mobile XFactor Wave'
+        brand_names: 'Colors Mobile XFactor Wave'
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: X27
+        -
+            strategy: string
+            value: 'Colors Mobile Xfactor Wave X27'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: ColorsMobile
+        brand_model: X27
+        brand_marketing_name: 'Colors Mobile Xfactor Wave X27'
+        brand_names: 'Colors Mobile Xfactor Wave X27'
+        display_size: '4'
+        display_type: 'HVGA TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Xfactor Mini'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: ColorsMobile
+        brand_model: 'Xfactor Mini'
+        display_size: '2.8'
+        display_type: QVGA

@@ -1,0 +1,416 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: AX35
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Maxx
+        brand_model: AX35
+        design_weight: 107
+        display_size: '3.5'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: AX352
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Maxx
+        brand_model: AX352
+        design_weight: 132
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: AX352S
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Maxx
+        brand_model: AX352S
+        design_weight: 133
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: AX353
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Maxx
+        brand_model: AX353
+        design_weight: 67
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: AX3DUO
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Maxx
+        brand_model: AX3DUO
+        design_weight: 128
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: AX40
+        -
+            strategy: string
+            value: 'Maxx MSD7 AX406'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Maxx
+        brand_model: AX40
+        brand_marketing_name: 'Maxx MSD7 AX406'
+        brand_names: 'Maxx MSD7 AX406'
+        design_weight: 127
+        display_size: '4'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: AX402
+        -
+            strategy: string
+            value: 'Maxx Genxdroid7 AX402'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Maxx
+        brand_model: AX402
+        brand_marketing_name: 'Maxx Genxdroid7 AX402'
+        brand_names: 'Maxx Genxdroid7 AX402'
+        design_weight: 111
+        display_size: '4'
+        display_type: 'WVGA TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'AX409 Duo'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Maxx
+        brand_model: 'AX409 Duo'
+        design_weight: 115
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: AX45
+        -
+            strategy: string
+            value: 'Maxx MSD7 3G AX45'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Maxx
+        brand_model: AX45
+        brand_marketing_name: 'Maxx MSD7 3G AX45'
+        brand_names: 'Maxx MSD7 3G AX45'
+        design_weight: 128
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'AX5 Duo'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Maxx
+        brand_model: 'AX5 Duo'
+        design_weight: 114
+        display_size: '4'
+-
+    patterns:
+        -
+            strategy: string
+            value: AX50
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Maxx
+        brand_model: AX50
+        design_weight: 182
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: AX501
+        -
+            strategy: string
+            value: 'Maxx MSD7 AX501'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Maxx
+        brand_model: AX501
+        brand_marketing_name: 'Maxx MSD7 AX501'
+        brand_names: 'Maxx MSD7 AX501'
+        design_weight: 186
+        display_size: '5'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'AX505 DUO'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Maxx
+        brand_model: 'AX505 DUO'
+        design_weight: 161
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: AX506
+        -
+            strategy: string
+            value: 'Maxx GenxDroid7 AX506'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Maxx
+        brand_model: AX506
+        brand_marketing_name: 'Maxx GenxDroid7 AX506'
+        brand_names: 'Maxx GenxDroid7 AX506'
+        design_weight: 164
+        display_size: '5'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: AX51
+        -
+            strategy: string
+            value: 'Maxx MSD7 AX51'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Maxx
+        brand_model: AX51
+        brand_marketing_name: 'Maxx MSD7 AX51'
+        brand_names: 'Maxx MSD7 AX51'
+        design_weight: 161
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: AX8
+        -
+            strategy: string
+            value: 'Maxx Race'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Maxx
+        brand_model: AX8
+        brand_marketing_name: 'Maxx Race'
+        brand_names: 'Maxx Race'
+        design_weight: 198
+        display_size: '5'
+        display_type: LED
+-
+    patterns:
+        -
+            strategy: string
+            value: 'AX8 Note II'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Maxx
+        brand_model: 'AX8 Note II'
+        design_weight: 203
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'AX9Z Race'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Maxx
+        brand_model: 'AX9Z Race'
+        design_weight: 203
+        display_size: '5.3'
+        display_type: 'QHD TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: AXD21
+        -
+            strategy: string
+            value: 'Maxx AXD21 MSD7'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Maxx
+        brand_model: AXD21
+        brand_marketing_name: 'Maxx AXD21 MSD7'
+        brand_names: 'Maxx AXD21 MSD7'
+        design_weight: 109
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Ax5
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Maxx
+        brand_model: Ax5
+        design_weight: 100
+        display_size: '4.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: GenxDroid7
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Maxx
+        brand_model: GenxDroid7
+        design_weight: 119
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Genxdroid7 AX407'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Maxx
+        brand_model: 'Genxdroid7 AX407'
+        design_weight: 136
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MQ606
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Maxx
+        brand_model: MQ606
+        design_weight: 74
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MSD7
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Maxx
+        brand_model: MSD7
+        design_weight: 114
+        display_size: '3.5'
+        display_type: HVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: 'MSD7 Smarty'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Maxx
+        brand_model: 'MSD7 Smarty'
+        design_weight: 138
+        display_size: '3.5'
+        display_type: WVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: Tab722
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Maxx
+        brand_model: Tab722
+        design_weight: 331
+        display_size: '7'
+        display_type: TFT

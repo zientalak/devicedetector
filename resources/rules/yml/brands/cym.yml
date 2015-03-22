@@ -1,0 +1,14 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: CG701
+    capabilities:
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: CYM
+        brand_model: CG701
+        design_weight: 330
+        display_size: '7'
+        display_type: TFT

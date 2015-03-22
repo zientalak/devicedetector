@@ -1,0 +1,11 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: W706
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        brand_vendor: Cool
+        brand_model: W706
+        display_size: '3.5'

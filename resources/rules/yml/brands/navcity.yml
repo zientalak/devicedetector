@@ -1,0 +1,75 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: NT-1710
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Navcity
+        brand_model: NT-1710
+        design_weight: 285
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: NT-1711
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Navcity
+        brand_model: NT-1711
+        design_weight: 285
+        display_size: '7'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'NT-1711 Princess'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Navcity
+        brand_model: 'NT-1711 Princess'
+        design_weight: 285
+        display_size: '7'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: NT-1715
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Navcity
+        brand_model: NT-1715
+        design_weight: 275
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: NT-2755
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Navcity
+        brand_model: NT-2755
+        design_weight: 325
+        display_size: '7'
+        display_type: LCD

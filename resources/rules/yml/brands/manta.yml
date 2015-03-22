@@ -1,0 +1,49 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: MID711
+        -
+            strategy: string
+            value: 'Manta GPS MID711'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Manta
+        brand_model: MID711
+        brand_marketing_name: 'Manta GPS MID711'
+        brand_names: 'Manta GPS MID711'
+        design_weight: 302
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MID08s
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Manta
+        brand_model: MID08s
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MID705
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Manta
+        brand_model: MID705
+        design_weight: 330
+        display_size: '7'
+        display_type: TFT

@@ -1,0 +1,13 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Kaicloud 744'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Kaiomy
+        brand_model: 'Kaicloud 744'
+        display_size: '7'

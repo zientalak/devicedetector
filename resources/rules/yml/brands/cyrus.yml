@@ -1,0 +1,261 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 3g
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Cyrus
+        brand_model: 3g
+        display_size: '7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: Apel
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Cyrus
+        brand_model: Apel
+        design_weight: 130
+        display_size: '4.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Atom Action'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Cyrus
+        brand_model: 'Atom Action'
+        design_weight: 250
+        display_size: '7'
+        display_type: 'HD LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: AtomPad
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Cyrus
+        brand_model: AtomPad
+        design_weight: 330
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'AtomPad Lite'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Cyrus
+        brand_model: 'AtomPad Lite'
+        design_weight: 330
+        display_size: '7'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'AtomPad Lite WiFi'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Cyrus
+        brand_model: 'AtomPad Lite WiFi'
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: Cerry
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Cyrus
+        brand_model: Cerry
+        design_weight: 180
+        display_size: '5.3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Chat T2017'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 230
+        display_height: 480
+        brand_vendor: Cyrus
+        brand_model: 'Chat T2017'
+        design_weight: 130
+        display_size: '3.5'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Dew H1406'
+        -
+            strategy: string
+            value: 'Cyrus TV Pad Dew'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Cyrus
+        brand_model: 'Dew H1406'
+        brand_marketing_name: 'Cyrus TV Pad Dew'
+        brand_names: 'Cyrus TV Pad Dew'
+        display_size: '7'
+        display_type: 'HD LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'EVDO 1000'
+        -
+            strategy: string
+            value: 'Cyrus Max Esia Fun Max 4.0'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Cyrus
+        brand_model: 'EVDO 1000'
+        brand_marketing_name: 'Cyrus Max Esia Fun Max 4.0'
+        brand_names: 'Cyrus Max Esia Fun Max 4.0'
+        design_weight: 140
+        display_size: '4'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Esia Max Touch'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Cyrus
+        brand_model: 'Esia Max Touch'
+        design_weight: 103
+        display_size: '5.3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Glory G1000'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Cyrus
+        brand_model: 'Glory G1000'
+        design_weight: 160
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'TV Pad K3410'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 400
+        brand_vendor: Cyrus
+        brand_model: 'TV Pad K3410'
+        design_weight: 1500
+        display_size: '7'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'TVPad 3G Wifi'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        brand_vendor: Cyrus
+        brand_model: 'TVPad 3G Wifi'
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'TVPad Plus 3G WiFi'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        brand_vendor: Cyrus
+        brand_model: 'TVPad Plus 3G WiFi'
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'TVPad Slim 3G WiFi'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Cyrus
+        brand_model: 'TVPad Slim 3G WiFi'
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'TVPad WiFi'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Cyrus
+        brand_model: 'TVPad WiFi'
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Tvpad Slim K3409'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Cyrus
+        brand_model: 'Tvpad Slim K3409'
+        display_size: '4'

@@ -1,0 +1,15 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: A301
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Rocomo
+        brand_model: A301
+        design_weight: 71
+        display_size: '3.5'
+        display_type: HVGA

@@ -1,0 +1,29 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: LT7052
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Klu
+        brand_model: LT7052
+        design_weight: 680
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: LT8088
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 600
+        brand_vendor: Klu
+        brand_model: LT8088
+        design_weight: 907
+        display_size: '8'
+        display_type: LCD

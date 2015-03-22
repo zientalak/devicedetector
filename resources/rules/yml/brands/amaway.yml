@@ -1,0 +1,15 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: A7-11
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Amaway
+        brand_model: A7-11
+        design_weight: 330
+        display_size: '7'
+        display_type: TFT

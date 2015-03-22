@@ -1,0 +1,1363 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: '1210'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Asus
+        brand_model: '1210'
+        design_weight: 105
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Eee Pad MeMO'
+        -
+            strategy: string
+            value: 'Asus 370T'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Asus
+        brand_model: 'Eee Pad MeMO'
+        brand_marketing_name: 'Asus 370T'
+        brand_names: 'Asus 370T'
+        design_weight: 389
+        display_size: '7'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: T00G
+        -
+            strategy: string
+            value: 'Asus Zenfone 6, Asus A600CG'
+        -
+            strategy: string
+            value: 'Asus Zenfone 6'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Asus
+        brand_model: T00G
+        brand_marketing_name: 'Asus Zenfone 6'
+        brand_names: 'Asus Zenfone 6, Asus A600CG'
+        design_weight: 196
+        display_size: '6'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: K00G
+        -
+            strategy: string
+            value: 'ASUS Fonepad Note 6, Asus ME560CG'
+        -
+            strategy: string
+            value: 'ASUS Fonepad Note 6'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Asus
+        brand_model: K00G
+        brand_marketing_name: 'ASUS Fonepad Note 6'
+        brand_names: 'ASUS Fonepad Note 6, Asus ME560CG'
+        design_weight: 210
+        display_size: '6'
+        display_type: 'Super IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: K00L
+        -
+            strategy: string
+            value: 'ASUS MeMO Pad 8'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1280
+        display_height: 800
+        brand_vendor: Asus
+        brand_model: K00L
+        brand_marketing_name: 'ASUS MeMO Pad 8'
+        brand_names: 'ASUS MeMO Pad 8'
+        design_weight: 350
+        display_size: '8'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Android eeepc'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Asus
+        brand_model: 'Android eeepc'
+-
+    patterns:
+        -
+            strategy: string
+            value: E600
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Asus
+        brand_model: E600
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Eee Pad Slider'
+        -
+            strategy: string
+            value: 'Asus SL101'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 1280
+        brand_vendor: Asus
+        brand_model: 'Eee Pad Slider'
+        brand_marketing_name: 'Asus SL101'
+        brand_names: 'Asus SL101'
+        design_weight: 886
+        display_size: '10.1'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: K00Z
+        -
+            strategy: string
+            value: 'Asus FonePad 7'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 1280
+        brand_vendor: Asus
+        brand_model: K00Z
+        brand_marketing_name: 'Asus FonePad 7'
+        brand_names: 'Asus FonePad 7'
+        design_weight: 340
+        display_size: '7'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: K00Y
+        -
+            strategy: string
+            value: 'Asus FonePad 7 K00Y, Asus FonePad 7 ME372CL'
+        -
+            strategy: string
+            value: 'Asus FonePad 7 K00Y'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 1280
+        brand_vendor: Asus
+        brand_model: K00Y
+        brand_marketing_name: 'Asus FonePad 7 K00Y'
+        brand_names: 'Asus FonePad 7 K00Y, Asus FonePad 7 ME372CL'
+        design_weight: 333
+        display_size: '7'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: K016
+        -
+            strategy: string
+            value: 'Asus FonePad 8 K016 FE380CG'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 1280
+        brand_vendor: Asus
+        brand_model: K016
+        brand_marketing_name: 'Asus FonePad 8 K016 FE380CG'
+        brand_names: 'Asus FonePad 8 K016 FE380CG'
+        design_weight: 310
+        display_size: '8'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: K00S
+        -
+            strategy: string
+            value: 'Asus MeMO Pad HD7 Dual SIM, Asus FonePad HD 7 ME175CG'
+        -
+            strategy: string
+            value: 'Asus MeMO Pad HD7 Dual SIM'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 1280
+        brand_vendor: Asus
+        brand_model: K00S
+        brand_marketing_name: 'Asus MeMO Pad HD7 Dual SIM'
+        brand_names: 'Asus MeMO Pad HD7 Dual SIM, Asus FonePad HD 7 ME175CG'
+        design_weight: 340
+        display_size: '7'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: K012
+        -
+            strategy: string
+            value: 'Asus Fonepad 7 K102, Asus Fonepad 7 FE170CG'
+        -
+            strategy: string
+            value: 'Asus Fonepad 7 K102'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Asus
+        brand_model: K012
+        brand_marketing_name: 'Asus Fonepad 7 K102'
+        brand_names: 'Asus Fonepad 7 K102, Asus Fonepad 7 FE170CG'
+        design_weight: 290
+        display_size: '7'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: K019
+        -
+            strategy: string
+            value: 'Asus Fonepad 7 FE375CG'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 1280
+        brand_vendor: Asus
+        brand_model: K019
+        brand_marketing_name: 'Asus Fonepad 7 FE375CG'
+        brand_names: 'Asus Fonepad 7 FE375CG'
+        design_weight: 299
+        display_size: '7'
+        display_type: 'IPS TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: ME371MG
+        -
+            strategy: string
+            value: 'Asus Fonepad ME371MG'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 1280
+        brand_vendor: Asus
+        brand_model: ME371MG
+        brand_marketing_name: 'Asus Fonepad ME371MG'
+        brand_names: 'Asus Fonepad ME371MG'
+        design_weight: 340
+        display_size: '7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: Galaxy6
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Asus
+        brand_model: Galaxy6
+        design_weight: 146
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: GalaxyII
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Asus
+        brand_model: GalaxyII
+-
+    patterns:
+        -
+            strategy: string
+            value: GalaxyMini
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Asus
+        brand_model: GalaxyMini
+        design_weight: 105
+        display_size: '2.6'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: GalaxyMini2
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Asus
+        brand_model: GalaxyMini2
+-
+    patterns:
+        -
+            strategy: string
+            value: J100
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Asus
+        brand_model: J100
+        design_weight: 100
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: J101
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Asus
+        brand_model: J101
+        design_weight: 78
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: J102
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Asus
+        brand_model: J102
+        design_weight: 80
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: J206
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Asus
+        brand_model: J206
+        design_weight: 96
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: J501
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Asus
+        brand_model: J501
+        design_weight: 100
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: K00F
+        -
+            strategy: string
+            value: 'Asus MEMO Pad 10'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 1280
+        brand_vendor: Asus
+        brand_model: K00F
+        brand_marketing_name: 'Asus MEMO Pad 10'
+        brand_names: 'Asus MEMO Pad 10'
+        design_weight: 522
+        display_size: '10.1'
+        display_type: 'HD-IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: K010
+        -
+            strategy: string
+            value: 'Asus Transformer Pad TF103C'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 1280
+        brand_vendor: Asus
+        brand_model: K010
+        brand_marketing_name: 'Asus Transformer Pad TF103C'
+        brand_names: 'Asus Transformer Pad TF103C'
+        design_weight: 550
+        display_size: '10.1'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: K011
+        -
+            strategy: string
+            value: 'Asus Memo Pad 8 ME181C K011'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 1280
+        brand_vendor: Asus
+        brand_model: K011
+        brand_marketing_name: 'Asus Memo Pad 8 ME181C K011'
+        brand_names: 'Asus Memo Pad 8 ME181C K011'
+        design_weight: 320
+        display_size: '8'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: K013
+        -
+            strategy: string
+            value: 'Asus Memo Pad 7 ME176C, Asus MeMO Pad HD 7'
+        -
+            strategy: string
+            value: 'Asus Memo Pad 7 ME176C'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 1280
+        brand_vendor: Asus
+        brand_model: K013
+        brand_marketing_name: 'Asus Memo Pad 7 ME176C'
+        brand_names: 'Asus Memo Pad 7 ME176C, Asus MeMO Pad HD 7'
+        design_weight: 295
+        display_size: '7'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: K017
+        -
+            strategy: string
+            value: 'Asus Memo Pad 7 ME170C, Asus Memo Pad 7 K017'
+        -
+            strategy: string
+            value: 'Asus Memo Pad 7 ME170C'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Asus
+        brand_model: K017
+        brand_marketing_name: 'Asus Memo Pad 7 ME170C'
+        brand_names: 'Asus Memo Pad 7 ME170C, Asus Memo Pad 7 K017'
+        design_weight: 285
+        display_size: '7'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: K018
+        -
+            strategy: string
+            value: 'Asus Transformer Pad 3G TF103CG'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 1280
+        brand_vendor: Asus
+        brand_model: K018
+        brand_marketing_name: 'Asus Transformer Pad 3G TF103CG'
+        brand_names: 'Asus Transformer Pad 3G TF103CG'
+        design_weight: 550
+        display_size: '10.1'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: K01A
+        -
+            strategy: string
+            value: 'Asus Memopad 7 ME70C'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Asus
+        brand_model: K01A
+        brand_marketing_name: 'Asus Memopad 7 ME70C'
+        brand_names: 'Asus Memopad 7 ME70C'
+        design_weight: 275
+        display_size: '7'
+        display_type: 'IPS WSVGA'
+-
+    patterns:
+        -
+            strategy: string
+            value: M303
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Asus
+        brand_model: M303
+        design_weight: 87
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: M530w
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 240
+        brand_vendor: Asus
+        brand_model: M530w
+        design_weight: 135
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: M930
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 400
+        brand_vendor: Asus
+        brand_model: M930
+        design_weight: 158
+        display_size: '2.6'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: ME171
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1280
+        display_height: 800
+        brand_vendor: Asus
+        brand_model: ME171
+        design_weight: 400
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: ME172V
+        -
+            strategy: string
+            value: 'Asus MeMo Pad'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Asus
+        brand_model: ME172V
+        brand_marketing_name: 'Asus MeMo Pad'
+        brand_names: 'Asus MeMo Pad'
+        design_weight: 370
+        display_size: '7'
+        display_type: 'LED LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: ME173x
+        -
+            strategy: string
+            value: 'Asus Memo Pad 173x'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1280
+        display_height: 800
+        brand_vendor: Asus
+        brand_model: ME173x
+        brand_marketing_name: 'Asus Memo Pad 173x'
+        brand_names: 'Asus Memo Pad 173x'
+        design_weight: 302
+        display_size: '7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: ME301T
+        -
+            strategy: string
+            value: 'Asus MeMo Pad Smart 10"'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1280
+        display_height: 800
+        brand_vendor: Asus
+        brand_model: ME301T
+        brand_marketing_name: 'Asus MeMo Pad Smart 10"'
+        brand_names: 'Asus MeMo Pad Smart 10"'
+        design_weight: 580
+        display_size: '10.1'
+        display_type: WXGA
+-
+    patterns:
+        -
+            strategy: string
+            value: ME302KL
+        -
+            strategy: string
+            value: 'Asus MeMo Pad Full HD10'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1920
+        display_height: 1200
+        brand_vendor: Asus
+        brand_model: ME302KL
+        brand_marketing_name: 'Asus MeMo Pad Full HD10'
+        brand_names: 'Asus MeMo Pad Full HD10'
+        design_weight: 580
+        display_size: '10.1'
+        display_type: LED
+-
+    patterns:
+        -
+            strategy: string
+            value: ME302c
+        -
+            strategy: string
+            value: 'Asus MeMo Pad ME302c'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1920
+        display_height: 1200
+        brand_vendor: Asus
+        brand_model: ME302c
+        brand_marketing_name: 'Asus MeMo Pad ME302c'
+        brand_names: 'Asus MeMo Pad ME302c'
+        design_weight: 580
+        display_size: '10.1'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: ME372CG
+        -
+            strategy: string
+            value: 'Asus Phonepad 7'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1280
+        display_height: 800
+        brand_vendor: Asus
+        brand_model: ME372CG
+        brand_marketing_name: 'Asus Phonepad 7'
+        brand_names: 'Asus Phonepad 7'
+        design_weight: 328
+        display_size: '7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: ME400C
+        -
+            strategy: string
+            value: 'Vivo Tab Smart'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 768
+        display_height: 1366
+        brand_vendor: Asus
+        brand_model: ME400C
+        brand_marketing_name: 'Vivo Tab Smart'
+        brand_names: 'Vivo Tab Smart'
+        design_weight: 580
+        display_size: '10.1'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: k00u
+        -
+            strategy: string
+            value: 'Asus Memo PAD HD 7"'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 1280
+        brand_vendor: Asus
+        brand_model: k00u
+        brand_marketing_name: 'Asus Memo PAD HD 7"'
+        brand_names: 'Asus Memo PAD HD 7"'
+        design_weight: 302
+        display_size: '7'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'O2 Xda Zest'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 640
+        brand_vendor: Asus
+        brand_model: 'O2 Xda Zest'
+        design_weight: 102
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P320
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Asus
+        brand_model: P320
+        design_weight: 105
+        display_size: '2.6'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P505
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Asus
+        brand_model: P505
+        design_weight: 165
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P525
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Asus
+        brand_model: P525
+        design_weight: 160
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P526
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Asus
+        brand_model: P526
+        design_weight: 115
+        display_size: '2.6'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P527
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Asus
+        brand_model: P527
+        design_weight: 125
+        display_size: '2.6'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P535
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Asus
+        brand_model: P535
+        design_weight: 145
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P550
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Asus
+        brand_model: P550
+        design_weight: 188
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P552
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Asus
+        brand_model: P552
+        design_weight: 105
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P552w
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Asus
+        brand_model: P552w
+        design_weight: 105
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P565
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 640
+        brand_vendor: Asus
+        brand_model: P565
+        design_weight: 120
+        display_size: '2.9'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P735
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Asus
+        brand_model: P735
+        design_weight: 143
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P750
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Asus
+        brand_model: P750
+        design_weight: 130
+        display_size: '2.6'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P835
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Asus
+        brand_model: P835
+        design_weight: 148
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: PadFone
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Asus
+        brand_model: PadFone
+        design_weight: 129
+        display_size: '4.3'
+        display_type: 'Super AMOLED'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'PadFone Infinity'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Asus
+        brand_model: 'PadFone Infinity'
+        design_weight: 141
+        display_size: '5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: T00E
+        -
+            strategy: string
+            value: 'Asus PadFone Mini'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Asus
+        brand_model: T00E
+        brand_marketing_name: 'Asus PadFone Mini'
+        brand_names: 'Asus PadFone Mini'
+        design_weight: 105
+        display_size: '4.3'
+        display_type: 'Super IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Padfone 2'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Asus
+        brand_model: 'Padfone 2'
+        design_weight: 135
+        display_size: '4.7'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: T00F
+        -
+            strategy: string
+            value: 'Asus Zenfone 5'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Asus
+        brand_model: T00F
+        brand_marketing_name: 'Asus Zenfone 5'
+        brand_names: 'Asus Zenfone 5'
+        design_weight: 145
+        display_size: '5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: T00J
+        -
+            strategy: string
+            value: 'Asus Zenfone 5'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Asus
+        brand_model: T00J
+        brand_marketing_name: 'Asus Zenfone 5'
+        brand_names: 'Asus Zenfone 5'
+        design_weight: 145
+        display_size: '5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: T00P
+        -
+            strategy: string
+            value: 'Asus Zenfone 5 LTE A500KL'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Asus
+        brand_model: T00P
+        brand_marketing_name: 'Asus Zenfone 5 LTE A500KL'
+        brand_names: 'Asus Zenfone 5 LTE A500KL'
+        design_weight: 145
+        display_size: '5'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: T00Q
+        -
+            strategy: string
+            value: 'Asus Zenfone 4 A450CG'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Asus
+        brand_model: T00Q
+        brand_marketing_name: 'Asus Zenfone 4 A450CG'
+        brand_names: 'Asus Zenfone 4 A450CG'
+        design_weight: 134
+        display_size: '4.5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: T00i
+        -
+            strategy: string
+            value: 'Asus Zenfone 4 A400CG'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Asus
+        brand_model: T00i
+        brand_marketing_name: 'Asus Zenfone 4 A400CG'
+        brand_names: 'Asus Zenfone 4 A400CG'
+        design_weight: 115
+        display_size: '4'
+        display_type: 'WVGA TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: TF101
+        -
+            strategy: string
+            value: 'Asus Transformer 101'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1280
+        display_height: 800
+        brand_vendor: Asus
+        brand_model: TF101
+        brand_marketing_name: 'Asus Transformer 101'
+        brand_names: 'Asus Transformer 101'
+        design_weight: 680
+        display_size: '10.1'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: TF201
+        -
+            strategy: string
+            value: 'Asus Transformer Prime'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1280
+        display_height: 800
+        brand_vendor: Asus
+        brand_model: TF201
+        brand_marketing_name: 'Asus Transformer Prime'
+        brand_names: 'Asus Transformer Prime'
+        design_weight: 586
+        display_size: '10.1'
+        display_type: 'Super IPS+ LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: TF300T
+        -
+            strategy: string
+            value: 'Transformer Pad 300'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1280
+        display_height: 800
+        brand_vendor: Asus
+        brand_model: TF300T
+        brand_marketing_name: 'Transformer Pad 300'
+        brand_names: 'Transformer Pad 300'
+        design_weight: 635
+        display_size: '10.1'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: TF300TG
+        -
+            strategy: string
+            value: 'Asus Transformer Pad 300 3G'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1280
+        display_height: 800
+        brand_vendor: Asus
+        brand_model: TF300TG
+        brand_marketing_name: 'Asus Transformer Pad 300 3G'
+        brand_names: 'Asus Transformer Pad 300 3G'
+        design_weight: 635
+        display_size: '10.1'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: TF700KL
+        -
+            strategy: string
+            value: 'Asus Transformer Pad Infinity LTE'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1920
+        display_height: 1200
+        brand_vendor: Asus
+        brand_model: TF700KL
+        brand_marketing_name: 'Asus Transformer Pad Infinity LTE'
+        brand_names: 'Asus Transformer Pad Infinity LTE'
+        design_weight: 625
+        display_size: '10.1'
+-
+    patterns:
+        -
+            strategy: string
+            value: TF700T
+        -
+            strategy: string
+            value: 'Asus Transformer Pad Infinity 700'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1920
+        display_height: 1200
+        brand_vendor: Asus
+        brand_model: TF700T
+        brand_marketing_name: 'Asus Transformer Pad Infinity 700'
+        brand_names: 'Asus Transformer Pad Infinity 700'
+        design_weight: 598
+        display_size: '10'
+        display_type: S-LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: k00C
+        -
+            strategy: string
+            value: 'Asus Transformer Pad TF701T'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 2560
+        display_height: 1600
+        brand_vendor: Asus
+        brand_model: k00C
+        brand_marketing_name: 'Asus Transformer Pad TF701T'
+        brand_names: 'Asus Transformer Pad TF701T'
+        design_weight: 585
+        display_size: '10.1'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: V66
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Asus
+        brand_model: V66
+        design_weight: 90
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: V75
+    capabilities:
+        is_mobile: true
+        display_width: 120
+        display_height: 120
+        brand_vendor: Asus
+        brand_model: V75
+        design_weight: 90
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: V80
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Asus
+        brand_model: V80
+        design_weight: 80
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Vodafone 1520'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Asus
+        brand_model: 'Vodafone 1520'
+        design_weight: 188
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Z002
+        -
+            strategy: string
+            value: 'Asus Zenfone 6'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Asus
+        brand_model: Z002
+        brand_marketing_name: 'Asus Zenfone 6'
+        brand_names: 'Asus Zenfone 6'
+        design_weight: 196
+        display_size: '6'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: Z801
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Asus
+        brand_model: Z801
+        design_weight: 110
+        display_size: '2'
+        display_type: TFT

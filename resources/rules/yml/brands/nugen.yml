@@ -1,0 +1,14 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: And1
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Nugen
+        brand_model: And1
+        design_weight: 137
+        display_size: '3.54'
+        display_type: HVGA

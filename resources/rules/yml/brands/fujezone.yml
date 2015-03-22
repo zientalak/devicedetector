@@ -1,0 +1,13 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Smart Touch CT01'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Fujezone
+        brand_model: 'Smart Touch CT01'
+        display_size: '7'

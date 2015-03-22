@@ -1,0 +1,23 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Note 3'
+        -
+            strategy: string
+            value: 'Kaswah Note 3 N9000, Samsung Galaxy Note 3 Clone'
+        -
+            strategy: string
+            value: 'Kaswah Note 3 N9000'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Kaswah
+        brand_model: 'Note 3'
+        brand_marketing_name: 'Kaswah Note 3 N9000'
+        brand_names: 'Kaswah Note 3 N9000, Samsung Galaxy Note 3 Clone'
+        design_weight: 168
+        display_size: '5.7'
+        display_type: 'IPS HD'

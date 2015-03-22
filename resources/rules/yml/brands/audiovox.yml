@@ -1,0 +1,635 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: CDM-120
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Audiovox
+        brand_model: CDM-120
+        design_weight: 91
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: CDM-180
+        -
+            strategy: string
+            value: 'PCD CDM-180, PCD PN-218'
+        -
+            strategy: string
+            value: 'PCD CDM-180'
+    capabilities:
+        is_mobile: true
+        display_width: 160
+        display_height: 128
+        brand_vendor: Audiovox
+        brand_model: CDM-180
+        brand_marketing_name: 'PCD CDM-180'
+        brand_names: 'PCD CDM-180, PCD PN-218'
+        design_weight: 106
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: CDM-8100
+        -
+            strategy: string
+            value: 'PCD CDM-8100'
+    capabilities:
+        is_mobile: true
+        brand_vendor: Audiovox
+        brand_model: CDM-8100
+        brand_marketing_name: 'PCD CDM-8100'
+        brand_names: 'PCD CDM-8100'
+        design_weight: 119
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: CDM-8150
+        -
+            strategy: string
+            value: 'PCD CDM-8150, PCD CDM-8150x'
+        -
+            strategy: string
+            value: 'PCD CDM-8150'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Audiovox
+        brand_model: CDM-8150
+        brand_marketing_name: 'PCD CDM-8150'
+        brand_names: 'PCD CDM-8150, PCD CDM-8150x'
+        design_weight: 111
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: CDM-8200
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Audiovox
+        brand_model: CDM-8200
+        design_weight: 91
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: CDM-8300
+        -
+            strategy: string
+            value: 'PCD CDM-8300'
+    capabilities:
+        is_mobile: true
+        display_width: 96
+        display_height: 128
+        brand_vendor: Audiovox
+        brand_model: CDM-8300
+        brand_marketing_name: 'PCD CDM-8300'
+        brand_names: 'PCD CDM-8300'
+        design_weight: 93
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: CDM-8400
+        -
+            strategy: string
+            value: 'PCD CDM-8400, PCD CDM-8410'
+        -
+            strategy: string
+            value: 'PCD CDM-8400'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Audiovox
+        brand_model: CDM-8400
+        brand_marketing_name: 'PCD CDM-8400'
+        brand_names: 'PCD CDM-8400, PCD CDM-8410'
+        design_weight: 100
+        display_type: STN
+-
+    patterns:
+        -
+            strategy: string
+            value: CDM-8450
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 96
+        brand_vendor: Audiovox
+        brand_model: CDM-8450
+        design_weight: 91
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: CDM-8450SP
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Audiovox
+        brand_model: CDM-8450SP
+        design_weight: 91
+        display_type: STN
+-
+    patterns:
+        -
+            strategy: string
+            value: CDM-8460T
+    capabilities:
+        is_mobile: true
+        display_width: 120
+        display_height: 120
+        brand_vendor: Audiovox
+        brand_model: CDM-8460T
+-
+    patterns:
+        -
+            strategy: string
+            value: CDM-8500
+        -
+            strategy: string
+            value: 'PCD CDM-8500'
+    capabilities:
+        is_mobile: true
+        display_width: 96
+        display_height: 128
+        brand_vendor: Audiovox
+        brand_model: CDM-8500
+        brand_marketing_name: 'PCD CDM-8500'
+        brand_names: 'PCD CDM-8500'
+        design_weight: 91
+        display_type: Grayscale
+-
+    patterns:
+        -
+            strategy: string
+            value: CDM-8600
+        -
+            strategy: string
+            value: 'PCD CDM-8600'
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Audiovox
+        brand_model: CDM-8600
+        brand_marketing_name: 'PCD CDM-8600'
+        brand_names: 'PCD CDM-8600'
+        design_weight: 90
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: CDM-8610VM
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Audiovox
+        brand_model: CDM-8610VM
+        design_weight: 96
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: CDM-8615
+        -
+            strategy: string
+            value: 'PCD CDM-8610, PCD CDM-8615'
+        -
+            strategy: string
+            value: 'PCD CDM-8610'
+    capabilities:
+        is_mobile: true
+        display_width: 120
+        display_height: 120
+        brand_vendor: Audiovox
+        brand_model: CDM-8615
+        brand_marketing_name: 'PCD CDM-8610'
+        brand_names: 'PCD CDM-8610, PCD CDM-8615'
+        design_weight: 96
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: CDM-8900
+        -
+            strategy: string
+            value: 'PCD CDM-8900'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Audiovox
+        brand_model: CDM-8900
+        brand_marketing_name: 'PCD CDM-8900'
+        brand_names: 'PCD CDM-8900'
+        design_weight: 93
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: CDM-8910
+        -
+            strategy: string
+            value: 'PCD CDM-8910, Flasher V7'
+        -
+            strategy: string
+            value: 'PCD CDM-8910'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Audiovox
+        brand_model: CDM-8910
+        brand_marketing_name: 'PCD CDM-8910'
+        brand_names: 'PCD CDM-8910, Flasher V7'
+        design_weight: 105
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: CDM-8912
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Audiovox
+        brand_model: CDM-8912
+        design_weight: 105
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: CDM-8915
+        -
+            strategy: string
+            value: 'PCD 8915, Audiovox Snapper'
+        -
+            strategy: string
+            value: 'PCD 8915'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Audiovox
+        brand_model: CDM-8915
+        brand_marketing_name: 'PCD 8915'
+        brand_names: 'PCD 8915, Audiovox Snapper'
+        design_weight: 100
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: CDM-8920
+        -
+            strategy: string
+            value: 'PCD CDM-8920'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Audiovox
+        brand_model: CDM-8920
+        brand_marketing_name: 'PCD CDM-8920'
+        brand_names: 'PCD CDM-8920'
+        design_weight: 92
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: CDM-8930
+    capabilities:
+        is_mobile: true
+        display_width: 120
+        display_height: 120
+        brand_vendor: Audiovox
+        brand_model: CDM-8930
+        design_weight: 94
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: CDM-8940
+        -
+            strategy: string
+            value: 'PCD CDM-8940'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Audiovox
+        brand_model: CDM-8940
+        brand_marketing_name: 'PCD CDM-8940'
+        brand_names: 'PCD CDM-8940'
+        design_weight: 110
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: CDM-8945
+        -
+            strategy: string
+            value: 'PCD CDM-8945'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Audiovox
+        brand_model: CDM-8945
+        brand_marketing_name: 'PCD CDM-8945'
+        brand_names: 'PCD CDM-8945'
+        design_weight: 113
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: CDM-9100
+        -
+            strategy: string
+            value: 'PCD CDM-9100'
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Audiovox
+        brand_model: CDM-9100
+        brand_marketing_name: 'PCD CDM-9100'
+        brand_names: 'PCD CDM-9100'
+        design_weight: 108
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: CDM-9150X
+        -
+            strategy: string
+            value: 'PCD CDM-9150X'
+    capabilities:
+        is_mobile: true
+        brand_vendor: Audiovox
+        brand_model: CDM-9150X
+        brand_marketing_name: 'PCD CDM-9150X'
+        brand_names: 'PCD CDM-9150X'
+        design_weight: 108
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: CDM-9155-GPX
+        -
+            strategy: string
+            value: 'PCD CDM-9155, PCD CDM 9155-GPX, PCD 9155SP'
+        -
+            strategy: string
+            value: 'PCD CDM-9155'
+    capabilities:
+        is_mobile: true
+        display_width: 96
+        display_height: 128
+        brand_vendor: Audiovox
+        brand_model: CDM-9155-GPX
+        brand_marketing_name: 'PCD CDM-9155'
+        brand_names: 'PCD CDM-9155, PCD CDM 9155-GPX, PCD 9155SP'
+        design_weight: 108
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: CDM-9155SP
+        -
+            strategy: string
+            value: 'Audiovox CDM-9155GPX'
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Audiovox
+        brand_model: CDM-9155SP
+        brand_marketing_name: 'Audiovox CDM-9155GPX'
+        brand_names: 'Audiovox CDM-9155GPX'
+        design_weight: 108
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: CDM-9200
+        -
+            strategy: string
+            value: 'PCD CDM-9200'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Audiovox
+        brand_model: CDM-9200
+        brand_marketing_name: 'PCD CDM-9200'
+        brand_names: 'PCD CDM-9200'
+        design_weight: 85
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: CDM-9500
+        -
+            strategy: string
+            value: 'Toshiba CDM-9500, PCD CDM-9500'
+        -
+            strategy: string
+            value: 'Toshiba CDM-9500'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Audiovox
+        brand_model: CDM-9500
+        brand_marketing_name: 'Toshiba CDM-9500'
+        brand_names: 'Toshiba CDM-9500, PCD CDM-9500'
+        design_weight: 108
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: CDM-9900
+        -
+            strategy: string
+            value: 'PCD 9900'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Audiovox
+        brand_model: CDM-9900
+        brand_marketing_name: 'PCD 9900'
+        brand_names: 'PCD 9900'
+        design_weight: 116
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: CDM-9950
+        -
+            strategy: string
+            value: 'PCD CDM-9950, Toshiba VM4050'
+        -
+            strategy: string
+            value: 'PCD CDM-9950'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Audiovox
+        brand_model: CDM-9950
+        brand_marketing_name: 'PCD CDM-9950'
+        brand_names: 'PCD CDM-9950, Toshiba VM4050'
+        design_weight: 116
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: PM-8912
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Audiovox
+        brand_model: PM-8912
+        design_weight: 105
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: PM-8920
+        -
+            strategy: string
+            value: 'PCD PM-8920'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Audiovox
+        brand_model: PM-8920
+        brand_marketing_name: 'PCD PM-8920'
+        brand_names: 'PCD PM-8920'
+        design_weight: 92
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'PPC 5050'
+        -
+            strategy: string
+            value: 'PCD PPC-5050'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Audiovox
+        brand_model: 'PPC 5050'
+        brand_marketing_name: 'PCD PPC-5050'
+        brand_names: 'PCD PPC-5050'
+        design_weight: 175
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: PPC-6600
+        -
+            strategy: string
+            value: 'Sprint Vision'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Audiovox
+        brand_model: PPC-6600
+        brand_marketing_name: 'Sprint Vision'
+        brand_names: 'Sprint Vision'
+        design_weight: 210
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'SMT 5600'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Audiovox
+        brand_model: 'SMT 5600'
+        design_weight: 103
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: TX-170SA
+        -
+            strategy: string
+            value: 'Audiovox TX-170S, PCD TX-170SA, PCD TX-170S'
+        -
+            strategy: string
+            value: 'Audiovox TX-170S'
+    capabilities:
+        is_mobile: true
+        brand_vendor: Audiovox
+        brand_model: TX-170SA
+        brand_marketing_name: 'Audiovox TX-170S'
+        brand_names: 'Audiovox TX-170S, PCD TX-170SA, PCD TX-170S'
+        design_weight: 104
+        display_type: STN
+-
+    patterns:
+        -
+            strategy: string
+            value: VI600
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Audiovox
+        brand_model: VI600
+        design_weight: 91
+        display_type: LCD

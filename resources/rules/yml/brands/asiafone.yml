@@ -1,0 +1,47 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: AF9190
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Asiafone
+        brand_model: AF9190
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: AF9888
+        -
+            strategy: string
+            value: 'http://www.asiafonemobile.com/product.php?id_product=101'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Asiafone
+        brand_model: AF9888
+        brand_marketing_name: 'http://www.asiafonemobile.com/product.php?id_product=101'
+        brand_names: 'http://www.asiafonemobile.com/product.php?id_product=101'
+        design_weight: 120
+        display_size: '4'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: AF9922
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Asiafone
+        brand_model: AF9922
+        display_size: '7'
+        display_type: TFT

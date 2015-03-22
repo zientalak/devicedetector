@@ -1,0 +1,544 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Android 902'
+    capabilities:
+        is_mobile: true
+        brand_vendor: KingCom
+        brand_model: 'Android 902'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Android 902C'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: KingCom
+        brand_model: 'Android 902C'
+        display_size: '3.5'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Android 904'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: KingCom
+        brand_model: 'Android 904'
+        design_weight: 280
+        display_size: '5.2'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Injoy 202'
+    capabilities:
+        is_mobile: true
+        brand_vendor: KingCom
+        brand_model: 'Injoy 202'
+        display_size: '1.8'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Injoy 203'
+    capabilities:
+        is_mobile: true
+        brand_vendor: KingCom
+        brand_model: 'Injoy 203'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Injoy 204'
+    capabilities:
+        is_mobile: true
+        brand_vendor: KingCom
+        brand_model: 'Injoy 204'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Injoy 205'
+    capabilities:
+        is_mobile: true
+        brand_vendor: KingCom
+        brand_model: 'Injoy 205'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Injoy 207'
+    capabilities:
+        is_mobile: true
+        brand_vendor: KingCom
+        brand_model: 'Injoy 207'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Injoy 208'
+    capabilities:
+        is_mobile: true
+        brand_vendor: KingCom
+        brand_model: 'Injoy 208'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Injoy 302'
+    capabilities:
+        is_mobile: true
+        brand_vendor: KingCom
+        brand_model: 'Injoy 302'
+        display_size: '1.7'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Injoy 303'
+    capabilities:
+        is_mobile: true
+        brand_vendor: KingCom
+        brand_model: 'Injoy 303'
+        display_size: '2'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Injoy 305'
+    capabilities:
+        is_mobile: true
+        brand_vendor: KingCom
+        brand_model: 'Injoy 305'
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Injoy 306'
+    capabilities:
+        is_mobile: true
+        brand_vendor: KingCom
+        brand_model: 'Injoy 306'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Injoy 307'
+    capabilities:
+        is_mobile: true
+        brand_vendor: KingCom
+        brand_model: 'Injoy 307'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Injoy 308'
+    capabilities:
+        is_mobile: true
+        brand_vendor: KingCom
+        brand_model: 'Injoy 308'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Injoy 701'
+    capabilities:
+        is_mobile: true
+        brand_vendor: KingCom
+        brand_model: 'Injoy 701'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Injoy 901'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: KingCom
+        brand_model: 'Injoy 901'
+        display_size: '2.2'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Injoy 902'
+    capabilities:
+        is_mobile: true
+        brand_vendor: KingCom
+        brand_model: 'Injoy 902'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Injoy 903'
+    capabilities:
+        is_mobile: true
+        brand_vendor: KingCom
+        brand_model: 'Injoy 903'
+        display_size: '2.4'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Injoy 904'
+    capabilities:
+        is_mobile: true
+        brand_vendor: KingCom
+        brand_model: 'Injoy 904'
+-
+    patterns:
+        -
+            strategy: string
+            value: Injoy206
+    capabilities:
+        is_mobile: true
+        brand_vendor: KingCom
+        brand_model: Injoy206
+        display_size: '2.5'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'JoyPad C74'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: KingCom
+        brand_model: 'JoyPad C74'
+        design_weight: 340
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'JoyPad C81'
+    capabilities:
+        is_mobile: true
+        display_width: 800
+        display_height: 600
+        brand_vendor: KingCom
+        brand_model: 'JoyPad C81'
+        display_size: '8'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Joypad 71'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: KingCom
+        brand_model: 'Joypad 71'
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Joypad 72'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: KingCom
+        brand_model: 'Joypad 72'
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Joypad 73'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: KingCom
+        brand_model: 'Joypad 73'
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Joypad 81'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 600
+        brand_vendor: KingCom
+        brand_model: 'Joypad 81'
+        display_size: '8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Joypad C102'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: KingCom
+        brand_model: 'Joypad C102'
+        display_size: '9.7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Joypad C71'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: KingCom
+        brand_model: 'Joypad C71'
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Joypad C72'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: KingCom
+        brand_model: 'Joypad C72'
+        display_size: '7'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Joypad C73'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: KingCom
+        brand_model: 'Joypad C73'
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: KC1
+    capabilities:
+        is_mobile: true
+        brand_vendor: KingCom
+        brand_model: KC1
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: KC2
+    capabilities:
+        is_mobile: true
+        brand_vendor: KingCom
+        brand_model: KC2
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Music 801'
+    capabilities:
+        is_mobile: true
+        brand_vendor: KingCom
+        brand_model: 'Music 801'
+        display_size: '2.5'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Music 802'
+    capabilities:
+        is_mobile: true
+        brand_vendor: KingCom
+        brand_model: 'Music 802'
+        display_size: '2.5'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Music 803'
+    capabilities:
+        is_mobile: true
+        brand_vendor: KingCom
+        brand_model: 'Music 803'
+        display_size: '2.5'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Music 804'
+    capabilities:
+        is_mobile: true
+        brand_vendor: KingCom
+        brand_model: 'Music 804'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Music 805'
+    capabilities:
+        is_mobile: true
+        brand_vendor: KingCom
+        brand_model: 'Music 805'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Note 903'
+    capabilities:
+        is_mobile: true
+        brand_vendor: KingCom
+        brand_model: 'Note 903'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Padphone 61'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: KingCom
+        brand_model: 'Padphone 61'
+        display_size: '6'
+        display_type: FWVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: 'TV Go 401'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: KingCom
+        brand_model: 'TV Go 401'
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'TV Go 403'
+    capabilities:
+        is_mobile: true
+        brand_vendor: KingCom
+        brand_model: 'TV Go 403'
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'TV Go 405'
+    capabilities:
+        is_mobile: true
+        brand_vendor: KingCom
+        brand_model: 'TV Go 405'
+        display_type: 'Dual TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'TV Go 603'
+    capabilities:
+        is_mobile: true
+        brand_vendor: KingCom
+        brand_model: 'TV Go 603'
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'TV Go 604'
+    capabilities:
+        is_mobile: true
+        brand_vendor: KingCom
+        brand_model: 'TV Go 604'
+        display_size: '2.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'TV Go 605'
+    capabilities:
+        is_mobile: true
+        brand_vendor: KingCom
+        brand_model: 'TV Go 605'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'TV Go 606'
+    capabilities:
+        is_mobile: true
+        brand_vendor: KingCom
+        brand_model: 'TV Go 606'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'TV Go 608'
+    capabilities:
+        is_mobile: true
+        brand_vendor: KingCom
+        brand_model: 'TV Go 608'
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'TV Go 702'
+    capabilities:
+        is_mobile: true
+        brand_vendor: KingCom
+        brand_model: 'TV Go 702'
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'TV Go 704'
+    capabilities:
+        is_mobile: true
+        brand_vendor: KingCom
+        brand_model: 'TV Go 704'
+        display_size: '3.2'
+        display_type: TFT

@@ -1,0 +1,30 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'G-Box Midnight MX2'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        brand_vendor: Matricom
+        brand_model: 'G-Box Midnight MX2'
+-
+    patterns:
+        -
+            strategy: string
+            value: G-Tab
+        -
+            strategy: string
+            value: 'Matricom G-Tab Quantum'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 1280
+        brand_vendor: Matricom
+        brand_model: G-Tab
+        brand_marketing_name: 'Matricom G-Tab Quantum'
+        brand_names: 'Matricom G-Tab Quantum'
+        design_weight: 635
+        display_size: '10.1'
+        display_type: IPS

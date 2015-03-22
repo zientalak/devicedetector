@@ -1,0 +1,385 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: A2618
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Ericsson
+        brand_model: A2618
+        design_weight: 140
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: A2628
+    capabilities:
+        is_mobile: true
+        display_width: 101
+        display_height: 54
+        brand_vendor: Ericsson
+        brand_model: A2628
+        design_weight: 140
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: 'I 888'
+    capabilities:
+        is_mobile: true
+        brand_vendor: Ericsson
+        brand_model: 'I 888'
+        design_weight: 195
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: MC218
+    capabilities:
+        is_mobile: true
+        display_width: 640
+        display_height: 240
+        brand_vendor: Ericsson
+        brand_model: MC218
+        design_weight: 354
+        display_size: '5.6'
+        display_type: STN
+-
+    patterns:
+        -
+            strategy: string
+            value: R1a
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Ericsson
+        brand_model: R1a
+-
+    patterns:
+        -
+            strategy: string
+            value: R278d
+    capabilities:
+        is_mobile: true
+        display_width: 101
+        display_height: 40
+        brand_vendor: Ericsson
+        brand_model: R278d
+        design_weight: 173
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: R280
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Ericsson
+        brand_model: R280
+        design_weight: 263
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: R289LX
+    capabilities:
+        is_mobile: true
+        display_width: 101
+        display_height: 40
+        brand_vendor: Ericsson
+        brand_model: R289LX
+        design_weight: 173
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: R300LX
+        -
+            strategy: string
+            value: 'Ericsson R300D'
+    capabilities:
+        is_mobile: true
+        brand_vendor: Ericsson
+        brand_model: R300LX
+        brand_marketing_name: 'Ericsson R300D'
+        brand_names: 'Ericsson R300D'
+        design_weight: 173
+        display_type: Grayscale
+-
+    patterns:
+        -
+            strategy: string
+            value: R320
+    capabilities:
+        is_mobile: true
+        display_width: 101
+        display_height: 65
+        brand_vendor: Ericsson
+        brand_model: R320
+        design_weight: 99
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: R380e
+    capabilities:
+        is_mobile: true
+        display_width: 360
+        display_height: 120
+        brand_vendor: Ericsson
+        brand_model: R380e
+        design_weight: 164
+        display_type: STN
+-
+    patterns:
+        -
+            strategy: string
+            value: R520
+    capabilities:
+        is_mobile: true
+        display_width: 101
+        display_height: 67
+        brand_vendor: Ericsson
+        brand_model: R520
+        design_weight: 105
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: R520m
+    capabilities:
+        is_mobile: true
+        brand_vendor: Ericsson
+        brand_model: R520m
+        design_weight: 105
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: R600
+    capabilities:
+        is_mobile: true
+        display_width: 101
+        display_height: 67
+        brand_vendor: Ericsson
+        brand_model: R600
+        design_weight: 82
+        display_type: Grayscale
+-
+    patterns:
+        -
+            strategy: string
+            value: T20
+    capabilities:
+        is_mobile: true
+        display_width: 33
+        display_height: 101
+        brand_vendor: Ericsson
+        brand_model: T20
+        design_weight: 128
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: T20e
+    capabilities:
+        is_mobile: true
+        display_width: 33
+        display_height: 101
+        brand_vendor: Ericsson
+        brand_model: T20e
+        design_weight: 128
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: 'T28 World'
+    capabilities:
+        is_mobile: true
+        display_width: 101
+        display_height: 33
+        brand_vendor: Ericsson
+        brand_model: 'T28 World'
+        design_weight: 83
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: T29s
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Ericsson
+        brand_model: T29s
+        design_weight: 95
+        display_type: Grayscale
+-
+    patterns:
+        -
+            strategy: string
+            value: T39
+    capabilities:
+        is_mobile: true
+        display_width: 101
+        display_height: 54
+        brand_vendor: Ericsson
+        brand_model: T39
+        design_weight: 86
+        display_type: Grayscale
+-
+    patterns:
+        -
+            strategy: string
+            value: T39m
+    capabilities:
+        is_mobile: true
+        display_width: 72
+        display_height: 26
+        brand_vendor: Ericsson
+        brand_model: T39m
+        design_weight: 86
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: 'T39m R2'
+    capabilities:
+        is_mobile: true
+        display_width: 101
+        display_height: 54
+        brand_vendor: Ericsson
+        brand_model: 'T39m R2'
+        design_weight: 87
+        display_type: Grayscale
+-
+    patterns:
+        -
+            strategy: string
+            value: T6
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Ericsson
+        brand_model: T6
+-
+    patterns:
+        -
+            strategy: string
+            value: T60d
+    capabilities:
+        is_mobile: true
+        display_width: 101
+        display_height: 67
+        brand_vendor: Ericsson
+        brand_model: T60d
+        design_weight: 125
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: T61LX
+        -
+            strategy: string
+            value: 'Ericsson T61d'
+    capabilities:
+        is_mobile: true
+        brand_vendor: Ericsson
+        brand_model: T61LX
+        brand_marketing_name: 'Ericsson T61d'
+        brand_names: 'Ericsson T61d'
+        design_weight: 125
+        display_type: Grayscale
+-
+    patterns:
+        -
+            strategy: string
+            value: T65
+    capabilities:
+        is_mobile: true
+        display_width: 101
+        display_height: 67
+        brand_vendor: Ericsson
+        brand_model: T65
+        design_weight: 94
+        display_type: Grayscale
+-
+    patterns:
+        -
+            strategy: string
+            value: T66
+    capabilities:
+        is_mobile: true
+        display_width: 101
+        display_height: 65
+        brand_vendor: Ericsson
+        brand_model: T66
+        design_weight: 59
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: T68
+    capabilities:
+        is_mobile: true
+        display_width: 101
+        display_height: 80
+        brand_vendor: Ericsson
+        brand_model: T68
+        design_weight: 84
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: T68m
+    capabilities:
+        is_mobile: true
+        display_width: 101
+        display_height: 80
+        brand_vendor: Ericsson
+        brand_model: T68m
+        design_weight: 84
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: 'WAP SDK'
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Ericsson
+        brand_model: 'WAP SDK'
+-
+    patterns:
+        -
+            strategy: string
+            value: Wapide21
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Ericsson
+        brand_model: Wapide21

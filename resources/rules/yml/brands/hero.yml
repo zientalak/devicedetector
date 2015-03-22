@@ -1,0 +1,210 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: '9300'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Hero
+        brand_model: '9300'
+        design_weight: 199
+        display_size: '5.3'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'A8 QWERTY'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Hero
+        brand_model: 'A8 QWERTY'
+        design_weight: 110
+        display_size: '2.6'
+-
+    patterns:
+        -
+            strategy: string
+            value: A800
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Hero
+        brand_model: A800
+        design_weight: 144
+        display_size: '4.1'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'H200 QWERTY'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Hero
+        brand_model: 'H200 QWERTY'
+        design_weight: 119
+        display_size: '2.8'
+-
+    patterns:
+        -
+            strategy: string
+            value: H2000
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Hero
+        brand_model: H2000
+        design_weight: 105
+        display_size: '4'
+-
+    patterns:
+        -
+            strategy: string
+            value: H300
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Hero
+        brand_model: H300
+        design_weight: 130
+        display_size: '3.5'
+-
+    patterns:
+        -
+            strategy: string
+            value: JY139
+        -
+            strategy: string
+            value: 'Hero H3000'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Hero
+        brand_model: JY139
+        brand_marketing_name: 'Hero H3000'
+        brand_names: 'Hero H3000'
+        design_weight: 101
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: H4300
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Hero
+        brand_model: H4300
+        design_weight: 149
+        display_size: '4.3'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'H5300 3G'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Hero
+        brand_model: 'H5300 3G'
+        design_weight: 143
+        display_size: '4.3'
+-
+    patterns:
+        -
+            strategy: string
+            value: H5500
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 960
+        display_height: 540
+        brand_vendor: Hero
+        brand_model: H5500
+        design_weight: 115
+        display_size: '4.3'
+-
+    patterns:
+        -
+            strategy: string
+            value: H600
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Hero
+        brand_model: H600
+        design_weight: 97
+        display_size: '2.6'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'H6000 3G'
+    capabilities:
+        is_mobile: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Hero
+        brand_model: 'H6000 3G'
+        design_weight: 155
+        display_size: '4.3'
+-
+    patterns:
+        -
+            strategy: string
+            value: H7300
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Hero
+        brand_model: H7300
+        design_weight: 135
+        display_size: '4.3'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'H7500 Plus'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Hero
+        brand_model: 'H7500 Plus'
+        design_weight: 181
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'H8000 Ultra Slim'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Hero
+        brand_model: 'H8000 Ultra Slim'
+        design_weight: 116
+        display_size: '4'

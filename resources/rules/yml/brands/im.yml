@@ -1,0 +1,11 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: T880
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 186
+        brand_vendor: IM
+        brand_model: T880

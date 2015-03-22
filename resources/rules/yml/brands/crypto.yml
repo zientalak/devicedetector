@@ -1,0 +1,60 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Novapad 100'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Crypto
+        brand_model: 'Novapad 100'
+        design_weight: 707
+        display_size: '10'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Novapad 100 c124'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 800
+        brand_vendor: Crypto
+        brand_model: 'Novapad 100 c124'
+        design_weight: 707
+        display_size: '10'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Novapad 80 c124'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 600
+        brand_vendor: Crypto
+        brand_model: 'Novapad 80 c124'
+        design_weight: 537
+        display_size: '8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Passepartout 70 C124'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 600
+        brand_vendor: Crypto
+        brand_model: 'Passepartout 70 C124'
+        design_weight: 380
+        display_size: '7'
+        display_type: TFT

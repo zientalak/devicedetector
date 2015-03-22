@@ -1,0 +1,61 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: C5060
+        -
+            strategy: string
+            value: 'Spice C-5060'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Cellon
+        brand_model: C5060
+        brand_marketing_name: 'Spice C-5060'
+        brand_names: 'Spice C-5060'
+        display_size: '1.8'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: C7300
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Cellon
+        brand_model: C7300
+        design_weight: 150
+        display_size: '5'
+        display_type: QHD
+-
+    patterns:
+        -
+            strategy: string
+            value: C7500
+    capabilities:
+        is_mobile: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Cellon
+        brand_model: C7500
+        design_weight: 150
+        display_size: '4.3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: C8660
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Cellon
+        brand_model: C8660
+        design_weight: 115
+        display_size: '3.2'
+        display_type: TFT

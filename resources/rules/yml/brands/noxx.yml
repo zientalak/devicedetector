@@ -1,0 +1,11 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: NV-58i
+    capabilities:
+        is_mobile: true
+        brand_vendor: Noxx
+        brand_model: NV-58i
+        display_size: '3.5'
+        display_type: TFT

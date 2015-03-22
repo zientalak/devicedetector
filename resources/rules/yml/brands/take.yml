@@ -1,0 +1,58 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: KM-S330
+        -
+            strategy: string
+            value: 'Take Fit'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Take
+        brand_model: KM-S330
+        brand_marketing_name: 'Take Fit'
+        brand_names: 'Take Fit'
+        design_weight: 130
+        display_size: '4.3'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: KM-S200
+        -
+            strategy: string
+            value: 'Take Janus'
+    capabilities:
+        is_mobile: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Take
+        brand_model: KM-S200
+        brand_marketing_name: 'Take Janus'
+        brand_names: 'Take Janus'
+        design_weight: 131
+        display_size: '4.3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: KM-S220
+        -
+            strategy: string
+            value: 'Take Tachy'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Take
+        brand_model: KM-S220
+        brand_marketing_name: 'Take Tachy'
+        brand_names: 'Take Tachy'
+        design_weight: 129
+        display_size: '4'
+        display_type: 'TFT LCD'

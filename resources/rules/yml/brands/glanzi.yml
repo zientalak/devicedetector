@@ -1,0 +1,15 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: GL-7TA
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Glanzi
+        brand_model: GL-7TA
+        design_weight: 312
+        display_size: '7'
+        display_type: TFT

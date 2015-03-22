@@ -1,0 +1,9 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: R5
+    capabilities:
+        is_mobile: true
+        brand_vendor: Rusty
+        brand_model: R5

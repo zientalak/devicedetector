@@ -1,0 +1,328 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: A662
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Tianyu
+        brand_model: A662
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A665
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Tianyu
+        brand_model: A665
+        design_weight: 99
+        display_size: '2.2'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: A691
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 240
+        brand_vendor: Tianyu
+        brand_model: A691
+        design_weight: 90
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A907
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Tianyu
+        brand_model: A907
+        design_weight: 125
+        display_size: '2.6'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A930
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 240
+        brand_vendor: Tianyu
+        brand_model: A930
+        design_weight: 70
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: B2012
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Tianyu
+        brand_model: B2012
+-
+    patterns:
+        -
+            strategy: string
+            value: B2015
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Tianyu
+        brand_model: B2015
+        design_weight: 88
+        display_size: '1.4'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: B830
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 92
+        brand_vendor: Tianyu
+        brand_model: B830
+        design_weight: 70
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: B832
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Tianyu
+        brand_model: B832
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: B892
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Tianyu
+        brand_model: B892
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: D172
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Tianyu
+        brand_model: D172
+        design_weight: 84
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: D702
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 240
+        brand_vendor: Tianyu
+        brand_model: D702
+        design_weight: 98
+        display_size: '2.6'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: D770
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Tianyu
+        brand_model: D770
+        design_weight: 97
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: D780
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Tianyu
+        brand_model: D780
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: D788
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Tianyu
+        brand_model: D788
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: DT28
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Tianyu
+        brand_model: DT28
+        design_weight: 110
+        display_size: '2.8'
+-
+    patterns:
+        -
+            strategy: string
+            value: H800
+    capabilities:
+        is_mobile: true
+        display_width: 220
+        display_height: 176
+        brand_vendor: Tianyu
+        brand_model: H800
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: H877
+    capabilities:
+        is_mobile: true
+        display_width: 220
+        display_height: 176
+        brand_vendor: Tianyu
+        brand_model: H877
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: H999
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Tianyu
+        brand_model: H999
+        design_weight: 87
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'KTouch H699'
+    capabilities:
+        is_mobile: true
+        display_width: 220
+        display_height: 176
+        brand_vendor: Tianyu
+        brand_model: 'KTouch H699'
+        design_weight: 95
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'KTouch H711'
+    capabilities:
+        is_mobile: true
+        display_width: 220
+        display_height: 176
+        brand_vendor: Tianyu
+        brand_model: 'KTouch H711'
+        design_weight: 95
+        display_size: '2.3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'KTouch V908'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Tianyu
+        brand_model: 'KTouch V908'
+        design_weight: 118
+        display_size: '3'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'KTouch X260'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Tianyu
+        brand_model: 'KTouch X260'
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: V760
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 400
+        brand_vendor: Tianyu
+        brand_model: V760
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: V918
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Tianyu
+        brand_model: V918
+        display_type: TFT

@@ -1,0 +1,29 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: '715'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: StarTab
+        brand_model: '715'
+        design_weight: 370
+        display_size: '7'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: '769'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1280
+        display_height: 800
+        brand_vendor: StarTab
+        brand_model: '769'
+        display_size: '7'
+        display_type: TFT

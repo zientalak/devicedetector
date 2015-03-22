@@ -1,0 +1,29 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: MD-0690
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Commodore
+        brand_model: MD-0690
+        display_size: '9'
+        display_type: WVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: TM75A-V
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Commodore
+        brand_model: TM75A-V
+        design_weight: 384
+        display_size: '7'
+        display_type: TFT

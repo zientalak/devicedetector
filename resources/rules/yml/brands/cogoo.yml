@@ -1,0 +1,15 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: Q10A
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: COGOO
+        brand_model: Q10A
+        design_weight: 284
+        display_size: '7'
+        display_type: TFT

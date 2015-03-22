@@ -1,0 +1,29 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: M7R4C
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Smartbitt
+        brand_model: M7R4C
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: WF7C
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Smartbitt
+        brand_model: WF7C
+        design_weight: 500
+        display_size: '7'
+        display_type: LED

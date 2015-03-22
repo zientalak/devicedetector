@@ -1,0 +1,439 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: EGL26BL
+        -
+            strategy: string
+            value: 'Ematic 7" Genesis Tab'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Ematic
+        brand_model: EGL26BL
+        brand_marketing_name: 'Ematic 7" Genesis Tab'
+        brand_names: 'Ematic 7" Genesis Tab'
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: EGP007
+        -
+            strategy: string
+            value: 'Ematic 7" Pro Series'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Ematic
+        brand_model: EGP007
+        brand_marketing_name: 'Ematic 7" Pro Series'
+        brand_names: 'Ematic 7" Pro Series'
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: DFP1008r
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Ematic
+        brand_model: DFP1008r
+        design_weight: 453
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: EGL25BL
+        -
+            strategy: string
+            value: 'Ematic eGlide 4'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Ematic
+        brand_model: EGL25BL
+        brand_marketing_name: 'Ematic eGlide 4'
+        brand_names: 'Ematic eGlide 4'
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: EGLXL102B
+        -
+            strategy: string
+            value: 'Ematic eGlide 4 XL'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        brand_vendor: Ematic
+        brand_model: EGLXL102B
+        brand_marketing_name: 'Ematic eGlide 4 XL'
+        brand_names: 'Ematic eGlide 4 XL'
+        display_size: '10'
+-
+    patterns:
+        -
+            strategy: string
+            value: EGP008
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 768
+        display_height: 1024
+        brand_vendor: Ematic
+        brand_model: EGP008
+        design_weight: 476
+        display_size: '8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: EGQ307
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Ematic
+        brand_model: EGQ307
+        design_weight: 290
+        display_size: '7'
+        display_type: 'Active Matrix TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: EGS005
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 80
+        brand_vendor: Ematic
+        brand_model: EGS005
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: EGS102
+        -
+            strategy: string
+            value: 'Ematic Genesis Prime XL'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Ematic
+        brand_model: EGS102
+        brand_marketing_name: 'Ematic Genesis Prime XL'
+        brand_names: 'Ematic Genesis Prime XL'
+        design_weight: 581
+        display_size: '10'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: EGS109
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Ematic
+        brand_model: EGS109
+        design_weight: 467
+        display_size: '9'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'EGlide 1'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Ematic
+        brand_model: 'EGlide 1'
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: EL440
+        -
+            strategy: string
+            value: 'Ematic The Twig'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Ematic
+        brand_model: EL440
+        brand_marketing_name: 'Ematic The Twig'
+        brand_names: 'Ematic The Twig'
+        display_size: '4.3'
+-
+    patterns:
+        -
+            strategy: string
+            value: EM63
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Ematic
+        brand_model: EM63
+        design_weight: 294
+        display_size: '7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: EXLB3B
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Ematic
+        brand_model: EXLB3B
+        display_size: '10'
+-
+    patterns:
+        -
+            strategy: string
+            value: EXP8
+        -
+            strategy: string
+            value: 'Ematic Pro Tab'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Ematic
+        brand_model: EXP8
+        brand_marketing_name: 'Ematic Pro Tab'
+        brand_names: 'Ematic Pro Tab'
+        display_size: '9.7'
+-
+    patterns:
+        -
+            strategy: string
+            value: FTABC
+        -
+            strategy: string
+            value: 'Ematic FunTab C'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Ematic
+        brand_model: FTABC
+        brand_marketing_name: 'Ematic FunTab C'
+        brand_names: 'Ematic FunTab C'
+        design_weight: 381
+        display_size: '7'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: FTABM
+        -
+            strategy: string
+            value: 'Ematic FunTab Mini'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 272
+        display_height: 480
+        brand_vendor: Ematic
+        brand_model: FTABM
+        brand_marketing_name: 'Ematic FunTab Mini'
+        brand_names: 'Ematic FunTab Mini'
+        display_size: '4.3'
+-
+    patterns:
+        -
+            strategy: string
+            value: FTABU
+        -
+            strategy: string
+            value: 'Ematic Fun Tab Pro'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Ematic
+        brand_model: FTABU
+        brand_marketing_name: 'Ematic Fun Tab Pro'
+        brand_names: 'Ematic Fun Tab Pro'
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'eGlide 2'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Ematic
+        brand_model: 'eGlide 2'
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'eGlide 2.2'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Ematic
+        brand_model: 'eGlide 2.2'
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'eGlide Prism'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Ematic
+        brand_model: 'eGlide Prism'
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'eGlide Pro 1'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Ematic
+        brand_model: 'eGlide Pro 1'
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'eGlide Pro 2'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Ematic
+        brand_model: 'eGlide Pro 2'
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'eGlide Pro 3'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Ematic
+        brand_model: 'eGlide Pro 3'
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'eGlide Pro X'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Ematic
+        brand_model: 'eGlide Pro X'
+        display_size: '9.7'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'eGlide Steal'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Ematic
+        brand_model: 'eGlide Steal'
+        design_weight: 608
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'eGlide XL 2'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Ematic
+        brand_model: 'eGlide XL 2'
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'eGlide XL Pro'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Ematic
+        brand_model: 'eGlide XL Pro'
+        display_size: '10'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'eGlide XL Pro 2'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Ematic
+        brand_model: 'eGlide XL Pro 2'
+        display_size: '10.1'

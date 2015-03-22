@@ -1,0 +1,12 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: '8 Advanced'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        brand_vendor: Zendex
+        brand_model: '8 Advanced'
+        display_size: '8'
+        display_type: TFT

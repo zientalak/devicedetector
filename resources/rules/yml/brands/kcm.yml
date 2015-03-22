@@ -1,0 +1,14 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: N110
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: KCM
+        brand_model: N110
+        design_weight: 71
+        display_size: '1.9'
+        display_type: TFT

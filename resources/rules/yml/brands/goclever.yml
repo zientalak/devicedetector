@@ -1,0 +1,493 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 570Q
+        -
+            strategy: string
+            value: 'Goclever Fone 570Q'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Goclever
+        brand_model: 570Q
+        brand_marketing_name: 'Goclever Fone 570Q'
+        brand_names: 'Goclever Fone 570Q'
+        design_weight: 212
+        display_size: '5.7'
+        display_type: 'IPS TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Aries 785'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 768
+        display_height: 1024
+        brand_vendor: Goclever
+        brand_model: 'Aries 785'
+        design_weight: 364
+        display_size: '7.85'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Elipso 71'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Goclever
+        brand_model: 'Elipso 71'
+        design_weight: 332
+        display_size: '7'
+        display_type: 'TN LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: I102
+        -
+            strategy: string
+            value: 'GoClever i102 NETBOOK'
+    capabilities:
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Goclever
+        brand_model: I102
+        brand_marketing_name: 'GoClever i102 NETBOOK'
+        brand_names: 'GoClever i102 NETBOOK'
+        design_weight: 856
+        display_size: '10.1'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Insignia 5x'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Goclever
+        brand_model: 'Insignia 5x'
+        design_weight: 156
+        display_size: '5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Orion 7o'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Goclever
+        brand_model: 'Orion 7o'
+        design_weight: 324
+        display_size: '7'
+        display_type: 'TN LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: T72
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Goclever
+        brand_model: T72
+        design_weight: 330
+        display_size: '7'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'TAB 7500'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Goclever
+        brand_model: 'TAB 7500'
+        display_size: '7'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'TAB A101'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Goclever
+        brand_model: 'TAB A101'
+        display_size: '10'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'TAB A104'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Goclever
+        brand_model: 'TAB A104'
+        design_weight: 527
+        display_size: '10.1'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'TAB A104.2'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Goclever
+        brand_model: 'TAB A104.2'
+        design_weight: 576
+        display_size: '10'
+        display_type: 'LCD TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'TAB A93'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Goclever
+        brand_model: 'TAB A93'
+        display_size: '9'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'TAB A93.2'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Goclever
+        brand_model: 'TAB A93.2'
+        display_size: '9'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'TAB A971'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Goclever
+        brand_model: 'TAB A971'
+        design_weight: 585
+        display_size: '9.7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'TAB A972BK'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Goclever
+        brand_model: 'TAB A972BK'
+        display_size: '9.7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'TAB I101'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Goclever
+        brand_model: 'TAB I101'
+        design_weight: 470
+        display_size: '10'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'TAB M703G'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Goclever
+        brand_model: 'TAB M703G'
+        design_weight: 370
+        display_size: '7'
+        display_type: 'LCD IPS'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'TAB M7841'
+        -
+            strategy: string
+            value: 'ARIES 785'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Goclever
+        brand_model: 'TAB M7841'
+        brand_marketing_name: 'ARIES 785'
+        brand_names: 'ARIES 785'
+        design_weight: 364
+        display_size: '7.85'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'TAB R104'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Goclever
+        brand_model: 'TAB R104'
+        design_weight: 602
+        display_size: '10.1'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'TAB R74'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Goclever
+        brand_model: 'TAB R74'
+        display_size: '7'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'TAB R75'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Goclever
+        brand_model: 'TAB R75'
+        display_size: '7'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'TAB R76.2'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Goclever
+        brand_model: 'TAB R76.2'
+        design_weight: 288
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'TAB R83 MINI'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Goclever
+        brand_model: 'TAB R83 MINI'
+        display_size: '8'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'TAB R973'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Goclever
+        brand_model: 'TAB R973'
+        design_weight: 650
+        display_size: '9.7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'TAB R974'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        brand_vendor: Goclever
+        brand_model: 'TAB R974'
+        design_weight: 650
+        display_size: '9.7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'TAB T76 GPS TV'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Goclever
+        brand_model: 'TAB T76 GPS TV'
+        display_size: '7'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'TAB T76GPS'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Goclever
+        brand_model: 'TAB T76GPS'
+        display_size: '7'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Tab A103'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Goclever
+        brand_model: 'Tab A103'
+        display_size: '10'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Tab A73'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Goclever
+        brand_model: 'Tab A73'
+        design_weight: 371
+        display_size: '7'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Tab I71'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Goclever
+        brand_model: 'Tab I71'
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Tab T72 GPS TV'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Goclever
+        brand_model: 'Tab T72 GPS TV'
+        design_weight: 330
+        display_size: '7'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Tab T75'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Goclever
+        brand_model: 'Tab T75'
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Tab T76'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Goclever
+        brand_model: 'Tab T76'
+        display_size: '7'
+        display_type: TFT

@@ -1,0 +1,126 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Trio 97c'
+        -
+            strategy: string
+            value: 'MachSpeed Trio Stealth Pro'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: MachSpeed
+        brand_model: 'Trio 97c'
+        brand_marketing_name: 'MachSpeed Trio Stealth Pro'
+        brand_names: 'MachSpeed Trio Stealth Pro'
+        display_size: '9.7'
+        display_type: LED
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Trio Stealth'
+        -
+            strategy: string
+            value: 'Trio Stealth Pro 7'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: MachSpeed
+        brand_model: 'Trio Stealth'
+        brand_marketing_name: 'Trio Stealth Pro 7'
+        brand_names: 'Trio Stealth Pro 7'
+        display_size: '7'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Trio Stealth 10'
+        -
+            strategy: string
+            value: 'TRIO Stealth G2'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: MachSpeed
+        brand_model: 'Trio Stealth 10'
+        brand_marketing_name: 'TRIO Stealth G2'
+        brand_names: 'TRIO Stealth G2'
+        display_size: '10.1'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Trio Stealth 8'
+        -
+            strategy: string
+            value: 'MachSpeed Trio Stealth Pro G2'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: MachSpeed
+        brand_model: 'Trio Stealth 8'
+        brand_marketing_name: 'MachSpeed Trio Stealth Pro G2'
+        brand_names: 'MachSpeed Trio Stealth Pro G2'
+        design_weight: 725
+        display_size: '8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Trio Stealth G2'
+        -
+            strategy: string
+            value: 'TRIO Stealth G2'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: MachSpeed
+        brand_model: 'Trio Stealth G2'
+        brand_marketing_name: 'TRIO Stealth G2'
+        brand_names: 'TRIO Stealth G2'
+        display_size: '10.1'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Trip Stealth 9'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: MachSpeed
+        brand_model: 'Trip Stealth 9'
+        design_weight: 997
+        display_size: '9.7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: X-Treme
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: MachSpeed
+        brand_model: X-Treme
+        design_weight: 286
+        display_size: '7'
+        display_type: TFT

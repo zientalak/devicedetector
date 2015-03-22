@@ -1,0 +1,20 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: ZM971-RT
+        -
+            strategy: string
+            value: 'Zediel ZM971r'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1280
+        display_height: 768
+        brand_vendor: Zediel
+        brand_model: ZM971-RT
+        brand_marketing_name: 'Zediel ZM971r'
+        brand_names: 'Zediel ZM971r'
+        design_weight: 573
+        display_size: '9.7'
+        display_type: LCD

@@ -1,0 +1,42 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: Nova
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 800
+        brand_vendor: Cat
+        brand_model: Nova
+        design_weight: 500
+        display_size: '8'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Nova Tablet'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 600
+        brand_vendor: Cat
+        brand_model: 'Nova Tablet'
+        design_weight: 500
+        display_size: '8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: StarGate
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Cat
+        brand_model: StarGate
+        display_size: '7'

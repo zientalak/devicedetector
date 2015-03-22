@@ -1,0 +1,20 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: MR775
+        -
+            strategy: string
+            value: 'Marvalstar Tablet PC 3000'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Marvalstar
+        brand_model: MR775
+        brand_marketing_name: 'Marvalstar Tablet PC 3000'
+        brand_names: 'Marvalstar Tablet PC 3000'
+        design_weight: 330
+        display_size: '7'
+        display_type: 'WSXGA LCD'

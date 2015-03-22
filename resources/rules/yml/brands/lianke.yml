@@ -1,0 +1,99 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: p200
+    capabilities:
+        is_mobile: true
+        brand_vendor: Lianke
+        brand_model: p200
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: p100
+    capabilities:
+        is_mobile: true
+        brand_vendor: Lianke
+        brand_model: p100
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: p300
+    capabilities:
+        is_mobile: true
+        brand_vendor: Lianke
+        brand_model: p300
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: p400
+    capabilities:
+        is_mobile: true
+        brand_vendor: Lianke
+        brand_model: p400
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: p500
+    capabilities:
+        is_mobile: true
+        brand_vendor: Lianke
+        brand_model: p500
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: p600
+    capabilities:
+        is_mobile: true
+        brand_vendor: Lianke
+        brand_model: p600
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: p700
+    capabilities:
+        is_mobile: true
+        brand_vendor: Lianke
+        brand_model: p700
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: p800
+    capabilities:
+        is_mobile: true
+        brand_vendor: Lianke
+        brand_model: p800
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: p900
+    capabilities:
+        is_mobile: true
+        brand_vendor: Lianke
+        brand_model: p900
+        display_size: '4'
+        display_type: TFT

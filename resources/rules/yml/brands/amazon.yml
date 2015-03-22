@@ -1,0 +1,163 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: SD4930UR
+        -
+            strategy: string
+            value: 'Amazon Fire Phone'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Amazon
+        brand_model: SD4930UR
+        brand_marketing_name: 'Amazon Fire Phone'
+        brand_names: 'Amazon Fire Phone'
+        design_weight: 160
+        display_size: '4.7'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: Kindle
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 400
+        brand_vendor: Amazon
+        brand_model: Kindle
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Kindle 2'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 800
+        brand_vendor: Amazon
+        brand_model: 'Kindle 2'
+        design_weight: 289
+        display_size: '6'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Kindle 3'
+    capabilities:
+        is_mobile: true
+        display_width: 600
+        display_height: 800
+        brand_vendor: Amazon
+        brand_model: 'Kindle 3'
+        design_weight: 241
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Kindle Fire'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Amazon
+        brand_model: 'Kindle Fire'
+        design_weight: 413
+        display_size: '7'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Kindle Fire 2'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Amazon
+        brand_model: 'Kindle Fire 2'
+        design_weight: 400
+        display_size: '7'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Kindle Fire HD 7.0'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1280
+        display_height: 800
+        brand_vendor: Amazon
+        brand_model: 'Kindle Fire HD 7.0'
+        design_weight: 395
+        display_size: '7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Kindle Fire HD 8.9'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1920
+        display_height: 1200
+        brand_vendor: Amazon
+        brand_model: 'Kindle Fire HD 8.9'
+        design_weight: 567
+        display_size: '8.9'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Kindle Fire HD 8.9 4G LTE'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1920
+        display_height: 1200
+        brand_vendor: Amazon
+        brand_model: 'Kindle Fire HD 8.9 4G LTE'
+        design_weight: 575
+        display_size: '8.9'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Kindle Fire HDX 7'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1920
+        display_height: 1200
+        brand_vendor: Amazon
+        brand_model: 'Kindle Fire HDX 7'
+        design_weight: 311
+        display_size: '7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Kindle Fire HDX 8.9'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1600
+        display_height: 2560
+        brand_vendor: Amazon
+        brand_model: 'Kindle Fire HDX 8.9'
+        design_weight: 374
+        display_size: '8.9'
+        display_type: 'IPS LCD'

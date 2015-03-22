@@ -1,0 +1,1758 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: '2128'
+    capabilities:
+        is_mobile: true
+        display_width: 101
+        display_height: 64
+        brand_vendor: Siemens
+        brand_model: '2128'
+        design_weight: 80
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: '3118'
+    capabilities:
+        is_mobile: true
+        display_width: 101
+        display_height: 64
+        brand_vendor: Siemens
+        brand_model: '3118'
+        design_weight: 97
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: '3618'
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Siemens
+        brand_model: '3618'
+        design_weight: 99
+-
+    patterns:
+        -
+            strategy: string
+            value: '6618'
+    capabilities:
+        is_mobile: true
+        display_width: 101
+        display_height: 80
+        brand_vendor: Siemens
+        brand_model: '6618'
+        design_weight: 93
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: '6688'
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Siemens
+        brand_model: '6688'
+        design_weight: 88
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: A21A
+        -
+            strategy: string
+            value: 'Siemens AL21A'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Siemens
+        brand_model: A21A
+        brand_marketing_name: 'Siemens AL21A'
+        brand_names: 'Siemens AL21A'
+        design_weight: 78
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A31
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Siemens
+        brand_model: A31
+        design_weight: 85
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: A31C
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Siemens
+        brand_model: A31C
+        design_weight: 85
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: A31a
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Siemens
+        brand_model: A31a
+        design_weight: 85
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: A55A
+    capabilities:
+        is_mobile: true
+        display_width: 101
+        display_height: 64
+        brand_vendor: Siemens
+        brand_model: A55A
+        design_weight: 84
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: A56i
+    capabilities:
+        is_mobile: true
+        display_width: 101
+        display_height: 64
+        brand_vendor: Siemens
+        brand_model: A56i
+        design_weight: 84
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: AF51
+    capabilities:
+        is_mobile: true
+        display_width: 130
+        display_height: 130
+        brand_vendor: Siemens
+        brand_model: AF51
+        design_weight: 80
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: AL21
+    capabilities:
+        is_mobile: true
+        display_width: 130
+        display_height: 130
+        brand_vendor: Siemens
+        brand_model: AL21
+        design_weight: 78
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: AL21a
+    capabilities:
+        is_mobile: true
+        display_width: 130
+        display_height: 130
+        brand_vendor: Siemens
+        brand_model: AL21a
+        design_weight: 78
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: AL26
+        -
+            strategy: string
+            value: 'Siemens Hello Kitty'
+    capabilities:
+        is_mobile: true
+        display_width: 130
+        display_height: 130
+        brand_vendor: Siemens
+        brand_model: AL26
+        brand_marketing_name: 'Siemens Hello Kitty'
+        brand_names: 'Siemens Hello Kitty'
+        design_weight: 80
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: AP75
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Siemens
+        brand_model: AP75
+        design_weight: 86
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: AX72
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Siemens
+        brand_model: AX72
+        design_weight: 79
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: AX75
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Siemens
+        brand_model: AX75
+        design_weight: 76
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: C110
+        -
+            strategy: string
+            value: 'Siemens CF110'
+    capabilities:
+        is_mobile: true
+        display_width: 130
+        display_height: 130
+        brand_vendor: Siemens
+        brand_model: C110
+        brand_marketing_name: 'Siemens CF110'
+        brand_names: 'Siemens CF110'
+        design_weight: 76
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: C35
+    capabilities:
+        is_mobile: true
+        display_width: 97
+        display_height: 56
+        brand_vendor: Siemens
+        brand_model: C35
+        design_weight: 110
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: C45
+    capabilities:
+        is_mobile: true
+        display_width: 101
+        display_height: 64
+        brand_vendor: Siemens
+        brand_model: C45
+        design_weight: 107
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: C55
+    capabilities:
+        is_mobile: true
+        display_width: 101
+        display_height: 64
+        brand_vendor: Siemens
+        brand_model: C55
+        design_weight: 80
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: C56
+    capabilities:
+        is_mobile: true
+        display_width: 101
+        display_height: 64
+        brand_vendor: Siemens
+        brand_model: C56
+        design_weight: 80
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: C60
+    capabilities:
+        is_mobile: true
+        display_width: 101
+        display_height: 80
+        brand_vendor: Siemens
+        brand_model: C60
+        design_weight: 85
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: C61
+    capabilities:
+        is_mobile: true
+        display_width: 101
+        display_height: 80
+        brand_vendor: Siemens
+        brand_model: C61
+        design_weight: 85
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: C62
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Siemens
+        brand_model: C62
+        design_weight: 85
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: C65-China
+    capabilities:
+        is_mobile: true
+        display_width: 130
+        display_height: 130
+        brand_vendor: Siemens
+        brand_model: C65-China
+        design_weight: 86
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: C72
+    capabilities:
+        is_mobile: true
+        display_width: 130
+        display_height: 130
+        brand_vendor: Siemens
+        brand_model: C72
+        design_weight: 86
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: CC75
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Siemens
+        brand_model: CC75
+        design_weight: 80
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: CF62
+    capabilities:
+        is_mobile: true
+        display_width: 130
+        display_height: 130
+        brand_vendor: Siemens
+        brand_model: CF62
+        design_weight: 85
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: CF62T
+    capabilities:
+        is_mobile: true
+        display_width: 130
+        display_height: 130
+        brand_vendor: Siemens
+        brand_model: CF62T
+        design_weight: 85
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: CF63
+    capabilities:
+        is_mobile: true
+        display_width: 130
+        display_height: 130
+        brand_vendor: Siemens
+        brand_model: CF63
+        design_weight: 85
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: CF6C
+    capabilities:
+        is_mobile: true
+        display_width: 130
+        display_height: 130
+        brand_vendor: Siemens
+        brand_model: CF6C
+        design_weight: 85
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: CF75
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Siemens
+        brand_model: CF75
+        design_weight: 91
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: CF76
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Siemens
+        brand_model: CF76
+        design_weight: 91
+-
+    patterns:
+        -
+            strategy: string
+            value: CF7C
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Siemens
+        brand_model: CF7C
+        design_weight: 91
+        display_type: 'CSTN TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: CFX65
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Siemens
+        brand_model: CFX65
+        design_weight: 88
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: CL50
+    capabilities:
+        is_mobile: true
+        display_width: 112
+        display_height: 64
+        brand_vendor: Siemens
+        brand_model: CL50
+        design_weight: 73
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: CL75
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Siemens
+        brand_model: CL75
+        design_weight: 90
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: CL91
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Siemens
+        brand_model: CL91
+        design_weight: 109
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: CT56
+    capabilities:
+        is_mobile: true
+        display_width: 101
+        display_height: 64
+        brand_vendor: Siemens
+        brand_model: CT56
+        design_weight: 84
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: CT65
+    capabilities:
+        is_mobile: true
+        display_width: 130
+        display_height: 130
+        brand_vendor: Siemens
+        brand_model: CT65
+        design_weight: 86
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: CT66
+    capabilities:
+        is_mobile: true
+        display_width: 130
+        display_height: 130
+        brand_vendor: Siemens
+        brand_model: CT66
+        design_weight: 86
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: CV65
+    capabilities:
+        is_mobile: true
+        display_width: 130
+        display_height: 130
+        brand_vendor: Siemens
+        brand_model: CV65
+        design_weight: 86
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: CV66
+    capabilities:
+        is_mobile: true
+        display_width: 130
+        display_height: 130
+        brand_vendor: Siemens
+        brand_model: CV66
+        design_weight: 86
+        display_type: STN
+-
+    patterns:
+        -
+            strategy: string
+            value: CX65
+    capabilities:
+        is_mobile: true
+        display_width: 132
+        display_height: 176
+        brand_vendor: Siemens
+        brand_model: CX65
+        design_weight: 90
+        display_size: '2.1'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'CX65 China'
+    capabilities:
+        is_mobile: true
+        display_width: 132
+        display_height: 176
+        brand_vendor: Siemens
+        brand_model: 'CX65 China'
+        design_weight: 90
+        display_size: '2.1'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: CX66
+        -
+            strategy: string
+            value: CX65
+    capabilities:
+        is_mobile: true
+        display_width: 132
+        display_height: 176
+        brand_vendor: Siemens
+        brand_model: CX66
+        brand_marketing_name: CX65
+        brand_names: CX65
+        design_weight: 90
+        display_size: '2.1'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: CX70
+    capabilities:
+        is_mobile: true
+        display_width: 132
+        display_height: 176
+        brand_vendor: Siemens
+        brand_model: CX70
+        design_weight: 90
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'CX70 Emoty'
+    capabilities:
+        is_mobile: true
+        display_width: 132
+        display_height: 176
+        brand_vendor: Siemens
+        brand_model: 'CX70 Emoty'
+        design_weight: 116
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: CX7V
+        -
+            strategy: string
+            value: 'Siemens CX75'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 132
+        brand_vendor: Siemens
+        brand_model: CX7V
+        brand_marketing_name: 'Siemens CX75'
+        brand_names: 'Siemens CX75'
+        design_weight: 98
+        display_size: '1.9'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: CXT65
+    capabilities:
+        is_mobile: true
+        display_width: 132
+        display_height: 176
+        brand_vendor: Siemens
+        brand_model: CXT65
+        design_weight: 90
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: CXT70
+    capabilities:
+        is_mobile: true
+        display_width: 132
+        display_height: 176
+        brand_vendor: Siemens
+        brand_model: CXT70
+        design_weight: 90
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: E81
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Siemens
+        brand_model: E81
+        design_weight: 90
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: EF51
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Siemens
+        brand_model: EF51
+        design_weight: 95
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: EF91
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Siemens
+        brand_model: EF91
+        design_weight: 100
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: ELC1
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Siemens
+        brand_model: ELC1
+        design_weight: 94
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Gigaset SL74'
+    capabilities:
+        is_mobile: true
+        display_width: 126
+        display_height: 160
+        brand_vendor: Siemens
+        brand_model: 'Gigaset SL74'
+        design_weight: 100
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: IC35
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Siemens
+        brand_model: IC35
+-
+    patterns:
+        -
+            strategy: string
+            value: M46
+    capabilities:
+        is_mobile: true
+        display_width: 101
+        display_height: 64
+        brand_vendor: Siemens
+        brand_model: M46
+        design_weight: 103
+-
+    patterns:
+        -
+            strategy: string
+            value: M50
+    capabilities:
+        is_mobile: true
+        display_width: 101
+        display_height: 64
+        brand_vendor: Siemens
+        brand_model: M50
+        design_weight: 97
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: M50I
+    capabilities:
+        is_mobile: true
+        display_width: 101
+        display_height: 64
+        brand_vendor: Siemens
+        brand_model: M50I
+        design_weight: 97
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: M55
+    capabilities:
+        is_mobile: true
+        display_width: 101
+        display_height: 80
+        brand_vendor: Siemens
+        brand_model: M55
+        design_weight: 83
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: M55C
+    capabilities:
+        is_mobile: true
+        display_width: 101
+        display_height: 80
+        brand_vendor: Siemens
+        brand_model: M55C
+        design_weight: 83
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: M56
+    capabilities:
+        is_mobile: true
+        display_width: 101
+        display_height: 80
+        brand_vendor: Siemens
+        brand_model: M56
+        design_weight: 83
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: M65
+    capabilities:
+        is_mobile: true
+        display_width: 132
+        display_height: 176
+        brand_vendor: Siemens
+        brand_model: M65
+        design_weight: 104
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: M65C
+    capabilities:
+        is_mobile: true
+        display_width: 132
+        display_height: 176
+        brand_vendor: Siemens
+        brand_model: M65C
+        design_weight: 104
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: M65i
+    capabilities:
+        is_mobile: true
+        display_width: 132
+        display_height: 176
+        brand_vendor: Siemens
+        brand_model: M65i
+        design_weight: 104
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: M75
+    capabilities:
+        is_mobile: true
+        display_width: 132
+        display_height: 176
+        brand_vendor: Siemens
+        brand_model: M75
+        design_weight: 110
+        display_size: '1.9'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: M81
+    capabilities:
+        is_mobile: true
+        display_width: 132
+        display_height: 176
+        brand_vendor: Siemens
+        brand_model: M81
+        design_weight: 96
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MC35
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 160
+        brand_vendor: Siemens
+        brand_model: MC35
+        design_weight: 163
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: MC60
+    capabilities:
+        is_mobile: true
+        display_width: 101
+        display_height: 80
+        brand_vendor: Siemens
+        brand_model: MC60
+        design_weight: 86
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: MC6C
+    capabilities:
+        is_mobile: true
+        display_width: 101
+        display_height: 80
+        brand_vendor: Siemens
+        brand_model: MC6C
+        design_weight: 86
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: ME45
+    capabilities:
+        is_mobile: true
+        display_width: 101
+        display_height: 64
+        brand_vendor: Siemens
+        brand_model: ME45
+        design_weight: 99
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: ME45i
+    capabilities:
+        is_mobile: true
+        display_width: 101
+        display_height: 64
+        brand_vendor: Siemens
+        brand_model: ME45i
+        design_weight: 99
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: ME75
+    capabilities:
+        is_mobile: true
+        display_width: 132
+        display_height: 176
+        brand_vendor: Siemens
+        brand_model: ME75
+        design_weight: 95
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MT50
+    capabilities:
+        is_mobile: true
+        display_width: 101
+        display_height: 64
+        brand_vendor: Siemens
+        brand_model: MT50
+        design_weight: 97
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: MT65
+    capabilities:
+        is_mobile: true
+        display_width: 132
+        display_height: 176
+        brand_vendor: Siemens
+        brand_model: MT65
+        design_weight: 104
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: OP600
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Siemens
+        brand_model: OP600
+-
+    patterns:
+        -
+            strategy: string
+            value: P35
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Siemens
+        brand_model: P35
+        design_weight: 110
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: S35i
+    capabilities:
+        is_mobile: true
+        display_width: 101
+        display_height: 80
+        brand_vendor: Siemens
+        brand_model: S35i
+        design_weight: 99
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: S40
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Siemens
+        brand_model: S40
+        design_weight: 97
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: S45
+    capabilities:
+        is_mobile: true
+        display_width: 101
+        display_height: 80
+        brand_vendor: Siemens
+        brand_model: S45
+        design_weight: 93
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: S45i
+    capabilities:
+        is_mobile: true
+        display_width: 101
+        display_height: 80
+        brand_vendor: Siemens
+        brand_model: S45i
+        design_weight: 93
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: S46
+    capabilities:
+        is_mobile: true
+        display_width: 96
+        display_height: 64
+        brand_vendor: Siemens
+        brand_model: S46
+        design_weight: 122
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: S55
+    capabilities:
+        is_mobile: true
+        display_width: 101
+        display_height: 80
+        brand_vendor: Siemens
+        brand_model: S55
+        design_weight: 85
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: S55i
+    capabilities:
+        is_mobile: true
+        display_width: 101
+        display_height: 80
+        brand_vendor: Siemens
+        brand_model: S55i
+        design_weight: 85
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: S56
+    capabilities:
+        is_mobile: true
+        display_width: 101
+        display_height: 80
+        brand_vendor: Siemens
+        brand_model: S56
+        design_weight: 85
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: S57
+    capabilities:
+        is_mobile: true
+        display_width: 101
+        display_height: 80
+        brand_vendor: Siemens
+        brand_model: S57
+        design_weight: 85
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: S65
+    capabilities:
+        is_mobile: true
+        display_width: 132
+        display_height: 176
+        brand_vendor: Siemens
+        brand_model: S65
+        design_weight: 98
+        display_size: '2.1'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: S66
+    capabilities:
+        is_mobile: true
+        display_width: 132
+        display_height: 176
+        brand_vendor: Siemens
+        brand_model: S66
+        design_weight: 98
+        display_size: '2.1'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: S6C
+    capabilities:
+        is_mobile: true
+        display_width: 132
+        display_height: 176
+        brand_vendor: Siemens
+        brand_model: S6C
+        design_weight: 98
+        display_size: '2.1'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: S75
+    capabilities:
+        is_mobile: true
+        display_width: 132
+        display_height: 176
+        brand_vendor: Siemens
+        brand_model: S75
+        design_weight: 99
+        display_size: '1.9'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: SF65
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Siemens
+        brand_model: SF65
+        design_weight: 97
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: SF65v2
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Siemens
+        brand_model: SF65v2
+        design_weight: 97
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: SFG75
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Siemens
+        brand_model: SFG75
+        design_weight: 110
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: SG75
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Siemens
+        brand_model: SG75
+        design_weight: 123
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: SI400i
+    capabilities:
+        is_mobile: true
+        display_width: 132
+        display_height: 176
+        brand_vendor: Siemens
+        brand_model: SI400i
+        design_weight: 90
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: SK65
+    capabilities:
+        is_mobile: true
+        display_width: 132
+        display_height: 176
+        brand_vendor: Siemens
+        brand_model: SK65
+        design_weight: 144
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: SK6R
+    capabilities:
+        is_mobile: true
+        display_width: 132
+        display_height: 176
+        brand_vendor: Siemens
+        brand_model: SK6R
+        design_weight: 144
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: SL42i
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Siemens
+        brand_model: SL42i
+        design_weight: 88
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: SL45
+    capabilities:
+        is_mobile: true
+        display_width: 101
+        display_height: 80
+        brand_vendor: Siemens
+        brand_model: SL45
+        design_weight: 88
+        display_size: '1.5'
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: SL45i
+    capabilities:
+        is_mobile: true
+        display_width: 101
+        display_height: 80
+        brand_vendor: Siemens
+        brand_model: SL45i
+        design_weight: 88
+        display_size: '1.5'
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: SL50
+    capabilities:
+        is_mobile: true
+        display_width: 64
+        display_height: 112
+        brand_vendor: Siemens
+        brand_model: SL50
+        design_weight: 79
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: SL55
+    capabilities:
+        is_mobile: true
+        display_width: 101
+        display_height: 80
+        brand_vendor: Siemens
+        brand_model: SL55
+        design_weight: 79
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: SL56
+    capabilities:
+        is_mobile: true
+        display_width: 101
+        display_height: 80
+        brand_vendor: Siemens
+        brand_model: SL56
+        design_weight: 79
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: SL5C
+    capabilities:
+        is_mobile: true
+        display_width: 101
+        display_height: 80
+        brand_vendor: Siemens
+        brand_model: SL5C
+        design_weight: 79
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: SL5E
+    capabilities:
+        is_mobile: true
+        display_width: 101
+        display_height: 80
+        brand_vendor: Siemens
+        brand_model: SL5E
+        design_weight: 79
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: SL65
+    capabilities:
+        is_mobile: true
+        display_width: 130
+        display_height: 130
+        brand_vendor: Siemens
+        brand_model: SL65
+        design_weight: 99
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: SL65-China
+    capabilities:
+        is_mobile: true
+        display_width: 130
+        display_height: 130
+        brand_vendor: Siemens
+        brand_model: SL65-China
+        design_weight: 99
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: SL75
+    capabilities:
+        is_mobile: true
+        display_width: 132
+        display_height: 176
+        brand_vendor: Siemens
+        brand_model: SL75
+        design_weight: 99
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: SL7F
+    capabilities:
+        is_mobile: true
+        display_width: 132
+        display_height: 176
+        brand_vendor: Siemens
+        brand_model: SL7F
+        design_weight: 99
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: SL91
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Siemens
+        brand_model: SL91
+        design_weight: 109
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: SLIN
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Siemens
+        brand_model: SLIN
+-
+    patterns:
+        -
+            strategy: string
+            value: SP65
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 120
+        brand_vendor: Siemens
+        brand_model: SP65
+        design_weight: 98
+        display_size: '2.1'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: ST55
+    capabilities:
+        is_mobile: true
+        display_width: 120
+        display_height: 160
+        brand_vendor: Siemens
+        brand_model: ST55
+        design_weight: 87
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: ST60
+    capabilities:
+        is_mobile: true
+        display_width: 120
+        display_height: 160
+        brand_vendor: Siemens
+        brand_model: ST60
+        design_weight: 87
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: SX1
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Siemens
+        brand_model: SX1
+        design_weight: 116
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: SX56
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Siemens
+        brand_model: SX56
+        design_weight: 196
+        display_size: '3.5'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: SX65
+    capabilities:
+        is_mobile: true
+        display_width: 132
+        display_height: 176
+        brand_vendor: Siemens
+        brand_model: SX65
+        design_weight: 144
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: SXG75
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Siemens
+        brand_model: SXG75
+        design_weight: 134
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Si331i
+    capabilities:
+        is_mobile: true
+        display_width: 132
+        display_height: 176
+        brand_vendor: Siemens
+        brand_model: Si331i
+        design_weight: 86
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: Si341i
+    capabilities:
+        is_mobile: true
+        display_width: 132
+        display_height: 176
+        brand_vendor: Siemens
+        brand_model: Si341i
+        design_weight: 85
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: U10
+        -
+            strategy: string
+            value: Aino
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Siemens
+        brand_model: U10
+        brand_marketing_name: Aino
+        design_weight: 184
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: U15
+    capabilities:
+        is_mobile: true
+        display_width: 100
+        display_height: 128
+        brand_vendor: Siemens
+        brand_model: U15
+        design_weight: 140
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: U35
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Siemens
+        brand_model: U35
+        design_weight: 110
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: X55i
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 120
+        brand_vendor: Siemens
+        brand_model: X55i
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Xelibri 1'
+    capabilities:
+        is_mobile: true
+        display_width: 101
+        display_height: 64
+        brand_vendor: Siemens
+        brand_model: 'Xelibri 1'
+        design_weight: 73
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Xelibri 2'
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Siemens
+        brand_model: 'Xelibri 2'
+        design_weight: 73
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Xelibri 3'
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Siemens
+        brand_model: 'Xelibri 3'
+        design_weight: 55
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Xelibri 4'
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Siemens
+        brand_model: 'Xelibri 4'
+        design_weight: 71
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: Z60
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 120
+        brand_vendor: Siemens
+        brand_model: Z60

@@ -1,0 +1,566 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: A2000
+    capabilities:
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Star
+        brand_model: A2000
+        design_weight: 155
+        display_size: '4.3'
+-
+    patterns:
+        -
+            strategy: string
+            value: A5000
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Star
+        brand_model: A5000
+        design_weight: 125
+        display_size: '3.5'
+-
+    patterns:
+        -
+            strategy: string
+            value: A919
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Star
+        brand_model: A919
+        design_weight: 119
+        display_size: '4.3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: A9220
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Star
+        brand_model: A9220
+        design_weight: 160
+        display_size: '5'
+-
+    patterns:
+        -
+            strategy: string
+            value: B6000
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Star
+        brand_model: B6000
+        design_weight: 222
+        display_size: '5.7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: B63M
+    capabilities:
+        is_mobile: true
+        display_width: 280
+        display_height: 800
+        brand_vendor: Star
+        brand_model: B63M
+        design_weight: 125
+        display_size: '4.1'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: B68m
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Star
+        brand_model: B68m
+        design_weight: 130
+        display_size: '3.5'
+-
+    patterns:
+        -
+            strategy: string
+            value: B79
+    capabilities:
+        is_mobile: true
+        display_width: 960
+        display_height: 540
+        brand_vendor: Star
+        brand_model: B79
+        design_weight: 137
+        display_size: '4.3'
+-
+    patterns:
+        -
+            strategy: string
+            value: B79M
+    capabilities:
+        is_mobile: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Star
+        brand_model: B79M
+        design_weight: 145
+        display_size: '4.3'
+-
+    patterns:
+        -
+            strategy: string
+            value: B92
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Star
+        brand_model: B92
+        design_weight: 152
+        display_size: '4.7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: B93M
+    capabilities:
+        is_mobile: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Star
+        brand_model: B93M
+        design_weight: 148
+        display_size: '4.5'
+-
+    patterns:
+        -
+            strategy: string
+            value: B943
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Star
+        brand_model: B943
+        design_weight: 104
+        display_size: '4.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: B9500
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Star
+        brand_model: B9500
+        design_weight: 146
+        display_size: '4.8'
+        display_type: QHD
+-
+    patterns:
+        -
+            strategy: string
+            value: F9002
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Star
+        brand_model: F9002
+        design_weight: 139
+        display_size: '4.3'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: F9006
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Star
+        brand_model: F9006
+        design_weight: 140
+        display_size: '4.3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: G9000
+        -
+            strategy: string
+            value: 'Star Galaxy S5 G9000, alps 706_v92_jbla_fhd'
+        -
+            strategy: string
+            value: 'Star Galaxy S5 G9000'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Star
+        brand_model: G9000
+        brand_marketing_name: 'Star Galaxy S5 G9000'
+        brand_names: 'Star Galaxy S5 G9000, alps 706_v92_jbla_fhd'
+        design_weight: 108
+        display_size: '5.2'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: SM-G9008
+        -
+            strategy: string
+            value: 'Star Galaxy S5 SM-G9008'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Star
+        brand_model: SM-G9008
+        brand_marketing_name: 'Star Galaxy S5 SM-G9008'
+        brand_names: 'Star Galaxy S5 SM-G9008'
+        design_weight: 145
+        display_size: '5'
+        display_type: 'TFT IPS'
+-
+    patterns:
+        -
+            strategy: string
+            value: HD89
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 1280
+        brand_vendor: Star
+        brand_model: HD89
+        design_weight: 291
+        display_size: '7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: I9100
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Star
+        brand_model: I9100
+        design_weight: 145
+        display_size: '4.3'
+        display_type: 'Super AMOLED'
+-
+    patterns:
+        -
+            strategy: string
+            value: N9330
+        -
+            strategy: string
+            value: 'Star Note 2'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Star
+        brand_model: N9330
+        brand_marketing_name: 'Star Note 2'
+        brand_names: 'Star Note 2'
+        design_weight: 195
+        display_size: '5.5'
+-
+    patterns:
+        -
+            strategy: string
+            value: N9589
+        -
+            strategy: string
+            value: 'Star S5 N9589'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Star
+        brand_model: N9589
+        brand_marketing_name: 'Star S5 N9589'
+        brand_names: 'Star S5 N9589'
+        design_weight: 220
+        display_size: '5.7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: N9770
+        -
+            strategy: string
+            value: 'Star Note'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Star
+        brand_model: N9770
+        brand_marketing_name: 'Star Note'
+        brand_names: 'Star Note'
+        design_weight: 195
+        display_size: '5'
+-
+    patterns:
+        -
+            strategy: string
+            value: N9776
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Star
+        brand_model: N9776
+        design_weight: 238
+        display_size: '6'
+-
+    patterns:
+        -
+            strategy: string
+            value: N9880
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Star
+        brand_model: N9880
+        design_weight: 250
+        display_size: '6'
+-
+    patterns:
+        -
+            strategy: string
+            value: N9977
+        -
+            strategy: string
+            value: 'Star Note 2'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Star
+        brand_model: N9977
+        brand_marketing_name: 'Star Note 2'
+        brand_names: 'Star Note 2'
+        design_weight: 195
+        display_size: '6'
+-
+    patterns:
+        -
+            strategy: string
+            value: S7189
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Star
+        brand_model: S7189
+        design_weight: 168
+        display_size: '5.5'
+        display_type: AMOLED
+-
+    patterns:
+        -
+            strategy: string
+            value: S7589
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Star
+        brand_model: S7589
+        design_weight: 170
+        display_size: '5.8'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: S9500
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Star
+        brand_model: S9500
+        design_weight: 130
+        display_size: '5'
+        display_type: 'FWVGA IPS'
+-
+    patterns:
+        -
+            strategy: string
+            value: U89
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Star
+        brand_model: U89
+        design_weight: 238
+        display_size: '6'
+        display_type: 'FWVGA TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: U920
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Star
+        brand_model: U920
+        design_weight: 195
+        display_size: '5'
+-
+    patterns:
+        -
+            strategy: string
+            value: V12
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Star
+        brand_model: V12
+        design_weight: 150
+        display_size: '4.3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: V1277
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Star
+        brand_model: V1277
+        design_weight: 180
+        display_size: '4.3'
+        display_type: QHD
+-
+    patterns:
+        -
+            strategy: string
+            value: W007
+    capabilities:
+        is_mobile: true
+        display_width: 512
+        brand_vendor: Star
+        brand_model: W007
+        design_weight: 117
+        display_size: '3.5'
+-
+    patterns:
+        -
+            strategy: string
+            value: W500
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Star
+        brand_model: W500
+        design_weight: 168
+        display_size: '5'
+        display_type: 'FWVGA IPS'
+-
+    patterns:
+        -
+            strategy: string
+            value: X15i
+    capabilities:
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Star
+        brand_model: X15i
+        design_weight: 150
+        display_size: '4.3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: X19i
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Star
+        brand_model: X19i
+        design_weight: 460
+        display_size: '4.1'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: X920
+        -
+            strategy: string
+            value: 'alps v89_zlh_hd'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Star
+        brand_model: X920
+        brand_marketing_name: 'alps v89_zlh_hd'
+        brand_names: 'alps v89_zlh_hd'
+        design_weight: 152
+        display_type: 'IPS TFT'

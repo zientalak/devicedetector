@@ -1,0 +1,39 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: BEN918N
+        -
+            strategy: string
+            value: 'Baussen BEN Volt 918N'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Baussen
+        brand_model: BEN918N
+        brand_marketing_name: 'Baussen BEN Volt 918N'
+        brand_names: 'Baussen BEN Volt 918N'
+        design_weight: 520
+        display_size: '9'
+        display_type: WVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: BEN7116N
+        -
+            strategy: string
+            value: 'Baussen Volt Ben7116n'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 400
+        brand_vendor: Baussen
+        brand_model: BEN7116N
+        brand_marketing_name: 'Baussen Volt Ben7116n'
+        brand_names: 'Baussen Volt Ben7116n'
+        display_size: '7'
+        display_type: LCD

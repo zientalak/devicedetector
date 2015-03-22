@@ -1,0 +1,20 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: MP977
+        -
+            strategy: string
+            value: 'Marquis MarquisPad'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Marquis
+        brand_model: MP977
+        brand_marketing_name: 'Marquis MarquisPad'
+        brand_names: 'Marquis MarquisPad'
+        design_weight: 725
+        display_size: '9.7'
+        display_type: TFT

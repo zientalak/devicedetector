@@ -1,0 +1,116 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: A9500
+        -
+            strategy: string
+            value: 'Samsung Galaxy S4 Clone'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Haipai
+        brand_model: A9500
+        brand_marketing_name: 'Samsung Galaxy S4 Clone'
+        brand_names: 'Samsung Galaxy S4 Clone'
+        design_weight: 120
+        display_size: '5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: I9377
+        -
+            strategy: string
+            value: 'Haipai GT-I9377'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Haipai
+        brand_model: I9377
+        brand_marketing_name: 'Haipai GT-I9377'
+        brand_names: 'Haipai GT-I9377'
+        design_weight: 210
+        display_size: '4.7'
+-
+    patterns:
+        -
+            strategy: string
+            value: I9220
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Haipai
+        brand_model: I9220
+        design_weight: 210
+        display_size: '5.3'
+-
+    patterns:
+        -
+            strategy: string
+            value: I9389
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Haipai
+        brand_model: I9389
+        design_weight: 170
+        display_size: '4.7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: N7102
+        -
+            strategy: string
+            value: 'Galaxy Note 2 N7102'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Haipai
+        brand_model: N7102
+        brand_marketing_name: 'Galaxy Note 2 N7102'
+        brand_names: 'Galaxy Note 2 N7102'
+        design_weight: 212
+        display_size: '5.3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: X710d
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Haipai
+        brand_model: X710d
+        design_weight: 170
+        display_size: '5.3'
+-
+    patterns:
+        -
+            strategy: string
+            value: X720D
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Haipai
+        brand_model: X720D
+        design_weight: 157
+        display_size: '4.7'
+        display_type: 'TFT LCD'

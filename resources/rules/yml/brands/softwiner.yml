@@ -1,0 +1,29 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: F761
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Softwiner
+        brand_model: F761
+        design_weight: 326
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: KF026
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Softwiner
+        brand_model: KF026
+        display_size: '9'
+        display_type: TFT

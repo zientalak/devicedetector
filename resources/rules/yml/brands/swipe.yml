@@ -1,0 +1,243 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: '3D Life plus'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Swipe
+        brand_model: '3D Life plus'
+        design_weight: 280
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 9x
+        -
+            strategy: string
+            value: 'Swipe Fablet'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Swipe
+        brand_model: 9x
+        brand_marketing_name: 'Swipe Fablet'
+        brand_names: 'Swipe Fablet'
+        design_weight: 149
+        display_size: '4.7'
+        display_type: 'FWVGA LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: Allinone
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1028
+        brand_vendor: Swipe
+        brand_model: Allinone
+        design_weight: 330
+        display_size: '7'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Fablet F1'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Swipe
+        brand_model: 'Fablet F1'
+        design_weight: 120
+        display_size: '5'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Halo Fone'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Swipe
+        brand_model: 'Halo Fone'
+        design_weight: 235
+        display_size: '6.5'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Halo Value'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Swipe
+        brand_model: 'Halo Value'
+        design_weight: 335
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Halo Value Plus'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Swipe
+        brand_model: 'Halo Value Plus'
+        design_weight: 380
+        display_size: '7'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Konnect 4'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Swipe
+        brand_model: 'Konnect 4'
+        design_weight: 120
+        display_size: '4'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Konnect 4E'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Swipe
+        brand_model: 'Konnect 4E'
+        design_weight: 120
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'MTV Slash'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Swipe
+        brand_model: 'MTV Slash'
+        design_weight: 290
+        display_size: '7'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'MTV Slash 2'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Swipe
+        brand_model: 'MTV Slash 2'
+        design_weight: 290
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Mtv Volt'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Swipe
+        brand_model: 'Mtv Volt'
+        design_weight: 186
+        display_size: '6'
+        display_type: LED
+-
+    patterns:
+        -
+            strategy: string
+            value: Slice
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Swipe
+        brand_model: Slice
+        design_weight: 522
+        display_size: '7'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Swipe Tab X78'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Swipe
+        brand_model: 'Swipe Tab X78'
+        design_weight: 295
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Swipe Xl916'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Swipe
+        brand_model: 'Swipe Xl916'
+        design_weight: 512
+        display_size: '9'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Walk n Talk'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Swipe
+        brand_model: 'Walk n Talk'
+        design_weight: 335
+        display_size: '7'
+        display_type: TFT

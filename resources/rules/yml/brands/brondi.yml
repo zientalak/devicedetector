@@ -1,0 +1,124 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: Caesar
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Brondi
+        brand_model: Caesar
+        design_weight: 215
+        display_size: '5.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: Gladiator
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Brondi
+        brand_model: Gladiator
+        design_weight: 164
+        display_size: '5'
+        display_type: FWVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Gladiator 2'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Brondi
+        brand_model: 'Gladiator 2'
+        design_weight: 171
+        display_size: '5'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: Glory
+        -
+            strategy: string
+            value: 'Brondi Glory Noir'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Brondi
+        brand_model: Glory
+        brand_marketing_name: 'Brondi Glory Noir'
+        brand_names: 'Brondi Glory Noir'
+        design_weight: 138
+        display_size: '4.3'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: Luxury
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Brondi
+        brand_model: Luxury
+        design_weight: 113
+        display_size: '3.5'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Luxury 3'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Brondi
+        brand_model: 'Luxury 3'
+        design_weight: 110
+        display_size: '4'
+        display_type: 'WVGA TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Surfing Tab 8 3G'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 768
+        display_height: 1024
+        brand_vendor: Brondi
+        brand_model: 'Surfing Tab 8 3G'
+        design_weight: 410
+        display_size: '8'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Surfing Tab A 3G'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 768
+        display_height: 1024
+        brand_vendor: Brondi
+        brand_model: 'Surfing Tab A 3G'
+        display_size: '7.85'
+        display_type: TFT

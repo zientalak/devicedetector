@@ -1,0 +1,15 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: R713DX
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Move
+        brand_model: R713DX
+        design_weight: 300
+        display_size: '7'
+        display_type: TFT

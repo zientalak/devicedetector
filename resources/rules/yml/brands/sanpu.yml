@@ -1,0 +1,13 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: LM288
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Sanpu
+        brand_model: LM288
+        design_weight: 100
+        display_type: TFT

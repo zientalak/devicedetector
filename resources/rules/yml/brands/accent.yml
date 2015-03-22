@@ -1,0 +1,30 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Eagle7 3G'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Accent
+        brand_model: 'Eagle7 3G'
+        design_weight: 252
+        display_size: '7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Touareg8 3G'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 768
+        display_height: 1024
+        brand_vendor: Accent
+        brand_model: 'Touareg8 3G'
+        design_weight: 430
+        display_size: '8'
+        display_type: IPS

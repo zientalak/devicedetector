@@ -1,0 +1,15 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: '9009'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: CY
+        brand_model: '9009'
+        design_weight: 490
+        display_size: '9'
+        display_type: IPS

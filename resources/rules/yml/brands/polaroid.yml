@@ -1,0 +1,732 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: PMID71C
+        -
+            strategy: string
+            value: 'Polaroid 7" Neon'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Polaroid
+        brand_model: PMID71C
+        brand_marketing_name: 'Polaroid 7" Neon'
+        brand_names: 'Polaroid 7" Neon'
+        design_weight: 280
+        display_size: '7'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: PMID701I
+        -
+            strategy: string
+            value: 'Polaroid 701i'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Polaroid
+        brand_model: PMID701I
+        brand_marketing_name: 'Polaroid 701i'
+        brand_names: 'Polaroid 701i'
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: MIDC409
+        -
+            strategy: string
+            value: 'Polaroid Diamond III'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Polaroid
+        brand_model: MIDC409
+        brand_marketing_name: 'Polaroid Diamond III'
+        brand_names: 'Polaroid Diamond III'
+        design_weight: 650
+        display_size: '9'
+-
+    patterns:
+        -
+            strategy: string
+            value: MID0880
+        -
+            strategy: string
+            value: 'Polaroid Executive Clavier 8'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 768
+        display_height: 1024
+        brand_vendor: Polaroid
+        brand_model: MID0880
+        brand_marketing_name: 'Polaroid Executive Clavier 8'
+        brand_names: 'Polaroid Executive Clavier 8'
+        display_size: '8'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: PMID703GK
+        -
+            strategy: string
+            value: 'Polaroid Jet 703 PMID703GK'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Polaroid
+        brand_model: PMID703GK
+        brand_marketing_name: 'Polaroid Jet 703 PMID703GK'
+        brand_names: 'Polaroid Jet 703 PMID703GK'
+        design_weight: 300
+        display_size: '7'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: MID0704
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Polaroid
+        brand_model: MID0704
+        display_size: '7'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: MID0714
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Polaroid
+        brand_model: MID0714
+        design_weight: 630
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MID0734
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Polaroid
+        brand_model: MID0734
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MID0738
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Polaroid
+        brand_model: MID0738
+        design_weight: 300
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MID0748MP01
+        -
+            strategy: string
+            value: 'Polaroid Platinum 7.85'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 768
+        display_height: 1024
+        brand_vendor: Polaroid
+        brand_model: MID0748MP01
+        brand_marketing_name: 'Polaroid Platinum 7.85'
+        brand_names: 'Polaroid Platinum 7.85'
+        design_weight: 350
+        display_size: '7.85'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: MID0834
+        -
+            strategy: string
+            value: 'POLAROID Tablet 8" 4GB 3G'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 800
+        brand_vendor: Polaroid
+        brand_model: MID0834
+        brand_marketing_name: 'POLAROID Tablet 8" 4GB 3G'
+        brand_names: 'POLAROID Tablet 8" 4GB 3G'
+        design_weight: 405
+        display_size: '8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MID1028
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Polaroid
+        brand_model: MID1028
+        display_size: '10.1'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MIDC010
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 769
+        brand_vendor: Polaroid
+        brand_model: MIDC010
+        display_size: '9.7'
+-
+    patterns:
+        -
+            strategy: string
+            value: MIDC010PR001
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Polaroid
+        brand_model: MIDC010PR001
+        display_size: '9.7'
+-
+    patterns:
+        -
+            strategy: string
+            value: MIDC407
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Polaroid
+        brand_model: MIDC407
+        design_weight: 610
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MIDC410
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Polaroid
+        brand_model: MIDC410
+        design_weight: 720
+        display_size: '10.1'
+-
+    patterns:
+        -
+            strategy: string
+            value: MIDC497
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 768
+        display_height: 1024
+        brand_vendor: Polaroid
+        brand_model: MIDC497
+        display_size: '9.7'
+-
+    patterns:
+        -
+            strategy: string
+            value: MIDC700
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Polaroid
+        brand_model: MIDC700
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: MIDC800pr001
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Polaroid
+        brand_model: MIDC800pr001
+        display_size: '8'
+-
+    patterns:
+        -
+            strategy: string
+            value: MIDC801
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 600
+        brand_vendor: Polaroid
+        brand_model: MIDC801
+        display_size: '8'
+-
+    patterns:
+        -
+            strategy: string
+            value: MIDC802
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        brand_vendor: Polaroid
+        brand_model: MIDC802
+-
+    patterns:
+        -
+            strategy: string
+            value: MIDC901
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 400
+        display_height: 800
+        brand_vendor: Polaroid
+        brand_model: MIDC901
+        display_size: '9'
+-
+    patterns:
+        -
+            strategy: string
+            value: MIDCD97
+        -
+            strategy: string
+            value: 'POLAROID Executive 9.7'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 768
+        display_height: 1024
+        brand_vendor: Polaroid
+        brand_model: MIDCD97
+        brand_marketing_name: 'POLAROID Executive 9.7'
+        brand_names: 'POLAROID Executive 9.7'
+        display_size: '9.7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: PMID1000
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Polaroid
+        brand_model: PMID1000
+        display_size: '10.1'
+-
+    patterns:
+        -
+            strategy: string
+            value: PMID4311
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        brand_vendor: Polaroid
+        brand_model: PMID4311
+        display_size: '4.3'
+-
+    patterns:
+        -
+            strategy: string
+            value: PMID4312
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 272
+        display_height: 480
+        brand_vendor: Polaroid
+        brand_model: PMID4312
+        display_size: '4.3'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: PMID700
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        brand_vendor: Polaroid
+        brand_model: PMID700
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: PMID701C
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Polaroid
+        brand_model: PMID701C
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: PMID701DC
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 800
+        brand_vendor: Polaroid
+        brand_model: PMID701DC
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: PMID705
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Polaroid
+        brand_model: PMID705
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: PMID706
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Polaroid
+        brand_model: PMID706
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: PMID70DC
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Polaroid
+        brand_model: PMID70DC
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: PMID70c
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Polaroid
+        brand_model: PMID70c
+        design_weight: 280
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: PMID720
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Polaroid
+        brand_model: PMID720
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: PMID80C
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 600
+        brand_vendor: Polaroid
+        brand_model: PMID80C
+        display_size: '8'
+-
+    patterns:
+        -
+            strategy: string
+            value: PMID901
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Polaroid
+        brand_model: PMID901
+        display_size: '9'
+-
+    patterns:
+        -
+            strategy: string
+            value: PMID920
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Polaroid
+        brand_model: PMID920
+        display_size: '9'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: PMID921X
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Polaroid
+        brand_model: PMID921X
+        display_size: '9'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'PRO A680'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Polaroid
+        brand_model: 'PRO A680'
+        display_size: '3.5'
+        display_type: WVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: PROF700
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Polaroid
+        brand_model: PROF700
+        display_size: '5'
+-
+    patterns:
+        -
+            strategy: string
+            value: PROG95B
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Polaroid
+        brand_model: PROG95B
+        design_weight: 211
+        display_size: '5.3'
+        display_type: 'WVGA TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: PTAB1050
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Polaroid
+        brand_model: PTAB1050
+        display_size: '10.1'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: PTAB4300
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        brand_vendor: Polaroid
+        brand_model: PTAB4300
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: PTAB7200
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        brand_vendor: Polaroid
+        brand_model: PTAB7200
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: PTAB750
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Polaroid
+        brand_model: PTAB750
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Pro 405'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Polaroid
+        brand_model: 'Pro 405'
+        display_size: '4.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Pro 4611'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Polaroid
+        brand_model: 'Pro 4611'
+        design_weight: 150
+        display_size: '4.7'
+        display_type: FWVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Pro 97135'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Polaroid
+        brand_model: 'Pro 97135'
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Prog40c
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Polaroid
+        brand_model: Prog40c
+        design_weight: 110
+        display_size: '4'
+        display_type: HVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: S8
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Polaroid
+        brand_model: S8
+        display_size: '8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: prog400
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Polaroid
+        brand_model: prog400
+        display_size: '4'
+        display_type: HVGA

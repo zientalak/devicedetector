@@ -1,0 +1,15 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: P706
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: IMOS
+        brand_model: P706
+        design_weight: 490
+        display_size: '7'
+        display_type: TFT

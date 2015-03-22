@@ -1,0 +1,15 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: Chagall
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1280
+        display_height: 800
+        brand_vendor: Pegatron
+        brand_model: Chagall
+        design_weight: 560
+        display_size: '10.1'
+        display_type: TFT

@@ -1,0 +1,12 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: K3000
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Kisen
+        brand_model: K3000
+        display_type: TFT

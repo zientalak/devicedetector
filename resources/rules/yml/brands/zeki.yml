@@ -1,0 +1,147 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: TB1082b
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        brand_vendor: Zeki
+        brand_model: TB1082b
+        design_weight: 700
+        display_size: '10.1'
+-
+    patterns:
+        -
+            strategy: string
+            value: TB782b
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Zeki
+        brand_model: TB782b
+        display_size: '7'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: TBD1083B
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Zeki
+        brand_model: TBD1083B
+        display_size: '10.1'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: TBD753B
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Zeki
+        brand_model: TBD753B
+        design_weight: 331
+        display_size: '7'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: TBDB763B
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Zeki
+        brand_model: TBDB763B
+        design_weight: 340
+        display_size: '7'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: TBDB863
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 800
+        brand_vendor: Zeki
+        brand_model: TBDB863
+        design_weight: 240
+        display_size: '8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: TBDC1093
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Zeki
+        brand_model: TBDC1093
+        design_weight: 549
+        display_size: '10.1'
+-
+    patterns:
+        -
+            strategy: string
+            value: TBDG1073
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 768
+        display_height: 1024
+        brand_vendor: Zeki
+        brand_model: TBDG1073
+        display_size: '10.1'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: TBDG874
+        -
+            strategy: string
+            value: 'Zeki TBDG874B'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 768
+        display_height: 1024
+        brand_vendor: Zeki
+        brand_model: TBDG874
+        brand_marketing_name: 'Zeki TBDG874B'
+        brand_names: 'Zeki TBDG874B'
+        design_weight: 391
+        display_size: '8'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: TBQG884
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 768
+        display_height: 1024
+        brand_vendor: Zeki
+        brand_model: TBQG884
+        display_size: '8'
+        display_type: TFT

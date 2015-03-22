@@ -1,0 +1,15 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: Fusion
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: MTech
+        brand_model: Fusion
+        design_weight: 500
+        display_size: '5'
+        display_type: 'QHD IPS'

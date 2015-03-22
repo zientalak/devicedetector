@@ -1,0 +1,13 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: BC831
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Beko
+        brand_model: BC831
+        design_weight: 72
+        display_type: TFT

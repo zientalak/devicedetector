@@ -1,0 +1,188 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: W12
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 600
+        brand_vendor: Ramos
+        brand_model: W12
+        design_weight: 450
+        display_size: '8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'W13 PRO'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Ramos
+        brand_model: 'W13 PRO'
+        design_weight: 480
+        display_size: '8'
+-
+    patterns:
+        -
+            strategy: string
+            value: W15
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 768
+        display_height: 1280
+        brand_vendor: Ramos
+        brand_model: W15
+        display_size: '8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: W16
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 768
+        display_height: 1024
+        brand_vendor: Ramos
+        brand_model: W16
+        display_size: '8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'W17 PRO'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Ramos
+        brand_model: 'W17 PRO'
+        design_weight: 290
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'W19 V2.0'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Ramos
+        brand_model: 'W19 V2.0'
+        design_weight: 350
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: W21
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1280
+        display_height: 800
+        brand_vendor: Ramos
+        brand_model: W21
+        design_weight: 270
+        display_size: '7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: W22
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Ramos
+        brand_model: W22
+        design_weight: 574
+        display_size: '9.7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: W27
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Ramos
+        brand_model: W27
+        design_weight: 426
+        display_size: '10.1'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'W30 Quad Core'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 1280
+        brand_vendor: Ramos
+        brand_model: 'W30 Quad Core'
+        design_weight: 520
+        display_size: '10.1'
+        display_type: 'HD IPS'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'W30HD Quad Core'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1200
+        display_height: 1920
+        brand_vendor: Ramos
+        brand_model: 'W30HD Quad Core'
+        display_size: '10.1'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: W3HD
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Ramos
+        brand_model: W3HD
+        design_weight: 340
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: W9
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Ramos
+        brand_model: W9
+        display_size: '7'
+        display_type: LCD

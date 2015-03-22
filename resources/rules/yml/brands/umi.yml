@@ -1,0 +1,29 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: X1S
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: UMI
+        brand_model: X1S
+        design_weight: 131
+        display_size: '4.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'C1 Plus'
+    capabilities:
+        is_mobile: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: UMi
+        brand_model: 'C1 Plus'
+        design_weight: 160
+        display_size: '5.5'
+        display_type: IPS

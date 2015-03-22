@@ -1,0 +1,50 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'PURPLE A700'
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Enteos
+        brand_model: 'PURPLE A700'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'i-GO 600'
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Enteos
+        brand_model: 'i-GO 600'
+        design_weight: 92
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'i-GO 610'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Enteos
+        brand_model: 'i-GO 610'
+        design_weight: 92
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'i-GO 620'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Enteos
+        brand_model: 'i-GO 620'
+        design_weight: 81
+        display_type: TFT

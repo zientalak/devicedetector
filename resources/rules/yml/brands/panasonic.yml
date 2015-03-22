@@ -1,0 +1,981 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: P-04D
+        -
+            strategy: string
+            value: 'Next P-04D'
+    capabilities:
+        is_mobile: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Panasonic
+        brand_model: P-04D
+        brand_marketing_name: 'Next P-04D'
+        brand_names: 'Next P-04D'
+        design_weight: 103
+        display_size: '4.3'
+        display_type: AMOLED
+-
+    patterns:
+        -
+            strategy: string
+            value: 003P
+        -
+            strategy: string
+            value: 'Panasonic Sweety'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Panasonic
+        brand_model: 003P
+        brand_marketing_name: 'Panasonic Sweety'
+        brand_names: 'Panasonic Sweety'
+        design_weight: 139
+        display_size: '4.3'
+-
+    patterns:
+        -
+            strategy: string
+            value: 101P
+        -
+            strategy: string
+            value: 'LUMIX Phone'
+    capabilities:
+        is_mobile: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Panasonic
+        brand_model: 101P
+        brand_marketing_name: 'LUMIX Phone'
+        brand_names: 'LUMIX Phone'
+        design_weight: 128
+        display_size: '4'
+-
+    patterns:
+        -
+            strategy: string
+            value: 831P
+        -
+            strategy: string
+            value: 'SoftBank 831P'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 427
+        brand_vendor: Panasonic
+        brand_model: 831P
+        brand_marketing_name: 'SoftBank 831P'
+        brand_names: 'SoftBank 831P'
+        design_weight: 115
+        display_size: '3'
+        display_type: OLED
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Allure TX310'
+    capabilities:
+        is_mobile: true
+        brand_vendor: Panasonic
+        brand_model: 'Allure TX310'
+        design_weight: 77
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: Bizpad
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Panasonic
+        brand_model: Bizpad
+        design_weight: 400
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: DL1
+        -
+            strategy: string
+            value: 'Panasonic Eluga DL1'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Panasonic
+        brand_model: DL1
+        brand_marketing_name: 'Panasonic Eluga DL1'
+        brand_names: 'Panasonic Eluga DL1'
+        design_weight: 103
+        display_size: '4.3'
+        display_type: AMOLED
+-
+    patterns:
+        -
+            strategy: string
+            value: 'ELUGA dl1'
+    capabilities:
+        is_mobile: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Panasonic
+        brand_model: 'ELUGA dl1'
+        design_weight: 103
+        display_size: '4.3'
+        display_type: AMOLED
+-
+    patterns:
+        -
+            strategy: string
+            value: P-07D
+        -
+            strategy: string
+            value: 'Panasonic ELUGA power P-07D'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Panasonic
+        brand_model: P-07D
+        brand_marketing_name: 'Panasonic ELUGA power P-07D'
+        brand_names: 'Panasonic ELUGA power P-07D'
+        design_weight: 133
+        display_size: '5'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: Eluga
+    capabilities:
+        is_mobile: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Panasonic
+        brand_model: Eluga
+        design_weight: 103
+        display_size: '4.3'
+        display_type: OLED
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Eluga A'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Panasonic
+        brand_model: 'Eluga A'
+        design_weight: 120
+        display_size: '5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Eluga Power'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Panasonic
+        brand_model: 'Eluga Power'
+        design_weight: 133
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Eluga U'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 360
+        display_height: 640
+        brand_vendor: Panasonic
+        brand_model: 'Eluga U'
+        design_weight: 141
+        display_size: '5'
+        display_type: 'IPS TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Eluga V'
+        -
+            strategy: string
+            value: 'Panasonic P-06D'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Panasonic
+        brand_model: 'Eluga V'
+        brand_marketing_name: 'Panasonic P-06D'
+        brand_names: 'Panasonic P-06D'
+        design_weight: 127
+        display_size: '4.6'
+-
+    patterns:
+        -
+            strategy: string
+            value: P-02E
+        -
+            strategy: string
+            value: 'Panasonic Eluga X'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1920
+        display_height: 1080
+        brand_vendor: Panasonic
+        brand_model: P-02E
+        brand_marketing_name: 'Panasonic Eluga X'
+        brand_names: 'Panasonic Eluga X'
+        design_weight: 152
+        display_size: '5'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: G50
+        -
+            strategy: string
+            value: 'Panasonic G51, Panasonic G51E, Panasonic G51M'
+        -
+            strategy: string
+            value: 'Panasonic G51'
+    capabilities:
+        is_mobile: true
+        display_width: 125
+        display_height: 96
+        brand_vendor: Panasonic
+        brand_model: G50
+        brand_marketing_name: 'Panasonic G51'
+        brand_names: 'Panasonic G51, Panasonic G51E, Panasonic G51M'
+        design_weight: 74
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: G60
+        -
+            strategy: string
+            value: 'Panasonic G60U'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Panasonic
+        brand_model: G60
+        brand_marketing_name: 'Panasonic G60U'
+        brand_names: 'Panasonic G60U'
+        design_weight: 87
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: G70
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 96
+        brand_vendor: Panasonic
+        brand_model: G70
+        design_weight: 88
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: GD35
+    capabilities:
+        is_mobile: true
+        display_width: 96
+        display_height: 48
+        brand_vendor: Panasonic
+        brand_model: GD35
+        design_weight: 109
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: GD55
+    capabilities:
+        is_mobile: true
+        display_width: 112
+        display_height: 64
+        brand_vendor: Panasonic
+        brand_model: GD55
+        design_weight: 65
+-
+    patterns:
+        -
+            strategy: string
+            value: GD67
+    capabilities:
+        is_mobile: true
+        display_width: 101
+        display_height: 80
+        brand_vendor: Panasonic
+        brand_model: GD67
+        design_weight: 81
+        display_type: STN
+-
+    patterns:
+        -
+            strategy: string
+            value: GD75
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Panasonic
+        brand_model: GD75
+        design_weight: 82
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: GD76
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Panasonic
+        brand_model: GD76
+        design_weight: 82
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: GD87
+    capabilities:
+        is_mobile: true
+        display_width: 132
+        display_height: 176
+        brand_vendor: Panasonic
+        brand_model: GD87
+        design_weight: 103
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'GD87 USA'
+    capabilities:
+        is_mobile: true
+        display_width: 132
+        display_height: 176
+        brand_vendor: Panasonic
+        brand_model: 'GD87 USA'
+        design_weight: 103
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: GD95
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Panasonic
+        brand_model: GD95
+        design_weight: 85
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: GD96
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Panasonic
+        brand_model: GD96
+        design_weight: 85
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Lumix 102P'
+        -
+            strategy: string
+            value: 'Panasonic Lumix Phone 102P'
+    capabilities:
+        is_mobile: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Panasonic
+        brand_model: 'Lumix 102P'
+        brand_marketing_name: 'Panasonic Lumix Phone 102P'
+        brand_names: 'Panasonic Lumix Phone 102P'
+        design_weight: 103
+        display_size: '4.3'
+-
+    patterns:
+        -
+            strategy: string
+            value: MX6
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 240
+        brand_vendor: Panasonic
+        brand_model: MX6
+        design_weight: 130
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: MX7
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Panasonic
+        brand_model: MX7
+        design_weight: 144
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P-01D
+        -
+            strategy: string
+            value: 'Panasonic My Fit'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Panasonic
+        brand_model: P-01D
+        brand_marketing_name: 'Panasonic My Fit'
+        brand_names: 'Panasonic My Fit'
+        display_size: '3.2'
+-
+    patterns:
+        -
+            strategy: string
+            value: P-02D
+    capabilities:
+        is_mobile: true
+        display_width: 640
+        display_height: 960
+        brand_vendor: Panasonic
+        brand_model: P-02D
+        design_weight: 128
+        display_size: '4'
+-
+    patterns:
+        -
+            strategy: string
+            value: P-03E
+        -
+            strategy: string
+            value: 'Panasonic Eluga Power, DoCoMo Eluga Power P-03E'
+        -
+            strategy: string
+            value: 'Panasonic Eluga Power'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Panasonic
+        brand_model: P-03E
+        brand_marketing_name: 'Panasonic Eluga Power'
+        brand_names: 'Panasonic Eluga Power, DoCoMo Eluga Power P-03E'
+        design_weight: 145
+        display_size: '4.7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P11
+    capabilities:
+        is_mobile: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Panasonic
+        brand_model: P11
+        design_weight: 160
+        display_size: '5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: P41
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Panasonic
+        brand_model: P41
+        design_weight: 133
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: P55
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Panasonic
+        brand_model: P55
+        design_weight: 148
+        display_size: '5.5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: P61
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Panasonic
+        brand_model: P61
+        design_weight: 174
+        display_size: '6'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: P81
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Panasonic
+        brand_model: P81
+        display_size: '5.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: SA6
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Panasonic
+        brand_model: SA6
+        design_weight: 127
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: SA7
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Panasonic
+        brand_model: SA7
+        design_weight: 140
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: SC3
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Panasonic
+        brand_model: SC3
+        design_weight: 76
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: T11
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Panasonic
+        brand_model: T11
+        design_weight: 120
+        display_size: '4'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: T21
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Panasonic
+        brand_model: T21
+        design_weight: 140
+        display_size: '4.5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: T31
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Panasonic
+        brand_model: T31
+        design_weight: 120
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: T40
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Panasonic
+        brand_model: T40
+        design_weight: 117
+        display_size: '4'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: T41
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Panasonic
+        brand_model: T41
+        design_weight: 120
+        display_size: '4.5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Toughbook CF-P1'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Panasonic
+        brand_model: 'Toughbook CF-P1'
+        design_weight: 490
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Toughpad A1'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Panasonic
+        brand_model: 'Toughpad A1'
+        design_weight: 966
+        display_size: '10.1'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Toughpad FZ-A1'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Panasonic
+        brand_model: 'Toughpad FZ-A1'
+        design_weight: 966
+        display_size: '10.1'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: UN-W700
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Panasonic
+        brand_model: UN-W700
+        design_weight: 431
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: VS2
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Panasonic
+        brand_model: VS2
+        design_weight: 98
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: VS3
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Panasonic
+        brand_model: VS3
+        design_weight: 102
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: VS6
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Panasonic
+        brand_model: VS6
+        design_weight: 101
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: VS7
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 240
+        brand_vendor: Panasonic
+        brand_model: VS7
+        design_weight: 113
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Versio TX320'
+    capabilities:
+        is_mobile: true
+        brand_vendor: Panasonic
+        brand_model: 'Versio TX320'
+        design_weight: 88
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: X11
+    capabilities:
+        is_mobile: true
+        display_width: 132
+        display_height: 176
+        brand_vendor: Panasonic
+        brand_model: X11
+        design_weight: 95
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: X200
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Panasonic
+        brand_model: X200
+        design_weight: 79
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: X200P
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Panasonic
+        brand_model: X200P
+        design_weight: 79
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: X300
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Panasonic
+        brand_model: X300
+        design_weight: 87
+        display_size: '1.5'
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: X400P
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Panasonic
+        brand_model: X400P
+        design_weight: 84
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: X66
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Panasonic
+        brand_model: X66
+        design_weight: 82
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: X70
+    capabilities:
+        is_mobile: true
+        display_width: 132
+        display_height: 176
+        brand_vendor: Panasonic
+        brand_model: X70
+        design_weight: 95
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: X77
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 40
+        brand_vendor: Panasonic
+        brand_model: X77
+        design_weight: 86
+        display_type: STN
+-
+    patterns:
+        -
+            strategy: string
+            value: Z800
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Panasonic
+        brand_model: Z800
+        design_weight: 115
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: p341i
+    capabilities:
+        is_mobile: true
+        display_width: 132
+        display_height: 176
+        brand_vendor: Panasonic
+        brand_model: p341i
+        design_weight: 92
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: p342i
+    capabilities:
+        is_mobile: true
+        display_width: 132
+        display_height: 176
+        brand_vendor: Panasonic
+        brand_model: p342i
+        design_weight: 92
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: x68
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Panasonic
+        brand_model: x68
+        design_weight: 86
+        display_type: STN

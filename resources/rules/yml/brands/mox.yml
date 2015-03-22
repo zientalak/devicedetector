@@ -1,0 +1,14 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: TAB7002
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Mox
+        brand_model: TAB7002
+        display_size: '7'
+        display_type: TFT

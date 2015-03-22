@@ -1,0 +1,19 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: Q100
+        -
+            strategy: string
+            value: 'Grameen X990'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Grameen
+        brand_model: Q100
+        brand_marketing_name: 'Grameen X990'
+        brand_names: 'Grameen X990'
+        design_weight: 95
+        display_size: '2.4'
+        display_type: QVGA

@@ -1,0 +1,41 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: A704H
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Epad
+        brand_model: A704H
+        display_size: '7'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: A704J
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Epad
+        brand_model: A704J
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'HT Pad1051'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Epad
+        brand_model: 'HT Pad1051'
+        design_weight: 690
+        display_size: '9.7'

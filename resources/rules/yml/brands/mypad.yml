@@ -1,0 +1,15 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: MY-103
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Mypad
+        brand_model: MY-103
+        design_weight: 352
+        display_size: '7'
+        display_type: TFT

@@ -1,0 +1,28 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: S302
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: AndroPad
+        brand_model: S302
+        display_size: '3.5'
+        display_type: 'HVGA LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: TA025D-3G
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: AndroPad
+        brand_model: TA025D-3G
+        display_size: '7'
+        display_type: LCD

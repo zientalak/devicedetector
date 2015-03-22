@@ -1,0 +1,11 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Aux V900'
+    capabilities:
+        is_mobile: true
+        brand_vendor: Aux
+        brand_model: 'Aux V900'
+        display_size: '4'
+        display_type: TFT

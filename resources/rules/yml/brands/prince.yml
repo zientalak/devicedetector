@@ -1,0 +1,28 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: i688
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Prince
+        brand_model: i688
+        design_weight: 112
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: i800d
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Prince
+        brand_model: i800d
+        design_weight: 122
+        display_size: '3.5'
+        display_type: TFT

@@ -1,0 +1,55 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: A1
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Callbar
+        brand_model: A1
+        display_size: '3.5'
+        display_type: 'HVGA LCM'
+-
+    patterns:
+        -
+            strategy: string
+            value: A2
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Callbar
+        brand_model: A2
+        display_size: '4'
+        display_type: HVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: A3
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Callbar
+        brand_model: A3
+        design_weight: 81
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: T61
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Callbar
+        brand_model: T61
+        design_weight: 118
+        display_size: '4'
+        display_type: 'TFT LCD'

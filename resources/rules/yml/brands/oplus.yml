@@ -1,0 +1,444 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: '360'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Oplus
+        brand_model: '360'
+        design_weight: 138
+        display_size: '5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: '8.1 Android'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Oplus
+        brand_model: '8.1 Android'
+        display_size: '3.2'
+        display_type: QHD
+-
+    patterns:
+        -
+            strategy: string
+            value: '8.12 Android'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Oplus
+        brand_model: '8.12 Android'
+        display_size: '4.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: '8.15 Android'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Oplus
+        brand_model: '8.15 Android'
+        display_size: '5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: '8.16'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Oplus
+        brand_model: '8.16'
+        display_size: '5.7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: '8.3 Android'
+        -
+            strategy: string
+            value: 'O+ 8.3 Android'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Oplus
+        brand_model: '8.3 Android'
+        brand_marketing_name: 'O+ 8.3 Android'
+        brand_names: 'O+ 8.3 Android'
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: '8.31z Android'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Oplus
+        brand_model: '8.31z Android'
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: '8.33 Android'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Oplus
+        brand_model: '8.33 Android'
+        display_size: '4'
+        display_type: 'WVGA TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: '8.35 Android'
+        -
+            strategy: string
+            value: 'Oplus A200'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Oplus
+        brand_model: '8.35 Android'
+        brand_marketing_name: 'Oplus A200'
+        brand_names: 'Oplus A200'
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: '8.36 Android'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Oplus
+        brand_model: '8.36 Android'
+        display_size: '3.5'
+        display_type: HVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: '8.36z Android'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Oplus
+        brand_model: '8.36z Android'
+        display_size: '3.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: '8.37 android'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Oplus
+        brand_model: '8.37 android'
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: '8.37Z Android'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Oplus
+        brand_model: '8.37Z Android'
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: '8.5 Android'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Oplus
+        brand_model: '8.5 Android'
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: '8.52 Android'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Oplus
+        brand_model: '8.52 Android'
+        display_size: '4'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: '8.6 Android'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Oplus
+        brand_model: '8.6 Android'
+        display_size: '4.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: '8.7 Android'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Oplus
+        brand_model: '8.7 Android'
+        design_weight: 150
+        display_size: '3.2'
+        display_type: QVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: '8.75 Android'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Oplus
+        brand_model: '8.75 Android'
+        display_size: '3.2'
+-
+    patterns:
+        -
+            strategy: string
+            value: '8.9 Android'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Oplus
+        brand_model: '8.9 Android'
+        display_size: '5'
+        display_type: WVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: '8.91 Android'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Oplus
+        brand_model: '8.91 Android'
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: '8.92 Android'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Oplus
+        brand_model: '8.92 Android'
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: '8.93 Android'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Oplus
+        brand_model: '8.93 Android'
+        display_size: '5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: '9.76 Pad'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Oplus
+        brand_model: '9.76 Pad'
+        display_size: '9.7'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: Air
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Oplus
+        brand_model: Air
+        design_weight: 115
+        display_size: '5'
+        display_type: 'HD LUMI'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Fab 3G'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Oplus
+        brand_model: 'Fab 3G'
+        display_size: '7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Fab Color'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Oplus
+        brand_model: 'Fab Color'
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Fab Color 2.0'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Oplus
+        brand_model: 'Fab Color 2.0'
+        design_weight: 280
+        display_size: '7'
+        display_type: 'WSVGA TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Fab Go'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Oplus
+        brand_model: 'Fab Go'
+        design_weight: 200
+        display_size: '6'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Fab Lite'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Oplus
+        brand_model: 'Fab Lite'
+        design_weight: 264
+        display_size: '7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Fab Nova 2.0'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Oplus
+        brand_model: 'Fab Nova 2.0'
+        display_size: '7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Fab Nova 3G'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 1280
+        brand_vendor: Oplus
+        brand_model: 'Fab Nova 3G'
+        display_size: '7'
+        display_type: IPS

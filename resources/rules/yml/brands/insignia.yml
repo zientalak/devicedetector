@@ -1,0 +1,75 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: NS-15AT07
+        -
+            strategy: string
+            value: 'Insignia 7 Flex Tablet'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Insignia
+        brand_model: NS-15AT07
+        brand_marketing_name: 'Insignia 7 Flex Tablet'
+        brand_names: 'Insignia 7 Flex Tablet'
+        design_weight: 453
+        display_size: '7'
+        display_type: LED
+-
+    patterns:
+        -
+            strategy: string
+            value: NS-14T004
+        -
+            strategy: string
+            value: 'Insignia Flex'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1366
+        display_height: 768
+        brand_vendor: Insignia
+        brand_model: NS-14T004
+        brand_marketing_name: 'Insignia Flex'
+        brand_names: 'Insignia Flex'
+        design_weight: 544
+        display_size: '10.1'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: NS-13T001
+        -
+            strategy: string
+            value: 'Insignia Flex Tablet'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 768
+        display_height: 1024
+        brand_vendor: Insignia
+        brand_model: NS-13T001
+        brand_marketing_name: 'Insignia Flex Tablet'
+        brand_names: 'Insignia Flex Tablet'
+        design_weight: 680
+        display_size: '9.7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: NS-14T002
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Insignia
+        brand_model: NS-14T002
+        design_weight: 544
+        display_size: '8'
+        display_type: TFT

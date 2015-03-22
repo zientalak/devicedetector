@@ -1,0 +1,384 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'HM 1S'
+        -
+            strategy: string
+            value: 'Xiaomi Redmi 1S, Xiaomi Hongmi 1S, Xiaomi Hongmi 1S Red Rice'
+        -
+            strategy: string
+            value: 'Xiaomi Redmi 1S'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Xiaomi
+        brand_model: 'HM 1S'
+        brand_marketing_name: 'Xiaomi Redmi 1S'
+        brand_names: 'Xiaomi Redmi 1S, Xiaomi Hongmi 1S, Xiaomi Hongmi 1S Red Rice'
+        design_weight: 158
+        display_size: '4.7'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'HM 1SC'
+        -
+            strategy: string
+            value: 'Xiaomi Hongmi, Xiaomi Redmi 1S'
+        -
+            strategy: string
+            value: 'Xiaomi Hongmi'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Xiaomi
+        brand_model: 'HM 1SC'
+        brand_marketing_name: 'Xiaomi Hongmi'
+        brand_names: 'Xiaomi Hongmi, Xiaomi Redmi 1S'
+        design_weight: 158
+        display_size: '4.7'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'HM 1SW'
+        -
+            strategy: string
+            value: 'Xiaomi RedRice HM 1SW'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Xiaomi
+        brand_model: 'HM 1SW'
+        brand_marketing_name: 'Xiaomi RedRice HM 1SW'
+        brand_names: 'Xiaomi RedRice HM 1SW'
+        design_weight: 158
+        display_size: '4.7'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'HM Note 1LTEW'
+        -
+            strategy: string
+            value: 'Xiaomi Redmi Note 4G'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Xiaomi
+        brand_model: 'HM Note 1LTEW'
+        brand_marketing_name: 'Xiaomi Redmi Note 4G'
+        brand_names: 'Xiaomi Redmi Note 4G'
+        design_weight: 199
+        display_size: '5.5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'HM Note 1W'
+        -
+            strategy: string
+            value: 'Xiaomi RedMi Note'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Xiaomi
+        brand_model: 'HM Note 1W'
+        brand_marketing_name: 'Xiaomi RedMi Note'
+        brand_names: 'Xiaomi RedMi Note'
+        design_weight: 199
+        display_size: '5.5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Hongmi Note 1TD'
+        -
+            strategy: string
+            value: 'Xiaomi Red Rice Note, Xiaomi Redmi Note'
+        -
+            strategy: string
+            value: 'Xiaomi Red Rice Note'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Xiaomi
+        brand_model: 'Hongmi Note 1TD'
+        brand_marketing_name: 'Xiaomi Red Rice Note'
+        brand_names: 'Xiaomi Red Rice Note, Xiaomi Redmi Note'
+        design_weight: 199
+        display_size: '5.5'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'MI 1'
+        -
+            strategy: string
+            value: 'Xiaomi Phone'
+    capabilities:
+        is_mobile: true
+        display_width: 854
+        display_height: 480
+        brand_vendor: Xiaomi
+        brand_model: 'MI 1'
+        brand_marketing_name: 'Xiaomi Phone'
+        brand_names: 'Xiaomi Phone'
+        design_weight: 149
+        display_size: '4'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'MI 1 C1'
+    capabilities:
+        is_mobile: true
+        display_width: 854
+        display_height: 480
+        brand_vendor: Xiaomi
+        brand_model: 'MI 1 C1'
+        design_weight: 105
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'MI 1 SC'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Xiaomi
+        brand_model: 'MI 1 SC'
+        design_weight: 149
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'MI 1s'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Xiaomi
+        brand_model: 'MI 1s'
+        design_weight: 149
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'MI 2'
+        -
+            strategy: string
+            value: 'Xiaomi Mi-Two, Xiaomi Phone 2'
+        -
+            strategy: string
+            value: 'Xiaomi Mi-Two'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Xiaomi
+        brand_model: 'MI 2'
+        brand_marketing_name: 'Xiaomi Mi-Two'
+        brand_names: 'Xiaomi Mi-Two, Xiaomi Phone 2'
+        design_weight: 145
+        display_size: '4.3'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'MI 2A'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Xiaomi
+        brand_model: 'MI 2A'
+        design_weight: 133
+        display_size: '4.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'MI 2SC'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Xiaomi
+        brand_model: 'MI 2SC'
+        design_weight: 145
+        display_size: '4.3'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'MI 2c'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Xiaomi
+        brand_model: 'MI 2c'
+        design_weight: 105
+        display_size: '4.3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'MI 2s'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Xiaomi
+        brand_model: 'MI 2s'
+        design_weight: 145
+        display_size: '4.3'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'MI 3'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Xiaomi
+        brand_model: 'MI 3'
+        design_weight: 145
+        display_size: '5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'MI 3C'
+        -
+            strategy: string
+            value: 'Xiaomi MI3 CDMA'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Xiaomi
+        brand_model: 'MI 3C'
+        brand_marketing_name: 'Xiaomi MI3 CDMA'
+        brand_names: 'Xiaomi MI3 CDMA'
+        design_weight: 145
+        display_size: '5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'MI 3W'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Xiaomi
+        brand_model: 'MI 3W'
+        design_weight: 145
+        display_size: '5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'MI 4W'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Xiaomi
+        brand_model: 'MI 4W'
+        design_weight: 149
+        display_size: '5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'MI-4 LTE'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Xiaomi
+        brand_model: 'MI-4 LTE'
+        design_weight: 149
+        display_size: '5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Mi Pad'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1536
+        display_height: 2048
+        brand_vendor: Xiaomi
+        brand_model: 'Mi Pad'
+        design_weight: 360
+        display_size: '7.9'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Mi-One Plus'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Xiaomi
+        brand_model: 'Mi-One Plus'
+        design_weight: 149
+        display_size: '4'
+        display_type: TFT

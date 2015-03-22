@@ -1,0 +1,14 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: P9500
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Santin
+        brand_model: P9500
+        display_size: '5.2'
+        display_type: IPS

@@ -1,0 +1,646 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 8X-1000
+        -
+            strategy: string
+            value: 'Xolo Play 8X-1000'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Xolo
+        brand_model: 8X-1000
+        brand_marketing_name: 'Xolo Play 8X-1000'
+        brand_names: 'Xolo Play 8X-1000'
+        design_weight: 138
+        display_size: '5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: A1000S
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Xolo
+        brand_model: A1000S
+        design_weight: 129
+        display_size: '5'
+        display_type: 'FWVGA IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'A500 Club'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Xolo
+        brand_model: 'A500 Club'
+        design_weight: 120
+        display_size: '4'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: A500L
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Xolo
+        brand_model: A500L
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'A500s Lite'
+        -
+            strategy: string
+            value: 'Lava Xolo A500s Lite'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Xolo
+        brand_model: 'A500s Lite'
+        brand_marketing_name: 'Lava Xolo A500s Lite'
+        brand_names: 'Lava Xolo A500s Lite'
+        design_weight: 120
+        display_size: '4'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: A500s
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Xolo
+        brand_model: A500s
+        design_weight: 120
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'A500s IPS'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Xolo
+        brand_model: 'A500s IPS'
+        design_weight: 120
+        display_size: '4'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'A550S IPS'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Xolo
+        brand_model: 'A550S IPS'
+        design_weight: 125
+        display_size: '4'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: B700
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Xolo
+        brand_model: B700
+        design_weight: 160
+        display_size: '4.3'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: LT900
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Xolo
+        brand_model: LT900
+        design_weight: 140
+        display_size: '4.3'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: Q2000L
+        -
+            strategy: string
+            value: 'Lava Xolo Q2000L'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Xolo
+        brand_model: Q2000L
+        brand_marketing_name: 'Lava Xolo Q2000L'
+        brand_names: 'Lava Xolo Q2000L'
+        design_weight: 125
+        display_size: '5.5'
+        display_type: 'qHD IPS LCD,'
+-
+    patterns:
+        -
+            strategy: string
+            value: Q510s
+        -
+            strategy: string
+            value: 'Lava Xolo Q510s'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Xolo
+        brand_model: Q510s
+        brand_marketing_name: 'Lava Xolo Q510s'
+        brand_names: 'Lava Xolo Q510s'
+        design_weight: 131
+        display_size: '4'
+        display_type: 'IPS TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Play 6X-1000'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Xolo
+        brand_model: 'Play 6X-1000'
+        design_weight: 135
+        display_size: '5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Play 8X-1100'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Xolo
+        brand_model: 'Play 8X-1100'
+        design_weight: 138
+        display_size: '5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Play 8X-1200'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 1080
+        display_height: 1920
+        brand_vendor: Xolo
+        brand_model: 'Play 8X-1200'
+        design_weight: 135
+        display_size: '5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Play Tab 7.0'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1280
+        display_height: 800
+        brand_vendor: Xolo
+        brand_model: 'Play Tab 7.0'
+        design_weight: 338
+        display_size: '7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: Q2500
+        -
+            strategy: string
+            value: 'Xolo Pocket Pad Q2500'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Xolo
+        brand_model: Q2500
+        brand_marketing_name: 'Xolo Pocket Pad Q2500'
+        brand_names: 'Xolo Pocket Pad Q2500'
+        design_weight: 135
+        display_size: '6'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: Q1000
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Xolo
+        brand_model: Q1000
+        design_weight: 171
+        display_size: '5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Q1000 Opus'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Xolo
+        brand_model: 'Q1000 Opus'
+        display_size: '5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Q1000 Opus2'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Xolo
+        brand_model: 'Q1000 Opus2'
+        design_weight: 125
+        display_size: '5'
+        display_type: 'QHD IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: Q1000S
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Xolo
+        brand_model: Q1000S
+        design_weight: 158
+        display_size: '5'
+        display_type: 'HD IPS'
+-
+    patterns:
+        -
+            strategy: string
+            value: Q1010
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Xolo
+        brand_model: Q1010
+        design_weight: 139
+        display_size: '5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: Q1010i
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Xolo
+        brand_model: Q1010i
+        design_weight: 139
+        display_size: '5'
+        display_type: 'HD-IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: Q1011
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Xolo
+        brand_model: Q1011
+        design_weight: 132
+        display_size: '5'
+        display_type: 'HD IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: Q1100
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Xolo
+        brand_model: Q1100
+        display_size: '5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: Q1200
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Xolo
+        brand_model: Q1200
+        design_weight: 122
+        display_size: '5'
+        display_type: 'HD IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: Q2000
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Xolo
+        brand_model: Q2000
+        design_weight: 180
+        display_size: '5.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: Q500
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Xolo
+        brand_model: Q500
+        design_weight: 116
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Q500S IPS'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Xolo
+        brand_model: 'Q500S IPS'
+        design_weight: 125
+        display_size: '4'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: Q600
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Xolo
+        brand_model: Q600
+        design_weight: 147
+        display_size: '4.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Q600S
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Xolo
+        brand_model: Q600S
+        design_weight: 115
+        display_size: '4.5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: Q610S
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Xolo
+        brand_model: Q610S
+        design_weight: 129
+        display_size: '4.5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: Q700
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Xolo
+        brand_model: Q700
+        design_weight: 151
+        display_size: '4.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Q700S Plus'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Xolo
+        brand_model: 'Q700S Plus'
+        design_weight: 129
+        display_size: '4.5'
+        display_type: 'TFT IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: Q700i
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Xolo
+        brand_model: Q700i
+        design_weight: 151
+        display_size: '4.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: Q700s
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Xolo
+        brand_model: Q700s
+        display_size: '4.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: Q800
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Xolo
+        brand_model: Q800
+        design_weight: 143
+        display_size: '4.5'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: Q800x
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Xolo
+        brand_model: Q800x
+        design_weight: 143
+        display_size: '4.5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: Q900
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Xolo
+        brand_model: Q900
+        design_weight: 138
+        display_size: '4.7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Q900S
+        -
+            strategy: string
+            value: 'XOLO Win Q900S'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Xolo
+        brand_model: Q900S
+        brand_marketing_name: 'XOLO Win Q900S'
+        brand_names: 'XOLO Win Q900S'
+        design_weight: 100
+        display_size: '4.7'
+        display_type: 'qHD IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: QC800
+        -
+            strategy: string
+            value: 'Xolo Tab'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Xolo
+        brand_model: QC800
+        brand_marketing_name: 'Xolo Tab'
+        brand_names: 'Xolo Tab'
+        design_weight: 480
+        display_size: '8'
+        display_type: IPS

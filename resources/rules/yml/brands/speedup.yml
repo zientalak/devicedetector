@@ -1,0 +1,96 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: TA-7831
+        -
+            strategy: string
+            value: 'SpeedUp Pad 7.85 TA-7831'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 768
+        display_height: 1024
+        brand_vendor: SpeedUp
+        brand_model: TA-7831
+        brand_marketing_name: 'SpeedUp Pad 7.85 TA-7831'
+        brand_names: 'SpeedUp Pad 7.85 TA-7831'
+        design_weight: 365
+        display_size: '7.85'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Pad Pro S3'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        brand_vendor: SpeedUp
+        brand_model: 'Pad Pro S3'
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: TA-734
+        -
+            strategy: string
+            value: 'SpeedUp Pad7 TA-734'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: SpeedUp
+        brand_model: TA-734
+        brand_marketing_name: 'SpeedUp Pad7 TA-734'
+        brand_names: 'SpeedUp Pad7 TA-734'
+        design_weight: 335
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'SpeedUp Pad S1'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: SpeedUp
+        brand_model: 'SpeedUp Pad S1'
+        design_weight: 400
+        display_size: '7'
+        display_type: 'Super AMOLED'
+-
+    patterns:
+        -
+            strategy: string
+            value: TA-735
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: SpeedUp
+        brand_model: TA-735
+        design_weight: 290
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: TB-721
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: SpeedUp
+        brand_model: TB-721
+        design_weight: 307
+        display_size: '7'
+        display_type: TFT

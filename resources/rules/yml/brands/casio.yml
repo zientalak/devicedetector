@@ -1,0 +1,165 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: C771
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Casio
+        brand_model: C771
+        design_weight: 153
+        display_size: '3.6'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: C781
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Casio
+        brand_model: C781
+        design_weight: 137
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'C811 4G'
+        -
+            strategy: string
+            value: 'Casio GZ1 Commando 4G LTE'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Casio
+        brand_model: 'C811 4G'
+        brand_marketing_name: 'Casio GZ1 Commando 4G LTE'
+        brand_names: 'Casio GZ1 Commando 4G LTE'
+        design_weight: 153
+        display_size: '3.6'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: CA-201L
+        -
+            strategy: string
+            value: 'Casio G''Zone CA-201L'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Casio
+        brand_model: CA-201L
+        brand_marketing_name: 'Casio G''Zone CA-201L'
+        brand_names: 'Casio G''Zone CA-201L'
+        design_weight: 174
+        display_size: '4'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: CAL21
+        -
+            strategy: string
+            value: 'Casio G''zOne Type-L CAL21'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Casio
+        brand_model: CAL21
+        brand_marketing_name: 'Casio G''zOne Type-L CAL21'
+        brand_names: 'Casio G''zOne Type-L CAL21'
+        design_weight: 181
+        display_size: '4'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: DT-X8
+        -
+            strategy: string
+            value: 'Casio DT-X8-10E, Casio DT-X8-11E, Casio DT-X8-20E, Casio DT-X8-21E, Casio DT-X8-40E, Casio DT-X8-41E'
+        -
+            strategy: string
+            value: 'Casio DT-X8-10E'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Casio
+        brand_model: DT-X8
+        brand_marketing_name: 'Casio DT-X8-10E'
+        brand_names: 'Casio DT-X8-10E, Casio DT-X8-11E, Casio DT-X8-20E, Casio DT-X8-21E, Casio DT-X8-40E, Casio DT-X8-41E'
+        display_size: '2.7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: GzOne
+        -
+            strategy: string
+            value: 'Casio Type-L CAL21'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Casio
+        brand_model: GzOne
+        brand_marketing_name: 'Casio Type-L CAL21'
+        brand_names: 'Casio Type-L CAL21'
+        design_weight: 181
+        display_size: '4'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Gzone Commando'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Casio
+        brand_model: 'Gzone Commando'
+        design_weight: 153
+        display_size: '3.6'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: IT-800
+        -
+            strategy: string
+            value: 'Casio IT-800R-05, Casio IT-800RGC-05, Casio IT-800R-15, Casio IT-800RC-15, Casio IT-800RGC-15'
+        -
+            strategy: string
+            value: 'Casio IT-800R-05'
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 640
+        brand_vendor: Casio
+        brand_model: IT-800
+        brand_marketing_name: 'Casio IT-800R-05'
+        brand_names: 'Casio IT-800R-05, Casio IT-800RGC-05, Casio IT-800R-15, Casio IT-800RC-15, Casio IT-800RGC-15'
+        design_weight: 350
+        display_size: '3.7'
+        display_type: TFT

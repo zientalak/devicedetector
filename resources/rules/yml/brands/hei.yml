@@ -1,0 +1,11 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: HGC600E
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Hei
+        brand_model: HGC600E

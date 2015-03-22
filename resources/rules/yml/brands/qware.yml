@@ -1,0 +1,15 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'QW TB-1517'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Qware
+        brand_model: 'QW TB-1517'
+        design_weight: 324
+        display_size: '7'
+        display_type: TFT

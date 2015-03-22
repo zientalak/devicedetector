@@ -1,0 +1,90 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'AT AS43d3'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Wolfgang
+        brand_model: 'AT AS43d3'
+        design_weight: 150
+        display_size: '4.3'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: AT-AS40D
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Wolfgang
+        brand_model: AT-AS40D
+        design_weight: 149
+        display_size: '4'
+        display_type: 'TFT IPS'
+-
+    patterns:
+        -
+            strategy: string
+            value: AT-AS40SE
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Wolfgang
+        brand_model: AT-AS40SE
+        design_weight: 140
+        display_size: '4'
+        display_type: 'WVGA TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: AT-AS43d2
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Wolfgang
+        brand_model: AT-AS43d2
+        design_weight: 150
+        display_size: '4.3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: AT-AS45IPS
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Wolfgang
+        brand_model: AT-AS45IPS
+        design_weight: 160
+        display_size: '4.5'
+        display_type: 'qHD IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: AT-AS53N
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Wolfgang
+        brand_model: AT-AS53N
+        design_weight: 199
+        display_size: '5.3'
+        display_type: 'IPS LCD'

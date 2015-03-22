@@ -1,0 +1,90 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: E1031
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Logicom
+        brand_model: E1031
+        design_weight: 575
+        display_size: '10.1'
+        display_type: WVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: E500
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Logicom
+        brand_model: E500
+        design_weight: 182
+        display_size: '5'
+        display_type: 'Super LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: E731
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Logicom
+        brand_model: E731
+        design_weight: 310
+        display_size: '7'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: Tab1050
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Logicom
+        brand_model: Tab1050
+        design_weight: 594
+        display_size: '10.1'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Tab750
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Logicom
+        brand_model: Tab750
+        design_weight: 300
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Tab950
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Logicom
+        brand_model: Tab950
+        design_weight: 508
+        display_size: '9'
+        display_type: TFT

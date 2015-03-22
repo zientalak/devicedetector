@@ -1,0 +1,13 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Lavorum II'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Ola
+        brand_model: 'Lavorum II'
+        display_size: '3.5'
+        display_type: HVGA

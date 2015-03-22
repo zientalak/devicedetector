@@ -1,0 +1,1360 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: '162'
+    capabilities:
+        is_mobile: true
+        display_width: 101
+        display_height: 80
+        brand_vendor: Philips
+        brand_model: '162'
+        design_weight: 82
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: '163'
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Philips
+        brand_model: '163'
+-
+    patterns:
+        -
+            strategy: string
+            value: '189'
+        -
+            strategy: string
+            value: 'PHILIPS Xenium'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Philips
+        brand_model: '189'
+        brand_marketing_name: 'PHILIPS Xenium'
+        brand_names: 'PHILIPS Xenium'
+        design_weight: 86
+        display_size: '1.5'
+        display_type: OLED
+-
+    patterns:
+        -
+            strategy: string
+            value: '198'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Philips
+        brand_model: '198'
+        design_weight: 65
+        display_size: '1.47'
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: '199'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Philips
+        brand_model: '199'
+        design_weight: 65
+        display_size: '1.47'
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: '289'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Philips
+        brand_model: '289'
+        design_weight: 96
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: '292'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Philips
+        brand_model: '292'
+        design_weight: 80
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: '330'
+    capabilities:
+        is_mobile: true
+        display_width: 101
+        display_height: 80
+        brand_vendor: Philips
+        brand_model: '330'
+        design_weight: 79
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: '350'
+    capabilities:
+        is_mobile: true
+        display_width: 112
+        display_height: 112
+        brand_vendor: Philips
+        brand_model: '350'
+        design_weight: 75
+        display_type: STN
+-
+    patterns:
+        -
+            strategy: string
+            value: '355'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Philips
+        brand_model: '355'
+        design_weight: 82
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: 362-1
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Philips
+        brand_model: 362-1
+        design_weight: 83
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: 362-2
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Philips
+        brand_model: 362-2
+        design_weight: 83
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: '392'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Philips
+        brand_model: '392'
+        design_weight: 83
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: '568'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Philips
+        brand_model: '568'
+        design_weight: 87
+        display_type: STN
+-
+    patterns:
+        -
+            strategy: string
+            value: '588'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Philips
+        brand_model: '588'
+        design_weight: 78
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: '598'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Philips
+        brand_model: '598'
+        design_weight: 82
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: '650'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Philips
+        brand_model: '650'
+        design_weight: 93
+        display_type: STN
+-
+    patterns:
+        -
+            strategy: string
+            value: '655'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Philips
+        brand_model: '655'
+        design_weight: 85
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: '661'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Philips
+        brand_model: '661'
+        design_weight: 89
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: '692'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Philips
+        brand_model: '692'
+        design_weight: 102
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: '699'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Philips
+        brand_model: '699'
+        design_weight: 98
+        display_size: '2.6'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: '755'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Philips
+        brand_model: '755'
+        design_weight: 89
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: '759'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Philips
+        brand_model: '759'
+        design_weight: 89
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: '766'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Philips
+        brand_model: '766'
+        design_weight: 102
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: '768'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Philips
+        brand_model: '768'
+        design_weight: 85
+        display_size: '1.9'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: '826'
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Philips
+        brand_model: '826'
+        design_weight: 85
+        display_type: STN
+-
+    patterns:
+        -
+            strategy: string
+            value: '855'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Philips
+        brand_model: '855'
+        design_weight: 91
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: '859'
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Philips
+        brand_model: '859'
+        design_weight: 91
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: '892'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Philips
+        brand_model: '892'
+        design_weight: 101
+        display_size: '2.6'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: '960'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Philips
+        brand_model: '960'
+        design_weight: 95
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 9@9H
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Philips
+        brand_model: 9@9H
+        design_weight: 78
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 9@9Q
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Philips
+        brand_model: 9@9Q
+        design_weight: 86
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 9@9k
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Philips
+        brand_model: 9@9k
+        design_weight: 108
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 9A9W
+    capabilities:
+        is_mobile: true
+        display_width: 220
+        display_height: 176
+        brand_vendor: Philips
+        brand_model: 9A9W
+        design_weight: 86
+        display_size: '1.8'
+        display_type: OLED
+-
+    patterns:
+        -
+            strategy: string
+            value: Azalis
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Philips
+        brand_model: Azalis
+        design_weight: 125
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: CT9A9G
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Philips
+        brand_model: CT9A9G
+-
+    patterns:
+        -
+            strategy: string
+            value: F511
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Philips
+        brand_model: F511
+        design_weight: 98
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Fisio 121'
+    capabilities:
+        is_mobile: true
+        brand_vendor: Philips
+        brand_model: 'Fisio 121'
+        design_weight: 95
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Fisio 311'
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Philips
+        brand_model: 'Fisio 311'
+        design_weight: 114
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Fisio 330'
+    capabilities:
+        is_mobile: true
+        display_width: 101
+        display_height: 80
+        brand_vendor: Philips
+        brand_model: 'Fisio 330'
+        design_weight: 79
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Fisio 620'
+    capabilities:
+        is_mobile: true
+        display_width: 101
+        display_height: 80
+        brand_vendor: Philips
+        brand_model: 'Fisio 620'
+        design_weight: 85
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Fisio 625'
+    capabilities:
+        is_mobile: true
+        display_width: 101
+        display_height: 80
+        brand_vendor: Philips
+        brand_model: 'Fisio 625'
+        design_weight: 85
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Fisio 630'
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Philips
+        brand_model: 'Fisio 630'
+        design_weight: 109
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Fisio 636'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Philips
+        brand_model: 'Fisio 636'
+        design_weight: 82
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Fisio 639'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Philips
+        brand_model: 'Fisio 639'
+        design_weight: 82
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Fisio 820'
+    capabilities:
+        is_mobile: true
+        display_width: 120
+        display_height: 130
+        brand_vendor: Philips
+        brand_model: 'Fisio 820'
+        design_weight: 86
+        display_type: STN
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Fisio 822'
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Philips
+        brand_model: 'Fisio 822'
+        design_weight: 85
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Fisio 825'
+    capabilities:
+        is_mobile: true
+        display_width: 112
+        display_height: 112
+        brand_vendor: Philips
+        brand_model: 'Fisio 825'
+        design_weight: 85
+        display_type: STN
+-
+    patterns:
+        -
+            strategy: string
+            value: K700
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 400
+        brand_vendor: Philips
+        brand_model: K700
+        design_weight: 97
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Ozeo
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 80
+        brand_vendor: Philips
+        brand_model: Ozeo
+        design_weight: 128
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: P390
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Philips
+        brand_model: P390
+        design_weight: 98
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: PI2000
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Philips
+        brand_model: PI2000
+        display_size: '7'
+        display_type: 'LCD TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: PI2010
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Philips
+        brand_model: PI2010
+        design_weight: 310
+        display_size: '7'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: S388
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Philips
+        brand_model: S388
+        design_weight: 137
+        display_size: '4.5'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: V21
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Philips
+        brand_model: V21
+-
+    patterns:
+        -
+            strategy: string
+            value: VThin
+    capabilities:
+        is_mobile: true
+        display_width: 90
+        display_height: 40
+        brand_vendor: Philips
+        brand_model: VThin
+-
+    patterns:
+        -
+            strategy: string
+            value: W186
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Philips
+        brand_model: W186
+        design_weight: 109
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: W336
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Philips
+        brand_model: W336
+        design_weight: 157
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: W337
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 400
+        brand_vendor: Philips
+        brand_model: W337
+        design_weight: 108
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: W3500
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Philips
+        brand_model: W3500
+        design_weight: 170
+        display_size: '5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: W3568
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Philips
+        brand_model: W3568
+        design_weight: 137
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: W536
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Philips
+        brand_model: W536
+        design_weight: 141
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: W5510
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Philips
+        brand_model: W5510
+        design_weight: 138
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: W626
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Philips
+        brand_model: W626
+        design_weight: 102
+        display_size: '3.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: W632
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Philips
+        brand_model: W632
+        design_weight: 164
+        display_size: '3.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: W6360
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Philips
+        brand_model: W6360
+        design_weight: 124
+        display_size: '4.3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: W6500
+        -
+            strategy: string
+            value: 'Philips Xenium W6500'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Philips
+        brand_model: W6500
+        brand_marketing_name: 'Philips Xenium W6500'
+        brand_names: 'Philips Xenium W6500'
+        design_weight: 150
+        display_size: '4.3'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: W6610
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Philips
+        brand_model: W6610
+        design_weight: 200
+        display_size: '5'
+        display_type: 'IPS TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: W732
+        -
+            strategy: string
+            value: 'Phillips Xenium W732'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Philips
+        brand_model: W732
+        brand_marketing_name: 'Phillips Xenium W732'
+        brand_names: 'Phillips Xenium W732'
+        design_weight: 168
+        display_size: '4.3'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: W737
+        -
+            strategy: string
+            value: 'Philips Xenium W737'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Philips
+        brand_model: W737
+        brand_marketing_name: 'Philips Xenium W737'
+        brand_names: 'Philips Xenium W737'
+        design_weight: 172
+        display_size: '4.3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: W820
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Philips
+        brand_model: W820
+        design_weight: 136
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: W832
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Philips
+        brand_model: W832
+        design_weight: 170
+        display_size: '4.5'
+        display_type: 'IPS LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: W8510
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Philips
+        brand_model: W8510
+        design_weight: 173
+        display_size: '4.7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: X116
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Philips
+        brand_model: X116
+        design_weight: 79
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: X216
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Philips
+        brand_model: X216
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: X518
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Philips
+        brand_model: X518
+        design_weight: 108
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: X520
+        -
+            strategy: string
+            value: Xenium
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Philips
+        brand_model: X520
+        brand_marketing_name: Xenium
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: X526
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Philips
+        brand_model: X526
+        design_weight: 126
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: X703
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 400
+        brand_vendor: Philips
+        brand_model: X703
+        design_weight: 94
+        display_size: '3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: X830
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 400
+        brand_vendor: Philips
+        brand_model: X830
+        design_weight: 120
+        display_size: '3'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Xenium 9@9'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Philips
+        brand_model: 'Xenium 9@9'
+        design_weight: 95
+        display_type: Monochrome
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Xenium 9@9g'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Philips
+        brand_model: 'Xenium 9@9g'
+        design_weight: 86
+        display_size: '1.8'
+        display_type: OLED
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Xenium 9@9h'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Philips
+        brand_model: 'Xenium 9@9h'
+        design_weight: 78
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Xenium 9@9k'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Philips
+        brand_model: 'Xenium 9@9k'
+        design_weight: 108
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Xenium 9@9q'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Philips
+        brand_model: 'Xenium 9@9q'
+        design_weight: 86
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Xenium 9@9r'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Philips
+        brand_model: 'Xenium 9@9r'
+        design_weight: 82
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Xenium 9@9u'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Philips
+        brand_model: 'Xenium 9@9u'
+        design_weight: 91
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Xenium 9@9v'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Philips
+        brand_model: 'Xenium 9@9v'
+        design_weight: 75
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Xenium 9@9w'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Philips
+        brand_model: 'Xenium 9@9w'
+        design_weight: 90
+        display_size: '1.9'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Xenium 9@9z'
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Philips
+        brand_model: 'Xenium 9@9z'
+        design_weight: 74
+        display_size: '1.5'
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Xenium F515'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Philips
+        brand_model: 'Xenium F515'
+        design_weight: 102
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Xenium X128'
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Philips
+        brand_model: 'Xenium X128'
+        design_weight: 76
+        display_size: '2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Xenium X325'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Philips
+        brand_model: 'Xenium X325'
+        design_weight: 98
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Xenium X513'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Philips
+        brand_model: 'Xenium X513'
+        design_weight: 131
+        display_size: '2.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Xenium X523'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 320
+        brand_vendor: Philips
+        brand_model: 'Xenium X523'
+        design_weight: 117
+        display_size: '2.4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Xenium X713'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 400
+        brand_vendor: Philips
+        brand_model: 'Xenium X713'
+        design_weight: 126
+        display_size: '3.2'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Xenium X800'
+    capabilities:
+        is_mobile: true
+        display_width: 240
+        display_height: 400
+        brand_vendor: Philips
+        brand_model: 'Xenium X800'
+        design_weight: 99
+        display_size: '2.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: sa3cnt
+    capabilities:
+        is_mobile: true
+        display_width: 480
+        display_height: 320
+        brand_vendor: Philips
+        brand_model: sa3cnt
+        design_weight: 105
+        display_size: '3.2'
+        display_type: LCD

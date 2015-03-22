@@ -1,0 +1,13 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: U2
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Hosin
+        brand_model: U2
+        design_weight: 131
+        display_size: '3.5'

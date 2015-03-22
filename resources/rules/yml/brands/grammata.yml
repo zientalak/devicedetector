@@ -1,0 +1,56 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Papyre Pad 7.1'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Grammata
+        brand_model: 'Papyre Pad 7.1'
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Papyre Pad 711'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Grammata
+        brand_model: 'Papyre Pad 711'
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Papyre Pad 712'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Grammata
+        brand_model: 'Papyre Pad 712'
+        design_weight: 335
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Papyre Pad 970'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Grammata
+        brand_model: 'Papyre Pad 970'
+        design_weight: 630
+        display_size: '9.7'
+        display_type: 'IPS LCD'

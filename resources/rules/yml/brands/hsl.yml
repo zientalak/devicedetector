@@ -1,0 +1,14 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: Yuva
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: HSL
+        brand_model: Yuva
+        display_size: '4'
+        display_type: IPS

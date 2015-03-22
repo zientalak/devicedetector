@@ -1,0 +1,98 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: CS-570
+        -
+            strategy: string
+            value: 'Brava Solo'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 240
+        brand_vendor: Brava
+        brand_model: CS-570
+        brand_marketing_name: 'Brava Solo'
+        brand_names: 'Brava Solo'
+        display_size: '2.2'
+        display_type: 'TFT QVGA'
+-
+    patterns:
+        -
+            strategy: string
+            value: DM-992
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Brava
+        brand_model: DM-992
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: DM-992A
+        -
+            strategy: string
+            value: 'Brava Vega II DM-992'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Brava
+        brand_model: DM-992A
+        brand_marketing_name: 'Brava Vega II DM-992'
+        brand_names: 'Brava Vega II DM-992'
+        display_size: '4'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: DM-992B
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Brava
+        brand_model: DM-992B
+        display_size: '4'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: DM-993
+        -
+            strategy: string
+            value: 'Brava Vega DM-993'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Brava
+        brand_model: DM-993
+        brand_marketing_name: 'Brava Vega DM-993'
+        brand_names: 'Brava Vega DM-993'
+        display_size: '4.5'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Vega DM-990'
+    capabilities:
+        is_mobile: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Brava
+        brand_model: 'Vega DM-990'
+        design_weight: 122
+        display_size: '3.5'
+        display_type: TFT

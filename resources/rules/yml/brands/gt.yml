@@ -1,0 +1,40 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 90H
+        -
+            strategy: string
+            value: 'A23 GT90H'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: GT
+        brand_model: 90H
+        brand_marketing_name: 'A23 GT90H'
+        brand_names: 'A23 GT90H'
+        design_weight: 715
+        display_size: '9'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: S6790L
+        -
+            strategy: string
+            value: 'Samsung Galaxy Fame Lite'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: GT
+        brand_model: S6790L
+        brand_marketing_name: 'Samsung Galaxy Fame Lite'
+        brand_names: 'Samsung Galaxy Fame Lite'
+        design_weight: 118
+        display_size: '3.5'
+        display_type: TFT

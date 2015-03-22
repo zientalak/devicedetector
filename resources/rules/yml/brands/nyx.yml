@@ -1,0 +1,101 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: Fly
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Nyx
+        brand_model: Fly
+        display_size: '5'
+        display_type: WVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Fly II'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Nyx
+        brand_model: 'Fly II'
+        design_weight: 165
+        display_size: '5'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Fly Mini'
+        -
+            strategy: string
+            value: 'Nyx Fly Mini AAA'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 320
+        display_height: 480
+        brand_vendor: Nyx
+        brand_model: 'Fly Mini'
+        brand_marketing_name: 'Nyx Fly Mini AAA'
+        brand_names: 'Nyx Fly Mini AAA'
+        display_size: '3.5'
+        display_type: HVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: Noba
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Nyx
+        brand_model: Noba
+        design_weight: 198
+        display_size: '4'
+        display_type: WVGA
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Noba II'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Nyx
+        brand_model: 'Noba II'
+        display_size: '4'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Tik X2'
+    capabilities:
+        is_mobile: true
+        brand_vendor: Nyx
+        brand_model: 'Tik X2'
+        display_size: '3.5'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Zeuz HD'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Nyx
+        brand_model: 'Zeuz HD'
+        display_size: '4.5'
+        display_type: IPS

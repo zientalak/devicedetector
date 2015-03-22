@@ -1,0 +1,498 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: EBM7000NBD
+        -
+            strategy: string
+            value: 'NextBook M7000NBD, NextBook NX007HD8G'
+        -
+            strategy: string
+            value: 'NextBook M7000NBD'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: NextBook
+        brand_model: EBM7000NBD
+        brand_marketing_name: 'NextBook M7000NBD'
+        brand_names: 'NextBook M7000NBD, NextBook NX007HD8G'
+        design_weight: 322
+        display_size: '7'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: X785QC8G
+        -
+            strategy: string
+            value: 'NEXTBOOK NX785QC8G 7.85'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 768
+        display_height: 1024
+        brand_vendor: Nextbook
+        brand_model: X785QC8G
+        brand_marketing_name: 'NEXTBOOK NX785QC8G 7.85'
+        brand_names: 'NEXTBOOK NX785QC8G 7.85'
+        design_weight: 390
+        display_size: '7.85'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: NX785QC8G
+        -
+            strategy: string
+            value: 'Nextbook Nextbook8'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 768
+        display_height: 1024
+        brand_vendor: NextBook
+        brand_model: NX785QC8G
+        brand_marketing_name: 'Nextbook Nextbook8'
+        brand_names: 'Nextbook Nextbook8'
+        display_size: '7.85'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: Next7100
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: NextBook
+        brand_model: Next7100
+        design_weight: 277
+        display_size: '7'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: NEXT7P12
+        -
+            strategy: string
+            value: 'Nextbook Next7p, Nextbook E-FUN'
+        -
+            strategy: string
+            value: 'Nextbook Next7p'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Nextbook
+        brand_model: NEXT7P12
+        brand_marketing_name: 'Nextbook Next7p'
+        brand_names: 'Nextbook Next7p, Nextbook E-FUN'
+        design_weight: 385
+-
+    patterns:
+        -
+            strategy: string
+            value: NXM703U
+        -
+            strategy: string
+            value: 'Nextbook Next2'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Nextbook
+        brand_model: NXM703U
+        brand_marketing_name: 'Nextbook Next2'
+        brand_names: 'Nextbook Next2'
+        design_weight: 350
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: NXM901
+        -
+            strategy: string
+            value: 'Nextbook Next3'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 800
+        brand_vendor: Nextbook
+        brand_model: NXM901
+        brand_marketing_name: 'Nextbook Next3'
+        brand_names: 'Nextbook Next3'
+-
+    patterns:
+        -
+            strategy: string
+            value: NXM736
+        -
+            strategy: string
+            value: 'Nextbook Next6'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Nextbook
+        brand_model: NXM736
+        brand_marketing_name: 'Nextbook Next6'
+        brand_names: 'Nextbook Next6'
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: NXM803HC
+        -
+            strategy: string
+            value: 'Nextbook Premium 8, Nextbook Next8P'
+        -
+            strategy: string
+            value: 'Nextbook Premium 8'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 600
+        brand_vendor: Nextbook
+        brand_model: NXM803HC
+        brand_marketing_name: 'Nextbook Premium 8'
+        brand_names: 'Nextbook Premium 8, Nextbook Next8P'
+        design_weight: 387
+        display_size: '8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: NEXT8P12
+        -
+            strategy: string
+            value: 'Nextbook Next8P12'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 600
+        brand_vendor: Nextbook
+        brand_model: NEXT8P12
+        brand_marketing_name: 'Nextbook Next8P12'
+        brand_names: 'Nextbook Next8P12'
+        display_size: '8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: NXM908HC
+        -
+            strategy: string
+            value: 'Nextbook Premium 9, Nextbook Next9P'
+        -
+            strategy: string
+            value: 'Nextbook Premium 9'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1280
+        display_height: 800
+        brand_vendor: Nextbook
+        brand_model: NXM908HC
+        brand_marketing_name: 'Nextbook Premium 9'
+        brand_names: 'Nextbook Premium 9, Nextbook Next9P'
+        design_weight: 559
+        display_size: '9'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: NXM726
+        -
+            strategy: string
+            value: 'Nextbook Premium 7'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Nextbook
+        brand_model: NXM726
+        brand_marketing_name: 'Nextbook Premium 7'
+        brand_names: 'Nextbook Premium 7'
+        design_weight: 387
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: NEXT7C12F
+        -
+            strategy: string
+            value: 'Nextbook Premium7'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 480
+        display_height: 800
+        brand_vendor: Nextbook
+        brand_model: NEXT7C12F
+        brand_marketing_name: 'Nextbook Premium7'
+        brand_names: 'Nextbook Premium7'
+        design_weight: 387
+        display_size: '7'
+        display_type: 'TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: NX008HD8G
+        -
+            strategy: string
+            value: 'NextBook Premium 8 HD'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Nextbook
+        brand_model: NX008HD8G
+        brand_marketing_name: 'NextBook Premium 8 HD'
+        brand_names: 'NextBook Premium 8 HD'
+        design_weight: 425
+        display_size: '8'
+-
+    patterns:
+        -
+            strategy: string
+            value: M805
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 600
+        brand_vendor: Nextbook
+        brand_model: M805
+        design_weight: 510
+        display_size: '8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: NEXT7Q12
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Nextbook
+        brand_model: NEXT7Q12
+        design_weight: 371
+        display_size: '7'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: NX007DW
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Nextbook
+        brand_model: NX007DW
+        design_weight: 274
+        display_size: '7'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: NX007HD
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 600
+        brand_vendor: Nextbook
+        brand_model: NX007HD
+        design_weight: 320
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: NX010HI8G
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 1280
+        brand_vendor: Nextbook
+        brand_model: NX010HI8G
+        design_weight: 620
+        display_size: '10.1'
+        display_type: IPS
+-
+    patterns:
+        -
+            strategy: string
+            value: NX700QC
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 600
+        display_height: 1024
+        brand_vendor: Nextbook
+        brand_model: NX700QC
+        design_weight: 275
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: NXM726HN
+        -
+            strategy: string
+            value: 'Nextbook Premium 7'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Nextbook
+        brand_model: NXM726HN
+        brand_marketing_name: 'Nextbook Premium 7'
+        brand_names: 'Nextbook Premium 7'
+        design_weight: 387
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Next 10p12'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 788
+        brand_vendor: Nextbook
+        brand_model: 'Next 10p12'
+        display_size: '9.7'
+        display_type: LCD
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Next 7s'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Nextbook
+        brand_model: 'Next 7s'
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: Next5
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Nextbook
+        brand_model: Next5
+        display_size: '7'
+-
+    patterns:
+        -
+            strategy: string
+            value: Next7d12
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Nextbook
+        brand_model: Next7d12
+        design_weight: 860
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Premium10SE
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 1024
+        display_height: 768
+        brand_vendor: Nextbook
+        brand_model: Premium10SE
+        display_size: '9.7'
+-
+    patterns:
+        -
+            strategy: string
+            value: 'Premium7 Resistive'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Nextbook
+        brand_model: 'Premium7 Resistive'
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Premium7SE
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Nextbook
+        brand_model: Premium7SE
+        display_size: '7'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: Premium8SE
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 480
+        brand_vendor: Nextbook
+        brand_model: Premium8SE
+        display_size: '8'
+        display_type: TFT

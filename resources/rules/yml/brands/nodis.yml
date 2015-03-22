@@ -1,0 +1,72 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: ND-470
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 480
+        display_height: 854
+        brand_vendor: Nodis
+        brand_model: ND-470
+        display_size: '4.63'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: ND-471
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Nodis
+        brand_model: ND-471
+        design_weight: 130
+        display_size: '4.7'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: ND-500
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Nodis
+        brand_model: ND-500
+        display_size: '5'
+        display_type: 'IPS TFT LCD'
+-
+    patterns:
+        -
+            strategy: string
+            value: ND-502
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 540
+        display_height: 960
+        brand_vendor: Nodis
+        brand_model: ND-502
+        display_size: '5'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: ND-570
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: Nodis
+        brand_model: ND-570
+        design_weight: 220
+        display_size: '5.7'
+        display_type: 'TFT LCD IPS'

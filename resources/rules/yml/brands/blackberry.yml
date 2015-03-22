@@ -1,0 +1,50 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: Q5
+        -
+            strategy: string
+            value: 'RIM BlackBerry Q5 LTE SQR100-1 (RIM Rainier)'
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 720
+        brand_vendor: BlackBerry
+        brand_model: Q5
+        brand_marketing_name: 'RIM BlackBerry Q5 LTE SQR100-1 (RIM Rainier)'
+        brand_names: 'RIM BlackBerry Q5 LTE SQR100-1 (RIM Rainier)'
+        design_weight: 120
+        display_size: '3.1'
+        display_type: 'IPS TFT'
+-
+    patterns:
+        -
+            strategy: string
+            value: Z10
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 768
+        display_height: 1280
+        brand_vendor: BlackBerry
+        brand_model: Z10
+        design_weight: 136
+        display_size: '4.2'
+        display_type: WXGA
+-
+    patterns:
+        -
+            strategy: string
+            value: Z30
+    capabilities:
+        is_mobile: true
+        is_tablet: true
+        display_width: 720
+        display_height: 1280
+        brand_vendor: BlackBerry
+        brand_model: Z30
+        design_weight: 170
+        display_size: '5'
+        display_type: 'Super AMOLED'

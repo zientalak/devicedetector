@@ -1,0 +1,81 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 355X
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Bleu
+        brand_model: 355X
+        design_weight: 68
+        display_size: '1.5'
+        display_type: CSTN
+-
+    patterns:
+        -
+            strategy: string
+            value: 450X
+    capabilities:
+        is_mobile: true
+        brand_vendor: Bleu
+        brand_model: 450X
+        design_weight: 90
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 458x
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Bleu
+        brand_model: 458x
+        design_weight: 70
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 471x
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 128
+        brand_vendor: Bleu
+        brand_model: 471x
+        design_weight: 82
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 555X
+    capabilities:
+        is_mobile: true
+        display_width: 128
+        display_height: 160
+        brand_vendor: Bleu
+        brand_model: 555X
+        design_weight: 82
+        display_size: '1.8'
+        display_type: TFT
+-
+    patterns:
+        -
+            strategy: string
+            value: 651Z
+    capabilities:
+        is_mobile: true
+        display_width: 176
+        display_height: 220
+        brand_vendor: Bleu
+        brand_model: 651Z
+        design_weight: 96
+        display_size: '1.9'
+        display_type: TFT

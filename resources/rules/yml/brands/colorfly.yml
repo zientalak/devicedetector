@@ -1,0 +1,15 @@
+-
+    patterns:
+        -
+            strategy: string
+            value: 'E708 Q1'
+    capabilities:
+        is_tablet: true
+        is_mobile: true
+        display_width: 800
+        display_height: 1280
+        brand_vendor: Colorfly
+        brand_model: 'E708 Q1'
+        design_weight: 244
+        display_size: '7'
+        display_type: 'IPS LCD, TFT'
