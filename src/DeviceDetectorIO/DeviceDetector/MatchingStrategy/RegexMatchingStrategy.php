@@ -22,14 +22,12 @@ class RegexMatchingStrategy implements MatchingStrategyInterface
 
         $userAgent = $token->getData();
         foreach ($rule['patterns'] as $pattern) {
-
             if ('regex' !== $pattern['strategy']) {
                 continue;
             }
 
             $matches = array();
             if (preg_match($pattern['value'], $userAgent, $matches)) {
-
                 if (isset($pattern['matches'])) {
                     foreach ($pattern['matches'] as $matchKey) {
                         if (isset($matches[$matchKey])) {

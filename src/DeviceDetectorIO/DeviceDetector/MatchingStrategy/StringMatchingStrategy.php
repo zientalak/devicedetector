@@ -23,7 +23,6 @@ class StringMatchingStrategy implements MatchingStrategyInterface
         $tokens = $token->getData();
         $userAgent = (string)$token;
         foreach ($rule['patterns'] as $pattern) {
-
             if ('string' !== $pattern['strategy']) {
                 continue;
             }

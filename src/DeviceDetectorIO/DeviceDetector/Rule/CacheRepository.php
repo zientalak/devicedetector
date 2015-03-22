@@ -10,8 +10,6 @@ use DeviceDetectorIO\DeviceDetector\Cache\CacheInterface;
  */
 class CacheRepository implements RuleRepositoryInterface
 {
-    const LIFETIME_DAY = 86400;
-
     /**
      * @var RuleRepositoryInterface
      */
@@ -30,7 +28,7 @@ class CacheRepository implements RuleRepositoryInterface
     /**
      * @var int
      */
-    private $lifetime = self::LIFETIME_DAY;
+    private $lifetime = CacheInterface::LIFETIME_DAY;
 
     /**
      * @param RuleRepositoryInterface $repository
@@ -48,7 +46,7 @@ class CacheRepository implements RuleRepositoryInterface
     public function getRules()
     {
         if (empty($this->cacheKey)) {
-            throw new \LogicException('Cache repository needs cacheKey.');
+            throw new \LogicException('Cache repository needs cache key.');
         }
 
         if ($this->cache->has($this->cacheKey)) {
@@ -67,9 +65,23 @@ class CacheRepository implements RuleRepositoryInterface
 
     /**
      * @param string $cacheKey
+     * @return self
      */
     public function setCacheKey($cacheKey)
     {
         $this->cacheKey = $cacheKey;
+
+        return $this;
+    }
+
+    /**
+     * @param int $lifetime
+     * @return self
+     */
+    public function setLifetime($lifetime)
+    {
+        $this->lifetime = (int)$lifetime;
+
+        return $this;
     }
 }

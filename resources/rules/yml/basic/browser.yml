@@ -2,6 +2,269 @@
   patterns:
      -
         strategy: regex
+        value: "#MSIE.+?Opera[\s/](?P<browser_version>[^\s/]+)#is"
+        matches:
+            browser_version: browser_version
+  category: browser
+  capabilities:
+      browser: Opera
+      browser_vendor: Opera
+      browser_engine: Presto
+
+-
+  patterns:
+     -
+        strategy: regex
+        value: "#(?:Navigator|Netscape6)(?:/(?P<browser_version>\d+[\.\d]+))?#is"
+        matches:
+            browser_version: browser_version
+  category: browser
+  capabilities:
+      browser: Netscape
+      browser_vendor: Netscape Communications Corp.
+
+-
+  patterns:
+     -
+        strategy: regex
+        value: "#Fireweb Navigator(?:/(?P<browser_version>\d+[\.\d]+))?#is"
+        matches:
+            browser_version: browser_version
+  category: browser
+  capabilities:
+      browser: Fireweb Navigator
+      browser_vendor: Arsslensoft
+
+-
+  patterns:
+     -
+        strategy: regex
+        value: "#RockMelt(?:/(?P<browser_version>\d+[\.\d]+))?#is"
+        matches:
+            browser_version: browser_version
+  category: browser
+  capabilities:
+      browser: RockMelt
+      browser_vendor: Rockmelt, Inc.
+
+-
+  patterns:
+     -
+        strategy: regex
+        value: "#rekonq(?:/(?P<browser_version>\d+[\.\d]+))?#is"
+        matches:
+            browser_version: browser_version
+  category: browser
+  capabilities:
+      browser: Rekonq
+      browser_vendor: Andrea Diamantini
+      browser_engine: WebKit
+
+-
+  patterns:
+     -
+        strategy: regex
+        value: "#(?:Espial|Escape)(?:[/ ](?P<browser_version>\d+[\.\d]+))?#is"
+        matches:
+            browser_version: browser_version
+  category: browser
+  capabilities:
+      browser: Espial TV Browser
+      browser_vendor: Espial Group
+
+-
+  patterns:
+     -
+        strategy: regex
+        value: "#PaleMoon(?:/(?P<browser_version>\d+[\.\d]+))?#is"
+        matches:
+            browser_version: browser_version
+  category: browser
+  capabilities:
+      browser: Pale Moon
+      browser_engine: Gecko
+
+-
+  patterns:
+     -
+        strategy: regex
+        value: "#CometBird(?:/(?P<browser_version>\d+[\.\d]+))?#is"
+        matches:
+            browser_version: browser_version
+  category: browser
+  capabilities:
+      browser: CometBird
+      browser_engine: Gecko
+
+-
+  patterns:
+     -
+        strategy: regex
+        value: "#IceDragon(?:/(?P<browser_version>\d+[\.\d]+))?#is"
+        matches:
+            browser_version: browser_version
+  category: browser
+  capabilities:
+      browser: IceDragon
+      browser_engine: Gecko
+
+-
+  patterns:
+     -
+        strategy: regex
+        value: "#Flock(?:/(?P<browser_version>\d+[\.\d]+))?#is"
+        matches:
+            browser_version: browser_version
+  category: browser
+  capabilities:
+      browser: Flock
+
+-
+  patterns:
+     -
+        strategy: regex
+        value: "#Firefox.*Tablet browser (?P<browser_version>\d+[\.\d]+)#is"
+        matches:
+            browser_version: browser_version
+  category: browser
+  capabilities:
+      browser_name: MicroB
+      browser_engine: Gecko
+
+-
+  patterns:
+     -
+        strategy: regex
+        value: "#(?P<browser>Camino|Iceape|SeaMonkey|gnuzilla)(?:/(?P<browser_version>\d+[\.\d]+))?#is"
+        matches:
+            browser_name: browser
+            browser_version: browser_version
+  category: browser
+  capabilities:
+      browser_engine: Gecko
+
+-
+  patterns:
+     -
+        strategy: string
+        value: Avant Browser
+  category: browser
+  capabilities:
+      browser: Avant Browser
+
+-
+  patterns:
+     -
+        strategy: string
+        value: WebPositive
+  category: browser
+  capabilities:
+      browser: WebPositive
+      browser_vendor: Haiku Inc.
+
+-
+  patterns:
+     -
+        strategy: regex
+        value: "#(?P<browser>Iceweasel|Iceape|SeaMonkey|gnuzilla)(?:/(?P<browser_version>\d+[\.\d]+))?#is"
+        matches:
+            browser: browser
+            browser_version: browser_version
+  category: browser
+  capabilities:
+      browser_engine: Gecko
+      browser_vendor: Software in the Public Interest, Inc. External link
+
+-
+  patterns:
+     -
+        strategy: regex
+        value: "#Chrome/(?P<browser_version>\d+[\.\d]+).*MRCHROME#is"
+        matches:
+            browser_version: browser_version
+  category: browser
+  capabilities:
+      browser: Amigo
+      browser_vendor: Mail.Ru Group
+
+-
+  patterns:
+     -
+        strategy: regex
+        value: "#Sailfish(?:[ ])?Browser(?:/(?P<browser_version>\d+[\.\d]+))?#is"
+        matches:
+            browser_version: browser_version
+  category: browser
+  capabilities:
+      browser: Sailfish Browser
+      browser_engine: Gecko
+      browser_vendor: Jolla
+
+-
+  patterns:
+     -
+        strategy: regex
+        value: "#Kapiko(?:/(?P<browser_version>\d+[\.\d]+))?#is"
+        matches:
+            browser_version: browser_version
+  category: browser
+  capabilities:
+      browser: Kapiko
+      browser_vendor: Ufox lab.
+
+-
+  patterns:
+     -
+        strategy: regex
+        value: "#CoolNovo(?:/(?P<browser_version>\d+[\.\d]+))?#is"
+        matches:
+            browser_version: browser_version
+  category: browser
+  capabilities:
+      browser: CoolNovo
+      browser_vendor: Maple Studio
+      browser_engine: WebKit
+
+-
+  patterns:
+     -
+        strategy: regex
+        value: "#Comodo[ _]Dragon(?:/(?P<browser_version>\d+[\.\d]+))?#is"
+        matches:
+            browser_version: browser_version
+  category: browser
+  capabilities:
+      browser: Comodo Dragon
+      browser_vendor: Comodo Group, Inc.
+
+-
+  patterns:
+     -
+        strategy: regex
+        value: "#ChromePlus(?:/(?P<browser_version>\d+[\.\d]+))?#is"
+        matches:
+            browser_version: browser_version
+  category: browser
+  capabilities:
+      browser: ChromePlus
+      browser_vendor: Maple Studio
+
+-
+  patterns:
+     -
+        strategy: regex
+        value: "#Firefox/(?P<browser_version>\d+[\.\d]+).*\(Swiftfox\)#is"
+        matches:
+            browser_version: browser_version
+  category: browser
+  capabilities:
+      browser: Swiftfox
+      browser_vendor: Jason Halme
+
+-
+  patterns:
+     -
+        strategy: regex
         value: "#Edge[ /](?P<browser_version>\d+[\.\d]+)#is"
         matches:
             browser_version: browser_version
@@ -9,6 +272,7 @@
   capabilities:
       browser: Internet Explorer
       browser_vendor: Microsoft
+      browser_engine: Edge
 
 -
   patterns:
@@ -41,6 +305,7 @@
   capabilities:
       browser: Safari
       browser_vendor: Apple
+      browser_engine: WebKit
 
 -
   patterns:
@@ -49,10 +314,16 @@
         value: "#Firefox\/(?P<browser_version>[^\s]+)#is"
         matches:
             browser_version: browser_version
+     -
+        strategy: regex
+        value: "#(BonEcho|GranParadiso|Lorentz|Minefield|Namoroka|Shiretoko)\/(?P<browser_version>[^\s]+)#is"
+        matches:
+            browser_version: browser_version
   category: browser
   capabilities:
       browser: Firefox
       browser_vendor: Mozilla
+      browser_engine: Gecko
 
 -
   patterns:
@@ -119,13 +390,14 @@
   patterns:
      -
         strategy: regex
-        value: "#Opera[ /]?(?J)(?P<browser_version>\d+\.\d+)|OPR/(?P<browser_version>\d+\.\d+)#is"
+        value: "#(?:Opera Tablet.*Version|Opera/.+Opera Mobi.+Version|Mobile.+OPR)/(?P<browser_version>\d+[\.\d]+)#is"
         matches:
             browser_version: browser_version
   category: browser
   capabilities:
-      browser: Opera
+      browser: Opera Mobile
       browser_vendor: Opera
+      is_mobile: true
 
 -
   patterns:

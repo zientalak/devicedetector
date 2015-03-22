@@ -14,8 +14,7 @@
         "bin-dir": "bin"
     },
     "require": {
-        "php": ">=5.3.3",
-        "doctrine/cache" : "1.4.*"
+        "php": ">=5.3.3"
     },
     "require-dev": {
         "phpunit/phpunit": "4.3.*",
@@ -24,7 +23,14 @@
         "symfony/yaml" : "2.6.*",
         "symfony/finder" : "2.6.*",
         "symfony/var-dumper" : "2.6.*",
-        "symfony/stopwatch" :  "2.6.*"
+        "symfony/stopwatch" :  "2.6.*",
+        "doctrine/cache" : "1.4.*",
+        "phpmd/phpmd": "@stable",
+        "sebastian/phpcpd": "@stable",
+        "squizlabs/php_codesniffer" : "@stable"
+    },
+    "suggest": {
+        "doctrine/cache" : "Can be used for caching devices and rules."
     },
     "autoload": {
         "psr-4" : {

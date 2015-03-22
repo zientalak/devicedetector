@@ -2,8 +2,8 @@
 
 namespace DeviceDetectorIO\DeviceDetector\CacheProvider;
 
+use DeviceDetectorIO\DeviceDetector\Cache\CacheInterface;
 use DeviceDetectorIO\DeviceDetector\Device\CacheDevice;
-use DeviceDetectorIO\DeviceDetector\Exception\CachedDeviceNotFoundException;
 
 /**
  * Interface CacheProviderInterface
@@ -11,7 +11,6 @@ use DeviceDetectorIO\DeviceDetector\Exception\CachedDeviceNotFoundException;
  */
 interface CacheProviderInterface
 {
-    const LIFETIME_DAY = 86400;
     const PREFIX = 'DeviceDetectorIO\DeviceDetector\CacheProvider\CacheProvider';
 
     /**
@@ -31,7 +30,7 @@ interface CacheProviderInterface
      * @param integer $lifetime
      * @return boolean
      */
-    public function addDevice(CacheDevice $device, $lifetime = self::LIFETIME_DAY);
+    public function addDevice(CacheDevice $device, $lifetime = CacheInterface::LIFETIME_DAY);
 
     /**
      * @param string $fingerprint

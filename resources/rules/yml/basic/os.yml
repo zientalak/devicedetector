@@ -2,7 +2,7 @@
   patterns:
      -
         strategy: regex
-        value: "#(?:Android|Adr)[\s/](?P<os_version>[\d+\.]+)#is"
+        value: "#(?:Android|Adr)[\s/](?P<os_version>[^\s-;]+)#is"
         matches:
           os_version: os_version
      -

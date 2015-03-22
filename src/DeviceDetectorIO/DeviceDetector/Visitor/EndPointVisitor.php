@@ -27,10 +27,16 @@ class EndPointVisitor extends AbstractUserAgentVisitor
             !$this->hasEmptyCapability($collector, Capabilities::IS_BOT)
         );
 
+        $isMobile = $this->hasEmptyCapability($collector, Capabilities::IS_MOBILE);
         $collector->addCapability(
             Capabilities::IS_DESKTOP,
-            $this->hasEmptyCapability($collector, Capabilities::IS_MOBILE)
+            $isMobile
             && $this->hasEmptyCapability($collector, Capabilities::IS_BOT)
+        );
+
+        $collector->addCapability(
+            Capabilities::IS_MOBILE,
+            !$isMobile
         );
 
         $collector->addCapability(

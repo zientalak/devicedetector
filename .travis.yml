@@ -30,6 +30,8 @@ script:
   - cp phpunit.xml.dist phpunit.xml
   - bin/phpspec run -c phpspec.yml
   - bin/phpunit -c phpunit.xml
+  - cp phpcs.xml.dist phpcs.xml
+  - bin/phpcs --standard=phpcs.xml --extensions=php src
 
 notifications:
   email:

@@ -4,6 +4,8 @@ namespace DeviceDetectorIO\DeviceDetector\Cache;
 
 interface CacheInterface
 {
+    const LIFETIME_DAY = 86400;
+
     /**
      * Fetch an entry from the cache.
      *

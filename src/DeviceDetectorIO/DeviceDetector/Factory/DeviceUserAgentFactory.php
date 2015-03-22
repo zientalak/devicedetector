@@ -61,7 +61,7 @@ class DeviceUserAgentFactory implements DeviceUserAgentFactoryInterface
 
         if (null !== $this->deviceDetector && $this->deviceDetector instanceof CacheDetector) {
             $this->deviceDetector->setFingerprintGenerator(new GenericGenerator())
-                ->setCacheProvider(new GenericProvider(new ArrayCache()));
+                ->setCacheProvider(new GenericProvider($this->cache));
         }
     }
 
@@ -124,8 +124,8 @@ class DeviceUserAgentFactory implements DeviceUserAgentFactoryInterface
     private function createMatchingStrategy()
     {
         $strategyChain = new MatchingStrategyChain();
-        $strategyChain->addStrategy(new StringMatchingStrategy());
         $strategyChain->addStrategy(new RegexMatchingStrategy());
+        $strategyChain->addStrategy(new StringMatchingStrategy());
 
         return $strategyChain;
     }

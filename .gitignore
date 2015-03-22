@@ -38,6 +38,8 @@ coverage.clover
 ocular.phar
 bin/phpspec
 bin/phpunit
+phpcs.xml
+phpmd.xml
 
 # Windows image file caches
 Thumbs.db

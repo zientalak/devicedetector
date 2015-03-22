@@ -24,7 +24,6 @@ class OSXVisitor extends AbstractUserAgentVisitor
     {
         $userAgent = $token->getData();
         if (!$collector->hasCapability(Capabilities::OS) && preg_match($this->macPattern, $userAgent)) {
-
             $collector
                 ->addCapability(Capabilities::OS, Capabilities::OS_OSX)
                 ->addCapability(Capabilities::OS_VENDOR, Capabilities::VENDOR_APPLE)

@@ -2,11 +2,11 @@
     patterns:
         -
             strategy: string
-            value: '360Spider'
+            value: 360Spider
     capabilities:
         bot_name: 360Spider
-        bot_url: 'http://www.so.com/help/help_3_2.html'
-        bot_vendor_name: 'Online Media Group, Inc.'
+        bot_url: http://www.so.com/help/help_3_2.html
+        bot_vendor_name: Online Media Group, Inc.
 -
     patterns:
         -

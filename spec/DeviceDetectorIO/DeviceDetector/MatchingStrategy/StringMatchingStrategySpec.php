@@ -37,16 +37,30 @@ class StringMatchingStrategySpec extends ObjectBehavior
             ->shouldReturn(false);
     }
 
-    function it_match_capabilities()
+    function it_match_capabilities_from_isset()
     {
         $this
             ->match(
-                $this->create_match_rule(),
+                $this->create_isset_match_rule(),
                 $this->create_useragent_tokenized_token()
             )
             ->shouldReturn(
                 array(
                     'test' => 'test1'
+                )
+            );
+    }
+
+    function it_match_capabilities_from_stripos()
+    {
+        $this
+            ->match(
+                $this->create_strpos_match_rule(),
+                $this->create_useragent_tokenized_token()
+            )
+            ->shouldReturn(
+                array(
+                    'test' => 'like Gecko'
                 )
             );
     }
@@ -65,7 +79,7 @@ class StringMatchingStrategySpec extends ObjectBehavior
     /**
      * @return array
      */
-    private function create_match_rule()
+    private function create_isset_match_rule()
     {
         return array(
             'patterns' => array(
@@ -76,6 +90,24 @@ class StringMatchingStrategySpec extends ObjectBehavior
             ),
             'capabilities' => array(
                 'test' => 'test1'
+            )
+        );
+    }
+
+    /**
+     * @return array
+     */
+    private function create_strpos_match_rule()
+    {
+        return array(
+            'patterns' => array(
+                array(
+                    'strategy' => 'string',
+                    'value' => 'like Gecko',
+                )
+            ),
+            'capabilities' => array(
+                'test' => 'like Gecko'
             )
         );
     }

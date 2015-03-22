@@ -52,7 +52,7 @@ class GenericProvider implements CacheProviderInterface
     /**
      * {@inheritdoc}
      */
-    public function addDevice(CacheDevice $device, $lifetime = self::LIFETIME_DAY)
+    public function addDevice(CacheDevice $device, $lifetime = CacheInterface::LIFETIME_DAY)
     {
         return $this->cache->save(
             $this->generateKey($this->prefix, $device->getFingerprint()),

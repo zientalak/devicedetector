@@ -32,7 +32,7 @@
   patterns:
      -
         strategy: string
-        value: "#Nintendo ?(?P<console_version>[WiiU|DS|DSi|Wii]+)?#is"
+        value: "#Nintendo ?(?P<console_version>[WiiU|DS|DSi|Wii|3DS]+)?#is"
         matches:
           console_version: console_version
   category: os

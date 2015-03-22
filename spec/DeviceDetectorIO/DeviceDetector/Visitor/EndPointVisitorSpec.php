@@ -64,6 +64,10 @@ class EndPointVisitorSpec extends ObjectBehavior
             ->addCapability(Argument::exact(Capabilities::IS_BOT), Argument::exact(false))
             ->shouldBeCalledTimes(1);
 
+        $collector
+            ->addCapability(Argument::exact(Capabilities::IS_MOBILE), Argument::exact(false))
+            ->shouldBeCalledTimes(1);
+
         $this->visit($token, $collector)->shouldReturn(VisitorInterface::STATE_SEEKING);
 
     }

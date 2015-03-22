@@ -52,7 +52,6 @@ class JsonRepository implements RuleRepositoryInterface
     protected function loadRules()
     {
         if (!$this->loaded) {
-
             if (!is_file($this->filePath)) {
                 throw new \LogicException(sprintf('File "%s" does not exists.', $this->filePath));
             }

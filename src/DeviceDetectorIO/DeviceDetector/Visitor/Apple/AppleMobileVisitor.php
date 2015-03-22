@@ -21,7 +21,6 @@ abstract class AppleMobileVisitor extends AbstractUserAgentVisitor
         $userAgent = $token->getData();
         if (!$collector->hasCapability(Capabilities::OS)
             && preg_match($this->getDevicePattern(), $userAgent)) {
-
             $collector
                 ->addCapability(Capabilities::IS_IOS, true)
                 ->addCapability(Capabilities::OS, Capabilities::OS_IOS)
