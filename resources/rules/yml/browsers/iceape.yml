@@ -1,0 +1,20 @@
+-
+  conditions:
+     -
+        type: text
+        value: iceape
+        strategy: next
+     -
+        type: text
+        value: /
+        strategy: next
+     -
+        type: placeholder
+        value: ~
+        capabilities: [browser_version]
+        strategy: next
+  category: browser
+  priority: 1
+  capabilities:
+    browser_name: IceApe
+    browser_vendor_name: Software in the Public Interest, Inc.

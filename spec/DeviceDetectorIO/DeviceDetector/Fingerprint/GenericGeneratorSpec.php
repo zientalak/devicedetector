@@ -2,11 +2,15 @@
 
 namespace spec\DeviceDetectorIO\DeviceDetector\Fingerprint;
 
-use DeviceDetectorIO\DeviceDetector\Token\TokenPool;
-use DeviceDetectorIO\DeviceDetector\Token\UserAgentToken;
 use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
+use DeviceDetectorIO\DeviceDetector\Token\TokenPool;
+use DeviceDetectorIO\DeviceDetector\Token\UserAgentToken;
 
+/**
+ * Class GenericGeneratorSpec
+ * @package spec\DeviceDetectorIO\DeviceDetector\Fingerprint
+ */
 class GenericGeneratorSpec extends ObjectBehavior
 {
     function it_is_initializable()
@@ -22,17 +26,16 @@ class GenericGeneratorSpec extends ObjectBehavior
     function it_generate_fingerprint()
     {
         $token = new UserAgentToken('token');
-
         $tokenPool = new TokenPool();
-        $tokenPool->addToken($token);
+        $tokenPool->add($token);
 
-        $this->getFingerprint($tokenPool)->shouldReturn(sha1(serialize($token)));
+        $this->generate($tokenPool)->shouldReturn(sha1(serialize($token)));
     }
 
     function it_throw_exception_on_empty_token_pool()
     {
         $this->shouldThrow('\LogicException')
-            ->during('getFingerprint', array(new TokenPool()));
+            ->during('generate', array(new TokenPool()));
     }
 
     function it_throw_exception_if_algorithm_not_exists()

@@ -1,0 +1,24 @@
+<?php
+
+namespace DeviceDetectorIO\DeviceDetector\Rule;
+
+/**
+ * Class Queue
+ * @package DeviceDetectorIO\DeviceDetector\Rule
+ */
+class Queue extends \SplPriorityQueue
+{
+    /**
+     * @param int $priority1
+     * @param int $priority2
+     * @return int
+     */
+    public function compare($priority1, $priority2)
+    {
+        if ($priority1 === $priority2) {
+            return 0;
+        }
+
+        return $priority1 < $priority2 ? 1 : -1;
+    }
+}

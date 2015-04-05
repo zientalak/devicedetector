@@ -2,6 +2,10 @@
 
 namespace DeviceDetectorIO\DeviceDetector\UserAgent;
 
+/**
+ * Class UserAgentTokenizer
+ * @package DeviceDetectorIO\DeviceDetector\UserAgent
+ */
 class UserAgentTokenizer implements UserAgentTokenizerInterface
 {
     /**
@@ -9,14 +13,30 @@ class UserAgentTokenizer implements UserAgentTokenizerInterface
      */
     public function tokenize($userAgent)
     {
-        return array_flip(
-            preg_split(
-                $this->getRegex(),
-                $this->normalizeUserAgent($userAgent),
-                -1,
-                PREG_SPLIT_NO_EMPTY | PREG_SPLIT_DELIM_CAPTURE
-            )
-        );
+        $iterator = new \SplDoublyLinkedList();
+        $iterator->setIteratorMode(\SplDoublyLinkedList::IT_MODE_FIFO);
+
+        foreach ($this->getTokens($userAgent) as $position => $token) {
+            $token = trim($token);
+            $iterator->push(
+                new Node($token, $this->resolveType($token), $position)
+            );
+        }
+
+        return $iterator;
+    }
+
+    /**
+     * @param $token
+     * @return int
+     */
+    private function resolveType($token)
+    {
+        if ('' === $token) {
+            return NodeInterface::TYPE_SPACE;
+        }
+
+        return NodeInterface::TYPE_TEXT;
     }
 
     /**
@@ -27,33 +47,22 @@ class UserAgentTokenizer implements UserAgentTokenizerInterface
         return array(
             'http:\/\/[^;\()]+',
             '[a-z0-9\.\-\_]+,[a-z0-9\.\-\_]+',
-            '[a-z0-9\.\-\_]+'
-        );
-    }
-
-    /**
-     * @return array
-     */
-    private function getNonCatchablePatterns()
-    {
-        return array(
-            '\s+',
-            '[\/;\(),]+'
+            '[a-z0-9\.\-\_]+',
+            '[\/;\(),:\s+]+?'
         );
     }
 
     /**
      * @return string
      */
-    private function getRegex()
+    private function buildRegex()
     {
         return sprintf(
-            '/(%s)|%s/%s',
+            '/(%s)|%s/',
             implode(
                 ')|(',
                 $this->getCatchablePatterns()
             ),
-            implode('|', $this->getNonCatchablePatterns()),
             'i'
         );
     }
@@ -66,5 +75,20 @@ class UserAgentTokenizer implements UserAgentTokenizerInterface
     {
         return function_exists('mb_strtolower')
             ? mb_strtolower($userAgent) : strtolower($userAgent);
+    }
+
+    /**
+     * @param $userAgent
+     * @return array
+     */
+    private function getTokens($userAgent)
+    {
+        return
+            preg_split(
+                $this->buildRegex(),
+                $this->normalizeUserAgent($userAgent),
+                -1,
+                PREG_SPLIT_NO_EMPTY | PREG_SPLIT_DELIM_CAPTURE
+            );
     }
 }

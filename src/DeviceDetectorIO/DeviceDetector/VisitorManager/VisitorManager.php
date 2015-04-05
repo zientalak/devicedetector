@@ -2,8 +2,7 @@
 
 namespace DeviceDetectorIO\DeviceDetector\VisitorManager;
 
-use DeviceDetectorIO\DeviceDetector\Collector\CollectorInterface;
-use DeviceDetectorIO\DeviceDetector\Exception\UnknownStateException;
+use DeviceDetectorIO\DeviceDetector\Capability\CollatorInterface;
 use DeviceDetectorIO\DeviceDetector\Token\TokenInterface;
 use DeviceDetectorIO\DeviceDetector\Token\TokenPoolInterface;
 use DeviceDetectorIO\DeviceDetector\Visitor\VisitorInterface;
@@ -18,46 +17,35 @@ class VisitorManager implements VisitorManagerInterface
      * @var array
      */
     private $visitors;
-
     /**
      * @var array
      */
     private $priority;
 
     /**
-     * @var array
-     */
-    private $knownStates = array(
-        VisitorInterface::STATE_FOUND,
-        VisitorInterface::STATE_SEEKING
-    );
-
-    /**
      * Constructor
      */
     public function __construct()
     {
-        $this->clear();
+        $this->removeAll();
     }
 
     /**
      * {@inheritdoc}
      */
-    public function clear()
+    public function getIterator()
     {
-        $this->visitors = $this->priority = array();
-
-        return $this;
+        return $this->getVisitors();
     }
 
     /**
      * {@inheritdoc}
      */
-    public function addVisitor(VisitorInterface $visitor, $priority = 0)
+    public function add(VisitorInterface $visitor, $priority = 0)
     {
         $splHashObject = spl_object_hash($visitor);
         if (isset($this->visitors[$splHashObject])) {
-            return $this;
+            return false;
         }
 
         $priority = (int)$priority;
@@ -68,13 +56,13 @@ class VisitorManager implements VisitorManagerInterface
         $this->priority[$priority][] = $visitor;
         $this->visitors[$splHashObject] = $visitor;
 
-        return $this;
+        return true;
     }
 
     /**
      * {@inheritdoc}
      */
-    public function hasVisitor(VisitorInterface $visitor)
+    public function has(VisitorInterface $visitor)
     {
         return isset($this->visitors[spl_object_hash($visitor)]);
     }
@@ -82,7 +70,7 @@ class VisitorManager implements VisitorManagerInterface
     /**
      * {@inheritdoc}
      */
-    public function removeVisitor(VisitorInterface $visitor)
+    public function remove(VisitorInterface $visitor)
     {
         $splHashObject = spl_object_hash($visitor);
         if (isset($this->visitors[$splHashObject])) {
@@ -95,33 +83,34 @@ class VisitorManager implements VisitorManagerInterface
                 }
             }
 
+            return true;
         }
 
-        return $this;
+        return false;
     }
 
     /**
      * {@inheritdoc}
      */
-    public function visit(TokenPoolInterface $tokenPool, CollectorInterface $context)
+    public function removeAll()
     {
-        $tokens = $tokenPool->getTokens();
+        $this->visitors = $this->priority = array();
 
+        return true;
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function visit(TokenPoolInterface $pool, CollatorInterface $collector)
+    {
         /** @var $visitor VisitorInterface */
-        foreach ($this->getVisitors() as $visitor) {
+        foreach ($this as $visitor) {
             /** @var $token TokenInterface */
-            foreach ($tokens as $token) {
-                if ($visitor->accept($token, $context)) {
-                    $visitResult = $visitor->visit($token, $context);
-                    if (!in_array($visitResult, $this->knownStates)) {
-                        throw new UnknownStateException(
-                            sprintf(
-                                'Cannot visit not acceptable visitor. Check whether visitor accept token before visiting.'
-                            )
-                        );
-                    }
-                    if (VisitorInterface::STATE_FOUND === $visitResult) {
-                        return $this;
+            foreach ($pool as $token) {
+                if ($visitor->accept($token, $collector)) {
+                    if (VisitorInterface::STATE_FOUND === $visitor->visit($token, $collector)) {
+                        break;
                     }
                 }
             }
@@ -140,7 +129,6 @@ class VisitorManager implements VisitorManagerInterface
         foreach ($this->priority as $priorityVisitors) {
             $visitors = array_merge($priorityVisitors, $visitors);
         }
-
-        return $visitors;
+        return new \ArrayIterator($visitors);
     }
 }

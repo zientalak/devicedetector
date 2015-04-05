@@ -3,25 +3,22 @@
 
 require __DIR__ . '/../vendor/autoload.php';
 
-$parser = new \Symfony\Component\Yaml\Parser();
-$directories = array(
-    'basic' => __DIR__ . '/../resources/rules/yml/basic',
-    'brands' => __DIR__ . '/../resources/rules/yml/brands'
+use DeviceDetectorIO\DeviceDetector\Rule\Configuration\Loader\YmlLoader;
+use DeviceDetectorIO\DeviceDetector\Rule\Configuration\Handler\HandlerChain;
+use DeviceDetectorIO\DeviceDetector\Rule\Configuration\Handler\DefaultHandler;
+use DeviceDetectorIO\DeviceDetector\Rule\Warmer\PHPWarmer;
+use Symfony\Component\Yaml\Parser;
+use Symfony\Component\Finder\Finder;
+
+$loader = new YmlLoader(
+    new Parser(),
+    new Finder(),
+    __DIR__ . '/../resources/rules/yml'
 );
 
-/** @var \Symfony\Component\Finder\SplFileInfo $dir */
-foreach ($directories as $name => $path) {
-    $finder = new \Symfony\Component\Finder\Finder();
-    $files = $finder->in($path)->files()->name('*.yml');
-    /** @var \Symfony\Component\Finder\SplFileInfo $file */
-    $rules = array();
-    foreach ($files as $file) {
-        $rules = array_merge($rules, $parser->parse($file->getContents()));
-    }
+$handler = new HandlerChain();
+$handler->addHandler(new DefaultHandler());
 
-    $destination = new \SplFileObject(
-        sprintf(__DIR__.'/../resources/rules/json/%s.json', $name),
-        'w'
-    );
-    $destination->fwrite(json_encode($rules));
-}
+$warmer = new PHPWarmer($loader, $handler);
+$warmer->setPath(__DIR__ . '/../resources/rules/php/rules.data');
+$warmer->warmup();

@@ -24,7 +24,7 @@ class TokenPool implements TokenPoolInterface
     /**
      * {@inheritdoc}
      */
-    public function getTokens()
+    public function getIterator()
     {
         return $this->pool;
     }
@@ -32,55 +32,65 @@ class TokenPool implements TokenPoolInterface
     /**
      * {@inheritdoc}
      */
-    public function setTokens(array $tokens)
+    public function setPool(array $pool)
     {
-        $this->clear();
+        $this->removeAll();
 
-        foreach ($tokens as $token) {
-            $this->addToken($token);
+        foreach ($pool as $token) {
+            $this->add($token);
         }
 
-        return $this;
+        return true;
     }
 
     /**
      * {@inheritdoc}
      */
-    public function clear()
-    {
-        $this->pool->removeAll($this->pool);
-
-        return $this;
-    }
-
-    /**
-     * {@inheritdoc}
-     */
-    public function addToken(TokenInterface $token)
+    public function add(TokenInterface $token)
     {
         $this->pool->attach($token);
 
-        return $this;
+        return true;
     }
 
     /**
      * {@inheritdoc}
      */
-    public function removeToken(TokenInterface $token)
-    {
-        if ($this->hasToken($token)) {
-            $this->pool->detach($token);
-        }
-
-        return $this;
-    }
-
-    /**
-     * {@inheritdoc}
-     */
-    public function hasToken(TokenInterface $token)
+    public function has(TokenInterface $token)
     {
         return $this->pool->contains($token);
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function remove(TokenInterface $token)
+    {
+        if ($this->has($token)) {
+            $this->pool->detach($token);
+
+            return true;
+        }
+
+        return false;
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function removeAll()
+    {
+        $this->pool->removeAll($this->pool);
+
+        return true;
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function getPool()
+    {
+        return $this->pool;
     }
 
     /**

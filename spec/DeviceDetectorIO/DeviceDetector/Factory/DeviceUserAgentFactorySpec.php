@@ -2,10 +2,15 @@
 
 namespace spec\DeviceDetectorIO\DeviceDetector\Factory;
 
-use DeviceDetectorIO\DeviceDetector\Cache\ArrayCache;
+use DeviceDetectorIO\DeviceDetector\Cache\DoctrineCacheBridge;
+use Doctrine\Common\Cache\ArrayCache;
 use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
 
+/**
+ * Class DeviceUserAgentFactorySpec
+ * @package spec\DeviceDetectorIO\DeviceDetector\Factory
+ */
 class DeviceUserAgentFactorySpec extends ObjectBehavior
 {
     function it_is_initializable()
@@ -27,8 +32,7 @@ class DeviceUserAgentFactorySpec extends ObjectBehavior
 
     function it_return_device_with_cache()
     {
-        $this->beConstructedWith(new ArrayCache());
-
+        $this->beConstructedWith(new DoctrineCacheBridge(new ArrayCache()));
         $this
             ->getDevice('Mozilla/5.0 (Linux; U; Android 1.0; en-us; generic) AppleWebKit/525.10 (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2')
             ->shouldReturnAnInstanceOf('DeviceDetectorIO\DeviceDetector\Device\CacheDevice');

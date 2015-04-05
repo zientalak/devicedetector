@@ -2,8 +2,7 @@
 
 namespace DeviceDetectorIO\DeviceDetector\Visitor;
 
-use DeviceDetectorIO\DeviceDetector\Collector\CollectorInterface;
-use DeviceDetectorIO\DeviceDetector\Exception\VisitorNotAcceptableException;
+use DeviceDetectorIO\DeviceDetector\Capability\CollatorInterface;
 use DeviceDetectorIO\DeviceDetector\Token\TokenInterface;
 
 /**
@@ -17,15 +16,15 @@ interface VisitorInterface
 
     /**
      * @param TokenInterface $token
-     * @param CollectorInterface $collector
+     * @param CollatorInterface $collator
      * @return boolean
      */
-    public function accept(TokenInterface $token, CollectorInterface $collector);
+    public function accept(TokenInterface $token, CollatorInterface $collator);
 
     /**
      * @param TokenInterface $token
-     * @param CollectorInterface $collector
+     * @param CollatorInterface $collator
      * @return integer
      */
-    public function visit(TokenInterface $token, CollectorInterface $collector);
+    public function visit(TokenInterface $token, CollatorInterface $collator);
 }

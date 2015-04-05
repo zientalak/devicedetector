@@ -1,0 +1,62 @@
+-
+  conditions:
+     -
+        type: text
+        value: avant
+        strategy: line
+     -
+        type: text
+        value: browser
+        strategy: line
+  category: browser
+  priority: 1
+  capabilities:
+    browser_name: Avant Browser
+    browser_vendor_name: Avant Force
+
+-
+  conditions:
+     -
+        type: text
+        value: avantbrowser
+  category: browser
+  priority: 1
+  capabilities:
+    browser_name: Avant Browser
+    browser_vendor_name: Avant Force
+
+-
+  conditions:
+     -
+        type: text
+        value: avant
+        strategy: next
+     -
+        type: text
+        value: tri
+        strategy: next
+     -
+        type: text
+        value: core
+        strategy: next
+  category: browser
+  priority: 1
+  capabilities:
+    browser_name: Avant Browser
+    browser_vendor_name: Avant Force
+
+-
+  conditions:
+     -
+        type: text
+        value: avant
+        strategy: line
+     -
+        type: text
+        value: tricore
+        strategy: line
+  category: browser
+  priority: 1
+  capabilities:
+    browser_name: Avant Browser
+    browser_vendor_name: Avant Force

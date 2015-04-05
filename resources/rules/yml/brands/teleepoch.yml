@@ -1,9 +1,0 @@
--
-    patterns:
-        -
-            strategy: string
-            value: PMI920
-    capabilities:
-        is_mobile: true
-        brand_vendor: TeleEpoch
-        brand_model: PMI920

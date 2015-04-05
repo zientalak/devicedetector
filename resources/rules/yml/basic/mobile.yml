@@ -1,9 +1,0 @@
--
-  patterns:
-     -
-        strategy: regex
-        value: "#mobile|mobi|android|up.browser|phone|opera mini|opera mobi|sonyericsson|blackberry|netfront|uc browser|symbian|j2me|wap2.|up.link|windows ce|windows me|vodafone|ucweb|ipad|ipod|docomo|armv|maemo|palm|bolt|fennec|wireless|adr-|zunewp7|skyfire|silk|untrusted|lgtelecom| gt-|ventana|tablet|IEMobile|tizen#is"
-  category: mobile
-  capabilities:
-      is_mobile: true
-      is_desktop: false

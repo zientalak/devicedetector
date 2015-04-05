@@ -1,0 +1,20 @@
+-
+  conditions:
+     -
+        type: text
+        value: edge
+        strategy: next
+     -
+        type: text
+        value: /
+        strategy: next
+     -
+        type: placeholder
+        value: ~
+        capabilities: [browser_version]
+        strategy: next
+  category: browser
+  priority: 3
+  capabilities:
+    browser_name: Microsoft Edge
+    browser_vendor_name: Microsoft

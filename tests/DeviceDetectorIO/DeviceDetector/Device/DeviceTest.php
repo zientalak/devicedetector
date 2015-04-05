@@ -6,6 +6,10 @@ use DeviceDetectorIO\DeviceDetector\Capabilities;
 use DeviceDetectorIO\DeviceDetector\Device\CacheDevice;
 use DeviceDetectorIO\DeviceDetector\Device\Device;
 
+/**
+ * Class DeviceTest
+ * @package DeviceDetectorIO\DeviceDetector\Tests\Device
+ */
 class DeviceTest extends \PHPUnit_Framework_TestCase
 {
     /**

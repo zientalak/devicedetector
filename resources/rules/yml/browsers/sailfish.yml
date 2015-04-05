@@ -1,0 +1,78 @@
+#Sailfish
+-
+  conditions:
+     -
+        type: text
+        value: sailfish
+        strategy: next
+     -
+        type: space
+        value: ~
+        strategy: next
+     -
+        type: text
+        value: browser
+        strategy: next
+     -
+        type: text
+        value: /
+        strategy: next
+     -
+        type: placeholder
+        value: ~
+        capabilities: [browser_version]
+        strategy: next
+  category: browser
+  priority: 1
+  capabilities:
+    browser_name: Sailfish Browser
+    browser_vendor_name: Sailfish
+
+-
+  conditions:
+     -
+        type: text
+        value: sailfishbrowser
+        strategy: next
+     -
+        type: text
+        value: /
+        strategy: next
+     -
+        type: placeholder
+        value: ~
+        capabilities: [browser_version]
+        strategy: next
+  category: browser
+  priority: 1
+  capabilities:
+    browser_name: Sailfish Browser
+    browser_vendor_name: Sailfish
+
+-
+  conditions:
+     -
+        type: text
+        value: sailfishbrowser
+        strategy: next
+     -
+        type: space
+        value: ~
+        strategy: next
+     -
+        type: text
+        value: like
+        strategy: next
+     -
+        type: space
+        value: ~
+        strategy: next
+     -
+        type: text
+        value: safari
+        strategy: next
+  category: browser
+  priority: 1
+  capabilities:
+    browser_name: Sailfish Browser
+    browser_vendor_name: Sailfish

@@ -7,6 +7,10 @@ use DeviceDetectorIO\DeviceDetector\UserAgent\UserAgentTokenizer;
 use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
 
+/**
+ * Class UserAgentTokenizedTokenSpec
+ * @package spec\DeviceDetectorIO\DeviceDetector\Token
+ */
 class UserAgentTokenizedTokenSpec extends ObjectBehavior
 {
     function let(UserAgentToken $token, UserAgentTokenizer $tokenizer)
@@ -26,13 +30,15 @@ class UserAgentTokenizedTokenSpec extends ObjectBehavior
 
     function it_return_tokens(UserAgentToken $token, UserAgentTokenizer $tokenizer)
     {
+        $userAgent = 'Mozilla/5.0 (Linux; U; Android 1.0; en-us; generic) AppleWebKit/525.10 (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2';
+
         $token
             ->getData()
-            ->shouldBeCalledTimes(1)
-            ->willReturn($this->create_useragent());
+            ->shouldBeCalledTimes(2)
+            ->willReturn($userAgent);
 
         $tokenizer
-            ->tokenize(Argument::exact($this->create_useragent()))
+            ->tokenize(Argument::exact($userAgent))
             ->shouldBeCalledTimes(1)
             ->willReturn(array('mozilla', 'linux'));
 
@@ -40,10 +46,35 @@ class UserAgentTokenizedTokenSpec extends ObjectBehavior
 
         $this->getData()->shouldReturn(array('mozilla', 'linux'));
         $this->getData()->shouldReturn(array('mozilla', 'linux'));
+
+        $this->__toString()->shouldReturn($userAgent);
     }
 
-    private function create_useragent()
+    function it_is_serializable(UserAgentTokenizer $tokenizer)
     {
-        return 'Mozilla/5.0 (Linux; U; Android 1.0; en-us; generic) AppleWebKit/525.10 (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2';
+        $userAgent = 'Mozilla/5.0 (Linux; U; Android 1.0; en-us; generic) AppleWebKit/525.10 (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2';
+
+        $tokenizer
+            ->tokenize(Argument::exact($userAgent))
+            ->shouldBeCalledTimes(1)
+            ->willReturn(array('mozilla', 'linux'));
+
+        $token = new UserAgentToken($userAgent);
+        $this->beConstructedWith($token, $tokenizer);
+
+        $this->serialize()->shouldReturn(serialize(
+            array(
+                'tokens' => array('mozilla', 'linux'),
+                'token' => $token
+            )
+        ));
+
+        $data = array(
+            'tokens' => array('mozilla', 'windows'),
+            'token' => $token
+        );
+        $this->unserialize(serialize($data));
+
+        $this->getData()->shouldReturn($data['tokens']);
     }
 }

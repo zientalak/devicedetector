@@ -6,39 +6,33 @@ namespace DeviceDetectorIO\DeviceDetector\Token;
  * Interface TokenPoolInterface
  * @package DeviceDetectorIO\DeviceDetector\Token
  */
-interface TokenPoolInterface extends \Countable
+interface TokenPoolInterface extends \IteratorAggregate, \Countable
 {
     /**
      * @return \Iterator
      */
-    public function getTokens();
-
-    /**
-     * @param array $tokens
-     * @return self
-     */
-    public function setTokens(array $tokens);
-
-    /**
-     * @param TokenInterface $token
-     * @return self
-     */
-    public function addToken(TokenInterface $token);
+    public function getPool();
 
     /**
      * @param TokenInterface $token
      * @return boolean
      */
-    public function hasToken(TokenInterface $token);
+    public function add(TokenInterface $token);
 
     /**
      * @param TokenInterface $token
-     * @return self
+     * @return boolean
      */
-    public function removeToken(TokenInterface $token);
+    public function has(TokenInterface $token);
 
     /**
-     * @return self
+     * @param TokenInterface $token
+     * @return boolean
      */
-    public function clear();
+    public function remove(TokenInterface $token);
+
+    /**
+     * @return boolean
+     */
+    public function removeAll();
 }

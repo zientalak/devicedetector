@@ -1,0 +1,11 @@
+-
+    useragent: Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; en; rv:1.8.1.4pre) Gecko/20070511 Camino/1.6pre
+    capabilities:
+        browser_name: Camino
+        browser_vendor_name: The Camino Project
+        browser_version: '1.6pre'
+        is_mobile: false
+        is_desktop: true
+        is_console: false
+        is_bot: false
+        is_smarttv: false
