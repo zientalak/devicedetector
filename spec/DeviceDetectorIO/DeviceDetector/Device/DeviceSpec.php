@@ -6,6 +6,10 @@ use DeviceDetectorIO\DeviceDetector\Capabilities;
 use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
 
+/**
+ * Class DeviceSpec
+ * @package spec\DeviceDetectorIO\DeviceDetector\Device
+ */
 class DeviceSpec extends ObjectBehavior
 {
     function let()
@@ -28,28 +32,21 @@ class DeviceSpec extends ObjectBehavior
         $this->isValid()->shouldReturn(true);
     }
 
-    function it_is_mobile()
+    function it_return_capabilities()
     {
         $this->isMobile()->shouldReturn(true);
         $this->getCapability(Capabilities::IS_MOBILE)->shouldReturn(true);
-    }
 
-    function it_is_not_robot()
-    {
         $this->isRobot()->shouldReturn(false);
         $this->getCapability(Capabilities::IS_BOT)->shouldReturn(null);
-    }
 
-    function it_is_windows_os()
-    {
         $this->getOS()->shouldReturn(Capabilities::OS_WINDOWS);
         $this->getCapability(Capabilities::OS)->shouldReturn(Capabilities::OS_WINDOWS);
-    }
 
-    function it_is_windows8()
-    {
         $this->getOSVersion()->shouldReturn('8');
         $this->getCapability(Capabilities::OS_VERSION)->shouldReturn('8');
+
+        $this->getCapabilities()->shouldReturn($this->createCapabilities());
     }
 
     function it_has_capability()
@@ -58,14 +55,18 @@ class DeviceSpec extends ObjectBehavior
         $this->hasCapability(Capabilities::IS_OSX)->shouldReturn(false);
     }
 
-    function it_return_capabilities()
-    {
-        $this->getCapabilities()->shouldReturn($this->createCapabilities());
-    }
-
     function it_throw_exception()
     {
         $this->shouldThrow('\BadMethodCallException')->during('throwMeNow');
+    }
+
+    function it_is_serializable()
+    {
+        $this->serialize()->shouldReturn(serialize($this->createCapabilities()));
+
+        $capabilities = array(Capabilities::BROWSER => Capabilities::BROWSER_CHROME);
+        $this->unserialize(serialize($capabilities));
+        $this->getCapabilities()->shouldReturn($capabilities);
     }
 
     /**

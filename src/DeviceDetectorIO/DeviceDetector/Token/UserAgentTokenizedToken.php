@@ -2,7 +2,6 @@
 
 namespace DeviceDetectorIO\DeviceDetector\Token;
 
-use DeviceDetectorIO\DeviceDetector\UserAgent\UserAgentTokenizer;
 use DeviceDetectorIO\DeviceDetector\UserAgent\UserAgentTokenizerInterface;
 
 /**
@@ -28,9 +27,9 @@ class UserAgentTokenizedToken implements TokenInterface
 
     /**
      * @param UserAgentToken $token
-     * @param UserAgentTokenizer $tokenizer
+     * @param UserAgentTokenizerInterface $tokenizer
      */
-    public function __construct(UserAgentToken $token, UserAgentTokenizer $tokenizer)
+    public function __construct(UserAgentToken $token, UserAgentTokenizerInterface $tokenizer)
     {
         $this->token = $token;
         $this->tokenizer = $tokenizer;
@@ -42,7 +41,9 @@ class UserAgentTokenizedToken implements TokenInterface
     public function getData()
     {
         if (null === $this->tokens) {
-            $this->tokens = $this->tokenizer->tokenize($this->token->getData());
+            $this->tokens = $this->tokenizer->tokenize(
+                $this->token->getData()
+            );
         }
 
         return $this->tokens;
@@ -50,22 +51,26 @@ class UserAgentTokenizedToken implements TokenInterface
 
     /**
      * {@inheritdoc}
-     * @codeCoverageIgnore
      */
     public function serialize()
     {
         $this->getData();
 
-        return serialize($this->tokens);
+        return serialize(array(
+            'tokens' => $this->tokens,
+            'token' => $this->token
+        ));
     }
 
     /**
      * {@inheritdoc}
-     * @codeCoverageIgnore
      */
     public function unserialize($serialized)
     {
-        $this->tokens = unserialize($serialized);
+        $data = unserialize($serialized);
+
+        $this->token = $data['token'];
+        $this->tokens = $data['tokens'];
     }
 
     /**

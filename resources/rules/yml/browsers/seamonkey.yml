@@ -1,0 +1,20 @@
+-
+  conditions:
+     -
+        type: text
+        value: seamonkey
+        strategy: next
+     -
+        type: text
+        value: /
+        strategy: next
+     -
+        type: placeholder
+        value: ~
+        capabilities: [browser_version]
+        strategy: next
+  category: browser
+  priority: 1
+  capabilities:
+    browser_name: SeaMonkey
+    browser_vendor_name: SeaMonkey Council

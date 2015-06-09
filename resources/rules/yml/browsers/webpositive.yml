@@ -1,0 +1,20 @@
+-
+  conditions:
+     -
+        type: text
+        value: webpositive
+        strategy: next
+     -
+        type: text
+        value: /
+        strategy: next
+     -
+        type: placeholder
+        value: ~
+        capabilities: [browser_version]
+        strategy: next
+  category: browser
+  priority: 1
+  capabilities:
+    browser_name: WebPositive
+    browser_vendor_name: Haiku Inc.

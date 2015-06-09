@@ -2,11 +2,15 @@
 
 namespace spec\DeviceDetectorIO\DeviceDetector\Cache;
 
-use Doctrine\Common\Cache\Cache;
 use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
 use Doctrine\Common\Cache\ArrayCache;
+use Doctrine\Common\Cache\Cache;
 
+/**
+ * Class DoctrineCacheBridgeSpec
+ * @package spec\DeviceDetectorIO\DeviceDetector\Cache
+ */
 class DoctrineCacheBridgeSpec extends ObjectBehavior
 {
     function let()

@@ -1,0 +1,20 @@
+-
+  conditions:
+     -
+        type: text
+        value: camino
+        strategy: next
+     -
+        type: text
+        value: /
+        strategy: next
+     -
+        type: placeholder
+        value: ~
+        capabilities: [browser_version]
+        strategy: next
+  category: browser
+  priority: 1
+  capabilities:
+    browser_name: Camino
+    browser_vendor_name: The Camino Project

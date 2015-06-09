@@ -2,19 +2,22 @@
 
 namespace spec\DeviceDetectorIO\DeviceDetector\Detector;
 
-use DeviceDetectorIO\DeviceDetector\Collector\Collector;
-use DeviceDetectorIO\DeviceDetector\Collector\CollectorInterface;
-use DeviceDetectorIO\DeviceDetector\Token\TokenPool;
-use DeviceDetectorIO\DeviceDetector\Token\TokenPoolInterface;
-use DeviceDetectorIO\DeviceDetector\VisitorManager\VisitorManager;
 use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
+use DeviceDetectorIO\DeviceDetector\Capability\CollatorInterface;
+use DeviceDetectorIO\DeviceDetector\Token\TokenPoolInterface;
+use DeviceDetectorIO\DeviceDetector\Visitor\VisitorInterface;
+use DeviceDetectorIO\DeviceDetector\VisitorManager\VisitorManagerInterface;
 
+/**
+ * Class DeviceDetectorSpec
+ * @package spec\DeviceDetectorIO\DeviceDetector\Detector
+ */
 class DeviceDetectorSpec extends ObjectBehavior
 {
-    function let(VisitorManager $visitorManager, TokenPool $tokenPool, Collector $collector)
+    function let(VisitorManagerInterface $visitorManager, CollatorInterface $collator)
     {
-        $this->beConstructedWith($visitorManager, $tokenPool, $collector);
+        $this->beConstructedWith($visitorManager, $collator);
     }
 
     function it_is_initializable()
@@ -27,34 +30,25 @@ class DeviceDetectorSpec extends ObjectBehavior
         $this->shouldImplement('DeviceDetectorIO\DeviceDetector\Detector\DeviceDetectorInterface');
     }
 
-    function it_detect_device(VisitorManager $visitorManager, TokenPool $tokenPool, Collector $collector)
-    {
-        $this->init_collector($collector);
-        $this->init_visitor_manager(
-            $visitorManager,
-            $tokenPool->getWrappedObject(),
-            $collector->getWrappedObject()
-        );
-
-        $this->detect()->shouldReturnAnInstanceOf('DeviceDetectorIO\DeviceDetector\Device\Device');
-    }
-
-    private function init_visitor_manager(
-        VisitorManager $visitorManager,
+    function it_detect_device(
         TokenPoolInterface $tokenPool,
-        CollectorInterface $collector
+        CollatorInterface $collator,
+        VisitorManagerInterface $visitorManager
     ) {
+
         $visitorManager
             ->visit(
-                Argument::exact($tokenPool),
-                Argument::exact($collector)
+                Argument::exact($tokenPool->getWrappedObject()),
+                Argument::exact($collator->getWrappedObject())
             )
-            ->shouldBeCalledTimes(1);
-    }
+            ->shouldBeCalledTimes(1)
+            ->willReturn(VisitorInterface::STATE_SEEKING);
 
-    private function init_collector(Collector $collector)
-    {
-        $collector->clear()->shouldBeCalledTimes(1);
-        $collector->getCapabilities()->shouldBeCalledTimes(1)->willReturn(array());
+        $collator->removeAll()->shouldBeCalledTimes(1);
+        $collator->getAll()->shouldBeCalledTimes(1)->willReturn(array());
+
+        $this->beConstructedWith($visitorManager, $collator);
+
+        $this->detect($tokenPool)->shouldReturnAnInstanceOf('DeviceDetectorIO\DeviceDetector\Device\Device');
     }
 }

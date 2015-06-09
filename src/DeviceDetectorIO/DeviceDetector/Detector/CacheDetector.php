@@ -2,9 +2,10 @@
 
 namespace DeviceDetectorIO\DeviceDetector\Detector;
 
-use DeviceDetectorIO\DeviceDetector\CacheProvider\CacheProviderInterface;
+use DeviceDetectorIO\DeviceDetector\DeviceCache\DeviceCacheInterface;
 use DeviceDetectorIO\DeviceDetector\Device\CacheDevice;
 use DeviceDetectorIO\DeviceDetector\Fingerprint\FingerprintGeneratorInterface;
+use DeviceDetectorIO\DeviceDetector\Token\TokenPoolInterface;
 
 /**
  * Class CacheDetector
@@ -13,9 +14,9 @@ use DeviceDetectorIO\DeviceDetector\Fingerprint\FingerprintGeneratorInterface;
 final class CacheDetector extends DeviceDetector
 {
     /**
-     * @var CacheProviderInterface
+     * @var DeviceCacheInterface
      */
-    private $cacheProvider;
+    private $deviceCache;
 
     /**
      * @var FingerprintGeneratorInterface
@@ -34,12 +35,12 @@ final class CacheDetector extends DeviceDetector
     }
 
     /**
-     * @param CacheProviderInterface $cacheProvider
+     * @param DeviceCacheInterface $deviceCache
      * @return self
      */
-    public function setCacheProvider(CacheProviderInterface $cacheProvider)
+    public function setDeviceCache(DeviceCacheInterface $deviceCache)
     {
-        $this->cacheProvider = $cacheProvider;
+        $this->deviceCache = $deviceCache;
 
         return $this;
     }
@@ -47,17 +48,17 @@ final class CacheDetector extends DeviceDetector
     /**
      * {@inheritdoc}
      */
-    public function detect()
+    public function detect(TokenPoolInterface $tokenPool)
     {
-        $fingerprint = $this->fingerprintGenerator->getFingerprint($this->tokenPool);
+        $fingerprint = $this->fingerprintGenerator->generate($tokenPool);
 
-        $device = $this->cacheProvider->getDevice($fingerprint);
+        $device = $this->deviceCache->get($fingerprint);
         if (false !== $device) {
             return $device;
         }
 
-        $device = new CacheDevice(parent::detect(), $fingerprint);
-        $this->cacheProvider->addDevice($device);
+        $device = new CacheDevice(parent::detect($tokenPool), $fingerprint);
+        $this->deviceCache->add($device);
 
         return $device;
     }

@@ -1,0 +1,71 @@
+-
+  conditions:
+     -
+        type: text
+        value: firefox
+        strategy: next
+     -
+        type: text
+        value: /
+        strategy: next
+     -
+        type: placeholder
+        value: ~
+        strategy: next
+     -
+        type: space
+        value: ~
+        strategy: next
+     -
+        type: text
+        value: tablet
+        strategy: next
+     -
+        type: space
+        value: ~
+        strategy: next
+     -
+        type: text
+        value: browser
+        strategy: next
+  category: browser
+  priority: 1
+  capabilities:
+    browser_name: MicroB
+    browser_vendor_name: Maemo Project
+
+-
+  conditions:
+     -
+        type: text
+        value: firefox
+        strategy: next
+     -
+        type: text
+        value: /
+        strategy: next
+     -
+        type: placeholder
+        value: ~
+        strategy: next
+     -
+        type: space
+        value: ~
+        strategy: next
+     -
+        type: text
+        value: maemo
+        strategy: next
+     -
+        type: space
+        value: ~
+        strategy: next
+     -
+        type: text
+        value: browser
+        strategy: next
+  category: browser
+  priority: 1
+  capabilities:
+    browser_name: MicroB
+    browser_vendor_name: Maemo Project

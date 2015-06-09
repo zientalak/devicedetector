@@ -33,7 +33,7 @@ class GenericGenerator implements FingerprintGeneratorInterface
     /**
      * {@inheritDoc)
      */
-    public function getFingerprint(TokenPoolInterface $tokenPool)
+    public function generate(TokenPoolInterface $tokenPool)
     {
         if (!$tokenPool->count()) {
             throw new \LogicException("Generate fingerprint on empty token pool it's not possible.");
@@ -42,7 +42,7 @@ class GenericGenerator implements FingerprintGeneratorInterface
         $hashContext = hash_init($this->algorithm);
 
         /** @var $token TokenInterface */
-        foreach ($tokenPool->getTokens() as $token) {
+        foreach ($tokenPool as $token) {
             hash_update($hashContext, serialize($token));
         }
 

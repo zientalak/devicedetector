@@ -7,6 +7,10 @@ use DeviceDetectorIO\DeviceDetector\Device\Device;
 use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
 
+/**
+ * Class CacheDeviceSpec
+ * @package spec\DeviceDetectorIO\DeviceDetector\Device
+ */
 class CacheDeviceSpec extends ObjectBehavior
 {
     function let()
@@ -29,30 +33,6 @@ class CacheDeviceSpec extends ObjectBehavior
         $this->isValid()->shouldReturn(true);
     }
 
-    function it_is_mobile()
-    {
-        $this->isMobile()->shouldReturn(true);
-        $this->getCapability(Capabilities::IS_MOBILE)->shouldReturn(true);
-    }
-
-    function it_is_not_robot()
-    {
-        $this->isRobot()->shouldReturn(false);
-        $this->getCapability(Capabilities::IS_BOT)->shouldReturn(null);
-    }
-
-    function it_is_windows_os()
-    {
-        $this->getOS()->shouldReturn(Capabilities::OS_WINDOWS);
-        $this->getCapability(Capabilities::OS)->shouldReturn(Capabilities::OS_WINDOWS);
-    }
-
-    function it_is_windows8()
-    {
-        $this->getOSVersion()->shouldReturn('8');
-        $this->getCapability(Capabilities::OS_VERSION)->shouldReturn('8');
-    }
-
     function it_has_capability()
     {
         $this->hasCapability(Capabilities::BROWSER)->shouldReturn(true);
@@ -61,6 +41,20 @@ class CacheDeviceSpec extends ObjectBehavior
 
     function it_return_capabilities()
     {
+        $this->isMobile()->shouldReturn(true);
+        $this->getCapability(Capabilities::IS_MOBILE)->shouldReturn(true);
+
+        $this->isRobot()->shouldReturn(false);
+        $this->getCapability(Capabilities::IS_BOT)->shouldReturn(null);
+
+        $this->getOS()->shouldReturn(Capabilities::OS_WINDOWS);
+        $this->getCapability(Capabilities::OS)->shouldReturn(Capabilities::OS_WINDOWS);
+
+        $this->getOSVersion()->shouldReturn('8');
+        $this->getCapability(Capabilities::OS_VERSION)->shouldReturn('8');
+
+        $this->getCapabilities()->shouldReturn($this->createCapabilities());
+
         $this->getCapabilities()->shouldReturn($this->createCapabilities());
     }
 
@@ -72,6 +66,26 @@ class CacheDeviceSpec extends ObjectBehavior
     function it_return_fingerprint()
     {
         $this->getFingerprint()->shouldReturn(sha1(1));
+    }
+
+    function it_is_serializable()
+    {
+        $this->serialize()->shouldReturn(
+            serialize(
+                array(
+                    'fingerprint' => sha1(1),
+                    'device' => new Device($this->createCapabilities())
+                )
+            )
+        );
+
+        $data = array(
+            'fingerprint' => sha1(2),
+            'device' => new Device(array(Capabilities::BROWSER => Capabilities::BROWSER_CHROME))
+        );
+        $this->unserialize(serialize($data));
+        $this->getCapabilities()->shouldReturn(array(Capabilities::BROWSER => Capabilities::BROWSER_CHROME));
+        $this->getFingerprint()->shouldReturn($data['fingerprint']);
     }
 
     /**

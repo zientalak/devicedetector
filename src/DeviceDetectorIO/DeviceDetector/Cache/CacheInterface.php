@@ -2,6 +2,10 @@
 
 namespace DeviceDetectorIO\DeviceDetector\Cache;
 
+/**
+ * Interface CacheInterface
+ * @package DeviceDetectorIO\DeviceDetector\Cache
+ */
 interface CacheInterface
 {
     const LIFETIME_DAY = 86400;
@@ -10,7 +14,7 @@ interface CacheInterface
      * Fetch an entry from the cache.
      *
      * @param string $id
-     * @return mixed
+     * @return mixed|false
      */
     public function get($id);
 
@@ -18,7 +22,7 @@ interface CacheInterface
      * Tests if an entry exists in the cache.
      *
      * @param string $id
-     * @return mixed
+     * @return boolean
      */
     public function has($id);
 

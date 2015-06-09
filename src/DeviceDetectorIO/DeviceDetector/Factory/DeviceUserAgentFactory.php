@@ -3,16 +3,23 @@
 namespace DeviceDetectorIO\DeviceDetector\Factory;
 
 use DeviceDetectorIO\DeviceDetector\Cache\CacheInterface;
-use DeviceDetectorIO\DeviceDetector\CacheProvider\GenericProvider;
-use DeviceDetectorIO\DeviceDetector\Collector\Collector;
+use DeviceDetectorIO\DeviceDetector\Capability\Collator;
 use DeviceDetectorIO\DeviceDetector\Detector\CacheDetector;
 use DeviceDetectorIO\DeviceDetector\Detector\DeviceDetectorInterface;
+use DeviceDetectorIO\DeviceDetector\DeviceCache\GenericDeviceCache;
 use DeviceDetectorIO\DeviceDetector\Fingerprint\GenericGenerator;
-use DeviceDetectorIO\DeviceDetector\MatchingStrategy\MatchingStrategyChain;
-use DeviceDetectorIO\DeviceDetector\MatchingStrategy\RegexMatchingStrategy;
-use DeviceDetectorIO\DeviceDetector\MatchingStrategy\StringMatchingStrategy;
-use DeviceDetectorIO\DeviceDetector\Rule\CacheRepository;
-use DeviceDetectorIO\DeviceDetector\Rule\JsonRepository;
+use DeviceDetectorIO\DeviceDetector\Rule\ConditionEvaluator\RegexEvaluator;
+use DeviceDetectorIO\DeviceDetector\Rule\ConditionEvaluator\Resolver\Resolver;
+use DeviceDetectorIO\DeviceDetector\Rule\ConditionEvaluator\StrposEvalulator;
+use DeviceDetectorIO\DeviceDetector\Rule\Comparer\TypeAndValueComparer;
+use DeviceDetectorIO\DeviceDetector\Rule\Incrementation\Incrementation;
+use DeviceDetectorIO\DeviceDetector\Rule\Matcher\IndexableMatcher;
+use DeviceDetectorIO\DeviceDetector\Rule\Matcher\NonIndexableMatcher;
+use DeviceDetectorIO\DeviceDetector\Rule\OccurrencesAnalyser\DynamicCapabilitiesProcessor;
+use DeviceDetectorIO\DeviceDetector\Rule\OccurrencesAnalyser\OccurrencesAnalyser;
+use DeviceDetectorIO\DeviceDetector\Rule\OccurrencesFinder\Finder;
+use DeviceDetectorIO\DeviceDetector\Rule\Repository\PHPRepository;
+use DeviceDetectorIO\DeviceDetector\Rule\Repository\RepositoryInterface;
 use DeviceDetectorIO\DeviceDetector\Token\TokenPool;
 use DeviceDetectorIO\DeviceDetector\Token\TokenPoolInterface;
 use DeviceDetectorIO\DeviceDetector\Token\UserAgentToken;
@@ -43,6 +50,11 @@ class DeviceUserAgentFactory implements DeviceUserAgentFactoryInterface
     protected $cache;
 
     /**
+     * @var RepositoryInterface
+     */
+    protected $repository;
+
+    /**
      * @param CacheInterface $cache
      */
     public function __construct(CacheInterface $cache = null)
@@ -54,13 +66,12 @@ class DeviceUserAgentFactory implements DeviceUserAgentFactoryInterface
 
         $this->deviceDetector = new $detectorClass(
             $this->createVisitorManager(),
-            $this->tokenPool,
-            new Collector()
+            new Collator()
         );
 
         if (null !== $this->deviceDetector && $this->deviceDetector instanceof CacheDetector) {
             $this->deviceDetector->setFingerprintGenerator(new GenericGenerator())
-                ->setCacheProvider(new GenericProvider($this->cache));
+                ->setDeviceCache(new GenericDeviceCache($this->cache));
         }
     }
 
@@ -69,17 +80,15 @@ class DeviceUserAgentFactory implements DeviceUserAgentFactoryInterface
      */
     public function getDevice($userAgent)
     {
-        $userAgentToken = new UserAgentToken($userAgent);
         $userAgentTokenizedToken = new UserAgentTokenizedToken(
-            $userAgentToken,
+            new UserAgentToken($userAgent),
             new UserAgentTokenizer()
         );
 
-        $this->tokenPool->clear();
-        $this->tokenPool->addToken($userAgentTokenizedToken);
-        $this->tokenPool->addToken($userAgentToken);
+        $this->tokenPool->removeAll();
+        $this->tokenPool->add($userAgentTokenizedToken);
 
-        return $this->deviceDetector->detect();
+        return $this->deviceDetector->detect($this->tokenPool);
     }
 
     /**
@@ -88,64 +97,64 @@ class DeviceUserAgentFactory implements DeviceUserAgentFactoryInterface
     private function createVisitorManager()
     {
         $visitorManager = new VisitorManager();
-        $visitorManager->addVisitor(
-            $this->createRepositoryVisitor(
-                __DIR__ . '/../../../../resources/rules/json/basic.json'
+        $visitorManager->add(
+            $this->createIndexableVisitor(
+                __DIR__.'/../../../../resources/rules/php/rules.data'
             ),
-            250
+            255
         );
-        $visitorManager->addVisitor(new Visitor\Apple\OSXVisitor());
-        $visitorManager->addVisitor(new Visitor\Apple\IPadVisitor());
-        $visitorManager->addVisitor(new Visitor\Apple\IPhoneVisitor());
-        $visitorManager->addVisitor(new Visitor\Apple\IPodTouchVisitor());
-        $visitorManager->addVisitor(new Visitor\OS\AndroidReleaseVisitor(), 1);
-        $visitorManager->addVisitor(
-            $this->createRepositoryVisitor(
-                __DIR__ . '/../../../../resources/rules/json/brands.json'
+        $visitorManager->add(
+            $this->createNonIndexableVisitor(
+                __DIR__.'/../../../../resources/rules/php/rules.data'
             ),
-            -254
+            254
         );
-        $visitorManager->addVisitor(new Visitor\EndPointVisitor(), -255);
+
+        $visitorManager->add(new Visitor\EndPointVisitor(), -255);
 
         return $visitorManager;
     }
 
+    private function createNonIndexableVisitor($path)
+    {
+        $resolver = new Resolver();
+        $resolver->add(new RegexEvaluator());
+        $resolver->add(new StrposEvalulator());
+
+        $matcher = new NonIndexableMatcher(
+            $this->createRepository($path),
+            $resolver
+        );
+
+        return new Visitor\RulesVisitor($matcher);
+    }
+
+    private function createIndexableVisitor($path)
+    {
+        $finder = new Finder(
+            $this->createRepository($path),
+            new TypeAndValueComparer()
+        );
+
+        $matcher = new IndexableMatcher(
+            $finder,
+            new OccurrencesAnalyser(new Incrementation(), new DynamicCapabilitiesProcessor())
+        );
+
+        return new Visitor\RulesVisitor($matcher);
+    }
+
     /**
      * @param string $path
-     * @return JsonRepository
+     * @return PHPRepository
      */
     private function createRepository($path)
     {
-        $repository = new JsonRepository();
-        $repository->setFilePath($path);
-
-        if (null !== $this->cache) {
-            $cacheRepository = new CacheRepository($repository, $this->cache);
-            $cacheRepository->setCacheKey('BasicRules');
-
-            return $cacheRepository;
+        if (is_null($this->repository)) {
+            $this->repository = new PHPRepository();
+            $this->repository->setFilePath($path);
         }
 
-        return $repository;
-    }
-
-    /**
-     * @return MatchingStrategyChain
-     */
-    private function createMatchingStrategy()
-    {
-        $strategyChain = new MatchingStrategyChain();
-        $strategyChain->addStrategy(new RegexMatchingStrategy());
-        $strategyChain->addStrategy(new StringMatchingStrategy());
-
-        return $strategyChain;
-    }
-
-    private function createRepositoryVisitor($path)
-    {
-        return new Visitor\RepositoryVisitor(
-            $this->createRepository($path),
-            $this->createMatchingStrategy()
-        );
+        return $this->repository;
     }
 }

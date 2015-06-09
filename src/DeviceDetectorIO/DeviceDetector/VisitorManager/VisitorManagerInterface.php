@@ -2,7 +2,7 @@
 
 namespace DeviceDetectorIO\DeviceDetector\VisitorManager;
 
-use DeviceDetectorIO\DeviceDetector\Collector\CollectorInterface;
+use DeviceDetectorIO\DeviceDetector\Capability\CollatorInterface;
 use DeviceDetectorIO\DeviceDetector\Token\TokenPoolInterface;
 use DeviceDetectorIO\DeviceDetector\Visitor\VisitorInterface;
 
@@ -10,41 +10,41 @@ use DeviceDetectorIO\DeviceDetector\Visitor\VisitorInterface;
  * Interface VisitorManagerInterface
  * @package DeviceDetectorIO\DeviceDetector\VisitorManager
  */
-interface VisitorManagerInterface
+interface VisitorManagerInterface extends \IteratorAggregate
 {
     /**
      * @param VisitorInterface $visitor
      * @param int $priority
-     * @return self
+     * @return boolean
      */
-    public function addVisitor(VisitorInterface $visitor, $priority = 0);
+    public function add(VisitorInterface $visitor, $priority = 0);
 
     /**
      * @param VisitorInterface $visitor
      * @return boolean
      */
-    public function hasVisitor(VisitorInterface $visitor);
+    public function has(VisitorInterface $visitor);
 
     /**
      * @param VisitorInterface $visitor
-     * @return self
+     * @return boolean
      */
-    public function removeVisitor(VisitorInterface $visitor);
+    public function remove(VisitorInterface $visitor);
 
     /**
-     * @return \Traversable|array
+     * @return boolean
+     */
+    public function removeAll();
+
+    /**
+     * @param TokenPoolInterface $pool
+     * @param CollatorInterface $collector
+     * @return self
+     */
+    public function visit(TokenPoolInterface $pool, CollatorInterface $collector);
+
+    /**
+     * @return \Iterator
      */
     public function getVisitors();
-
-    /**
-     * @return self
-     */
-    public function clear();
-
-    /**
-     * @param TokenPoolInterface $tokenPool
-     * @param CollectorInterface $context
-     * @return self
-     */
-    public function visit(TokenPoolInterface $tokenPool, CollectorInterface $context);
 }

@@ -2,7 +2,7 @@
 
 namespace DeviceDetectorIO\DeviceDetector\Detector;
 
-use DeviceDetectorIO\DeviceDetector\Collector\CollectorInterface;
+use DeviceDetectorIO\DeviceDetector\Capability\CollatorInterface;
 use DeviceDetectorIO\DeviceDetector\Device\Device;
 use DeviceDetectorIO\DeviceDetector\Token\TokenPoolInterface;
 use DeviceDetectorIO\DeviceDetector\VisitorManager\VisitorManagerInterface;
@@ -14,14 +14,9 @@ use DeviceDetectorIO\DeviceDetector\VisitorManager\VisitorManagerInterface;
 class DeviceDetector implements DeviceDetectorInterface
 {
     /**
-     * @var TokenPoolInterface
+     * @var CollatorInterface
      */
-    protected $tokenPool;
-
-    /**
-     * @var CollectorInterface
-     */
-    protected $collector;
+    protected $collator;
 
     /**
      * @var VisitorManagerInterface
@@ -30,39 +25,25 @@ class DeviceDetector implements DeviceDetectorInterface
 
     /**
      * @param VisitorManagerInterface $visitorManager
-     * @param TokenPoolInterface $tokenPool
-     * @param CollectorInterface $context
+     * @param CollatorInterface $collator
      */
     public function __construct(
         VisitorManagerInterface $visitorManager,
-        TokenPoolInterface $tokenPool,
-        CollectorInterface $context
+        CollatorInterface $collator
     ) {
         $this->visitorManager = $visitorManager;
-        $this->collector = $context;
-        $this->setTokenPool($tokenPool);
-    }
-
-    /**
-     * @param TokenPoolInterface $tokenPool
-     * @return self
-     */
-    public function setTokenPool(TokenPoolInterface $tokenPool)
-    {
-        $this->tokenPool = $tokenPool;
-
-        return $this;
+        $this->collator = $collator;
     }
 
     /**
      * {@inheritdoc}
      */
-    public function detect()
+    public function detect(TokenPoolInterface $tokenPool)
     {
-        $this->collector->clear();
+        $this->collator->removeAll();
 
-        $this->visitorManager->visit($this->tokenPool, $this->collector);
+        $this->visitorManager->visit($tokenPool, $this->collator);
 
-        return new Device($this->collector->getCapabilities());
+        return new Device($this->collator->getAll());
     }
 }

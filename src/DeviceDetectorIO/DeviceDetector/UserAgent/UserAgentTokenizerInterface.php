@@ -10,7 +10,7 @@ interface UserAgentTokenizerInterface
 {
     /**
      * @param string $userAgent
-     * @return array
+     * @return \Iterator<DeviceDetectorIO\DeviceDetector\Rule\Node\NodeInterface>
      */
     public function tokenize($userAgent);
 }

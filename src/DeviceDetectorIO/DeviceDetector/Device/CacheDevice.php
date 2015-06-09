@@ -86,15 +86,16 @@ final class CacheDevice implements DeviceInterface
      */
     public function unserialize($serialized)
     {
-        $unserialized = unserialize($serialized);
+        $data = unserialize($serialized);
 
-        $this->fingerprint = $unserialized['fingerprint'];
-        $this->device = $unserialized['device'];
+        $this->fingerprint = $data['fingerprint'];
+        $this->device = $data['device'];
     }
 
     /**
      * @param string $name
      * @param array $arguments
+     * @return mixed
      */
     public function __call($name, array $arguments)
     {

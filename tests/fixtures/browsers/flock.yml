@@ -1,0 +1,11 @@
+-
+    useragent: Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9.0.2) Gecko/2008092122 Firefox/3.0.2 Flock/2.0b3
+    capabilities:
+        browser_name: Flock
+        browser_vendor_name: Flock, Inc.
+        browser_version: '2.0b3'
+        is_mobile: false
+        is_desktop: true
+        is_console: false
+        is_bot: false
+        is_smarttv: false

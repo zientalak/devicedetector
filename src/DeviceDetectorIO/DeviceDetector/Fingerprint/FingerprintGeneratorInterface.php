@@ -10,10 +10,9 @@ use DeviceDetectorIO\DeviceDetector\Token\TokenPoolInterface;
  */
 interface FingerprintGeneratorInterface
 {
-
     /**
      * @param TokenPoolInterface $tokenPool
      * @return string
      */
-    public function getFingerprint(TokenPoolInterface $tokenPool);
+    public function generate(TokenPoolInterface $tokenPool);
 }

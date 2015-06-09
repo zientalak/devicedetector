@@ -2,23 +2,26 @@
 
 namespace spec\DeviceDetectorIO\DeviceDetector\Detector;
 
-use DeviceDetectorIO\DeviceDetector\CacheProvider\GenericProvider;
-use DeviceDetectorIO\DeviceDetector\Collector\Collector;
-use DeviceDetectorIO\DeviceDetector\Collector\CollectorInterface;
+use DeviceDetectorIO\DeviceDetector\Capability\CollatorInterface;
 use DeviceDetectorIO\DeviceDetector\Device\CacheDevice;
 use DeviceDetectorIO\DeviceDetector\Device\Device;
-use DeviceDetectorIO\DeviceDetector\Fingerprint\GenericGenerator;
-use DeviceDetectorIO\DeviceDetector\Token\TokenPool;
+use DeviceDetectorIO\DeviceDetector\DeviceCache\DeviceCacheInterface;
+use DeviceDetectorIO\DeviceDetector\Fingerprint\FingerprintGeneratorInterface;
 use DeviceDetectorIO\DeviceDetector\Token\TokenPoolInterface;
-use DeviceDetectorIO\DeviceDetector\VisitorManager\VisitorManager;
+use DeviceDetectorIO\DeviceDetector\Visitor\VisitorInterface;
+use DeviceDetectorIO\DeviceDetector\VisitorManager\VisitorManagerInterface;
 use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
 
+/**
+ * Class CacheDetectorSpec
+ * @package spec\DeviceDetectorIO\DeviceDetector\Detector
+ */
 class CacheDetectorSpec extends ObjectBehavior
 {
-    function let(VisitorManager $visitorManager, TokenPool $tokenPool, Collector $collector)
+    function let(VisitorManagerInterface $visitorManager, CollatorInterface $collator)
     {
-        $this->beConstructedWith($visitorManager, $tokenPool, $collector);
+        $this->beConstructedWith($visitorManager, $collator);
     }
 
     function it_is_initializable()
@@ -32,84 +35,89 @@ class CacheDetectorSpec extends ObjectBehavior
     }
 
     function it_detect_device_and_add_to_cache(
-        VisitorManager $visitorManager,
-        TokenPool $tokenPool,
-        Collector $collector,
-        GenericProvider $provider,
-        GenericGenerator $generator
+        VisitorManagerInterface $visitorManager,
+        TokenPoolInterface $tokenPool,
+        CollatorInterface $collator,
+        DeviceCacheInterface $deviceCache,
+        FingerprintGeneratorInterface $fingerprintGenerator
     ) {
-        $this->init_collector($collector);
-        $this->init_visitor_manager(
-            $visitorManager,
-            $tokenPool->getWrappedObject(),
-            $collector->getWrappedObject()
-        );
+        $this->beConstructedWith($visitorManager, $collator);
+
+        $visitorManager
+            ->visit(
+                Argument::exact($tokenPool->getWrappedObject()),
+                Argument::exact($collator->getWrappedObject())
+            )
+            ->shouldBeCalledTimes(1)
+            ->willReturn(VisitorInterface::STATE_SEEKING);
 
         $fingerprint = sha1(time());
 
-        $generator
-            ->getFingerprint(Argument::exact($tokenPool->getWrappedObject()))
+        $fingerprintGenerator
+            ->generate(Argument::exact($tokenPool->getWrappedObject()))
             ->shouldBeCalledTimes(1)
             ->willReturn($fingerprint);
 
-        $this->setFingerprintGenerator($generator);
+        $this->setFingerprintGenerator($fingerprintGenerator);
 
-        $provider
-            ->getDevice(Argument::exact($fingerprint))
+        $deviceCache
+            ->get(Argument::exact($fingerprint))
             ->shouldBeCalledTimes(1)
             ->willReturn(false);
 
-        $provider
-            ->addDevice(Argument::type('DeviceDetectorIO\DeviceDetector\Device\CacheDevice'))
+        $deviceCache
+            ->add(Argument::type('DeviceDetectorIO\DeviceDetector\Device\CacheDevice'))
             ->shouldBeCalledTimes(1)
             ->willReturn(true);
 
-        $this->setCacheProvider($provider);
+        $this->setDeviceCache($deviceCache);
 
-        $this->detect()->shouldReturnAnInstanceOf('DeviceDetectorIO\DeviceDetector\Device\CacheDevice');
+        $collator->removeAll()->shouldBeCalledTimes(1);
+        $collator->getAll()->shouldBeCalledTimes(1)->willReturn(array());
+
+        $this->detect($tokenPool)->shouldReturnAnInstanceOf('DeviceDetectorIO\DeviceDetector\Device\CacheDevice');
     }
 
     function it_detect_device_from_cache(
-        TokenPool $tokenPool,
-        GenericProvider $provider,
-        GenericGenerator $generator
+        VisitorManagerInterface $visitorManager,
+        TokenPoolInterface $tokenPool,
+        FingerprintGeneratorInterface $fingerprintGenerator,
+        CollatorInterface $collator,
+        DeviceCacheInterface $deviceCache
     ) {
+
+        $this->beConstructedWith($visitorManager, $collator);
+
+        $visitorManager
+            ->visit(
+                Argument::exact($tokenPool->getWrappedObject()),
+                Argument::exact($collator->getWrappedObject())
+            )
+            ->shouldNotBeCalled(1);
 
         $fingerprint = sha1(time());
 
-        $generator
-            ->getFingerprint(Argument::exact($tokenPool->getWrappedObject()))
+        $fingerprintGenerator
+            ->generate(Argument::exact($tokenPool->getWrappedObject()))
             ->shouldBeCalledTimes(1)
             ->willReturn($fingerprint);
 
-        $this->setFingerprintGenerator($generator);
+        $this->setFingerprintGenerator($fingerprintGenerator);
 
-        $provider
-            ->getDevice(Argument::exact($fingerprint))
+        $deviceCache
+            ->get(Argument::exact($fingerprint))
             ->shouldBeCalledTimes(1)
             ->willReturn(new CacheDevice(new Device(array()), $fingerprint));
 
-        $this->setCacheProvider($provider);
+        $deviceCache
+            ->add(Argument::any())
+            ->shouldNotBeCalled();
 
-        $this->detect()->shouldReturnAnInstanceOf('DeviceDetectorIO\DeviceDetector\Device\CacheDevice');
-    }
+        $this->setDeviceCache($deviceCache);
 
-    private function init_collector(Collector $collector)
-    {
-        $collector->clear()->shouldBeCalledTimes(1);
-        $collector->getCapabilities()->shouldBeCalledTimes(1)->willReturn(array());
-    }
+        $collator->removeAll()->shouldNotBeCalled(0);
+        $collator->getAll()->shouldNotBeCalled(0);
 
-    private function init_visitor_manager(
-        VisitorManager $visitorManager,
-        TokenPoolInterface $tokenPool,
-        CollectorInterface $collector
-    ) {
-        $visitorManager
-            ->visit(
-                Argument::exact($tokenPool),
-                Argument::exact($collector)
-            )
-            ->shouldBeCalledTimes(1);
+        $this->detect($tokenPool)->shouldReturnAnInstanceOf('DeviceDetectorIO\DeviceDetector\Device\CacheDevice');
     }
 }
