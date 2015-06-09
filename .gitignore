@@ -32,7 +32,7 @@ build/
 vendor/
 phpunit.xml
 phpspec.yml
-composer.lock
+#composer.lock
 composer.phar
 coverage.clover
 ocular.phar

@@ -19,7 +19,7 @@ class UserAgentTokenizer implements UserAgentTokenizerInterface
         foreach ($this->getTokens($userAgent) as $position => $token) {
             $token = trim($token);
             $iterator->push(
-                new Node($token, $this->resolveType($token), $position)
+                new Node($token, $position, $this->resolveType($token))
             );
         }
 

@@ -30,7 +30,7 @@ class PHPRepositorySpec extends ObjectBehavior
 
     function it_return_indexable_rules(UserAgentTokenizedToken $token)
     {
-        $node = new Node('chrome', Node::TYPE_TEXT, 0);
+        $node = new Node('chrome', 0, Node::TYPE_TEXT);
 
         $token->getData()
             ->shouldBeCalled()

@@ -25,10 +25,10 @@ class Node implements NodeInterface
 
     /**
      * @param string $value
-     * @param int $type
      * @param int $position
+     * @param int $type
      */
-    public function __construct($value, $type = self::TYPE_TEXT, $position)
+    public function __construct($value, $position, $type = self::TYPE_TEXT)
     {
         $this->value = $value;
         $this->type = (int)$type;

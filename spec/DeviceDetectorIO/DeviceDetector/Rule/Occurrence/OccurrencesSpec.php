@@ -42,11 +42,11 @@ class OccurrencesSpec extends ObjectBehavior
     {
         $condition = new Condition();
         $condition->setPosition(0);
-        $occurence1 = new Occurrence(new Rule(), $condition, new Node('', NodeInterface::TYPE_SPACE, 1));
+        $occurence1 = new Occurrence(new Rule(), $condition, new Node('', 1, NodeInterface::TYPE_SPACE));
 
         $condition = new Condition();
         $condition->setPosition(1);
-        $occurence2 = new Occurrence(new Rule(), $condition, new Node('', NodeInterface::TYPE_SPACE, 1));
+        $occurence2 = new Occurrence(new Rule(), $condition, new Node('', 1, NodeInterface::TYPE_SPACE));
 
         $this->add($occurence1);
         $this->add($occurence2);
@@ -62,11 +62,11 @@ class OccurrencesSpec extends ObjectBehavior
         $rule = new Rule();
         $condition = new Condition();
         $condition->setPosition(0);
-        $occurence1 = new Occurrence($rule, $condition, new Node('', NodeInterface::TYPE_SPACE, 1));
+        $occurence1 = new Occurrence($rule, $condition, new Node('', 1, NodeInterface::TYPE_SPACE));
 
         $condition = new Condition();
         $condition->setPosition(1);
-        $occurence2 = new Occurrence($rule, $condition, new Node('', NodeInterface::TYPE_SPACE, 2));
+        $occurence2 = new Occurrence($rule, $condition, new Node('', 2, NodeInterface::TYPE_SPACE));
 
         $this->add($occurence1);
         $this->add($occurence2);

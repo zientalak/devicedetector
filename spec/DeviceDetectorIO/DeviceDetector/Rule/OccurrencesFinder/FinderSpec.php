@@ -36,9 +36,9 @@ class FinderSpec extends ObjectBehavior
     {
         $this->beConstructedWith($repository, $comparer);
 
-        $node1 = new Node('chrome', Node::TYPE_TEXT, 0);
-        $node2 = new Node('/', Node::TYPE_TEXT, 1);
-        $node3 = new Node('12.05b', Node::TYPE_TEXT, 2);
+        $node1 = new Node('chrome', 0, Node::TYPE_TEXT);
+        $node2 = new Node('/', 1, Node::TYPE_TEXT);
+        $node3 = new Node('12.05b', 2, Node::TYPE_TEXT);
 
         $token->getData()
             ->shouldBeCalled()
