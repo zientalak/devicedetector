@@ -3,6 +3,8 @@
     capabilities:
         browser_name: MicroB
         browser_vendor_name: Maemo Project
+        browser_family: Firefox
+        browser_version: '0.9.7'
         is_mobile: true
         is_desktop: false
         is_console: false
@@ -14,6 +16,8 @@
     capabilities:
         browser_name: MicroB
         browser_vendor_name: Maemo Project
+        browser_family: Firefox
+        browser_version: '1.5.6'
         is_mobile: true
         is_desktop: false
         is_console: false

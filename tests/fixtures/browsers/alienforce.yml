@@ -1,0 +1,12 @@
+-
+    useragent: Mozilla/5.0 (Windows NT 6.1; rv:8.0) Gecko/20111108 Firefox/8.0 Alienforce/8.0
+    capabilities:
+        browser_name: Alienforce
+        browser_vendor_name: KBclub Universal
+        browser_family: Alienforce
+        browser_version: '8.0'
+        is_mobile: false
+        is_desktop: true
+        is_console: false
+        is_bot: false
+        is_smarttv: false

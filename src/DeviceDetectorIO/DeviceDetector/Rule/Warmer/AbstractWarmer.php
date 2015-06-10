@@ -4,7 +4,7 @@ namespace DeviceDetectorIO\DeviceDetector\Rule\Warmer;
 
 use DeviceDetectorIO\DeviceDetector\Rule\Configuration\Handler\HandlerInterface;
 use DeviceDetectorIO\DeviceDetector\Rule\Configuration\Loader\LoaderInterface;
-use DeviceDetectorIO\DeviceDetector\Rule\Queue;
+use DeviceDetectorIO\DeviceDetector\Rule\Collection\PriorityQueue;
 use DeviceDetectorIO\DeviceDetector\Rule\Rule;
 
 /**
@@ -30,11 +30,11 @@ abstract class AbstractWarmer implements WarmerInterface
     }
 
     /**
-     * @return Queue<Rule>
+     * @return PriorityQueue
      */
     protected function prepareRules()
     {
-        $rules = new Queue();
+        $rules = new PriorityQueue();
 
         foreach ($this->loader->load() as $configuration) {
             $rule = new Rule();

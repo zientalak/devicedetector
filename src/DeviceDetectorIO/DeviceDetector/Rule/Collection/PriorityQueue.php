@@ -1,12 +1,12 @@
 <?php
 
-namespace DeviceDetectorIO\DeviceDetector\Rule;
+namespace DeviceDetectorIO\DeviceDetector\Rule\Collection;
 
 /**
- * Class Queue
+ * Class PriorityQueue
  * @package DeviceDetectorIO\DeviceDetector\Rule
  */
-class Queue extends \SplPriorityQueue
+class PriorityQueue extends \SplPriorityQueue
 {
     /**
      * @param int $priority1
@@ -19,6 +19,6 @@ class Queue extends \SplPriorityQueue
             return 0;
         }
 
-        return $priority1 < $priority2 ? 1 : -1;
+        return $priority1 < $priority2 ? -1 : 1;
     }
 }

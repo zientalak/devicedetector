@@ -1,0 +1,11 @@
+-
+    useragent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.10pre) Gecko/2009041814 Firefox/3.0.10pre (Swiftfox)
+    capabilities:
+        browser_name: Swiftfox
+        browser_vendor_name: Jason Halme
+        browser_homepage: http://www.getswiftfox.com
+        is_mobile: false
+        is_desktop: true
+        is_console: false
+        is_bot: false
+        is_smarttv: false

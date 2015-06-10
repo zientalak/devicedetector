@@ -1,0 +1,53 @@
+-
+  conditions:
+     -
+        type: text
+        value: netscape6
+     -
+        type: text
+        value: /
+     -
+        type: placeholder
+        value: ~
+        capabilities: [browser_version]
+  category: browser
+  priority: 255
+  capabilities:
+    browser_name: Netscape Navigator
+    browser_vendor_name: Netscape Communications Corp.
+
+-
+  conditions:
+     -
+        type: text
+        value: netscape
+     -
+        type: text
+        value: /
+     -
+        type: placeholder
+        value: ~
+        capabilities: [browser_version]
+  category: browser
+  priority: 255
+  capabilities:
+    browser_name: Netscape Navigator
+    browser_vendor_name: Netscape Communications Corp.
+
+-
+  conditions:
+     -
+        type: text
+        value: navigator
+     -
+        type: text
+        value: /
+     -
+        type: placeholder
+        value: ~
+        capabilities: [browser_version]
+  category: browser
+  priority: 255
+  capabilities:
+    browser_name: Netscape Navigator
+    browser_vendor_name: Netscape Communications Corp.

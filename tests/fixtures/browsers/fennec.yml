@@ -3,6 +3,7 @@
     capabilities:
         browser_name: Fennec
         browser_vendor_name: Mozilla
+        browser_family: Firefox
         browser_version: '6.0a1'
         is_mobile: true
         is_desktop: false

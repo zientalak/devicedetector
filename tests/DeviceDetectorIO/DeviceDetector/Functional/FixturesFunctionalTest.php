@@ -33,7 +33,11 @@ class FixturesFunctionalTest extends DeviceDetectorIOFunctionalTestCase
     {
         $parser = new Parser();
         $finder = new Finder();
-        $files = $finder->in(__DIR__ . '/../../../fixtures')->files()->name('*.yml');
+        $files = $finder
+            ->depth('< 3')
+            ->in(__DIR__ . '/../../../fixtures')
+            ->files()
+            ->name('*.yml');
 
         $fixtures = array();
         /** @var \Symfony\Component\Finder\SplFileInfo $file */

@@ -1,0 +1,18 @@
+-
+  conditions:
+     -
+        type: text
+        value: aol
+     -
+        type: space
+        value: ~
+     -
+        type: placeholder
+        value: ~
+        capabilities: [browser_version]
+  category: browser
+  priority: 255
+  capabilities:
+    browser_name: AOL Explorer
+    browser_vendor_name: America Online, Inc.
+    browser_family: AOL Explorer

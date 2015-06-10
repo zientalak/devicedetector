@@ -15,6 +15,7 @@ use DeviceDetectorIO\DeviceDetector\Rule\Comparer\TypeAndValueComparer;
 use DeviceDetectorIO\DeviceDetector\Rule\Incrementation\Incrementation;
 use DeviceDetectorIO\DeviceDetector\Rule\Matcher\IndexableMatcher;
 use DeviceDetectorIO\DeviceDetector\Rule\Matcher\NonIndexableMatcher;
+use DeviceDetectorIO\DeviceDetector\Rule\MergingStrategy\PriorityAndCategoryMergingStrategy;
 use DeviceDetectorIO\DeviceDetector\Rule\OccurrencesAnalyser\DynamicCapabilitiesProcessor;
 use DeviceDetectorIO\DeviceDetector\Rule\OccurrencesAnalyser\OccurrencesAnalyser;
 use DeviceDetectorIO\DeviceDetector\Rule\OccurrencesFinder\Finder;
@@ -126,7 +127,7 @@ class DeviceUserAgentFactory implements DeviceUserAgentFactoryInterface
             $resolver
         );
 
-        return new Visitor\RulesVisitor($matcher);
+        return new Visitor\RulesVisitor($matcher, new PriorityAndCategoryMergingStrategy());
     }
 
     private function createIndexableVisitor($path)
@@ -141,7 +142,7 @@ class DeviceUserAgentFactory implements DeviceUserAgentFactoryInterface
             new OccurrencesAnalyser(new Incrementation(), new DynamicCapabilitiesProcessor())
         );
 
-        return new Visitor\RulesVisitor($matcher);
+        return new Visitor\RulesVisitor($matcher, new PriorityAndCategoryMergingStrategy());
     }
 
     /**

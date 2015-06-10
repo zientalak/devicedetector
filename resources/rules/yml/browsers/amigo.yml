@@ -3,16 +3,13 @@
      -
         type: text
         value: chrome
-        strategy: next
      -
         type: text
         value: /
-        strategy: next
      -
         type: placeholder
         value: ~
         capabilities: [browser_version]
-        strategy: next
      -
         type: text
         value: mrchrome

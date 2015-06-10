@@ -1,0 +1,10 @@
+-
+    useragent: HbbTV/1.1.1 (+PVR;Humax;HD FOX+;1.00.12;1.0)CE-HTML/1.0 ANTGalio/3.1.1.23.04.09
+    capabilities:
+        browser_name: ANTGalio
+        browser_version: '3.1.1.23.04.09'
+        is_mobile: false
+        is_desktop: true
+        is_console: false
+        is_bot: false
+        is_smarttv: false

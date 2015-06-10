@@ -1,0 +1,12 @@
+-
+    useragent: Amiga-AWeb/3.5.07 beta
+    capabilities:
+        browser_name: Amiga Aweb
+        browser_vendor_name: AmiTrix Development Inc.
+        browser_family: Amiga Aweb
+        browser_version: '3.5.07'
+        is_mobile: false
+        is_desktop: true
+        is_console: false
+        is_bot: false
+        is_smarttv: false

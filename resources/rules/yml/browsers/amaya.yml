@@ -1,0 +1,18 @@
+-
+  conditions:
+     -
+        type: text
+        value: amaya
+     -
+        type: text
+        value: /
+     -
+        type: placeholder
+        value: ~
+        capabilities: [browser_version]
+  category: browser
+  priority: 255
+  capabilities:
+    browser_name: Amaya
+    browser_vendor_name: World Wide Web Consortium
+    browser_family: Amaya

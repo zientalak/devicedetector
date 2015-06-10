@@ -5,6 +5,7 @@ namespace DeviceDetectorIO\DeviceDetector\Visitor;
 use DeviceDetectorIO\DeviceDetector\Capability\CollatorInterface;
 use DeviceDetectorIO\DeviceDetector\Rule\Condition\ConditionInterface;
 use DeviceDetectorIO\DeviceDetector\Rule\Matcher\MatcherInterface;
+use DeviceDetectorIO\DeviceDetector\Rule\MergingStrategy\MergingStrategyInterface;
 use DeviceDetectorIO\DeviceDetector\Rule\RuleInterface;
 use DeviceDetectorIO\DeviceDetector\Token\TokenInterface;
 
@@ -20,11 +21,18 @@ class RulesVisitor extends AbstractUserAgentTokenizedVisitor
     private $matcher;
 
     /**
-     * @param MatcherInterface $matcher
+     * @var MergingStrategyInterface
      */
-    public function __construct(MatcherInterface $matcher)
+    private $mergingStrategy;
+
+    /**
+     * @param MatcherInterface $matcher
+     * @param MergingStrategyInterface $mergingStrategy
+     */
+    public function __construct(MatcherInterface $matcher, MergingStrategyInterface $mergingStrategy)
     {
         $this->matcher = $matcher;
+        $this->mergingStrategy = $mergingStrategy;
     }
 
     /**
@@ -32,12 +40,10 @@ class RulesVisitor extends AbstractUserAgentTokenizedVisitor
      */
     public function visit(TokenInterface $token, CollatorInterface $collator)
     {
-        $rules = $this->matcher->match($token);
-
-        /** @var RuleInterface $rule */
-        foreach ($rules as $rule) {
-            $collator->merge($rule->getCapabilities());
-        }
+        $this->mergingStrategy->merge(
+            $this->matcher->match($token),
+            $collator
+        );
 
         return self::STATE_SEEKING;
     }

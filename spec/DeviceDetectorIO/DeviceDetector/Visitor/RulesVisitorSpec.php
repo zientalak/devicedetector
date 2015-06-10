@@ -7,6 +7,7 @@ use DeviceDetectorIO\DeviceDetector\Capability\Collator;
 use DeviceDetectorIO\DeviceDetector\Capability\CollatorInterface;
 use DeviceDetectorIO\DeviceDetector\Rule\Condition\ConditionInterface;
 use DeviceDetectorIO\DeviceDetector\Rule\Matcher\MatcherInterface;
+use DeviceDetectorIO\DeviceDetector\Rule\MergingStrategy\MergingStrategyInterface;
 use DeviceDetectorIO\DeviceDetector\Rule\RuleInterface;
 use DeviceDetectorIO\DeviceDetector\Token\TokenInterface;
 use DeviceDetectorIO\DeviceDetector\Token\UserAgentToken;
@@ -22,9 +23,9 @@ use Prophecy\Argument;
  */
 class RulesVisitorSpec extends ObjectBehavior
 {
-    function let(MatcherInterface $matcher)
+    function let(MatcherInterface $matcher, MergingStrategyInterface $mergingStrategy)
     {
-        $this->beConstructedWith($matcher);
+        $this->beConstructedWith($matcher, $mergingStrategy);
     }
 
     function it_is_initializable()
@@ -56,26 +57,20 @@ class RulesVisitorSpec extends ObjectBehavior
         MatcherInterface $matcher,
         TokenInterface $token,
         CollatorInterface $collator,
-        RuleInterface $rule,
-        ConditionInterface $condition
+        MatcherInterface $matcher,
+        MergingStrategyInterface $mergingStrategy,
+        RuleInterface $rule
     ) {
-        $this->beConstructedWith($matcher);
+        $this->beConstructedWith($matcher, $mergingStrategy);
 
-        $capabilities = array(
-            Capabilities::IS_BOT => true,
-            Capabilities::BOT_NAME => 'Spider360'
-        );
-        $rule->getCapabilities()
-            ->shouldBeCalledTimes(1)
-            ->willReturn($capabilities);
+        $rules = new \ArrayIterator(array($rule->getWrappedObject()));
 
         $matcher->match(Argument::exact($token->getWrappedObject()))
             ->shouldBeCalledTimes(1)
-            ->willReturn(new \ArrayIterator(array($rule->getWrappedObject())));
+            ->willReturn($rules);
 
-        $collator->merge(Argument::exact($capabilities))
-            ->shouldBeCalledTimes(1)
-            ->willReturn(true);
+        $mergingStrategy->merge(Argument::exact($rules), Argument::exact($collator->getWrappedObject()))
+            ->shouldBeCalledTimes(1);
 
         $this->visit($token, $collator)->shouldReturn(VisitorInterface::STATE_SEEKING);
     }

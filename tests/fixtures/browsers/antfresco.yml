@@ -1,0 +1,25 @@
+-
+    useragent: Mozilla/3.04 (compatible; ANTFresco/2.13; RISC OS 4.02)
+    capabilities:
+        browser_name: ANT Fresco
+        browser_vendor_name: ANT Software Limited
+        browser_family: ANT Fresco
+        browser_version: '2.13'
+        is_mobile: false
+        is_desktop: true
+        is_console: false
+        is_bot: false
+        is_smarttv: false
+
+-
+    useragent: Mozilla/3.04 (compatible; NCBrowser/2.35; ANTFresco/2.17; RISC OS-NC 5.13 Laz1UK1309)
+    capabilities:
+        browser_name: ANT Fresco
+        browser_vendor_name: ANT Software Limited
+        browser_family: ANT Fresco
+        browser_version: '2.17'
+        is_mobile: false
+        is_desktop: true
+        is_console: false
+        is_bot: false
+        is_smarttv: false

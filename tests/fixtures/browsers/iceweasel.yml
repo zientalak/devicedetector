@@ -3,6 +3,7 @@
     capabilities:
         browser_name: Iceweasel
         browser_vendor_name: Software in the Public Interest, Inc.
+        browser_family: Firefox
         browser_version: 3.0.5
         is_mobile: false
         is_desktop: true
@@ -15,6 +16,7 @@
     capabilities:
         browser_name: Iceweasel
         browser_vendor_name: Software in the Public Interest, Inc.
+        browser_family: Firefox
         browser_version: 32.0a2
         is_mobile: false
         is_desktop: true

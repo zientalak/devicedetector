@@ -4,7 +4,7 @@ namespace DeviceDetectorIO\DeviceDetector\Rule\Warmer;
 
 use DeviceDetectorIO\DeviceDetector\Rule\Condition\ConditionInterface;
 use DeviceDetectorIO\DeviceDetector\Rule\RuleInterface;
-use DeviceDetectorIO\DeviceDetector\Rule\Queue;
+use DeviceDetectorIO\DeviceDetector\Rule\PriorityQueue;
 
 /**
  * Class PHPWarmer
@@ -53,7 +53,7 @@ class PHPWarmer extends AbstractWarmer
     }
 
     /**
-     * @return Queue<Rule>
+     * @return PriorityQueue<Rule>
      */
     protected function prepareRules()
     {

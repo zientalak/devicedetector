@@ -1,0 +1,152 @@
+-
+  conditions:
+     -
+        type: text
+        value: firefox
+     -
+        type: text
+        value: /
+     -
+        type: placeholder
+        value: ~
+        capabilities: [browser_version]
+  category: browser
+  priority: 1
+  capabilities:
+    browser_name: Firefox
+    browser_vendor_name: Mozilla Foundation
+    browser_family: Firefox
+
+
+-
+  conditions:
+     -
+        type: text
+        value: bonecho
+     -
+        type: text
+        value: /
+     -
+        type: placeholder
+        value: ~
+        capabilities: [browser_version]
+  category: browser
+  priority: 1
+  capabilities:
+    browser_name: Firefox (BonEcho)
+    browser_vendor_name: Mozilla Foundation
+    browser_family: Firefox
+
+-
+  conditions:
+     -
+        type: text
+        value: granparadiso
+     -
+        type: text
+        value: /
+     -
+        type: placeholder
+        value: ~
+        capabilities: [browser_version]
+  category: browser
+  priority: 1
+  capabilities:
+    browser_name: Firefox (GranParadiso)
+    browser_vendor_name: Mozilla Foundation
+    browser_family: Firefox
+
+-
+  conditions:
+     -
+        type: text
+        value: lorentz
+     -
+        type: text
+        value: /
+     -
+        type: placeholder
+        value: ~
+        capabilities: [browser_version]
+  category: browser
+  priority: 1
+  capabilities:
+    browser_name: Firefox (Lorentz)
+    browser_vendor_name: Mozilla Foundation
+    browser_family: Firefox
+
+-
+  conditions:
+     -
+        type: text
+        value: minefield
+     -
+        type: text
+        value: /
+     -
+        type: placeholder
+        value: ~
+        capabilities: [browser_version]
+  category: browser
+  priority: 1
+  capabilities:
+    browser_name: Firefox (Minefield)
+    browser_vendor_name: Mozilla Foundation
+    browser_family: Firefox
+
+-
+  conditions:
+     -
+        type: text
+        value: namoroka
+     -
+        type: text
+        value: /
+     -
+        type: placeholder
+        value: ~
+        capabilities: [browser_version]
+  category: browser
+  priority: 1
+  capabilities:
+    browser_name: Firefox (Namoroka)
+    browser_vendor_name: Mozilla Foundation
+    browser_family: Firefox
+
+-
+  conditions:
+     -
+        type: text
+        value: shiretoko
+     -
+        type: text
+        value: /
+     -
+        type: placeholder
+        value: ~
+        capabilities: [browser_version]
+  category: browser
+  priority: 1
+  capabilities:
+    browser_name: Firefox (Shiretoko)
+    browser_vendor_name: Mozilla Foundation
+    browser_family: Firefox
+
+-
+  conditions:
+     -
+        type: text
+        value: fxios
+     -
+        type: text
+        value: /
+     -
+        type: placeholder
+        value: ~
+        capabilities: [browser_version]
+  category: browser
+  priority: 1
+  capabilities:
+    browser_name: Firefox (FxiOS)
+    browser_vendor_name: Mozilla Foundation
+    browser_family: Firefox

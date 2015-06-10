@@ -3,6 +3,7 @@
     capabilities:
         browser_name: CometBird
         browser_vendor_name: cometbird.com
+        browser_family: Firefox
         browser_version: '3.0.5'
         is_mobile: false
         is_desktop: true

@@ -1,0 +1,12 @@
+-
+    useragent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) WhiteHat Aviator/33.0.1750.117 Chrome/33.0.1750.117 Safari/537.36
+    capabilities:
+        browser_name: Aviator
+        browser_vendor_name: WhiteHat Security
+        browser_family: Aviator
+        browser_version: '33.0.1750.117'
+        is_mobile: false
+        is_desktop: true
+        is_console: false
+        is_bot: false
+        is_smarttv: false

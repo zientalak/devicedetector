@@ -1,0 +1,12 @@
+-
+    useragent: Mozilla/5.0 (X11; U; Linux; C -) AppleWebKit/523.15 (KHTML, like Gecko, Safari/419.3) Arora/0.5
+    capabilities:
+        browser_name: Arora
+        browser_vendor_name: Benjamin Meyer
+        browser_family: Arora
+        browser_version: '0.5'
+        is_mobile: false
+        is_desktop: true
+        is_console: false
+        is_bot: false
+        is_smarttv: false

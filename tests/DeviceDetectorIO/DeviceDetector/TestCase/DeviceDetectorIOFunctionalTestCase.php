@@ -30,10 +30,10 @@ abstract class DeviceDetectorIOFunctionalTestCase extends \PHPUnit_Framework_Tes
                 $value,
                 $device->getCapability($name),
                 sprintf(
-                    'Device should contains capability %s: %s for useragent: %s. Available capabilities: %s.',
+                    "Failure for useragent: %s.\nDevice should contains capability %s: %s.\n\nAvailable capabilities: %s.\n",
+                    $userAgent,
                     $name,
                     $value,
-                    $userAgent,
                     var_export($device->getCapabilities(), true)
                 )
             );

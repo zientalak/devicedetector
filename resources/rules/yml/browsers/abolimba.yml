@@ -1,0 +1,11 @@
+-
+  conditions:
+     -
+        type: text
+        value: http://www.abolimba.de
+  category: browser
+  priority: 1
+  capabilities:
+    browser_name: Abolimba
+    browser_vendor_name: Mathias Gerlach, Jochen Milchsack
+    browser_family: Abolimba

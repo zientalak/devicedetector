@@ -1,0 +1,45 @@
+-
+  conditions:
+     -
+        type: text
+        value: opera
+        strategy: line
+     -
+        type: text
+        value: tablet
+        strategy: line
+     -
+        type: text
+        value: /
+     -
+        type: placeholder
+        value: ~
+        capabilities: [browser_version]
+  category: browser
+  priority: 1
+  capabilities:
+    browser_name: Opera Mobile
+    browser_vendor_name: Opera Software ASA
+
+-
+  conditions:
+     -
+        type: text
+        value: opera
+        strategy: line
+     -
+        type: text
+        value: mobi
+        strategy: line
+     -
+        type: text
+        value: /
+     -
+        type: placeholder
+        value: ~
+        capabilities: [browser_version]
+  category: browser
+  priority: 1
+  capabilities:
+    browser_name: Opera Mobile
+    browser_vendor_name: Opera Software ASA

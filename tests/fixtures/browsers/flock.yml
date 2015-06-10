@@ -3,6 +3,7 @@
     capabilities:
         browser_name: Flock
         browser_vendor_name: Flock, Inc.
+        browser_family: Firefox
         browser_version: '2.0b3'
         is_mobile: false
         is_desktop: true

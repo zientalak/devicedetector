@@ -1,0 +1,12 @@
+-
+    useragent: Mozilla/5.0 (Windows; U; Win98; en-US; rv:1.5) Gecko/20031007 Firebird/0.7
+    capabilities:
+        browser_name: Firebird
+        browser_vendor_name: Mozilla Foundation
+        browser_family: Firefox
+        browser_version: '0.7'
+        is_mobile: false
+        is_desktop: true
+        is_console: false
+        is_bot: false
+        is_smarttv: false

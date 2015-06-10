@@ -1,0 +1,103 @@
+-
+    useragent: Mozilla/5.0 (BeOS; U; Haiku BePC; en-US; rv:1.8.1.21pre) Gecko/20090227 BonEcho/2.0.0.21pre
+    capabilities:
+        browser_name: Firefox (BonEcho)
+        browser_vendor_name: Mozilla Foundation
+        browser_family: Firefox
+        browser_version: '2.0.0.21pre'
+        is_mobile: false
+        is_desktop: true
+        is_console: false
+        is_bot: false
+        is_smarttv: false
+
+-
+    useragent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.8) Gecko/2009033017 GranParadiso/3.0.8
+    capabilities:
+        browser_name: Firefox (GranParadiso)
+        browser_vendor_name: Mozilla Foundation
+        browser_family: Firefox
+        browser_version: '3.0.8'
+        is_mobile: false
+        is_desktop: true
+        is_console: false
+        is_bot: false
+        is_smarttv: false
+
+-
+    useragent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; en-US; rv:1.9.2) Gecko/20100411 Lorentz/3.6.3 GTB7.0
+    capabilities:
+        browser_name: Firefox (Lorentz)
+        browser_vendor_name: Mozilla Foundation
+        browser_family: Firefox
+        browser_version: '3.6.3'
+        is_mobile: false
+        is_desktop: true
+        is_console: false
+        is_bot: false
+        is_smarttv: false
+
+-
+    useragent: Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:1.9.3a4pre) Gecko/20100402 Minefield/3.7a4pre
+    capabilities:
+        browser_name: Firefox (Minefield)
+        browser_vendor_name: Mozilla Foundation
+        browser_family: Firefox
+        browser_version: '3.7a4pre'
+        is_mobile: false
+        is_desktop: true
+        is_console: false
+        is_bot: false
+        is_smarttv: false
+
+-
+    useragent: Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.2a2pre) Gecko/20090901 Ubuntu/9.10 (karmic) Namoroka/3.6a2pre
+    capabilities:
+        browser_name: Firefox (Namoroka)
+        browser_vendor_name: Mozilla Foundation
+        browser_family: Firefox
+        browser_version: '3.6a2pre'
+        is_mobile: false
+        is_desktop: true
+        is_console: false
+        is_bot: false
+        is_smarttv: false
+
+-
+    useragent: Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.1b3pre) Gecko/20090109 Shiretoko/3.1b3pre
+    capabilities:
+        browser_name: Firefox (Shiretoko)
+        browser_vendor_name: Mozilla Foundation
+        browser_family: Firefox
+        browser_version: '3.1b3pre'
+        is_mobile: false
+        is_desktop: true
+        is_console: false
+        is_bot: false
+        is_smarttv: false
+
+-
+    useragent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) FxiOS/1.0 Mobile/12F69 Safari/600.1.4
+    capabilities:
+        browser_name: Firefox (FxiOS)
+        browser_vendor_name: Mozilla Foundation
+        browser_family: Firefox
+        browser_version: '1.0'
+        is_mobile: true
+        is_desktop: false
+        is_console: false
+        is_bot: false
+        is_smarttv: false
+
+-
+    useragent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.5; en-US; rv:1.9.1b3) Gecko/20090305 Firefox/3.1b3 GTB5
+    capabilities:
+        browser_name: Firefox
+        browser_vendor_name: Mozilla Foundation
+        browser_family: Firefox
+        browser_version: '3.1b3'
+        is_mobile: false
+        is_desktop: true
+        is_console: false
+        is_bot: false
+        is_smarttv: false

@@ -1,0 +1,15 @@
+-
+  conditions:
+     -
+        type: text
+        value: acoo
+        strategy: line
+     -
+        type: text
+        value: browser
+        strategy: line
+  category: browser
+  priority: 1
+  capabilities:
+    browser_name: Acoo Browser
+    browser_family: Acoo Browser

@@ -3,6 +3,7 @@
     capabilities:
         browser_name: Pale Moon
         browser_vendor_name: Moonchild Productions
+        browser_family: Firefox
         browser_version: 19.0.1-x64
         is_mobile: false
         is_desktop: true
@@ -15,6 +16,7 @@
     capabilities:
         browser_name: Pale Moon
         browser_vendor_name: Moonchild Productions
+        browser_family: Firefox
         browser_version: 3.6.3
         is_mobile: false
         is_desktop: true

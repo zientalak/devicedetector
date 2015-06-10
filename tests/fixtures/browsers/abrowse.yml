@@ -1,0 +1,25 @@
+-
+    useragent: Mozilla/5.0 (compatible; U; ABrowse 0.6; Syllable) AppleWebKit/420  (KHTML, like Gecko)
+    capabilities:
+        browser_name: ABrowse
+        browser_vendor_name: Kurt Skauen
+        browser_family: ABrowse
+        browser_version: '0.6'
+        is_mobile: false
+        is_desktop: true
+        is_console: false
+        is_bot: false
+        is_smarttv: false
+
+-
+    useragent: Mozilla/5.0 (compatible; ABrowse 0.4; Syllable)
+    capabilities:
+        browser_name: ABrowse
+        browser_vendor_name: Kurt Skauen
+        browser_family: ABrowse
+        browser_version: '0.4'
+        is_mobile: false
+        is_desktop: true
+        is_console: false
+        is_bot: false
+        is_smarttv: false
