@@ -1,0 +1,16 @@
+-
+    useragent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.105 CoRom/30.0.1599.105 Safari/537.36
+    capabilities:
+        browser_name: CoRom
+        browser_producer: Cốc Cốc
+        browser_family: CoRom
+        browser_homepage: https://en.wikipedia.org/wiki/C%E1%BB%91c_C%E1%BB%91c
+        browser_homepage: http://coolnovo.com
+        browser_version: 30.0.1599.105
+        browser_engine: Blink
+        browser_engine_version: '537.36'
+        is_mobile: false
+        is_desktop: true
+        is_console: false
+        is_bot: false
+        is_smarttv: false

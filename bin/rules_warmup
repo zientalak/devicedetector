@@ -21,4 +21,8 @@ $handler->addHandler(new DefaultHandler());
 
 $warmer = new PHPWarmer($loader, $handler);
 $warmer->setPath(__DIR__ . '/../resources/rules/php/rules.data');
+
+print("DeviceDetector.IO rules updater.\n");
+print("Starting warm up rules...\n");
 $warmer->warmup();
+print("Warm up completed.\n");

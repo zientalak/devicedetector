@@ -1,0 +1,14 @@
+-
+    useragent: Mozilla/5.0 (Windows; U; WinNT; en; rv:1.0.2) Gecko/20030311 Beonex/0.8.2-stable
+    capabilities:
+        browser_name: Beonex
+        browser_producer: Ben Bucksch
+        browser_family: Beonex
+        browser_version: '0.8.2-stable'
+        browser_engine: Gecko
+        browser_engine_version: '20030311'
+        is_mobile: false
+        is_desktop: true
+        is_console: false
+        is_bot: false
+        is_smarttv: false

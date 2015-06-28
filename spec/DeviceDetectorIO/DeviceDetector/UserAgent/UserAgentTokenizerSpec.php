@@ -64,7 +64,7 @@ class UserAgentTokenizerSpec extends ObjectBehavior
 
         $tokenized->shouldReturnAnInstanceOf('\Iterator');
         /** @var NodeInterface $node */
-        foreach($nodes as $node) {
+        foreach ($nodes as $node) {
             $tokenized[$node->getPosition()]->getValue()->shouldReturn($node->getValue());
             $tokenized[$node->getPosition()]->getType()->shouldReturn($node->getType());
         }

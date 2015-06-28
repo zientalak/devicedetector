@@ -1,0 +1,19 @@
+-
+  conditions:
+     -
+        type: text
+        value: edbrowse
+     -
+        type: text
+        value: /
+     -
+        type: placeholder
+        value: ~
+        capabilities: [browser_version]
+  category: browser
+  priority: 1
+  capabilities:
+    browser_name: Edbrowse
+    browser_producer: Karl Dahlke
+    browser_family: Edbrowse
+    browser_homepage: http://edbrowse.sourceforge.net

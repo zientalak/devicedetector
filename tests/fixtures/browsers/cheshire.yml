@@ -1,0 +1,14 @@
+-
+    useragent: Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en) AppleWebKit/419 (KHTML, like Gecko, Safari/419.3) Cheshire/1.0.ALPHA
+    capabilities:
+        browser_name: Cheshire
+        browser_producer: America Online, Inc.
+        browser_family: Cheshire
+        browser_version: 1.0.alpha
+        browser_engine: WebKit
+        browser_engine_version: '419'
+        is_mobile: false
+        is_desktop: true
+        is_console: false
+        is_bot: false
+        is_smarttv: false

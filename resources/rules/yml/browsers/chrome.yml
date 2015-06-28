@@ -1,0 +1,75 @@
+-
+  conditions:
+     -
+        type: text
+        value: crios
+     -
+        type: text
+        value: /
+     -
+        type: placeholder
+        value: ~
+        capabilities: [browser_version]
+  category: browser
+  priority: 1
+  capabilities:
+    browser_name: Chrome Mobile
+    browser_producer: Google Inc.
+    browser_family: Chrome
+
+-
+  conditions:
+     -
+        type: text
+        value: crmo
+     -
+        type: text
+        value: /
+     -
+        type: placeholder
+        value: ~
+        capabilities: [browser_version]
+  category: browser
+  priority: 1
+  capabilities:
+    browser_name: Chrome Mobile
+    browser_producer: Google Inc.
+    browser_family: Chrome
+
+-
+  conditions:
+     -
+        type: text
+        value: chrome
+     -
+        type: text
+        value: /
+     -
+        type: placeholder
+        value: ~
+        capabilities: [browser_version]
+  category: browser
+  priority: 1
+  capabilities:
+    browser_name: Chrome
+    browser_producer: Google Inc.
+    browser_family: Chrome
+
+-
+  conditions:
+     -
+        type: text
+        value: chromeframe
+     -
+        type: text
+        value: /
+     -
+        type: placeholder
+        value: ~
+        capabilities: [browser_version]
+  category: browser
+  priority: 1
+  capabilities:
+    browser_name: Chrome Frame
+    browser_producer: Google Inc.
+    browser_family: Chrome

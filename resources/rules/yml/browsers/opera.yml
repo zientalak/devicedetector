@@ -6,6 +6,76 @@
         strategy: line
      -
         type: text
+        value: mini
+        strategy: line
+     -
+        type: text
+        value: /
+     -
+        type: placeholder
+        value: ~
+        capabilities: [browser_version]
+  category: browser
+  priority: 255
+  capabilities:
+    browser_name: Opera Mini
+    browser_producer: Opera Software ASA
+    browser_homepage: http://www.operamini.com
+
+-
+  conditions:
+     -
+        type: text
+        value: opr
+     -
+        type: text
+        value: /
+     -
+        type: placeholder
+        value: ~
+        capabilities: [browser_version]
+  category: browser
+  priority: 255
+  capabilities:
+    browser_name: Opera Mobile
+    browser_producer: Opera Software ASA
+    browser_homepage: http://www.opera.com/mobile
+
+-
+  conditions:
+     -
+        type: text
+        value: opr
+     -
+        type: text
+        value: /
+     -
+        type: placeholder
+        value: ~
+        capabilities: [browser_version]
+     -
+        type: text
+        value: edition
+        strategy: line
+     -
+        type: text
+        value: next
+        strategy: line
+  category: browser
+  priority: 300
+  capabilities:
+    browser_name: Opera Next
+    browser_producer: Opera Software ASA
+    browser_homepage: http://help.opera.com/Windows/12.00/en/next.html
+
+-
+  conditions:
+     -
+        type: text
+        value: opera
+        strategy: line
+     -
+        type: text
         value: tablet
         strategy: line
      -
@@ -16,10 +86,11 @@
         value: ~
         capabilities: [browser_version]
   category: browser
-  priority: 1
+  priority: 255
   capabilities:
     browser_name: Opera Mobile
-    browser_vendor_name: Opera Software ASA
+    browser_producer: Opera Software ASA
+    browser_homepage: http://www.opera.com/mobile
 
 -
   conditions:
@@ -42,4 +113,63 @@
   priority: 1
   capabilities:
     browser_name: Opera Mobile
-    browser_vendor_name: Opera Software ASA
+    browser_producer: Opera Software ASA
+    browser_homepage: http://www.opera.com/mobile
+
+
+-
+  conditions:
+     -
+        type: text
+        value: opios
+     -
+        type: text
+        value: /
+     -
+        type: placeholder
+        value: ~
+        capabilities: [browser_version]
+  category: browser
+  priority: 255
+  capabilities:
+    browser_name: Opera Mini
+    browser_producer: Opera Software ASA
+    browser_homepage: http://www.operamini.com
+
+-
+  conditions:
+     -
+        type: text
+        value: opera
+     -
+        type: text
+        value: /
+     -
+        type: placeholder
+        value: ~
+        capabilities: [browser_version]
+  category: browser
+  priority: 1
+  capabilities:
+    browser_name: Opera
+    browser_producer: Opera Software ASA
+    browser_homepage: http://www.opera.com
+
+-
+  conditions:
+     -
+        type: text
+        value: opera
+     -
+        type: space
+        value: ~
+     -
+        type: placeholder
+        value: ~
+        capabilities: [browser_version]
+  category: browser
+  priority: 1
+  capabilities:
+    browser_name: Opera
+    browser_producer: Opera Software ASA
+    browser_homepage: http://www.opera.com

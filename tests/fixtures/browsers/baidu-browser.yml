@@ -1,0 +1,28 @@
+-
+    useragent: Mozilla/5.0 (Windows; U; Windows NT 6.1; zh_CN) AppleWebKit/534.7 (KHTML, like Gecko) Chrome/7.0 baidubrowser/1.x Safari/534.7
+    capabilities:
+        browser_name: Baidu Browser
+        browser_producer: Baidu, Inc.
+        browser_family: Baidu Browser
+        browser_version: '1.x'
+        browser_engine: WebKit
+        browser_engine_version: '534.7'
+        is_mobile: false
+        is_desktop: true
+        is_console: false
+        is_bot: false
+        is_smarttv: false
+
+-
+    useragent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; baidubrowser 1.x)
+    capabilities:
+        browser_name: Baidu Browser
+        browser_producer: Baidu, Inc.
+        browser_family: Baidu Browser
+        browser_version: '1.x'
+        is_mobile: false
+        is_desktop: true
+        is_console: false
+        is_bot: false
+        is_smarttv: false
+

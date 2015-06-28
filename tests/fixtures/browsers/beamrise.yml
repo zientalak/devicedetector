@@ -1,0 +1,14 @@
+-
+    useragent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.13 (KHTML, like Gecko) Chrome/9.0.597.98 Beamrise/4.20.13.22 Safari/534.13
+    capabilities:
+        browser_name: Beamrise
+        browser_producer: SIEN S.A.
+        browser_family: Beamrise
+        browser_version: '4.20.13.22'
+        browser_engine: WebKit
+        browser_engine_version: '534.13'
+        is_mobile: false
+        is_desktop: true
+        is_console: false
+        is_bot: false
+        is_smarttv: false

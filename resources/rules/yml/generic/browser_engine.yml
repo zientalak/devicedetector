@@ -1,0 +1,136 @@
+-
+  conditions:
+     -
+        type: text
+        value: khtml
+     -
+        type: text
+        value: /
+     -
+        type: placeholder
+        value: ~
+        capabilities: [browser_engine_version]
+  category: browser_engine
+  priority: 8
+  capabilities:
+    browser_engine: KHTML
+
+-
+  conditions:
+     -
+        type: text
+        value: edge
+     -
+        type: text
+        value: /
+     -
+        type: placeholder
+        value: ~
+        capabilities: [browser_engine_version]
+  category: browser_engine
+  priority: 7
+  capabilities:
+    browser_engine: Edge
+
+-
+  conditions:
+     -
+        type: text
+        value: applewebkit
+     -
+        type: text
+        value: /
+     -
+        type: placeholder
+        value: ~
+        capabilities: [browser_engine_version]
+  category: browser_engine
+  priority: 6
+  capabilities:
+    browser_engine: WebKit
+
+-
+  conditions:
+     -
+        type: text
+        value: gecko
+     -
+        type: text
+        value: /
+     -
+        type: placeholder
+        value: ~
+        capabilities: [browser_engine_version]
+  category: browser_engine
+  priority: 5
+  capabilities:
+    browser_engine: Gecko
+
+-
+  conditions:
+     -
+        type: text
+        value: trident
+     -
+        type: text
+        value: /
+     -
+        type: placeholder
+        value: ~
+        capabilities: [browser_engine_version]
+  category: browser_engine
+  priority: 4
+  capabilities:
+    browser_engine: Trident
+
+-
+  conditions:
+     -
+        type: text
+        value: blink
+     -
+        type: text
+        value: /
+     -
+        type: placeholder
+        value: ~
+        capabilities: [browser_engine_version]
+  category: browser_engine
+  priority: 3
+  capabilities:
+    browser_engine: Blink
+
+-
+  conditions:
+     -
+        type: text
+        value: presto
+     -
+        type: text
+        value: /
+     -
+        type: placeholder
+        value: ~
+        capabilities: [browser_engine_version]
+  category: browser_engine
+  priority: 2
+  capabilities:
+    browser_engine: Presto
+
+
+-
+  conditions:
+     -
+        type: text
+        value: gecko
+     -
+        type: text
+        value: /
+     -
+        type: placeholder
+        value: ~
+        capabilities: [browser_engine_version]
+  category: browser_engine
+  priority: 1
+  capabilities:
+    browser_engine: Gecko

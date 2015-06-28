@@ -1,0 +1,11 @@
+-
+    useragent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.137 Safari/537.36 LBBROWSER
+    capabilities:
+        browser_name: Liebao
+        browser_engine: Blink
+        browser_engine_version: '537.36'
+        is_mobile: false
+        is_desktop: true
+        is_console: false
+        is_bot: false
+        is_smarttv: false

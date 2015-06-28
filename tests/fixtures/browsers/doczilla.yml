@@ -1,0 +1,14 @@
+-
+    useragent: DocZilla/2.7 (Windows; U; Windows NT 5.1; en-US; rv:2.7.0) Gecko/20050706 CiTEC Information
+    capabilities:
+        browser_name: DocZilla
+        browser_family: DocZilla
+        browser_homepage: http://www.doczilla.com
+        browser_version: '2.7'
+        browser_engine: Gecko
+        browser_engine_version: '20050706'
+        is_mobile: false
+        is_desktop: true
+        is_console: false
+        is_bot: false
+        is_smarttv: false

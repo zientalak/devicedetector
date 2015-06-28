@@ -1,0 +1,18 @@
+-
+  conditions:
+     -
+        type: text
+        value: blackhawk
+     -
+        type: text
+        value: /
+     -
+        type: placeholder
+        value: ~
+        capabilities: [browser_version]
+  category: browser
+  priority: 255
+  capabilities:
+    browser_name: BlackHawk
+    browser_producer: NETGATE Technologies s.r.o. External link
+    browser_family: BlackHawk

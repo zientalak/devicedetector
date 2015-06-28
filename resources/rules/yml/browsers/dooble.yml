@@ -1,0 +1,32 @@
+-
+  conditions:
+     -
+        type: text
+        value: dooble
+     -
+        type: text
+        value: /
+     -
+        type: placeholder
+        value: ~
+        capabilities: [browser_version]
+  category: browser
+  priority: 3
+  capabilities:
+    browser_name: Dooble
+    browser_producer: Dooble team
+    browser_family: Dooble
+    browser_homepage: http://dooble.sourceforge.net
+
+-
+  conditions:
+     -
+        type: text
+        value: dooble
+  category: browser
+  priority: 2
+  capabilities:
+    browser_name: Dooble
+    browser_producer: Dooble team
+    browser_family: Dooble
+    browser_homepage: http://dooble.sourceforge.net

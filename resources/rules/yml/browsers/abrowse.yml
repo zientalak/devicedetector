@@ -14,5 +14,6 @@
   priority: 1
   capabilities:
     browser_name: ABrowse
-    browser_vendor_name: Kurt Skauen
+    browser_producer: Kurt Skauen
     browser_family: ABrowse
+    browser_engine: WebKit

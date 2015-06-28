@@ -1,0 +1,19 @@
+-
+  conditions:
+     -
+        type: text
+        value: enigma
+     -
+        type: space
+        value: ~
+     -
+        type: text
+        value: browser
+  category: browser
+  priority: 1
+  capabilities:
+    browser_name: Enigma Browser
+    browser_producer: Advanced Search Technologies, Inc.
+    browser_family: Enigma Browser
+    browser_homepage: http://www.suttondesigns.com
+    browser_engine: Trident

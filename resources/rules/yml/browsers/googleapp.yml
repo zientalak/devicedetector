@@ -1,0 +1,19 @@
+-
+  conditions:
+     -
+        type: text
+        value: gsa
+     -
+        type: text
+        value: /
+     -
+        type: placeholder
+        value: ~
+        capabilities: [browser_version]
+  category: browser
+  priority: 255
+  capabilities:
+    browser_name: Google App
+    browser_producer: Google, Inc.
+    browser_family: Google App
+    browser_homepage: https://itunes.apple.com/us/app/id284815942?mt=8

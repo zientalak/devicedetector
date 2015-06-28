@@ -2,8 +2,10 @@
     useragent: Mozilla/5.0 (Maemo; Linux; U; Jolla; Sailfish; Mobile; rv:26.0) Gecko/26.0 Firefox/26.0 SailfishBrowser/1.0 like Safari/538.1
     capabilities:
         browser_name: Sailfish Browser
-        browser_vendor_name: Sailfish
+        browser_producer: Sailfish
         browser_version: '1.0'
+        browser_engine: Gecko
+        browser_engine_version: '26.0'
         is_mobile: true
         is_desktop: false
         is_console: false
@@ -14,7 +16,9 @@
     useragent: Mozilla/5.0 (Maemo; Linux; U; Jolla; Sailfish; Mobile; rv:26.0) Gecko/26.0 Firefox/26.0 SailfishBrowser like Safari/538.1
     capabilities:
         browser_name: Sailfish Browser
-        browser_vendor_name: Sailfish
+        browser_producer: Sailfish
+        browser_engine: Gecko
+        browser_engine_version: '26.0'
         is_mobile: true
         is_desktop: false
         is_console: false
@@ -25,8 +29,10 @@
     useragent: Mozilla/5.0 (Linux; U; Jolla; Sailfish; Mobile; rv:20.0) Gecko/20.0 Firefox/20.0 Sailfish Browser/2.0 like Safari/535.19
     capabilities:
         browser_name: Sailfish Browser
-        browser_vendor_name: Sailfish
+        browser_producer: Sailfish
         browser_version: '2.0'
+        browser_engine: Gecko
+        browser_engine_version: '20.0'
         is_mobile: true
         is_desktop: false
         is_console: false

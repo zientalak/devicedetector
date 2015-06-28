@@ -1,0 +1,19 @@
+-
+  conditions:
+     -
+        type: text
+        value: vivaldi
+     -
+        type: text
+        value: /
+     -
+        type: placeholder
+        value: ~
+        capabilities: [browser_version]
+        strategy: next
+  category: browser
+  priority: 255
+  capabilities:
+    browser_name: Vivaldi
+    browser_producer: Vivaldi Technologies AS.
+    browser_homepage: http://vivaldi.com

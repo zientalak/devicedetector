@@ -46,9 +46,9 @@ class UserAgentTokenizer implements UserAgentTokenizerInterface
     {
         return array(
             'http:\/\/[^;\()]+',
-            '[a-z0-9\.\-\_]+,[a-z0-9\.\-\_]+',
-            '[a-z0-9\.\-\_]+',
-            '[\/;\(),:\s+]+?'
+            '[a-z0-9\.\-\_\+]+,[a-z0-9\.\-\_\+]+',
+            '[a-z0-9\.\-\_\+]+',
+            '[\/;\(),:\s+\+]+?'
         );
     }
 

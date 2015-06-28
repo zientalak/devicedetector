@@ -2,8 +2,10 @@
     useragent: Mozilla/5.0 (X11; Linux x86_64; rv:29.0) Gecko/20100101 Firefox/29.0 SeaMonkey/2.26a1 Lightning/3.1a1
     capabilities:
         browser_name: SeaMonkey
-        browser_vendor_name: SeaMonkey Council
+        browser_producer: SeaMonkey Council
         browser_version: '2.26a1'
+        browser_engine: Gecko
+        browser_engine_version: '20100101'
         is_mobile: false
         is_desktop: true
         is_console: false

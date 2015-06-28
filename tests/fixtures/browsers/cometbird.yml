@@ -2,9 +2,11 @@
     useragent: Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9.0.5) Gecko/2009011615 Firefox/3.0.5 CometBird/3.0.5
     capabilities:
         browser_name: CometBird
-        browser_vendor_name: cometbird.com
+        browser_producer: cometbird.com
         browser_family: Firefox
         browser_version: '3.0.5'
+        browser_engine: Gecko
+        browser_engine_version: '2009011615'
         is_mobile: false
         is_desktop: true
         is_console: false

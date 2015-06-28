@@ -2,9 +2,11 @@
     useragent: Mozilla/5.0 (X11; U; Linux i686; it; rv:1.9.0.5) Gecko/2008122011 Iceweasel/3.0.5 (Debian-3.0.5-1)
     capabilities:
         browser_name: Iceweasel
-        browser_vendor_name: Software in the Public Interest, Inc.
+        browser_producer: Software in the Public Interest, Inc.
         browser_family: Firefox
         browser_version: 3.0.5
+        browser_engine: Gecko
+        browser_engine_version: '2008122011'
         is_mobile: false
         is_desktop: true
         is_console: false
@@ -15,9 +17,11 @@
     useragent: Mozilla/5.0 (X11; Linux x86_64; rv:32.0) Gecko/20100101 Firefox/32.0 Iceweasel/32.0a2
     capabilities:
         browser_name: Iceweasel
-        browser_vendor_name: Software in the Public Interest, Inc.
+        browser_producer: Software in the Public Interest, Inc.
         browser_family: Firefox
         browser_version: 32.0a2
+        browser_engine: Gecko
+        browser_engine_version: '20100101'
         is_mobile: false
         is_desktop: true
         is_console: false

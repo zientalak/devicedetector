@@ -2,7 +2,7 @@
     useragent: AmigaVoyager/3.4.4 (MorphOS/PPC native)
     capabilities:
         browser_name: Amiga Voyager
-        browser_vendor_name: VaporWare
+        browser_producer: VaporWare
         browser_family: Amiga Voyager
         browser_version: '3.4.4'
         is_mobile: false
@@ -15,7 +15,7 @@
     useragent: AmigaVoyager/2.95 (compatible; MC680x0; AmigaOS)
     capabilities:
         browser_name: Amiga Voyager
-        browser_vendor_name: VaporWare
+        browser_producer: VaporWare
         browser_family: Amiga Voyager
         browser_version: '2.95'
         is_mobile: false

@@ -1,0 +1,15 @@
+-
+    useragent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.11) Gecko/20100721 Conkeror/0.9.2 (Debian-0.9.2+git100804-1)
+    capabilities:
+        browser_name: Conkeror
+        browser_producer: Mozilla Foundation
+        browser_family: Conkeror
+        browser_homepage: http://conkeror.org
+        browser_version: 0.9.2
+        browser_engine: Gecko
+        browser_engine_version: '20100721'
+        is_mobile: false
+        is_desktop: true
+        is_console: false
+        is_bot: false
+        is_smarttv: false

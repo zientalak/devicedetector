@@ -1,0 +1,43 @@
+-
+    useragent: Mozilla/5.0 (X11; Linux) AppleWebKit/535.22 (KHTML, like Gecko) Chrome/18.0.1025.133 Safari/535.22 Midori/0.5
+    capabilities:
+        browser_name: Midori
+        browser_producer: Christian Dywan
+        browser_homepage: http://www.midori-browser.org
+        browser_version: '0.5'
+        browser_engine: WebKit
+        browser_engine_version: '535.22'
+        is_mobile: false
+        is_desktop: true
+        is_console: false
+        is_bot: false
+        is_smarttv: false
+
+-
+    useragent: Midori/0.2 (X11; Linux; U; cs-cz) WebKit/531.2+
+    capabilities:
+        browser_name: Midori
+        browser_producer: Christian Dywan
+        browser_homepage: http://www.midori-browser.org
+        browser_version: '0.2'
+        browser_engine: WebKit
+        browser_engine_version: '531.2+'
+        is_mobile: false
+        is_desktop: true
+        is_console: false
+        is_bot: false
+        is_smarttv: false
+
+-
+    useragent: Midori/0.1.7
+    capabilities:
+        browser_name: Midori
+        browser_producer: Christian Dywan
+        browser_homepage: http://www.midori-browser.org
+        browser_version: '0.1.7'
+        browser_engine: WebKit
+        is_mobile: false
+        is_desktop: true
+        is_console: false
+        is_bot: false
+        is_smarttv: false

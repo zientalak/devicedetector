@@ -17,5 +17,5 @@
   priority: 255
   capabilities:
     browser_name: Pale Moon
-    browser_vendor_name: Moonchild Productions
+    browser_producer: Moonchild Productions
     browser_family: Firefox

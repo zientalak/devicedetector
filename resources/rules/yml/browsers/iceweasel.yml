@@ -17,5 +17,5 @@
   priority: 255
   capabilities:
     browser_name: Iceweasel
-    browser_vendor_name: Software in the Public Interest, Inc.
+    browser_producer: Software in the Public Interest, Inc.
     browser_family: Firefox

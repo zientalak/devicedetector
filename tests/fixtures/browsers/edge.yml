@@ -2,8 +2,10 @@
     useragent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Safari/537.36 Edge/12.0
     capabilities:
         browser_name: Microsoft Edge
-        browser_vendor_name: Microsoft
+        browser_producer: Microsoft
         browser_version: '12.0'
+        browser_engine: Edge
+        browser_engine_version: '12.0'
         is_mobile: false
         is_desktop: true
         is_console: false

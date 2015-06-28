@@ -1,0 +1,19 @@
+-
+  conditions:
+     -
+        type: text
+        value: conkeror
+     -
+        type: text
+        value: /
+     -
+        type: placeholder
+        value: ~
+        capabilities: [browser_version]
+  category: browser
+  priority: 255
+  capabilities:
+    browser_name: Conkeror
+    browser_producer: Mozilla Foundation
+    browser_family: Conkeror
+    browser_homepage: http://conkeror.org

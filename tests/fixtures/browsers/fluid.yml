@@ -1,0 +1,15 @@
+-
+    useragent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_6; en-us) AppleWebKit/528.16 (KHTML, like Gecko) Fluid/0.9.6 Safari/528.16
+    capabilities:
+        browser_name: Fluid
+        browser_producer: Todd Ditchendorf
+        browser_family: Fluid
+        browser_homepage: http://fluidapp.com
+        browser_version: '0.9.6'
+        browser_engine: WebKit
+        browser_engine_version: '528.16'
+        is_mobile: false
+        is_desktop: true
+        is_console: false
+        is_bot: false
+        is_smarttv: false

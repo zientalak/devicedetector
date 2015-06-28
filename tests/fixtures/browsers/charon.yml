@@ -1,0 +1,11 @@
+-
+    useragent: Mozilla/4.08 (Charon; Inferno)
+    capabilities:
+        browser_name: Charon
+        browser_producer: Vita Nuova Holdings Ltd
+        browser_family: Charon
+        is_mobile: false
+        is_desktop: true
+        is_console: false
+        is_bot: false
+        is_smarttv: false

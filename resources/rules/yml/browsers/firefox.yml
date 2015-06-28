@@ -14,9 +14,9 @@
   priority: 1
   capabilities:
     browser_name: Firefox
-    browser_vendor_name: Mozilla Foundation
+    browser_producer: Mozilla Foundation
     browser_family: Firefox
-
+    browser_engine: Gecko
 
 -
   conditions:
@@ -34,8 +34,9 @@
   priority: 1
   capabilities:
     browser_name: Firefox (BonEcho)
-    browser_vendor_name: Mozilla Foundation
+    browser_producer: Mozilla Foundation
     browser_family: Firefox
+    browser_engine: Gecko
 
 -
   conditions:
@@ -53,8 +54,9 @@
   priority: 1
   capabilities:
     browser_name: Firefox (GranParadiso)
-    browser_vendor_name: Mozilla Foundation
+    browser_producer: Mozilla Foundation
     browser_family: Firefox
+    browser_engine: Gecko
 
 -
   conditions:
@@ -72,8 +74,9 @@
   priority: 1
   capabilities:
     browser_name: Firefox (Lorentz)
-    browser_vendor_name: Mozilla Foundation
+    browser_producer: Mozilla Foundation
     browser_family: Firefox
+    browser_engine: Gecko
 
 -
   conditions:
@@ -91,8 +94,9 @@
   priority: 1
   capabilities:
     browser_name: Firefox (Minefield)
-    browser_vendor_name: Mozilla Foundation
+    browser_producer: Mozilla Foundation
     browser_family: Firefox
+    browser_engine: Gecko
 
 -
   conditions:
@@ -110,8 +114,9 @@
   priority: 1
   capabilities:
     browser_name: Firefox (Namoroka)
-    browser_vendor_name: Mozilla Foundation
+    browser_producer: Mozilla Foundation
     browser_family: Firefox
+    browser_engine: Gecko
 
 -
   conditions:
@@ -129,8 +134,9 @@
   priority: 1
   capabilities:
     browser_name: Firefox (Shiretoko)
-    browser_vendor_name: Mozilla Foundation
+    browser_producer: Mozilla Foundation
     browser_family: Firefox
+    browser_engine: Gecko
 
 -
   conditions:
@@ -148,5 +154,5 @@
   priority: 1
   capabilities:
     browser_name: Firefox (FxiOS)
-    browser_vendor_name: Mozilla Foundation
+    browser_producer: Mozilla Foundation
     browser_family: Firefox

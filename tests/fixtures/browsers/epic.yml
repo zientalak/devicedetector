@@ -1,0 +1,15 @@
+-
+    useragent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.10) Gecko/20101026 Epic/1.2 Firefox/3.6.10
+    capabilities:
+        browser_name: Epic
+        browser_producer: Hidden Reflex
+        browser_family: Epic
+        browser_homepage: http://www.epicbrowser.com
+        browser_version: '1.2'
+        browser_engine: Gecko
+        browser_engine_version: '20101026'
+        is_mobile: false
+        is_desktop: true
+        is_console: false
+        is_bot: false
+        is_smarttv: false

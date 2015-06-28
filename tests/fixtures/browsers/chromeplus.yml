@@ -1,0 +1,13 @@
+-
+    useragent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.13 (KHTML, like Gecko) Chrome/9.0.597.98 Safari/534.13 ChromePlus/1.6.0.0
+    capabilities:
+        browser_name: ChromePlus
+        browser_family: Chrome
+        browser_engine: 'WebKit'
+        browser_engine_version: '534.13'
+        browser_version: '1.6.0.0'
+        is_mobile: false
+        is_desktop: true
+        is_console: false
+        is_bot: false
+        is_smarttv: false

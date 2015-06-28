@@ -14,17 +14,17 @@ class PHPRepository implements RepositoryInterface
     /**
      * @var array
      */
-    private $rules = array();
+    protected $rules = array();
 
     /**
      * @var string
      */
-    private $filePath;
+    protected $filePath;
 
     /**
      * @var bool
      */
-    private $loaded = false;
+    protected $loaded = false;
 
     /**
      * {@inheritdoc}

@@ -1,0 +1,28 @@
+-
+    useragent: Mozilla/5.0 (X11; U; Linux; cs-CZ) AppleWebKit/527+ (KHTML, like Gecko, Safari/419.3) rekonq
+    capabilities:
+        browser_name: Rekonq
+        browser_producer: Andrea Diamantini
+        browser_family: http://rekonq.kde.org
+        browser_engine: WebKit
+        browser_engine_version: '527+'
+        is_mobile: false
+        is_desktop: true
+        is_console: false
+        is_bot: false
+        is_smarttv: false
+
+-
+    useragent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.21 (KHTML, like Gecko) rekonq/2.2.1 Safari/537.21
+    capabilities:
+        browser_name: Rekonq
+        browser_producer: Andrea Diamantini
+        browser_family: http://rekonq.kde.org
+        browser_version: '2.2.1'
+        browser_engine: WebKit
+        browser_engine_version: '537.21'
+        is_mobile: false
+        is_desktop: true
+        is_console: false
+        is_bot: false
+        is_smarttv: false

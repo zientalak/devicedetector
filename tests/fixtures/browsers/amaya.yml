@@ -2,7 +2,7 @@
     useragent: amaya/9.52 libwww/5.4.0
     capabilities:
         browser_name: Amaya
-        browser_vendor_name: World Wide Web Consortium
+        browser_producer: World Wide Web Consortium
         browser_family: Amaya
         browser_version: '9.52'
         is_mobile: false
@@ -15,7 +15,7 @@
     useragent: amaya/11.1 libwww/5.4.0
     capabilities:
         browser_name: Amaya
-        browser_vendor_name: World Wide Web Consortium
+        browser_producer: World Wide Web Consortium
         browser_family: Amaya
         browser_version: '11.1'
         is_mobile: false

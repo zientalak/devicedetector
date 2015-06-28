@@ -1,0 +1,12 @@
+-
+    useragent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; Browzar)
+    capabilities:
+        browser_name: Browzar
+        browser_producer: Browzar Ltd
+        browser_family: Browzar
+        browser_homepage: http://www.browzar.com
+        is_mobile: false
+        is_desktop: true
+        is_console: false
+        is_bot: false
+        is_smarttv: false

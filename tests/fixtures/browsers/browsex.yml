@@ -1,0 +1,12 @@
+-
+    useragent: Mozilla/4.61 [en] (X11; U; ) - BrowseX (2.0.0 Windows)
+    capabilities:
+        browser_name: BrowseX
+        browser_producer: Peter MacDonald
+        browser_family: BrowseX
+        browser_version: '2.0.0'
+        is_mobile: false
+        is_desktop: true
+        is_console: false
+        is_bot: false
+        is_smarttv: false

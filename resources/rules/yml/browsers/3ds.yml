@@ -12,5 +12,5 @@
   priority: 1
   capabilities:
     browser_name: 3DS Browser
-    browser_vendor_name: Nintendo of America Inc.
+    browser_producer: Nintendo of America Inc.
     browser_family: Nintendo

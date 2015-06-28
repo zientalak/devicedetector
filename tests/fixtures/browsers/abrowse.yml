@@ -2,9 +2,11 @@
     useragent: Mozilla/5.0 (compatible; U; ABrowse 0.6; Syllable) AppleWebKit/420  (KHTML, like Gecko)
     capabilities:
         browser_name: ABrowse
-        browser_vendor_name: Kurt Skauen
+        browser_producer: Kurt Skauen
         browser_family: ABrowse
         browser_version: '0.6'
+        browser_engine: WebKit
+        browser_engine_version: '420'
         is_mobile: false
         is_desktop: true
         is_console: false
@@ -15,9 +17,10 @@
     useragent: Mozilla/5.0 (compatible; ABrowse 0.4; Syllable)
     capabilities:
         browser_name: ABrowse
-        browser_vendor_name: Kurt Skauen
+        browser_producer: Kurt Skauen
         browser_family: ABrowse
         browser_version: '0.4'
+        browser_engine: WebKit
         is_mobile: false
         is_desktop: true
         is_console: false

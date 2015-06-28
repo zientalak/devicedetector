@@ -12,7 +12,7 @@
   priority: 255
   capabilities:
     browser_name: Avant Browser
-    browser_vendor_name: Avant Force
+    browser_producer: Avant Force
     browser_family: Firefox
 
 -
@@ -24,7 +24,7 @@
   priority: 255
   capabilities:
     browser_name: Avant Browser
-    browser_vendor_name: Avant Force
+    browser_producer: Avant Force
     browser_family: Firefox
 
 -
@@ -45,7 +45,7 @@
   priority: 255
   capabilities:
     browser_name: Avant Browser
-    browser_vendor_name: Avant Force
+    browser_producer: Avant Force
     browser_family: Firefox
 
 -
@@ -62,5 +62,5 @@
   priority: 255
   capabilities:
     browser_name: Avant Browser
-    browser_vendor_name: Avant Force
+    browser_producer: Avant Force
     browser_family: Firefox

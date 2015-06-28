@@ -2,8 +2,10 @@
     useragent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.7 (KHTML, like Gecko) RockMelt/0.8.36.74 Chrome/7.0.517.44 Safari/534.7
     capabilities:
         browser_name: RockMelt
-        browser_vendor_name: Rockmelt, Inc.
+        browser_producer: Rockmelt, Inc.
         browser_version: '0.8.36.74'
+        browser_engine: WebKit
+        browser_engine_version: '534.7'
         is_mobile: false
         is_desktop: true
         is_console: false

@@ -1,0 +1,15 @@
+-
+    useragent: Mozilla/5.0 (Windows; U; Windows NT 6.1; cs-CZ) AppleWebKit/533.3 (KHTML, like Gecko) Columbus/1.2.1.0 Safari/533.3
+    capabilities:
+        browser_name: Columbus
+        browser_producer: Hipgnosis Vision
+        browser_family: Columbus
+        browser_homepage: http://www.columbus-browser.com
+        browser_version: 1.2.1.0
+        browser_engine: WebKit
+        browser_engine_version: '533.3'
+        is_mobile: false
+        is_desktop: true
+        is_console: false
+        is_bot: false
+        is_smarttv: false

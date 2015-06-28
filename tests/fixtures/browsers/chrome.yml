@@ -1,0 +1,74 @@
+-
+    useragent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/525.19 (KHTML, like Gecko) Chrome/1.0.154.53 Safari/525.19
+    capabilities:
+        browser_name: Chrome
+        browser_producer: Google Inc.
+        browser_family: Chrome
+        browser_version: 1.0.154.53
+        browser_engine: WebKit
+        browser_engine_version: '525.19'
+        is_mobile: false
+        is_desktop: true
+        is_console: false
+        is_bot: false
+        is_smarttv: false
+
+-
+    useragent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.116 Safari/537.36
+    capabilities:
+        browser_name: Chrome
+        browser_producer: Google Inc.
+        browser_family: Chrome
+        browser_version: 34.0.1847.116
+        browser_engine: Blink
+        browser_engine_version: '537.36'
+        is_mobile: false
+        is_desktop: true
+        is_console: false
+        is_bot: false
+        is_smarttv: false
+
+-
+    useragent: Mozilla/5.0 (Linux; U; Android-4.0.3; en-us; Galaxy Nexus Build/IML74K) AppleWebKit/535.7 (KHTML, like Gecko) CrMo/16.0.912.75 Mobile Safari/535.7
+    capabilities:
+        browser_name: Chrome Mobile
+        browser_producer: Google Inc.
+        browser_family: Chrome
+        browser_version: 16.0.912.75
+        browser_engine: WebKit
+        browser_engine_version: '535.7'
+        is_mobile: true
+        is_desktop: false
+        is_console: false
+        is_bot: false
+        is_smarttv: false
+
+-
+    useragent: Mozilla/5.0 (iPhone; U; CPU iPhone OS 5_1_1 like Mac OS X; en-gb) AppleWebKit/534.46.0 (KHTML, like Gecko) CriOS/19.0.1084.60 Mobile/9B206 Safari/7534.48.3
+    capabilities:
+        browser_name: Chrome Mobile
+        browser_producer: Google Inc.
+        browser_family: Chrome
+        browser_version: 19.0.1084.60
+        browser_engine: WebKit
+        browser_engine_version: '534.46.0'
+        is_mobile: true
+        is_desktop: false
+        is_console: false
+        is_bot: false
+        is_smarttv: false
+
+-
+    useragent: Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; chromeframe/19.0.1084.52)
+    capabilities:
+        browser_name: Chrome Frame
+        browser_producer: Google Inc.
+        browser_family: Chrome
+        browser_version: 19.0.1084.52
+        browser_engine: Trident
+        browser_engine_version: '5.0'
+        is_mobile: false
+        is_desktop: true
+        is_console: false
+        is_bot: false
+        is_smarttv: false

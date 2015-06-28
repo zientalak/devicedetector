@@ -2,9 +2,11 @@
     useragent: Mozilla/5.0 (compatible; Windows NT 5.1; en-US; rv:2.0;) Gecko/20110318 (Treco, Sub Engine) Fireweb Navigator/3.0
     capabilities:
         browser_name: Fireweb Navigator
-        browser_vendor_name: Arsslensoft
+        browser_producer: Arsslensoft
         browser_family: Firefox
         browser_version: '3.0'
+        browser_engine: Gecko
+        browser_engine_version: '20110318'
         is_mobile: false
         is_desktop: true
         is_console: false

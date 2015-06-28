@@ -2,7 +2,7 @@
     useragent: Bunjalloo/0.7.6(Nintendo DS;U;en)
     capabilities:
         browser_name: Bunjalloo
-        browser_vendor_name: quirkysoft
+        browser_producer: quirkysoft
         browser_version: 0.7.6
         is_mobile: false
         is_desktop: true

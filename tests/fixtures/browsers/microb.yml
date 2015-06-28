@@ -2,9 +2,11 @@
     useragent: Mozilla/5.0 (X11; U; Linux armv7l; en-GB; rv:1.9.2a1pre) Gecko/20090514 Firefox/3.0 Tablet browser 0.9.7 RX-34
     capabilities:
         browser_name: MicroB
-        browser_vendor_name: Maemo Project
+        browser_producer: Maemo Project
         browser_family: Firefox
         browser_version: '0.9.7'
+        browser_engine: Gecko
+        browser_engine_version: '20090514'
         is_mobile: true
         is_desktop: false
         is_console: false
@@ -15,9 +17,11 @@
     useragent: Mozilla/5.0(X11; U; Linux armv7l; fr-FR; rv:1.9.2a1pre) Gecko/20091127 Firefox/3.5 Maemo Browser 1.5.6 RX-51 N900
     capabilities:
         browser_name: MicroB
-        browser_vendor_name: Maemo Project
+        browser_producer: Maemo Project
         browser_family: Firefox
         browser_version: '1.5.6'
+        browser_engine: Gecko
+        browser_engine_version: '20091127'
         is_mobile: true
         is_desktop: false
         is_console: false

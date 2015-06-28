@@ -1,0 +1,14 @@
+-
+    useragent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9) Gecko/2008120120 Blackbird/0.9991
+    capabilities:
+        browser_name: Blackbird
+        browser_producer: 40A, Inc.
+        browser_family: Blackbird
+        browser_version: '0.9991'
+        browser_engine: Gecko
+        browser_engine_version: '2008120120'
+        is_mobile: false
+        is_desktop: true
+        is_console: false
+        is_bot: false
+        is_smarttv: false

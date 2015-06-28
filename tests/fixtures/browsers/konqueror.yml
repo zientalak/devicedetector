@@ -1,0 +1,15 @@
+-
+    useragent: Mozilla/5.0 (compatible; Konqueror/4.3; Windows) KHTML/4.3.0 (like Gecko)
+    capabilities:
+        browser_name: Konqueror
+        browser_producer: KDE e.V.
+        browser_family: Konqueror
+        browser_homepage: http://www.konqueror.org
+        browser_version: '4.3'
+        browser_engine: KHTML
+        browser_engine_version: '4.3.0'
+        is_mobile: false
+        is_desktop: true
+        is_console: false
+        is_bot: false
+        is_smarttv: false

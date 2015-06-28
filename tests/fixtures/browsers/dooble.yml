@@ -1,0 +1,30 @@
+-
+    useragent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/534.34 (KHTML, like Gecko) Dooble/1.41 Safari/534.34
+    capabilities:
+        browser_name: Dooble
+        browser_producer: Dooble team
+        browser_family: Dooble
+        browser_homepage: http://dooble.sourceforge.net
+        browser_version: '1.41'
+        browser_engine: WebKit
+        browser_engine_version: '534.34'
+        is_mobile: false
+        is_desktop: true
+        is_console: false
+        is_bot: false
+        is_smarttv: false
+
+-
+    useragent: Mozilla/5.0 (Windows; U; Windows NT 5.1; cs-CZ) AppleWebKit/527+ (KHTML, like Gecko, Safari/419.3) Dooble
+    capabilities:
+        browser_name: Dooble
+        browser_producer: Dooble team
+        browser_family: Dooble
+        browser_homepage: http://dooble.sourceforge.net
+        browser_engine: WebKit
+        browser_engine_version: '527+'
+        is_mobile: false
+        is_desktop: true
+        is_console: false
+        is_bot: false
+        is_smarttv: false

@@ -1,0 +1,25 @@
+-
+  conditions:
+     -
+        type: text
+        value: element
+     -
+        type: space
+        value: ~
+     -
+        type: text
+        value: browser
+     -
+        type: space
+        value: ~
+     -
+        type: placeholder
+        value: ~
+        capabilities: [browser_version]
+  category: browser
+  priority: 1
+  capabilities:
+    browser_name: Element Browser
+    browser_producer: Element Software UK.
+    browser_family: Element Browser
+    browser_homepage: http://www.elementsoftware.co.uk/software/elementbrowser/

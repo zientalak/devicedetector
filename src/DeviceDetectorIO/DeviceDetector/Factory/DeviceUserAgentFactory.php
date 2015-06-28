@@ -57,6 +57,7 @@ class DeviceUserAgentFactory implements DeviceUserAgentFactoryInterface
 
     /**
      * @param CacheInterface $cache
+     * @param bool $cacheResult
      */
     public function __construct(CacheInterface $cache = null)
     {
@@ -111,6 +112,8 @@ class DeviceUserAgentFactory implements DeviceUserAgentFactoryInterface
             254
         );
 
+        $visitorManager->add(new Visitor\BlinkBrowserEngineVisitor(), -255);
+        $visitorManager->add(new Visitor\OperaMiniVersionNormalizerVisitor(), -255);
         $visitorManager->add(new Visitor\EndPointVisitor(), -255);
 
         return $visitorManager;

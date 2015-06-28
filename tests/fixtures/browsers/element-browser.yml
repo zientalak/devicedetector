@@ -1,0 +1,15 @@
+-
+    useragent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/533+ (KHTML, like Gecko) Element Browser 5.0
+    capabilities:
+        browser_name: Element Browser
+        browser_producer: Element Software UK.
+        browser_family: Element Browser
+        browser_homepage: http://www.elementsoftware.co.uk/software/elementbrowser/
+        browser_engine: 'WebKit'
+        browser_engine_version: '533+'
+        browser_version: '5.0'
+        is_mobile: false
+        is_desktop: true
+        is_console: false
+        is_bot: false
+        is_smarttv: false

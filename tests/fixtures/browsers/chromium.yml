@@ -1,0 +1,14 @@
+-
+    useragent: Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/534.10 (KHTML, like Gecko) Ubuntu/10.10 Chromium/8.0.552.237 Chrome/8.0.552.237 Safari/534.10
+    capabilities:
+        browser_name: Chromium
+        browser_producer: Google Inc.
+        browser_family: Chromium
+        browser_version: 8.0.552.237
+        browser_engine: WebKit
+        browser_engine_version: '534.10'
+        is_mobile: false
+        is_desktop: true
+        is_console: false
+        is_bot: false
+        is_smarttv: false

@@ -2,9 +2,11 @@
     useragent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:19.0) Gecko/20130223 Firefox/19.0 PaleMoon/19.0.1-x64
     capabilities:
         browser_name: Pale Moon
-        browser_vendor_name: Moonchild Productions
+        browser_producer: Moonchild Productions
         browser_family: Firefox
         browser_version: 19.0.1-x64
+        browser_engine: Gecko
+        browser_engine_version: '20130223'
         is_mobile: false
         is_desktop: true
         is_console: false
@@ -15,9 +17,11 @@
     useragent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.3) Gecko/20100403 Firefox/3.6.3 (Palemoon/3.6.3)
     capabilities:
         browser_name: Pale Moon
-        browser_vendor_name: Moonchild Productions
+        browser_producer: Moonchild Productions
         browser_family: Firefox
         browser_version: 3.6.3
+        browser_engine: Gecko
+        browser_engine_version: '20100403'
         is_mobile: false
         is_desktop: true
         is_console: false

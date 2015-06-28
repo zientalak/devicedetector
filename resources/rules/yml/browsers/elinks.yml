@@ -1,0 +1,19 @@
+-
+  conditions:
+     -
+        type: text
+        value: elinks
+     -
+        type: text
+        value: /
+     -
+        type: placeholder
+        value: ~
+        capabilities: [browser_version]
+  category: browser
+  priority: 1
+  capabilities:
+    browser_name: Elinks
+    browser_producer: Mikulas Patocka
+    browser_family: Elinks
+    browser_homepage: http://elinks.or.cz

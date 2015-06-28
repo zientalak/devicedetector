@@ -2,7 +2,7 @@
     useragent: Mozilla/5.0 (Nintendo 3DS; U; ; en) Version/1.7552.EU
     capabilities:
         browser_name: 3DS Browser
-        browser_vendor_name: Nintendo of America Inc.
+        browser_producer: Nintendo of America Inc.
         browser_family: Nintendo
         is_mobile: false
         is_desktop: true

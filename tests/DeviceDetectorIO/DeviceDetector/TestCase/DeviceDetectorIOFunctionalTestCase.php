@@ -55,8 +55,9 @@ abstract class DeviceDetectorIOFunctionalTestCase extends \PHPUnit_Framework_Tes
      */
     protected function createFactory()
     {
-        if(null === $this->factory) {
-            $this->factory = new DeviceUserAgentFactory();;
+        if (null === $this->factory) {
+            $this->factory = new DeviceUserAgentFactory();
+            ;
         }
 
         return $this->factory;

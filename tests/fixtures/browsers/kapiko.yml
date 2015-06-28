@@ -2,9 +2,11 @@
     useragent: Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN; rv:1.9) Gecko/20080705 Firefox/3.0 Kapiko/3.0
     capabilities:
         browser_name: Kapiko
-        browser_vendor_name: Ufox lab.
+        browser_producer: Ufox lab.
         browser_family: Firefox
         browser_version: '3.0'
+        browser_engine: Gecko
+        browser_engine_version: '20080705'
         is_mobile: false
         is_desktop: true
         is_console: false

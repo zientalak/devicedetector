@@ -16,6 +16,8 @@
         browser_name: Espial TV Browser
         browser_vendor: Espial Group
         browser_version: '6.1.5'
+        browser_engine: WebKit
+        browser_engine_version: '531.2+'
         is_mobile: false
         is_desktop: true
         is_console: false

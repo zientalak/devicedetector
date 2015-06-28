@@ -1,0 +1,12 @@
+-
+    useragent: Mozilla/5.0 (iPad; CPU OS 6_0_1 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mercury/8.0.1 Mobile/10A523 Safari/8536.25
+    capabilities:
+        browser_name: Mercury
+        browser_version: '8.0.1'
+        browser_engine: WebKit
+        browser_engine_version: '536.26'
+        is_mobile: true
+        is_desktop: false
+        is_console: false
+        is_bot: false
+        is_smarttv: false

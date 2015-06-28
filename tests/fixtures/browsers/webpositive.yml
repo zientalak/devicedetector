@@ -2,8 +2,10 @@
     useragent: Mozilla/5.0 (Macintosh; Intel Haiku R1 x86) AppleWebKit/601.1.11 (KHTML, like Gecko) WebPositive/1.2 Version/8.0 Safari/601.1.11
     capabilities:
         browser_name: WebPositive
-        browser_vendor_name: Haiku Inc.
+        browser_producer: Haiku Inc.
         browser_version: '1.2'
+        browser_engine: WebKit
+        browser_engine_version: '601.1.11'
         is_mobile: false
         is_desktop: true
         is_console: false

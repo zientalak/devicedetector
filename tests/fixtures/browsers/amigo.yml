@@ -2,8 +2,10 @@
     useragent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.74 Safari/537.36 MRCHROME
     capabilities:
         browser_name: Amigo
-        browser_vendor_name: Mail.Ru Group
+        browser_producer: Mail.Ru Group
         browser_version: 28.0.1500.74
+        browser_engine: 'Blink'
+        browser_engine_version: '537.36'
         is_mobile: false
         is_desktop: true
         is_console: false

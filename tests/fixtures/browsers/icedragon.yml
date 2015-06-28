@@ -2,9 +2,11 @@
     useragent: Mozilla/5.0 (Windows NT 6.1; rv:20.0) Gecko/20100101 Firefox/20.0 IceDragon/20.0.1.14
     capabilities:
         browser_name: IceDragon
-        browser_vendor_name: Comodo Group, Inc.
+        browser_producer: Comodo Group, Inc.
         browser_family: Firefox
         browser_version: '20.0.1.14'
+        browser_engine: Gecko
+        browser_engine_version: '20100101'
         is_mobile: false
         is_desktop: true
         is_console: false
