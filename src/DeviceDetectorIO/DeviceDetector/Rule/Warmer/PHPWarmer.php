@@ -2,9 +2,9 @@
 
 namespace DeviceDetectorIO\DeviceDetector\Rule\Warmer;
 
+use DeviceDetectorIO\DeviceDetector\Rule\Collection\PriorityQueue;
 use DeviceDetectorIO\DeviceDetector\Rule\Condition\ConditionInterface;
 use DeviceDetectorIO\DeviceDetector\Rule\RuleInterface;
-use DeviceDetectorIO\DeviceDetector\Rule\PriorityQueue;
 
 /**
  * Class PHPWarmer
@@ -46,14 +46,21 @@ class PHPWarmer extends AbstractWarmer
         $this->prepareRules();
 
         $destination = new \SplFileObject($this->path, 'w');
-        $destination->fwrite(serialize(array(
-            'indexable' => $this->indexableRules,
-            'nonindexable' => $this->nonIndexableRules
-        )));
+        $destination->ftruncate($destination->getSize());
+        $destination->fwrite("<?php\n");
+        $destination->fwrite(
+            'return '.var_export(
+                array(
+                    'indexable' => $this->indexableRules,
+                    'nonindexable' => $this->nonIndexableRules
+                ),
+                true
+            ).';'
+        );
     }
 
     /**
-     * @return PriorityQueue<Rule>
+     * @return PriorityQueue
      */
     protected function prepareRules()
     {
@@ -68,11 +75,11 @@ class PHPWarmer extends AbstractWarmer
             $condition = $conditions->current();
 
             if ($this->isIndexableRule($condition)) {
-                $this->indexableRules[$condition->getValue()][0][] = $rule;
+                $this->indexableRules[$condition->getValue()][0][] = serialize($rule);
                 continue;
             }
 
-            $this->nonIndexableRules[] = $rule;
+            $this->nonIndexableRules[] = serialize($rule);
         }
     }
 
@@ -83,7 +90,7 @@ class PHPWarmer extends AbstractWarmer
     private function isIndexableRule(ConditionInterface $condition)
     {
         return $condition->isType(ConditionInterface::TYPE_TEXT)
-            || $condition->isType(ConditionInterface::TYPE_PLACEHOLDER)
-            || $condition->isType(ConditionInterface::TYPE_SPACE);
+        || $condition->isType(ConditionInterface::TYPE_PLACEHOLDER)
+        || $condition->isType(ConditionInterface::TYPE_SPACE);
     }
 }

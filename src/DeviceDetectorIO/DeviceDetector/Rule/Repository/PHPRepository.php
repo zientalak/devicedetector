@@ -39,6 +39,7 @@ class PHPRepository implements RepositoryInterface
         foreach ($token->getData() as $node) {
             if (isset($this->rules['indexable'][$node->getValue()][0])) {
                 foreach ($this->rules['indexable'][$node->getValue()][0] as $rule) {
+                    $rule = unserialize($rule);
                     if (!$rules->contains($rule)) {
                         $rules->attach($rule);
                     }
@@ -61,6 +62,7 @@ class PHPRepository implements RepositoryInterface
         $storage = new \SplObjectStorage();
 
         foreach ($this->rules['nonindexable'] as $rule) {
+            $rule = unserialize($rule);
             $storage->attach($rule);
         }
 
@@ -93,7 +95,7 @@ class PHPRepository implements RepositoryInterface
                 throw new \LogicException(sprintf('File "%s" does not exists.', $this->filePath));
             }
 
-            $this->rules = unserialize(file_get_contents($this->filePath));
+            $this->rules = require_once $this->filePath;
             $this->loaded = true;
         }
     }
