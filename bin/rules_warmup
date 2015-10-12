@@ -20,7 +20,7 @@ $handler = new HandlerChain();
 $handler->addHandler(new DefaultHandler());
 
 $warmer = new PHPWarmer($loader, $handler);
-$warmer->setPath(__DIR__ . '/../resources/rules/php/rules.data');
+$warmer->setPath(__DIR__ . '/../resources/rules/php/rules.php');
 
 print("DeviceDetector.IO rules updater.\n");
 print("Starting warm up rules...\n");

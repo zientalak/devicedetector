@@ -157,13 +157,6 @@ return array (
         0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":1105:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":856:{x:i:4;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":133:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:8:"whitehat";s:8:"strategy";s:4:"line";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":132:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:7:"aviator";s:8:"strategy";s:4:"line";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":126:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:1:"/";s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":155:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:3;s:19:"dynamicCapabilities";a:1:{i:0;s:15:"browser_version";}}},N;;m:a:0:{}}s:8:"priority";i:255;s:12:"capabilities";a:3:{s:12:"browser_name";s:7:"Aviator";s:16:"browser_producer";s:17:"WhiteHat Security";s:14:"browser_family";s:7:"Aviator";}s:8:"category";s:7:"browser";}}',
       ),
     ),
-    'puffin' => 
-    array (
-      0 => 
-      array (
-        0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":917:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":648:{x:i:3;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":131:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:6:"puffin";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":126:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:1:"/";s:8:"strategy";s:4:"next";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":155:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:1:{i:0;s:15:"browser_version";}}},N;;m:a:0:{}}s:8:"priority";i:255;s:12:"capabilities";a:3:{s:12:"browser_name";s:6:"Puffin";s:16:"browser_producer";s:14:"CloudMosa Inc.";s:16:"browser_homepage";s:28:"http://www.puffinbrowser.com";}s:8:"category";s:7:"browser";}}',
-      ),
-    ),
     'fireweb' => 
     array (
       0 => 
@@ -178,18 +171,18 @@ return array (
         0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":888:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":647:{x:i:3;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":130:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:5:"flock";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":126:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:1:"/";s:8:"strategy";s:4:"next";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":155:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:1:{i:0;s:15:"browser_version";}}},N;;m:a:0:{}}s:8:"priority";i:255;s:12:"capabilities";a:3:{s:12:"browser_name";s:5:"Flock";s:16:"browser_producer";s:11:"Flock, Inc.";s:14:"browser_family";s:7:"Firefox";}s:8:"category";s:7:"browser";}}',
       ),
     ),
+    'puffin' => 
+    array (
+      0 => 
+      array (
+        0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":917:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":648:{x:i:3;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":131:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:6:"puffin";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":126:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:1:"/";s:8:"strategy";s:4:"next";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":155:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:1:{i:0;s:15:"browser_version";}}},N;;m:a:0:{}}s:8:"priority";i:255;s:12:"capabilities";a:3:{s:12:"browser_name";s:6:"Puffin";s:16:"browser_producer";s:14:"CloudMosa Inc.";s:16:"browser_homepage";s:28:"http://www.puffinbrowser.com";}s:8:"category";s:7:"browser";}}',
+      ),
+    ),
     'amigavoyager' => 
     array (
       0 => 
       array (
         0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":909:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":655:{x:i:3;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":138:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:12:"amigavoyager";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":126:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:1:"/";s:8:"strategy";s:4:"next";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":155:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:1:{i:0;s:15:"browser_version";}}},N;;m:a:0:{}}s:8:"priority";i:255;s:12:"capabilities";a:3:{s:12:"browser_name";s:13:"Amiga Voyager";s:16:"browser_producer";s:9:"VaporWare";s:14:"browser_family";s:13:"Amiga Voyager";}s:8:"category";s:7:"browser";}}',
-      ),
-    ),
-    'opios' => 
-    array (
-      0 => 
-      array (
-        0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":921:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":647:{x:i:3;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":130:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:5:"opios";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":126:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:1:"/";s:8:"strategy";s:4:"next";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":155:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:1:{i:0;s:15:"browser_version";}}},N;;m:a:0:{}}s:8:"priority";i:255;s:12:"capabilities";a:3:{s:12:"browser_name";s:10:"Opera Mini";s:16:"browser_producer";s:18:"Opera Software ASA";s:16:"browser_homepage";s:24:"http://www.operamini.com";}s:8:"category";s:7:"browser";}}',
       ),
     ),
     'baidubrowser' => 
@@ -201,22 +194,43 @@ return array (
         2 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":903:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":650:{x:i:3;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":138:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:12:"baidubrowser";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":121:{a:5:{s:4:"type";s:5:"space";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":155:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:1:{i:0;s:15:"browser_version";}}},N;;m:a:0:{}}s:8:"priority";i:255;s:12:"capabilities";a:3:{s:12:"browser_name";s:11:"Baidu Spark";s:16:"browser_producer";s:11:"Baidu, Inc.";s:14:"browser_family";s:11:"Baidu Spark";}s:8:"category";s:7:"browser";}}',
       ),
     ),
+    'chromeplus' => 
+    array (
+      0 => 
+      array (
+        0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":856:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":653:{x:i:3;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":136:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:10:"chromeplus";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":126:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:1:"/";s:8:"strategy";s:4:"next";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":155:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:1:{i:0;s:15:"browser_version";}}},N;;m:a:0:{}}s:8:"priority";i:255;s:12:"capabilities";a:2:{s:12:"browser_name";s:10:"ChromePlus";s:14:"browser_family";s:6:"Chrome";}s:8:"category";s:7:"browser";}}',
+      ),
+    ),
+    'opios' => 
+    array (
+      0 => 
+      array (
+        0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":921:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":647:{x:i:3;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":130:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:5:"opios";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":126:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:1:"/";s:8:"strategy";s:4:"next";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":155:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:1:{i:0;s:15:"browser_version";}}},N;;m:a:0:{}}s:8:"priority";i:255;s:12:"capabilities";a:3:{s:12:"browser_name";s:10:"Opera Mini";s:16:"browser_producer";s:18:"Opera Software ASA";s:16:"browser_homepage";s:24:"http://www.operamini.com";}s:8:"category";s:7:"browser";}}',
+      ),
+    ),
+    'fluid' => 
+    array (
+      0 => 
+      array (
+        0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":942:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":647:{x:i:3;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":130:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:5:"fluid";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":126:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:1:"/";s:8:"strategy";s:4:"next";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":155:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:1:{i:0;s:15:"browser_version";}}},N;;m:a:0:{}}s:8:"priority";i:255;s:12:"capabilities";a:4:{s:12:"browser_name";s:5:"Fluid";s:16:"browser_producer";s:16:"Todd Ditchendorf";s:14:"browser_family";s:5:"Fluid";s:16:"browser_homepage";s:19:"http://fluidapp.com";}s:8:"category";s:7:"browser";}}',
+      ),
+    ),
     'opera' => 
     array (
       0 => 
       array (
         0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":1131:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":852:{x:i:4;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":130:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:5:"opera";s:8:"strategy";s:4:"line";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":131:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:6:"tablet";s:8:"strategy";s:4:"line";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":126:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:1:"/";s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":155:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:3;s:19:"dynamicCapabilities";a:1:{i:0;s:15:"browser_version";}}},N;;m:a:0:{}}s:8:"priority";i:255;s:12:"capabilities";a:3:{s:12:"browser_name";s:12:"Opera Mobile";s:16:"browser_producer";s:18:"Opera Software ASA";s:16:"browser_homepage";s:27:"http://www.opera.com/mobile";}s:8:"category";s:7:"browser";}}',
         1 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":1124:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":850:{x:i:4;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":130:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:5:"opera";s:8:"strategy";s:4:"line";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":129:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:4:"mini";s:8:"strategy";s:4:"line";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":126:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:1:"/";s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":155:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:3;s:19:"dynamicCapabilities";a:1:{i:0;s:15:"browser_version";}}},N;;m:a:0:{}}s:8:"priority";i:255;s:12:"capabilities";a:3:{s:12:"browser_name";s:10:"Opera Mini";s:16:"browser_producer";s:18:"Opera Software ASA";s:16:"browser_homepage";s:24:"http://www.operamini.com";}s:8:"category";s:7:"browser";}}',
-        2 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":1127:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":850:{x:i:4;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":130:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:5:"opera";s:8:"strategy";s:4:"line";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":129:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:4:"mobi";s:8:"strategy";s:4:"line";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":126:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:1:"/";s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":155:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:3;s:19:"dynamicCapabilities";a:1:{i:0;s:15:"browser_version";}}},N;;m:a:0:{}}s:8:"priority";i:1;s:12:"capabilities";a:3:{s:12:"browser_name";s:12:"Opera Mobile";s:16:"browser_producer";s:18:"Opera Software ASA";s:16:"browser_homepage";s:27:"http://www.opera.com/mobile";}s:8:"category";s:7:"browser";}}',
+        2 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":909:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":647:{x:i:3;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":130:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:5:"opera";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":126:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:1:"/";s:8:"strategy";s:4:"next";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":155:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:1:{i:0;s:15:"browser_version";}}},N;;m:a:0:{}}s:8:"priority";i:1;s:12:"capabilities";a:3:{s:12:"browser_name";s:5:"Opera";s:16:"browser_producer";s:18:"Opera Software ASA";s:16:"browser_homepage";s:20:"http://www.opera.com";}s:8:"category";s:7:"browser";}}',
         3 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":904:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":642:{x:i:3;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":130:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:5:"opera";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":121:{a:5:{s:4:"type";s:5:"space";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":155:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:1:{i:0;s:15:"browser_version";}}},N;;m:a:0:{}}s:8:"priority";i:1;s:12:"capabilities";a:3:{s:12:"browser_name";s:5:"Opera";s:16:"browser_producer";s:18:"Opera Software ASA";s:16:"browser_homepage";s:20:"http://www.opera.com";}s:8:"category";s:7:"browser";}}',
-        4 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":909:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":647:{x:i:3;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":130:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:5:"opera";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":126:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:1:"/";s:8:"strategy";s:4:"next";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":155:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:1:{i:0;s:15:"browser_version";}}},N;;m:a:0:{}}s:8:"priority";i:1;s:12:"capabilities";a:3:{s:12:"browser_name";s:5:"Opera";s:16:"browser_producer";s:18:"Opera Software ASA";s:16:"browser_homepage";s:20:"http://www.opera.com";}s:8:"category";s:7:"browser";}}',
+        4 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":1127:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":850:{x:i:4;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":130:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:5:"opera";s:8:"strategy";s:4:"line";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":129:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:4:"mobi";s:8:"strategy";s:4:"line";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":126:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:1:"/";s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":155:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:3;s:19:"dynamicCapabilities";a:1:{i:0;s:15:"browser_version";}}},N;;m:a:0:{}}s:8:"priority";i:1;s:12:"capabilities";a:3:{s:12:"browser_name";s:12:"Opera Mobile";s:16:"browser_producer";s:18:"Opera Software ASA";s:16:"browser_homepage";s:27:"http://www.opera.com/mobile";}s:8:"category";s:7:"browser";}}',
       ),
     ),
-    'chromeplus' => 
+    'galeon' => 
     array (
       0 => 
       array (
-        0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":856:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":653:{x:i:3;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":136:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:10:"chromeplus";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":126:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:1:"/";s:8:"strategy";s:4:"next";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":155:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:1:{i:0;s:15:"browser_version";}}},N;;m:a:0:{}}s:8:"priority";i:255;s:12:"capabilities";a:2:{s:12:"browser_name";s:10:"ChromePlus";s:14:"browser_family";s:6:"Chrome";}s:8:"category";s:7:"browser";}}',
+        0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":955:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":648:{x:i:3;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":131:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:6:"galeon";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":126:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:1:"/";s:8:"strategy";s:4:"next";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":155:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:1:{i:0;s:15:"browser_version";}}},N;;m:a:0:{}}s:8:"priority";i:255;s:12:"capabilities";a:4:{s:12:"browser_name";s:6:"Galeon";s:16:"browser_producer";s:16:"GNOME Foundation";s:14:"browser_family";s:6:"Galeon";s:16:"browser_homepage";s:29:"http://galeon.sourceforge.net";}s:8:"category";s:7:"browser";}}',
       ),
     ),
     'navigator' => 
@@ -247,18 +261,18 @@ return array (
         0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":973:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":650:{x:i:3;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":133:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:8:"cyberfox";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":126:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:1:"/";s:8:"strategy";s:4:"next";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":155:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:1:{i:0;s:15:"browser_version";}}},N;;m:a:0:{}}s:8:"priority";i:255;s:12:"capabilities";a:4:{s:12:"browser_name";s:8:"Cyberfox";s:16:"browser_producer";s:12:"8pecxstudios";s:14:"browser_family";s:8:"Cyberfox";s:16:"browser_homepage";s:45:"https://8pecxstudios.com/cyberfox-web-browser";}s:8:"category";s:7:"browser";}}',
       ),
     ),
-    'fluid' => 
+    'globalmojo' => 
     array (
       0 => 
       array (
-        0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":942:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":647:{x:i:3;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":130:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:5:"fluid";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":126:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:1:"/";s:8:"strategy";s:4:"next";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":155:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:1:{i:0;s:15:"browser_version";}}},N;;m:a:0:{}}s:8:"priority";i:255;s:12:"capabilities";a:4:{s:12:"browser_name";s:5:"Fluid";s:16:"browser_producer";s:16:"Todd Ditchendorf";s:14:"browser_family";s:5:"Fluid";s:16:"browser_homepage";s:19:"http://fluidapp.com";}s:8:"category";s:7:"browser";}}',
+        0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":958:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":653:{x:i:3;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":136:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:10:"globalmojo";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":126:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:1:"/";s:8:"strategy";s:4:"next";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":155:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:1:{i:0;s:15:"browser_version";}}},N;;m:a:0:{}}s:8:"priority";i:255;s:12:"capabilities";a:4:{s:12:"browser_name";s:10:"GlobalMojo";s:16:"browser_producer";s:12:"KPG VENTURES";s:14:"browser_family";s:10:"GlobalMojo";s:16:"browser_homepage";s:21:"http://globalmojo.com";}s:8:"category";s:7:"browser";}}',
       ),
     ),
-    'galeon' => 
+    'gsa' => 
     array (
       0 => 
       array (
-        0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":955:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":648:{x:i:3;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":131:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:6:"galeon";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":126:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:1:"/";s:8:"strategy";s:4:"next";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":155:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:1:{i:0;s:15:"browser_version";}}},N;;m:a:0:{}}s:8:"priority";i:255;s:12:"capabilities";a:4:{s:12:"browser_name";s:6:"Galeon";s:16:"browser_producer";s:16:"GNOME Foundation";s:14:"browser_family";s:6:"Galeon";s:16:"browser_homepage";s:29:"http://galeon.sourceforge.net";}s:8:"category";s:7:"browser";}}',
+        0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":977:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":645:{x:i:3;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":128:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:3:"gsa";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":126:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:1:"/";s:8:"strategy";s:4:"next";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":155:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:1:{i:0;s:15:"browser_version";}}},N;;m:a:0:{}}s:8:"priority";i:255;s:12:"capabilities";a:4:{s:12:"browser_name";s:10:"Google App";s:16:"browser_producer";s:12:"Google, Inc.";s:14:"browser_family";s:10:"Google App";s:16:"browser_homepage";s:48:"https://itunes.apple.com/us/app/id284815942?mt=8";}s:8:"category";s:7:"browser";}}',
       ),
     ),
     'firefox' => 
@@ -319,27 +333,6 @@ return array (
         0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":922:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":651:{x:i:3;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":134:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:9:"iceweasel";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":126:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:1:"/";s:8:"strategy";s:4:"next";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":155:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:1:{i:0;s:15:"browser_version";}}},N;;m:a:0:{}}s:8:"priority";i:255;s:12:"capabilities";a:3:{s:12:"browser_name";s:9:"Iceweasel";s:16:"browser_producer";s:37:"Software in the Public Interest, Inc.";s:14:"browser_family";s:7:"Firefox";}s:8:"category";s:7:"browser";}}',
       ),
     ),
-    'icedragon' => 
-    array (
-      0 => 
-      array (
-        0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":903:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":651:{x:i:3;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":134:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:9:"icedragon";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":126:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:1:"/";s:8:"strategy";s:4:"next";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":155:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:1:{i:0;s:15:"browser_version";}}},N;;m:a:0:{}}s:8:"priority";i:255;s:12:"capabilities";a:3:{s:12:"browser_name";s:9:"IceDragon";s:16:"browser_producer";s:18:"Comodo Group, Inc.";s:14:"browser_family";s:7:"Firefox";}s:8:"category";s:7:"browser";}}',
-      ),
-    ),
-    'globalmojo' => 
-    array (
-      0 => 
-      array (
-        0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":958:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":653:{x:i:3;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":136:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:10:"globalmojo";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":126:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:1:"/";s:8:"strategy";s:4:"next";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":155:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:1:{i:0;s:15:"browser_version";}}},N;;m:a:0:{}}s:8:"priority";i:255;s:12:"capabilities";a:4:{s:12:"browser_name";s:10:"GlobalMojo";s:16:"browser_producer";s:12:"KPG VENTURES";s:14:"browser_family";s:10:"GlobalMojo";s:16:"browser_homepage";s:21:"http://globalmojo.com";}s:8:"category";s:7:"browser";}}',
-      ),
-    ),
-    'gsa' => 
-    array (
-      0 => 
-      array (
-        0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":977:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":645:{x:i:3;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":128:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:3:"gsa";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":126:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:1:"/";s:8:"strategy";s:4:"next";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":155:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:1:{i:0;s:15:"browser_version";}}},N;;m:a:0:{}}s:8:"priority";i:255;s:12:"capabilities";a:4:{s:12:"browser_name";s:10:"Google App";s:16:"browser_producer";s:12:"Google, Inc.";s:14:"browser_family";s:10:"Google App";s:16:"browser_homepage";s:48:"https://itunes.apple.com/us/app/id284815942?mt=8";}s:8:"category";s:7:"browser";}}',
-      ),
-    ),
     'coc_coc_browser' => 
     array (
       0 => 
@@ -352,6 +345,13 @@ return array (
       0 => 
       array (
         0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":916:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":648:{x:i:3;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":131:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:6:"iceape";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":126:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:1:"/";s:8:"strategy";s:4:"next";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":155:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:1:{i:0;s:15:"browser_version";}}},N;;m:a:0:{}}s:8:"priority";i:255;s:12:"capabilities";a:3:{s:12:"browser_name";s:6:"IceApe";s:16:"browser_producer";s:37:"Software in the Public Interest, Inc.";s:14:"browser_family";s:7:"Firefox";}s:8:"category";s:7:"browser";}}',
+      ),
+    ),
+    'icedragon' => 
+    array (
+      0 => 
+      array (
+        0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":903:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":651:{x:i:3;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":134:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:9:"icedragon";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":126:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:1:"/";s:8:"strategy";s:4:"next";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":155:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:1:{i:0;s:15:"browser_version";}}},N;;m:a:0:{}}s:8:"priority";i:255;s:12:"capabilities";a:3:{s:12:"browser_name";s:9:"IceDragon";s:16:"browser_producer";s:18:"Comodo Group, Inc.";s:14:"browser_family";s:7:"Firefox";}s:8:"category";s:7:"browser";}}',
       ),
     ),
     'columbus' => 
@@ -459,6 +459,13 @@ return array (
         0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":1620:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":1444:{x:i:7;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":131:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:6:"aphone";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":121:{a:5:{s:4:"type";s:5:"space";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":132:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:7:"browser";s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":121:{a:5:{s:4:"type";s:5:"space";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:3;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":126:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:1:"(";s:8:"strategy";s:4:"next";s:8:"position";i:4;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":155:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:5;s:19:"dynamicCapabilities";a:1:{i:0;s:15:"browser_version";}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":126:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:1:")";s:8:"strategy";s:4:"next";s:8:"position";i:6;s:19:"dynamicCapabilities";a:0:{}}},N;;m:a:0:{}}s:8:"priority";i:255;s:12:"capabilities";a:1:{s:12:"browser_name";s:17:"360 Phone Browser";}s:8:"category";s:7:"browser";}}',
       ),
     ),
+    'beonex' => 
+    array (
+      0 => 
+      array (
+        0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":889:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":648:{x:i:3;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":131:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:6:"beonex";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":126:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:1:"/";s:8:"strategy";s:4:"next";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":155:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:1:{i:0;s:15:"browser_version";}}},N;;m:a:0:{}}s:8:"priority";i:255;s:12:"capabilities";a:3:{s:12:"browser_name";s:6:"Beonex";s:16:"browser_producer";s:11:"Ben Bucksch";s:14:"browser_family";s:6:"Beonex";}s:8:"category";s:7:"browser";}}',
+      ),
+    ),
     'yabrowser' => 
     array (
       0 => 
@@ -487,6 +494,13 @@ return array (
         0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":1265:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":1051:{x:i:5;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":133:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:8:"sailfish";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":121:{a:5:{s:4:"type";s:5:"space";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":132:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:7:"browser";s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":126:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:1:"/";s:8:"strategy";s:4:"next";s:8:"position";i:3;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":155:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:4;s:19:"dynamicCapabilities";a:1:{i:0;s:15:"browser_version";}}},N;;m:a:0:{}}s:8:"priority";i:255;s:12:"capabilities";a:2:{s:12:"browser_name";s:16:"Sailfish Browser";s:16:"browser_producer";s:8:"Sailfish";}s:8:"category";s:7:"browser";}}',
       ),
     ),
+    'deskbrowse' => 
+    array (
+      0 => 
+      array (
+        0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":977:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":653:{x:i:3;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":136:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:10:"deskbrowse";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":126:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:1:"/";s:8:"strategy";s:4:"next";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":155:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:1:{i:0;s:15:"browser_version";}}},N;;m:a:0:{}}s:8:"priority";i:255;s:12:"capabilities";a:4:{s:12:"browser_name";s:10:"DeskBrowse";s:16:"browser_producer";s:27:"Off Leash Developments, Inc";s:14:"browser_family";s:10:"DeskBrowse";s:16:"browser_homepage";s:25:"http://www.deskbrowse.org";}s:8:"category";s:7:"browser";}}',
+      ),
+    ),
     'rekonq' => 
     array (
       0 => 
@@ -502,34 +516,6 @@ return array (
         0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":916:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":653:{x:i:3;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":136:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:10:"mqqbrowser";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":126:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:1:"/";s:8:"strategy";s:4:"next";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":155:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:1:{i:0;s:15:"browser_version";}}},N;;m:a:0:{}}s:8:"priority";i:255;s:12:"capabilities";a:3:{s:12:"browser_name";s:9:"QQbrowser";s:16:"browser_producer";s:12:"Tencent Ltd.";s:16:"browser_homepage";s:21:"http://browser.qq.com";}s:8:"category";s:7:"browser";}}',
       ),
     ),
-    'palemoon' => 
-    array (
-      0 => 
-      array (
-        0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":905:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":650:{x:i:3;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":133:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:8:"palemoon";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":126:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:1:"/";s:8:"strategy";s:4:"next";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":155:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:1:{i:0;s:15:"browser_version";}}},N;;m:a:0:{}}s:8:"priority";i:255;s:12:"capabilities";a:3:{s:12:"browser_name";s:9:"Pale Moon";s:16:"browser_producer";s:21:"Moonchild Productions";s:14:"browser_family";s:7:"Firefox";}s:8:"category";s:7:"browser";}}',
-      ),
-    ),
-    'doczilla' => 
-    array (
-      0 => 
-      array (
-        0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":907:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":650:{x:i:3;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":133:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:8:"doczilla";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":126:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:1:"/";s:8:"strategy";s:4:"next";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":155:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:1:{i:0;s:15:"browser_version";}}},N;;m:a:0:{}}s:8:"priority";i:255;s:12:"capabilities";a:3:{s:12:"browser_name";s:8:"DocZilla";s:14:"browser_family";s:8:"DocZilla";s:16:"browser_homepage";s:23:"http://www.doczilla.com";}s:8:"category";s:7:"browser";}}',
-      ),
-    ),
-    'beonex' => 
-    array (
-      0 => 
-      array (
-        0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":889:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":648:{x:i:3;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":131:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:6:"beonex";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":126:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:1:"/";s:8:"strategy";s:4:"next";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":155:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:1:{i:0;s:15:"browser_version";}}},N;;m:a:0:{}}s:8:"priority";i:255;s:12:"capabilities";a:3:{s:12:"browser_name";s:6:"Beonex";s:16:"browser_producer";s:11:"Ben Bucksch";s:14:"browser_family";s:6:"Beonex";}s:8:"category";s:7:"browser";}}',
-      ),
-    ),
-    'deskbrowse' => 
-    array (
-      0 => 
-      array (
-        0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":977:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":653:{x:i:3;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":136:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:10:"deskbrowse";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":126:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:1:"/";s:8:"strategy";s:4:"next";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":155:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:1:{i:0;s:15:"browser_version";}}},N;;m:a:0:{}}s:8:"priority";i:255;s:12:"capabilities";a:4:{s:12:"browser_name";s:10:"DeskBrowse";s:16:"browser_producer";s:27:"Off Leash Developments, Inc";s:14:"browser_family";s:10:"DeskBrowse";s:16:"browser_homepage";s:25:"http://www.deskbrowse.org";}s:8:"category";s:7:"browser";}}',
-      ),
-    ),
     'dillo' => 
     array (
       0 => 
@@ -542,6 +528,20 @@ return array (
       0 => 
       array (
         0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":895:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":651:{x:i:3;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":134:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:9:"blackbird";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":126:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:1:"/";s:8:"strategy";s:4:"next";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":155:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:1:{i:0;s:15:"browser_version";}}},N;;m:a:0:{}}s:8:"priority";i:255;s:12:"capabilities";a:3:{s:12:"browser_name";s:9:"Blackbird";s:16:"browser_producer";s:9:"40A, Inc.";s:14:"browser_family";s:9:"Blackbird";}s:8:"category";s:7:"browser";}}',
+      ),
+    ),
+    'doczilla' => 
+    array (
+      0 => 
+      array (
+        0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":907:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":650:{x:i:3;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":133:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:8:"doczilla";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":126:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:1:"/";s:8:"strategy";s:4:"next";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":155:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:1:{i:0;s:15:"browser_version";}}},N;;m:a:0:{}}s:8:"priority";i:255;s:12:"capabilities";a:3:{s:12:"browser_name";s:8:"DocZilla";s:14:"browser_family";s:8:"DocZilla";s:16:"browser_homepage";s:23:"http://www.doczilla.com";}s:8:"category";s:7:"browser";}}',
+      ),
+    ),
+    'palemoon' => 
+    array (
+      0 => 
+      array (
+        0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":905:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":650:{x:i:3;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":133:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:8:"palemoon";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":126:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:1:"/";s:8:"strategy";s:4:"next";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":155:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:1:{i:0;s:15:"browser_version";}}},N;;m:a:0:{}}s:8:"priority";i:255;s:12:"capabilities";a:3:{s:12:"browser_name";s:9:"Pale Moon";s:16:"browser_producer";s:21:"Moonchild Productions";s:14:"browser_family";s:7:"Firefox";}s:8:"category";s:7:"browser";}}',
       ),
     ),
     'amiga-aweb' => 
@@ -623,19 +623,19 @@ return array (
         0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":828:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":656:{x:i:3;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":132:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:7:"trident";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":126:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:1:"/";s:8:"strategy";s:4:"next";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":162:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:1:{i:0;s:22:"browser_engine_version";}}},N;;m:a:0:{}}s:8:"priority";i:4;s:12:"capabilities";a:1:{s:14:"browser_engine";s:7:"Trident";}s:8:"category";s:14:"browser_engine";}}',
       ),
     ),
+    'epic' => 
+    array (
+      0 => 
+      array (
+        0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":941:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":646:{x:i:3;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":129:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:4:"epic";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":126:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:1:"/";s:8:"strategy";s:4:"next";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":155:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:1:{i:0;s:15:"browser_version";}}},N;;m:a:0:{}}s:8:"priority";i:3;s:12:"capabilities";a:4:{s:12:"browser_name";s:4:"Epic";s:16:"browser_producer";s:13:"Hidden Reflex";s:14:"browser_family";s:4:"Epic";s:16:"browser_homepage";s:26:"http://www.epicbrowser.com";}s:8:"category";s:7:"browser";}}',
+      ),
+    ),
     'dooble' => 
     array (
       0 => 
       array (
         0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":948:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":648:{x:i:3;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":131:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:6:"dooble";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":126:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:1:"/";s:8:"strategy";s:4:"next";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":155:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:1:{i:0;s:15:"browser_version";}}},N;;m:a:0:{}}s:8:"priority";i:3;s:12:"capabilities";a:4:{s:12:"browser_name";s:6:"Dooble";s:16:"browser_producer";s:11:"Dooble team";s:14:"browser_family";s:6:"Dooble";s:16:"browser_homepage";s:29:"http://dooble.sourceforge.net";}s:8:"category";s:7:"browser";}}',
         1 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":519:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":219:{x:i:1;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":131:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:6:"dooble";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;m:a:0:{}}s:8:"priority";i:2;s:12:"capabilities";a:4:{s:12:"browser_name";s:6:"Dooble";s:16:"browser_producer";s:11:"Dooble team";s:14:"browser_family";s:6:"Dooble";s:16:"browser_homepage";s:29:"http://dooble.sourceforge.net";}s:8:"category";s:7:"browser";}}',
-      ),
-    ),
-    'epic' => 
-    array (
-      0 => 
-      array (
-        0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":941:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":646:{x:i:3;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":129:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:4:"epic";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":126:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:1:"/";s:8:"strategy";s:4:"next";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":155:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:1:{i:0;s:15:"browser_version";}}},N;;m:a:0:{}}s:8:"priority";i:3;s:12:"capabilities";a:4:{s:12:"browser_name";s:4:"Epic";s:16:"browser_producer";s:13:"Hidden Reflex";s:14:"browser_family";s:4:"Epic";s:16:"browser_homepage";s:26:"http://www.epicbrowser.com";}s:8:"category";s:7:"browser";}}',
       ),
     ),
     'blink' => 
@@ -659,60 +659,11 @@ return array (
         0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":826:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":655:{x:i:3;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":131:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:6:"presto";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":126:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:1:"/";s:8:"strategy";s:4:"next";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":162:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:1:{i:0;s:22:"browser_engine_version";}}},N;;m:a:0:{}}s:8:"priority";i:2;s:12:"capabilities";a:1:{s:14:"browser_engine";s:6:"Presto";}s:8:"category";s:14:"browser_engine";}}',
       ),
     ),
-    'bonecho' => 
-    array (
-      0 => 
-      array (
-        0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":942:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":649:{x:i:3;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":132:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:7:"bonecho";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":126:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:1:"/";s:8:"strategy";s:4:"next";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":155:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:1:{i:0;s:15:"browser_version";}}},N;;m:a:0:{}}s:8:"priority";i:1;s:12:"capabilities";a:4:{s:12:"browser_name";s:17:"Firefox (BonEcho)";s:16:"browser_producer";s:18:"Mozilla Foundation";s:14:"browser_family";s:7:"Firefox";s:14:"browser_engine";s:5:"Gecko";}s:8:"category";s:7:"browser";}}',
-      ),
-    ),
-    'webpositive' => 
-    array (
-      0 => 
-      array (
-        0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":863:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":654:{x:i:3;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":137:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:11:"webpositive";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":126:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:1:"/";s:8:"strategy";s:4:"next";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":155:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:1:{i:0;s:15:"browser_version";}}},N;;m:a:0:{}}s:8:"priority";i:1;s:12:"capabilities";a:2:{s:12:"browser_name";s:11:"WebPositive";s:16:"browser_producer";s:10:"Haiku Inc.";}s:8:"category";s:7:"browser";}}',
-      ),
-    ),
     'granparadiso' => 
     array (
       0 => 
       array (
         0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":953:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":655:{x:i:3;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":138:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:12:"granparadiso";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":126:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:1:"/";s:8:"strategy";s:4:"next";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":155:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:1:{i:0;s:15:"browser_version";}}},N;;m:a:0:{}}s:8:"priority";i:1;s:12:"capabilities";a:4:{s:12:"browser_name";s:22:"Firefox (GranParadiso)";s:16:"browser_producer";s:18:"Mozilla Foundation";s:14:"browser_family";s:7:"Firefox";s:14:"browser_engine";s:5:"Gecko";}s:8:"category";s:7:"browser";}}',
-      ),
-    ),
-    'enigma' => 
-    array (
-      0 => 
-      array (
-        0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":996:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":620:{x:i:3;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":131:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:6:"enigma";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":121:{a:5:{s:4:"type";s:5:"space";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":132:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:7:"browser";s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:0:{}}},N;;m:a:0:{}}s:8:"priority";i:1;s:12:"capabilities";a:5:{s:12:"browser_name";s:14:"Enigma Browser";s:16:"browser_producer";s:34:"Advanced Search Technologies, Inc.";s:14:"browser_family";s:14:"Enigma Browser";s:16:"browser_homepage";s:28:"http://www.suttondesigns.com";s:14:"browser_engine";s:7:"Trident";}s:8:"category";s:7:"browser";}}',
-      ),
-    ),
-    'edbrowse' => 
-    array (
-      0 => 
-      array (
-        0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":956:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":650:{x:i:3;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":133:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:8:"edbrowse";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":126:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:1:"/";s:8:"strategy";s:4:"next";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":155:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:1:{i:0;s:15:"browser_version";}}},N;;m:a:0:{}}s:8:"priority";i:1;s:12:"capabilities";a:4:{s:12:"browser_name";s:8:"Edbrowse";s:16:"browser_producer";s:11:"Karl Dahlke";s:14:"browser_family";s:8:"Edbrowse";s:16:"browser_homepage";s:31:"http://edbrowse.sourceforge.net";}s:8:"category";s:7:"browser";}}',
-      ),
-    ),
-    'acoo' => 
-    array (
-      0 => 
-      array (
-        0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":633:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":423:{x:i:2;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":129:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:4:"acoo";s:8:"strategy";s:4:"line";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":132:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:7:"browser";s:8:"strategy";s:4:"line";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;m:a:0:{}}s:8:"priority";i:1;s:12:"capabilities";a:2:{s:12:"browser_name";s:12:"Acoo Browser";s:14:"browser_family";s:12:"Acoo Browser";}s:8:"category";s:7:"browser";}}',
-      ),
-    ),
-    'namoroka' => 
-    array (
-      0 => 
-      array (
-        0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":944:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":650:{x:i:3;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":133:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:8:"namoroka";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":126:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:1:"/";s:8:"strategy";s:4:"next";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":155:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:1:{i:0;s:15:"browser_version";}}},N;;m:a:0:{}}s:8:"priority";i:1;s:12:"capabilities";a:4:{s:12:"browser_name";s:18:"Firefox (Namoroka)";s:16:"browser_producer";s:18:"Mozilla Foundation";s:14:"browser_family";s:7:"Firefox";s:14:"browser_engine";s:5:"Gecko";}s:8:"category";s:7:"browser";}}',
-      ),
-    ),
-    'chromeframe' => 
-    array (
-      0 => 
-      array (
-        0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":900:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":654:{x:i:3;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":137:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:11:"chromeframe";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":126:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:1:"/";s:8:"strategy";s:4:"next";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":155:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:1:{i:0;s:15:"browser_version";}}},N;;m:a:0:{}}s:8:"priority";i:1;s:12:"capabilities";a:3:{s:12:"browser_name";s:12:"Chrome Frame";s:16:"browser_producer";s:11:"Google Inc.";s:14:"browser_family";s:6:"Chrome";}s:8:"category";s:7:"browser";}}',
       ),
     ),
     'lorentz' => 
@@ -722,25 +673,11 @@ return array (
         0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":942:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":649:{x:i:3;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":132:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:7:"lorentz";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":126:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:1:"/";s:8:"strategy";s:4:"next";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":155:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:1:{i:0;s:15:"browser_version";}}},N;;m:a:0:{}}s:8:"priority";i:1;s:12:"capabilities";a:4:{s:12:"browser_name";s:17:"Firefox (Lorentz)";s:16:"browser_producer";s:18:"Mozilla Foundation";s:14:"browser_family";s:7:"Firefox";s:14:"browser_engine";s:5:"Gecko";}s:8:"category";s:7:"browser";}}',
       ),
     ),
-    'nintendo' => 
+    'edbrowse' => 
     array (
       0 => 
       array (
-        0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":683:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":423:{x:i:2;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":133:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:8:"nintendo";s:8:"strategy";s:4:"line";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":128:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:3:"3ds";s:8:"strategy";s:4:"line";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;m:a:0:{}}s:8:"priority";i:1;s:12:"capabilities";a:3:{s:12:"browser_name";s:11:"3DS Browser";s:16:"browser_producer";s:24:"Nintendo of America Inc.";s:14:"browser_family";s:8:"Nintendo";}s:8:"category";s:7:"browser";}}',
-      ),
-    ),
-    'dplus' => 
-    array (
-      0 => 
-      array (
-        0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":952:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":642:{x:i:3;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":130:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:5:"dplus";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":121:{a:5:{s:4:"type";s:5:"space";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":155:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:1:{i:0;s:15:"browser_version";}}},N;;m:a:0:{}}s:8:"priority";i:1;s:12:"capabilities";a:4:{s:12:"browser_name";s:5:"DPlus";s:16:"browser_producer";s:16:"Benjamin Johnson";s:14:"browser_family";s:5:"DPlus";s:16:"browser_homepage";s:36:"http://dplus-browser.sourceforge.net";}s:8:"category";s:7:"browser";}}',
-      ),
-    ),
-    'rockmelt' => 
-    array (
-      0 => 
-      array (
-        0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":859:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":650:{x:i:3;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":133:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:8:"rockmelt";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":126:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:1:"/";s:8:"strategy";s:4:"next";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":155:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:1:{i:0;s:15:"browser_version";}}},N;;m:a:0:{}}s:8:"priority";i:1;s:12:"capabilities";a:2:{s:12:"browser_name";s:8:"RockMelt";s:16:"browser_producer";s:14:"Rockmelt, Inc.";}s:8:"category";s:7:"browser";}}',
+        0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":956:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":650:{x:i:3;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":133:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:8:"edbrowse";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":126:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:1:"/";s:8:"strategy";s:4:"next";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":155:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:1:{i:0;s:15:"browser_version";}}},N;;m:a:0:{}}s:8:"priority";i:1;s:12:"capabilities";a:4:{s:12:"browser_name";s:8:"Edbrowse";s:16:"browser_producer";s:11:"Karl Dahlke";s:14:"browser_family";s:8:"Edbrowse";s:16:"browser_homepage";s:31:"http://edbrowse.sourceforge.net";}s:8:"category";s:7:"browser";}}',
       ),
     ),
     'minefield' => 
@@ -750,25 +687,25 @@ return array (
         0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":946:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":651:{x:i:3;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":134:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:9:"minefield";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":126:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:1:"/";s:8:"strategy";s:4:"next";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":155:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:1:{i:0;s:15:"browser_version";}}},N;;m:a:0:{}}s:8:"priority";i:1;s:12:"capabilities";a:4:{s:12:"browser_name";s:19:"Firefox (Minefield)";s:16:"browser_producer";s:18:"Mozilla Foundation";s:14:"browser_family";s:7:"Firefox";s:14:"browser_engine";s:5:"Gecko";}s:8:"category";s:7:"browser";}}',
       ),
     ),
-    'element' => 
+    'webpositive' => 
     array (
       0 => 
       array (
-        0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":1403:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":1045:{x:i:5;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":132:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:7:"element";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":121:{a:5:{s:4:"type";s:5:"space";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":132:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:7:"browser";s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":121:{a:5:{s:4:"type";s:5:"space";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:3;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":155:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:4;s:19:"dynamicCapabilities";a:1:{i:0;s:15:"browser_version";}}},N;;m:a:0:{}}s:8:"priority";i:1;s:12:"capabilities";a:4:{s:12:"browser_name";s:15:"Element Browser";s:16:"browser_producer";s:20:"Element Software UK.";s:14:"browser_family";s:15:"Element Browser";s:16:"browser_homepage";s:57:"http://www.elementsoftware.co.uk/software/elementbrowser/";}s:8:"category";s:7:"browser";}}',
+        0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":863:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":654:{x:i:3;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":137:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:11:"webpositive";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":126:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:1:"/";s:8:"strategy";s:4:"next";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":155:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:1:{i:0;s:15:"browser_version";}}},N;;m:a:0:{}}s:8:"priority";i:1;s:12:"capabilities";a:2:{s:12:"browser_name";s:11:"WebPositive";s:16:"browser_producer";s:10:"Haiku Inc.";}s:8:"category";s:7:"browser";}}',
       ),
     ),
-    'crios' => 
+    'enigma' => 
     array (
       0 => 
       array (
-        0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":894:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":647:{x:i:3;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":130:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:5:"crios";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":126:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:1:"/";s:8:"strategy";s:4:"next";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":155:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:1:{i:0;s:15:"browser_version";}}},N;;m:a:0:{}}s:8:"priority";i:1;s:12:"capabilities";a:3:{s:12:"browser_name";s:13:"Chrome Mobile";s:16:"browser_producer";s:11:"Google Inc.";s:14:"browser_family";s:6:"Chrome";}s:8:"category";s:7:"browser";}}',
+        0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":996:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":620:{x:i:3;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":131:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:6:"enigma";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":121:{a:5:{s:4:"type";s:5:"space";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":132:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:7:"browser";s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:0:{}}},N;;m:a:0:{}}s:8:"priority";i:1;s:12:"capabilities";a:5:{s:12:"browser_name";s:14:"Enigma Browser";s:16:"browser_producer";s:34:"Advanced Search Technologies, Inc.";s:14:"browser_family";s:14:"Enigma Browser";s:16:"browser_homepage";s:28:"http://www.suttondesigns.com";s:14:"browser_engine";s:7:"Trident";}s:8:"category";s:7:"browser";}}',
       ),
     ),
-    'crmo' => 
+    'fxios' => 
     array (
       0 => 
       array (
-        0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":893:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":646:{x:i:3;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":129:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:4:"crmo";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":126:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:1:"/";s:8:"strategy";s:4:"next";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":155:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:1:{i:0;s:15:"browser_version";}}},N;;m:a:0:{}}s:8:"priority";i:1;s:12:"capabilities";a:3:{s:12:"browser_name";s:13:"Chrome Mobile";s:16:"browser_producer";s:11:"Google Inc.";s:14:"browser_family";s:6:"Chrome";}s:8:"category";s:7:"browser";}}',
+        0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":904:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":647:{x:i:3;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":130:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:5:"fxios";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":126:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:1:"/";s:8:"strategy";s:4:"next";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":155:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:1:{i:0;s:15:"browser_version";}}},N;;m:a:0:{}}s:8:"priority";i:1;s:12:"capabilities";a:3:{s:12:"browser_name";s:15:"Firefox (FxiOS)";s:16:"browser_producer";s:18:"Mozilla Foundation";s:14:"browser_family";s:7:"Firefox";}s:8:"category";s:7:"browser";}}',
       ),
     ),
     'http://www.abolimba.de' => 
@@ -778,18 +715,46 @@ return array (
         0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":501:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":236:{x:i:1;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":148:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:22:"http://www.abolimba.de";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;m:a:0:{}}s:8:"priority";i:1;s:12:"capabilities";a:3:{s:12:"browser_name";s:8:"Abolimba";s:16:"browser_producer";s:33:"Mathias Gerlach, Jochen Milchsack";s:14:"browser_family";s:8:"Abolimba";}s:8:"category";s:7:"browser";}}',
       ),
     ),
-    'abrowse' => 
+    'namoroka' => 
     array (
       0 => 
       array (
-        0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":920:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":644:{x:i:3;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":132:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:7:"abrowse";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":121:{a:5:{s:4:"type";s:5:"space";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":155:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:1:{i:0;s:15:"browser_version";}}},N;;m:a:0:{}}s:8:"priority";i:1;s:12:"capabilities";a:4:{s:12:"browser_name";s:7:"ABrowse";s:16:"browser_producer";s:11:"Kurt Skauen";s:14:"browser_family";s:7:"ABrowse";s:14:"browser_engine";s:6:"WebKit";}s:8:"category";s:7:"browser";}}',
+        0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":944:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":650:{x:i:3;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":133:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:8:"namoroka";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":126:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:1:"/";s:8:"strategy";s:4:"next";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":155:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:1:{i:0;s:15:"browser_version";}}},N;;m:a:0:{}}s:8:"priority";i:1;s:12:"capabilities";a:4:{s:12:"browser_name";s:18:"Firefox (Namoroka)";s:16:"browser_producer";s:18:"Mozilla Foundation";s:14:"browser_family";s:7:"Firefox";s:14:"browser_engine";s:5:"Gecko";}s:8:"category";s:7:"browser";}}',
       ),
     ),
-    'elinks' => 
+    'rockmelt' => 
     array (
       0 => 
       array (
-        0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":942:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":648:{x:i:3;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":131:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:6:"elinks";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":126:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:1:"/";s:8:"strategy";s:4:"next";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":155:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:1:{i:0;s:15:"browser_version";}}},N;;m:a:0:{}}s:8:"priority";i:1;s:12:"capabilities";a:4:{s:12:"browser_name";s:6:"Elinks";s:16:"browser_producer";s:15:"Mikulas Patocka";s:14:"browser_family";s:6:"Elinks";s:16:"browser_homepage";s:19:"http://elinks.or.cz";}s:8:"category";s:7:"browser";}}',
+        0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":859:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":650:{x:i:3;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":133:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:8:"rockmelt";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":126:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:1:"/";s:8:"strategy";s:4:"next";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":155:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:1:{i:0;s:15:"browser_version";}}},N;;m:a:0:{}}s:8:"priority";i:1;s:12:"capabilities";a:2:{s:12:"browser_name";s:8:"RockMelt";s:16:"browser_producer";s:14:"Rockmelt, Inc.";}s:8:"category";s:7:"browser";}}',
+      ),
+    ),
+    'nintendo' => 
+    array (
+      0 => 
+      array (
+        0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":683:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":423:{x:i:2;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":133:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:8:"nintendo";s:8:"strategy";s:4:"line";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":128:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:3:"3ds";s:8:"strategy";s:4:"line";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;m:a:0:{}}s:8:"priority";i:1;s:12:"capabilities";a:3:{s:12:"browser_name";s:11:"3DS Browser";s:16:"browser_producer";s:24:"Nintendo of America Inc.";s:14:"browser_family";s:8:"Nintendo";}s:8:"category";s:7:"browser";}}',
+      ),
+    ),
+    'crios' => 
+    array (
+      0 => 
+      array (
+        0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":894:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":647:{x:i:3;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":130:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:5:"crios";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":126:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:1:"/";s:8:"strategy";s:4:"next";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":155:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:1:{i:0;s:15:"browser_version";}}},N;;m:a:0:{}}s:8:"priority";i:1;s:12:"capabilities";a:3:{s:12:"browser_name";s:13:"Chrome Mobile";s:16:"browser_producer";s:11:"Google Inc.";s:14:"browser_family";s:6:"Chrome";}s:8:"category";s:7:"browser";}}',
+      ),
+    ),
+    'chromeframe' => 
+    array (
+      0 => 
+      array (
+        0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":900:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":654:{x:i:3;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":137:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:11:"chromeframe";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":126:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:1:"/";s:8:"strategy";s:4:"next";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":155:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:1:{i:0;s:15:"browser_version";}}},N;;m:a:0:{}}s:8:"priority";i:1;s:12:"capabilities";a:3:{s:12:"browser_name";s:12:"Chrome Frame";s:16:"browser_producer";s:11:"Google Inc.";s:14:"browser_family";s:6:"Chrome";}s:8:"category";s:7:"browser";}}',
+      ),
+    ),
+    'acoo' => 
+    array (
+      0 => 
+      array (
+        0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":633:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":423:{x:i:2;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":129:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:4:"acoo";s:8:"strategy";s:4:"line";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":132:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:7:"browser";s:8:"strategy";s:4:"line";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;m:a:0:{}}s:8:"priority";i:1;s:12:"capabilities";a:2:{s:12:"browser_name";s:12:"Acoo Browser";s:14:"browser_family";s:12:"Acoo Browser";}s:8:"category";s:7:"browser";}}',
       ),
     ),
     'shiretoko' => 
@@ -799,11 +764,60 @@ return array (
         0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":946:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":651:{x:i:3;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":134:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:9:"shiretoko";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":126:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:1:"/";s:8:"strategy";s:4:"next";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":155:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:1:{i:0;s:15:"browser_version";}}},N;;m:a:0:{}}s:8:"priority";i:1;s:12:"capabilities";a:4:{s:12:"browser_name";s:19:"Firefox (Shiretoko)";s:16:"browser_producer";s:18:"Mozilla Foundation";s:14:"browser_family";s:7:"Firefox";s:14:"browser_engine";s:5:"Gecko";}s:8:"category";s:7:"browser";}}',
       ),
     ),
-    'fxios' => 
+    'crmo' => 
     array (
       0 => 
       array (
-        0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":904:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":647:{x:i:3;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":130:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:5:"fxios";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":126:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:1:"/";s:8:"strategy";s:4:"next";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":155:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:1:{i:0;s:15:"browser_version";}}},N;;m:a:0:{}}s:8:"priority";i:1;s:12:"capabilities";a:3:{s:12:"browser_name";s:15:"Firefox (FxiOS)";s:16:"browser_producer";s:18:"Mozilla Foundation";s:14:"browser_family";s:7:"Firefox";}s:8:"category";s:7:"browser";}}',
+        0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":893:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":646:{x:i:3;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":129:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:4:"crmo";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":126:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:1:"/";s:8:"strategy";s:4:"next";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":155:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:1:{i:0;s:15:"browser_version";}}},N;;m:a:0:{}}s:8:"priority";i:1;s:12:"capabilities";a:3:{s:12:"browser_name";s:13:"Chrome Mobile";s:16:"browser_producer";s:11:"Google Inc.";s:14:"browser_family";s:6:"Chrome";}s:8:"category";s:7:"browser";}}',
+      ),
+    ),
+    'dplus' => 
+    array (
+      0 => 
+      array (
+        0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":952:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":642:{x:i:3;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":130:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:5:"dplus";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":121:{a:5:{s:4:"type";s:5:"space";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":155:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:1:{i:0;s:15:"browser_version";}}},N;;m:a:0:{}}s:8:"priority";i:1;s:12:"capabilities";a:4:{s:12:"browser_name";s:5:"DPlus";s:16:"browser_producer";s:16:"Benjamin Johnson";s:14:"browser_family";s:5:"DPlus";s:16:"browser_homepage";s:36:"http://dplus-browser.sourceforge.net";}s:8:"category";s:7:"browser";}}',
+      ),
+    ),
+    'version' => 
+    array (
+      0 => 
+      array (
+        0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":1086:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":854:{x:i:4;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":132:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:7:"version";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":126:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:1:"/";s:8:"strategy";s:4:"next";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":155:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:1:{i:0;s:15:"browser_version";}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":131:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:6:"safari";s:8:"strategy";s:4:"line";s:8:"position";i:3;s:19:"dynamicCapabilities";a:0:{}}},N;;m:a:0:{}}s:8:"priority";i:1;s:12:"capabilities";a:3:{s:12:"browser_name";s:6:"Safari";s:14:"browser_family";s:6:"Safari";s:16:"browser_producer";s:5:"Apple";}s:8:"category";s:7:"browser";}}',
+      ),
+    ),
+    'bonecho' => 
+    array (
+      0 => 
+      array (
+        0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":942:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":649:{x:i:3;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":132:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:7:"bonecho";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":126:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:1:"/";s:8:"strategy";s:4:"next";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":155:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:1:{i:0;s:15:"browser_version";}}},N;;m:a:0:{}}s:8:"priority";i:1;s:12:"capabilities";a:4:{s:12:"browser_name";s:17:"Firefox (BonEcho)";s:16:"browser_producer";s:18:"Mozilla Foundation";s:14:"browser_family";s:7:"Firefox";s:14:"browser_engine";s:5:"Gecko";}s:8:"category";s:7:"browser";}}',
+      ),
+    ),
+    'elinks' => 
+    array (
+      0 => 
+      array (
+        0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":942:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":648:{x:i:3;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":131:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:6:"elinks";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":126:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:1:"/";s:8:"strategy";s:4:"next";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":155:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:1:{i:0;s:15:"browser_version";}}},N;;m:a:0:{}}s:8:"priority";i:1;s:12:"capabilities";a:4:{s:12:"browser_name";s:6:"Elinks";s:16:"browser_producer";s:15:"Mikulas Patocka";s:14:"browser_family";s:6:"Elinks";s:16:"browser_homepage";s:19:"http://elinks.or.cz";}s:8:"category";s:7:"browser";}}',
+      ),
+    ),
+    'element' => 
+    array (
+      0 => 
+      array (
+        0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":1403:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":1045:{x:i:5;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":132:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:7:"element";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":121:{a:5:{s:4:"type";s:5:"space";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":132:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:7:"browser";s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":121:{a:5:{s:4:"type";s:5:"space";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:3;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":155:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:4;s:19:"dynamicCapabilities";a:1:{i:0;s:15:"browser_version";}}},N;;m:a:0:{}}s:8:"priority";i:1;s:12:"capabilities";a:4:{s:12:"browser_name";s:15:"Element Browser";s:16:"browser_producer";s:20:"Element Software UK.";s:14:"browser_family";s:15:"Element Browser";s:16:"browser_homepage";s:57:"http://www.elementsoftware.co.uk/software/elementbrowser/";}s:8:"category";s:7:"browser";}}',
+      ),
+    ),
+    'abrowse' => 
+    array (
+      0 => 
+      array (
+        0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":920:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":644:{x:i:3;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":132:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:7:"abrowse";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":121:{a:5:{s:4:"type";s:5:"space";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":155:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:1:{i:0;s:15:"browser_version";}}},N;;m:a:0:{}}s:8:"priority";i:1;s:12:"capabilities";a:4:{s:12:"browser_name";s:7:"ABrowse";s:16:"browser_producer";s:11:"Kurt Skauen";s:14:"browser_family";s:7:"ABrowse";s:14:"browser_engine";s:6:"WebKit";}s:8:"category";s:7:"browser";}}',
+      ),
+    ),
+    'safari' => 
+    array (
+      0 => 
+      array (
+        0 => 'C:41:"DeviceDetectorIO\\DeviceDetector\\Rule\\Rule":880:{a:4:{s:10:"conditions";C:16:"SplObjectStorage":648:{x:i:3;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":131:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:6:"safari";s:8:"strategy";s:4:"next";s:8:"position";i:0;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":126:{a:5:{s:4:"type";s:4:"text";s:5:"value";s:1:"/";s:8:"strategy";s:4:"next";s:8:"position";i:1;s:19:"dynamicCapabilities";a:0:{}}},N;;C:56:"DeviceDetectorIO\\DeviceDetector\\Rule\\Condition\\Condition":155:{a:5:{s:4:"type";s:11:"placeholder";s:5:"value";N;s:8:"strategy";s:4:"next";s:8:"position";i:2;s:19:"dynamicCapabilities";a:1:{i:0;s:15:"browser_version";}}},N;;m:a:0:{}}s:8:"priority";i:0;s:12:"capabilities";a:3:{s:12:"browser_name";s:6:"Safari";s:14:"browser_family";s:6:"Safari";s:16:"browser_producer";s:5:"Apple";}s:8:"category";s:7:"browser";}}',
       ),
     ),
   ),

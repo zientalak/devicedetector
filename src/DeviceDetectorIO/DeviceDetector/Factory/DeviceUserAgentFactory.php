@@ -101,13 +101,13 @@ class DeviceUserAgentFactory implements DeviceUserAgentFactoryInterface
         $visitorManager = new VisitorManager();
         $visitorManager->add(
             $this->createIndexableVisitor(
-                __DIR__.'/../../../../resources/rules/php/rules.data'
+                __DIR__.'/../../../../resources/rules/php/rules.php'
             ),
             255
         );
         $visitorManager->add(
             $this->createNonIndexableVisitor(
-                __DIR__.'/../../../../resources/rules/php/rules.data'
+                __DIR__.'/../../../../resources/rules/php/rules.php'
             ),
             254
         );

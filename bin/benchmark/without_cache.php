@@ -3,7 +3,7 @@
 require __DIR__ . '/../../vendor/autoload.php';
 
 $userAgents = array(
-    'Mozilla/5.0 (Windows NT 6.1; rv:20.0) Gecko/20100101 Firefox/20.0 IceDragon/20.0.1.14'
+    'Mozilla/5.0 (Linux; Android 4.3; XT939G Build/14.10.0Q3.X-84) AppleWebKit/537.36 (KHTML, like Gecko)'
 );
 
 shuffle($userAgents);
