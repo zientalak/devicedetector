@@ -2,6 +2,160 @@
   conditions:
      -
         type: text
+        value: ipod
+        strategy: line
+     -
+        type: text
+        value: mobile
+        strategy: line
+  category: browser
+  priority: 0
+  capabilities:
+    browser_name: Safari
+    browser_family: Safari
+    browser_producer: Apple
+
+
+-
+  conditions:
+     -
+        type: text
+        value: ipad
+        strategy: line
+     -
+        type: text
+        value: mobile
+        strategy: line
+  category: browser
+  priority: 0
+  capabilities:
+    browser_name: Safari
+    browser_family: Safari
+    browser_producer: Apple
+
+-
+  conditions:
+     -
+        type: text
+        value: iphone
+        strategy: line
+     -
+        type: text
+        value: mobile
+        strategy: line
+  category: browser
+  priority: 0
+  capabilities:
+    browser_name: Safari
+    browser_family: Safari
+    browser_producer: Apple
+
+
+-
+  conditions:
+     -
+        type: text
+        value: ipod
+        strategy: line
+     -
+        type: text
+        value: version
+        strategy: line
+     -
+        type: text
+        value: /
+     -
+        type: placeholder
+        value: ~
+        capabilities: [browser_version]
+  category: browser
+  priority: 0
+  capabilities:
+    browser_name: Safari
+    browser_family: Safari
+    browser_producer: Apple
+
+
+-
+  conditions:
+     -
+        type: text
+        value: ipad
+        strategy: line
+     -
+        type: text
+        value: version
+        strategy: line
+     -
+        type: text
+        value: /
+     -
+        type: placeholder
+        value: ~
+        capabilities: [browser_version]
+  category: browser
+  priority: 0
+  capabilities:
+    browser_name: Safari
+    browser_family: Safari
+    browser_producer: Apple
+
+
+-
+  conditions:
+     -
+        type: text
+        value: iphone
+        strategy: line
+     -
+        type: text
+        value: version
+        strategy: line
+     -
+        type: text
+        value: /
+     -
+        type: placeholder
+        value: ~
+        capabilities: [browser_version]
+  category: browser
+  priority: 0
+  capabilities:
+    browser_name: Safari
+    browser_family: Safari
+    browser_producer: Apple
+
+-
+  conditions:
+     -
+        type: text
+        value: version
+     -
+        type: text
+        value: /
+     -
+        type: placeholder
+        value: ~
+        capabilities: [browser_version]
+     -
+        type: text
+        value: mobile
+        strategy: line
+     -
+        type: text
+        value: safari
+        strategy: line
+  category: browser
+  priority: 1
+  capabilities:
+    browser_name: Safari
+    browser_family: Safari
+    browser_producer: Apple
+
+-
+  conditions:
+     -
+        type: text
         value: version
      -
         type: text

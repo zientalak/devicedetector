@@ -9,12 +9,28 @@ Device Detector for PHP
 Device Detector is PHP library for detecting devices.
 The main goal is analyse input data (like User Agent) and recognize device capabilities.
 
+## Installation
+
+### Use the official Git repository
+
+```
+git clone git@github.com:zientalak/devicedetector.git
+cd devicedetector
+composer install
+```
+
+### via Composer
+
+```
+composer require zientalak/devicedetector
+```
+
 ## Usage
 
-Using DeviceDetector.IO library is very easy:
+Using DeviceDetector.IO library in PHP is very easy:
 
 ```php
-require __DIR__ . '/../../vendor/autoload.php';
+require __DIR__ . '/vendor/autoload.php';
 
 $factory = new \DeviceDetectorIO\DeviceDetector\Factory\DeviceUserAgentFactory();
 /** \DeviceDetectorIO\DeviceDetector\DeviceInterface $device */
