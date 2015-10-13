@@ -14,7 +14,7 @@ $stopwatch->start('benchmark');
 $factory = new \DeviceDetectorIO\DeviceDetector\Factory\DeviceUserAgentFactory();
 
 foreach ($userAgents as $userAgent) {
-    var_dump($factory->getDevice($userAgent));
+    dump($factory->getDevice($userAgent));
 }
 
 $event = $stopwatch->stop('benchmark');
