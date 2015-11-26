@@ -5,8 +5,7 @@ namespace DeviceDetectorIO\DeviceDetector\Token;
 use DeviceDetectorIO\DeviceDetector\UserAgent\UserAgentTokenizerInterface;
 
 /**
- * Class UserAgentTokenizedToken
- * @package DeviceDetectorIO\DeviceDetector\Token
+ * Class UserAgentTokenizedToken.
  */
 class UserAgentTokenizedToken implements TokenInterface
 {
@@ -26,7 +25,7 @@ class UserAgentTokenizedToken implements TokenInterface
     private $tokens;
 
     /**
-     * @param UserAgentToken $token
+     * @param UserAgentToken              $token
      * @param UserAgentTokenizerInterface $tokenizer
      */
     public function __construct(UserAgentToken $token, UserAgentTokenizerInterface $tokenizer)
@@ -56,10 +55,10 @@ class UserAgentTokenizedToken implements TokenInterface
     {
         $this->getData();
 
-        return serialize(array(
+        return serialize([
             'tokens' => $this->tokens,
-            'token' => $this->token
-        ));
+            'token' => $this->token,
+        ]);
     }
 
     /**

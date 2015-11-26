@@ -8,8 +8,7 @@ use DeviceDetectorIO\DeviceDetector\Token\TokenPoolInterface;
 use DeviceDetectorIO\DeviceDetector\VisitorManager\VisitorManagerInterface;
 
 /**
- * Class DeviceDetector
- * @package DeviceDetectorIO\DeviceDetector\Detector
+ * Class DeviceDetector.
  */
 class DeviceDetector implements DeviceDetectorInterface
 {
@@ -25,7 +24,7 @@ class DeviceDetector implements DeviceDetectorInterface
 
     /**
      * @param VisitorManagerInterface $visitorManager
-     * @param CollatorInterface $collator
+     * @param CollatorInterface       $collator
      */
     public function __construct(
         VisitorManagerInterface $visitorManager,

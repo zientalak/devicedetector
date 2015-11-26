@@ -3,15 +3,14 @@
 namespace DeviceDetectorIO\DeviceDetector\Rule\Occurrence;
 
 /**
- * Class Occurrences
- * @package DeviceDetectorIO\DeviceDetector\Rule\Occurrence
+ * Class Occurrences.
  */
 class Occurrences implements OccurrencesInterface
 {
     /**
      * @var array
      */
-    private $occurrences = array();
+    private $occurrences = [];
 
     /**
      * {@inheritdoc}
@@ -48,7 +47,7 @@ class Occurrences implements OccurrencesInterface
      */
     public function clear()
     {
-        $this->occurrences = array();
+        $this->occurrences = [];
 
         return $this;
     }

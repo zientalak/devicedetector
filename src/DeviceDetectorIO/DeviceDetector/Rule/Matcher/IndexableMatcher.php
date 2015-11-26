@@ -7,8 +7,7 @@ use DeviceDetectorIO\DeviceDetector\Rule\OccurrencesFinder\FinderInterface;
 use DeviceDetectorIO\DeviceDetector\Token\TokenInterface;
 
 /**
- * Class IndexableMatcher
- * @package DeviceDetectorIO\DeviceDetector\Rule\Matcher
+ * Class IndexableMatcher.
  */
 class IndexableMatcher implements MatcherInterface
 {
@@ -23,7 +22,7 @@ class IndexableMatcher implements MatcherInterface
     private $analyser;
 
     /**
-     * @param FinderInterface $finder
+     * @param FinderInterface              $finder
      * @param OccurrencesAnalyserInterface $analyser
      */
     public function __construct(FinderInterface $finder, OccurrencesAnalyserInterface $analyser)

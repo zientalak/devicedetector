@@ -3,8 +3,7 @@
 namespace DeviceDetectorIO\DeviceDetector\UserAgent;
 
 /**
- * Class UserAgentTokenizer
- * @package DeviceDetectorIO\DeviceDetector\UserAgent
+ * Class UserAgentTokenizer.
  */
 class UserAgentTokenizer implements UserAgentTokenizerInterface
 {
@@ -28,6 +27,7 @@ class UserAgentTokenizer implements UserAgentTokenizerInterface
 
     /**
      * @param $token
+     *
      * @return int
      */
     private function resolveType($token)
@@ -44,12 +44,12 @@ class UserAgentTokenizer implements UserAgentTokenizerInterface
      */
     private function getCatchablePatterns()
     {
-        return array(
+        return [
             'http:\/\/[^;\()]+',
             '[a-z0-9\.\-\_\+]+,[a-z0-9\.\-\_\+]+',
             '[a-z0-9\.\-\_\+]+',
-            '[\/;\(),:\s+\+]+?'
-        );
+            '[\/;\(),:\s+\+]+?',
+        ];
     }
 
     /**
@@ -69,6 +69,7 @@ class UserAgentTokenizer implements UserAgentTokenizerInterface
 
     /**
      * @param string $userAgent
+     *
      * @return string
      */
     private function normalizeUserAgent($userAgent)
@@ -79,6 +80,7 @@ class UserAgentTokenizer implements UserAgentTokenizerInterface
 
     /**
      * @param $userAgent
+     *
      * @return array
      */
     private function getTokens($userAgent)

@@ -3,8 +3,7 @@
 namespace DeviceDetectorIO\DeviceDetector\Token;
 
 /**
- * Interface TokenPoolInterface
- * @package DeviceDetectorIO\DeviceDetector\Token
+ * Interface TokenPoolInterface.
  */
 interface TokenPoolInterface extends \IteratorAggregate, \Countable
 {
@@ -15,24 +14,27 @@ interface TokenPoolInterface extends \IteratorAggregate, \Countable
 
     /**
      * @param TokenInterface $token
-     * @return boolean
+     *
+     * @return bool
      */
     public function add(TokenInterface $token);
 
     /**
      * @param TokenInterface $token
-     * @return boolean
+     *
+     * @return bool
      */
     public function has(TokenInterface $token);
 
     /**
      * @param TokenInterface $token
-     * @return boolean
+     *
+     * @return bool
      */
     public function remove(TokenInterface $token);
 
     /**
-     * @return boolean
+     * @return bool
      */
     public function removeAll();
 }

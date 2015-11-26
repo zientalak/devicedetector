@@ -3,15 +3,12 @@
 namespace DeviceDetectorIO\DeviceDetector\Visitor;
 
 use DeviceDetectorIO\DeviceDetector\Capability\CollatorInterface;
-use DeviceDetectorIO\DeviceDetector\Rule\Condition\ConditionInterface;
 use DeviceDetectorIO\DeviceDetector\Rule\Matcher\MatcherInterface;
 use DeviceDetectorIO\DeviceDetector\Rule\MergingStrategy\MergingStrategyInterface;
-use DeviceDetectorIO\DeviceDetector\Rule\RuleInterface;
 use DeviceDetectorIO\DeviceDetector\Token\TokenInterface;
 
 /**
- * Class RulesVisitor
- * @package DeviceDetectorIO\DeviceDetector\Visitor
+ * Class RulesVisitor.
  */
 class RulesVisitor extends AbstractUserAgentTokenizedVisitor
 {
@@ -26,7 +23,7 @@ class RulesVisitor extends AbstractUserAgentTokenizedVisitor
     private $mergingStrategy;
 
     /**
-     * @param MatcherInterface $matcher
+     * @param MatcherInterface         $matcher
      * @param MergingStrategyInterface $mergingStrategy
      */
     public function __construct(MatcherInterface $matcher, MergingStrategyInterface $mergingStrategy)

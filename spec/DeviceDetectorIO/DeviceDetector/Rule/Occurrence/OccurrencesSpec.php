@@ -10,25 +10,23 @@ use DeviceDetectorIO\DeviceDetector\Rule\RuleInterface;
 use DeviceDetectorIO\DeviceDetector\UserAgent\Node;
 use DeviceDetectorIO\DeviceDetector\UserAgent\NodeInterface;
 use PhpSpec\ObjectBehavior;
-use Prophecy\Argument;
 
 /**
- * Class OccurrencesSpec
- * @package spec\DeviceDetectorIO\DeviceDetector\Rule\Occurrence
+ * Class OccurrencesSpec.
  */
 class OccurrencesSpec extends ObjectBehavior
 {
-    function it_is_initializable()
+    public function it_is_initializable()
     {
         $this->shouldHaveType('DeviceDetectorIO\DeviceDetector\Rule\Occurrence\Occurrences');
     }
 
-    function it_implements_occurrences_interface()
+    public function it_implements_occurrences_interface()
     {
         $this->shouldImplement('DeviceDetectorIO\DeviceDetector\Rule\Occurrence\OccurrencesInterface');
     }
 
-    function it_add_and_clear_occurrences(OccurrenceInterface $occurence, RuleInterface $rule)
+    public function it_add_and_clear_occurrences(OccurrenceInterface $occurence, RuleInterface $rule)
     {
         $occurence->getRule()
             ->shouldBeCalled()
@@ -38,7 +36,7 @@ class OccurrencesSpec extends ObjectBehavior
         $this->clear()->shouldReturn($this);
     }
 
-    function it_return_first_occurrences()
+    public function it_return_first_occurrences()
     {
         $condition = new Condition();
         $condition->setPosition(0);
@@ -57,7 +55,7 @@ class OccurrencesSpec extends ObjectBehavior
         $firstOccurrences->shouldHaveKey($occurence1);
     }
 
-    function it_return_next_position()
+    public function it_return_next_position()
     {
         $rule = new Rule();
         $condition = new Condition();

@@ -3,15 +3,14 @@
 namespace DeviceDetectorIO\DeviceDetector\Capability;
 
 /**
- * Class Collector
- * @package DeviceDetectorIO\DeviceDetector\Capability
+ * Class Collector.
  */
 class Collator implements CollatorInterface
 {
     /**
      * @var array
      */
-    private $capabilities = array();
+    private $capabilities = [];
 
     /**
      * {@inheritdoc}
@@ -86,7 +85,7 @@ class Collator implements CollatorInterface
      */
     public function removeAll()
     {
-        $this->setAll(array());
+        $this->setAll([]);
 
         return true;
     }

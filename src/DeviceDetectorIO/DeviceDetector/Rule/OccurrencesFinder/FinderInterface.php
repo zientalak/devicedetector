@@ -6,13 +6,13 @@ use DeviceDetectorIO\DeviceDetector\Rule\Occurrence\OccurrencesInterface;
 use DeviceDetectorIO\DeviceDetector\Token\UserAgentTokenizedToken;
 
 /**
- * Interface FinderInterface
- * @package DeviceDetectorIO\DeviceDetector\Rule\OccurrencesFinder
+ * Interface FinderInterface.
  */
 interface FinderInterface
 {
     /**
      * @param UserAgentTokenizedToken $token
+     *
      * @return OccurrencesInterface
      */
     public function find(UserAgentTokenizedToken $token);

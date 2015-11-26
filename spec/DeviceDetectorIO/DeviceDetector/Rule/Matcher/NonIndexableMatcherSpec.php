@@ -12,8 +12,7 @@ use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
 
 /**
- * Class NonIndexableMatcherSpec
- * @package spec\DeviceDetectorIO\DeviceDetector\Rule\Matcher
+ * Class NonIndexableMatcherSpec.
  */
 class NonIndexableMatcherSpec extends ObjectBehavior
 {
@@ -22,34 +21,33 @@ class NonIndexableMatcherSpec extends ObjectBehavior
         $this->beConstructedWith($repository, $resolver);
     }
 
-    function it_is_initializable()
+    public function it_is_initializable()
     {
         $this->shouldHaveType('DeviceDetectorIO\DeviceDetector\Rule\Matcher\NonIndexableMatcher');
     }
 
-    function it_implements_matcher_interface()
+    public function it_implements_matcher_interface()
     {
         $this->shouldImplement('DeviceDetectorIO\DeviceDetector\Rule\Matcher\MatcherInterface');
     }
 
-    function it_match_bu_using_repository_and_resolver(
+    public function it_match_bu_using_repository_and_resolver(
         TokenInterface $token,
         RepositoryInterface $repository,
         ResolverInterface $resolver,
         Rule $rule,
         EvaluatorInterface $evaluator
     ) {
-
         $this->beConstructedWith($repository, $resolver);
 
         $condition = new Condition();
-        $conditions = array($condition);
+        $conditions = [$condition];
 
         $rule->getConditions()
             ->shouldBeCalled()
             ->willReturn($conditions);
 
-        $rules = array($rule);
+        $rules = [$rule];
 
         $repository->getNonIndexableRules()
             ->shouldBeCalled()

@@ -7,15 +7,14 @@ use DeviceDetectorIO\DeviceDetector\Rule\Condition\ConditionInterface;
 use DeviceDetectorIO\DeviceDetector\Rule\ConditionEvaluator\EvaluatorInterface;
 
 /**
- * Class Resolver
- * @package DeviceDetectorIO\DeviceDetector\Rule\ConditionEvaluator\Resolver
+ * Class Resolver.
  */
 class Resolver implements ResolverInterface, ResolverFactoryInterface
 {
     /**
      * @var array
      */
-    private $evaluators = array();
+    private $evaluators = [];
 
     /**
      * {@inheritdoc}
@@ -58,7 +57,7 @@ class Resolver implements ResolverInterface, ResolverFactoryInterface
      */
     public function removeAll()
     {
-        $this->evaluators = array();
+        $this->evaluators = [];
 
         return true;
     }

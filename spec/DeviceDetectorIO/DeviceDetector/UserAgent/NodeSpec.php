@@ -4,11 +4,9 @@ namespace spec\DeviceDetectorIO\DeviceDetector\UserAgent;
 
 use DeviceDetectorIO\DeviceDetector\UserAgent\NodeInterface;
 use PhpSpec\ObjectBehavior;
-use Prophecy\Argument;
 
 /**
- * Class NodeSpec
- * @package spec\DeviceDetectorIO\DeviceDetector\UserAgent
+ * Class NodeSpec.
  */
 class NodeSpec extends ObjectBehavior
 {
@@ -17,17 +15,17 @@ class NodeSpec extends ObjectBehavior
         $this->beConstructedWith('mozilla', NodeInterface::TYPE_TEXT, 1);
     }
 
-    function it_is_initializable()
+    public function it_is_initializable()
     {
         $this->shouldHaveType('DeviceDetectorIO\DeviceDetector\UserAgent\Node');
     }
 
-    function it_implements_node_interface()
+    public function it_implements_node_interface()
     {
         $this->shouldImplement('DeviceDetectorIO\DeviceDetector\UserAgent\NodeInterface');
     }
 
-    function it_return_expected_values()
+    public function it_return_expected_values()
     {
         $this->getValue()->shouldReturn('mozilla');
         $this->getType()->shouldReturn(NodeInterface::TYPE_TEXT);
@@ -36,23 +34,23 @@ class NodeSpec extends ObjectBehavior
         $this->isType(NodeInterface::TYPE_SPACE)->shouldReturn(false);
     }
 
-    function it_is_serializable()
+    public function it_is_serializable()
     {
         $this->serialize()->shouldReturn(
             serialize(
-                array(
+                [
                     'value' => 'mozilla',
                     'position' => 1,
-                    'type' => NodeInterface::TYPE_TEXT
-                )
+                    'type' => NodeInterface::TYPE_TEXT,
+                ]
             )
         );
 
-        $data = array(
+        $data = [
             'value' => 'chrome',
             'position' => 10,
-            'type' => NodeInterface::TYPE_SPACE
-        );
+            'type' => NodeInterface::TYPE_SPACE,
+        ];
 
         $this->unserialize(serialize($data));
 

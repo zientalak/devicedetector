@@ -5,8 +5,7 @@ namespace DeviceDetectorIO\DeviceDetector\Rule;
 use DeviceDetectorIO\DeviceDetector\Rule\Condition\ConditionInterface;
 
 /**
- * Class Rule
- * @package DeviceDetectorIO\DeviceDetector\Rule
+ * Class Rule.
  */
 class Rule implements RuleInterface
 {
@@ -23,7 +22,7 @@ class Rule implements RuleInterface
     /**
      * @var array
      */
-    protected $capabilities = array();
+    protected $capabilities = [];
 
     /**
      * @var string
@@ -31,7 +30,7 @@ class Rule implements RuleInterface
     protected $category;
 
     /**
-     * Constructor
+     * Constructor.
      */
     public function __construct()
     {
@@ -105,7 +104,7 @@ class Rule implements RuleInterface
      */
     public function setPriority($priority)
     {
-        $this->priority = (int)$priority;
+        $this->priority = (int) $priority;
 
         return $this;
     }
@@ -151,12 +150,12 @@ class Rule implements RuleInterface
      */
     public function serialize()
     {
-        return serialize(array(
+        return serialize([
             'conditions' => $this->conditions,
             'priority' => $this->priority,
             'capabilities' => $this->capabilities,
-            'category' => $this->category
-        ));
+            'category' => $this->category,
+        ]);
     }
 
     /**

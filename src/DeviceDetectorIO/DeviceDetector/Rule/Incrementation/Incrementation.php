@@ -6,8 +6,7 @@ use DeviceDetectorIO\DeviceDetector\Rule\Condition\ConditionInterface;
 use DeviceDetectorIO\DeviceDetector\Rule\Occurrence\OccurrenceInterface;
 
 /**
- * Class Incrementation
- * @package DeviceDetectorIO\DeviceDetector\Rule\Incrementation
+ * Class Incrementation.
  */
 class Incrementation implements IncrementationInterface
 {

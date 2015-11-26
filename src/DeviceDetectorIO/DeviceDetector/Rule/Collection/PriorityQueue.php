@@ -3,14 +3,14 @@
 namespace DeviceDetectorIO\DeviceDetector\Rule\Collection;
 
 /**
- * Class PriorityQueue
- * @package DeviceDetectorIO\DeviceDetector\Rule
+ * Class PriorityQueue.
  */
 class PriorityQueue extends \SplPriorityQueue
 {
     /**
      * @param int $priority1
      * @param int $priority2
+     *
      * @return int
      */
     public function compare($priority1, $priority2)

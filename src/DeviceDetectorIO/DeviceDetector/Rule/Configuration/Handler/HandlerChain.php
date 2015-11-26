@@ -5,15 +5,14 @@ namespace DeviceDetectorIO\DeviceDetector\Rule\Configuration\Handler;
 use DeviceDetectorIO\DeviceDetector\Rule\RuleInterface;
 
 /**
- * Class HandlerChain
- * @package DeviceDetectorIO\DeviceDetector\Rule\Configuration\Handler
+ * Class HandlerChain.
  */
 class HandlerChain implements HandlerChainInterface
 {
     /**
      * @var array
      */
-    private $handlers = array();
+    private $handlers = [];
 
     /**
      * {@inheritdoc}
@@ -76,7 +75,7 @@ class HandlerChain implements HandlerChainInterface
      */
     public function removeAll()
     {
-        $this->handlers = array();
+        $this->handlers = [];
 
         return true;
     }

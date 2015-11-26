@@ -7,8 +7,7 @@ use DeviceDetectorIO\DeviceDetector\Rule\RuleInterface;
 use DeviceDetectorIO\DeviceDetector\Token\TokenInterface;
 
 /**
- * Class StrposEvalulator
- * @package DeviceDetectorIO\DeviceDetector\Rule\ConditionEvaluator
+ * Class StrposEvalulator.
  */
 class StrposEvalulator implements EvaluatorInterface
 {
@@ -17,7 +16,7 @@ class StrposEvalulator implements EvaluatorInterface
      */
     public function evaluate(TokenInterface $token, ConditionInterface $condition, RuleInterface $rule)
     {
-        return false !== strpos((string)$token, $condition->getValue());
+        return false !== strpos((string) $token, $condition->getValue());
     }
 
     /**

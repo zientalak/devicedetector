@@ -8,8 +8,7 @@ use DeviceDetectorIO\DeviceDetector\Fingerprint\FingerprintGeneratorInterface;
 use DeviceDetectorIO\DeviceDetector\Token\TokenPoolInterface;
 
 /**
- * Class CacheDetector
- * @package DeviceDetectorIO\DeviceDetector\Detector
+ * Class CacheDetector.
  */
 final class CacheDetector extends DeviceDetector
 {
@@ -25,6 +24,7 @@ final class CacheDetector extends DeviceDetector
 
     /**
      * @param FingerprintGeneratorInterface $fingerprintGenerator
+     *
      * @return self
      */
     public function setFingerprintGenerator(FingerprintGeneratorInterface $fingerprintGenerator)
@@ -36,6 +36,7 @@ final class CacheDetector extends DeviceDetector
 
     /**
      * @param DeviceCacheInterface $deviceCache
+     *
      * @return self
      */
     public function setDeviceCache(DeviceCacheInterface $deviceCache)

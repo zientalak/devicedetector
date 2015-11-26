@@ -12,27 +12,26 @@ use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
 
 /**
- * Class FinderSpec
- * @package spec\DeviceDetectorIO\DeviceDetector\Rule\OccurrencesFinder
+ * Class FinderSpec.
  */
 class FinderSpec extends ObjectBehavior
 {
-    function let(RepositoryInterface $repository, ComparerInterface $comparer)
+    public function let(RepositoryInterface $repository, ComparerInterface $comparer)
     {
         $this->beConstructedWith($repository, $comparer);
     }
 
-    function it_is_initializable()
+    public function it_is_initializable()
     {
         $this->shouldHaveType('DeviceDetectorIO\DeviceDetector\Rule\OccurrencesFinder\Finder');
     }
 
-    function it_implements_finder_interface()
+    public function it_implements_finder_interface()
     {
         $this->shouldImplement('DeviceDetectorIO\DeviceDetector\Rule\OccurrencesFinder\FinderInterface');
     }
 
-    function it_find_occurrences(RepositoryInterface $repository, ComparerInterface $comparer, UserAgentTokenizedToken $token, Rule $rule)
+    public function it_find_occurrences(RepositoryInterface $repository, ComparerInterface $comparer, UserAgentTokenizedToken $token, Rule $rule)
     {
         $this->beConstructedWith($repository, $comparer);
 
@@ -42,18 +41,18 @@ class FinderSpec extends ObjectBehavior
 
         $token->getData()
             ->shouldBeCalled()
-            ->willReturn(array(
+            ->willReturn([
                 $node1,
                 $node2,
-                $node3
-            ));
+                $node3,
+            ]);
 
         $condition = new Condition();
         $condition->setPosition(0);
 
-        $conditions = new \ArrayIterator(array(
-            $condition
-        ));
+        $conditions = new \ArrayIterator([
+            $condition,
+        ]);
 
         $rule->getConditions()
             ->shouldBeCalled()
@@ -61,9 +60,9 @@ class FinderSpec extends ObjectBehavior
 
         $repository->getIndexableRulesByUserAgentToken(Argument::exact($token->getWrappedObject()))
             ->shouldBeCalled()
-            ->willReturn(array(
-                $rule
-            ));
+            ->willReturn([
+                $rule,
+            ]);
 
         $comparer->areEquals(Argument::exact($node1), Argument::exact($condition))
             ->shouldBeCalled()

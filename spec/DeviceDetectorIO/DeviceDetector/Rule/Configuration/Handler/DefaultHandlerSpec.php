@@ -7,40 +7,39 @@ use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
 
 /**
- * Class DefaultHandlerSpec
- * @package spec\DeviceDetectorIO\DeviceDetector\Rule\Configuration\Handler
+ * Class DefaultHandlerSpec.
  */
 class DefaultHandlerSpec extends ObjectBehavior
 {
-    function it_is_initializable()
+    public function it_is_initializable()
     {
         $this->shouldHaveType('DeviceDetectorIO\DeviceDetector\Rule\Configuration\Handler\DefaultHandler');
     }
 
-    function it_implements_handler_interface()
+    public function it_implements_handler_interface()
     {
         $this->shouldImplement('DeviceDetectorIO\DeviceDetector\Rule\Configuration\Handler\HandlerInterface');
     }
 
-    function it_handle_configuration(RuleInterface $rule)
+    public function it_handle_configuration(RuleInterface $rule)
     {
-        $configuration = array(
+        $configuration = [
             'priority' => 1,
             'category' => 'browser',
-            'capabilities' => array(
-                'is_bot' => true
-            ),
-            'conditions' => array(
-                array(
+            'capabilities' => [
+                'is_bot' => true,
+            ],
+            'conditions' => [
+                [
                     'type' => 'text',
                     'value' => 'chrome',
                     'strategy' => 'sequence',
-                    'capabilities' => array(
-                        'is_modile' => true
-                    )
-                )
-            )
-        );
+                    'capabilities' => [
+                        'is_modile' => true,
+                    ],
+                ],
+            ],
+        ];
 
         $rule->setPriority(Argument::exact($configuration['priority']))
             ->shouldBeCalled();

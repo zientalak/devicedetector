@@ -6,8 +6,7 @@ use DeviceDetectorIO\DeviceDetector\Cache\CacheInterface;
 use DeviceDetectorIO\DeviceDetector\Device\CacheDevice;
 
 /**
- * Class GenericDeviceCache
- * @package DeviceDetectorIO\DeviceDetector\GenericDeviceCache
+ * Class GenericDeviceCache.
  */
 class GenericDeviceCache implements DeviceCacheInterface
 {
@@ -82,6 +81,7 @@ class GenericDeviceCache implements DeviceCacheInterface
 
     /**
      * @param string $prefix
+     *
      * @return self
      */
     public function setPrefix($prefix = self::PREFIX)
@@ -94,6 +94,7 @@ class GenericDeviceCache implements DeviceCacheInterface
     /**
      * @param string $prefix
      * @param string $fingerprint
+     *
      * @return string
      */
     protected function generateKey($prefix, $fingerprint)

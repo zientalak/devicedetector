@@ -10,8 +10,7 @@ use DeviceDetectorIO\DeviceDetector\Rule\RuleInterface;
 use DeviceDetectorIO\DeviceDetector\Token\TokenInterface;
 
 /**
- * Class NonIndexableMatcher
- * @package DeviceDetectorIO\DeviceDetector\Rule\Matcher
+ * Class NonIndexableMatcher.
  */
 class NonIndexableMatcher implements MatcherInterface
 {
@@ -27,7 +26,7 @@ class NonIndexableMatcher implements MatcherInterface
 
     /**
      * @param RepositoryInterface $repository
-     * @param ResolverInterface $resolver
+     * @param ResolverInterface   $resolver
      */
     public function __construct(RepositoryInterface $repository, ResolverInterface $resolver)
     {

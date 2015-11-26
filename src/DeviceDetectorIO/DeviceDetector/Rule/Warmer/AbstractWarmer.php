@@ -8,8 +8,7 @@ use DeviceDetectorIO\DeviceDetector\Rule\Collection\PriorityQueue;
 use DeviceDetectorIO\DeviceDetector\Rule\Rule;
 
 /**
- * Class AbstractWarmer
- * @package DeviceDetectorIO\DeviceDetector\Rule\Warmer
+ * Class AbstractWarmer.
  */
 abstract class AbstractWarmer implements WarmerInterface
 {

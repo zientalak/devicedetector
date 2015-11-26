@@ -5,13 +5,13 @@ namespace DeviceDetectorIO\DeviceDetector\Rule\Matcher;
 use DeviceDetectorIO\DeviceDetector\Token\TokenInterface;
 
 /**
- * Interface MatcherInterface
- * @package DeviceDetectorIO\DeviceDetector\Rule\Matcher
+ * Interface MatcherInterface.
  */
 interface MatcherInterface
 {
     /**
      * @param TokenInterface $token
+     *
      * @return \Iterator
      */
     public function match(TokenInterface $token);

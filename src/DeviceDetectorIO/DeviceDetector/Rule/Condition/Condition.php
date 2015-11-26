@@ -3,8 +3,7 @@
 namespace DeviceDetectorIO\DeviceDetector\Rule\Condition;
 
 /**
- * Class Condition
- * @package DeviceDetectorIO\DeviceDetector\Rule\Condition
+ * Class Condition.
  */
 class Condition implements ConditionInterface
 {
@@ -31,7 +30,7 @@ class Condition implements ConditionInterface
     /**
      * @var array
      */
-    protected $dynamicCapabilities = array();
+    protected $dynamicCapabilities = [];
 
     /**
      * {@inheritdoc}
@@ -108,7 +107,7 @@ class Condition implements ConditionInterface
      */
     public function setPosition($position)
     {
-        $this->position = (int)$position;
+        $this->position = (int) $position;
 
         return $this;
     }
@@ -144,13 +143,13 @@ class Condition implements ConditionInterface
      */
     public function serialize()
     {
-        return serialize(array(
+        return serialize([
             'type' => $this->type,
             'value' => $this->value,
             'strategy' => $this->strategy,
             'position' => $this->position,
-            'dynamicCapabilities' => $this->dynamicCapabilities
-        ));
+            'dynamicCapabilities' => $this->dynamicCapabilities,
+        ]);
     }
 
     /**

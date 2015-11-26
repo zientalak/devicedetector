@@ -3,8 +3,7 @@
 namespace DeviceDetectorIO\DeviceDetector;
 
 /**
- * Class Capabilities
- * @package DeviceDetectorIO\DeviceDetector
+ * Class Capabilities.
  */
 final class Capabilities
 {

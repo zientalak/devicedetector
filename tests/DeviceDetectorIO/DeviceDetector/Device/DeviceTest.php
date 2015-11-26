@@ -7,8 +7,7 @@ use DeviceDetectorIO\DeviceDetector\Device\CacheDevice;
 use DeviceDetectorIO\DeviceDetector\Device\Device;
 
 /**
- * Class DeviceTest
- * @package DeviceDetectorIO\DeviceDetector\Tests\Device
+ * Class DeviceTest.
  */
 class DeviceTest extends \PHPUnit_Framework_TestCase
 {
@@ -69,7 +68,7 @@ class DeviceTest extends \PHPUnit_Framework_TestCase
      */
     protected function getCapabilities()
     {
-        return array(
+        return [
             Capabilities::BROWSER => Capabilities::BROWSER_CHROME,
             Capabilities::IS_MOBILE => false,
             Capabilities::IS_BOT => false,
@@ -77,7 +76,7 @@ class DeviceTest extends \PHPUnit_Framework_TestCase
             Capabilities::BROWSER_VERSION => '23',
             Capabilities::OS => Capabilities::OS_WINDOWS,
             Capabilities::OS_VERSION => '8',
-            Capabilities::OS_VENDOR => Capabilities::VENDOR_MICROSOFT
-        );
+            Capabilities::OS_VENDOR => Capabilities::VENDOR_MICROSOFT,
+        ];
     }
 }

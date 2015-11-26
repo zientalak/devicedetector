@@ -7,8 +7,7 @@ use DeviceDetectorIO\DeviceDetector\Rule\RuleInterface;
 use DeviceDetectorIO\DeviceDetector\Token\TokenInterface;
 
 /**
- * Class RegexEvaluator
- * @package DeviceDetectorIO\DeviceDetector\Rule\ConditionEvaluator
+ * Class RegexEvaluator.
  */
 class RegexEvaluator implements EvaluatorInterface
 {
@@ -17,10 +16,10 @@ class RegexEvaluator implements EvaluatorInterface
      */
     public function evaluate(TokenInterface $token, ConditionInterface $condition, RuleInterface $rule)
     {
-        $matches = array();
+        $matches = [];
 
-        if (preg_match($condition->getValue(), (string)$token, $matches)) {
-            $dynamicCapabilitiesToMerge = array();
+        if (preg_match($condition->getValue(), (string) $token, $matches)) {
+            $dynamicCapabilitiesToMerge = [];
             $dynamicCapabilities = $condition->getDynamicCapabilities();
 
             if (!empty($dynamicCapabilities)) {

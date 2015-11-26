@@ -9,27 +9,26 @@ use Symfony\Component\Finder\SplFileInfo;
 use Symfony\Component\Yaml\Parser;
 
 /**
- * Class YmlLoaderSpec
- * @package spec\DeviceDetectorIO\DeviceDetector\Rule\Configuration\Loader
+ * Class YmlLoaderSpec.
  */
 class YmlLoaderSpec extends ObjectBehavior
 {
-    function let(Parser $parser, Finder $finder)
+    public function let(Parser $parser, Finder $finder)
     {
         $this->beConstructedWith($parser, $finder, 'directory');
     }
 
-    function it_is_initializable()
+    public function it_is_initializable()
     {
         $this->shouldHaveType('DeviceDetectorIO\DeviceDetector\Rule\Configuration\Loader\YmlLoader');
     }
 
-    function it_implements_loader_interface()
+    public function it_implements_loader_interface()
     {
         $this->shouldImplement('DeviceDetectorIO\DeviceDetector\Rule\Configuration\Loader\LoaderInterface');
     }
 
-    function it_load_configuration(Parser $parser, Finder $finder, SplFileInfo $file)
+    public function it_load_configuration(Parser $parser, Finder $finder, SplFileInfo $file)
     {
         $directory = 'directory';
         $maxDepth = 3;
@@ -52,9 +51,9 @@ class YmlLoaderSpec extends ObjectBehavior
         $finder->name(Argument::exact('*.yml'))
             ->shouldBeCalled()
             ->willReturn(
-                array(
-                    $file
-                )
+                [
+                    $file,
+                ]
             );
 
         $ymlContent = <<<EOD
@@ -72,8 +71,8 @@ EOD;
 
         $parser->parse(Argument::exact($ymlContent))
             ->shouldBeCalled()
-            ->willReturn(array(true));
+            ->willReturn([true]);
 
-        $this->load()->shouldReturn(array(true));
+        $this->load()->shouldReturn([true]);
     }
 }

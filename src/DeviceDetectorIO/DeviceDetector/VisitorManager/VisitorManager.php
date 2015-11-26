@@ -8,8 +8,7 @@ use DeviceDetectorIO\DeviceDetector\Token\TokenPoolInterface;
 use DeviceDetectorIO\DeviceDetector\Visitor\VisitorInterface;
 
 /**
- * Class VisitorManager
- * @package DeviceDetectorIO\DeviceDetector\VisitorManager
+ * Class VisitorManager.
  */
 class VisitorManager implements VisitorManagerInterface
 {
@@ -23,7 +22,7 @@ class VisitorManager implements VisitorManagerInterface
     private $priority;
 
     /**
-     * Constructor
+     * Constructor.
      */
     public function __construct()
     {
@@ -48,9 +47,9 @@ class VisitorManager implements VisitorManagerInterface
             return false;
         }
 
-        $priority = (int)$priority;
+        $priority = (int) $priority;
         if (!isset($this->priority[$priority])) {
-            $this->priority[$priority] = array();
+            $this->priority[$priority] = [];
         }
 
         $this->priority[$priority][] = $visitor;
@@ -94,7 +93,7 @@ class VisitorManager implements VisitorManagerInterface
      */
     public function removeAll()
     {
-        $this->visitors = $this->priority = array();
+        $this->visitors = $this->priority = [];
 
         return true;
     }
@@ -125,10 +124,11 @@ class VisitorManager implements VisitorManagerInterface
     public function getVisitors()
     {
         ksort($this->priority);
-        $visitors = array();
+        $visitors = [];
         foreach ($this->priority as $priorityVisitors) {
             $visitors = array_merge($priorityVisitors, $visitors);
         }
+
         return new \ArrayIterator($visitors);
     }
 }

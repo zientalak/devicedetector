@@ -7,8 +7,7 @@ use DeviceDetectorIO\DeviceDetector\Rule\Occurrence\OccurrenceInterface;
 use DeviceDetectorIO\DeviceDetector\Rule\Occurrence\OccurrencesInterface;
 
 /**
- * Class OccurrencesAnalyser
- * @package DeviceDetectorIO\DeviceDetector\Rule\OccurrencesAnalyser
+ * Class OccurrencesAnalyser.
  */
 class OccurrencesAnalyser implements OccurrencesAnalyserInterface
 {
@@ -23,7 +22,7 @@ class OccurrencesAnalyser implements OccurrencesAnalyserInterface
     private $dynamicCapabilitiesProcessor;
 
     /**
-     * @param IncrementationInterface $incrementation
+     * @param IncrementationInterface               $incrementation
      * @param DynamicCapabilitiesProcessorInterface $dynamicCapabilitiesProcessor
      */
     public function __construct(IncrementationInterface $incrementation, DynamicCapabilitiesProcessorInterface $dynamicCapabilitiesProcessor)
@@ -55,7 +54,7 @@ class OccurrencesAnalyser implements OccurrencesAnalyserInterface
                 $current = $next;
 
                 if ($this->incrementation->oughtToBeIncrement($current, $previous)) {
-                    $counter++;
+                    ++$counter;
                     $this->dynamicCapabilitiesProcessor->process($current);
                 }
             }

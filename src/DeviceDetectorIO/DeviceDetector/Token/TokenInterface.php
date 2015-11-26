@@ -3,8 +3,7 @@
 namespace DeviceDetectorIO\DeviceDetector\Token;
 
 /**
- * Interface TokenInterface
- * @package DeviceDetectorIO\DeviceDetector\Token
+ * Interface TokenInterface.
  */
 interface TokenInterface extends \Serializable
 {

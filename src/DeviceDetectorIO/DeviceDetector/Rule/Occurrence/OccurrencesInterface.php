@@ -3,8 +3,7 @@
 namespace DeviceDetectorIO\DeviceDetector\Rule\Occurrence;
 
 /**
- * Interface OccurrencesInterface
- * @package DeviceDetectorIO\DeviceDetector\Rule\Occurrence
+ * Interface OccurrencesInterface.
  */
 interface OccurrencesInterface
 {
@@ -15,6 +14,7 @@ interface OccurrencesInterface
 
     /**
      * @param OccurrenceInterface $occurrence
+     *
      * @return self
      */
     public function add(OccurrenceInterface $occurrence);
@@ -26,6 +26,7 @@ interface OccurrencesInterface
 
     /**
      * @param OccurrenceInterface $occurrence
+     *
      * @return OccurrenceInterface|false
      */
     public function getNext(OccurrenceInterface $occurrence);

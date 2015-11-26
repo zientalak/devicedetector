@@ -2,10 +2,8 @@
 
 namespace spec\DeviceDetectorIO\DeviceDetector\Visitor;
 
-use DeviceDetectorIO\DeviceDetector\Capabilities;
 use DeviceDetectorIO\DeviceDetector\Capability\Collator;
 use DeviceDetectorIO\DeviceDetector\Capability\CollatorInterface;
-use DeviceDetectorIO\DeviceDetector\Rule\Condition\ConditionInterface;
 use DeviceDetectorIO\DeviceDetector\Rule\Matcher\MatcherInterface;
 use DeviceDetectorIO\DeviceDetector\Rule\MergingStrategy\MergingStrategyInterface;
 use DeviceDetectorIO\DeviceDetector\Rule\RuleInterface;
@@ -18,32 +16,31 @@ use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
 
 /**
- * Class RulesVisitorSpec
- * @package spec\DeviceDetectorIO\DeviceDetector\Visitor
+ * Class RulesVisitorSpec.
  */
 class RulesVisitorSpec extends ObjectBehavior
 {
-    function let(MatcherInterface $matcher, MergingStrategyInterface $mergingStrategy)
+    public function let(MatcherInterface $matcher, MergingStrategyInterface $mergingStrategy)
     {
         $this->beConstructedWith($matcher, $mergingStrategy);
     }
 
-    function it_is_initializable()
+    public function it_is_initializable()
     {
         $this->shouldHaveType('DeviceDetectorIO\DeviceDetector\Visitor\RulesVisitor');
     }
 
-    function it_implement_visitor_interface()
+    public function it_implement_visitor_interface()
     {
         $this->shouldImplement('DeviceDetectorIO\DeviceDetector\Visitor\VisitorInterface');
     }
 
-    function it_is_instanceof_useragent_tokenized_visitor()
+    public function it_is_instanceof_useragent_tokenized_visitor()
     {
         $this->shouldBeAnInstanceOf('DeviceDetectorIO\DeviceDetector\Visitor\AbstractUserAgentTokenizedVisitor');
     }
 
-    function it_accept_useragent_tokenized_token()
+    public function it_accept_useragent_tokenized_token()
     {
         $collator = new Collator();
         $userAgentToken = new UserAgentToken('userAgent');
@@ -53,7 +50,7 @@ class RulesVisitorSpec extends ObjectBehavior
         $this->accept($userAgentToken, $collator)->shouldReturn(false);
     }
 
-    function it_visit_token(
+    public function it_visit_token(
         MatcherInterface $matcher,
         TokenInterface $token,
         CollatorInterface $collator,
@@ -63,7 +60,7 @@ class RulesVisitorSpec extends ObjectBehavior
     ) {
         $this->beConstructedWith($matcher, $mergingStrategy);
 
-        $rules = new \ArrayIterator(array($rule->getWrappedObject()));
+        $rules = new \ArrayIterator([$rule->getWrappedObject()]);
 
         $matcher->match(Argument::exact($token->getWrappedObject()))
             ->shouldBeCalledTimes(1)

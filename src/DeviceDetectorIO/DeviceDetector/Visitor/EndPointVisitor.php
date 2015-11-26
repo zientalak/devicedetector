@@ -7,8 +7,7 @@ use DeviceDetectorIO\DeviceDetector\Capability\CollatorInterface;
 use DeviceDetectorIO\DeviceDetector\Token\TokenInterface;
 
 /**
- * Class EndPointVisitor
- * @package DeviceDetectorIO\DeviceDetector\Visitor
+ * Class EndPointVisitor.
  */
 class EndPointVisitor extends AbstractUserAgentTokenizedVisitor
 {
@@ -48,12 +47,14 @@ class EndPointVisitor extends AbstractUserAgentTokenizedVisitor
     }
     /**
      * @param CollatorInterface $collator
-     * @param string $capability
+     * @param string            $capability
+     *
      * @return bool
      */
     private function hasEmptyCapability(CollatorInterface $collator, $capability)
     {
         $result = $collator->get($capability);
+
         return empty($result);
     }
 }

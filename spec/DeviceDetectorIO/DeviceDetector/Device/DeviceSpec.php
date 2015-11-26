@@ -4,35 +4,33 @@ namespace spec\DeviceDetectorIO\DeviceDetector\Device;
 
 use DeviceDetectorIO\DeviceDetector\Capabilities;
 use PhpSpec\ObjectBehavior;
-use Prophecy\Argument;
 
 /**
- * Class DeviceSpec
- * @package spec\DeviceDetectorIO\DeviceDetector\Device
+ * Class DeviceSpec.
  */
 class DeviceSpec extends ObjectBehavior
 {
-    function let()
+    public function let()
     {
         $this->beConstructedWith($this->createCapabilities());
     }
 
-    function it_is_initializable()
+    public function it_is_initializable()
     {
         $this->shouldHaveType('DeviceDetectorIO\DeviceDetector\Device\Device');
     }
 
-    function it_implements_device_interface()
+    public function it_implements_device_interface()
     {
         $this->shouldImplement('DeviceDetectorIO\DeviceDetector\Device\DeviceInterface');
     }
 
-    function it_is_valid()
+    public function it_is_valid()
     {
         $this->isValid()->shouldReturn(true);
     }
 
-    function it_return_capabilities()
+    public function it_return_capabilities()
     {
         $this->isMobile()->shouldReturn(true);
         $this->getCapability(Capabilities::IS_MOBILE)->shouldReturn(true);
@@ -49,22 +47,22 @@ class DeviceSpec extends ObjectBehavior
         $this->getCapabilities()->shouldReturn($this->createCapabilities());
     }
 
-    function it_has_capability()
+    public function it_has_capability()
     {
         $this->hasCapability(Capabilities::BROWSER)->shouldReturn(true);
         $this->hasCapability(Capabilities::IS_OSX)->shouldReturn(false);
     }
 
-    function it_throw_exception()
+    public function it_throw_exception()
     {
         $this->shouldThrow('\BadMethodCallException')->during('throwMeNow');
     }
 
-    function it_is_serializable()
+    public function it_is_serializable()
     {
         $this->serialize()->shouldReturn(serialize($this->createCapabilities()));
 
-        $capabilities = array(Capabilities::BROWSER => Capabilities::BROWSER_CHROME);
+        $capabilities = [Capabilities::BROWSER => Capabilities::BROWSER_CHROME];
         $this->unserialize(serialize($capabilities));
         $this->getCapabilities()->shouldReturn($capabilities);
     }
@@ -74,11 +72,11 @@ class DeviceSpec extends ObjectBehavior
      */
     protected function createCapabilities()
     {
-        return array(
+        return [
             Capabilities::BROWSER => Capabilities::BROWSER_CHROME,
             Capabilities::IS_MOBILE => true,
             Capabilities::OS => Capabilities::OS_WINDOWS,
-            Capabilities::OS_VERSION => '8'
-        );
+            Capabilities::OS_VERSION => '8',
+        ];
     }
 }

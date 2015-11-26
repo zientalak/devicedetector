@@ -5,8 +5,7 @@ namespace DeviceDetectorIO\DeviceDetector\Rule\OccurrencesAnalyser;
 use DeviceDetectorIO\DeviceDetector\Rule\Occurrence\OccurrenceInterface;
 
 /**
- * Class DynamicCapabilitiesProcessor
- * @package DeviceDetectorIO\DeviceDetector\Rule\OccurrencesAnalyser
+ * Class DynamicCapabilitiesProcessor.
  */
 class DynamicCapabilitiesProcessor implements DynamicCapabilitiesProcessorInterface
 {
@@ -20,7 +19,7 @@ class DynamicCapabilitiesProcessor implements DynamicCapabilitiesProcessorInterf
         $rule = $occurrence->getRule();
         $dynamicCapabilities = $condition->getDynamicCapabilities();
 
-        $matchesCapabilities = array();
+        $matchesCapabilities = [];
         foreach ($dynamicCapabilities as $capability) {
             $matchesCapabilities[$capability] = $node->getValue();
         }

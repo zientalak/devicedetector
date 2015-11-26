@@ -7,8 +7,7 @@ use DeviceDetectorIO\DeviceDetector\Capability\CollatorInterface;
 use DeviceDetectorIO\DeviceDetector\Token\UserAgentTokenizedToken;
 
 /**
- * Class AbstractUserAgentTokenizedVisitor
- * @package DeviceDetectorIO\DeviceDetector\Visitor
+ * Class AbstractUserAgentTokenizedVisitor.
  */
 abstract class AbstractUserAgentTokenizedVisitor implements VisitorInterface
 {

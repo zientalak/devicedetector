@@ -4,25 +4,23 @@ namespace spec\DeviceDetectorIO\DeviceDetector\Rule\Condition;
 
 use DeviceDetectorIO\DeviceDetector\Rule\Condition\ConditionInterface;
 use PhpSpec\ObjectBehavior;
-use Prophecy\Argument;
 
 /**
- * Class ConditionSpec
- * @package spec\DeviceDetectorIO\DeviceDetector\Rule\Condition
+ * Class ConditionSpec.
  */
 class ConditionSpec extends ObjectBehavior
 {
-    function it_is_initializable()
+    public function it_is_initializable()
     {
         $this->shouldHaveType('DeviceDetectorIO\DeviceDetector\Rule\Condition\Condition');
     }
 
-    function it_implements_condition_interface()
+    public function it_implements_condition_interface()
     {
         $this->shouldImplement('DeviceDetectorIO\DeviceDetector\Rule\Condition\ConditionInterface');
     }
 
-    function it_is_accessible_value_object()
+    public function it_is_accessible_value_object()
     {
         $this->setType(ConditionInterface::TYPE_TEXT)->shouldReturn($this);
         $this->getType()->shouldReturn(ConditionInterface::TYPE_TEXT);
@@ -34,37 +32,37 @@ class ConditionSpec extends ObjectBehavior
         $this->isStrategy(ConditionInterface::STRATEGY_NEXT)->shouldReturn(true);
         $this->setPosition(1)->shouldReturn($this);
         $this->getPosition()->shouldReturn(1);
-        $this->setDynamicCapabilities(array('is_bot' => true))->shouldReturn($this);
-        $this->getDynamicCapabilities()->shouldReturn(array('is_bot' => true));
+        $this->setDynamicCapabilities(['is_bot' => true])->shouldReturn($this);
+        $this->getDynamicCapabilities()->shouldReturn(['is_bot' => true]);
     }
 
-    function it_is_serializable()
+    public function it_is_serializable()
     {
         $this->setType(ConditionInterface::TYPE_TEXT);
         $this->setValue('Serialized Value');
         $this->setStrategy(ConditionInterface::STRATEGY_NEXT);
         $this->setPosition(1);
-        $this->setDynamicCapabilities(array('is_bot' => true));
+        $this->setDynamicCapabilities(['is_bot' => true]);
 
         $this->serialize()->shouldReturn(
             serialize(
-                array(
+                [
                     'type' => ConditionInterface::TYPE_TEXT,
                     'value' => 'Serialized Value',
                     'strategy' => ConditionInterface::STRATEGY_NEXT,
                     'position' => 1,
-                    'dynamicCapabilities' => array('is_bot' => true)
-                )
+                    'dynamicCapabilities' => ['is_bot' => true],
+                ]
             )
         );
 
-        $data = array(
+        $data = [
             'type' => ConditionInterface::TYPE_REGEX,
             'value' => '[a-zA-Z]+',
             'strategy' => ConditionInterface::STRATEGY_LINE,
             'position' => 10,
-            'dynamicCapabilities' => array('is_bot' => false)
-        );
+            'dynamicCapabilities' => ['is_bot' => false],
+        ];
 
         $this->unserialize(serialize($data));
 

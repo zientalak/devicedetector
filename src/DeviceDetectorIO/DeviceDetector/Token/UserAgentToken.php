@@ -3,8 +3,7 @@
 namespace DeviceDetectorIO\DeviceDetector\Token;
 
 /**
- * Class UserAgentToken
- * @package DeviceDetectorIO\DeviceDetector\Token
+ * Class UserAgentToken.
  */
 class UserAgentToken implements TokenInterface
 {
@@ -18,7 +17,7 @@ class UserAgentToken implements TokenInterface
      */
     public function __construct($userAgent)
     {
-        $this->userAgent = (string)$userAgent;
+        $this->userAgent = (string) $userAgent;
     }
 
     /**

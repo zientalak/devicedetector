@@ -3,8 +3,7 @@
 namespace DeviceDetectorIO\DeviceDetector\Token;
 
 /**
- * Class TokenPool
- * @package DeviceDetectorIO\DeviceDetector\Token
+ * Class TokenPool.
  */
 class TokenPool implements TokenPoolInterface
 {
@@ -14,7 +13,7 @@ class TokenPool implements TokenPoolInterface
     private $pool;
 
     /**
-     * Constructor
+     * Constructor.
      */
     public function __construct()
     {

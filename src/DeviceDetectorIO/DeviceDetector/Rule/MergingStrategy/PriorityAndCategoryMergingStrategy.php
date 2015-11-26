@@ -6,8 +6,7 @@ use DeviceDetectorIO\DeviceDetector\Capability\CollatorInterface;
 use DeviceDetectorIO\DeviceDetector\Rule\RuleInterface;
 
 /**
- * Class PriorityAndCategoryMergingStrategy
- * @package DeviceDetectorIO\DeviceDetector\Rule\MergingStrategy
+ * Class PriorityAndCategoryMergingStrategy.
  */
 class PriorityAndCategoryMergingStrategy implements MergingStrategyInterface
 {
@@ -16,8 +15,8 @@ class PriorityAndCategoryMergingStrategy implements MergingStrategyInterface
      */
     public function merge(\Iterator $rules, CollatorInterface $collator)
     {
-        /**
-         * @var RuleInterface $rule
+        /*
+         * @var RuleInterface
          */
         foreach ($this->getRulesGroupedByCategoryWithHigherPriority($rules) as $rule) {
             $collator->merge($rule->getCapabilities());
@@ -26,14 +25,15 @@ class PriorityAndCategoryMergingStrategy implements MergingStrategyInterface
 
     /**
      * @param $rules
+     *
      * @return array
      */
     protected function getRulesGroupedByCategoryWithHigherPriority($rules)
     {
-        $rulesByCategory = array();
+        $rulesByCategory = [];
 
-        /**
-         * @var RuleInterface $rule
+        /*
+         * @var RuleInterface
          */
         foreach ($rules as $rule) {
             $category = $rule->getCategory();

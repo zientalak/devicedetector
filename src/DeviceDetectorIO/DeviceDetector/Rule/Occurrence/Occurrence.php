@@ -7,8 +7,7 @@ use DeviceDetectorIO\DeviceDetector\Rule\RuleInterface;
 use DeviceDetectorIO\DeviceDetector\UserAgent\NodeInterface;
 
 /**
- * Class Occurrence
- * @package DeviceDetectorIO\DeviceDetector\Rule\Occurrence
+ * Class Occurrence.
  */
 class Occurrence implements OccurrenceInterface
 {
@@ -28,9 +27,9 @@ class Occurrence implements OccurrenceInterface
     private $node;
 
     /**
-     * @param RuleInterface $rule
+     * @param RuleInterface                                                      $rule
      * @param \DeviceDetectorIO\DeviceDetector\Rule\Condition\ConditionInterface $condition
-     * @param \DeviceDetectorIO\DeviceDetector\UserAgent\NodeInterface $node
+     * @param \DeviceDetectorIO\DeviceDetector\UserAgent\NodeInterface           $node
      */
     public function __construct(
         RuleInterface $rule,

@@ -14,27 +14,26 @@ use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
 
 /**
- * Class CacheDetectorSpec
- * @package spec\DeviceDetectorIO\DeviceDetector\Detector
+ * Class CacheDetectorSpec.
  */
 class CacheDetectorSpec extends ObjectBehavior
 {
-    function let(VisitorManagerInterface $visitorManager, CollatorInterface $collator)
+    public function let(VisitorManagerInterface $visitorManager, CollatorInterface $collator)
     {
         $this->beConstructedWith($visitorManager, $collator);
     }
 
-    function it_is_initializable()
+    public function it_is_initializable()
     {
         $this->shouldHaveType('DeviceDetectorIO\DeviceDetector\Detector\CacheDetector');
     }
 
-    function it_implements_detector_interface()
+    public function it_implements_detector_interface()
     {
         $this->shouldImplement('DeviceDetectorIO\DeviceDetector\Detector\DeviceDetectorInterface');
     }
 
-    function it_detect_device_and_add_to_cache(
+    public function it_detect_device_and_add_to_cache(
         VisitorManagerInterface $visitorManager,
         TokenPoolInterface $tokenPool,
         CollatorInterface $collator,
@@ -73,19 +72,18 @@ class CacheDetectorSpec extends ObjectBehavior
         $this->setDeviceCache($deviceCache);
 
         $collator->removeAll()->shouldBeCalledTimes(1);
-        $collator->getAll()->shouldBeCalledTimes(1)->willReturn(array());
+        $collator->getAll()->shouldBeCalledTimes(1)->willReturn([]);
 
         $this->detect($tokenPool)->shouldReturnAnInstanceOf('DeviceDetectorIO\DeviceDetector\Device\CacheDevice');
     }
 
-    function it_detect_device_from_cache(
+    public function it_detect_device_from_cache(
         VisitorManagerInterface $visitorManager,
         TokenPoolInterface $tokenPool,
         FingerprintGeneratorInterface $fingerprintGenerator,
         CollatorInterface $collator,
         DeviceCacheInterface $deviceCache
     ) {
-
         $this->beConstructedWith($visitorManager, $collator);
 
         $visitorManager
@@ -107,7 +105,7 @@ class CacheDetectorSpec extends ObjectBehavior
         $deviceCache
             ->get(Argument::exact($fingerprint))
             ->shouldBeCalledTimes(1)
-            ->willReturn(new CacheDevice(new Device(array()), $fingerprint));
+            ->willReturn(new CacheDevice(new Device([]), $fingerprint));
 
         $deviceCache
             ->add(Argument::any())

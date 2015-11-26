@@ -3,15 +3,14 @@
 namespace DeviceDetectorIO\DeviceDetector\Device;
 
 /**
- * Class Device
- * @package DeviceDetectorIO\DeviceDetector\Device
+ * Class Device.
  */
 class Device implements DeviceInterface
 {
     /**
      * @var array
      */
-    protected $capabilities = array();
+    protected $capabilities = [];
 
     /**
      * @param array $capabilities
@@ -72,6 +71,7 @@ class Device implements DeviceInterface
     /**
      * @param $name
      * @param array $arguments
+     *
      * @return mixed
      */
     public function __call($name, array $arguments)

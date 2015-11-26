@@ -7,8 +7,7 @@ use DeviceDetectorIO\DeviceDetector\Rule\Condition\ConditionInterface;
 use DeviceDetectorIO\DeviceDetector\Rule\RuleInterface;
 
 /**
- * Class DefaultHandler
- * @package DeviceDetectorIO\DeviceDetector\Rule\Configuration\Handler
+ * Class DefaultHandler.
  */
 class DefaultHandler implements HandlerInterface
 {
@@ -17,7 +16,7 @@ class DefaultHandler implements HandlerInterface
      */
     public function handle(array $configuration, RuleInterface $rule)
     {
-        $rule->setPriority((int)$configuration['priority']);
+        $rule->setPriority((int) $configuration['priority']);
         $rule->setCategory($configuration['category']);
         $rule->setCapabilities($configuration['capabilities']);
 
@@ -25,7 +24,7 @@ class DefaultHandler implements HandlerInterface
     }
 
     /**
-     * @param array $configuration
+     * @param array         $configuration
      * @param RuleInterface $rule
      */
     private function handleConditions(array $configuration, RuleInterface $rule)
@@ -39,9 +38,8 @@ class DefaultHandler implements HandlerInterface
             );
             $condition->setPosition($position);
             $condition->setDynamicCapabilities(
-                isset($conditionConfiguration['capabilities']) ? $conditionConfiguration['capabilities'] : array()
+                isset($conditionConfiguration['capabilities']) ? $conditionConfiguration['capabilities'] : []
             );
-
 
             $rule->addCondition($condition);
         }

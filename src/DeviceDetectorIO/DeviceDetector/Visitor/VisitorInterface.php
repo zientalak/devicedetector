@@ -6,8 +6,7 @@ use DeviceDetectorIO\DeviceDetector\Capability\CollatorInterface;
 use DeviceDetectorIO\DeviceDetector\Token\TokenInterface;
 
 /**
- * Interface VisitorInterface
- * @package DeviceDetectorIO\DeviceDetector\Visitor
+ * Interface VisitorInterface.
  */
 interface VisitorInterface
 {
@@ -15,16 +14,18 @@ interface VisitorInterface
     const STATE_FOUND = 1;
 
     /**
-     * @param TokenInterface $token
+     * @param TokenInterface    $token
      * @param CollatorInterface $collator
-     * @return boolean
+     *
+     * @return bool
      */
     public function accept(TokenInterface $token, CollatorInterface $collator);
 
     /**
-     * @param TokenInterface $token
+     * @param TokenInterface    $token
      * @param CollatorInterface $collator
-     * @return integer
+     *
+     * @return int
      */
     public function visit(TokenInterface $token, CollatorInterface $collator);
 }

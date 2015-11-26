@@ -3,20 +3,21 @@
 namespace DeviceDetectorIO\DeviceDetector\Device;
 
 /**
- * Interface DeviceInterface
- * @package DeviceDetectorIO\DeviceDetector\Device
+ * Interface DeviceInterface.
  */
 interface DeviceInterface extends \Serializable
 {
     /**
      * @param $name
+     *
      * @return mixed|null
      */
     public function getCapability($name);
 
     /**
      * @param $name
-     * @return boolean
+     *
+     * @return bool
      */
     public function hasCapability($name);
 
@@ -28,7 +29,7 @@ interface DeviceInterface extends \Serializable
     /**
      * Return true if any capability was found.
      *
-     * @return boolean
+     * @return bool
      */
     public function isValid();
 }

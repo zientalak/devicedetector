@@ -7,8 +7,7 @@ use Symfony\Component\Finder\Finder;
 use Symfony\Component\Yaml\Parser;
 
 /**
- * Class FixturesFunctionalTest
- * @package DeviceDetectorIO\DeviceDetector\Tests\Functional
+ * Class FixturesFunctionalTest.
  */
 class FixturesFunctionalTest extends DeviceDetectorIOFunctionalTestCase
 {
@@ -23,7 +22,6 @@ class FixturesFunctionalTest extends DeviceDetectorIOFunctionalTestCase
                 $data['capabilities']
             );
         }
-
     }
 
     /**
@@ -35,11 +33,11 @@ class FixturesFunctionalTest extends DeviceDetectorIOFunctionalTestCase
         $finder = new Finder();
         $files = $finder
             ->depth('< 3')
-            ->in(__DIR__ . '/../../../fixtures')
+            ->in(__DIR__.'/../../../fixtures')
             ->files()
             ->name('*.yml');
 
-        $fixtures = array();
+        $fixtures = [];
         /** @var \Symfony\Component\Finder\SplFileInfo $file */
         foreach ($files as $file) {
             $fixtures = array_merge($fixtures, $parser->parse($file->getContents()));

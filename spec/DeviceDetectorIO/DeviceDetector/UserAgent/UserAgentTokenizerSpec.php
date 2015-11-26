@@ -5,21 +5,20 @@ namespace spec\DeviceDetectorIO\DeviceDetector\UserAgent;
 use DeviceDetectorIO\DeviceDetector\UserAgent\Node;
 use DeviceDetectorIO\DeviceDetector\UserAgent\NodeInterface;
 use PhpSpec\ObjectBehavior;
-use Prophecy\Argument;
 
 class UserAgentTokenizerSpec extends ObjectBehavior
 {
-    function it_is_initializable()
+    public function it_is_initializable()
     {
         $this->shouldHaveType('DeviceDetectorIO\DeviceDetector\UserAgent\UserAgentTokenizer');
     }
 
-    function it_implements_tokenizer_interface()
+    public function it_implements_tokenizer_interface()
     {
         $this->shouldImplement('DeviceDetectorIO\DeviceDetector\UserAgent\UserAgentTokenizerInterface');
     }
 
-    function it_tokenize_useragent()
+    public function it_tokenize_useragent()
     {
         $tokenized = $this->tokenize('Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0); 360Spider(compatible; HaosouSpider; http://www.haosou.com/help/help_3_2.html)');
 

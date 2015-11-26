@@ -6,11 +6,9 @@ use DeviceDetectorIO\DeviceDetector\Rule\Condition\ConditionInterface;
 use DeviceDetectorIO\DeviceDetector\Rule\RuleInterface;
 use DeviceDetectorIO\DeviceDetector\UserAgent\NodeInterface;
 use PhpSpec\ObjectBehavior;
-use Prophecy\Argument;
 
 /**
- * Class OccurrenceSpec
- * @package spec\DeviceDetectorIO\DeviceDetector\Rule\Occurrence
+ * Class OccurrenceSpec.
  */
 class OccurrenceSpec extends ObjectBehavior
 {
@@ -19,17 +17,17 @@ class OccurrenceSpec extends ObjectBehavior
         $this->beConstructedWith($rule, $condition, $node);
     }
 
-    function it_is_initializable()
+    public function it_is_initializable()
     {
         $this->shouldHaveType('DeviceDetectorIO\DeviceDetector\Rule\Occurrence\Occurrence');
     }
 
-    function it_implements_occurrence_interface()
+    public function it_implements_occurrence_interface()
     {
         $this->shouldImplement('DeviceDetectorIO\DeviceDetector\Rule\Occurrence\OccurrenceInterface');
     }
 
-    function it_return_expected_types()
+    public function it_return_expected_types()
     {
         $this->getRule()->shouldReturnAnInstanceOf('DeviceDetectorIO\DeviceDetector\Rule\RuleInterface');
         $this->getCondition()->shouldReturnAnInstanceOf('DeviceDetectorIO\DeviceDetector\Rule\Condition\ConditionInterface');

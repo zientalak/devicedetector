@@ -6,8 +6,7 @@ use DeviceDetectorIO\DeviceDetector\Token\TokenInterface;
 use DeviceDetectorIO\DeviceDetector\Token\TokenPoolInterface;
 
 /**
- * Class GenericGenerator
- * @package DeviceDetectorIO\DeviceDetector\GenericGenerator
+ * Class GenericGenerator.
  */
 class GenericGenerator implements FingerprintGeneratorInterface
 {
@@ -31,7 +30,7 @@ class GenericGenerator implements FingerprintGeneratorInterface
     }
 
     /**
-     * {@inheritDoc)
+     * {@inheritDoc).
      */
     public function generate(TokenPoolInterface $tokenPool)
     {

@@ -3,15 +3,12 @@
 namespace DeviceDetectorIO\DeviceDetector\Rule\Warmer;
 
 /**
- * Interface WarmerInterface
- * @package DeviceDetectorIO\DeviceDetector\Warmer
+ * Interface WarmerInterface.
  */
 interface WarmerInterface
 {
     /**
      * Warmup rules.
-     *
-     * @return void
      */
     public function warmup();
 }

@@ -8,27 +8,26 @@ use Doctrine\Common\Cache\ArrayCache;
 use Doctrine\Common\Cache\Cache;
 
 /**
- * Class DoctrineCacheBridgeSpec
- * @package spec\DeviceDetectorIO\DeviceDetector\Cache
+ * Class DoctrineCacheBridgeSpec.
  */
 class DoctrineCacheBridgeSpec extends ObjectBehavior
 {
-    function let()
+    public function let()
     {
         $this->beConstructedWith(new ArrayCache());
     }
 
-    function it_is_initializable()
+    public function it_is_initializable()
     {
         $this->shouldHaveType('DeviceDetectorIO\DeviceDetector\Cache\DoctrineCacheBridge');
     }
 
-    function it_implements_cache_interface()
+    public function it_implements_cache_interface()
     {
         $this->shouldImplement('DeviceDetectorIO\DeviceDetector\Cache\CacheInterface');
     }
 
-    function it_save_element()
+    public function it_save_element()
     {
         $id = sha1(get_class());
         $value = time();
@@ -39,7 +38,7 @@ class DoctrineCacheBridgeSpec extends ObjectBehavior
         $this->get($id)->shouldReturn($value);
     }
 
-    function it_has_element()
+    public function it_has_element()
     {
         $id = sha1(get_class());
         $value = time();
@@ -50,7 +49,7 @@ class DoctrineCacheBridgeSpec extends ObjectBehavior
         $this->has($id)->shouldReturn(true);
     }
 
-    function it_delete_element()
+    public function it_delete_element()
     {
         $id = sha1(get_class());
         $value = time();
@@ -63,7 +62,7 @@ class DoctrineCacheBridgeSpec extends ObjectBehavior
         $this->has($id)->shouldReturn(false);
     }
 
-    function it_delete_all_elements()
+    public function it_delete_all_elements()
     {
         $id1 = sha1(1);
         $id2 = sha1(1);
@@ -76,7 +75,7 @@ class DoctrineCacheBridgeSpec extends ObjectBehavior
         $this->has($id2)->shouldReturn(false);
     }
 
-    function it_not_delete_all_elements_if_is_not_clearable_cache(Cache $cache)
+    public function it_not_delete_all_elements_if_is_not_clearable_cache(Cache $cache)
     {
         $this->beConstructedWith($cache);
         $cache->save(Argument::any(), Argument::any(), 0)->willReturn(true);

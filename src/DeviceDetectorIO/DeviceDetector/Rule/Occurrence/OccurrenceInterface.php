@@ -7,8 +7,7 @@ use DeviceDetectorIO\DeviceDetector\Rule\RuleInterface;
 use DeviceDetectorIO\DeviceDetector\UserAgent\NodeInterface;
 
 /**
- * Interface OccurrenceInterface
- * @package DeviceDetectorIO\DeviceDetector\Rule\Occurrence
+ * Interface OccurrenceInterface.
  */
 interface OccurrenceInterface
 {

@@ -3,8 +3,7 @@
 namespace DeviceDetectorIO\DeviceDetector\Device;
 
 /**
- * Class CacheDevice
- * @package DeviceDetectorIO\DeviceDetector\Device
+ * Class CacheDevice.
  */
 final class CacheDevice implements DeviceInterface
 {
@@ -74,10 +73,10 @@ final class CacheDevice implements DeviceInterface
     public function serialize()
     {
         return serialize(
-            array(
+            [
                 'fingerprint' => $this->fingerprint,
-                'device' => $this->device
-            )
+                'device' => $this->device,
+            ]
         );
     }
 
@@ -94,7 +93,8 @@ final class CacheDevice implements DeviceInterface
 
     /**
      * @param string $name
-     * @param array $arguments
+     * @param array  $arguments
+     *
      * @return mixed
      */
     public function __call($name, array $arguments)

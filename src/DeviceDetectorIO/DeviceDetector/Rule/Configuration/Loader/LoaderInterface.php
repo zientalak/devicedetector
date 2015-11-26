@@ -3,8 +3,7 @@
 namespace DeviceDetectorIO\DeviceDetector\Rule\Configuration\Loader;
 
 /**
- * Interface LoaderInterface
- * @package DeviceDetectorIO\DeviceDetector\Rule\Configuration\Loader
+ * Interface LoaderInterface.
  */
 interface LoaderInterface
 {

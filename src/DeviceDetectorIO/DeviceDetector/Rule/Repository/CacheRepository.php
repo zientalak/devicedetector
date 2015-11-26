@@ -5,8 +5,7 @@ namespace DeviceDetectorIO\DeviceDetector\Rule\Repository;
 use DeviceDetectorIO\DeviceDetector\Cache\CacheInterface;
 
 /**
- * Class CacheRepository
- * @package DeviceDetectorIO\DeviceDetector\Rule\Repository
+ * Class CacheRepository.
  */
 class CacheRepository extends PHPRepository
 {
@@ -31,6 +30,7 @@ class CacheRepository extends PHPRepository
 
     /**
      * @param string $namespace
+     *
      * @return self
      */
     public function setNamespace($namespace)
@@ -41,7 +41,6 @@ class CacheRepository extends PHPRepository
     }
 
     /**
-     * @return void
      * @throws \LogicException
      */
     protected function loadRules()

@@ -7,16 +7,16 @@ use DeviceDetectorIO\DeviceDetector\Rule\RuleInterface;
 use DeviceDetectorIO\DeviceDetector\Token\TokenInterface;
 
 /**
- * Interface EvaluatorInterface
- * @package DeviceDetectorIO\DeviceDetector\Rule\ConditionEvaluator
+ * Interface EvaluatorInterface.
  */
 interface EvaluatorInterface
 {
     /**
-     * @param TokenInterface $token
+     * @param TokenInterface     $token
      * @param ConditionInterface $condition
-     * @param RuleInterface $rule
-     * @return boolean
+     * @param RuleInterface      $rule
+     *
+     * @return bool
      */
     public function evaluate(TokenInterface $token, ConditionInterface $condition, RuleInterface $rule);
 

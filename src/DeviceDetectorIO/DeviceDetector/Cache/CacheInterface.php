@@ -3,8 +3,7 @@
 namespace DeviceDetectorIO\DeviceDetector\Cache;
 
 /**
- * Interface CacheInterface
- * @package DeviceDetectorIO\DeviceDetector\Cache
+ * Interface CacheInterface.
  */
 interface CacheInterface
 {
@@ -14,6 +13,7 @@ interface CacheInterface
      * Fetch an entry from the cache.
      *
      * @param string $id
+     *
      * @return mixed|false
      */
     public function get($id);
@@ -22,7 +22,8 @@ interface CacheInterface
      * Tests if an entry exists in the cache.
      *
      * @param string $id
-     * @return boolean
+     *
+     * @return bool
      */
     public function has($id);
 
@@ -34,7 +35,7 @@ interface CacheInterface
      * @param int    $lifeTime The cache lifetime.
      *                         If != 0, sets a specific lifetime for this cache entry (0 => infinite lifeTime).
      *
-     * @return boolean TRUE if the entry was successfully stored in the cache, FALSE otherwise.
+     * @return bool TRUE if the entry was successfully stored in the cache, FALSE otherwise.
      */
     public function save($id, $data, $lifeTime = 0);
 
@@ -43,14 +44,14 @@ interface CacheInterface
      *
      * @param string $id The cache id.
      *
-     * @return boolean TRUE if the cache entry was successfully deleted, FALSE otherwise.
+     * @return bool TRUE if the cache entry was successfully deleted, FALSE otherwise.
      */
     public function delete($id);
 
     /**
      * Deletes all cache entries.
      *
-     * @return boolean TRUE if the cache entries were successfully deleted, FALSE otherwise.
+     * @return bool TRUE if the cache entries were successfully deleted, FALSE otherwise.
      */
     public function deleteAll();
 }

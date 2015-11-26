@@ -5,50 +5,48 @@ namespace spec\DeviceDetectorIO\DeviceDetector\Rule\Repository;
 use DeviceDetectorIO\DeviceDetector\Token\UserAgentTokenizedToken;
 use DeviceDetectorIO\DeviceDetector\UserAgent\Node;
 use PhpSpec\ObjectBehavior;
-use Prophecy\Argument;
 
 /**
- * Class PHPRepositorySpec
- * @package spec\DeviceDetectorIO\DeviceDetector\Rule\Repository
+ * Class PHPRepositorySpec.
  */
 class PHPRepositorySpec extends ObjectBehavior
 {
-    function let()
+    public function let()
     {
         $this->setFilePath($this->getFilePath())->shouldReturn($this);
     }
 
-    function it_is_initializable()
+    public function it_is_initializable()
     {
         $this->shouldHaveType('DeviceDetectorIO\DeviceDetector\Rule\Repository\PHPRepository');
     }
 
-    function it_implements_repository_interface()
+    public function it_implements_repository_interface()
     {
         $this->shouldImplement('DeviceDetectorIO\DeviceDetector\Rule\Repository\RepositoryInterface');
     }
 
-    function it_return_indexable_rules(UserAgentTokenizedToken $token)
+    public function it_return_indexable_rules(UserAgentTokenizedToken $token)
     {
         $node = new Node('chrome', 0, Node::TYPE_TEXT);
 
         $token->getData()
             ->shouldBeCalled()
-            ->willReturn(array(
-                $node
-            ));
+            ->willReturn([
+                $node,
+            ]);
 
         $this->getIndexableRulesByUserAgentToken($token)
             ->shouldBeAnInstanceOf('\Iterator');
     }
 
-    function it_return_non_indexable_rules()
+    public function it_return_non_indexable_rules()
     {
         $this->getNonIndexableRules()
             ->shouldBeAnInstanceOf('\Iterator');
     }
 
-    function it_throw_exception_if_filepath_not_exists()
+    public function it_throw_exception_if_filepath_not_exists()
     {
         $this->setFilePath(__DIR__.'/rules.data');
 

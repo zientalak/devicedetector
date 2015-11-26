@@ -3,8 +3,7 @@
 namespace DeviceDetectorIO\DeviceDetector\Rule\Condition;
 
 /**
- * Interface ConditionInterface
- * @package DeviceDetectorIO\DeviceDetector\Rule\Condition
+ * Interface ConditionInterface.
  */
 interface ConditionInterface extends \Serializable
 {
@@ -25,13 +24,15 @@ interface ConditionInterface extends \Serializable
 
     /**
      * @param string $type
+     *
      * @return self
      */
     public function setType($type);
 
     /**
      * @param string $type
-     * @return boolean
+     *
+     * @return bool
      */
     public function isType($type);
 
@@ -42,6 +43,7 @@ interface ConditionInterface extends \Serializable
 
     /**
      * @param mixed $value
+     *
      * @return self
      */
     public function setValue($value);
@@ -53,13 +55,15 @@ interface ConditionInterface extends \Serializable
 
     /**
      * @param string $strategy
+     *
      * @return self
      */
     public function setStrategy($strategy);
 
     /**
      * @param int $strategy
-     * @return boolean
+     *
+     * @return bool
      */
     public function isStrategy($strategy);
 
@@ -70,6 +74,7 @@ interface ConditionInterface extends \Serializable
 
     /**
      * @param int $position
+     *
      * @return self
      */
     public function setPosition($position);
@@ -81,6 +86,7 @@ interface ConditionInterface extends \Serializable
 
     /**
      * @param array $dynamicCapabilities
+     *
      * @return self
      */
     public function setDynamicCapabilities(array $dynamicCapabilities);

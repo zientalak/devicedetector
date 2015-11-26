@@ -8,35 +8,34 @@ use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
 
 /**
- * Class HandlerChainSpec
- * @package spec\DeviceDetectorIO\DeviceDetector\Rule\Configuration\Handler
+ * Class HandlerChainSpec.
  */
 class HandlerChainSpec extends ObjectBehavior
 {
-    function it_is_initializable()
+    public function it_is_initializable()
     {
         $this->shouldHaveType('DeviceDetectorIO\DeviceDetector\Rule\Configuration\Handler\HandlerChain');
     }
 
-    function it_implements_chain_interface()
+    public function it_implements_chain_interface()
     {
         $this->shouldImplement('DeviceDetectorIO\DeviceDetector\Rule\Configuration\Handler\HandlerChainInterface');
     }
 
-    function it_add_handler(HandlerInterface $handler)
+    public function it_add_handler(HandlerInterface $handler)
     {
         $this->addHandler($handler)->shouldReturn(true);
         $this->addHandler($handler)->shouldReturn(false);
     }
 
-    function it_has_handler(HandlerInterface $handler)
+    public function it_has_handler(HandlerInterface $handler)
     {
         $this->hasHandler($handler)->shouldReturn(false);
         $this->addHandler($handler);
         $this->hasHandler($handler)->shouldReturn(true);
     }
 
-    function it_remove_handler(HandlerInterface $handler)
+    public function it_remove_handler(HandlerInterface $handler)
     {
         $this->addHandler($handler);
         $this->hasHandler($handler)->shouldReturn(true);
@@ -44,7 +43,7 @@ class HandlerChainSpec extends ObjectBehavior
         $this->removeHandler($handler)->shouldReturn(false);
     }
 
-    function it_remove_all_handler(HandlerInterface $handler)
+    public function it_remove_all_handler(HandlerInterface $handler)
     {
         $this->addHandler($handler);
         $this->hasHandler($handler)->shouldReturn(true);
@@ -52,7 +51,7 @@ class HandlerChainSpec extends ObjectBehavior
         $this->hasHandler($handler)->shouldReturn(false);
     }
 
-    function it_return_handlers(HandlerInterface $handler)
+    public function it_return_handlers(HandlerInterface $handler)
     {
         $this->addHandler($handler);
 
@@ -62,9 +61,9 @@ class HandlerChainSpec extends ObjectBehavior
         $handlers->shouldContain($handler);
     }
 
-    function it_handle_handlers(HandlerInterface $handler, RuleInterface $rule)
+    public function it_handle_handlers(HandlerInterface $handler, RuleInterface $rule)
     {
-        $configuration = array();
+        $configuration = [];
 
         $this->addHandler($handler);
 

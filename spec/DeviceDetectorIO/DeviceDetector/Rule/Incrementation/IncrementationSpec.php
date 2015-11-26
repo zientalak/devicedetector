@@ -9,22 +9,21 @@ use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
 
 /**
- * Class IncrementationSpec
- * @package spec\DeviceDetectorIO\DeviceDetector\Rule\Incrementation
+ * Class IncrementationSpec.
  */
 class IncrementationSpec extends ObjectBehavior
 {
-    function it_is_initializable()
+    public function it_is_initializable()
     {
         $this->shouldHaveType('DeviceDetectorIO\DeviceDetector\Rule\Incrementation\Incrementation');
     }
 
-    function it_implements_incrementation_interface()
+    public function it_implements_incrementation_interface()
     {
         $this->shouldImplement('DeviceDetectorIO\DeviceDetector\Rule\Incrementation\IncrementationInterface');
     }
 
-    function it_increment_next_strategy(
+    public function it_increment_next_strategy(
         OccurrenceInterface $current,
         ConditionInterface $currentCondition,
         NodeInterface $currentNode,
@@ -58,7 +57,7 @@ class IncrementationSpec extends ObjectBehavior
         $this->oughtToBeIncrement($current, $previous)->shouldReturn(false);
     }
 
-    function it_increment_line_strategy(
+    public function it_increment_line_strategy(
         OccurrenceInterface $current,
         ConditionInterface $currentCondition,
         NodeInterface $currentNode,

@@ -10,29 +10,28 @@ use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
 
 /**
- * Class VisitorManagerSpec
- * @package spec\DeviceDetectorIO\DeviceDetector\VisitorManager
+ * Class VisitorManagerSpec.
  */
 class VisitorManagerSpec extends ObjectBehavior
 {
-    function it_is_initializable()
+    public function it_is_initializable()
     {
         $this->shouldHaveType('DeviceDetectorIO\DeviceDetector\VisitorManager\VisitorManager');
     }
 
-    function it_implement_visitor_manager_interface()
+    public function it_implement_visitor_manager_interface()
     {
         $this->shouldImplement('DeviceDetectorIO\DeviceDetector\VisitorManager\VisitorManagerInterface');
     }
 
-    function it_add_visitor(VisitorInterface $visitor)
+    public function it_add_visitor(VisitorInterface $visitor)
     {
         $this->has($visitor)->shouldReturn(false);
         $this->add($visitor)->shouldReturn(true);
         $this->has($visitor)->shouldReturn(true);
     }
 
-    function it_remove_visitor(VisitorInterface $visitor)
+    public function it_remove_visitor(VisitorInterface $visitor)
     {
         $this->add($visitor)->shouldReturn(true);
         $this->has($visitor)->shouldReturn(true);
@@ -41,14 +40,14 @@ class VisitorManagerSpec extends ObjectBehavior
         $this->has($visitor)->shouldReturn(false);
     }
 
-    function it_add_visitor_once(VisitorInterface $visitor)
+    public function it_add_visitor_once(VisitorInterface $visitor)
     {
         $this->add($visitor)->shouldReturn(true);
         $this->add($visitor)->shouldReturn(false);
         $this->getIterator()->shouldReturnAnInstanceOf('\Iterator');
     }
 
-    function it_remove_all_visitors(VisitorInterface $visitor)
+    public function it_remove_all_visitors(VisitorInterface $visitor)
     {
         $this->add($visitor)->shouldReturn(true);
         $this->has($visitor)->shouldReturn(true);
@@ -56,7 +55,7 @@ class VisitorManagerSpec extends ObjectBehavior
         $this->has($visitor)->shouldReturn(false);
     }
 
-    function it_get_prioritize_visitors(VisitorInterface $visitor1, VisitorInterface $visitor2, VisitorInterface $visitor3)
+    public function it_get_prioritize_visitors(VisitorInterface $visitor1, VisitorInterface $visitor2, VisitorInterface $visitor3)
     {
         $this->add($visitor1, -255)->shouldReturn(true);
         $this->add($visitor2, 0)->shouldReturn(true);
@@ -69,11 +68,11 @@ class VisitorManagerSpec extends ObjectBehavior
         $iterator[2]->shouldReturn($visitor1);
     }
 
-    function it_visit_visitors(VisitorInterface $visitor1, VisitorInterface $visitor2, TokenPoolInterface $tokenPool, TokenInterface $token, CollatorInterface $collator)
+    public function it_visit_visitors(VisitorInterface $visitor1, VisitorInterface $visitor2, TokenPoolInterface $tokenPool, TokenInterface $token, CollatorInterface $collator)
     {
         $tokenPool->getIterator()
             ->shouldBeCalledTimes(2)
-            ->willReturn(new \ArrayIterator(array($token->getWrappedObject())));
+            ->willReturn(new \ArrayIterator([$token->getWrappedObject()]));
 
         $visitor1->accept(Argument::exact($token->getWrappedObject()), Argument::exact($collator->getWrappedObject()))
             ->shouldBeCalledTimes(1)
@@ -95,11 +94,11 @@ class VisitorManagerSpec extends ObjectBehavior
         $this->visit($tokenPool, $collator)->shouldReturn($this);
     }
 
-    function it_break_visiting_on_certain_status(VisitorInterface $visitor, TokenPoolInterface $tokenPool, TokenInterface $token, CollatorInterface $collector)
+    public function it_break_visiting_on_certain_status(VisitorInterface $visitor, TokenPoolInterface $tokenPool, TokenInterface $token, CollatorInterface $collector)
     {
         $tokenPool->getIterator()
             ->shouldBeCalledTimes(1)
-            ->willReturn(new \ArrayIterator(array($token->getWrappedObject())));
+            ->willReturn(new \ArrayIterator([$token->getWrappedObject()]));
 
         $visitor->accept(Argument::exact($token->getWrappedObject()), Argument::exact($collector->getWrappedObject()))
             ->shouldBeCalledTimes(1)

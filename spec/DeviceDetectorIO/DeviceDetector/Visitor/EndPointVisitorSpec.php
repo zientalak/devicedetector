@@ -14,27 +14,26 @@ use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
 
 /**
- * Class EndPointVisitorSpec
- * @package spec\DeviceDetectorIO\DeviceDetector\Visitor
+ * Class EndPointVisitorSpec.
  */
 class EndPointVisitorSpec extends ObjectBehavior
 {
-    function it_is_initializable()
+    public function it_is_initializable()
     {
         $this->shouldHaveType('DeviceDetectorIO\DeviceDetector\Visitor\EndPointVisitor');
     }
 
-    function it_implement_visitor_interface()
+    public function it_implement_visitor_interface()
     {
         $this->shouldImplement('DeviceDetectorIO\DeviceDetector\Visitor\VisitorInterface');
     }
 
-    function it_is_instanceof_useragent_tokenized_visitor()
+    public function it_is_instanceof_useragent_tokenized_visitor()
     {
         $this->shouldBeAnInstanceOf('DeviceDetectorIO\DeviceDetector\Visitor\AbstractUserAgentTokenizedVisitor');
     }
 
-    function it_accept_useragent_tokenized_token()
+    public function it_accept_useragent_tokenized_token()
     {
         $collator = new Collator();
         $userAgentToken = new UserAgentToken('userAgent');
@@ -42,7 +41,7 @@ class EndPointVisitorSpec extends ObjectBehavior
         $this->accept($userAgentToken, $collator)->shouldReturn(false);
     }
 
-    function it_set_endpoint_capabilities(TokenInterface $token, CollatorInterface $collator)
+    public function it_set_endpoint_capabilities(TokenInterface $token, CollatorInterface $collator)
     {
         $collator
             ->get(Argument::exact(Capabilities::IS_CONSOLE))

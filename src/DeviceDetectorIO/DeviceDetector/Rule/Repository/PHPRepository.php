@@ -6,15 +6,14 @@ use DeviceDetectorIO\DeviceDetector\Token\UserAgentTokenizedToken;
 use DeviceDetectorIO\DeviceDetector\UserAgent\NodeInterface;
 
 /**
- * Class PHPRepository
- * @package DeviceDetectorIO\DeviceDetector\Repository
+ * Class PHPRepository.
  */
 class PHPRepository implements RepositoryInterface
 {
     /**
      * @var array
      */
-    protected $rules = array();
+    protected $rules = [];
 
     /**
      * @var string
@@ -73,6 +72,7 @@ class PHPRepository implements RepositoryInterface
 
     /**
      * @param string $filePath
+     *
      * @return self
      */
     public function setFilePath($filePath)
@@ -85,7 +85,6 @@ class PHPRepository implements RepositoryInterface
     }
 
     /**
-     * @return void
      * @throws \LogicException
      */
     protected function loadRules()

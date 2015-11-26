@@ -30,8 +30,7 @@ use DeviceDetectorIO\DeviceDetector\Visitor;
 use DeviceDetectorIO\DeviceDetector\VisitorManager\VisitorManager;
 
 /**
- * Class DeviceUserAgentFactory
- * @package DeviceDetectorIO\DeviceDetector\Factory
+ * Class DeviceUserAgentFactory.
  */
 class DeviceUserAgentFactory implements DeviceUserAgentFactoryInterface
 {
@@ -57,7 +56,7 @@ class DeviceUserAgentFactory implements DeviceUserAgentFactoryInterface
 
     /**
      * @param CacheInterface $cache
-     * @param bool $cacheResult
+     * @param bool           $cacheResult
      */
     public function __construct(CacheInterface $cache = null)
     {
@@ -150,6 +149,7 @@ class DeviceUserAgentFactory implements DeviceUserAgentFactoryInterface
 
     /**
      * @param string $path
+     *
      * @return PHPRepository
      */
     private function createRepository($path)

@@ -6,8 +6,7 @@ use Doctrine\Common\Cache\Cache;
 use Doctrine\Common\Cache\ClearableCache;
 
 /**
- * Class DoctrineCacheBridge
- * @package DeviceDetectorIO\DeviceDetector\Cache
+ * Class DoctrineCacheBridge.
  */
 class DoctrineCacheBridge implements CacheInterface
 {

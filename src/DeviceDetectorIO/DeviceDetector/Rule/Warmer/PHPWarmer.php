@@ -7,20 +7,19 @@ use DeviceDetectorIO\DeviceDetector\Rule\Condition\ConditionInterface;
 use DeviceDetectorIO\DeviceDetector\Rule\RuleInterface;
 
 /**
- * Class PHPWarmer
- * @package DeviceDetectorIO\DeviceDetector\Rule\Warmer
+ * Class PHPWarmer.
  */
 class PHPWarmer extends AbstractWarmer
 {
     /**
      * @var array
      */
-    private $indexableRules = array();
+    private $indexableRules = [];
 
     /**
      * @var array
      */
-    private $nonIndexableRules = array();
+    private $nonIndexableRules = [];
 
     /**
      * @var string
@@ -29,6 +28,7 @@ class PHPWarmer extends AbstractWarmer
 
     /**
      * @param $path
+     *
      * @return self
      */
     public function setPath($path)
@@ -50,10 +50,10 @@ class PHPWarmer extends AbstractWarmer
         $destination->fwrite("<?php\n");
         $destination->fwrite(
             'return '.var_export(
-                array(
+                [
                     'indexable' => $this->indexableRules,
-                    'nonindexable' => $this->nonIndexableRules
-                ),
+                    'nonindexable' => $this->nonIndexableRules,
+                ],
                 true
             ).';'
         );
@@ -64,8 +64,8 @@ class PHPWarmer extends AbstractWarmer
      */
     protected function prepareRules()
     {
-        $this->indexableRules = array();
-        $this->nonIndexableRules = array();
+        $this->indexableRules = [];
+        $this->nonIndexableRules = [];
 
         /** @var RuleInterface $rule */
         foreach (parent::prepareRules() as $rule) {
@@ -85,6 +85,7 @@ class PHPWarmer extends AbstractWarmer
 
     /**
      * @param ConditionInterface $condition
+     *
      * @return bool
      */
     private function isIndexableRule(ConditionInterface $condition)

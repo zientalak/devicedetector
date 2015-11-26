@@ -5,26 +5,25 @@ namespace spec\DeviceDetectorIO\DeviceDetector\Rule\ConditionEvaluator\Resolver;
 use DeviceDetectorIO\DeviceDetector\Rule\Condition\Condition;
 use DeviceDetectorIO\DeviceDetector\Rule\ConditionEvaluator\RegexEvaluator;
 use PhpSpec\ObjectBehavior;
-use Prophecy\Argument;
 
 class ResolverSpec extends ObjectBehavior
 {
-    function it_is_initializable()
+    public function it_is_initializable()
     {
         $this->shouldHaveType('DeviceDetectorIO\DeviceDetector\Rule\ConditionEvaluator\Resolver\Resolver');
     }
 
-    function it_implements_resolver_interface()
+    public function it_implements_resolver_interface()
     {
         $this->shouldImplement('DeviceDetectorIO\DeviceDetector\Rule\ConditionEvaluator\Resolver\ResolverInterface');
     }
 
-    function it_implements_resolver_factory_interface()
+    public function it_implements_resolver_factory_interface()
     {
         $this->shouldImplement('DeviceDetectorIO\DeviceDetector\Rule\ConditionEvaluator\Resolver\ResolverFactoryInterface');
     }
 
-    function it_add_evaluator()
+    public function it_add_evaluator()
     {
         $evaluator = new RegexEvaluator();
 
@@ -32,7 +31,7 @@ class ResolverSpec extends ObjectBehavior
         $this->add($evaluator)->shouldReturn(false);
     }
 
-    function it_has_evaluator()
+    public function it_has_evaluator()
     {
         $evaluator = new RegexEvaluator();
 
@@ -41,7 +40,7 @@ class ResolverSpec extends ObjectBehavior
         $this->has($evaluator)->shouldReturn(true);
     }
 
-    function it_remove_evaluator()
+    public function it_remove_evaluator()
     {
         $evaluator = new RegexEvaluator();
 
@@ -51,7 +50,7 @@ class ResolverSpec extends ObjectBehavior
         $this->has($evaluator)->shouldReturn(false);
     }
 
-    function it_remove_all_evaluator()
+    public function it_remove_all_evaluator()
     {
         $evaluator = new RegexEvaluator();
 
@@ -61,7 +60,7 @@ class ResolverSpec extends ObjectBehavior
         $this->has($evaluator)->shouldReturn(false);
     }
 
-    function it_resolve_evaluator()
+    public function it_resolve_evaluator()
     {
         $evaluator = new RegexEvaluator();
         $this->add($evaluator);
@@ -72,13 +71,13 @@ class ResolverSpec extends ObjectBehavior
         $this->resolve($condition)->shouldReturn($evaluator);
     }
 
-    function it_throw_exception_if_evaluator_does_not_exists()
+    public function it_throw_exception_if_evaluator_does_not_exists()
     {
         $evaluator = new RegexEvaluator();
 
         $condition = new Condition();
         $condition->setType($evaluator->getName());
 
-        $this->shouldThrow('DeviceDetectorIO\DeviceDetector\Exception\EvaluatorNotFoundException')->during('resolve', array($condition));
+        $this->shouldThrow('DeviceDetectorIO\DeviceDetector\Exception\EvaluatorNotFoundException')->during('resolve', [$condition]);
     }
 }

@@ -5,14 +5,12 @@ namespace DeviceDetectorIO\DeviceDetector\Rule\OccurrencesAnalyser;
 use DeviceDetectorIO\DeviceDetector\Rule\Occurrence\OccurrenceInterface;
 
 /**
- * Interface DynamicCapabilitiesProcessorInterface
- * @package DeviceDetectorIO\DeviceDetector\Rule\OccurrencesAnalyser
+ * Interface DynamicCapabilitiesProcessorInterface.
  */
 interface DynamicCapabilitiesProcessorInterface
 {
     /**
      * @param OccurrenceInterface $occurrence
-     * @return void
      */
     public function process(OccurrenceInterface $occurrence);
 }

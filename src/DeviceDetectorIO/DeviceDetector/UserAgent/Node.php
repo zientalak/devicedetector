@@ -3,8 +3,7 @@
 namespace DeviceDetectorIO\DeviceDetector\UserAgent;
 
 /**
- * Class Node
- * @package DeviceDetectorIO\DeviceDetector\UserAgent
+ * Class Node.
  */
 class Node implements NodeInterface
 {
@@ -25,14 +24,14 @@ class Node implements NodeInterface
 
     /**
      * @param string $value
-     * @param int $position
-     * @param int $type
+     * @param int    $position
+     * @param int    $type
      */
     public function __construct($value, $position, $type = self::TYPE_TEXT)
     {
         $this->value = $value;
-        $this->type = (int)$type;
-        $this->position = (int)$position;
+        $this->type = (int) $type;
+        $this->position = (int) $position;
     }
 
     /**
@@ -72,11 +71,11 @@ class Node implements NodeInterface
      */
     public function serialize()
     {
-        return serialize(array(
+        return serialize([
             'value' => $this->value,
             'position' => $this->position,
-            'type' => $this->type
-        ));
+            'type' => $this->type,
+        ]);
     }
 
     /**

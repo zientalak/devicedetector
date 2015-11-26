@@ -3,36 +3,34 @@
 namespace spec\DeviceDetectorIO\DeviceDetector\Token;
 
 use PhpSpec\ObjectBehavior;
-use Prophecy\Argument;
 
 /**
- * Class UserAgentTokenSpec
- * @package spec\DeviceDetectorIO\DeviceDetector\Token
+ * Class UserAgentTokenSpec.
  */
 class UserAgentTokenSpec extends ObjectBehavior
 {
-    function let()
+    public function let()
     {
         $this->beConstructedWith($this->get_useragent());
     }
 
-    function it_is_initializable()
+    public function it_is_initializable()
     {
         $this->shouldHaveType('DeviceDetectorIO\DeviceDetector\Token\UserAgentToken');
     }
 
-    function it_implement_token_interface()
+    public function it_implement_token_interface()
     {
         $this->shouldImplement('DeviceDetectorIO\DeviceDetector\Token\TokenInterface');
     }
 
-    function it_return_useragent()
+    public function it_return_useragent()
     {
         $this->getData()->shouldReturn($this->get_useragent());
         $this->__toString()->shouldReturn($this->get_useragent());
     }
 
-    function it_is_serializable()
+    public function it_is_serializable()
     {
         $this->serialize()->shouldReturn(serialize($this->get_useragent()));
 

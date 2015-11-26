@@ -11,8 +11,7 @@ use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
 
 /**
- * Class OccurrencesAnalyserSpec
- * @package spec\DeviceDetectorIO\DeviceDetector\Rule\OccurrencesAnalyser
+ * Class OccurrencesAnalyserSpec.
  */
 class OccurrencesAnalyserSpec extends ObjectBehavior
 {
@@ -23,17 +22,17 @@ class OccurrencesAnalyserSpec extends ObjectBehavior
         $this->beConstructedWith($incrementation, $dynamicCapabilitiesProcessor);
     }
 
-    function it_is_initializable()
+    public function it_is_initializable()
     {
         $this->shouldHaveType('DeviceDetectorIO\DeviceDetector\Rule\OccurrencesAnalyser\OccurrencesAnalyser');
     }
 
-    function it_implements_analyser_interface()
+    public function it_implements_analyser_interface()
     {
         $this->shouldImplement('DeviceDetectorIO\DeviceDetector\Rule\OccurrencesAnalyser\OccurrencesAnalyserInterface');
     }
 
-    function it_return_positive_analyse_occurrences(
+    public function it_return_positive_analyse_occurrences(
         IncrementationInterface $incrementation,
         DynamicCapabilitiesProcessorInterface $dynamicCapabilitiesProcessor,
         OccurrencesInterface $occurences,
@@ -45,7 +44,7 @@ class OccurrencesAnalyserSpec extends ObjectBehavior
 
         $rule->getConditions()
             ->shouldBeCalled()
-            ->willReturn(array(1, 2));
+            ->willReturn([1, 2]);
 
         $occurence1->getRule()
             ->shouldBeCalled()
@@ -63,10 +62,10 @@ class OccurrencesAnalyserSpec extends ObjectBehavior
             ->process(Argument::exact($occurence2->getWrappedObject()))
             ->shouldBeCalled();
 
-        $occurencesIterator = array(
+        $occurencesIterator = [
             $occurence1,
-            $occurence2
-        );
+            $occurence2,
+        ];
 
         $occurences->getFirstOccurrences()
             ->shouldBeCalled()
@@ -90,7 +89,7 @@ class OccurrencesAnalyserSpec extends ObjectBehavior
         $results->shouldHaveKey($rule);
     }
 
-    function it_return_negative_analyse_occurrences(
+    public function it_return_negative_analyse_occurrences(
         IncrementationInterface $incrementation,
         DynamicCapabilitiesProcessorInterface $dynamicCapabilitiesProcessor,
         OccurrencesInterface $occurences,
@@ -102,7 +101,7 @@ class OccurrencesAnalyserSpec extends ObjectBehavior
 
         $rule->getConditions()
             ->shouldBeCalled()
-            ->willReturn(array(1, 2, 3));
+            ->willReturn([1, 2, 3]);
 
         $occurence1->getRule()
             ->shouldBeCalled()
@@ -120,10 +119,10 @@ class OccurrencesAnalyserSpec extends ObjectBehavior
             ->process(Argument::exact($occurence2->getWrappedObject()))
             ->shouldBeCalled();
 
-        $occurencesIterator = array(
+        $occurencesIterator = [
             $occurence1,
-            $occurence2
-        );
+            $occurence2,
+        ];
 
         $occurences->getFirstOccurrences()
             ->shouldBeCalled()

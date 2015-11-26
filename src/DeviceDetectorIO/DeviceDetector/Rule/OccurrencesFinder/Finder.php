@@ -12,8 +12,7 @@ use DeviceDetectorIO\DeviceDetector\Token\UserAgentTokenizedToken;
 use DeviceDetectorIO\DeviceDetector\UserAgent\NodeInterface;
 
 /**
- * Class OccurrencesFinder
- * @package DeviceDetectorIO\DeviceDetector\Rule\OccurrencesFinder
+ * Class OccurrencesFinder.
  */
 class Finder implements FinderInterface
 {
@@ -29,7 +28,7 @@ class Finder implements FinderInterface
 
     /**
      * @param RepositoryInterface $repository
-     * @param ComparerInterface $comparer
+     * @param ComparerInterface   $comparer
      */
     public function __construct(RepositoryInterface $repository, ComparerInterface $comparer)
     {

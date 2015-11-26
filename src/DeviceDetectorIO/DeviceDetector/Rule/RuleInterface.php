@@ -5,8 +5,7 @@ namespace DeviceDetectorIO\DeviceDetector\Rule;
 use DeviceDetectorIO\DeviceDetector\Rule\Condition\ConditionInterface;
 
 /**
- * Interface RuleInterface
- * @package DeviceDetectorIO\DeviceDetector\Rule
+ * Interface RuleInterface.
  */
 interface RuleInterface extends \Serializable
 {
@@ -17,24 +16,27 @@ interface RuleInterface extends \Serializable
 
     /**
      * @param Condition\ConditionInterface $condition
+     *
      * @return self
      */
     public function addCondition(ConditionInterface $condition);
 
     /**
      * @param Condition\ConditionInterface $condition
-     * @return boolean
+     *
+     * @return bool
      */
     public function hasCondition(ConditionInterface $condition);
 
     /**
      * @param Condition\ConditionInterface $condition
-     * @return boolean
+     *
+     * @return bool
      */
     public function removeCondition(ConditionInterface $condition);
 
     /**
-     * @return boolean
+     * @return bool
      */
     public function removeConditions();
 
@@ -45,6 +47,7 @@ interface RuleInterface extends \Serializable
 
     /**
      * @param int $priority
+     *
      * @return self
      */
     public function setPriority($priority);
@@ -56,6 +59,7 @@ interface RuleInterface extends \Serializable
 
     /**
      * @param array $capabilities
+     *
      * @return self
      */
     public function setCapabilities(array $capabilities);
@@ -67,6 +71,7 @@ interface RuleInterface extends \Serializable
 
     /**
      * @param string $category
+     *
      * @return self
      */
     public function setCategory($category);

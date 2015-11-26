@@ -5,8 +5,7 @@ namespace DeviceDetectorIO\DeviceDetector\Tests\TestCase;
 use DeviceDetectorIO\DeviceDetector\Factory\DeviceUserAgentFactory;
 
 /**
- * Class DeviceDetectorIOFunctionalTestCase
- * @package DeviceDetectorIO\DeviceDetector\Tests\TestCase
+ * Class DeviceDetectorIOFunctionalTestCase.
  */
 abstract class DeviceDetectorIOFunctionalTestCase extends \PHPUnit_Framework_TestCase
 {
@@ -17,7 +16,7 @@ abstract class DeviceDetectorIOFunctionalTestCase extends \PHPUnit_Framework_Tes
 
     /**
      * @param string $userAgent
-     * @param array $capabilities
+     * @param array  $capabilities
      */
     public function assertDeviceContainsCapabilities($userAgent, array $capabilities)
     {
@@ -57,7 +56,6 @@ abstract class DeviceDetectorIOFunctionalTestCase extends \PHPUnit_Framework_Tes
     {
         if (null === $this->factory) {
             $this->factory = new DeviceUserAgentFactory();
-            ;
         }
 
         return $this->factory;

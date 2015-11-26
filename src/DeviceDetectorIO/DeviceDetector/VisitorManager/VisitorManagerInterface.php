@@ -7,38 +7,41 @@ use DeviceDetectorIO\DeviceDetector\Token\TokenPoolInterface;
 use DeviceDetectorIO\DeviceDetector\Visitor\VisitorInterface;
 
 /**
- * Interface VisitorManagerInterface
- * @package DeviceDetectorIO\DeviceDetector\VisitorManager
+ * Interface VisitorManagerInterface.
  */
 interface VisitorManagerInterface extends \IteratorAggregate
 {
     /**
      * @param VisitorInterface $visitor
-     * @param int $priority
-     * @return boolean
+     * @param int              $priority
+     *
+     * @return bool
      */
     public function add(VisitorInterface $visitor, $priority = 0);
 
     /**
      * @param VisitorInterface $visitor
-     * @return boolean
+     *
+     * @return bool
      */
     public function has(VisitorInterface $visitor);
 
     /**
      * @param VisitorInterface $visitor
-     * @return boolean
+     *
+     * @return bool
      */
     public function remove(VisitorInterface $visitor);
 
     /**
-     * @return boolean
+     * @return bool
      */
     public function removeAll();
 
     /**
      * @param TokenPoolInterface $pool
-     * @param CollatorInterface $collector
+     * @param CollatorInterface  $collector
+     *
      * @return self
      */
     public function visit(TokenPoolInterface $pool, CollatorInterface $collector);

@@ -3,8 +3,7 @@
 namespace DeviceDetectorIO\DeviceDetector\UserAgent;
 
 /**
- * Interface NodeInterface
- * @package DeviceDetectorIO\DeviceDetector\UserAgent
+ * Interface NodeInterface.
  */
 interface NodeInterface extends \Serializable
 {
@@ -28,7 +27,8 @@ interface NodeInterface extends \Serializable
 
     /**
      * @param int $type
-     * @return boolean
+     *
+     * @return bool
      */
     public function isType($type);
 }

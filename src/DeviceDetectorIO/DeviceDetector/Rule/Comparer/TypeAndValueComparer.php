@@ -6,8 +6,7 @@ use DeviceDetectorIO\DeviceDetector\Rule\Condition\ConditionInterface;
 use DeviceDetectorIO\DeviceDetector\UserAgent\NodeInterface;
 
 /**
- * Class TypeAndValueComparer
- * @package DeviceDetectorIO\DeviceDetector\Rule\Comparer
+ * Class TypeAndValueComparer.
  */
 class TypeAndValueComparer implements ComparerInterface
 {

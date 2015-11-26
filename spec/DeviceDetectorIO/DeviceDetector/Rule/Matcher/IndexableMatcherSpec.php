@@ -10,8 +10,7 @@ use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
 
 /**
- * Class IndexableMatcherSpec
- * @package spec\DeviceDetectorIO\DeviceDetector\Rule\Matcher
+ * Class IndexableMatcherSpec.
  */
 class IndexableMatcherSpec extends ObjectBehavior
 {
@@ -20,17 +19,17 @@ class IndexableMatcherSpec extends ObjectBehavior
         $this->beConstructedWith($finder, $analyser);
     }
 
-    function it_is_initializable()
+    public function it_is_initializable()
     {
         $this->shouldHaveType('DeviceDetectorIO\DeviceDetector\Rule\Matcher\IndexableMatcher');
     }
 
-    function it_implements_matcher_interface()
+    public function it_implements_matcher_interface()
     {
         $this->shouldImplement('DeviceDetectorIO\DeviceDetector\Rule\Matcher\MatcherInterface');
     }
 
-    function it_match_by_using_finder_and_analyser(FinderInterface $finder, OccurrencesAnalyserInterface $analyser, UserAgentTokenizedToken $token)
+    public function it_match_by_using_finder_and_analyser(FinderInterface $finder, OccurrencesAnalyserInterface $analyser, UserAgentTokenizedToken $token)
     {
         $iterator = new \SplObjectStorage();
         $occurences = new Occurrences();

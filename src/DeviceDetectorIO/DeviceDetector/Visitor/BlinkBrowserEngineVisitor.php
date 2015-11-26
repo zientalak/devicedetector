@@ -6,8 +6,7 @@ use DeviceDetectorIO\DeviceDetector\Capability\CollatorInterface;
 use DeviceDetectorIO\DeviceDetector\Token\TokenInterface;
 
 /**
- * Class BlinkBrowserEngineVisitor
- * @package DeviceDetectorIO\DeviceDetector\Visitor
+ * Class BlinkBrowserEngineVisitor.
  */
 class BlinkBrowserEngineVisitor extends AbstractUserAgentTokenizedVisitor
 {
@@ -17,15 +16,15 @@ class BlinkBrowserEngineVisitor extends AbstractUserAgentTokenizedVisitor
     public function visit(TokenInterface $token, CollatorInterface $collator)
     {
         if ($this->isWebkitBrowserEngine($collator)) {
-            $blinkBrowsers = array(
+            $blinkBrowsers = [
                 'chrome' => 28,
                 'chromium' => 28,
-                'opera' => 15
-            );
+                'opera' => 15,
+            ];
 
-            if (preg_match('#(?P<browser_name>chrome|chromium|opera)/(?P<browser_version>[^\s]+)#is', (string)$token, $matches)) {
+            if (preg_match('#(?P<browser_name>chrome|chromium|opera)/(?P<browser_version>[^\s]+)#is', (string) $token, $matches)) {
                 $browserName = strtolower($matches['browser_name']);
-                if (isset($blinkBrowsers[$browserName]) && (float)$matches['browser_version'] >= $blinkBrowsers[$browserName]) {
+                if (isset($blinkBrowsers[$browserName]) && (float) $matches['browser_version'] >= $blinkBrowsers[$browserName]) {
                     $collator->set('browser_engine', 'Blink');
                 }
             }
@@ -36,6 +35,7 @@ class BlinkBrowserEngineVisitor extends AbstractUserAgentTokenizedVisitor
 
     /**
      * @param CollatorInterface $collator
+     *
      * @return bool
      */
     private function isWebkitBrowserEngine(CollatorInterface $collator)

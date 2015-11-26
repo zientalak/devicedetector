@@ -10,22 +10,21 @@ use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
 
 /**
- * Class DynamicCapabilitiesProcessorSpec
- * @package spec\DeviceDetectorIO\DeviceDetector\Rule\OccurrencesAnalyser
+ * Class DynamicCapabilitiesProcessorSpec.
  */
 class DynamicCapabilitiesProcessorSpec extends ObjectBehavior
 {
-    function it_is_initializable()
+    public function it_is_initializable()
     {
         $this->shouldHaveType('DeviceDetectorIO\DeviceDetector\Rule\OccurrencesAnalyser\DynamicCapabilitiesProcessor');
     }
 
-    function it_implements_dynamic_capabilities_interface()
+    public function it_implements_dynamic_capabilities_interface()
     {
         $this->shouldImplement('DeviceDetectorIO\DeviceDetector\Rule\OccurrencesAnalyser\DynamicCapabilitiesProcessorInterface');
     }
 
-    function it_process_dynamic_capabilities(OccurrenceInterface $occurrence, ConditionInterface $condition, NodeInterface $node, RuleInterface $rule)
+    public function it_process_dynamic_capabilities(OccurrenceInterface $occurrence, ConditionInterface $condition, NodeInterface $node, RuleInterface $rule)
     {
         $occurrence->getCondition()
             ->shouldBeCalled()
@@ -43,17 +42,17 @@ class DynamicCapabilitiesProcessorSpec extends ObjectBehavior
             ->shouldBeCalled()
             ->willReturn('12.09b');
 
-        $dynamicCapabilities = array('browser_version');
+        $dynamicCapabilities = ['browser_version'];
         $condition->getDynamicCapabilities()
             ->shouldBeCalled()
             ->willReturn($dynamicCapabilities);
 
-        $capabilities = array('browser' => 'Chrome');
+        $capabilities = ['browser' => 'Chrome'];
         $rule->getCapabilities()
             ->shouldBeCalled()
             ->willReturn($capabilities);
 
-        $rule->setCapabilities(Argument::exact(array('browser' => 'Chrome', 'browser_version' => '12.09b')))
+        $rule->setCapabilities(Argument::exact(['browser' => 'Chrome', 'browser_version' => '12.09b']))
             ->shouldBeCalled()
             ->willReturn($rule);
 

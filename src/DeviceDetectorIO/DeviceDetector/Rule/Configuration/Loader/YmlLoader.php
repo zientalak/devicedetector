@@ -6,8 +6,7 @@ use Symfony\Component\Finder\Finder;
 use Symfony\Component\Yaml\Parser;
 
 /**
- * Class YmlLoader
- * @package DeviceDetectorIO\DeviceDetector\Rule\Loader
+ * Class YmlLoader.
  */
 class YmlLoader implements LoaderInterface
 {
@@ -45,6 +44,7 @@ class YmlLoader implements LoaderInterface
 
     /**
      * @param string $directory
+     *
      * @return self
      */
     public function setDirectory($directory)
@@ -56,11 +56,12 @@ class YmlLoader implements LoaderInterface
 
     /**
      * @param int $maxDepth
+     *
      * @return self
      */
     public function setMaxDepth($maxDepth)
     {
-        $this->maxDepth = (int)$maxDepth;
+        $this->maxDepth = (int) $maxDepth;
 
         return $this;
     }
@@ -70,7 +71,7 @@ class YmlLoader implements LoaderInterface
      */
     public function load()
     {
-        $rules = array();
+        $rules = [];
         /** @var \Symfony\Component\Finder\SplFileInfo $file */
         foreach ($this->loadFiles() as $file) {
             $rules = array_merge(
